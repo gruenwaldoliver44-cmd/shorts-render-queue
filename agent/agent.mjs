@@ -58,6 +58,7 @@ const runRemotion = (job, wd) => {
     const ok = sh(`rm -f ${q(out)} && npx remotion render ${q(it.entry)} ${q(it.comp)} ${q(out)} ${flags}`, proj);
     log(`${it.comp} render ${ok ? "ok" : "FAILED"} in ${Math.round((Date.now() - t0) / 1000)} s`);
     if (!ok || !upload(path.join(proj, out), it.upload, "video/mp4")) all = false;
+    else if (!job.keep) { try { fs.unlinkSync(path.join(proj, out)); } catch {} }
   }
   return all;
 };
@@ -68,6 +69,8 @@ const runShell = (job, wd) => {
   return true;
 };
 
+// free disk guard (GB)
+const freeGB = (() => { const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'"], { encoding: "utf8" }); return Number(r.stdout) / 1048576; })();
 const files = fs.existsSync(path.join(REPO, "jobs")) ? fs.readdirSync(path.join(REPO, "jobs")).filter((f) => f.endsWith(".json")).sort() : [];
 for (const f of files) {
   let job;
@@ -77,6 +80,7 @@ for (const f of files) {
   if (job.expires && Date.now() > Date.parse(job.expires)) continue;
   const failN = fs.existsSync(path.join(STATE, "failed", id)) ? Number(fs.readFileSync(path.join(STATE, "failed", id), "utf8")) : 0;
   if (failN >= (job.retries ?? 2)) continue;
+  if (freeGB < (job.min_free_gb ?? 4)) { console.log(`[${now()}] skip ${id}: only ${freeGB.toFixed(1)} GB free`); continue; }
   LOG = path.join(STATE, "logs", `${id}.log`);
   const wd = path.join(A, "work", id);
   fs.mkdirSync(wd, { recursive: true });
