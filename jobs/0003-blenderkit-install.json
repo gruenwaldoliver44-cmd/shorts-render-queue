@@ -1,0 +1,14 @@
+{
+ "id": "0003-blenderkit-install",
+ "type": "shell",
+ "steps": [
+  "{ /Applications/Blender.app/Contents/MacOS/Blender --command extension install-file --enable -r user_default ~/Downloads/blenderkit-v3.21.3.261002.zip; echo exit=$?; /Applications/Blender.app/Contents/MacOS/Blender --command extension list 2>&1 | head -20; find ~/Library/Application\\ Support/Blender/5.2 -maxdepth 4 -iname '*blenderkit*' | head; } > result.txt 2>&1"
+ ],
+ "uploads": [
+  {
+   "file": "result.txt",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0b14cb53-900f-4ee0-945c-6e8094cc5d48.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGSXB73PKQ%2F20261024%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261024T231108Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiB2rZTaVz58FoJrtEElUs6LTRzjhBwg6kDUK0foYVVqHwIgVs2nvE73KFmv%2Ff%2FYAqbUDZGMsaUfiQXucu3Cy2SCuGkqrwUIsP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDJhN2ctUEAVvsP2sCiqDBTA4DJY9jC30zYJjV55W5hAqaSIifcV2hz1kYGFdAdstZOWfF%2FCfoUypXpw5PmZHIGnn6MMmsYj5Xne45D3uaz691psRebuR1PpNOi9xlOf%2B86q9Or0ljWpbDKVO%2FqE3yjmilIk5hlPaKNwZHqdxIYu47zqZ1nIlN5luu4%2FXVCdUiQMlSTzmazaXTrKAJkPI49wbGcRzw6YQ2ivrCfL0mKhV1e3QQjl0h3AOphY6dlDmK6lcNOqXdXKfny1VvnG6NifNj8m5sXv4LX7MHJvYn%2BywNTWgdDUBo4BglpXMNy9MuhImWxQV9ThqY%2Fy3oA043voX%2B6wc1sza8D5rl5xE0vdQpzT5Dfh9mAIOL%2FoAJtCD3rz73I6fS9TgA9dEm5l48747kgB5g8IWK0YAtkwY3XqfkFb5skpXzMULBfdJQF3hKmQkKK2u%2Bn16vQyKyBel4rAgrWZTM8cFAtwHuFowaRF48aE%2FOOAM%2B7JY7F9z8BJFk6%2FVGWVeAlUuxPdgLt5W9Y%2BNXYR2PnR66IB91Ak7kJqm%2Frsts1mjAuOjt2b000ZS2JlvHRk9f6oMKUKiSNi%2BfKlJcEGkSXyF8Y0XcK%2FElLIXobi5pQPlWmIAByc0%2BEfK%2Bj61gyUdCHldshXgho1B3wciNswInvLxIq5kA5evik%2BJdEcudDCyfvjKLkuJNHkBbEtoEaUce0YOl4ZWrLD0%2Fwz6Rr%2FPQYDp208slXZFqk8SNj5IWBwjCymC%2Bjn9rtpSeajXFmAmBFR6jsiWoQU4LE8nY3TGpG28mxbY3o%2B%2F3VWrN4ne39romuxmRbymZG0jScKKMGOdXCBOEDwczdkeaaybCiKBWqmLksH3SS9v%2BDj6NPcwwPP01gY6kQEfPS9j78%2FyfgsI5xivvRrk251ijVls6l7%2FkinC7opu5llOLqO2Ul1%2B7sJF0mx2tXSWCsQS6T2eMiQzVYIIXr7r2Lab%2FP8nvF3NNXcdj7tdoqHjHRKDIaxQhE1FjTpymz%2Bh8WoBExSWieZuGD4JOKpVKaVwIrgEv%2FduxAz7so%2B3gfqMslLIesa%2FUs2ZJfvUZPKK&X-Amz-Signature=b02c6d58a67e51c2335cfdfefda63db258ada2201e16cf7ca80effe6080d0775",
+   "type": "text/plain"
+  }
+ ]
+}
