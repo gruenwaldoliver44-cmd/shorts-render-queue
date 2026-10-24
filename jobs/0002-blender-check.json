@@ -1,0 +1,14 @@
+{
+ "id": "0002-blender-check",
+ "type": "shell",
+ "steps": [
+  "{ echo '== apps'; ls -d /Applications/Blender*.app ~/Applications/Blender*.app 2>/dev/null; for a in /Applications/Blender*.app; do defaults read \"$a/Contents/Info\" CFBundleShortVersionString; done; echo '== downloads'; ls -lt ~/Downloads | head -15; echo '== blender config'; ls ~/Library/Application\\ Support/Blender 2>/dev/null; find ~/Library/Application\\ Support/Blender -maxdepth 5 -iname '*blenderkit*' 2>/dev/null | head; echo '== blenderkit data'; ls ~/blenderkit_data 2>/dev/null | head; df -h ~ | tail -1; } > result.txt 2>&1"
+ ],
+ "uploads": [
+  {
+   "file": "result.txt",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/091e8afd-cb00-4994-af39-ce69d3b1015e.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGRS4U3F3B%2F20261024%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261024T231011Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiBgIGZ0PlcQnWoKTFFCmdkG44WRVFtrJ9f%2F06Ocs%2B99NQIgfa9x4MxbMDEq2fJ9OTzxCHeKEChJe0XrZzspYLQVaocqrwUIr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDOTIGmhqjAS9cL4XxiqDBSUWicaI067ZirPUps5H9RZGo6xT7bxW3MuIw0xXnI5plWF%2BLBda6RdrQmaFfSSChwFoM0k9WXHjZh3CNzhp9WvlESZnQZoitCxMIiVLfzDXBWJr0Nh1vRx7s1A0UqzWV3jBq20K%2FtSgQ5OdcayV%2BuCb8SJgvznggvu1nqAO3i5iSxEr5XFrYRvjeJU6ya2Gqu5rlH8xgnOrDagf1niyBvInxGqoyz1MGlLjw0iKUv3szGZq1LVJg8bdqB%2F2F3cMAFY1vcxWQvvyyVy0j%2BEiN%2BnuMV4CZsIIdfNqku%2FgWBQ80QEqi7y8%2F25hX8c8l0du%2BHSOHE7X%2BozkFR0RuldQE86g%2FeDid63YpyVUyBb98frAWcVs011klzr6J23Q6BLdUcgQ6NVaeVNuZfmBk1gxBZqyqdV48VAuKYN4upYxp2NLneMj%2BpY4%2BMC4JMmGpO23rCkP7ys3oThRXXe4sr9Zls3dQy%2BZTO6wpktFfRAGS58BPoFLLGRE1rddmTWoufpcu9IMZ0yPRIx8%2FbZ5XxMmFUjwVbkl7%2BuZlnzUsuEJhFwBcRYfmKrs0y%2BhtFZEt5mo4HDZQMbwjzTEbdL82TCor1dZ2nxE65LSBqv0cskHiinHswh9KmNI3Fk7YkMduV48X3pAjLZfnGnKEdPOpiSgDaXse0A3v6unps%2Bpb3BsaA4lBWAsgasruUpCYbKpNAree1XzzSot3ou6kut5FYp0mDfW8duaXFYcNXm0BreJkCk7BqynBiCUv%2B82mCDePlh7w3HsM7809CoXTU1Nr%2FYaqgjxs5%2FaxrI1%2Fx%2FezKsutjIumFMC0fdEk32vYnduZqV%2BI9zvPZTy1hw347hi9aURioNZrRowwPP01gY6kQEihc%2B7HWy6DbsBJsnBwD67%2BqRlQ3JbZ%2F30fIRzJhZgXiuWwJ4K7l%2FlQn4mTnVAWp4TpeIQ2urk7%2Frh0I1%2FWDPgbgI4r1WglEkc4EcjAP43oKU2eF%2B6JA0eRnjXeFlVL3khKDRjNzeL7P6quy1N0L1tr%2BSGXGuZdUBIUaAmCn6NBDBCDoZW5Z8b7o%2FuNqvl18X8&X-Amz-Signature=d0aaacbfd08cb207aa7d3f85d0aa6c7a3145f4af9055f860136a77b1264e50e7",
+   "type": "text/plain"
+  }
+ ]
+}
