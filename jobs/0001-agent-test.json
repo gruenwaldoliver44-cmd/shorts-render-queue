@@ -1,0 +1,14 @@
+{
+ "id": "0001-agent-test",
+ "type": "shell",
+ "steps": [
+  "{ date; sw_vers; sysctl -n machdep.cpu.brand_string; sysctl -n hw.memsize; pmset -g batt | head -2; df -h ~ | tail -1; node -v; ls $AGENT_HOME; cat $AGENT_HOME/heartbeat; } > result.txt 2>&1"
+ ],
+ "uploads": [
+  {
+   "file": "result.txt",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/be64f6f6-24c0-4803-a5d1-9a704be64c9b.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGSWNQHGNP%2F20261024%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261024T224822Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAo0sMycmku2ZpkHxocMFsE8Ot2IGjJpYMslz2fEC%2FbfUCIEvCf02QSfTnwWqbhf52tk5IQJA3xei6nhZ0p%2BekCNV7KrAFCK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzyIoyde9%2F7qe01rc4qhAXeDMT6OMzIZhyt2416r%2Bmp0t3%2B6VYqKS0u%2B3uKtl5QPyGVvOGxp69OtzFYoWcyO8KvV80XVaMUzySNlPMqdMDaiG3u5j6c5DtkfegqYj4s%2Ftuj1U01QFfqgi54UtGe%2BwGKz8ijHhcBaxSKdKg99FaDGAyboIUrY%2FJe3ZkU0NDR6G13XmeoyGuoKzNKYnazlDyeb5o5vR8dSkoTl6HCAzRAJjsA2qmninFtLsF3nJo8R1K%2BkgdB2O8HFOQcLrla6MUrA6xE4ktoI%2BgP4vxPYVWmUpRxDZCvTIOiFwrB4o8I7dZyxIcnqdhplbnqH8MMlrtBpziQB7RK1KvV3IVsBJQ2Qul9qnQu0o7FvtNLUcUzwR2Sdf3dl6NQeH2zWLHAfDY3U1dbEhQ18PfugSFJP2iJS41MsoONwXFjuTziEuLLP7Mh2qzza7jSMtw6g74jhh1PiB4G%2BaF583mGbmB8L%2BbwPSYVyWh86o718bWfHKkUA%2F0CVodBKL1WhAUlt94XITMI8XDVe6ghGTR%2F1nbf2GQi5oA1SlKzWjuAWkduqI2x%2BOGQBhrncPSb0G%2Fyn56bVxrAkJjHsMPkEoX2tcKy8%2FqRzAzhbVkz1JkuRbYc1AXnE6wUUJO86Mi2pWBo2%2BBrBdU2a%2Bf9UjWfc37%2Ft0TdSEG0AWWghr5LTZTH7NBZ1LE8xoz3LA5x7pabNJQ%2B4C%2BnIUXPty2lxsiU90R%2BGfzEcyMDa2TlY%2BG8eGvXc2AJkfFkopQYlpLq4SqCCOYMH6DTKXUxgUWCwghmcHWhjTwZek9rRbEVM5GDwn6xM8aKOegCTUMkFzgLwGj8NO3ZbwXolVUjUSy4B7Ke0lZ8tNz166%2B0ronRMjCu3%2FTWBjqQAVRHNt%2BOBduKQnOomboWioXADQufDn2Wo%2BYz0izSts0vzcsazKxYaD0XN7laQn%2FpPjlZoKS1Y%2FYc%2F%2FPnpx8TNugxemWtEt0sS3Ix2F6rzIeM%2BssoXA9AsZpJnHAOh%2BNhIKDqZhDr51%2F5JBbronHbZIvIEb8sEEowHjWm9QrVokU5TlXL8dgRt4uR0OGTqMBG7w%3D%3D&X-Amz-Signature=9ca0b2278ee62dc6979fdb3102bfcfb68a7ca21db077610381c719e2b95fbd76",
+   "type": "text/plain"
+  }
+ ]
+}
