@@ -2,7 +2,7 @@
  "id": "2111-ct43-herotest",
  "title": "CT43 \u00b7 Hybrid: Tempo-Test (10 Bilder) + 9 Standbilder",
  "type": "shell",
- "retries": 0,
+ "retries": 1,
  "timeout_min": 40,
  "steps": [
   {
