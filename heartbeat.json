@@ -1,19 +1,11 @@
 {
- "ts": "2026-10-25T16:45:33.942Z",
- "source": "dashboard",
- "current": "2310-mc43-hero since 2026-10-25 16:36:23",
+ "ts": "2026-10-25T16:47:15.406Z",
+ "current": "2411-ft29-hy-world since 2026-10-25 16:47:15",
  "busy": true,
  "free_gb": 54,
- "blender_procs": 2,
- "cpu": 42,
- "gpu": 98,
- "mem_free_pct": 24,
- "progress": {
-  "n": 228,
-  "total": 275,
-  "eta_min": 2
- },
+ "blender_procs": 0,
  "done": [
+  "2310-mc43-hero",
   "2211-mt43-stills-up",
   "2113-ct43-hero",
   "2410-ft29-hy-stills",
@@ -63,21 +55,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2310-mc43-hero",
-  "title": "MC43 · Hybrid: 3 Blender-Heldenshots (Final, 16 Samples)",
-  "job_since": "2026-10-25T16:36:23.078Z",
-  "timeout_min": 80,
-  "step": 5,
-  "steps": 6,
-  "label": "Blender rendert 3 Heldenshots, 275 Bilder (16 Samples, 2 Prozesse)",
-  "step_since": "2026-10-25T16:36:40.136Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2310-mc43-hero/r",
-   "total": 275
-  },
-  "updated": "2026-10-25T16:36:40.136Z"
- },
- "queue": [
-  "2411-ft29-hy-world"
- ]
+  "job": "2411-ft29-hy-world",
+  "title": "FT29 · Hybrid: Welt-Standbilder + 3 Heldenshots (16 Samples)",
+  "job_since": "2026-10-25T16:47:15.382Z",
+  "timeout_min": 75,
+  "step": 0,
+  "steps": 16,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T16:47:15.382Z"
+ }
 }
