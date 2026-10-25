@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:42:52.405Z",
- "source": "dashboard",
- "current": "2425-ft31b-premium since 2026-10-25 22:39:13",
+ "ts": "2026-10-25T22:44:15.925Z",
+ "current": "2270-mt48-premium since 2026-10-25 22:44:15",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 18,
- "mem_free_pct": 76,
- "progress": null,
  "done": [
+  "2425-ft31b-premium",
   "2424-ft33-premium",
   "2327-mc46-premium2",
   "2326-mc47-premium",
@@ -48,8 +44,7 @@
   "2210-mt43-stills",
   "2111-ct43-herotest",
   "2309-mc43-upload2",
-  "2209-mt43-speedinfo",
-  "2409-ft29-prev3"
+  "2209-mt43-speedinfo"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,15 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2425-ft31b-premium",
-  "title": "FT31 · Address Poisoning, Korrektur Leuchteffekte (Premium-Render)",
-  "job_since": "2026-10-25T22:39:13.843Z",
+  "job": "2270-mt48-premium",
+  "title": "MT48 · USB-Stick ohne Auswerfen abziehen (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T22:44:15.907Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:39:13.843Z"
- },
- "queue": []
+  "updated": "2026-10-25T22:44:15.907Z"
+ }
 }
