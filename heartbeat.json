@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:28:52.402Z",
- "source": "dashboard",
- "current": "2260-mt47-premium since 2026-10-25 22:26:56",
+ "ts": "2026-10-25T22:30:04.410Z",
+ "current": "2326-mc47-premium since 2026-10-25 22:30:04",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 48,
- "gpu": 95,
- "mem_free_pct": 49,
- "progress": null,
  "done": [
+  "2260-mt47-premium",
   "2130-ct45-premium",
   "2423-ft32-premium",
   "2325-mc45-premium2",
@@ -48,8 +44,7 @@
   "2409-ft29-prev3",
   "2109-ct43-up",
   "2308-mc43-upload",
-  "2108-ct43-bench",
-  "2307-mc43-prev3"
+  "2108-ct43-bench"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,20 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2260-mt47-premium",
-  "title": "MT47 · Bluetooth springt 1600 Mal pro Sekunde (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T22:26:56.982Z",
-  "timeout_min": 60,
+  "job": "2326-mc47-premium",
+  "title": "MC47 · Air Force One komplett animiert (Premium-Render)",
+  "job_since": "2026-10-25T22:30:04.385Z",
+  "timeout_min": 45,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:26:56.982Z"
- },
- "queue": [
-  "2326-mc47-premium",
-  "2327-mc46-premium2",
-  "2424-ft33-premium",
-  "2425-ft31b-premium"
- ]
+  "updated": "2026-10-25T22:30:04.385Z"
+ }
 }
