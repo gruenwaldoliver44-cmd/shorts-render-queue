@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T17:21:21.544Z",
+ "ts": "2026-10-25T17:21:34.122Z",
+ "source": "dashboard",
  "current": "2412-ft29-hy-up since 2026-10-25 17:21:21",
  "busy": true,
  "free_gb": 53,
  "blender_procs": 0,
+ "cpu": 18,
+ "gpu": 0,
+ "mem_free_pct": 85,
+ "progress": null,
  "done": [
   "2212-mt43-final",
   "2114-ct43-up-hero",
@@ -63,10 +68,12 @@
   "title": "FT29 · Welt + Heldenshots hochladen",
   "job_since": "2026-10-25T17:21:21.526Z",
   "timeout_min": 15,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
+  "label": "FT29-Welt hochladen (Standbilder, Tiefe, 3 Heldenshots)",
+  "step_since": "2026-10-25T17:21:24.262Z",
   "progress": null,
-  "updated": "2026-10-25T17:21:21.526Z"
- }
+  "updated": "2026-10-25T17:21:24.262Z"
+ },
+ "queue": []
 }
