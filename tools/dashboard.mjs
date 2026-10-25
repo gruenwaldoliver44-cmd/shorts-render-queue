@@ -111,7 +111,7 @@ g.push(h+'</div>');
 if(d.pipeline&&d.pipeline.channels){const P=["Skript","Stimme","Szenen","Vorschau","Final","Ton & Prüfung","Geplant"];
  let c='<div class="card hero"><h2>Videos in Arbeit</h2>';
  for(const k of ["CT","MT","MC","FT"]){const x=d.pipeline.channels[k];if(!x)continue;const i=P.indexOf(x.stage);
-  c+='<div style="margin:10px 0 14px"><span class="tag">'+k+'</span><b>'+(x.title||CHN[k])+'</b> <span class="mut">'+(x.note||"")+'</span><div class="steps">'+P.map((n,j)=>'<span class="'+(x.error&&j===i?"err":j<i||(j===i&&x.stage==="Geplant")?"done":j===i?"now":"")+'">'+n+'</span>').join("")+'</div>'+(x.slot?'<div class="mut" style="margin-top:6px">Post: '+x.slot+'</div>':'')+'</div>'}
+  c+='<div style="margin:10px 0 14px"><span class="tag">'+k+'</span><b>'+(x.title||CHN[k])+'</b> <span class="mut">'+(x.note||"")+'</span><div class="steps">'+P.map((n,j)=>'<span class="'+(x.error&&j===i?"err":j<i||(j===i&&x.stage==="Geplant")?"done":j===i?"now":"")+'">'+n+'</span>').join("")+'</div>'+((x.eta||x.slot)?'<div style="margin-top:6px">'+(x.eta?'<span style="color:var(--acc)">Voraussichtlich fertig: <b>'+x.eta+'</b></span>':'')+(x.eta&&x.slot?' <span class="mut">·</span> ':'')+(x.slot?'<span class="mut">Post: '+x.slot+'</span>':'')+'</div>':'')+'</div>'}
  g.push(c+'<div class="mut">Stand von Claude: '+(d.pipeline.updated?new Date(d.pipeline.updated).toLocaleString("de-AT"):"–")+'</div></div>')}
 // machine
 g.push('<div class="card"><h2>Prozessor</h2><div class="big">'+d.cpu+' %</div>'+meter(d.cpu,lvl(d.cpu,95,101))+'</div>');
