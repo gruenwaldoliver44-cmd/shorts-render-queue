@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T16:27:33.966Z",
+ "ts": "2026-10-25T16:29:33.960Z",
  "source": "dashboard",
  "current": "2113-ct43-hero since 2026-10-25 15:59:45",
  "busy": true,
  "free_gb": 52,
  "blender_procs": 1,
- "cpu": 17,
- "gpu": 97,
- "mem_free_pct": 26,
+ "cpu": 11,
+ "gpu": 98,
+ "mem_free_pct": 27,
  "progress": {
-  "n": 170,
+  "n": 181,
   "total": 245,
-  "eta_min": 14
+  "eta_min": 12
  },
  "done": [
   "2410-ft29-hy-stills",
