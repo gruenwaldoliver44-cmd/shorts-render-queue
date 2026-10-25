@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-25T14:26:24.196Z",
- "current": "2109-ct43-up since 2026-10-25 14:26:24",
+ "ts": "2026-10-25T14:26:28.033Z",
+ "current": "",
  "busy": true,
  "free_gb": 55,
  "blender_procs": 0,
  "done": [
+  "2109-ct43-up",
   "2308-mc43-upload",
   "2108-ct43-bench",
   "2307-mc43-prev3",
@@ -43,15 +44,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2109-ct43-up",
-  "title": "CT43 · Upload ct43-bench",
-  "job_since": "2026-10-25T14:26:24.174Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T14:26:24.175Z"
+  "state": "idle",
+  "last": {
+   "job": "2109-ct43-up",
+   "title": "CT43 · Upload ct43-bench",
+   "result": "fertig",
+   "at": "2026-10-25T14:26:28.008Z"
+  },
+  "updated": "2026-10-25T14:26:28.008Z"
  }
 }
