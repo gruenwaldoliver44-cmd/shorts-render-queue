@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T23:42:52.516Z",
- "source": "dashboard",
+ "ts": "2026-10-25T23:44:43.237Z",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 19,
- "mem_free_pct": 78,
- "progress": null,
  "done": [
   "2331-mc49-premium2",
   "2428-ft34b-ft36-premium",
@@ -49,8 +44,7 @@
   "2115-ct43-people",
   "2314-mc43-hero2up",
   "2313-mc43-hero2",
-  "2312-mc43-encup",
-  "2412-ft29-hy-up"
+  "2312-mc43-encup"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -77,6 +71,5 @@
    "at": "2026-10-25T23:39:36.204Z"
   },
   "updated": "2026-10-25T23:39:36.204Z"
- },
- "queue": []
+ }
 }
