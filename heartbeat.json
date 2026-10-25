@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-25T16:36:21.416Z",
- "current": "",
+ "ts": "2026-10-25T16:36:23.126Z",
+ "current": "2310-mc43-hero since 2026-10-25 16:36:23",
  "busy": true,
  "free_gb": 55,
  "blender_procs": 0,
@@ -53,13 +53,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2211-mt43-stills-up",
-   "title": "MT43 · Standbilder hochladen",
-   "result": "fertig",
-   "at": "2026-10-25T16:36:21.116Z"
-  },
-  "updated": "2026-10-25T16:36:21.116Z"
+  "state": "busy",
+  "job": "2310-mc43-hero",
+  "title": "MC43 · Hybrid: 3 Blender-Heldenshots (Final, 16 Samples)",
+  "job_since": "2026-10-25T16:36:23.078Z",
+  "timeout_min": 80,
+  "step": 0,
+  "steps": 6,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T16:36:23.078Z"
  }
 }
