@@ -131,3 +131,21 @@ http.createServer((req, res) => {
   if (req.url.startsWith("/api")) { res.writeHead(200, { "Content-Type": "application/json", "Cache-Control": "no-store" }); res.end(JSON.stringify(collect())); return; }
   res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" }); res.end(HTML);
 }).listen(PORT, "127.0.0.1");
+
+// heartbeat every 2 min while the dashboard runs (the agent itself is blocked during long jobs).
+// Same file and branch as agent.mjs; token stays on the Mac. Best effort.
+const beat = async () => {
+  try {
+    const tf = path.join(A, "token"); if (!fs.existsSync(tf)) return;
+    const d = collect(); const recent = (x) => x.map((r) => r.id);
+    const status = { ts: new Date().toISOString(), source: "dashboard", current: readTxt(path.join(STATE, "current")), busy: d.st.state === "busy" && d.agentRunning, free_gb: d.diskGB, blender_procs: d.blender.length, cpu: d.cpu, gpu: d.gpu, mem_free_pct: d.memFree, progress: d.progress, done: recent(d.done), failed: recent(d.failed), status: d.st, queue: d.queue.map((q) => q.id) };
+    // keep the full done/failed lists the agent writes
+    const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-dashboard", Accept: "application/vnd.github+json" };
+    const api = "https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/heartbeat.json";
+    const g = await fetch(api + "?ref=heartbeat", { headers: h, signal: AbortSignal.timeout(15000) });
+    let sha; if (g.ok) { const j = await g.json(); sha = j.sha; try { const old = JSON.parse(Buffer.from(j.content, "base64").toString()); status.done = [...new Set([...status.done, ...(old.done || [])])].slice(0, 60); status.failed = [...new Set([...status.failed, ...(old.failed || [])])].slice(0, 60); } catch {} }
+    const p = await fetch(api, { method: "PUT", headers: h, signal: AbortSignal.timeout(15000), body: JSON.stringify({ message: "heartbeat", branch: "heartbeat", content: Buffer.from(JSON.stringify(status, null, 1)).toString("base64"), ...(sha ? { sha } : {}) }) });
+    fs.writeFileSync(path.join(STATE, "hb_result"), `${new Date().toISOString()} ${p.status}`);
+  } catch (e) { try { fs.writeFileSync(path.join(STATE, "hb_result"), `${new Date().toISOString()} error`); } catch {} }
+};
+setTimeout(beat, 5000); setInterval(beat, 120000);
