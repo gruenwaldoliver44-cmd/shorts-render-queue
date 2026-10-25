@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T21:18:52.217Z",
+ "ts": "2026-10-25T21:20:52.194Z",
  "source": "dashboard",
  "current": "2420-ft29r-premium since 2026-10-25 21:17:48",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 39,
- "gpu": 92,
- "mem_free_pct": 60,
+ "cpu": 14,
+ "gpu": 0,
+ "mem_free_pct": 85,
  "progress": null,
  "done": [
   "2320-mc43p-premium",
