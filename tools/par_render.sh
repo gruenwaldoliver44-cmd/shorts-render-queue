@@ -12,6 +12,8 @@
 # so a re-run only fills the gaps. Each worker logs to par_<n>.log in the current folder.
 set -u
 N="$1"; FIRST="$2"; LAST="$3"; shift 3; [ "${1:-}" = "--" ] && shift
+# 25 Oct 19:30: two parallel Blenders exhausted the Mac (macOS "no application memory", swap filled the disk). Parallel is OFF until a safer guard exists.
+PAR_MAX="${PAR_MAX:-1}"; [ "$N" -gt "$PAR_MAX" ] && N=$PAR_MAX
 CMD="$*"
 free_pct() { local v; v=$(memory_pressure -Q 2>/dev/null | grep -o '[0-9]*%' | tail -1 | tr -d '%'); echo "${v:-100}"; }
 TOTAL=$(( LAST - FIRST + 1 )); [ "$N" -lt 1 ] && N=1; [ "$N" -gt "$TOTAL" ] && N=$TOTAL
