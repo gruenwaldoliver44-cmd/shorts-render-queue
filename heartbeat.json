@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T21:20:52.194Z",
- "source": "dashboard",
- "current": "2420-ft29r-premium since 2026-10-25 21:17:48",
- "busy": false,
- "free_gb": 56,
+ "ts": "2026-10-25T21:22:20.963Z",
+ "current": "2421-ft30-premium since 2026-10-25 21:22:20",
+ "busy": true,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 0,
- "mem_free_pct": 85,
- "progress": null,
  "done": [
+  "2420-ft29r-premium",
   "2320-mc43p-premium",
   "2120-ct43r-premium",
   "2414-ft29-people",
@@ -48,8 +44,7 @@
   "1020-r42-premium",
   "1015-list-sonniss",
   "1013-ct42b-final1",
-  "1012-ct42b-prev3",
-  "1011-ct42b-prev2"
+  "1012-ct42b-prev3"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,15 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2420-ft29r-premium",
-  "title": "FT29 · Neuaufbau komplett animiert (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T21:17:48.468Z",
+  "job": "2421-ft30-premium",
+  "title": "FT30 · Parkuhr-QR-Betrug (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T21:22:20.946Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T21:17:48.468Z"
- },
- "queue": []
+  "updated": "2026-10-25T21:22:20.946Z"
+ }
 }
