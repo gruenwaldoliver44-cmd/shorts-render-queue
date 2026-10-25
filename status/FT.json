@@ -1,15 +1,15 @@
 {
- "title": "FT29",
+ "title": "FT30",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "FT29 fertig: jede Szene animiert (Remotion/R3F Premium + 3 Blender-Bewegungsshots), keine Standbilder, keine Menschen. 58,3 s, -14 LUFS, QC bestanden. posting.md: ~/v43/FT29/posting.md (Sandbox).",
+ "note": "FT30 fertig (71,5 s, -14 LUFS, QC bestanden, alles animiert, keine Menschen). FT29 ist fuer 22:55 geplant. posting.md: ~/v43/FT30/posting.md (Sandbox).",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T21:35:34Z",
- "eta": "FT30 (Parkuhr-QR-Betrug) als naechstes, Render 2421 in der Mac-Warteschlange",
- "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche), komplett neu animiert",
+ "updated": "2026-10-25T21:44:32Z",
+ "eta": "FT31 (Address Poisoning) in Arbeit",
+ "topic": "Parkuhr-QR-Code-Betrug (Sticker ueber dem echten Code)",
  "progress": 100,
- "next": "FT30 mischen, QC, Upload; FT31 (Address Poisoning) bauen",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/435e55b1-4cf5-47f7-bd52-1b151a684655.jpg",
- "preview_note": "FT29 Endfassung · Premium-Render · 58,3 s",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/11f81e7d-960e-4992-8b09-d51888df6ce5.mp4"
+ "next": "FT31 bauen, rendern, QC",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ccfc0998-83b3-446c-919b-2cc2a5a34aca.jpg",
+ "preview_note": "FT30 Endfassung · Premium-Render · 71,5 s",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/37081c66-375c-4dc2-911d-085d65b55526.mp4"
 }
