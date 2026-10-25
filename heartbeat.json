@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-25T12:30:15.377Z",
+ "ts": "2026-10-25T12:32:15.407Z",
  "source": "dashboard",
  "current": "2107-ct43-prev2 since 2026-10-25 12:13:36",
  "busy": false,
- "free_gb": 46,
+ "free_gb": 45,
  "blender_procs": 2,
- "cpu": 27,
- "gpu": 88,
+ "cpu": 26,
+ "gpu": 93,
  "mem_free_pct": 69,
  "progress": null,
  "done": [
