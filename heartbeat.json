@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T17:14:00.289Z",
+ "ts": "2026-10-25T17:15:34.111Z",
+ "source": "dashboard",
  "current": "2114-ct43-up-hero since 2026-10-25 17:14:00",
  "busy": true,
  "free_gb": 53,
  "blender_procs": 0,
+ "cpu": 21,
+ "gpu": 14,
+ "mem_free_pct": 84,
+ "progress": null,
  "done": [
   "2411-ft29-hy-world",
   "2310-mc43-hero",
@@ -60,10 +65,15 @@
   "title": "CT43 · Heldenshots + Sonniss hochladen",
   "job_since": "2026-10-25T17:14:00.272Z",
   "timeout_min": 15,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "Dateien hochladen",
+  "step_since": "2026-10-25T17:14:02.257Z",
   "progress": null,
-  "updated": "2026-10-25T17:14:00.272Z"
- }
+  "updated": "2026-10-25T17:14:02.257Z"
+ },
+ "queue": [
+  "2212-mt43-final",
+  "2311-mc43-heroup"
+ ]
 }
