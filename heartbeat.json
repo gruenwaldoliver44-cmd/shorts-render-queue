@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T17:43:34.192Z",
+ "ts": "2026-10-25T17:45:34.168Z",
  "source": "dashboard",
  "current": "2115-ct43-people since 2026-10-25 17:41:01",
  "busy": true,
  "free_gb": 47,
  "blender_procs": 1,
- "cpu": 32,
- "gpu": 55,
- "mem_free_pct": 27,
+ "cpu": 30,
+ "gpu": 84,
+ "mem_free_pct": 61,
  "progress": {
-  "n": 12,
+  "n": 20,
   "total": 54,
-  "eta_min": 9
+  "eta_min": 8
  },
  "done": [
   "2314-mc43-hero2up",
