@@ -1,14 +1,14 @@
 {
  "title": "FT29",
  "stage": "Szenen",
- "note": "Neu als Hybrid: Hook neu eingesprochen (endet bei 3,5 s), Skript-Gates bestanden. Job 2410: 15 Welt-Standbilder ohne Figuren + Tempo-Test; Menschen kommen als KI-Video",
+ "note": "Hybrid-Job 2411 wartet (nach MT/MC): Welt einmal bauen + speichern, 15 Standbilder + Tiefenbilder, 3 Heldenshots (247 Bilder, 2 Prozesse). KI-Clips Opfer/Betrueger laufen bereits",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T15:20:33Z",
+ "updated": "2026-10-25T15:47:35Z",
  "eta": "heute Abend oder morgen 08:00",
  "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche)",
- "progress": 30,
- "next": "Standbilder pruefen, KI-Menschen (Opfer, Betrueger) erzeugen, dann 3 Blender-Heldenszenen (ca. 10 s)",
+ "progress": 38,
+ "next": "KI-Szenen am Automaten aus den Standbildern, dann Zusammenschnitt (Remotion) + Ton",
  "preview_img": "local:work/2407-ft29-r2/lu/lineup.jpg",
  "preview_note": "alter Stand (Vollblender), Hybrid-Bilder folgen"
 }
