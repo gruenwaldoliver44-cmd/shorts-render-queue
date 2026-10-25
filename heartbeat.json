@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T16:47:15.406Z",
+ "ts": "2026-10-25T16:47:33.926Z",
+ "source": "dashboard",
  "current": "2411-ft29-hy-world since 2026-10-25 16:47:15",
  "busy": true,
  "free_gb": 54,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 22,
+ "gpu": 0,
+ "mem_free_pct": 80,
+ "progress": {
+  "n": 0,
+  "total": 16,
+  "eta_min": null
+ },
  "done": [
   "2310-mc43-hero",
   "2211-mt43-stills-up",
@@ -59,10 +68,15 @@
   "title": "FT29 · Hybrid: Welt-Standbilder + 3 Heldenshots (16 Samples)",
   "job_since": "2026-10-25T16:47:15.382Z",
   "timeout_min": 75,
-  "step": 0,
+  "step": 11,
   "steps": 16,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T16:47:15.382Z"
- }
+  "label": "15 Welt-Standbilder in voller Qualitaet (16 Samples)",
+  "step_since": "2026-10-25T16:47:32.812Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2411-ft29-hy-world/st",
+   "total": 16
+  },
+  "updated": "2026-10-25T16:47:32.812Z"
+ },
+ "queue": []
 }
