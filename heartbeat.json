@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T17:25:34.183Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T17:26:34.822Z",
+ "current": "2313-mc43-hero2 since 2026-10-25 17:26:34",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 11,
- "gpu": 0,
- "mem_free_pct": 83,
- "progress": null,
  "done": [
   "2312-mc43-encup",
   "2412-ft29-hy-up",
@@ -65,14 +60,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2312-mc43-encup",
-   "title": "MC43 · Heldenshots kodieren + hochladen",
-   "result": "fertig",
-   "at": "2026-10-25T17:24:30.320Z"
-  },
-  "updated": "2026-10-25T17:24:30.321Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2313-mc43-hero2",
+  "title": "MC43 · Heldenshots 1+3 neu (ohne Glas-Schleier)",
+  "job_since": "2026-10-25T17:26:34.805Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 5,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T17:26:34.805Z"
+ }
 }
