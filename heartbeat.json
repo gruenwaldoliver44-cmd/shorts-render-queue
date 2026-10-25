@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-25T14:25:05.199Z",
- "current": "2308-mc43-upload since 2026-10-25 14:25:05",
+ "ts": "2026-10-25T14:25:20.046Z",
+ "current": "",
  "busy": true,
- "free_gb": 38,
+ "free_gb": 55,
  "blender_procs": 0,
  "done": [
+  "2308-mc43-upload",
   "2108-ct43-bench",
   "2307-mc43-prev3",
   "2402-ft29-prev1",
@@ -42,15 +43,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2308-mc43-upload",
-  "title": "MC43 · Vorschau 3 hochladen (Nachlieferung)",
-  "job_since": "2026-10-25T14:25:05.182Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 2,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T14:25:05.182Z"
+  "state": "idle",
+  "last": {
+   "job": "2308-mc43-upload",
+   "title": "MC43 · Vorschau 3 hochladen (Nachlieferung)",
+   "result": "fertig",
+   "at": "2026-10-25T14:25:19.996Z"
+  },
+  "updated": "2026-10-25T14:25:19.996Z"
  }
 }
