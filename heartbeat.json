@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T21:40:52.264Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T21:41:39.058Z",
+ "current": "2121-ct44-premium since 2026-10-25 21:41:39",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 16,
- "mem_free_pct": 82,
- "progress": null,
  "done": [
   "2321-mc44-premium",
   "2230-mt44-premium",
@@ -49,8 +44,7 @@
   "2201-mt43-info",
   "1016-sonniss-catalog",
   "2101-ct43-probe",
-  "1020-r42-premium",
-  "1015-list-sonniss"
+  "1020-r42-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2321-mc44-premium",
-   "title": "MC44 · Fort Knox komplett animiert (Remotion/R3F, Premium-Render)",
-   "result": "fertig",
-   "at": "2026-10-25T21:40:37.551Z"
-  },
-  "updated": "2026-10-25T21:40:37.551Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2121-ct44-premium",
+  "title": "CT44 · Silberbarren voll animiert (Remotion Premium, 69 s)",
+  "job_since": "2026-10-25T21:41:39.040Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T21:41:39.040Z"
+ }
 }
