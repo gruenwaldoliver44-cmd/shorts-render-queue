@@ -1,18 +1,14 @@
 {
- "ts": "2026-10-25T17:31:34.181Z",
+ "ts": "2026-10-25T17:33:34.153Z",
  "source": "dashboard",
  "current": "2313-mc43-hero2 since 2026-10-25 17:26:34",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 1,
- "cpu": 65,
- "gpu": 15,
- "mem_free_pct": 69,
- "progress": {
-  "n": 121,
-  "total": 175,
-  "eta_min": 2
- },
+ "cpu": 51,
+ "gpu": 0,
+ "mem_free_pct": 79,
+ "progress": null,
  "done": [
   "2312-mc43-encup",
   "2412-ft29-hy-up",
@@ -74,15 +70,12 @@
   "title": "MC43 · Heldenshots 1+3 neu (ohne Glas-Schleier)",
   "job_since": "2026-10-25T17:26:34.805Z",
   "timeout_min": 40,
-  "step": 4,
+  "step": 5,
   "steps": 5,
-  "label": "Blender rendert Vitrine + leere Vitrine neu (175 Bilder, 16 Samples, 2 Prozesse)",
-  "step_since": "2026-10-25T17:26:38.468Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2313-mc43-hero2/r",
-   "total": 175
-  },
-  "updated": "2026-10-25T17:26:38.468Z"
+  "label": "MP4 kodieren + Kontaktbogen",
+  "step_since": "2026-10-25T17:33:30.306Z",
+  "progress": null,
+  "updated": "2026-10-25T17:33:30.306Z"
  },
  "queue": []
 }
