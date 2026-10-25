@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T15:12:27.463Z",
+ "ts": "2026-10-25T15:14:27.544Z",
  "source": "dashboard",
  "current": "2409-ft29-prev3 since 2026-10-25 15:11:35",
  "busy": false,
- "free_gb": 56,
+ "free_gb": 40,
  "blender_procs": 1,
- "cpu": 24,
- "gpu": 0,
- "mem_free_pct": 78,
+ "cpu": 40,
+ "gpu": 79,
+ "mem_free_pct": 7,
  "progress": {
-  "n": 0,
+  "n": 3,
   "total": 27,
-  "eta_min": null
+  "eta_min": 22
  },
  "done": [
   "2109-ct43-up",
