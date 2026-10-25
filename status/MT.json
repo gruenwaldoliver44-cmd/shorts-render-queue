@@ -1,15 +1,15 @@
 {
- "title": "MT49",
+ "title": "MT50",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44-MT49 fertig (posting.md in Sandbox ~/v4x/). MT50 SOS rendert am Mac (letzte Folge)",
+ "note": "MT44-MT50 fertig (posting.md in Sandbox ~/v4x/MT44..MT50). Sprint MT abgeschlossen.",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T23:24:00Z",
- "eta": "MT50: heute Nacht",
- "topic": "Autoschlüssel mit leerer Batterie",
+ "updated": "2026-10-25T23:30:00Z",
+ "eta": "-",
+ "topic": "Handy zeigt SOS, Notruf geht trotzdem",
  "progress": 100,
- "next": "MT50 QC + Upload, dann Schluss",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ee4ee6aa-7982-43ed-a376-5e6b0be47f8a.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/33ff00fd-11f6-4f47-aa02-633f4a9b3492.mp4",
- "preview_note": "MT49 final"
+ "next": "nichts, wartet auf Slots",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49b50691-3716-4bb1-81c0-59894e0e922c.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8ca1841a-abe6-4073-a3ef-0c137204a86c.mp4",
+ "preview_note": "MT50 final"
 }
