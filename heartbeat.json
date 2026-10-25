@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T17:41:01.634Z",
+ "ts": "2026-10-25T17:41:34.239Z",
+ "source": "dashboard",
  "current": "2115-ct43-people since 2026-10-25 17:41:01",
  "busy": true,
- "free_gb": 56,
- "blender_procs": 0,
+ "free_gb": 55,
+ "blender_procs": 1,
+ "cpu": 31,
+ "gpu": 18,
+ "mem_free_pct": 27,
+ "progress": {
+  "n": 0,
+  "total": 54,
+  "eta_min": null
+ },
  "done": [
   "2314-mc43-hero2up",
   "2313-mc43-hero2",
@@ -67,10 +76,15 @@
   "title": "CT43 · Nur Blender: 27 Standbilder mit Figuren (statt KI)",
   "job_since": "2026-10-25T17:41:01.616Z",
   "timeout_min": 55,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T17:41:01.616Z"
- }
+  "label": "Blender: 27 Standbilder mit echten Figuren + Tiefe (16 Samples)",
+  "step_since": "2026-10-25T17:41:04.213Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2115-ct43-people/co",
+   "total": 54
+  },
+  "updated": "2026-10-25T17:41:04.213Z"
+ },
+ "queue": []
 }
