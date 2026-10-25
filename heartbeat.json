@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T13:02:15.536Z",
+ "ts": "2026-10-25T13:04:15.612Z",
  "source": "dashboard",
  "current": "2407-ft29-r2 since 2026-10-25 13:01:45",
  "busy": false,
- "free_gb": 56,
+ "free_gb": 37,
  "blender_procs": 2,
- "cpu": 32,
+ "cpu": 37,
  "gpu": 0,
- "mem_free_pct": 83,
+ "mem_free_pct": 36,
  "progress": null,
  "done": [
   "2307-mc43-prev3",
