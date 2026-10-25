@@ -1,15 +1,15 @@
 {
  "title": "MT43",
- "stage": "Szenen",
- "note": "Abgelehnt: fast nur KI, kein Blender. Post zurückgezogen (Entwurf), geht nicht raus.",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe",
  "slot": "",
- "error": true,
- "updated": "2026-10-25T17:38:40Z",
- "eta": "wartet auf Oliver (Thema neu oder Blender-Remake)",
- "topic": "Auto auf den Gleisen: Warum der Zug nicht bremsen kann",
- "progress": 30,
- "next": "Neues Thema oder Remake mit Blender als Rückgrat",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/659f0c87-bae4-4c06-81b9-d56a9c39f9b0.mp4",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/659f0c87-bae4-4c06-81b9-d56a9c39f9b0.mp4",
- "preview_note": "abgelehnte Fassung"
+ "error": false,
+ "updated": "2026-10-25T20:06:50Z",
+ "eta": "wartet auf Oliver",
+ "topic": "Shazam",
+ "progress": 95,
+ "next": "Freigabe, dann Posting-Zeit festlegen",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/abfc71df-7648-4166-9140-b2bc4dfe318b.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a5af53e-1065-41e0-80e5-e740fedd4fa1.mp4",
+ "preview_note": "Final zur Freigabe (Remotion, keine KI-Bilder, keine Figuren)"
 }
