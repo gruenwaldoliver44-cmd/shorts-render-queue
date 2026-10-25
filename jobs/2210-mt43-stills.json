@@ -2,7 +2,7 @@
  "id": "2210-mt43-stills",
  "title": "MT43 · 8 Blender-Standbilder (Hybrid)",
  "type": "shell",
- "retries": 0,
+ "retries": 1,
  "timeout_min": 45,
  "steps": [
   {
