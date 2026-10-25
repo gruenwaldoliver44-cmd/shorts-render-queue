@@ -2,13 +2,13 @@
  "title": "MC43",
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
  "stage": "Final",
- "progress": 75,
- "note": "Heldenshot 2 (Kronen-Sturz) fertig und gut. Shots 1+3 (Vitrine) hatten einen milchigen Glas-Schleier: Job 2313 rendert sie ohne Frontglas neu. Rest des Schnitts (KI-Clips, Grafik, Ton) ist fertig",
- "next": "2313 abwarten (ca. 15 min), dann Upload, Final-Schnitt, Prüfung, Planung",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/2092ee53-3014-4d80-b9f8-b68e95e68628.png",
- "preview_note": "Heldenshots v1 · 17:24 · Krone gut, Vitrine zu milchig (wird neu gerendert)",
+ "progress": 60,
+ "note": "Neue Regel: nur Blender. KI-Bilder werden komplett ersetzt: 34 Blender-Standbilder der MC43-Welt (2315) + 3 Blender-Heldenshots (fertig, Vitrine ohne Glas-Schleier)",
+ "next": "Standbilder prüfen, 2.5D-Kamerafahrten in Remotion, Final, Prüfung, dann Freigabe durch Oliver",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a4521ab-f0ae-4a21-b312-852664c3c96f.png",
+ "preview_note": "Heldenshots v2 · 17:39 · Krone + leere Vitrine, ohne Schleier",
  "slot": "",
  "error": false,
- "eta": "morgen 08:00",
- "updated": "2026-10-25T17:27:06Z"
+ "eta": "Final heute Abend, Posting nach Freigabe",
+ "updated": "2026-10-25T17:42:04Z"
 }
