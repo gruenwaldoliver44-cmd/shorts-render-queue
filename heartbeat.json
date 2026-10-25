@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T23:26:52.474Z",
+ "ts": "2026-10-25T23:28:52.427Z",
  "source": "dashboard",
  "current": "2330-mc50-premium since 2026-10-25 23:23:31",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 47,
- "gpu": 93,
- "mem_free_pct": 50,
+ "cpu": 27,
+ "gpu": 18,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2290-mt50-premium",
