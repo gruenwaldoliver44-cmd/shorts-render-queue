@@ -1,0 +1,26 @@
+{
+ "id": "2320-mc43p-premium",
+ "type": "remotion",
+ "title": "MC43 \u00b7 Louvre-Kronjuwelen komplett animiert (Remotion/R3F, Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6d1c300b-9a83-4653-8ca3-2b67eb2cae03.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T20:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/bd771241-893d-4f92-b6e7-c75cde251f4e.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG5OGLC2YW%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T210220Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAhaOx%2BMdGbU5V%2F%2BK6qC4cOTuA4brtr80i7P3AzQgtiawCIAlluTflydg0NhA5x%2Fnv9xvUs%2BgMdBBga8N%2BQItPdtxtKrAFCMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgybgOVP9wF3Tzdb8fUqhAU2r491AIk9sSEM0Y7dteMZRz7Rt%2FNqZVZxC2SHMTmPsq3FDVjJ1zoWiky0uXIaVFcFcHzJ7P1U6eablScMc96%2BwQG3X4fy3FM%2BkgmMMkc2o%2FURBjWl2B46kFWV3xJxrnkLKty4hfjdiA2ZOvL5vF4WiAM2chEWoh%2BaVQoeRH%2FQ3mRISVsb1zNcbI8LX73QJv%2B9eGLegUAtkiaL3%2FuG7PscHsUCcEqjzDVFtc%2FlyzZl9gW3ualcgmoBHw5Z8%2BzEDGNsQyrb9xTWeeoUg%2Bgvb4rMULoaWuunequXxKVC5XZlwREiaeJgOCKpf7hyAGJrCxJFx2M5N28OP3CPqqR7Ydkmluzigd6Wc%2Bdf0r55ttuW66FjB7Aqxg3MoO5vZEzPxhRooLuQiuLq%2FG9X03wmR%2BgwXn2d2et8a4RWcERkgMXpr19%2B9khndQHFRvddtYEa7Mx6LLPBj%2FCK8D%2FH1GJiBr2i384N8XSN9rLuch3ECrvTZISigUGITBcYPV0zRL5sfQQalqJL3GlgNEmY9x0uwzCKySTBp6yd7QpO5psILrmghMgnd3Rskwy76GLitPViDDD35cqQM9Yzkh1VtJlijEULj5OZwze0QRfEHA6Rw8itmkJXIKuT7wecAWNN9KlCzeeEFN7lE%2BSfkVLN7EfR6ykft0elqVYiLu0ofxt%2BXD7SxJJa3OV8OT2TGLJylt4NMvX85y9UoFqbDyV9v9yYtt9h57qHuIUfd6QDwBwsmS9Bg4Nrmtpw710rhQ3m1GW0UcjZ1LORc%2BE%2FQYxcIjBkBiozRO%2FGICT4Q8DvdfCMESGnTuhlpzEGLep2LeL3LIJuMSPV1zlogmsmho2K2ZygKBqrQbbTGzC52vjWBjqQAePfO5b5xBaHOGKAzhDoV58h%2FUv4Ca58f1xciUeG1%2FTgAZdNnV5HDR3cnn36aXJussqcHBqt5jXTtkqlFZtfYBw%2F5JJou9CX%2FK30j4uWvreLNGEGNT89CSx1awHlHwBUxkVr6auFrYzq4VYlstRY1y5AnX%2BPWvsXPsaflWD%2Fs%2Fj75el6%2Fd0lCq35kUik4oU%2F4A%3D%3D&X-Amz-Signature=999496de0afeff0a5e3c7a210993c46b45632677b618057a36db323784d62c0b",
+ "items": [
+  {
+   "comp": "MC43P",
+   "entry": "src/indexMC43P.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6f7a6f01-8b68-4b51-842d-7e026eab577a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG5PMSBGW3%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T210220Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEA68CbRPDxT1lOArWEckKsA%2BieT3kYd2XS2dzVAsmkSzICIH88jqaH2qcc3jkP0xpcqjALYSiD%2FbWZ2V%2FjDOgg1%2FY%2BKrAFCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxbTn%2F0r1qVawVvUUoqhAVmRGbbK%2Fr4H3anIA4SA9QdulTwpiQAXFYEeD6PnCqk%2FNDr9UpnuphpoIa881rmTZRA8N2W0Z5GxO7Pak8icdooL038dwTsBfqLqQqw41m%2FNcvif0aHnW7gzoqvSI3U%2F0DFVpQcP%2BEUjjXceoO%2FB%2Bkcsguv8pCptA3suLDk%2F3uG64kreJl3rt138ZXELEMh31Jr%2Bj00Ab9rDtNyA2bs9duLtjy%2BhCWs1QYHZM%2Bj8pOzaVX%2FrYi4JwefYW4q4RQPGVt9MNghAmnML652YuMZCN1UZ6RbTEdGD15qMeJH8P66Z7rZJc%2B5aj35ODazddyZdH9rCWXlAuLn0BGrbkFo6XUUhsvNzb9OPnc2z8f5QUc9fkyaLZzzyM1UNhvADsDFVRalXvdxMHBTtHdGyWmxYUzUihZnowjOLbiEQGzZrcrK1a%2BIAuZy4Fyw3Z8K806FGHtDkYKun48J3xphZ3AeY4eF84JvwPD1zu18x0EzpSY%2FOr8bciRphFaeadyGgJiY50963YbxB8eQeQdUPEFV3IA1r7jnvHo%2BtCxk0w%2BVZm6aDClP%2Fh74kbWlGaYU%2Fa%2BrRxzb9UTS%2F4iOb4czv2ZQp3HLyotFetgB9sqN84SIaFLeDZwDzSoC%2BBkp7jiF1Ie7uagEBIUU8i1NhsU9IsLTQQR8Wmd2wAfSsqDC2Xw8vW4rcR54RYGSit0kbrIdVreYS20WmnaJrt5nUbKmB7vJLLf95fn3XhztT02zus5aeuZBWIyI5LN%2BkYLT5HT21506%2BBe%2FcKTDcxsHXbVwid3iUH3lH1nIse763xEUQXWVbx7x%2BaIuhP7HNf3Bp1ED8QkvzJhKqe8Lj6Eb%2BPX7kBCTpZYZ6bJjgzD%2BhPnWBjqQAaP44loARERRE6uYwgSSMbOVhLmcxCaIpp0I0eNXQn3GnFRVvcYz%2B8%2B5CIlXtCe30rLmUFFh1wwSXUVr0z1ZIbXHNmj3sKvJme275pVGpPnI1QkzHfYdeWFlgMPH4HliE%2B997rXi1caQCPPaV7k6EFRatC3P5sbicP3ItXRDwzvkxKkpzwM7mq5dDVHmhX1Etw%3D%3D&X-Amz-Signature=f0cf1521283e3b1ad23894065a3089bf26160f725a2cc0aaa4196f1b17b0e8ee"
+  }
+ ]
+}

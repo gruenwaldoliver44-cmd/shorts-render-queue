@@ -1,14 +1,14 @@
 {
  "title": "MC43",
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
- "stage": "Szenen",
- "progress": 55,
- "note": "Nur Blender, keine KI-Bilder. Fertig: 3 Heldenshots (Krone in Vitrine, Kronen-Sturz, leere Vitrine). Läuft: 8 Objekt-/Raum-Shots ohne Menschen (2317). Menschen-Momente warten auf den neuen animierten Figuren-Stil",
- "next": "2317 prüfen, dann Platzhalter-Schnitt; Menschen-Shots sobald der Figuren-Stil steht; danach Final + Freigabe",
+ "stage": "Rendern",
+ "progress": 75,
+ "note": "Komplett neu: animierte Remotion/R3F-Welt + 3 Blender-Heldenclips, keine KI-Bilder, keine Menschen. Premium-Render 2320 auf dem Mac",
+ "next": "QC, Ton anlegen, Upload, posting.md",
  "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a4521ab-f0ae-4a21-b312-852664c3c96f.png",
  "preview_note": "Heldenshots v2 · 17:39 · Krone + leere Vitrine, ohne Schleier",
  "slot": "",
  "error": false,
- "eta": "nach dem neuen Figuren-Stil",
- "updated": "2026-10-25T18:49:58Z"
+ "eta": "heute ca. 23:30",
+ "updated": "2026-10-25T21:06:00Z"
 }
