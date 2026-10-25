@@ -1,15 +1,15 @@
 {
- "ts": "2026-10-25T20:12:37.489Z",
+ "ts": "2026-10-25T20:14:37.810Z",
  "source": "dashboard",
  "current": "2414-ft29-people since 2026-10-25 20:02:37",
  "busy": false,
- "free_gb": 41,
+ "free_gb": 36,
  "blender_procs": 1,
- "cpu": 25,
- "gpu": 83,
- "mem_free_pct": 19,
+ "cpu": 23,
+ "gpu": 87,
+ "mem_free_pct": 53,
  "progress": {
-  "n": 14,
+  "n": 15,
   "total": 19,
   "eta_min": 2
  },
