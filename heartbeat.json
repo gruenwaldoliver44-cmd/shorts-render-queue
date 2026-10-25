@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:30:52.456Z",
- "source": "dashboard",
- "current": "2326-mc47-premium since 2026-10-25 22:30:04",
+ "ts": "2026-10-25T22:32:50.621Z",
+ "current": "2327-mc46-premium2 since 2026-10-25 22:32:50",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 53,
- "gpu": 93,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
+  "2326-mc47-premium",
   "2260-mt47-premium",
   "2130-ct45-premium",
   "2423-ft32-premium",
@@ -48,8 +44,7 @@
   "2209-mt43-speedinfo",
   "2409-ft29-prev3",
   "2109-ct43-up",
-  "2308-mc43-upload",
-  "2108-ct43-bench"
+  "2308-mc43-upload"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,19 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2326-mc47-premium",
-  "title": "MC47 · Air Force One komplett animiert (Premium-Render)",
-  "job_since": "2026-10-25T22:30:04.385Z",
+  "job": "2327-mc46-premium2",
+  "title": "MC46 · The Line v2 (hellere Spiegelwände, Baustelle frei)",
+  "job_since": "2026-10-25T22:32:50.596Z",
   "timeout_min": 45,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:30:04.385Z"
- },
- "queue": [
-  "2327-mc46-premium2",
-  "2424-ft33-premium",
-  "2425-ft31b-premium"
- ]
+  "updated": "2026-10-25T22:32:50.596Z"
+ }
 }
