@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T20:16:37.600Z",
+ "ts": "2026-10-25T20:18:37.618Z",
  "source": "dashboard",
  "current": "2414-ft29-people since 2026-10-25 20:02:37",
  "busy": false,
- "free_gb": 38,
+ "free_gb": 47,
  "blender_procs": 1,
- "cpu": 28,
- "gpu": 87,
- "mem_free_pct": 27,
+ "cpu": 32,
+ "gpu": 82,
+ "mem_free_pct": 20,
  "progress": {
-  "n": 16,
-  "total": 19,
-  "eta_min": 2
+  "n": 0,
+  "total": 158,
+  "eta_min": null
  },
  "done": [
   "2116-ct43-up-people",
@@ -77,15 +77,15 @@
   "title": "FT29 · Blender-Figuren: 17 Standbilder + 2 Heldenshots (16 Samples)",
   "job_since": "2026-10-25T20:02:37.659Z",
   "timeout_min": 90,
-  "step": 11,
+  "step": 13,
   "steps": 15,
-  "label": "18 Standbilder mit Figuren (16 Samples)",
-  "step_since": "2026-10-25T20:05:40.401Z",
+  "label": "2 Heldenshots mit Figuren (Hook + Schluss), 158 Bilder, 1 Prozess",
+  "step_since": "2026-10-25T20:17:49.363Z",
   "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2414-ft29-people/ps",
-   "total": 19
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2414-ft29-people/hero",
+   "total": 158
   },
-  "updated": "2026-10-25T20:05:40.401Z"
+  "updated": "2026-10-25T20:17:49.363Z"
  },
  "queue": []
 }
