@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T21:34:52.274Z",
+ "ts": "2026-10-25T21:36:52.264Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 0,
- "mem_free_pct": 81,
+ "cpu": 14,
+ "gpu": 13,
+ "mem_free_pct": 84,
  "progress": null,
  "done": [
   "2230-mt44-premium",
