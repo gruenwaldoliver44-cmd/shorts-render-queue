@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T23:52:52.558Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T23:53:59.668Z",
+ "current": "2132-ct47-premium since 2026-10-25 23:53:59",
+ "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2331-mc49-premium2",
   "2428-ft34b-ft36-premium",
@@ -68,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2331-mc49-premium2",
-   "title": "MC49 v2 · Galleone (Counter-Fix)",
-   "result": "fertig",
-   "at": "2026-10-25T23:39:36.204Z"
-  },
-  "updated": "2026-10-25T23:39:36.204Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2132-ct47-premium",
+  "title": "CT47 · 401(k) Vesting: eine Woche zu frueh gekuendigt (Remotion Premium, 71 s)",
+  "job_since": "2026-10-25T23:53:59.651Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T23:53:59.651Z"
+ }
 }
