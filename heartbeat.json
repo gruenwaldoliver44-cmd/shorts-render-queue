@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T15:11:35.567Z",
+ "ts": "2026-10-25T15:12:27.463Z",
+ "source": "dashboard",
  "current": "2409-ft29-prev3 since 2026-10-25 15:11:35",
- "busy": true,
- "free_gb": 48,
- "blender_procs": 0,
+ "busy": false,
+ "free_gb": 56,
+ "blender_procs": 1,
+ "cpu": 24,
+ "gpu": 0,
+ "mem_free_pct": 78,
+ "progress": {
+  "n": 0,
+  "total": 27,
+  "eta_min": null
+ },
  "done": [
   "2109-ct43-up",
   "2308-mc43-upload",
@@ -50,10 +59,15 @@
   "title": "FT29 · Vorschau 3 (24 Standbilder)",
   "job_since": "2026-10-25T15:11:35.431Z",
   "timeout_min": 25,
-  "step": 0,
+  "step": 9,
   "steps": 10,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T15:11:35.431Z"
- }
+  "label": "Blender: Vorschau 3 (24 Standbilder, halbe Größe, 4 Samples)",
+  "step_since": "2026-10-25T15:11:38.896Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2409-ft29-prev3/rp",
+   "total": 27
+  },
+  "updated": "2026-10-25T15:11:38.896Z"
+ },
+ "queue": []
 }
