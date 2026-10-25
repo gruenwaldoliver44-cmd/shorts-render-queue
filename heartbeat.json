@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T17:53:34.194Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T17:53:50.451Z",
+ "current": "2315-mc43-stills since 2026-10-25 17:53:50",
+ "busy": true,
  "free_gb": 55,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 0,
- "mem_free_pct": 81,
- "progress": null,
  "done": [
   "2115-ct43-people",
   "2314-mc43-hero2up",
@@ -49,8 +44,7 @@
   "1010-ct42b-prev1",
   "0004-blender-test",
   "0003-blenderkit-install",
-  "0002-blender-check",
-  "0001-agent-test"
+  "0002-blender-check"
  ],
  "failed": [
   "2311-mc43-heroup",
@@ -68,14 +62,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2115-ct43-people",
-   "title": "CT43 · Nur Blender: 27 Standbilder mit Figuren (statt KI)",
-   "result": "fertig",
-   "at": "2026-10-25T17:52:48.683Z"
-  },
-  "updated": "2026-10-25T17:52:48.683Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2315-mc43-stills",
+  "title": "MC43 · Alles-Blender: 34 Standbilder",
+  "job_since": "2026-10-25T17:53:50.435Z",
+  "timeout_min": 90,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T17:53:50.435Z"
+ }
 }
