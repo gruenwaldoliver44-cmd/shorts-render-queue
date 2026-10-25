@@ -1,14 +1,15 @@
 {
  "title": "FT29",
- "stage": "Szenen",
- "note": "Figuren-Job 2414 pausiert (neuer Figuren-Stil wird getestet). Blender-Welt fertig (Automat, Tankstelle, Laden, Heldenshots); Schnitt ohne Menschen wird gebaut, Menschen-Momente als Platzhalter",
+ "stage": "Ton & Pr\u00fcfung",
+ "note": "Vorschau ohne Menschen fertig (nur Blender + Grafik, QC bestanden, 58,3 s). Menschen-Momente sind Platzhalter fuer den neuen Figuren-Stil; wartet auf Freigabe",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T18:40:06Z",
- "eta": "wartet auf den neuen Figuren-Stil",
+ "updated": "2026-10-25T18:56:08Z",
+ "eta": "nach Figuren-Test",
  "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche)",
- "progress": 60,
- "next": "Zusammenschnitt ohne Menschen (Remotion) + Ton, dann Figuren im neuen Stil einsetzen",
- "preview_img": "local:work/2411-ft29-hy-world/poster.jpg",
- "preview_note": "Welt 2411 \u00b7 18:14 \u00b7 Automat in der Tankstelle (16 Samples, ohne Figuren)"
+ "progress": 80,
+ "next": "Figuren im neuen Stil einsetzen (Opfer am Automaten, Anruf, Erkenntnis, Bank/Polizei/Amt, Auflegen), dann Freigabe durch Oliver",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/802f2592-3326-4048-9061-2bb348ba30bd.jpg",
+ "preview_note": "Vorschau ohne Menschen \u00b7 19:55 \u00b7 Blender-Welt + Grafik, -14 LUFS",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/535a00d5-f6e4-4762-b9b8-b9dc24f31d60.mp4"
 }
