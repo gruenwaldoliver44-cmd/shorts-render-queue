@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T21:08:52.137Z",
+ "ts": "2026-10-25T21:08:57.252Z",
+ "source": "dashboard",
  "current": "2120-ct43r-premium since 2026-10-25 21:08:52",
- "busy": true,
+ "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 17,
+ "gpu": 1,
+ "mem_free_pct": 86,
+ "progress": null,
  "done": [
   "2414-ft29-people",
   "2116-ct43-up-people",
@@ -73,5 +78,9 @@
   "label": "Startet",
   "progress": null,
   "updated": "2026-10-25T21:08:52.117Z"
- }
+ },
+ "queue": [
+  "2320-mc43p-premium",
+  "2420-ft29r-premium"
+ ]
 }
