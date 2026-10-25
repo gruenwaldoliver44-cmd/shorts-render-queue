@@ -148,6 +148,18 @@ const runShell = (job, wd) => {
   return true;
 };
 
+// disk housekeeping: job folders (frames, previews, finals) are only needed until their results are uploaded.
+// Delete work folders untouched for 3 days, or for 24 h when less than 20 GB are free. Never touches anything outside work/.
+try {
+  const W = path.join(A, "work");
+  const free = () => Number((spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'"], { encoding: "utf8" }).stdout || "0").trim()) / 1048576;
+  const maxAgeH = free() < 20 ? 24 : 72;
+  if (fs.existsSync(W)) for (const d of fs.readdirSync(W)) {
+    const f = path.join(W, d); let st; try { st = fs.statSync(f); } catch { continue; }
+    if (st.isDirectory() && Date.now() - st.mtimeMs > maxAgeH * 3600000) { try { fs.rmSync(f, { recursive: true, force: true }); console.log(`[${now()}] cleanup: removed work/${d}`); } catch {} }
+  }
+} catch { /* ignore */ }
+
 // free disk guard (GB)
 const freeGB = (() => { const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'"], { encoding: "utf8" }); return Number(r.stdout) / 1048576; })();
 const files = fs.existsSync(path.join(REPO, "jobs")) ? fs.readdirSync(path.join(REPO, "jobs")).filter((f) => f.endsWith(".json")).sort() : [];
