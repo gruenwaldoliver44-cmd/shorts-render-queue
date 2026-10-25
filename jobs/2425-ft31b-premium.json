@@ -1,0 +1,26 @@
+{
+  "id": "2425-ft31b-premium",
+  "type": "remotion",
+  "title": "FT31 \u00b7 Address Poisoning, Korrektur Leuchteffekte (Premium-Render)",
+  "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/257ad250-1960-49b0-b206-230f08291511.zip",
+  "retries": 1,
+  "min_free_gb": 6,
+  "timeout_min": 60,
+  "expires": "2026-10-26T21:00:00Z",
+  "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f4776886-9d12-4620-9bfb-f3d6c1ef093a.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGU4UVHE7D%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221017Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAt9aXnZ34D4PHgXAzKPxpe0M7qIVvMmRHI2qTHPEnPKAIgIyedN5lbwenLCvGEkIZGfNkJ6Axs%2FWzvQee6WTE%2F4m0qsAUIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDCedYhulPsys3xjJ5yqEBVUDKbHA9OBfQE8D3oCUtcKZDKLo5RWwCdsRwy6qC7EjQRS8luFN7heBx8HxpwZUYxwgfwdPtrieoCy9uWrglIWU3WdgaWE8YXpzhyMd%2Ba8NCmNXRqFlPOQcABBHmj7B%2FkymJCcpqZxBx2mP547tbzzwQIxDodTfP8nQNbjf0xh6k8MPfT7HEnIQL5y1FzJXUnbHlIdKYFWmCmuA2ZIoi73epGdy37cveDz4HT1g6xpsnpa1QNbK9fjGMNpUlyd4HtcRoFw9L9Yc%2BoMastSwystdaMJ8HDay7%2FgKCgN0Q4lBBaXpC5Mo%2FPhlZaMnlXdC%2B4uHZVo9MGThAMI9tudY%2F3lWV0gFGzgMoGJo3YzZ1WoEtXr2dcyL2kAmJRouL1XV2FB%2BQJi9nHBv8xsavNlLUi3JJrkr9nK0cBJ%2F5q37ODDNFi9VpaUKhkrKL6j%2FggjFQucsdKn%2FlWKfrGYA7fcUXehAXhzGpYzyvyFZBTkyAhlQBj%2B0W3Wmb%2BVKhqkLR0bDBkSJ4qF5C1nL8MOrJLBRzKxpKFODScq4qOZ0tBQFHpUNUu%2FA6orZV3PN7oEfKCiCCETn7HrEtHo%2B%2B7z5VaZyvg6ebpraNprjo33%2BPBL5TKggnurOtVXcyal6XnABsJ2RrOLBdaC5GXLKzw%2BV%2F%2FpcgANq2ppx6%2FzkFONg3naRht1tPQTCKN4d%2F02VFErdetImz0VcxMi67YVc3WYsN1nU1taLLWOzn9tBAJbNxuC46p%2BFijhk6QUzJ1zV5hIuEnbQ%2Bb13WpAJMjqTQVsrno6dZOG5zcsa%2BHPLZ5GK06uN8WA0nj1aywcUGDb3RLYHJ6zh69q9mV8zY9VdrLgOv7zZrOi61lc0MOKV%2BdYGOpEBlqZXmvJI2KczUnooQ1TOw89lDw4%2FDVm1NxuuAFyyctRuC0uTTxq1XEa0c1PIN1wQQRiq88kwWEgtHMTJVBS%2F0qzeOifR%2BQNLVfqIqskCNQoikHdMNua%2FghiLVaF360tZR45EyfudCHs7r2as0a6rsJ2%2FPVzetLEi8E8DC271rjEcMDXkBYLMg22SXksLawOAZA%3D%3D&X-Amz-Signature=436af8e7120bca8f99ae611e507dfde9b3b55b18d388581ed1635eb070648e06",
+  "items": [
+    {
+      "comp": "FT31",
+      "entry": "src/indexFT31.ts",
+      "props": {
+        "premium": true,
+        "premiumSamples": 1,
+        "premiumFx": "shadow,ao,smaa"
+      },
+      "scale": 1.5,
+      "concurrency": 3,
+      "gl": "angle",
+      "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f7d0f0e2-d6c5-404a-b486-6bfb8586fa8c.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGSVRJMAHW%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221017Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiBH7goFeVoS1UuVxynmCSsk%2Bj6%2FYgYkrsj9TVobiX0gEgIhANUuvKjVFP7o7zgXK5qNaeO3yaP29K9%2BfwlQUKXHoMWjKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzcmRvYwancsaG%2BT%2FoqhAW8ySoUDc%2FFFPEf2122U2H9C%2FrYhHzsKyGpFmVLiPWQ8tpF7Pm5hpkjVBW7NeULdxncAGfi4ztNXAIhh4BCZ2xB29iDR0dnMhas8vkYaU5v5m3OkNhwQqivQrgVv%2B5tQGrZybcEXGP%2FYZDIkWoCnbZ%2BUdXw89N01CNlzMrqRlSXUWdeNnl9s0mriaFXhQsDSv1fw%2Beu%2FM5DbpqiPVj5%2BI8oJniO8BIE81ZXXu1jD3aRzA6bGQ3vXzL0YTFyMm3rr4gZtz6WzNLUoZOekqWz%2FCFFdUWTSejqOh1Q5GIXoJZNefu584SnLscyRvie8lSisU5zmyEFFDVirB7XK%2BZ76j7DPyXCIlgv0jIz3PvSSiBR0ZmujkNWJTDexb%2B%2F7u%2FcakkmHIxqVW%2BAmytOArZgFxygVuNoeqeDMhIWQdPUMS8guO4sFuR4Mipqq7nJ5yAmfIltdvLhJyvpfCbu9Tu4VWYlTlC1Qedtp97wUNFyDFzw5mIEJ5hfwhaFqBQLlJWkwXYMBlvmNiWUhjfvlxH8LbYFNOx%2Ft%2BnxxMSge%2BHAIBqNARHcR%2FUSM2INtxw%2BiV4nXhj5YoUcJ2SALyJrI9eV7j7ieym%2F3xwYXFLcKgICx2HyTvoGmyyv5xvnm76%2FOvggC4V42npxFfv%2B98pm2xa9LEsXzTZEGwBi87RYZNUiNpPpxRq5BLbzwfOPWOYU%2BQyobDzIprEyQMJCz%2FDP21MSBmdyBFY7lbI%2FmEoCvQdG7q4XImh4Cpv2yMCEHqVstTbkpcGEtxAAS2ihmRaF4A3cn%2BXSNQMz7JlKJ2K6Euev6ZF%2B1SoqDKvvmIryuR5trLEjMfGqsTqCjGrAMV3LmlJoEBIdM%2BmgujDF%2B%2FjWBjqQAVmpfMKGLQH3zNOAMkn5kQbOcIdn%2BxHeSMmVFx8dC1%2BYZrTzBQvdpEdslKuQERdJFuqDcOxVZ4hsL7K4L0uhoa1CZIa7i3yWiIAWuf2TLMEouMG0gD5NZBqXwch9u%2Be5hw%2FHRhMDyDOoL9QzXtf%2F5Q0p1FCFEiUAYAJPixT%2FF14huqYSGG7X6fepso8%2FH1hoKw%3D%3D&X-Amz-Signature=64730b14d0630b52cbe53bf68e65a7213601637b0adc1ace6ad6dfb4c67ba070"
+    }
+  ]
+}
