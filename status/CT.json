@@ -1,14 +1,14 @@
 {
  "title": "CT43",
- "stage": "Szenen",
- "note": "27 Blender-Standbilder mit Figuren gerendert (2115, 12 min). Upload laeuft, dann Figuren-Check und neuer Schnitt nur aus Blender + Grafik",
+ "stage": "Vorschau",
+ "note": "Nur-Blender-Fassung wird gerendert. Figuren-Check: Besitzer/Mitbewohnerin haben noch Gummi-Arme (Rig-Fehler) und sind deshalb rausgeschnitten; nur Pruefer + Hund im Bild",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T17:54:59Z",
- "eta": "heute ca. 19:30 zur Freigabe",
+ "updated": "2026-10-25T18:18:22Z",
+ "eta": "heute ca. 19:15 zur Freigabe",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 60,
- "next": "Figuren-Check, Schnitt, Overlay, Ton, QC, Freigabe",
- "preview_img": "local:work/2115-ct43-people/co/c_k3.jpg",
- "preview_note": "2115 · Kueche mit echten Figuren (Blender)"
+ "progress": 75,
+ "next": "Overlay rendern, Ton, QC, dann zur Freigabe",
+ "preview_img": "local:work/2115-ct43-people/co/c_l3.jpg",
+ "preview_note": "2115 · Labor mit Pruefer (Blender)"
 }
