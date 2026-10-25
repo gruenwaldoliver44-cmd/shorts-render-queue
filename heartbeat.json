@@ -1,19 +1,11 @@
 {
- "ts": "2026-10-25T15:31:33.817Z",
- "source": "dashboard",
- "current": "2111-ct43-herotest since 2026-10-25 15:29:33",
- "busy": false,
- "free_gb": 52,
- "blender_procs": 1,
- "cpu": 27,
- "gpu": 84,
- "mem_free_pct": 24,
- "progress": {
-  "n": 18,
-  "total": 28,
-  "eta_min": 1
- },
+ "ts": "2026-10-25T15:32:14.069Z",
+ "current": "2210-mt43-stills since 2026-10-25 15:32:14",
+ "busy": true,
+ "free_gb": 55,
+ "blender_procs": 0,
  "done": [
+  "2111-ct43-herotest",
   "2309-mc43-upload2",
   "2209-mt43-speedinfo",
   "2409-ft29-prev3",
@@ -58,22 +50,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2111-ct43-herotest",
-  "title": "CT43 · Hybrid: Tempo-Test (10 Bilder) + 9 Standbilder",
-  "job_since": "2026-10-25T15:29:33.617Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 3,
-  "label": "Blender: 10 Heldenbilder messen + 9 Standbilder mit Tiefe (ohne Figuren)",
-  "step_since": "2026-10-25T15:29:36.583Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2111-ct43-herotest/ho",
-   "total": 28
-  },
-  "updated": "2026-10-25T15:29:36.583Z"
- },
- "queue": [
-  "2210-mt43-stills",
-  "2410-ft29-hy-stills"
- ]
+  "job": "2210-mt43-stills",
+  "title": "MT43 · 8 Blender-Standbilder (Hybrid)",
+  "job_since": "2026-10-25T15:32:14.053Z",
+  "timeout_min": 45,
+  "step": 0,
+  "steps": 7,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T15:32:14.053Z"
+ }
 }
