@@ -3,12 +3,12 @@
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
  "stage": "Final",
  "progress": 60,
- "note": "Neue Regel: nur Blender. KI-Bilder werden komplett ersetzt: 34 Blender-Standbilder der MC43-Welt (2315) + 3 Blender-Heldenshots (fertig, Vitrine ohne Glas-Schleier)",
- "next": "Standbilder prüfen, 2.5D-Kamerafahrten in Remotion, Final, Prüfung, dann Freigabe durch Oliver",
+ "note": "2315 gestoppt (zu viel Speicher). Standbilder jetzt in Teilen zu 10, ein Blender-Prozess, Speicher wird nach jedem Bild frei (2316)",
+ "next": "Teil 1 prüfen, dann Teil 2+3, Final, Prüfung, Freigabe",
  "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a4521ab-f0ae-4a21-b312-852664c3c96f.png",
  "preview_note": "Heldenshots v2 · 17:39 · Krone + leere Vitrine, ohne Schleier",
  "slot": "",
  "error": false,
  "eta": "Final heute Abend, Posting nach Freigabe",
- "updated": "2026-10-25T17:42:04Z"
+ "updated": "2026-10-25T18:35:12Z"
 }
