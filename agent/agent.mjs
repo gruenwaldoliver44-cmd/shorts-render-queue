@@ -139,6 +139,6 @@ for (const f of files) {
   log(`=== job ${id} ${ok ? "DONE" : TIMED_OUT ? "TIMED OUT (no retry)" : "FAILED"}`);
   if (ok) fs.writeFileSync(path.join(STATE, "done", id), now());
   else fs.writeFileSync(path.join(STATE, "failed", id), String(TIMED_OUT ? 99 : failN + 1));
-  if (job.log_upload) upload(LOG, job.log_upload, "text/plain");
+  if (job.log_upload) upload(LOG, job.log_upload, job.log_type || "application/octet-stream"); // presigned .txt URLs are signed as octet-stream
   LOG = null;
 }
