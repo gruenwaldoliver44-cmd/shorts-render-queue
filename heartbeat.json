@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T21:44:52.223Z",
- "source": "dashboard",
- "current": "2121-ct44-premium since 2026-10-25 21:41:39",
+ "ts": "2026-10-25T21:46:07.296Z",
+ "current": "2231-mt44-premium-v2 since 2026-10-25 21:46:07",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
+  "2121-ct44-premium",
   "2321-mc44-premium",
   "2230-mt44-premium",
   "2421-ft30-premium",
@@ -48,8 +44,7 @@
   "2301-mc43-probe1",
   "2201-mt43-info",
   "1016-sonniss-catalog",
-  "2101-ct43-probe",
-  "1020-r42-premium"
+  "2101-ct43-probe"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,15 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2121-ct44-premium",
-  "title": "CT44 · Silberbarren voll animiert (Remotion Premium, 69 s)",
-  "job_since": "2026-10-25T21:41:39.040Z",
+  "job": "2231-mt44-premium-v2",
+  "title": "MT44 · QR-Code v2 (Kacheln korrigiert, Premium-Render)",
+  "job_since": "2026-10-25T21:46:07.278Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T21:41:39.040Z"
- },
- "queue": []
+  "updated": "2026-10-25T21:46:07.278Z"
+ }
 }
