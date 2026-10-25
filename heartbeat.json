@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T23:34:52.467Z",
- "source": "dashboard",
- "current": "2428-ft34b-ft36-premium since 2026-10-25 23:29:57",
+ "ts": "2026-10-25T23:36:22.796Z",
+ "current": "2331-mc49-premium2 since 2026-10-25 23:36:22",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 31,
- "gpu": 42,
- "mem_free_pct": 75,
- "progress": null,
  "done": [
+  "2428-ft34b-ft36-premium",
   "2330-mc50-premium",
   "2290-mt50-premium",
   "2427-ft35-premium",
@@ -48,8 +44,7 @@
   "2314-mc43-hero2up",
   "2313-mc43-hero2",
   "2312-mc43-encup",
-  "2412-ft29-hy-up",
-  "2212-mt43-final"
+  "2412-ft29-hy-up"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,15 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2428-ft34b-ft36-premium",
-  "title": "FT34 Re-Render (Hook-Schnitte) + FT36 Maut-SMS (Remotion/R3F, Premium)",
-  "job_since": "2026-10-25T23:29:57.137Z",
-  "timeout_min": 90,
+  "job": "2331-mc49-premium2",
+  "title": "MC49 v2 · Galleone (Counter-Fix)",
+  "job_since": "2026-10-25T23:36:22.775Z",
+  "timeout_min": 45,
   "step": 0,
-  "steps": 2,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T23:29:57.137Z"
- },
- "queue": []
+  "updated": "2026-10-25T23:36:22.776Z"
+ }
 }
