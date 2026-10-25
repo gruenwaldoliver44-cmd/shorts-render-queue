@@ -1,14 +1,14 @@
 {
  "title": "FT29",
  "stage": "Vorschau",
- "note": "Diagnose 2408 wartet in der Warteschlange (nach MT/MC/CT). Schnellere Szenen-Auswertung eingebaut: verdeckte Figuren und ferne Sets werden pro Einstellung ausgeblendet",
+ "note": "Vorschau 3 (2409) in der Warteschlange: 24 Standbilder; Reparatur der schwarzen Figuren (Licht-Blocker entfernt) und schnellere Szenen (eingefrorene Modifier, Ausblenden verdeckter Figuren/Sets)",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:17:29Z",
+ "updated": "2026-10-25T14:24:18Z",
  "eta": "nach Vorschau 3",
  "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche)",
- "progress": 40,
- "next": "Schwarze Figuren reparieren, dann schlanke Vorschau 3 (unter 15 min)",
+ "progress": 42,
+ "next": "Vorschau 3 prüfen, dann Final in voller Qualität (16 Samples) in Teilen",
  "preview_img": "local:work/2407-ft29-r2/lu/lineup.jpg",
  "preview_note": "Materialtest 2407 · 14:06 · 6 von 7 Figuren noch schwarz, wird repariert"
 }
