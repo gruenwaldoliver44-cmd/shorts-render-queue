@@ -25,6 +25,18 @@ const cpuPct = () => {
   lastCpu = now; return total > 0 ? Math.round(100 * (1 - idle / total)) : 0;
 };
 const progHist = {};
+const LIVE = {};
+const pullStatus = async () => {
+  try {
+    const tf = path.join(A, "token"); if (!fs.existsSync(tf)) return;
+    const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-dashboard", Accept: "application/vnd.github.raw" };
+    for (const k of ["CT", "MT", "MC", "FT"]) {
+      const r = await fetch(`https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/status/${k}.json?ref=main`, { headers: h, signal: AbortSignal.timeout(15000) });
+      if (r.ok) { try { LIVE[k] = JSON.parse(await r.text()); } catch {} }
+    }
+  } catch {}
+};
+pullStatus(); setInterval(pullStatus, 60000);
 
 const collect = () => {
   const st = readJSON(path.join(STATE, "status.json")) || {};
@@ -61,7 +73,7 @@ const collect = () => {
   const recent = (d) => { try { return fs.readdirSync(path.join(STATE, d)).map((f) => ({ id: f, t: fs.statSync(path.join(STATE, d, f)).mtimeMs })).sort((a, b) => b.t - a.t).slice(0, 6); } catch { return []; } };
   // one file per channel (status/CT.json ...) so the four build agents never edit the same file
   const pipeline = { channels: {}, updated: 0 };
-  for (const k of ["CT", "MT", "MC", "FT"]) { const x = readJSON(path.join(A, "repo", "status", k + ".json")); if (x) { pipeline.channels[k] = x; const u = Date.parse(x.updated || 0) || 0; if (u > pipeline.updated) pipeline.updated = u; } }
+  for (const k of ["CT", "MT", "MC", "FT"]) { const x = LIVE[k] || readJSON(path.join(A, "repo", "status", k + ".json")); if (x) { pipeline.channels[k] = x; const u = Date.parse(x.updated || 0) || 0; if (u > pipeline.updated) pipeline.updated = u; } }
   return { now: Date.now(), st, cpu: cpuPct(), gpu, memFree, therm: therm ? Number(therm) : null, diskGB, blender: bl, agentRunning, hb, loopBeat, progress, queue, done: recent("done"), failed: recent("failed"), pipeline };
 };
 
