@@ -3,12 +3,12 @@
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
  "stage": "Vorschau",
  "progress": 45,
- "note": "Vorschau 3 gerendert; Dateien werden nachgeliefert (2308), dann Bildprüfung",
- "next": "Vorschau prüfen, Licht/Szenen verbessern, dann Final in voller Qualität",
+ "note": "Vorschau 3 fertig (14:01). Upload-Job 2308 mit frischen Links wartet hinter MT 2207, danach Bildprüfung",
+ "next": "Vorschau prüfen, 10-Bilder-Geschwindigkeitstest in voller Qualität, dann Final",
  "preview_img": "local:work/2307-mc43-prev3/r/sheet.png",
  "preview_note": "Vorschau 3 · 14:01 · Kontaktbogen (50 %, 8 Samples)",
  "slot": "",
  "error": false,
- "eta": "noch offen (Final-Renderzeit wird gemessen, Update ca. 15:30)",
- "updated": "2026-10-25T13:55:00Z"
+ "eta": "noch offen (Final-Renderzeit wird nach 2308 gemessen, Update ca. 15:30)",
+ "updated": "2026-10-25T14:20:00Z"
 }
