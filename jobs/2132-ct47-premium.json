@@ -1,0 +1,25 @@
+{
+ "id": "2132-ct47-premium",
+ "title": "CT47 \u00b7 401(k) Vesting: eine Woche zu frueh gekuendigt (Remotion Premium, 71 s)",
+ "type": "remotion",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/34b45ea2-b463-4230-9f8a-557db1b0f632.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/39afaf5e-b05f-44a2-b841-79ade57d7a96.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGQS7C4PKH%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T235144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAITGk9riiQ5chspdQlIZXDmSUzFqR2aH5ZkXfBtiYrYAIgBfvv%2BuaFmHDQd%2FwlfxqumVsVmBSqmxpuhhtim90H2Z8qsAUIx%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDFdg%2B280qJAAirOcWyqEBWE1rmSRn%2FW%2BFjcm7ORAB5V9Yt6ikhtpJYn0EyXHT5a%2F3vChTRFUhtg7keEd442l4i7Z91ICOCtKjggnAtSJaxF9%2F%2Ben89AKZTzzyRAzB4TOBd4ek5J3H0WfDFakwAGswUnqu9SMrubhLC6oy9uqn0iw%2B7SuTf7oARs27M5oeS8unmyfKzUEEy44boIPhvhdQQsfW%2B%2Beys1b6atcV10BJB8ZqoAzi9xZbyv%2FqdQ97ypMX7FHfzvqwpPU3P4ul1nt8YvUqT3%2BtITdndXUOplV1c2xT78HfqjyZnaht3VDJkiysYX5P6Qv8%2BK1qH5sWeVm52YvQWDqlhfGABcyc02Zn%2BzcgyzWu6n9zvTYIiYsbEFrtd5LDvV1kSgPsVEoxzBGe%2B2cgIuRNTlMso7ZcFC73drIcaG96r9rWfzsfseIBRPB2jU5yV6BeHoXRW%2BaLkuU4Y0kFf%2BQxugTxiUOj2B3jqNofneVn9IAI0QEbfqg9CJjBr11QFwrZaEPJNwgGVD2eberrAcFT%2BmFZUoHub4YXU2LFNc17MSBVeBHpuMMh0ucfOv%2B64Wkw85gt4maoQLrh00XsdB2diBH3hyqkRfk%2By11WdO7%2F%2BY3DOxiipZSTIabSeqvAmi4hwuUa5jXxHseY1aMIFWGgPkYC048ZAlrHa7Q4T2JIkThq%2FZQm9pMgU%2BL%2FPgnnE25TVFhOWnQV7WwkR%2Fst8T2LOSf6mOpCH0PdxxPCmADftNQo7%2FKNnkFCZuhSpvUTOskqM3ycy%2FkyaBrYdWM2zT8IYHJ%2B%2F7ctXe7F90wuLQimUJYX7%2FNM8nCffdYL5du3UmmCW3miGz3G728A37PpPN5gQ53H%2F%2BHgjSkRClehoe%2BMOeA%2BtYGOpEBWCZNdzLojYm4KoRg%2FtxIYrA271cHNfRJYM68oqDZppg3UxXSbI56OEgp8MM9C8yg2lwWF3hMEUIg6iIpl9vVuCjnXkdPeBHM9NGUrZuKOlL188284R3DMTKovDbkkhZnpOwbjB0ehZfFdhkrlS4geX4XCQG6CV5xInIavDn5%2BQb%2Bhnbinpxf4vI6qiY2QYt%2BkA%3D%3D&X-Amz-Signature=573ea5f4853532e3269cf375568d8046be7f614a8d210dc9783020802d9165b7",
+ "items": [
+  {
+   "comp": "CT47",
+   "entry": "src/indexCT47.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3cbce146-7c50-47f1-b957-621d456ff77f.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGXTC3D7M4%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T235144Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAnvlMbqaYeVtKAtu4c4fmp1LAlz62Cog1F35uNZyrCoYCIQCugQ7JTeXFjjxiRyT5faVbfnT3edW3hyBb7rL7SuJeCiqwBQjF%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMje2qGIatvd5Qmf2JKoQFB3441BSG394If2yXPBsJubDjdC3XsdRFPGapd0ZLBrG%2FAPbe664luaakgxLCojWb2cadK7JdSoL7a6muyrBBcmkUd8R%2FAm6voGUrHSV98egIakM0EZ%2BU9EErXScrKpWIWvEToMK6dZUktNodqLu6tl5fCx9WkLf61opJ%2FrWvQLguCTJza31olojgO7tSZyOzIKNSrChe8MWpGMnbNOJxkKAFIaO%2BftbStnDeyZv90x75sa94wMALG4GAPZc7ALckucTQQaPebhvTZEjl2G9ksHbpiHJfiXvbRqUyfVJTYMKl7xHZEhRjjQQelpHhCttu3mbyC3rFvM66qLPyhTAQ7Tc2vQywUzX9eXWEU9H%2BEJO44A8IN5n0s0ZkchjwRFjUJJNeY5nx%2BL7KkOOeGQHqdK1zQP1caikJNWrafu%2BAMkY77cU42BYm9LFYViNw2N2GU%2F%2FAckj8EpeypMDxaspTZvvazKbRHQDhDt4IOSQ9j7niC8ZsME%2BO2hCtw78DQANCJ021ziHNI%2FP5gSdaoC3b6%2FqRomb7mdLIBEkwQy1A6N24jBeIg%2B03FVwluiIwr4xkNFH%2B%2FMhzi2xctRdnyLRd3FOZ9HjUuq4dUNZ%2B%2FKQ5msKAIPRN8FNfk6vt6DDsigGOF2H5XL4%2BOtcny%2FXLBCvDSgArcJ80xdZCfRMj38GvQow360fV0R56qHySIYYtMCW%2F7unNJYmIMFQYsOpRRVuw21HHVwBp2q2lLy7wy9L8W1hRK6gtobX8cjsVcMRw%2FinkQMAtKBHbgtTcaXFzl%2FifpZSqpKKvGv4LpdcKS7RQbBgBkpQy1HEIVE2Sd2TxQ7q2Phw7L2hwPkdDjb%2BYwt1o3cF89KowwsP51gY6jwFLB4OHPIsVE8n3UZWTvO9tFC8W0D0eynlaUm%2FXFZ458IvwWQJ8auphREB6Hd1I8OxSo18NIiVegFRhAr4amclaH66JKbPSOQAYJ3XSrhqVDfg0jD6BE4DbDpmyT2lIohp%2Brpzae0UMkstQC0bNpVKSh1NcbSiu9zx5Vk92m0rnbt5zF%2FTspg2gzaL0juf7EA%3D%3D&X-Amz-Signature=212023f7f49ef292168fd4a15e320f187d6564471a18005b4ca56115d0795f72"
+  }
+ ]
+}
