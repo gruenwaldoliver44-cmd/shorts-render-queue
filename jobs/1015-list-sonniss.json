@@ -1,0 +1,16 @@
+{
+  "id": "1015-list-sonniss",
+  "type": "shell",
+  "retries": 1,
+  "min_free_gb": 1,
+  "steps": [
+    "{ echo '== Downloads (sonniss / gdc / audio archives)'; ls -la ~/Downloads | grep -iE 'sonn|gdc|\\.zip|\\.rar|\\.7z|audio|sfx' ; echo; echo '== disk'; df -h ~ | tail -1; echo; for f in ~/Downloads/*[Ss][Oo][Nn][Nn]* ; do [ -e \"$f\" ] || continue; echo \"== $f\"; if [ -d \"$f\" ]; then du -sh \"$f\"; find \"$f\" -maxdepth 2 | head -40; echo files: $(find \"$f\" -type f | wc -l); else ls -la \"$f\"; case \"$f\" in *.zip) unzip -l \"$f\" | tail -1; unzip -l \"$f\" | awk '{print $4}' | cut -d/ -f1-2 | sort -u | head -40;; esac; fi; done; } > dlist.txt 2>&1; cat dlist.txt | head -5"
+  ],
+  "uploads": [
+    {
+      "file": "dlist.txt",
+      "type": "text/plain",
+      "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/bec9ad0a-c373-4cb9-85b5-ab57ac777346.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG4KGJD36F%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T003340Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiB%2FlJnGl729ghyQKaj1MKJJyapwbhVjNGGc9wCqoACZCQIgP38wwdmiiwb8AG3XAFXi5088XOB0BQc7jNBAnbg%2Fu7IqsAUIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDEEHCg5KPJNuQhYTmyqEBb9ta70peWQFvlCxFgnfGDgVSJLk8iL0OPFYGL0bftZtmHRrq%2F%2FZMnJ3U9hwYIMn91BnWeflFYmYjoEA%2BEJb0jlwonjH7mFEf7iyZ7lBWp329NM58ElBWFf%2BKkmh40C%2BkADRFNb95VI%2F%2BurrExssPdD0ko8O7pPKp797JMLthyxWNyVRI2OFlWn7W7rUaUKtG1h24d%2FXdJ8x5RTCq3xzCWaFU4HUQJC173sgtvK2k7in%2BpZMYwR0N48QQztuh1J7ZnNfnKYExOMDkb8MjjQ25J4199RbjYg891u4q1QO3gzjXcIQFh%2Bd3LHS6xhKk5JLvbJcQZzl3%2FA%2BIgAWgm%2BFGbvVKuHOmvDeB1dIFzQn%2BqcTtu0A38qnBmkXtFaIAe1KMB37ObzUw7Raeu%2FbLwGd7SVDofo7lB5uFkkhfbJUgOmsWJn5N1Ars4Gs198y9JuhMWmVR9GE3jqH%2BffLfKXVv%2F2nh9%2FhhVHSYjuVQ2p8agpH%2B9ICw0VRiFOTx%2FcmjEv2JCVfJF7qaQShJC4tIWIaYIOaYVVwLPdyfgwhY4iqwspaAqKyyvd6oCkxkQcClhi0OR98unFhhLPXS0uT4EHiIZmtpUcBzrLz%2FvbJHJACIkVgzUaANGRFLFLqx7ncImQkypC2S1U1lEc7uaqWgomwU2f7SoxD1uaaZt8Ppe8ctbXhchu%2F%2F3wAKMEY%2FWUQaE9q81hr0Tk%2F7bc5eTzQQ2XL%2B0IO0mOweUWii3JgTh8vyXhWCbHmVjrHIv4T2LjUoxy2i55J%2FX5F8mt8TaXYsrAsOJatBGy9Y2IdeGXfKjTv%2F4s6WVnys3BnMuNMWXihzZ5EpR3sLdCk2Q1BHIs9dvjLElVPSgjeMJ2S9dYGOpEBfDmSr3kVkuU9kFU3GlWxH6UP%2FUVHN%2FsE%2BxUxQ1qpEBSSf%2FRWJ7vMNTL7T0CLJ4MoYf7JeuZsLNE3KoiTXEslKXLtfO3jai25esBt8VK0k%2Bbstcw18sI%2FL1VFgwD5LLOFAuTCRrFXtYYswVvbGSLM87bb6Ta4NQJSF1OBjEHzPl0atXuu8AZGMwxjmY04vhLd4w%3D%3D&X-Amz-Signature=2adc270fd5033d217ee35668c19c9a1602263401b800c2bdf6c35dc0e24a2c71"
+    }
+  ]
+}
