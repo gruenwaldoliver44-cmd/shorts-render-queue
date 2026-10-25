@@ -1,15 +1,15 @@
 {
- "title": "MT43",
+ "title": "MT44",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT43 Shazam fertig (Metricool-Entwurf 405971656 IG/TT, 405971657 YT). MT44 QR-Code im Bau: Skript+Stimme fertig, 3D-Welt rendert",
- "slot": "",
+ "note": "MT44 final 66.5 s, Gate A/C bestanden, QC ok; posting.md in Sandbox ~/v4x/MT44/posting.md. MT45 (Handy weiss wo oben ist) rendert am Mac, MT46 (SSD verliert Daten) im Bau",
+ "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T21:00:00Z",
- "eta": "MT44: Mo 26.10. frueh",
- "topic": "QR-Code: ein Stueck abreissen und er scannt trotzdem",
+ "updated": "2026-10-25T21:58:00Z",
+ "eta": "MT45: heute Nacht",
+ "topic": "QR-Code: Stueck abreissen, scannt trotzdem",
  "progress": 100,
- "next": "MT44 QC, Mix, Upload; dann MT45",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f5394c3e-afd9-4e2d-8778-abae1a690274.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a8ec92e7-bce3-404d-8401-d7024b11d6a6.mp4",
- "preview_note": "MT43 Shazam final (Geplant 22:00): 84.8 s, keine Standbilder mehr"
+ "next": "MT45 QC + Upload, dann MT46",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/da479ab0-3eee-44ea-be51-add1bd9fd103.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f0d74d35-20b7-4e10-9675-696d50dacf63.mp4",
+ "preview_note": "MT44 QR-Code final"
 }
