@@ -1,15 +1,15 @@
 {
- "title": "MC43",
- "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
- "stage": "Fertig, wartet auf gemeinsamen Slot",
- "progress": 95,
- "note": "Fertig, wartet auf gemeinsamen Slot. Komplett animierte Remotion/R3F-Welt + 3 Blender-Heldenclips, keine KI-Bilder, keine Menschen. 73.5 s, -14 LUFS, QC ok",
- "next": "MC44 Fort Knox: Szenen und Render",
+ "title": "MC44",
+ "topic": "Fort Knox: 600 Mrd. Gold, in den Büchern 6",
+ "stage": "Rendern",
+ "progress": 70,
+ "note": "MC43 fertig (wartet auf gemeinsamen Slot). MC44: Skript + Stimme + Ton fertig (Gates A/B/C bestanden, 56 s), Premium-Render 2321 auf dem Mac",
+ "next": "QC, Upload, posting.md",
  "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/08a26ab2-6958-44bc-bdc1-04278c09a7e3.jpg",
  "preview_note": "MC43 final 21:30",
  "slot": "",
  "error": false,
- "eta": "fertig",
- "updated": "2026-10-25T21:33:00Z",
+ "eta": "heute ca. 22:30",
+ "updated": "2026-10-25T21:40:00Z",
  "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/e0db9836-d0dd-49b6-b8e1-1f7f048e6059.mp4"
 }
