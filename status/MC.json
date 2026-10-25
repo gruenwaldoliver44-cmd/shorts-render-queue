@@ -2,13 +2,13 @@
  "title": "MC43",
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
  "stage": "Final",
- "progress": 62,
- "note": "18 KI-Clips (Kling pro) und 12 neue Geräusche fertig und geprüft, Remotion-Schnitt steht. Blender-Heldenshots (Job 2310) warten in der Warteschlange hinter CT 2113",
- "next": "2310 rendern (ca. 40 min), dann Upload, Final-Schnitt, Ton & Prüfung",
- "preview_img": "local:work/2307-mc43-prev3/r/sheet.png",
- "preview_note": "Hybrid: KI-Clips + Blender-Heldenshots, Schnitt fertig bis auf Blender",
+ "progress": 75,
+ "note": "Heldenshot 2 (Kronen-Sturz) fertig und gut. Shots 1+3 (Vitrine) hatten einen milchigen Glas-Schleier: Job 2313 rendert sie ohne Frontglas neu. Rest des Schnitts (KI-Clips, Grafik, Ton) ist fertig",
+ "next": "2313 abwarten (ca. 15 min), dann Upload, Final-Schnitt, Prüfung, Planung",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/2092ee53-3014-4d80-b9f8-b68e95e68628.png",
+ "preview_note": "Heldenshots v1 · 17:24 · Krone gut, Vitrine zu milchig (wird neu gerendert)",
  "slot": "",
  "error": false,
- "eta": "morgen 08:00 (heute 20:00 nur, wenn 2310 bis ca. 18:00 UTC fertig ist)",
- "updated": "2026-10-25T16:01:22Z"
+ "eta": "morgen 08:00",
+ "updated": "2026-10-25T17:27:06Z"
 }
