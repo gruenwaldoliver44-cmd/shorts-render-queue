@@ -1,15 +1,15 @@
 {
- "title": "MC45/MC46",
- "topic": "Straddling-Bus + The Line",
+ "title": "MC43-MC50",
+ "topic": "Billion-Dollar Things (8 Folgen)",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "progress": 90,
- "note": "Fertig: MC43, MC44, MC45, MC46. Im Render: MC49 + MC47 v2 (Job 2329), MC48 v2 (Job 2330).",
- "next": "MC47/48/49 QC + Upload",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/40dfac44-636b-4864-81b8-a0efc4211195.jpg",
- "preview_note": "MC45 final",
+ "progress": 100,
+ "note": "Alle 8 fertig + CDN: MC43, MC44, MC45, MC46, MC47, MC48, MC49, MC50. Keine MC-Jobs mehr in der Queue.",
+ "next": "keins, Sprint fertig",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8192bb79-d4c3-4fd4-8156-171baf100d86.jpg",
+ "preview_note": "MC49 final",
  "slot": "",
  "error": false,
- "eta": "MC47-49 in ca. 1 h",
- "updated": "2026-10-25T23:03:57Z",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4350b2f0-5c29-49f8-9000-ecdae25685e3.mp4"
+ "eta": "fertig",
+ "updated": "2026-10-25T23:48:45Z",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8edd7298-1026-44bc-8c65-52d575905346.mp4"
 }
