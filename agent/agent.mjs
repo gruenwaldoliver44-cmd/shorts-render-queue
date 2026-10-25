@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import os from "node:os";
-import { spawnSync } from "node:child_process";
+import { spawnSync, spawn } from "node:child_process";
 
 const A = path.join(os.homedir(), "ShortsRenderAgent");
 const REPO = path.join(A, "repo");
@@ -25,10 +25,10 @@ const heartbeat = async (force = false) => {
     if (!fs.existsSync(tf)) return;
     if (!force && fs.existsSync(last) && Date.now() - Number(fs.readFileSync(last, "utf8")) < 5 * 60000) return;
     fs.writeFileSync(last, String(Date.now()));
-    const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'; pgrep -f 'Blender.app/Contents/MacOS/Blender' | wc -l"], { encoding: "utf8" });
+    const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'; pgrep -f '[B]lender.app/Contents/MacOS/Blender' | wc -l"], { encoding: "utf8" });
     const [kb, nb] = (r.stdout || "").trim().split("\n");
     const recent = (d) => fs.readdirSync(path.join(STATE, d)).map((f) => [f, fs.statSync(path.join(STATE, d, f)).mtimeMs]).sort((a, b) => b[1] - a[1]).slice(0, 40).map((x) => x[0]);
-    const status = { ts: new Date().toISOString(), current: fs.existsSync(CUR) ? fs.readFileSync(CUR, "utf8") : "", busy: fs.existsSync(LOCK), free_gb: Math.round(Number(kb) / 1048576), blender_procs: Number(nb) || 0, done: recent("done"), failed: recent("failed") };
+    const status = { ts: new Date().toISOString(), current: fs.existsSync(CUR) ? fs.readFileSync(CUR, "utf8") : "", busy: fs.existsSync(LOCK), free_gb: Math.round(Number(kb) / 1048576), blender_procs: Number(nb) || 0, done: recent("done"), failed: recent("failed"), status: (() => { try { return JSON.parse(fs.readFileSync(path.join(STATE, "status.json"), "utf8")); } catch { return null; } })() };
     const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-render-agent", Accept: "application/vnd.github+json" };
     const api = "https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/heartbeat.json";
     const g = await fetch(api + "?ref=heartbeat", { headers: h, signal: AbortSignal.timeout(15000) });
@@ -55,6 +55,23 @@ await (async () => {
     }
   } catch { /* ignore */ }
 })();
+
+// live dashboard on http://localhost:8765 (tools/dashboard.mjs): keep a copy outside repo/ (repo is replaced every loop)
+// and (re)start it when it is not running or its code changed. Best effort.
+try {
+  const src = path.join(REPO, "tools", "dashboard.mjs"), dst = path.join(A, "dashboard.mjs"), pidf = path.join(STATE, "dashboard.pid");
+  if (fs.existsSync(src)) {
+    const changed = !fs.existsSync(dst) || fs.readFileSync(src, "utf8") !== fs.readFileSync(dst, "utf8");
+    let alive = false;
+    if (fs.existsSync(pidf)) { try { process.kill(Number(fs.readFileSync(pidf, "utf8")), 0); alive = true; } catch {} }
+    if (changed || !alive) {
+      if (alive) { try { process.kill(Number(fs.readFileSync(pidf, "utf8"))); } catch {} await new Promise((r) => setTimeout(r, 500)); }
+      fs.copyFileSync(src, dst);
+      const c = spawn(process.execPath, [dst], { detached: true, stdio: "ignore" });
+      c.unref(); fs.writeFileSync(pidf, String(c.pid));
+    }
+  }
+} catch { /* ignore */ }
 
 // single instance
 if (fs.existsSync(LOCK)) {
@@ -109,8 +126,20 @@ const runRemotion = (job, wd) => {
   return all;
 };
 
+// plain-language status for Oliver's live view (tools/status.mjs) and the heartbeat
+const STATUS = path.join(STATE, "status.json");
+const setStatus = (o) => { try { fs.writeFileSync(STATUS, JSON.stringify({ ...o, updated: new Date().toISOString() })); } catch {} };
+let JOB_INFO = {};
+
+// a step is a shell string or { run, label, progress: { dir, total } } (dir relative to the job folder, counts files)
 const runShell = (job, wd) => {
-  for (const step of job.steps || []) if (!sh(step, wd, { AGENT_HOME: A, JOB_DIR: wd })) return false;
+  const steps = job.steps || [];
+  for (let i = 0; i < steps.length; i++) {
+    const st = typeof steps[i] === "string" ? { run: steps[i] } : steps[i];
+    setStatus({ ...JOB_INFO, step: i + 1, steps: steps.length, label: st.label || `Schritt ${i + 1}`, step_since: new Date().toISOString(), progress: st.progress ? { dir: path.join(wd, st.progress.dir), total: st.progress.total } : null });
+    if (!sh(st.run, wd, { AGENT_HOME: A, JOB_DIR: wd })) return false;
+  }
+  setStatus({ ...JOB_INFO, step: steps.length, steps: steps.length, label: "Lade Ergebnisse hoch", step_since: new Date().toISOString(), progress: null });
   for (const u of job.uploads || []) if (!upload(path.join(wd, u.file), u.url, u.type || "application/octet-stream")) return false;
   return true;
 };
@@ -134,12 +163,15 @@ for (const f of files) {
   let ok = false;
   JOB_DEADLINE = Date.now() + (job.timeout_min ?? 100) * 60000; TIMED_OUT = false;
   fs.writeFileSync(CUR, `${id} since ${now()}`);
+  JOB_INFO = { state: "busy", job: id, title: job.title || id, job_since: new Date().toISOString(), timeout_min: job.timeout_min ?? 100 };
+  setStatus({ ...JOB_INFO, step: 0, steps: (job.steps || job.items || []).length, label: "Startet", progress: null });
   await heartbeat(true);
   try { ok = job.type === "remotion" ? runRemotion(job, wd) : job.type === "shell" ? runShell(job, wd) : false; }
   catch (e) { log("EXCEPTION " + (e && e.stack || e)); }
   JOB_DEADLINE = 0;
   try { fs.unlinkSync(CUR); } catch {}
   log(`=== job ${id} ${ok ? "DONE" : TIMED_OUT ? "TIMED OUT (no retry)" : "FAILED"}`);
+  setStatus({ state: "idle", last: { job: id, title: job.title || id, result: ok ? "fertig" : TIMED_OUT ? "Zeitlimit erreicht" : "Fehler", at: new Date().toISOString() } });
   if (ok) fs.writeFileSync(path.join(STATE, "done", id), now());
   else fs.writeFileSync(path.join(STATE, "failed", id), String(TIMED_OUT ? 99 : failN + 1));
   if (job.log_upload) upload(LOG, job.log_upload, job.log_type || "application/octet-stream"); // presigned .txt URLs are signed as octet-stream
