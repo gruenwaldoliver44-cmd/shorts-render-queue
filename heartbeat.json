@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T20:34:39.082Z",
+ "ts": "2026-10-25T20:36:38.740Z",
  "source": "dashboard",
  "current": "2414-ft29-people since 2026-10-25 20:02:37",
  "busy": false,
- "free_gb": 47,
+ "free_gb": 48,
  "blender_procs": 1,
- "cpu": 30,
+ "cpu": 28,
  "gpu": 87,
- "mem_free_pct": 6,
+ "mem_free_pct": 28,
  "progress": {
-  "n": 51,
+  "n": 58,
   "total": 158,
-  "eta_min": 34
+  "eta_min": 31
  },
  "done": [
   "2116-ct43-up-people",
