@@ -1,18 +1,9 @@
 {
- "ts": "2026-10-25T18:07:34.369Z",
- "source": "dashboard",
+ "ts": "2026-10-25T18:11:33.555Z",
  "current": "2315-mc43-stills since 2026-10-25 17:53:50",
  "busy": true,
- "free_gb": 17,
- "blender_procs": 2,
- "cpu": 30,
- "gpu": 23,
- "mem_free_pct": 43,
- "progress": {
-  "n": 1,
-  "total": 68,
-  "eta_min": 888
- },
+ "free_gb": 62,
+ "blender_procs": 0,
  "done": [
   "2115-ct43-people",
   "2314-mc43-hero2up",
@@ -85,8 +76,5 @@
    "total": 68
   },
   "updated": "2026-10-25T17:53:52.409Z"
- },
- "queue": [
-  "2413-ft29-up2409"
- ]
+ }
 }
