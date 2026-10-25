@@ -1,0 +1,38 @@
+{
+ "id": "2330-mc50-premium",
+ "type": "remotion",
+ "title": "MC50 · Kansai (sinkender Flughafen) + MC48 v2 (Overlap-Fix)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/07cbab7f-19ec-490d-abdd-2f1d885b44ba.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC50",
+   "entry": "src/indexMC50.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/eeafeb5f-ff59-4db2-b9fd-8ea4972fa3c5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG76HYOHEV%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T231200Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiBNHwGTf9FRhOZnYRh1oWmxesKd0v2HtqaCRBX3sriyBgIhAOm10YMv%2BdhCyemVWITfV6pbv6ErVXlAE6GClvsKgI%2FrKrAFCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgyLXww3tKctGFqqvfQqhAUzQWEdDYg5Q2JQwqMVu5%2F1LmRuSEY6wwWxkl96Eadbj1ZrPjlUjl3orIMgr8MQcC8Lamb1xBchznlsiauObl9dCgF56zy1TFwYFQ9GHGdne4wV50sszsIcN8oXsdkU1r8MJ6PhV8RaaBM1bWt1hMfz8IChG0hw%2FF5o8cHKFRgaA5D2JdD7SQejMLdz8OwMtfgOYCiXKeazV9VEbfQTyUZ2%2B2NEvr8aee%2F5yvMfzJvJca3Y%2BgU%2F18H%2BIdRnN1mMpwxtRUyB7THrzTLqyQs1NLbMHwuQls2qE51cHON2Nao75Blycu9Xk%2BMiHIjNjCl8hFLBOhG3fasJE6DKMCBGDZvRDlvCO3QrNqG5xwAn2QLHAI3zyA4NXYjEGsgcR0h0vX%2FLLbsftpdvlHWxytp%2BpTSUMQs1nZsetQDSJARO3duJxwrfwds6L8vv1upGG%2BseaRah9FPmc2wd8lfU4xJHr4JMiBzmYBa7B%2FOVe2XpRakxsze61n6HH5CcwvkafoP8k2zM2wrY1aMYDyddUJjO%2FB2MZnY0rdi41EdyMOKRLsmjCuDlf0aWcWS6tKVbGcD%2FxWzENueXTmcAxcbAG9rgieHLkieBzjCgaZRTADDJ32y5JUWEB3S1WkQgUnJufYM%2FRVHlFAXVMb4kR3sYDMD9orki9AElQLSBwCeWF63GTOs0jZ5XqnnJ8LTdYwQ3bW4dMwnMUCZDHxX7mymzMj80GIhkcngiA%2FMG0Cl4xmTAzCZqh9o1fvay8BM0lPr3KXaRjrbOmryZwRHmF13Nln3AYX4sz34m0SAm8wiQ5hLR4YhpSUKrZNdXRN0TDe%2BWk%2BtfzepfIT4TO9uiUzq%2BJDA%2BvjHk%2Bvmr8jCvwvnWBjqQAUHjOEWBwuhGTtfiV%2F53dkCqGlKCo%2F%2Beb7c%2B%2FPL0LzknMPkS44tQEMjPHHjmxr5JuCRbL%2F9O9ixeS%2FVQpY8Ao8xQvzgn%2Fb9PuvGidPWOWWQ9mQua4QSnfK2AKBgIlhRn4Qb2gdoZ1gbyCECOR4pgHxRoXp6gOspE78RUOTdjmrPjzPBs7By6Kx9QDGg7DL7y8g%3D%3D&X-Amz-Signature=dc8f894ac3683630e4bc00023f789710c2a75e3fffd52d675d74b70f5b555275"
+  },
+  {
+   "comp": "MC48",
+   "entry": "src/indexMC48.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9f56569a-9bfe-45d5-a962-374caa00d193.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZOUBQ4OM%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T230217Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAr5L4jqhhuVso3S2pc%2BcrEG%2FaQHRNPE5tDNgNu6jRYEoCIQCGYeXmy45mLnh9dzoVXc8tCVaQuDTmiw%2FdpZtlo3bdNSqwBQjE%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMJfmR9tkxuCqsSOb6KoQFZkqTB7EA6SIGEr0ENHicilNp%2F9HZ2MHv4fv9JRKmyV%2BUv4G0ENSfPzwqTmAshp6gP5QufLXJ0KrtmEw0TjxMnn6xyZfvA9hEIBSEvx6Zpt0%2BZvBqRKxBg6YGRlJ8IVifZbfRPtfbVwhKIY8VZ7E9L%2BqsTk9E4JnKG9SAp%2FDk0y3rIEyjGT8S19t%2BmyJaa604xPM6l%2Bn31U%2BqzzU%2Fcgz8QI%2BJKMTcD2VkFIQECtbm2crI3UoIcixy591jBZAB%2B8QQKwo1KtwZKjfTP%2BIGG8M8nr16VCKUImPxJIDWbie1lSitSG%2Bg%2BohX9%2B3blakC%2F6quDu3VaQt4KBtKiq8OBGAfObvRX2oLA%2FyMv%2FBuN6oquxn7IcHgafs1gy1CHsw5XUiZ142st%2FcExHCfTv%2FToJCvQuWvAVFJbUrl57BtMPL5TJX1kZai4aZJ0Mymdz2RkjsxLDcIVHLyohdCBVylsKRgEnPRv0b1NTv96RcHzuJ1FkFbMClQqQKc9tWgF2Q9i42wH%2FvgfOSHC8p2nzNwOyRLxOnq2CCHwTL4aSaUAqlzKuE8%2FDxvYOoJsoEKmZCCnlcNkpSYOtrnUhr245unpEE%2F1aCmGinJWxDmC9RLRKV9DoM4M%2FB7Ud3smyGHgx1HAJCLwITO4t2z0qZL9p%2F6JkoyE%2B7qYxqMYvPDJnMkUbWuCMHm28ETSNNba8DhcHug7yzgcQlxj0fPg6ycFuJsaSDRs07gHKgV0bS35tT0813DuH2C7ypF7eghPpAyoaqnCu5XVXEyF2r61%2BIMP%2FvCIYgVMYNROEf5cWd3Z8C%2FsWkA87ZSIuqHO4VdNXsjnWyC7lRWP2pDGRUXkmHkgU9lV1zn7E1u7MMwxq%2F51gY6jwH%2FmWuEwQC6VvhuxS8Y8Y3AQlRPgzI9Ue061SZWtVq4Au71JLFozA3DAvwYa5lw%2BdaYZhymNa%2BBVNVGinlWe0FBRfRkiwrZSA4PrEJRCB1P2smIYqzDwaGieoGMFeVkC7MJylTxxukMj2XoivAoeiq%2BZct7NebKXXffqB%2BwRSjx0yJd2rjSO%2FRl91VoUc11Fw%3D%3D&X-Amz-Signature=6c78cecf1de1f0ca1b002461bab5723e5b46619e75ae3240e7e74e6cf558eaa2"
+  }
+ ]
+}
