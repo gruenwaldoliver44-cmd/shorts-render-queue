@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T21:58:52.288Z",
+ "ts": "2026-10-25T22:00:52.425Z",
  "source": "dashboard",
  "current": "2323-mc45-premium since 2026-10-25 21:58:48",
  "busy": true,
- "free_gb": 57,
+ "free_gb": 56,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 19,
- "mem_free_pct": 78,
+ "cpu": 79,
+ "gpu": 92,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
   "2240-mt45-premium",
