@@ -1,0 +1,38 @@
+{
+ "id": "2328-mc48-premium",
+ "type": "remotion",
+ "title": "MC48 \u00b7 Diamonds (De Beers) + MC45 v3 (Billboard-Text fix)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3e30cf2d-5373-4f03-9f9f-c0c9f4311818.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC48",
+   "entry": "src/indexMC48.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d79944cb-971d-4d70-8bd8-75daba79c1af.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZC4WW7HG%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T223110Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEA%2BHy5bzKdJ4Z2A3ThOmNydEV%2F2p2hY2%2FdqsAPGuA4V%2FwCIEN3Xn08zX593gMLjDqwEXkeaMTjT05jMNmQEks3n6qWKrAFCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgyQk0FlfcZ5jePUMMwqhAUsZQM2A5oSJw3rTYN4F8QOSmDgCV6asrG98Dzw5zS7dtxBWvit1%2FrVWLN3YGUpr39Po3rx3j9rBicYPluzxgp2SvD5K6LQpia5nRXt7WAiH5W2o8CcUIruovg%2BHFGuNzgrJlhdFlFDKMf1ERkQ2gKIk0sAq%2Bmyg%2F9Om76Gw14a3BjSoOfguJLVRwDq5gDrMnIySFVrIWEed9Cmjgjzqob61LuML643fjbP%2BGxdQQkSPz3ZPa2PL7bEqRrnIVQuhFYTu4Jg6Q8qHtcw45Y7jFf4iS%2BSivGqTbHElB%2FerHMkB9AlyJeI2glbBFAMmn%2FJFeYocayGZcNNFufOv8W1bQ6GWyQPFBVGyjbdtc9tDZs1nGEb0YUCKxg6rAi8k60FPXBFQ2tF%2FbwOqk9fkbw5RyfAK2Vt6SR0Hc9j11zxQuP%2BrfBHQw2LIacPRudQjSWC6UG76RyGXco5c2Cqhl%2FHkGvOUj%2B5E7WwACbqePqY4Ub%2F15KxFfMTr5kasOwL9J23jA47mAciD6Desb5bFojZ2X7q%2FTxBVwtQA6EaGJ7Ftg7e6cSKx6oOqhXhAlyWik9btZ2bRSbgo46M6%2BMrxaRqlndRK7etD2%2F3QgNMgcp45pJpPY2w2EyKu3aiYjQdWQbQDrFfMQxKt7ky5Fvc3OOKJJ6hAztDizppfHPuADnNMsCNbbOC0ezvBO%2Bw9pfBFgATgRDOqBjZm9m2UswXEsOkWo49Z1vGTyewXA2Krch6W8STIYv0s%2BMQ4DC%2Fech4Owi896tt1s6lDj00oqKIApmiYB58ktbobJiftuuZ%2FKdm%2BfdGqY5CednRmzOmJV9VAw4AADFyCZB0Y3GbtD65n9Nd5Q2dBV%2BYnjCBsfnWBjqQAYYNwH6AGtA4fS%2BSb1GIvWhh%2BxohjYOULqENz8nEZLR7H5dH0p%2BMu5w8lwIhkYvan0%2B92tFx97BfUEkpCPdizDOR5Agcit2t62JUaRcUm%2FAQc%2FeWjrDWo8lJRVFf8eIxSvS7FOWsjZ6OWlbBAH0iC6V2LPS0zMsYAk%2BnUfxSg1vZIOd7lzlkMyurOxp9UM%2FbWA%3D%3D&X-Amz-Signature=b7132aae1375eb76b8e760cee489f42ad67525b37ec0329953bd1abc47951970"
+  },
+  {
+   "comp": "MC45",
+   "entry": "src/indexMC45.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8dcbb9a2-2bed-47c0-9cf2-443e77a6b408.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG36PNPKNM%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T223110Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEA3FeBvD8Xh2xW6c6N4qigt5%2Fd5ER7%2FGFS27EBoYkTvioCIQCBol7BWTJJOE5UtaiUAt6%2B%2FNx2U5wRNFzZXZJR2HzAVCqwBQjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMWIVwIZ85kYZgMUnQKoQFp%2BHEIjXec9sUpGUCdYDCYrT69IddB4o4FcUnxpOk51jiqp1MN0P0quxLKprpfDiRXh8ZSEa1yQRqU3KKfMc1pZnq2%2ByWOCBZv0PRuZuoU09EvS4WWpwGM%2FIjWJ1hQqaQg0zQLL33BwQBlqwnS9Xh1%2BytCS48rEBYy7%2FvQ55bl1TNZRCRpA6pQJTsIJuyioMX4E8S4%2BmMeK1rGA8sP7%2FxBaSzxmPD5RyNIQHwzkzVndQuV%2FZdfdzwOwzq8Juzhj1uZnQ2EU2mnc5E6n32pcXN9JZTag%2BGg0BsQbUVHtLyj25Ss9xxqwJ3PyaFBDF6tGTnGWQ%2BgwrLaAVH0tASFx71CUuVh4REIjaRoWswvPXwEtg6Qf13Ao1ZlSr3WEdpJ9MYBQ8YldhWkdXDTcr5UrDGJU21%2FUBRO8I9G9gj%2BqA4a3vzbjhC5%2F5vrP4SidCTVNiQCZfTpbV5KaqqZH8Gbs7b28az6xjvFfeBP4VHZtcRKtR6jt6gTbYhTXx9q2KarmhpU6xdr7MB1ObmHQCfW0NwjdM36k5hN5ORnVfxlwwr%2BQsIjazzLnX3ndv8icCdl1gZYrjBQsYYhTeWWxgJAN6uqIglCFSIJgKw9vt2cO%2F0S75bzEl3iLzb8A0a3l9jaO0L1mS4g9qaod8D7lJ5u3tmIbTQMrDvwcU7YhCB4l%2FvoWk5gytg81JCfj2fXi5ZkBXqCADwFXK3F5KjZ3Gzc1tlultsacsDCSed92exfRoBY%2BPtX2qxs0WtyEp13kv8kiQzX3KCGBXng7rX9hi0QpD%2F6kf2kR%2B%2F3z60bn5i14Bq%2FHbUvYlWhHfeZ%2FLsW8ZeNkQQToJC99%2B3gdS4Oa6INEIbiAQBZp4wmYv51gY6jwEZzbiVf3%2FK%2B5NHj1cR6u%2FEAvmeZi0G7621OQMd1igd2s4xfFjs3ussdHPkAqh87bNzUBgio0hLbF%2BzmlhaP5n2yq8Hv%2B6H9KkpzRAAim7vxMyNoq2xGFnZNb0neUZ%2FddyePGwdtJPPSC2HbPfv8pijNpf%2FtyU939XCMAX%2Fr26KUI2OwVN8028CVTvG8bp5bg%3D%3D&X-Amz-Signature=2e77ed5b9c9639ad36f52bdd3e7900eeb4548e8d69836279912f54d05f36793b"
+  }
+ ]
+}
