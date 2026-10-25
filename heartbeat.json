@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T12:42:15.871Z",
- "source": "dashboard",
- "current": "2107-ct43-prev2 since 2026-10-25 12:13:36",
- "busy": false,
- "free_gb": 49,
- "blender_procs": 2,
- "cpu": 28,
- "gpu": 96,
- "mem_free_pct": 20,
- "progress": null,
+ "ts": "2026-10-25T12:43:41.624Z",
+ "current": "2206-mt43-prev5 since 2026-10-25 12:43:41",
+ "busy": true,
+ "free_gb": 52,
+ "blender_procs": 0,
  "done": [
   "2402-ft29-prev1",
   "2303-mc43-src",
@@ -32,6 +27,7 @@
   "0001-agent-test"
  ],
  "failed": [
+  "2107-ct43-prev2",
   "2304-mc43-prev2",
   "2204-mt43-prev3",
   "2105-ct43-combo",
@@ -39,12 +35,5 @@
   "2203-mt43-prev2",
   "2104-ct43-prev2",
   "2103-ct43-prev1b"
- ],
- "status": {},
- "queue": [
-  "2107-ct43-prev2",
-  "2206-mt43-prev5",
-  "2307-mc43-prev3",
-  "2407-ft29-r2"
  ]
 }
