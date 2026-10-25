@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T15:56:08.098Z",
+ "ts": "2026-10-25T15:57:33.909Z",
+ "source": "dashboard",
  "current": "2410-ft29-hy-stills since 2026-10-25 15:56:08",
- "busy": true,
- "free_gb": 49,
- "blender_procs": 0,
+ "busy": false,
+ "free_gb": 54,
+ "blender_procs": 1,
+ "cpu": 24,
+ "gpu": 97,
+ "mem_free_pct": 31,
+ "progress": {
+  "n": 16,
+  "total": 19,
+  "eta_min": 0
+ },
  "done": [
   "2210-mt43-stills",
   "2111-ct43-herotest",
@@ -55,10 +64,15 @@
   "title": "FT29 · Hybrid: Welt-Standbilder + Tempo-Test",
   "job_since": "2026-10-25T15:56:08.078Z",
   "timeout_min": 50,
-  "step": 0,
+  "step": 8,
   "steps": 10,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T15:56:08.079Z"
- }
+  "label": "Blender: 15 Welt-Standbilder in voller Qualitaet (16 Samples, ohne Figuren)",
+  "step_since": "2026-10-25T15:56:10.479Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2410-ft29-hy-stills/st",
+   "total": 19
+  },
+  "updated": "2026-10-25T15:56:10.479Z"
+ },
+ "queue": []
 }
