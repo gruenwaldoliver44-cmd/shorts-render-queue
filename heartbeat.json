@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:00:52.425Z",
- "source": "dashboard",
- "current": "2323-mc45-premium since 2026-10-25 21:58:48",
+ "ts": "2026-10-25T22:02:32.656Z",
+ "current": "2422-ft31-premium since 2026-10-25 22:02:32",
  "busy": true,
- "free_gb": 56,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 79,
- "gpu": 92,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
+  "2323-mc45-premium",
   "2240-mt45-premium",
   "2322-mc44-premium2",
   "2231-mt44-premium-v2",
@@ -48,8 +44,7 @@
   "2302-mc43-prev1",
   "2202-mt43-prev1",
   "2102-ct43-prev1",
-  "2401-ft29-probe",
-  "2301-mc43-probe1"
+  "2401-ft29-probe"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2323-mc45-premium",
-  "title": "MC45 · Straddling-Bus komplett animiert (Premium-Render)",
-  "job_since": "2026-10-25T21:58:48.019Z",
-  "timeout_min": 45,
+  "job": "2422-ft31-premium",
+  "title": "FT31 · Address Poisoning (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T22:02:32.633Z",
+  "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T21:58:48.019Z"
- },
- "queue": [
-  "2422-ft31-premium"
- ]
+  "updated": "2026-10-25T22:02:32.633Z"
+ }
 }
