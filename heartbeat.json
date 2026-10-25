@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-25T15:20:40.901Z",
- "current": "",
+ "ts": "2026-10-25T15:20:42.576Z",
+ "current": "2309-mc43-upload2 since 2026-10-25 15:20:42",
  "busy": true,
  "free_gb": 55,
  "blender_procs": 0,
@@ -47,13 +47,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2209-mt43-speedinfo",
-   "title": "MT43 · Tempo-Test auslesen",
-   "result": "fertig",
-   "at": "2026-10-25T15:20:40.474Z"
-  },
-  "updated": "2026-10-25T15:20:40.474Z"
+  "state": "busy",
+  "job": "2309-mc43-upload2",
+  "title": "MC43 · Vorschau 3 hochladen (Nachlieferung)",
+  "job_since": "2026-10-25T15:20:42.515Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T15:20:42.516Z"
  }
 }
