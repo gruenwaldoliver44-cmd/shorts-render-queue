@@ -1,14 +1,14 @@
 {
  "title": "CT43",
  "stage": "Szenen",
- "note": "Hybrid-Shotliste steht: 3 Blender-Heldenshots, 9 Blender-Standbilder fuer 2.5D, 10 KI-Szenen mit festem Cast; Tempo-Test 2111 in der Warteschlange",
+ "note": "Tempo-Test 2111 fertig (ca. 5 s pro Bild ohne Figuren). 11 KI-Szenen mit festem Cast fertig und geprueft. Heldenshots 2113 warten hinter MT/FT",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T15:20:50Z",
- "eta": "heute 19:00 Vienna-Slot pruefen, sonst morgen 08:00",
+ "updated": "2026-10-25T15:44:00Z",
+ "eta": "heute ca. 18:30 fertig, Slot 20:00 Vienna",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 30,
- "next": "Tempo-Test auswerten, dann Heldenshots parallel (N=2) rendern",
- "preview_img": "local:work/2111-ct43-herotest/ho/st_brick.jpg",
- "preview_note": "2111 · Standbild Brikett (nach dem Test)"
+ "progress": 40,
+ "next": "Heldenshots (245 Bilder, 2 parallel, ca. 15-20 min), dann Zusammenschnitt + Ton",
+ "preview_img": "local:work/2111-ct43-herotest/ho/st_lab.jpg",
+ "preview_note": "2111 · Labor-Standbild (Blender, 16 Samples)"
 }
