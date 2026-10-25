@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:10:52.352Z",
- "source": "dashboard",
- "current": "2250-mt46-premium since 2026-10-25 22:07:21",
+ "ts": "2026-10-25T22:11:24.691Z",
+ "current": "2324-mc46-premium since 2026-10-25 22:11:24",
  "busy": true,
- "free_gb": 56,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 19,
- "mem_free_pct": 76,
- "progress": null,
  "done": [
+  "2250-mt46-premium",
   "2422-ft31-premium",
   "2323-mc45-premium",
   "2240-mt45-premium",
@@ -48,8 +44,7 @@
   "2402-ft29-prev1",
   "2303-mc43-src",
   "2302-mc43-prev1",
-  "2202-mt43-prev1",
-  "2102-ct43-prev1"
+  "2202-mt43-prev1"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,19 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2250-mt46-premium",
-  "title": "MT46 · SSD verliert Elektronen (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T22:07:21.226Z",
-  "timeout_min": 60,
+  "job": "2324-mc46-premium",
+  "title": "MC46 · The Line komplett animiert (Premium-Render)",
+  "job_since": "2026-10-25T22:11:24.669Z",
+  "timeout_min": 45,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:07:21.226Z"
- },
- "queue": [
-  "2324-mc46-premium",
-  "2325-mc45-premium2",
-  "2423-ft32-premium"
- ]
+  "updated": "2026-10-25T22:11:24.669Z"
+ }
 }
