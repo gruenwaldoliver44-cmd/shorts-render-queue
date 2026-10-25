@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T13:44:15.894Z",
+ "ts": "2026-10-25T13:46:15.933Z",
  "source": "dashboard",
  "current": "2108-ct43-bench since 2026-10-25 13:38:01",
  "busy": true,
- "free_gb": 45,
+ "free_gb": 41,
  "blender_procs": 2,
- "cpu": 32,
- "gpu": 97,
- "mem_free_pct": 49,
+ "cpu": 17,
+ "gpu": 86,
+ "mem_free_pct": 7,
  "progress": {
-  "n": 2,
+  "n": 4,
   "total": 14,
-  "eta_min": 34
+  "eta_min": 10
  },
  "done": [
   "2307-mc43-prev3",
