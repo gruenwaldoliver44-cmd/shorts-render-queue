@@ -64,8 +64,12 @@ try {
     const changed = !fs.existsSync(dst) || fs.readFileSync(src, "utf8") !== fs.readFileSync(dst, "utf8");
     let alive = false;
     if (fs.existsSync(pidf)) { try { process.kill(Number(fs.readFileSync(pidf, "utf8")), 0); alive = true; } catch {} }
+    if (alive) { const owner = (spawnSync("/bin/bash", ["-c", "lsof -ti tcp:8765 -sTCP:LISTEN | head -1"], { encoding: "utf8" }).stdout || "").trim(); if (owner && owner !== fs.readFileSync(pidf, "utf8").trim()) alive = false; }
     if (changed || !alive) {
-      if (alive) { try { process.kill(Number(fs.readFileSync(pidf, "utf8"))); } catch {} await new Promise((r) => setTimeout(r, 500)); }
+      if (alive) { try { process.kill(Number(fs.readFileSync(pidf, "utf8"))); } catch {} }
+      // also stop any older dashboard still holding the port (e.g. one started by hand)
+      spawnSync("/bin/bash", ["-c", "lsof -ti tcp:8765 -sTCP:LISTEN | xargs kill 2>/dev/null; true"]);
+      await new Promise((r) => setTimeout(r, 800));
       fs.copyFileSync(src, dst);
       const c = spawn(process.execPath, [dst], { detached: true, stdio: "ignore" });
       c.unref(); fs.writeFileSync(pidf, String(c.pid));
