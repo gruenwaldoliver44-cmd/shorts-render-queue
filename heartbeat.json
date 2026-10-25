@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T21:16:52.192Z",
- "source": "dashboard",
- "current": "2320-mc43p-premium since 2026-10-25 21:12:40",
- "busy": false,
- "free_gb": 56,
+ "ts": "2026-10-25T21:17:48.490Z",
+ "current": "2420-ft29r-premium since 2026-10-25 21:17:48",
+ "busy": true,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 0,
- "mem_free_pct": 85,
- "progress": null,
  "done": [
+  "2320-mc43p-premium",
   "2120-ct43r-premium",
   "2414-ft29-people",
   "2116-ct43-up-people",
@@ -48,8 +44,7 @@
   "1015-list-sonniss",
   "1013-ct42b-final1",
   "1012-ct42b-prev3",
-  "1011-ct42b-prev2",
-  "1010-ct42b-prev1"
+  "1011-ct42b-prev2"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2320-mc43p-premium",
-  "title": "MC43 · Louvre-Kronjuwelen komplett animiert (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T21:12:40.005Z",
+  "job": "2420-ft29r-premium",
+  "title": "FT29 · Neuaufbau komplett animiert (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T21:17:48.468Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T21:12:40.005Z"
- },
- "queue": [
-  "2420-ft29r-premium"
- ]
+  "updated": "2026-10-25T21:17:48.468Z"
+ }
 }
