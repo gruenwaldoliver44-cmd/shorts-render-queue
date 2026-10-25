@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T15:39:33.998Z",
+ "ts": "2026-10-25T15:41:33.803Z",
  "source": "dashboard",
  "current": "2210-mt43-stills since 2026-10-25 15:32:14",
  "busy": false,
  "free_gb": 42,
  "blender_procs": 1,
- "cpu": 28,
- "gpu": 44,
- "mem_free_pct": 5,
+ "cpu": 34,
+ "gpu": 11,
+ "mem_free_pct": 39,
  "progress": {
-  "n": 1,
+  "n": 2,
   "total": 8,
-  "eta_min": 44
+  "eta_min": 21
  },
  "done": [
   "2111-ct43-herotest",
