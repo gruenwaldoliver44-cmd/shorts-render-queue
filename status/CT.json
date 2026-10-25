@@ -1,14 +1,14 @@
 {
  "title": "CT43",
- "stage": "Szenen",
- "note": "Tempo-Test 2111 fertig (ca. 5 s pro Bild ohne Figuren). 11 KI-Szenen mit festem Cast fertig und geprueft. Heldenshots 2113 warten hinter MT/FT",
+ "stage": "Vorschau",
+ "note": "Skript nach Nacherzaehl-Test geschaerft und Stimme neu (65 s). 16 KI-Szenen mit festem Cast + Blender-Archiv/Labor/Kueche; Overlays stehen. Heldenshots 2113 laufen (150/245)",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T15:44:00Z",
- "eta": "heute ca. 18:30 fertig, Slot 20:00 Vienna",
+ "updated": "2026-10-25T16:25:31Z",
+ "eta": "ca. 18:00 fertig, Slot heute 20:00 Vienna",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 40,
- "next": "Heldenshots (245 Bilder, 2 parallel, ca. 15-20 min), dann Zusammenschnitt + Ton",
+ "progress": 62,
+ "next": "Heldenshots hochladen, Zusammenschnitt, Ton, QC, Planung 20:00",
  "preview_img": "local:work/2111-ct43-herotest/ho/st_lab.jpg",
  "preview_note": "2111 · Labor-Standbild (Blender, 16 Samples)"
 }
