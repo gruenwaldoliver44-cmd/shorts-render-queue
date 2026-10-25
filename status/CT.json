@@ -1,14 +1,14 @@
 {
  "title": "CT43",
  "stage": "Vorschau",
- "note": "Vorschau 2 nach 30 min abgebrochen (zu langsam, ca. 90 s pro Halbbild). Tempo-Test 2108 wartet, danach Final-Plan",
+ "note": "Tempo-Test 2108 fertig (13:55). Ergebnisse werden hochgeladen (Job 2109) und ausgewertet",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T13:45:08Z",
- "eta": "nach Tempo-Test",
+ "updated": "2026-10-25T14:17:31Z",
+ "eta": "nach Auswertung Tempo-Test",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 40,
- "next": "Tempo-Test auswerten, dann Final in voller Qualitaet (16 Samples) in Teilen",
+ "progress": 42,
+ "next": "Ursache der Langsamkeit beheben, dann Final in voller Qualitaet in Teilen",
  "preview_img": "local:work/2108-ct43-bench/bo/s_0000.jpg",
- "preview_note": "Standbilder kommen mit dem Tempo-Test 2108"
+ "preview_note": "Tempo-Test 2108 \u00b7 13:55 \u00b7 Standbild Kueche (Bild 0)"
 }
