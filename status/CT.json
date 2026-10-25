@@ -1,14 +1,14 @@
 {
  "title": "CT43",
- "stage": "Vorschau",
- "note": "Skript nach Nacherzaehl-Test geschaerft und Stimme neu (65 s). 16 KI-Szenen mit festem Cast + Blender-Archiv/Labor/Kueche; Overlays stehen. Heldenshots 2113 laufen (150/245)",
- "slot": "",
+ "stage": "Ton & Prüfung",
+ "note": "Heldenshots da, Plate fertig (65,8 s), Ton gemischt (-14 LUFS). Remotion-Overlay rendert in der Sandbox (geteilte CPU, langsam). Slot 20:00 nicht mehr sicher, daher morgen 08:00",
+ "slot": "Mo 08:00",
  "error": false,
- "updated": "2026-10-25T16:25:31Z",
- "eta": "ca. 18:00 fertig, Slot heute 20:00 Vienna",
+ "updated": "2026-10-25T17:24:44Z",
+ "eta": "heute ca. 18:45 fertig",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 62,
- "next": "Heldenshots hochladen, Zusammenschnitt, Ton, QC, Planung 20:00",
+ "progress": 85,
+ "next": "Overlay fertig rendern, muxen, QC, Virality, planen",
  "preview_img": "local:work/2111-ct43-herotest/ho/st_lab.jpg",
  "preview_note": "2111 · Labor-Standbild (Blender, 16 Samples)"
 }
