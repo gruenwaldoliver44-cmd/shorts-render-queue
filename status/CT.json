@@ -1,14 +1,15 @@
 {
  "title": "CT43",
- "stage": "Vorschau",
- "note": "Nur-Blender-Fassung wird gerendert. Figuren-Check: Besitzer/Mitbewohnerin haben noch Gummi-Arme (Rig-Fehler) und sind deshalb rausgeschnitten; nur Pruefer + Hund im Bild",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe. Nur Blender + Grafik (0 KI-Bilder), QC bestanden. Hinweis: Besitzer/Mitbewohnerin wegen Gummi-Armen rausgeschnitten, daher wenig Figuren-Reaktionen",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T18:18:22Z",
- "eta": "heute ca. 19:15 zur Freigabe",
+ "updated": "2026-10-25T18:29:53Z",
+ "eta": "bereit",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 75,
- "next": "Overlay rendern, Ton, QC, dann zur Freigabe",
- "preview_img": "local:work/2115-ct43-people/co/c_l3.jpg",
- "preview_note": "2115 · Labor mit Pruefer (Blender)"
+ "progress": 92,
+ "next": "Oliver gibt frei oder wuenscht Rig-Fix fuer die Figuren",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c7306692-5d24-401a-ab97-77d8ae295f82.jpg",
+ "preview_note": "CT43 Final-Kandidat · 65,8 s · nur Blender",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/74a8fc5a-6817-4bff-8b81-03cfa5c385e7.mp4"
 }
