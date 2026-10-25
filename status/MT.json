@@ -1,7 +1,8 @@
 {
  "title": "MT43",
  "stage": "Vorschau",
- "note": "Wartet auf Vorschau 5 (echte Figuren, Bahnübergang bei Nacht)",
+ "note": "Vorschau 5 abgestürzt (Logo-Entfernung an der Lok), repariert, Vorschau 6 in der Warteschlange",
+ "slot": "",
  "error": false,
- "updated": "2026-10-25T12:18:45Z"
+ "updated": "2026-10-25T12:48:03Z"
 }
