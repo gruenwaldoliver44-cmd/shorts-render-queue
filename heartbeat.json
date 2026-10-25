@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-25T17:24:03.804Z",
- "current": "2312-mc43-encup since 2026-10-25 17:24:03",
+ "ts": "2026-10-25T17:24:30.367Z",
+ "current": "",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
  "done": [
+  "2312-mc43-encup",
   "2412-ft29-hy-up",
   "2212-mt43-final",
   "2114-ct43-up-hero",
@@ -59,15 +60,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2312-mc43-encup",
-  "title": "MC43 · Heldenshots kodieren + hochladen",
-  "job_since": "2026-10-25T17:24:03.787Z",
-  "timeout_min": 12,
-  "step": 0,
-  "steps": 7,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T17:24:03.787Z"
+  "state": "idle",
+  "last": {
+   "job": "2312-mc43-encup",
+   "title": "MC43 · Heldenshots kodieren + hochladen",
+   "result": "fertig",
+   "at": "2026-10-25T17:24:30.320Z"
+  },
+  "updated": "2026-10-25T17:24:30.321Z"
  }
 }
