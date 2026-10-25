@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:38:52.402Z",
- "source": "dashboard",
- "current": "2424-ft33-premium since 2026-10-25 22:35:43",
+ "ts": "2026-10-25T22:39:13.865Z",
+ "current": "2425-ft31b-premium since 2026-10-25 22:39:13",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 19,
- "mem_free_pct": 75,
- "progress": null,
  "done": [
+  "2424-ft33-premium",
   "2327-mc46-premium2",
   "2326-mc47-premium",
   "2260-mt47-premium",
@@ -48,8 +44,7 @@
   "2111-ct43-herotest",
   "2309-mc43-upload2",
   "2209-mt43-speedinfo",
-  "2409-ft29-prev3",
-  "2109-ct43-up"
+  "2409-ft29-prev3"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2424-ft33-premium",
-  "title": "FT33 · 8.000 Bitcoin auf der Mülldeponie (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T22:35:43.646Z",
+  "job": "2425-ft31b-premium",
+  "title": "FT31 · Address Poisoning, Korrektur Leuchteffekte (Premium-Render)",
+  "job_since": "2026-10-25T22:39:13.843Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:35:43.646Z"
- },
- "queue": [
-  "2425-ft31b-premium"
- ]
+  "updated": "2026-10-25T22:39:13.843Z"
+ }
 }
