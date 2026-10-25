@@ -46,15 +46,15 @@
    "label": "Blender baut die FT29-Welt MIT echten Figuren und speichert sie"
   },
   {
-   "run": "T=$(date +%s); FT_FRAMES='p_0019:19,p_0390:390,p_0420:420,p_0460:460,p_0486:486,p_0663:663,p_0732:732,p_0768:768,p_0915:915,p_0991:991,p_1095:1095,p_1170:1170,p_1305:1305,p_1470:1470,p_1560:1560,p_1680:1680,p_1725:1725' /Applications/Blender.app/Contents/MacOS/Blender -b ft29p.blend -P rf.py -- still $PWD/ps > ps.log 2>&1; grep FT29RF ps.log; echo pstills_s $(( $(date +%s) - T )) | tee -a times.txt",
-   "label": "17 Standbilder mit Figuren (16 Samples)",
+   "run": "T=$(date +%s); FT_FRAMES='p_0019:19,p_0330:330,p_0390:390,p_0420:420,p_0460:460,p_0486:486,p_0663:663,p_0732:732,p_0768:768,p_0915:915,p_0991:991,p_1095:1095,p_1170:1170,p_1305:1305,p_1470:1470,p_1560:1560,p_1680:1680,p_1725:1725' /Applications/Blender.app/Contents/MacOS/Blender -b ft29p.blend -P rf.py -- still $PWD/ps > ps.log 2>&1; grep FT29RF ps.log; echo pstills_s $(( $(date +%s) - T )) | tee -a times.txt",
+   "label": "18 Standbilder mit Figuren (16 Samples)",
    "progress": {
     "dir": "ps",
-    "total": 18
+    "total": 19
    }
   },
   {
-   "run": "T=$(date +%s); FT_FRAMES='pd_0019:19,pd_0390:390,pd_0420:420,pd_0460:460,pd_0486:486,pd_0663:663,pd_0732:732,pd_0768:768,pd_0915:915,pd_0991:991,pd_1095:1095,pd_1170:1170,pd_1305:1305,pd_1470:1470,pd_1560:1560,pd_1680:1680,pd_1725:1725' /Applications/Blender.app/Contents/MacOS/Blender -b ft29p.blend -P rf.py -- depth $PWD/pd > pd.log 2>&1; echo pdepth_s $(( $(date +%s) - T )) | tee -a times.txt; ls pd | wc -l",
+   "run": "T=$(date +%s); FT_FRAMES='pd_0019:19,pd_0330:330,pd_0390:390,pd_0420:420,pd_0460:460,pd_0486:486,pd_0663:663,pd_0732:732,pd_0768:768,pd_0915:915,pd_0991:991,pd_1095:1095,pd_1170:1170,pd_1305:1305,pd_1470:1470,pd_1560:1560,pd_1680:1680,pd_1725:1725' /Applications/Blender.app/Contents/MacOS/Blender -b ft29p.blend -P rf.py -- depth $PWD/pd > pd.log 2>&1; echo pdepth_s $(( $(date +%s) - T )) | tee -a times.txt; ls pd | wc -l",
    "label": "Tiefenbilder fuer 2.5D",
    "progress": {
     "dir": "pd",
