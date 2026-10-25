@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T22:50:52.351Z",
+ "ts": "2026-10-25T22:52:52.358Z",
  "source": "dashboard",
  "current": "2328-mc48-premium since 2026-10-25 22:47:41",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 27,
- "gpu": 19,
- "mem_free_pct": 78,
+ "cpu": 46,
+ "gpu": 95,
+ "mem_free_pct": 51,
  "progress": null,
  "done": [
   "2270-mt48-premium",
