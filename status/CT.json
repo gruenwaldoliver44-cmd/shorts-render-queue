@@ -1,15 +1,15 @@
 {
  "title": "CT45",
- "stage": "Rendern (Mac)",
- "note": "Gates A+C bestanden, Stills geprueft, Premium-Render laeuft",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T22:22:02Z",
- "eta": "fertig Mo 26 Okt 21:30 (Slot 22:55)",
- "topic": "Digitaler Film/E-Book 'Kauf' ist nur eine Lizenz",
- "progress": 55,
- "next": "CT46 (Auto-Restschuld oder Geldschein-Pruefer)",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4df9ae01-a9c3-4757-982d-7ac4070342ac.jpg",
- "preview_note": "CT44 Silberbarren · 68,9 s · alles bewegt",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4dab5842-5df4-4bf6-904f-dd4b2b014368.mp4"
+ "updated": "2026-10-25T22:36:13Z",
+ "eta": "bereit fuer Mo 26 Okt 22:55",
+ "topic": "Digitaler Film/E-Book-'Kauf' ist nur eine Lizenz",
+ "progress": 95,
+ "next": "CT46 Auto-Restschuld nach Pfaendung (Skript+Stimme fertig, Bau laeuft)",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a87ecc37-bd2d-4f40-8eef-0f8652555967.jpg",
+ "preview_note": "CT45 Lizenz statt Kauf · 77,5 s · -14 LUFS · alles bewegt",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5ea7d695-b786-43ba-a8df-b77c1092d4e9.mp4"
 }
