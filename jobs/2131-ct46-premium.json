@@ -1,0 +1,25 @@
+{
+ "id": "2131-ct46-premium",
+ "title": "CT46 \u00b7 Auto gepfaendet, Restschuld bleibt (Remotion Premium, 70 s)",
+ "type": "remotion",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/33b3ba93-d2b6-44e6-ba0e-241958059e16.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4b6105e3-4c5a-498a-a73e-42cf678fa09f.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG2F5WLBZD%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T225746Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiB6I%2Bg2ewMUUS4M03shIt4Mwp3pv%2FbOzb51rZDPeuX8MQIgCA%2BkwDHNdNqvwFPQ1ePii4PAEBlmN2vcMw17KzR7kcEqsAUIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDA9vn4mvjv3VVJfEOiqEBWqylZA2hi%2BpaEVtn%2Fbbbr7%2BTBEiZOhWn75kpF0mLbICcOgX65oL8QQqZ3xV8T1krVVtWouZXlCFBISVELsruz5GU55FukAzLNy2RLx7wb3301vG7fLGsj04enezk0gBjtAGLneCrVxGrGmTePO9kWeDCco64yfmjE4K4AWOjjDqOYSF2akTWXwFfQ1B0KOIiA%2BDU9DKXKK4Kk3nuwwMKRlxkZ6Q%2Fdv45QNGFy5wBkPZ1HywePqCO%2FZ9GfGcNqO8wpc%2FMhPyldbA3Tq4T%2FyFlvnMmb1VdIVR3s3LByBrbBNLJflZQzWsx1HH1cs7OHk03zFbnbF1izhGLTTAp6K4dUtHHBQGHx588hyWO52Bf0oWzB25Ezywz7mNEky%2BDMPc0MFGx1HOsDPnlJ83Njs9FPL2EySiX02%2BU7FrWKwPg8fqFVEX0x5jVID3ay%2FBemh2dn%2BiiTImGSZ%2F4GxpiTdSeQVjNO4Ga684OKva5H1BV4uUbeyJ3kS%2F4jFD0fP6zatIFUn9iXT4sQ3%2BrVipdQFIu%2Bf8XLLBBLRdRxl5sBBsboHBos22d%2BbIqNzmk48GEfAABk2cp5uFR5bqLCMiJ3UhTTrAuMVl2bC0WzBwv4k8pT1%2B8bJdV3xAvHtBrRyJ%2FE5WzmH%2BDugBIbTyA1bMSfQ8NVrc4yKqwacf0mZt4I0wQFVdvoWhe3EXmLnXPaq%2FCzuy3dkEjl9w6mtTYFAnzSGhrBa1qeRtJMOoVw0Zd7acj%2F%2BLkuDkHRA2sHJmKVPtuctH%2B3bt8%2BxGAy7SBKRqaZS5%2B%2FwYTLjW5fSMHO0FyzMzf%2BclxwWhtvQipUFJNYM6ss0gQMrP7hEREm0VlBzXMyLq6PIiSgW%2BMIf7%2BNYGOpEBsgXAmrVTUpFOLzPmfrvGhVLY2vtIhAorVO%2F7cbd3v01LRBvM6VUWspsiksvre9xIRI5p3q5JJCuxo9ip%2BsQ1Kb4zLpuOR%2FvlbIkVucpnBvFxxO%2BxZiUJBkQmOiMZBLNsZ4M9QOkIlb0jyUkcfdoiJzMvOJnQa%2BoLr4unwbK0VEov6%2BgD8xPzF9j6E3R3ff2AHw%3D%3D&X-Amz-Signature=21dd787cde012773a0357852a4fae689e50c70d6ea2b0251d7790ca094bc50fe",
+ "items": [
+  {
+   "comp": "CT46",
+   "entry": "src/indexCT46.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/7a8cf30c-4061-4626-ba14-883af378cec2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG63IDFNAC%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T225746Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiAQKEAXdUwKgBo5LjV7LSwXhUxrNzvRMrTS5iVlbQ4MigIhANf7CTdUdDiBuXR95xII%2F3rYFmy87B7U298lQBLiOExgKrAFCMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwGYxirAT9UcgLVAqkqhAUuyg0Ja3oYxD4bsjMy%2FoqA4m%2Biof95wPm5%2FljbFoMtymOOWYHZp%2BOb1XKPfsQHZ%2Fx8mCBuAAyU0UEkN8H7y6luVL7zPElZ3XxOV30H7fJCnLX%2FCoin3RAIfztASIXhpPHO%2Bvci5xEHUXSGJeB4qyVWJVTq0KG1HnCjMiWFNa9Qv0xzsR%2BAp1KcH91NjXzMrCf9hYT8rqen%2Fwdtc%2B7grYx0xkVrkDzIuM5kgVzR6g9XDi9VXTE7U604k3GIOwI99%2F7gSyOFC4Skjg3QfRbmm4E82wXZkVuhRa6LZSeL2C%2BauqQR9rYwKcOPKl398AmDoesHtNAZx%2Fx1g9IgqYijJfcqG2E7uIqv%2FdQoBZ9JXWMfDSxkoqNiqZtdqB61qCg%2FG%2FanuSrOLYsAE2Coh6jmJYcz4ZLhNAzpevqWsOFmEh6it44mp%2BeeUqsk8mXS6fDoC9Dzw%2FD5%2FCPVaExWUtAsVNad2l0ERQ4XoqLHinyq9damDoShIgKsHbjmuAMXjA%2BN5fOgkHjN7wAHrWguu6aKngL9pEumCO4n6VS7eTGhsi90XEE3wVivaezsJt0gPRg4pRmIdwgNvY%2F49e27Lt01%2B%2FHemfkKZmR9h1kvpnAP%2B6LC50WyEzq7Ap3dwdsPjke63fUft1jCfFRznXpaSVnQDDf6ohF334QurRsJuDH0EPbA1FHa%2BSIui1daveaSFKRFKCqkuQGi5vm9%2BlP4MyZxKPm6nuU%2FRZ7yLWZhTiHZDh3TVaM%2F6dWT09h8FkFr%2FxHglU5SGLtn8WwaHPNQ%2Bd1OI1cUqakEDcsknxj4DGF5W%2Ff%2BqZqDGLRRrEAUMGJXcMbxKaidEFf8y%2F%2FhvFcWAKOSPmNnEgG%2BDzC3wPnWBjqQAY1gadHrT20G4JQrNK%2BbrLSZen1W2rzul7%2BYxoLldPNy85loGryVySyLIXWR1G%2BWcmNEQrJVthQxjFNzaYDSM8FNi8FkcRtgwjSAhW0prERbrguE%2BrELaRPc8%2FS0Saxff2J7wgikRTEYFCt8B7xevox2fZFZe%2FQY%2F5Zp1xb4ZxsfgJOrGGnYpLF%2FfPu2VfHo5Q%3D%3D&X-Amz-Signature=eb3d7656301a95e86208d6a03e25fa89368d6a7d61444fe1b7ba5603fcccd6db"
+  }
+ ]
+}
