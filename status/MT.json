@@ -1,15 +1,15 @@
 {
- "title": "MT48",
+ "title": "MT49",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44-MT48 fertig (posting.md in Sandbox ~/v4x/). MT49 Autoschlüssel rendert am Mac, MT50 SOS in Arbeit (letzte Folge)",
+ "note": "MT44-MT49 fertig (posting.md in Sandbox ~/v4x/). MT50 SOS rendert am Mac (letzte Folge)",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T23:12:00Z",
- "eta": "MT49 + MT50: heute Nacht",
- "topic": "USB-Stick ohne Auswerfen",
+ "updated": "2026-10-25T23:24:00Z",
+ "eta": "MT50: heute Nacht",
+ "topic": "Autoschlüssel mit leerer Batterie",
  "progress": 100,
- "next": "MT49 QC + Upload, MT50 rendern",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3df33cba-0589-4fd9-ad99-97655f751cc3.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c4c59c4e-21c1-40a5-94cf-fa2d4d6033a1.mp4",
- "preview_note": "MT48 final"
+ "next": "MT50 QC + Upload, dann Schluss",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ee4ee6aa-7982-43ed-a376-5e6b0be47f8a.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/33ff00fd-11f6-4f47-aa02-633f4a9b3492.mp4",
+ "preview_note": "MT49 final"
 }
