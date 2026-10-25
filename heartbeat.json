@@ -1,14 +1,18 @@
 {
- "ts": "2026-10-25T20:04:36.552Z",
+ "ts": "2026-10-25T20:06:36.766Z",
  "source": "dashboard",
  "current": "2414-ft29-people since 2026-10-25 20:02:37",
  "busy": false,
- "free_gb": 60,
+ "free_gb": 47,
  "blender_procs": 1,
- "cpu": 48,
- "gpu": 9,
- "mem_free_pct": 57,
- "progress": null,
+ "cpu": 46,
+ "gpu": 22,
+ "mem_free_pct": 20,
+ "progress": {
+  "n": 0,
+  "total": 19,
+  "eta_min": null
+ },
  "done": [
   "2116-ct43-up-people",
   "2115-ct43-people",
@@ -73,12 +77,15 @@
   "title": "FT29 · Blender-Figuren: 17 Standbilder + 2 Heldenshots (16 Samples)",
   "job_since": "2026-10-25T20:02:37.659Z",
   "timeout_min": 90,
-  "step": 10,
+  "step": 11,
   "steps": 15,
-  "label": "Blender baut die FT29-Welt MIT echten Figuren und speichert sie",
-  "step_since": "2026-10-25T20:02:41.616Z",
-  "progress": null,
-  "updated": "2026-10-25T20:02:41.616Z"
+  "label": "18 Standbilder mit Figuren (16 Samples)",
+  "step_since": "2026-10-25T20:05:40.401Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2414-ft29-people/ps",
+   "total": 19
+  },
+  "updated": "2026-10-25T20:05:40.401Z"
  },
  "queue": []
 }
