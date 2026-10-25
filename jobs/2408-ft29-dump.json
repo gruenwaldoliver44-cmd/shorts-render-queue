@@ -1,0 +1,13 @@
+{
+ "id": "2408-ft29-dump",
+ "title": "FT29 \u00b7 Diagnose hochladen (1 Minute)",
+ "type": "shell",
+ "retries": 1,
+ "timeout_min": 5,
+ "steps": [
+  {
+   "run": "cd \"$AGENT_HOME/work/2407-ft29-r2\" && rm -rf dump && mkdir dump && cp lu/lineup.txt lu/face.jpg dump/ 2>/dev/null; for f in lu.log bp.log; do grep -v -i -E 'bearer|api_key|authorization|token' $f | grep -v '^Fra:' > dump/$f.txt 2>/dev/null; grep -c '^Fra:' $f >> dump/fra_counts.txt 2>/dev/null; grep '^Fra:' $f | tail -5 >> dump/fra_counts.txt 2>/dev/null; done; cp mdump_*.txt mfix_*.txt dump/ 2>/dev/null; ls -la rp >> dump/ls.txt 2>/dev/null; ls -la . >> dump/ls.txt; grep -l -i -E 'bearer|api_key' dump/* && echo LEAK && exit 1; zip -qr dump.zip dump && ls -la dump.zip && curl -s -o /dev/null -w 'dump %{http_code}\\n' -X PUT -H 'Content-Type: application/octet-stream' -H 'If-None-Match: *' --upload-file dump.zip 'https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a7661b0c-703e-49dc-8c89-08ed1e456cd7.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGWSKE6VLA%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T133928Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiBFcGnvRslXOOPC93m0eXl3G5SCZHar1zLk2TX7jto%2BAAIgJXB9p1f1zTuE%2BbP8CNKUt3Rdaxm1F1zlW%2FVAKFBrTKQqsAUIu%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDA1VJdJEd%2FvJTuLv0CqEBYZLzXnvLbpi%2BMaK0R6C0TJbFOU2OYmKNAnhyo1Asba2%2BsJZe%2FWStRsnFAj2pqhSrQZv6Yb2eypfKsS3m2SWCAy5cmFSQyEUZg8TEJxwwzd4T76FRELVWsBciHSyDjctnlt6BdHSx1FHnOqGNy4petrOhtueTW8I%2Bzig7A7pSksydS1KlYBrDZY58CFx6B5ZQ%2FvHZBvCf1dB6NQQpEW9zJ917khiJgtlSUwiHPmhQzqnXQxm6xcHBBrn0UviRX%2BAmFhX5QIuspSPADsaX6554La8AlDG4rXzA8n%2FIiF6C%2Bd23vlHJr26rKBH2RZgrg7r9XYmmgZscehrCBq%2F0n6a%2FDLuE7BPB%2F3Zi7dvUMDBkifo2hsbO2Lvrhc9DZmyYqXGaeFMQuHxDfVzE4EKJVfBGl5tRW6iCi3vbGfjRnr0X8lgPksmKnUtmyfmChbWwIm9jiZmUsqt2RGGybk%2BxUn9dTyZJ44moMQ9ZO1GP%2F8Ucv9GVZ0kLcHvKVMW3hlx5edVYozIEJAZBKQD0cMUC%2BLLoHR9%2FGXeLA2iK1ha%2BhFlPqql00UxF%2F41GYCgIMhYwYLnDt8BJQ4n0fXP6zS0RisppiDrb8esQIAzvbjHOvBO8FNAB7hvyGctN76yJZKanhrID1Kb%2BNU77a%2BPhxqP63e2BG8jdyWtHS3WYi4oA2rGDjceAqzsWPixzDVyyQaYEwSw4G3KSEWiOqMnJgJcll0mAUjNAFaIu6pnfbYbzOgnWAO2zbZEHsQQLmvIdP7I2Npg7EmwAb8JAYmshqgdJsUqqSiIhitOzzT1LxA4JX09NX0vY1Crb0hPeHbiDYUBartBomqKO4xCgV5Ed4ahJM7WDo%2FUUMZgMM6499YGOpEBYUHZ0vWZbzTXj7sIAipZjzwp49ll2MzLMTlVMvT%2FqZoREpIGmnDmqnujjBFM6aVOgfAvAiw3YcV%2F6j19uWXw93jdbg8yqBrhI97a8JTskqD4x25myaCVXTDz76Ou08XaDVUxZpF%2FdspKQ5pc%2B33IZgp58Fcc9579Qh%2FI%2Fmu8IKl3s6isaNRdNJd%2B3KIlJvtGoQ%3D%3D&X-Amz-Signature=f9f30fef4acbf1f1eeea4c9ced686c230f76266d8070aeda618c749d6aea6b19'",
+   "label": "Materialtest-Ergebnisse von 2407 packen und hochladen"
+  }
+ ]
+}
