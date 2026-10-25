@@ -25,7 +25,7 @@ const heartbeat = async (force = false) => {
     if (!fs.existsSync(tf)) return;
     if (!force && fs.existsSync(last) && Date.now() - Number(fs.readFileSync(last, "utf8")) < 5 * 60000) return;
     fs.writeFileSync(last, String(Date.now()));
-    const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'; pgrep -f '[B]lender.app/Contents/MacOS/Blender' | wc -l"], { encoding: "utf8" });
+    const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'; pgrep -f '^/Applications/[B]lender.app/Contents/MacOS/Blender' | wc -l"], { encoding: "utf8" });
     const [kb, nb] = (r.stdout || "").trim().split("\n");
     const recent = (d) => fs.readdirSync(path.join(STATE, d)).map((f) => [f, fs.statSync(path.join(STATE, d, f)).mtimeMs]).sort((a, b) => b[1] - a[1]).slice(0, 40).map((x) => x[0]);
     const status = { ts: new Date().toISOString(), current: fs.existsSync(CUR) ? fs.readFileSync(CUR, "utf8") : "", busy: fs.existsSync(LOCK), free_gb: Math.round(Number(kb) / 1048576), blender_procs: Number(nb) || 0, done: recent("done"), failed: recent("failed"), status: (() => { try { return JSON.parse(fs.readFileSync(path.join(STATE, "status.json"), "utf8")); } catch { return null; } })() };

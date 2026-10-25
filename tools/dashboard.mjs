@@ -30,9 +30,10 @@ const collect = () => {
   const memFree = Number((sh("memory_pressure -Q 2>/dev/null | grep -o '[0-9]*%' | tail -1 | tr -d '%'") || "0"));
   const therm = sh("pmset -g therm 2>/dev/null | grep -i 'CPU_Speed_Limit' | grep -o '[0-9]*'");
   const diskGB = Math.round(Number(sh("df -k \"$HOME\" | tail -1 | awk '{print $4}'") || 0) / 1048576);
-  const bl = sh("ps -axo pid=,pcpu=,rss=,etime=,command= | grep '[B]lender.app/Contents/MacOS/Blender'").split("\n").filter(Boolean).map((l) => {
-    const m = l.trim().split(/\s+/); return { pid: m[0], cpu: Number(m[1]), ram_gb: Math.round(Number(m[2]) / 1048576 * 10) / 10, time: m[3] };
-  });
+  // only real Blender processes (command starts with the Blender binary), not shell wrappers that mention it
+  const bl = sh("ps -axo pid=,pcpu=,rss=,etime=,command=").split("\n").map((l) => l.trim().split(/\s+/)).filter((m) => (m[4] || "").endsWith("Blender.app/Contents/MacOS/Blender")).map((m) => (
+    { pid: m[0], cpu: Number(String(m[1]).replace(",", ".")) || 0, ram_gb: Math.round(Number(m[2]) / 104857.6) / 10, time: m[3] }
+  ));
   const agentRunning = sh("pgrep -f '[a]gent/agent.mjs' | wc -l") !== "0";
   const hb = readTxt(path.join(STATE, "hb_result"));
   const loopBeat = readTxt(path.join(A, "heartbeat"));
