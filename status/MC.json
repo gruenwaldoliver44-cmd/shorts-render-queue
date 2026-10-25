@@ -1,8 +1,9 @@
 {
  "title": "MC43",
  "stage": "Vorschau",
- "note": "Louvre-Coup: Vorschau 3 wartet auf den Mac (nach CT und MT)",
+ "note": "Louvre-Coup: Vorschau 3 gerendert, Dateien werden nachgeliefert (2308); Render-Geschwindigkeit wird ausgewertet",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T12:22:00Z"
+ "eta": "noch offen (Final-Renderzeit wird gemessen, Update ca. 15:00)",
+ "updated": "2026-10-25T13:14:00Z"
 }
