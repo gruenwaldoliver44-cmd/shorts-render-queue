@@ -1,14 +1,14 @@
 {
  "title": "CT43",
  "stage": "Vorschau",
- "note": "Tempo-Test: 55 s pro Vollbild, Ursache Figuren (Haar-Partikel, Unterteilung). Behoben + Arme repariert; Test 2 (2110) in der Warteschlange",
+ "note": "Figuren-Check: Arme (B-Bones) und weisse Augen (Hornhaut-Material) repariert, Sitzpose Haende auf Knie; Test 2 (2110) wartet hinter MT",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:30:03Z",
+ "updated": "2026-10-25T14:35:52Z",
  "eta": "ca. morgen 08:00 (Slot); genauer nach Test 2",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
  "progress": 45,
- "next": "15 Vollbilder messen (2110), dann Final in voller Qualitaet in Teilen",
+ "next": "Test 2: 15 Vollbilder messen + Figuren-Standbilder pruefen, dann Final",
  "preview_img": "local:work/2108-ct43-bench/bo/s_1320.jpg",
  "preview_note": "Tempo-Test 2108 \u00b7 13:55 \u00b7 echte Figuren, Arme waren verzogen (repariert)"
 }
