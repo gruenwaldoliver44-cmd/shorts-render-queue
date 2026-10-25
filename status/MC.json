@@ -1,14 +1,15 @@
 {
  "title": "MC43",
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
- "stage": "Rendern",
- "progress": 75,
- "note": "Komplett neu: animierte Remotion/R3F-Welt + 3 Blender-Heldenclips, keine KI-Bilder, keine Menschen. Premium-Render 2320 auf dem Mac",
- "next": "QC, Ton anlegen, Upload, posting.md",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a4521ab-f0ae-4a21-b312-852664c3c96f.png",
- "preview_note": "Heldenshots v2 · 17:39 · Krone + leere Vitrine, ohne Schleier",
+ "stage": "Fertig, wartet auf gemeinsamen Slot",
+ "progress": 95,
+ "note": "Fertig, wartet auf gemeinsamen Slot. Komplett animierte Remotion/R3F-Welt + 3 Blender-Heldenclips, keine KI-Bilder, keine Menschen. 73.5 s, -14 LUFS, QC ok",
+ "next": "MC44 Fort Knox: Szenen und Render",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/08a26ab2-6958-44bc-bdc1-04278c09a7e3.jpg",
+ "preview_note": "MC43 final 21:30",
  "slot": "",
  "error": false,
- "eta": "heute ca. 23:30",
- "updated": "2026-10-25T21:06:00Z"
+ "eta": "fertig",
+ "updated": "2026-10-25T21:33:00Z",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/e0db9836-d0dd-49b6-b8e1-1f7f048e6059.mp4"
 }
