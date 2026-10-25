@@ -1,0 +1,25 @@
+{
+ "id": "2324-mc46-premium",
+ "type": "remotion",
+ "title": "MC46 \u00b7 The Line komplett animiert (Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/cc288004-5905-48a5-8f2e-11bc3e1cc496.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC46",
+   "entry": "src/indexMC46.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0ff9a740-6ec7-45cf-bd9e-d801bfcca5cb.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6FAOP34P%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T220221Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAp7j9bAsobfs00rkFbvvoyS8456tNxlrCurOR0DdIQ5ICIQCTNOMYKBZmgAHLA5vZXJDQnQQ3lhMuIP3U0wgq0yk99yqwBQjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMoPMhg%2F3SQZ9j2a63KoQFGGfCN%2BKr0rAMxklxT3zslPtLYG3kItFvV2mL8If6AVNNrwvvlggrP%2Bmyi1NjphBLnTPkKiK1UNJ5bSIYv3WQMi1RuRQo7SixaFBZMMiUvSE2qGdqhL92ACTIfS7xGza%2BfIArsWOgSXA8%2FSmWXalooTmA7DXEmfy2%2FZvtDogRC6ZCX6H447mcuLdJNgyB%2BRxAJpRB%2BNcGphU6Yf1sD7WzPkcZ%2BUQp0jjEN2HRHJSfF0%2FZV2QnAKYqN2NlTunwh%2Fb6QO8ecYyOVUQfwLbJ9p1ib8VEIKVRGZv9EuqWeKqQcqvPUbDPKb3cLO2cMOLuLzn33QwqjwklLKUYdWgtRL4QIdE2o8DtjrcFiWVuRTh7K6MNXb4ZuAtQoSbHcUsjf0GWvHUFFEpE4OZMxgmzNJB1BOUQ5ojO4RNzNDlJtAOu2rhBkD9yiNngftpSz%2FT6w3ULAnEMr1keqQCklgR0deN%2F895%2BZ5bczY0ENBq8fCTe6TSBKnP5AylBKvaE%2BOgD7oU2Ny7LZhH7rXi8d78TBhIcVcrh7jYNHqu6EDXh%2BiVo%2Bcwl%2BRQw0c6h5HF9tTHu2XYDf0IawTv8TY4nRl%2BxQnbmAO0B3vMzCDCx34m21ijT0ueswWRxSuQHJR0s1JFBzrQCtJ%2BdzZMciGQQiEkqPOgw3aBaU%2BWy4G2GkgMCv2OUw4XFOigPbzf3SHsHt3uZuuKspMxTOdNswmdbtkJgRsgnePfU2EAIe9OvAYWgF2CISDptzbrL%2B1aHSF0cmb3TgxdJTIT0AFS5AoId2NuB0XJTLAAMg7%2BbuZEDXK%2B18KBf%2F7rfPoMON877gFsXDw2HnMkE8BZk1iSD6HR%2B6gLblw3g00Ce%2B2kwnKH51gY6jwHbR0yv4moRkEoRlfOF1%2BqdPalfYlBOFAaaksSQyMCETiNlTLvMmWa%2BsiSKGnciAYz04sRyLckX9KJUI4a4ajiIkX4W8LghIsMBbjxl5z8snzKTatBDmhBmcuzOjna8AJI7VbK0CX7XvPsk%2FpPevFcxs9RNrcJjLZwQkoQV4dKFUHVBAx0wZQhfd8IGblU5lA%3D%3D&X-Amz-Signature=c88869ca156acdf030a527aa7a1b73214d3fe576f95327088bfb6c81b335cd49"
+  }
+ ]
+}
