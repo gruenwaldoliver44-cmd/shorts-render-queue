@@ -1,0 +1,38 @@
+{
+ "ts": "2026-10-25T12:13:34.688Z",
+ "current": "2107-ct43-prev2 since 2026-10-25 11:52:55",
+ "busy": true,
+ "free_gb": 60,
+ "blender_procs": 0,
+ "done": [
+  "2402-ft29-prev1",
+  "2303-mc43-src",
+  "2302-mc43-prev1",
+  "2202-mt43-prev1",
+  "2102-ct43-prev1",
+  "2401-ft29-probe",
+  "2301-mc43-probe1",
+  "2201-mt43-info",
+  "1016-sonniss-catalog",
+  "2101-ct43-probe",
+  "1020-r42-premium",
+  "1015-list-sonniss",
+  "1013-ct42b-final1",
+  "1012-ct42b-prev3",
+  "1011-ct42b-prev2",
+  "1010-ct42b-prev1",
+  "0004-blender-test",
+  "0003-blenderkit-install",
+  "0002-blender-check",
+  "0001-agent-test"
+ ],
+ "failed": [
+  "2304-mc43-prev2",
+  "2204-mt43-prev3",
+  "2105-ct43-combo",
+  "2403-ft29-probe2",
+  "2203-mt43-prev2",
+  "2104-ct43-prev2",
+  "2103-ct43-prev1b"
+ ]
+}
