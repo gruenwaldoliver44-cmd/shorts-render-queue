@@ -1,15 +1,15 @@
 {
- "ts": "2026-10-25T16:13:33.986Z",
+ "ts": "2026-10-25T16:15:34.057Z",
  "source": "dashboard",
  "current": "2113-ct43-hero since 2026-10-25 15:59:45",
  "busy": true,
- "free_gb": 43,
+ "free_gb": 44,
  "blender_procs": 2,
- "cpu": 26,
- "gpu": 97,
- "mem_free_pct": 23,
+ "cpu": 37,
+ "gpu": 93,
+ "mem_free_pct": 30,
  "progress": {
-  "n": 106,
+  "n": 115,
   "total": 245,
   "eta_min": 29
  },
