@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T12:36:15.450Z",
+ "ts": "2026-10-25T12:38:15.420Z",
  "source": "dashboard",
  "current": "2107-ct43-prev2 since 2026-10-25 12:13:36",
  "busy": false,
- "free_gb": 46,
+ "free_gb": 45,
  "blender_procs": 2,
- "cpu": 29,
+ "cpu": 30,
  "gpu": 95,
- "mem_free_pct": 22,
+ "mem_free_pct": 18,
  "progress": null,
  "done": [
   "2402-ft29-prev1",
