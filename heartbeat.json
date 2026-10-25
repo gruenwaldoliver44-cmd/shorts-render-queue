@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T16:51:33.960Z",
+ "ts": "2026-10-25T16:53:33.944Z",
  "source": "dashboard",
  "current": "2411-ft29-hy-world since 2026-10-25 16:47:15",
  "busy": true,
  "free_gb": 54,
  "blender_procs": 1,
- "cpu": 11,
- "gpu": 91,
- "mem_free_pct": 24,
+ "cpu": 6,
+ "gpu": 94,
+ "mem_free_pct": 23,
  "progress": {
-  "n": 30,
+  "n": 49,
   "total": 247,
-  "eta_min": 19
+  "eta_min": 21
  },
  "done": [
   "2310-mc43-hero",
