@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T23:49:52.270Z",
+ "ts": "2026-10-25T23:50:52.557Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 0,
+ "mem_free_pct": 84,
+ "progress": null,
  "done": [
   "2331-mc49-premium2",
   "2428-ft34b-ft36-premium",
@@ -71,5 +76,6 @@
    "at": "2026-10-25T23:39:36.204Z"
   },
   "updated": "2026-10-25T23:39:36.204Z"
- }
+ },
+ "queue": []
 }
