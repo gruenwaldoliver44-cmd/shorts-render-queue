@@ -1,14 +1,14 @@
 {
  "title": "CT43",
- "stage": "Skript",
- "note": "Hybrid-Neustart: Skript auf 60-s-Standard erweitert (16 Fakten, Gates A und C bestanden), Stimme neu aufgenommen",
+ "stage": "Szenen",
+ "note": "Hybrid-Shotliste steht: 3 Blender-Heldenshots, 9 Blender-Standbilder fuer 2.5D, 10 KI-Szenen mit festem Cast; Tempo-Test 2111 in der Warteschlange",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T15:13:42Z",
+ "updated": "2026-10-25T15:20:50Z",
  "eta": "heute 19:00 Vienna-Slot pruefen, sonst morgen 08:00",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 12,
- "next": "Stimme pruefen, Shot-Liste Hybrid (3 Blender-Heldenshots, KI-Personen, Remotion-Grafik)",
- "preview_img": "",
- "preview_note": "Neuaufbau als Hybrid"
+ "progress": 30,
+ "next": "Tempo-Test auswerten, dann Heldenshots parallel (N=2) rendern",
+ "preview_img": "local:work/2111-ct43-herotest/ho/st_brick.jpg",
+ "preview_note": "2111 · Standbild Brikett (nach dem Test)"
 }
