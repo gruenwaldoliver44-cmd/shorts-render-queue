@@ -1,15 +1,15 @@
 {
  "title": "MT43",
- "stage": "Final",
- "note": "Final rendert auf dem Mac: KI-Szenen mit echten Menschen + Grafiken, 84 s. Blender-Standbilder waren unbrauchbar (zu dunkel/kaputt), daher nicht verwendet",
- "slot": "",
+ "stage": "Geplant",
+ "note": "Geplant: IG + TikTok + YouTube, 84 s Hybrid (KI-Menschen, animierte Szenen, Grafiken), QC bestanden, -14 LUFS",
+ "slot": "So 20:00",
  "error": false,
- "updated": "2026-10-25T16:37:43Z",
- "eta": "ca. 18:00",
+ "updated": "2026-10-25T17:35:03Z",
+ "eta": "",
  "topic": "Auto auf den Gleisen: Warum der Zug nicht bremsen kann",
- "progress": 80,
- "next": "Ton anlegen, QC, Viralitäts-Check, Planung 20:00",
- "preview_img": "",
- "preview_video": "",
- "preview_note": "Vorschau folgt nach dem Final-Render"
+ "progress": 100,
+ "next": "Auswertung nach 96 h",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/659f0c87-bae4-4c06-81b9-d56a9c39f9b0.mp4",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/659f0c87-bae4-4c06-81b9-d56a9c39f9b0.mp4",
+ "preview_note": "Final · 18:35 · geplant 20:00"
 }
