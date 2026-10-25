@@ -1,8 +1,9 @@
 {
  "title": "MT43",
  "stage": "Vorschau",
- "note": "Vorschau 5 abgestürzt (Logo-Entfernung an der Lok), repariert, Vorschau 6 in der Warteschlange",
+ "note": "Vorschau 6 in der Warteschlange (nach FT29 und CT-Bench)",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T12:48:03Z"
+ "updated": "2026-10-25T13:41:33Z",
+ "eta": "nach Vorschau 6"
 }
