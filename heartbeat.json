@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:26:52.381Z",
- "source": "dashboard",
- "current": "2130-ct45-premium since 2026-10-25 22:22:55",
+ "ts": "2026-10-25T22:26:57.006Z",
+ "current": "2260-mt47-premium since 2026-10-25 22:26:56",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 19,
- "mem_free_pct": 76,
- "progress": null,
  "done": [
+  "2130-ct45-premium",
   "2423-ft32-premium",
   "2325-mc45-premium2",
   "2324-mc46-premium",
@@ -48,8 +44,7 @@
   "2109-ct43-up",
   "2308-mc43-upload",
   "2108-ct43-bench",
-  "2307-mc43-prev3",
-  "2402-ft29-prev1"
+  "2307-mc43-prev3"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,21 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2130-ct45-premium",
-  "title": "CT45 · Digitaler Kauf ist nur eine Lizenz (Remotion Premium, 78 s)",
-  "job_since": "2026-10-25T22:22:55.331Z",
+  "job": "2260-mt47-premium",
+  "title": "MT47 · Bluetooth springt 1600 Mal pro Sekunde (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T22:26:56.982Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:22:55.331Z"
- },
- "queue": [
-  "2260-mt47-premium",
-  "2326-mc47-premium",
-  "2327-mc46-premium2",
-  "2424-ft33-premium",
-  "2425-ft31b-premium"
- ]
+  "updated": "2026-10-25T22:26:56.982Z"
+ }
 }
