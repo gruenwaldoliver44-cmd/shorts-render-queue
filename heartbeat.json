@@ -1,18 +1,9 @@
 {
- "ts": "2026-10-25T20:00:36.562Z",
- "source": "dashboard",
- "current": "2315-mc43-stills since 2026-10-25 18:32:34",
- "busy": false,
- "free_gb": 43,
- "blender_procs": 1,
- "cpu": 20,
- "gpu": 10,
- "mem_free_pct": 10,
- "progress": {
-  "n": 40,
-  "total": 68,
-  "eta_min": 67
- },
+ "ts": "2026-10-25T20:02:37.705Z",
+ "current": "2414-ft29-people since 2026-10-25 20:02:37",
+ "busy": true,
+ "free_gb": 42,
+ "blender_procs": 0,
  "done": [
   "2116-ct43-up-people",
   "2115-ct43-people",
@@ -56,6 +47,7 @@
   "0003-blenderkit-install"
  ],
  "failed": [
+  "2315-mc43-stills",
   "2311-mc43-heroup",
   "2208-mt43-speed-prev7",
   "2207-mt43-prev6",
@@ -72,21 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2315-mc43-stills",
-  "title": "MC43 · Alles-Blender: 34 Standbilder",
-  "job_since": "2026-10-25T18:32:34.255Z",
+  "job": "2414-ft29-people",
+  "title": "FT29 · Blender-Figuren: 17 Standbilder + 2 Heldenshots (16 Samples)",
+  "job_since": "2026-10-25T20:02:37.659Z",
   "timeout_min": 90,
-  "step": 2,
-  "steps": 2,
-  "label": "Blender rendert 34 Standbilder der Welt (voll, 16 Samples, 2 Prozesse)",
-  "step_since": "2026-10-25T18:32:36.042Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2315-mc43-stills/s",
-   "total": 68
-  },
-  "updated": "2026-10-25T18:32:36.042Z"
- },
- "queue": [
-  "2414-ft29-people"
- ]
+  "step": 0,
+  "steps": 15,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T20:02:37.659Z"
+ }
 }
