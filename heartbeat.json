@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-25T23:30:52.472Z",
+ "ts": "2026-10-25T23:32:52.442Z",
  "source": "dashboard",
  "current": "2428-ft34b-ft36-premium since 2026-10-25 23:29:57",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 56,
- "gpu": 94,
+ "cpu": 49,
+ "gpu": 95,
  "mem_free_pct": 53,
  "progress": null,
  "done": [
