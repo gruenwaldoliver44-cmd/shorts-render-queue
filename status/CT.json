@@ -1,14 +1,14 @@
 {
  "title": "CT43",
  "stage": "Szenen",
- "note": "Oliver: keine KI-Bilder. Alle KI-Szenen werden durch Blender ersetzt: 27 Standbilder mit echten Blendkit-Figuren (2.5D-Kamera) + 3 Heldenshots",
+ "note": "27 Blender-Standbilder mit Figuren gerendert (2115, 12 min). Upload laeuft, dann Figuren-Check und neuer Schnitt nur aus Blender + Grafik",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T17:40:02Z",
+ "updated": "2026-10-25T17:54:59Z",
  "eta": "heute ca. 19:30 zur Freigabe",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 55,
- "next": "Standbilder rendern (2115, ca. 25 min), Figuren-Check, neuer Schnitt, QC, dann Freigabe durch Oliver",
- "preview_img": "local:work/2111-ct43-herotest/ho/st_lab.jpg",
- "preview_note": "2111 · Labor-Standbild (Blender, 16 Samples)"
+ "progress": 60,
+ "next": "Figuren-Check, Schnitt, Overlay, Ton, QC, Freigabe",
+ "preview_img": "local:work/2115-ct43-people/co/c_k3.jpg",
+ "preview_note": "2115 · Kueche mit echten Figuren (Blender)"
 }
