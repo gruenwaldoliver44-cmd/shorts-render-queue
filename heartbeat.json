@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-25T22:04:52.316Z",
+ "ts": "2026-10-25T22:06:52.407Z",
  "source": "dashboard",
- "current": "2422-ft31-premium since 2026-10-25 22:02:32",
- "busy": true,
- "free_gb": 56,
+ "current": "",
+ "busy": false,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 46,
- "gpu": 95,
- "mem_free_pct": 53,
+ "cpu": 23,
+ "gpu": 19,
+ "mem_free_pct": 76,
  "progress": null,
  "done": [
+  "2422-ft31-premium",
   "2323-mc45-premium",
   "2240-mt45-premium",
   "2322-mc44-premium2",
@@ -68,16 +69,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2422-ft31-premium",
-  "title": "FT31 · Address Poisoning (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T22:02:32.633Z",
-  "timeout_min": 60,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T22:02:32.633Z"
+  "state": "idle",
+  "last": {
+   "job": "2422-ft31-premium",
+   "title": "FT31 · Address Poisoning (Remotion/R3F, Premium-Render)",
+   "result": "fertig",
+   "at": "2026-10-25T22:06:19.340Z"
+  },
+  "updated": "2026-10-25T22:06:19.340Z"
  },
  "queue": []
 }
