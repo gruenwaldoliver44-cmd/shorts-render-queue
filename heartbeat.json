@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T15:26:26.645Z",
+ "ts": "2026-10-25T15:28:27.565Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 12,
+ "mem_free_pct": 84,
+ "progress": null,
  "done": [
   "2309-mc43-upload2",
   "2209-mt43-speedinfo",
@@ -56,5 +61,6 @@
    "at": "2026-10-25T15:21:19.910Z"
   },
   "updated": "2026-10-25T15:21:19.910Z"
- }
+ },
+ "queue": []
 }
