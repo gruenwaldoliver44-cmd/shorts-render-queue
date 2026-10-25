@@ -200,3 +200,17 @@ const beat = async () => {
   } catch (e) { try { fs.writeFileSync(path.join(STATE, "hb_result"), `${new Date().toISOString()} error`); } catch {} }
 };
 setTimeout(beat, 5000); setInterval(beat, 120000);
+
+// memory guard: if macOS runs out of memory (free under 8 % and swap over 8 GB), stop the running Blender render
+// so the Mac stays usable. The job then fails and its agent re-plans it lighter. Checked every 30 s.
+const memGuard = () => {
+  try {
+    const free = Number(sh("memory_pressure -Q 2>/dev/null | grep -o '[0-9]*%' | tail -1 | tr -d '%'") || "100");
+    const swapMB = Number((sh("sysctl -n vm.swapusage 2>/dev/null").match(/used = ([0-9.]+)M/) || [0, 0])[1]);
+    if (free < 8 && swapMB > 8192) {
+      sh("pkill -9 -f '^/Applications/Blender.app/Contents/MacOS/Blender -b'");
+      fs.appendFileSync(path.join(STATE, "memguard.log"), `${new Date().toISOString()} killed Blender: ${free}% free, swap ${Math.round(swapMB)} MB\n`);
+    }
+  } catch {}
+};
+setInterval(memGuard, 30000);
