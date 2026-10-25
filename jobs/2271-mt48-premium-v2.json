@@ -1,0 +1,26 @@
+{
+ "id": "2271-mt48-premium-v2",
+ "type": "remotion",
+ "title": "MT48 v2 \u00b7 USB-Stick ohne Auswerfen, Standbild-Fix (Remotion/R3F, Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ba274816-d552-4df5-aa00-14e3296eb369.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T22:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/36d67285-cc97-4267-8147-855b9c625fc9.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGRMDJ7ZQC%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T225616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAoSI29I0RVM2p%2BTXyJVQZCxJD40MaCvs%2FuWHxWUV0Vm0CIBVFXMtWTuDYgakLlw2Yvn8A%2B6hK4Jw%2B7QK72ePRRD0WKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwYS1zX44vQ4KpcqJMqhAWMdJEjjkrRtBhFBBFtFLyXX7%2B%2B4cmz7vbTQjSEyuh7GiW63Qk8iEKS%2Be8y8OTfSswPwS0L%2FbGbNaEcZs8iWmpa2ceRpCSSeY6HqnIu6Eb1pMej1gM8iYHh7r5igao9YDNetyEg7D1GgsTbFOKfVKNwYYRZAC4wR3n5qE8HJJYmJdIALMD1jwbPylR8hP7gWFnStoq0mMX8eRJ%2FeM1axTNH3G0NC13f8uby4WZU1fpdRL%2FbqucSthCyyhDdqgGYdeQrqbdLgi8DyICW0Qtiw1Yoz6t2ZCRd94vsqkF07bgjcujoylvagOxa2D8da7bc8n%2Bq3veUWOu7bc8lEOow6QEWxk%2BkUzZX3zJ39ro6yNxofoVrPOSW4phkyRfPYTmdkj1O%2B1lBFWcR9d1xAbE8HM8Y92ySgQx21RFIIV5PbvVF8KX4qW%2BiyuhdqPWKGK%2F8pudw5iMK1M70NXWp1ENeU%2Bpicw8KaGtSvL1VCbavmtk9qY7OP58DVYtKpgu%2BPJ%2Fk%2BQ%2FsOdkHTAGOKvDZuvduqnnf7Azmm5O9MZG07ydkD%2FLOzmGNP%2FeWBpFT%2Fi55UHBIsEYqsD7sB7VecS0%2BHwJUyJas8Twba1BErquA7G9ljE8dP461uLlL2AIN3F5sCtJej6tEGjZQuxTwILJNK5NGvZjvH7%2F2rL3jp5pfeatiUwvBlVJnJVqDlyS5OgYlM5EdgHwCwi5yN37VYV3%2FNin%2Bk%2FFKUP9t4kCGZk6qb7ZtZw5M%2BKEPK6NOtPtDXvdMZPFVWNw6GXjBwlGYCTxbpQT%2BSYGKWxdkXN3PRK9N58sMJMuZmVd82mF3L6OVDgdiwSy%2B7SnXP8QbU6yhmLv49J273JbjM90guTDE8%2FjWBjqQAV9RQytUFrnkF2DzyXFU4yl%2FPsh3FcTsCsLREZCj06UQG6rGGI2m3pxIZgI3PGJkzs87ipcZ%2B6OSSGlgiRj9LDaeqykEcRRoGbnHB9w0duY%2FYoTQ0LPH7OM%2F4Jkg7Q5dwJOy8IFYGnW7xxvKrWdF5xAA304aOOrcuyFujlpLmLUh0yiF1ikH%2FnApoHErCqchqw%3D%3D&X-Amz-Signature=a6ef78200931cc1c463a432b677b5111fc713ba2e950db52d05efd0f1e028b51",
+ "items": [
+  {
+   "comp": "MT48",
+   "entry": "src/indexMT48.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/7a4ab472-6c6e-419b-abd6-8f60eee65a43.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6IR53423%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T225616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEApYg1X6P0jsqMLjw4U3CvclnPjQmVUF3WtZVOybeGS40CIQDE0w6vyzspUe2rRws%2ByNX74PM7Yt4QOlp5YsXK5fhv6iqwBQjE%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMzQNJwryr4vlds5OzKoQFOufmrUyTCZ99zaEot3H2mE%2F5ISbAfwLqoDE7DRE6zmNUZI8t5fW94xAgbwjKZCR3q9eAr5DzVjUsB4NUQQtbnOYhsWnhnEfGjv1npbhbGqRUllZBk5gGLdz%2BFhba%2BZ70R29ASxz%2FQdNmfadTr5O4xvfUqVtP4cWxtjis%2Byw%2FWG5S%2FvYeLyl1NRXtJ2RULBsdqkkXbLUw9o0kGJYFA47ke4u1eW9N7jV77bUR5VrwtKWmALgVBD2JA%2B%2BKsjBjeeqoD0WY9C6TW6%2FPYQa42NWLC%2BUzDmIx7o6GFF3ps32j6lXjTkxxS6BUg6FcYEUUTxu8yspsOESj%2BazDz0XB136OOONfMZ3IhOybbXz5EgmAL9BKDp%2BYZbIhrNrr2bYCRLtMb7R5a99gMWe9fqtrthEmFFVNPYsITOe6blQLpNwASbh1W4QZsiPm8s88zqmL0x%2FJr0vBbWT%2BIRSxQcbcNpbit9NnMcsDI%2FizbxljG71fSaLEpt9RMs67xJ3Wd8OhVPed41y0%2BgJsrFHbedgb7GFqGYkj3xEXm22LeHGMU7av%2By1lRRos1WorCZSyx00DC5%2FYR4WcFFh%2BUiGNDcxwZOvW0wKOnO5XZpqUmzt%2Ff6GVtjya8keqHdboRtMReWxeBakFpXLWdQSm6abInJjR2P3vFOZiii7cQ%2FibMhNb888GBnMgo%2BNYuDHUVrtFMlqCvtWow0tkiHZsYIIaW%2BbAYWbxlGWa98jzcizC2jK7N7RLjqmfKzK5oQ0WYQJ78y9%2BBjxv0aBAlfC079ren%2BT5twp7g7xmrouDMBTwEKkQlwZN6f7OGmHSPYmuB0C7m6zvMUBzqeASWvWxiLh8ZswrEu%2BwTcAge4Qwqaz51gY6jwEFXNMhv%2FOB3IqMMQpiQ%2Fx0sccKv3209NOohslzV%2Fqi9oUcBK0%2FDL6KBOEuG21P%2BKzyOvoT33h75sZy%2BfiwfD0TP2GILFT1R1oqUlgWARL%2Ff5Rcw5uOB3BxpMjKc%2BPeSaMSaICvarDDG1pn%2FmUh0WjQjLrxQ7CFkVbjBSpXjIITNM9sca1gesndyN2g7r20xQ%3D%3D&X-Amz-Signature=ff647f12d9e4ecb05181dcb1e6c438dd9742fb4abcd2010aa9cd381943615246"
+  }
+ ]
+}
