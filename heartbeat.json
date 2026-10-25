@@ -1,18 +1,9 @@
 {
- "ts": "2026-10-25T14:24:09.832Z",
- "source": "dashboard",
- "current": "2207-mt43-prev6 since 2026-10-25 13:55:03",
+ "ts": "2026-10-25T14:25:05.199Z",
+ "current": "2308-mc43-upload since 2026-10-25 14:25:05",
  "busy": true,
- "free_gb": 39,
- "blender_procs": 1,
- "cpu": 24,
- "gpu": 0,
- "mem_free_pct": 14,
- "progress": {
-  "n": 1,
-  "total": 57,
-  "eta_min": null
- },
+ "free_gb": 38,
+ "blender_procs": 0,
  "done": [
   "2108-ct43-bench",
   "2307-mc43-prev3",
@@ -38,6 +29,7 @@
   "0001-agent-test"
  ],
  "failed": [
+  "2207-mt43-prev6",
   "2407-ft29-r2",
   "2206-mt43-prev5",
   "2107-ct43-prev2",
@@ -51,21 +43,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2207-mt43-prev6",
-  "title": "MT43 · Vorschau 6",
-  "job_since": "2026-10-25T13:55:03.957Z",
-  "timeout_min": 30,
-  "step": 6,
-  "steps": 6,
-  "label": "Blender rendert Vorschau (jedes 30. Bild, halbe Größe)",
-  "step_since": "2026-10-25T13:55:05.911Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2207-mt43-prev6/r",
-   "total": 57
-  },
-  "updated": "2026-10-25T13:55:05.911Z"
- },
- "queue": [
-  "2308-mc43-upload"
- ]
+  "job": "2308-mc43-upload",
+  "title": "MC43 · Vorschau 3 hochladen (Nachlieferung)",
+  "job_since": "2026-10-25T14:25:05.182Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T14:25:05.182Z"
+ }
 }
