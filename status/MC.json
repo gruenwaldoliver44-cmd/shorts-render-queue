@@ -1,9 +1,14 @@
 {
  "title": "MC43",
+ "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
  "stage": "Vorschau",
- "note": "Louvre-Coup: Vorschau 3 gerendert, Dateien werden nachgeliefert (2308); Render-Geschwindigkeit wird ausgewertet",
+ "progress": 45,
+ "note": "Vorschau 3 gerendert; Dateien werden nachgeliefert (2308), dann Bildprüfung",
+ "next": "Vorschau prüfen, Licht/Szenen verbessern, dann Final in voller Qualität",
+ "preview_img": "local:work/2307-mc43-prev3/r/sheet.png",
+ "preview_note": "Vorschau 3 · 14:01 · Kontaktbogen (50 %, 8 Samples)",
  "slot": "",
  "error": false,
- "eta": "noch offen (Final-Renderzeit wird gemessen, Update ca. 15:00)",
- "updated": "2026-10-25T13:14:00Z"
+ "eta": "noch offen (Final-Renderzeit wird gemessen, Update ca. 15:30)",
+ "updated": "2026-10-25T13:55:00Z"
 }
