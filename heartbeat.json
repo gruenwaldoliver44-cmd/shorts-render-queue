@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T16:37:33.916Z",
+ "ts": "2026-10-25T16:39:34.018Z",
  "source": "dashboard",
  "current": "2310-mc43-hero since 2026-10-25 16:36:23",
  "busy": true,
  "free_gb": 55,
- "blender_procs": 1,
- "cpu": 22,
- "gpu": 96,
- "mem_free_pct": 61,
+ "blender_procs": 2,
+ "cpu": 34,
+ "gpu": 97,
+ "mem_free_pct": 31,
  "progress": {
-  "n": 16,
+  "n": 72,
   "total": 275,
-  "eta_min": 17
+  "eta_min": 9
  },
  "done": [
   "2211-mt43-stills-up",
