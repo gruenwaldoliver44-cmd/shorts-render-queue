@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T23:22:52.448Z",
- "source": "dashboard",
- "current": "2290-mt50-premium since 2026-10-25 23:20:01",
+ "ts": "2026-10-25T23:23:31.173Z",
+ "current": "2330-mc50-premium since 2026-10-25 23:23:31",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 27,
- "gpu": 19,
- "mem_free_pct": 76,
- "progress": null,
  "done": [
+  "2290-mt50-premium",
   "2427-ft35-premium",
   "2280-mt49-premium",
   "2329-mc49-premium",
@@ -48,8 +44,7 @@
   "2312-mc43-encup",
   "2412-ft29-hy-up",
   "2212-mt43-final",
-  "2114-ct43-up-hero",
-  "2411-ft29-hy-world"
+  "2114-ct43-up-hero"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2290-mt50-premium",
-  "title": "MT50 · Handy zeigt SOS und ruft trotzdem den Notruf (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T23:20:01.149Z",
+  "job": "2330-mc50-premium",
+  "title": "MC50 · Kansai (sinkender Flughafen) + MC48 v2 (Overlap-Fix)",
+  "job_since": "2026-10-25T23:23:31.150Z",
   "timeout_min": 60,
   "step": 0,
-  "steps": 1,
+  "steps": 2,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T23:20:01.149Z"
- },
- "queue": [
-  "2330-mc50-premium"
- ]
+  "updated": "2026-10-25T23:23:31.150Z"
+ }
 }
