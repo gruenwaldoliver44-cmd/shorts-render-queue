@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T21:48:52.296Z",
- "source": "dashboard",
- "current": "2231-mt44-premium-v2 since 2026-10-25 21:46:07",
+ "ts": "2026-10-25T21:50:40.285Z",
+ "current": "2322-mc44-premium2 since 2026-10-25 21:50:40",
  "busy": true,
- "free_gb": 56,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 61,
- "gpu": 95,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
+  "2231-mt44-premium-v2",
   "2121-ct44-premium",
   "2321-mc44-premium",
   "2230-mt44-premium",
@@ -48,8 +44,7 @@
   "2401-ft29-probe",
   "2301-mc43-probe1",
   "2201-mt43-info",
-  "1016-sonniss-catalog",
-  "2101-ct43-probe"
+  "1016-sonniss-catalog"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2231-mt44-premium-v2",
-  "title": "MT44 · QR-Code v2 (Kacheln korrigiert, Premium-Render)",
-  "job_since": "2026-10-25T21:46:07.278Z",
-  "timeout_min": 60,
+  "job": "2322-mc44-premium2",
+  "title": "MC44 · Fort Knox v2 (Papier dunkler, Goldpyramide)",
+  "job_since": "2026-10-25T21:50:40.261Z",
+  "timeout_min": 45,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T21:46:07.278Z"
- },
- "queue": [
-  "2322-mc44-premium2"
- ]
+  "updated": "2026-10-25T21:50:40.261Z"
+ }
 }
