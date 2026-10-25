@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T13:36:15.976Z",
- "source": "dashboard",
- "current": "2407-ft29-r2 since 2026-10-25 13:01:45",
- "busy": false,
- "free_gb": 34,
- "blender_procs": 2,
- "cpu": 16,
- "gpu": 21,
- "mem_free_pct": 61,
- "progress": null,
+ "ts": "2026-10-25T13:38:01.327Z",
+ "current": "2108-ct43-bench since 2026-10-25 13:38:01",
+ "busy": true,
+ "free_gb": 55,
+ "blender_procs": 0,
  "done": [
   "2307-mc43-prev3",
   "2402-ft29-prev1",
@@ -33,6 +28,7 @@
   "0001-agent-test"
  ],
  "failed": [
+  "2407-ft29-r2",
   "2206-mt43-prev5",
   "2107-ct43-prev2",
   "2304-mc43-prev2",
@@ -43,8 +39,16 @@
   "2104-ct43-prev2",
   "2103-ct43-prev1b"
  ],
- "status": {},
- "queue": [
-  "2407-ft29-r2"
- ]
+ "status": {
+  "state": "busy",
+  "job": "2108-ct43-bench",
+  "title": "CT43 · Tempo-Test und Standbilder",
+  "job_since": "2026-10-25T13:38:01.301Z",
+  "timeout_min": 35,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T13:38:01.301Z"
+ }
 }
