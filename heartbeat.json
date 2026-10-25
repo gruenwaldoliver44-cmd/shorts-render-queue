@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T15:59:45.437Z",
+ "ts": "2026-10-25T16:01:33.928Z",
+ "source": "dashboard",
  "current": "2113-ct43-hero since 2026-10-25 15:59:45",
  "busy": true,
- "free_gb": 55,
- "blender_procs": 0,
+ "free_gb": 48,
+ "blender_procs": 2,
+ "cpu": 12,
+ "gpu": 98,
+ "mem_free_pct": 48,
+ "progress": {
+  "n": 11,
+  "total": 245,
+  "eta_min": 29
+ },
  "done": [
   "2410-ft29-hy-stills",
   "2210-mt43-stills",
@@ -56,10 +65,19 @@
   "title": "CT43 · Hybrid: 3 Heldenshots rendern (245 Bilder, 2 parallel)",
   "job_since": "2026-10-25T15:59:45.421Z",
   "timeout_min": 70,
-  "step": 0,
+  "step": 4,
   "steps": 5,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T15:59:45.421Z"
- }
+  "label": "Blender: Heldenshots Ofen, Archiv, Schluss (16 Samples, N=2)",
+  "step_since": "2026-10-25T16:00:09.794Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2113-ct43-hero/hf",
+   "total": 245
+  },
+  "updated": "2026-10-25T16:00:09.794Z"
+ },
+ "queue": [
+  "2211-mt43-stills-up",
+  "2310-mc43-hero",
+  "2411-ft29-hy-world"
+ ]
 }
