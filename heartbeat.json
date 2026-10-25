@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T17:16:52.642Z",
+ "ts": "2026-10-25T17:17:34.157Z",
+ "source": "dashboard",
  "current": "2212-mt43-final since 2026-10-25 17:16:52",
  "busy": true,
  "free_gb": 53,
  "blender_procs": 0,
+ "cpu": 79,
+ "gpu": 23,
+ "mem_free_pct": 82,
+ "progress": {
+  "n": 2,
+  "total": 1,
+  "eta_min": null
+ },
  "done": [
   "2114-ct43-up-hero",
   "2411-ft29-hy-world",
@@ -61,10 +70,17 @@
   "title": "MT43 · Final rendern (Hybrid, 84 s)",
   "job_since": "2026-10-25T17:16:52.621Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 1,
   "steps": 2,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T17:16:52.621Z"
- }
+  "label": "Remotion-Final rendern (Hybrid, 84 s)",
+  "step_since": "2026-10-25T17:16:54.752Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2212-mt43-final",
+   "total": 1
+  },
+  "updated": "2026-10-25T17:16:54.752Z"
+ },
+ "queue": [
+  "2311-mc43-heroup"
+ ]
 }
