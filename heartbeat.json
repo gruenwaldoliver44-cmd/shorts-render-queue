@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T21:08:57.252Z",
+ "ts": "2026-10-25T21:10:52.207Z",
  "source": "dashboard",
  "current": "2120-ct43r-premium since 2026-10-25 21:08:52",
  "busy": false,
- "free_gb": 57,
+ "free_gb": 56,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 1,
- "mem_free_pct": 86,
+ "cpu": 52,
+ "gpu": 93,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2414-ft29-people",
