@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T13:00:15.632Z",
- "source": "dashboard",
- "current": "2307-mc43-prev3 since 2026-10-25 12:45:01",
- "busy": false,
- "free_gb": 44,
- "blender_procs": 2,
- "cpu": 31,
- "gpu": 54,
- "mem_free_pct": 20,
- "progress": null,
+ "ts": "2026-10-25T13:01:45.373Z",
+ "current": "2407-ft29-r2 since 2026-10-25 13:01:45",
+ "busy": true,
+ "free_gb": 56,
+ "blender_procs": 0,
  "done": [
+  "2307-mc43-prev3",
   "2402-ft29-prev1",
   "2303-mc43-src",
   "2302-mc43-prev1",
@@ -41,10 +37,5 @@
   "2203-mt43-prev2",
   "2104-ct43-prev2",
   "2103-ct43-prev1b"
- ],
- "status": {},
- "queue": [
-  "2307-mc43-prev3",
-  "2407-ft29-r2"
  ]
 }
