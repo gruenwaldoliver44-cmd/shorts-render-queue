@@ -1,14 +1,14 @@
 {
  "title": "FT29",
- "stage": "Vorschau",
- "note": "Vorschau 3 (2409) in der Warteschlange: 24 Standbilder; Reparatur der schwarzen Figuren (Licht-Blocker entfernt) und schnellere Szenen (eingefrorene Modifier, Ausblenden verdeckter Figuren/Sets)",
+ "stage": "Szenen",
+ "note": "Neu als Hybrid: Hook neu eingesprochen (endet bei 3,5 s), Skript-Gates bestanden. Job 2410: 15 Welt-Standbilder ohne Figuren + Tempo-Test; Menschen kommen als KI-Video",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:24:18Z",
- "eta": "nach Vorschau 3",
+ "updated": "2026-10-25T15:20:33Z",
+ "eta": "heute Abend oder morgen 08:00",
  "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche)",
- "progress": 42,
- "next": "Vorschau 3 prüfen, dann Final in voller Qualität (16 Samples) in Teilen",
+ "progress": 30,
+ "next": "Standbilder pruefen, KI-Menschen (Opfer, Betrueger) erzeugen, dann 3 Blender-Heldenszenen (ca. 10 s)",
  "preview_img": "local:work/2407-ft29-r2/lu/lineup.jpg",
- "preview_note": "Materialtest 2407 · 14:06 · 6 von 7 Figuren noch schwarz, wird repariert"
+ "preview_note": "alter Stand (Vollblender), Hybrid-Bilder folgen"
 }
