@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T23:15:45.812Z",
+ "ts": "2026-10-25T23:16:52.468Z",
+ "source": "dashboard",
  "current": "2427-ft35-premium since 2026-10-25 23:15:45",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
+ "cpu": 67,
+ "gpu": 93,
+ "mem_free_pct": 51,
+ "progress": null,
  "done": [
   "2280-mt49-premium",
   "2329-mc49-premium",
@@ -73,5 +78,6 @@
   "label": "Startet",
   "progress": null,
   "updated": "2026-10-25T23:15:45.789Z"
- }
+ },
+ "queue": []
 }
