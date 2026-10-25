@@ -1,15 +1,15 @@
 {
- "title": "MT45",
+ "title": "MT46",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44 + MT45 fertig (posting.md in ~/v4x/). MT46 SSD rendert am Mac, MT47 Bluetooth: Skript+Stimme",
+ "note": "MT44, MT45, MT46 fertig (posting.md in Sandbox ~/v4x/). MT47 Bluetooth rendert am Mac",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T22:06:00Z",
- "eta": "MT46: heute Nacht",
- "topic": "Handy weiss, wo oben ist",
+ "updated": "2026-10-25T22:18:00Z",
+ "eta": "MT47: heute Nacht",
+ "topic": "SSD verliert Elektronen",
  "progress": 100,
- "next": "MT46 QC + Upload, MT47 bauen",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/797be286-3d71-4489-a2a5-de5929ece111.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b98c18f9-2f33-47fa-bd60-0431d26674f3.mp4",
- "preview_note": "MT45 final"
+ "next": "MT47 QC + Upload, dann MT48",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5fdc77a8-5b8e-4ddf-8f9f-6e0765ab17f7.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ca4a2876-37ec-40da-af42-7db27918167b.mp4",
+ "preview_note": "MT46 final"
 }

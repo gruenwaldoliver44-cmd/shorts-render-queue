@@ -1,0 +1,26 @@
+{
+ "id": "2260-mt47-premium",
+ "type": "remotion",
+ "title": "MT47 · Bluetooth springt 1600 Mal pro Sekunde (Remotion/R3F, Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/bb87575f-16b4-4fce-b3d4-488b834fb1f9.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T21:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/12723556-de5b-49a5-b9b5-685fd30754bc.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZ3MXG5HD%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEA0N0lkl%2FwHPVj9YmYFQ1MYMqOBbBRaFQnbS%2BtkmWglsICIQDFhTJWyAUzc1DYKP56xXWW6BvQkABaDRicqlCtSmzh8CqwBQjD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMv%2BVAX54kuoqrbyjDKoQF1CxDaeTmW%2B%2F0%2B%2Fx7Lq8YlnQXMZMhjaQzAd%2FRmj1kfH8Q56HFcidm41usoVAcXIhUe%2BaIru1OZ7ClThoziq8XAxBWg%2FmA33FIMfrrTS0jZVWpF0azBSEdS9m7EaN03FjJhuTh57r6jA66hUIEncc2g4vHIDD1KmmWVDZkPm%2FN7VKCPTfcOP7%2FKQYSozTOjysVP76k5nmAezRovjXW6vP6OF%2FzHiEPi%2FoniPyj%2FSHsaMJfSKNRo0ewELeFzm1w%2BMuDXGZ12d%2FILqm5Ucu1rocfATer6NIi09f1tcIWfGTq6Pyyast2lrAVVtL79ZMs%2BGF9t0JpU1VMfi5c%2BiSftpcsT9mhEcVvaySneFvlDrpwM%2FEUPfcUlMcm6TN%2Bs6HWEqpBejofG7vEIQSpbFwMGo3Cdp0yxZBv%2FQW043%2FL62xIEPHGLMokRygfgDxKJYqpn1bBgAVYAvvyZxNFeEUK6MFiLsOVdJtYeTyppHg7nHL4WnKRI7fsBzpa7v0qPpFwKtR1f4yh80hRkBFsT239sD6FAwJcqFKpnxwN8bhvCgeJSuRYzczzxv1w%2FnP2K3fZN85dXAvT4CH7RxweK4k9FqAMY2WFv7gnhSaiQy7QmnHyt2gtRfyTvbc89UV1T0%2F3O1Fi09ZtVymNYjYIT14lBy5dLhHlEPpKGs4ibSuxPoVmHMxWfrw1EEyW%2BJor%2FVhBYPtud%2FqfuKShGRjb0DNbek7hzkU5eDT73h8T4JE1vq3VTUwmtIB5r2RoerHrsJ0dTJgis65BacTtUmnYuh%2Fms%2Fvv%2FTmWIG5b8k3fKxc72RwlfTNwc6w4irzc7E3TAiDlf65oWXIKApQ61aVCszVVpMXUuQRy1DYwzqj51gY6jwEGT%2Fq1ypQdqvZk9INopaPOP8JCj2ZRIFlYrFW7YT%2FYfjc7tdon52sz5329ZlSb42VwAYn7%2Fuy%2Ffz9IXvreoLUBO098CPPupO6mP74nfi912jgbxDyAIwsSwn%2FkQoab50cw3sC6%2FnaBCJFyle7hwj5A9K5oPwOmMJnqeCidWu1byVhHmPqIKxRmmJfg06%2BaRQ%3D%3D&X-Amz-Signature=20cbc4024ac405b8e35462d26e952b0f94e792a597f0ba1434f24246d3f09679",
+ "items": [
+  {
+   "comp": "MT47",
+   "entry": "src/indexMT47.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0f06719f-b7c9-465a-a183-efbbb6a1e20b.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG75JTT472%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221616Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEA0PvAuWIv8VR6ki4bBEam5Lpz3fqeHGTJ4RDRaU9M264CIQCvslSEWBKHcMHl8AweX5pZl%2FcJVWK9L1N6hin708KXICqwBQjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMMQb2G3WZAqYFem8RKoQFAmPnwmuED5Q5gzgmWsjhiqp9%2BB4E5XlrOGVeCCbSCJEn%2B4%2Fur1EffppgojJllP6C8Ga%2BfSn4jWLYmg7hiahgnsbPNT1J1biJzFPjnJe3sGYe2d7nWkep6wzoO7TK18dS3Ft%2Fc2%2ByDa58%2F%2BMTabiBIKU4UqO2xE5i2Rz5fJNQhCWm05tS0R29Ul6jmCL5iItROwIBF6iMzoCRLHz2cFfY7WUUiJZXPHH72u%2FsFCHmaBo003h6VU4RUlOYpkpwLmGx6kX2sqKSgBxEJ76OC16fs0oIBtoUDBh1kbhouOwY98fk5lhcHZPrc81XbJfRWhY5vsoes0L6jdADOpt6LUze7nxKaqsG7%2Fdvndy%2F4%2FaHbA3BXWolCUlwAbVHYCzsK7Pef%2FqW4akaObG81KgwEw0Of2PmLt3zaFTEVGl1d5JTIhOBM%2Ff%2BwFzxUuI4gW2T26odKItki6UuVMrbrEdbjId23nqlTy9YIgQUcS013epLN%2F7THp5DKKkF1Dmbojc0dG5cTJ0fIw5QGwvvul5oNE5m4ZQYqZhQ0l2%2BBzxPfEEo4HSbpRYNLxuRmb5hAVUIBitv5L9sxDkyuRVMkmRt9xwivSRDAyAQU1bQjK8TpJhr0Ro4e%2BUKYmgHGoFv48EQVt8G37Vwq%2FohJxeRyY6jvIoHI0VhHUIpBqeEPftPM%2BzqK88SJVXJ%2BIpDc3bo5EdblOUvVNJOzAu7SyIaSKuNxO1dq9WbfyAmEwU3keJHDwc1v05fd8gnvhByD3f%2Bg5vNce55BbLBFWl4KBD9CKF9m3npclrpG4m8hleukXdvQP4%2BXHDDL7%2Bx%2F082v%2FaXwZHDh6DDpc%2Bvy8j9OjXufXXktRLH2toOSS8wg4T51gY6jwHBzS2r9RDsEG0hA6YVQVFWxX9ItSNbmnutXT4NU5sw%2Fpjp9XkBEEKe5vQVek1uENVz333WLhW8qf6erQy0wUiXy0CPfMw%2F%2Ff07Mv0QVD1VUdJalwtlmf6Md1oLr1xKw2EEnuXvSVNKAW2Hm6ZhoCHZ%2BWp41n0h8wQaTY7oyzL03c2dR2%2BjPNW37YXLsu9GyQ%3D%3D&X-Amz-Signature=a4d17303fb061cff188f03693cb4a48799769f51c00872c3b03c707819a3068f"
+  }
+ ]
+}
