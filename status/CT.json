@@ -1,14 +1,14 @@
 {
  "title": "CT43",
  "stage": "Vorschau",
- "note": "Tempo-Test 2108 fertig (13:55). Ergebnisse werden hochgeladen (Job 2109) und ausgewertet",
+ "note": "Tempo-Test: 55 s pro Vollbild, Ursache Figuren (Haar-Partikel, Unterteilung). Behoben + Arme repariert; Test 2 (2110) in der Warteschlange",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:17:31Z",
- "eta": "nach Auswertung Tempo-Test",
+ "updated": "2026-10-25T14:30:03Z",
+ "eta": "ca. morgen 08:00 (Slot); genauer nach Test 2",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 42,
- "next": "Ursache der Langsamkeit beheben, dann Final in voller Qualitaet in Teilen",
- "preview_img": "local:work/2108-ct43-bench/bo/s_0000.jpg",
- "preview_note": "Tempo-Test 2108 \u00b7 13:55 \u00b7 Standbild Kueche (Bild 0)"
+ "progress": 45,
+ "next": "15 Vollbilder messen (2110), dann Final in voller Qualitaet in Teilen",
+ "preview_img": "local:work/2108-ct43-bench/bo/s_1320.jpg",
+ "preview_note": "Tempo-Test 2108 \u00b7 13:55 \u00b7 echte Figuren, Arme waren verzogen (repariert)"
 }
