@@ -1,14 +1,14 @@
 {
  "title": "MC43",
  "topic": "Louvre-Coup: 88 Mio. Euro Kronjuwelen",
- "stage": "Vorschau",
- "progress": 45,
- "note": "Vorschau 3 fertig (14:01). Upload-Job 2308 mit frischen Links wartet hinter MT 2207, danach Bildprüfung",
- "next": "Vorschau prüfen, 10-Bilder-Geschwindigkeitstest in voller Qualität, dann Final",
+ "stage": "Szenen",
+ "progress": 30,
+ "note": "Hybrid-Neustart: neuer Hook (8 Wörter, endet bei 2,5 s), Schluss neu gesprochen, Gates A/B/C bestanden. KI-Standbilder und -Clips (echte Menschen, maskierte Diebe) entstehen",
+ "next": "Blender-Heldenshots (Juwelen-Vitrine, Kronen-Sturz, leere Vitrine) als ein Mac-Job, ca. 40 min",
  "preview_img": "local:work/2307-mc43-prev3/r/sheet.png",
  "preview_note": "Vorschau 3 · 14:01 · Kontaktbogen (50 %, 8 Samples)",
  "slot": "",
  "error": false,
- "eta": "noch offen (Final-Renderzeit wird nach 2308 gemessen, Update ca. 15:30)",
- "updated": "2026-10-25T14:20:00Z"
+ "eta": "Ziel heute 20:00, sonst morgen 08:00",
+ "updated": "2026-10-25T15:24:07Z"
 }
