@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T21:50:52.291Z",
+ "ts": "2026-10-25T21:52:52.330Z",
  "source": "dashboard",
  "current": "2322-mc44-premium2 since 2026-10-25 21:50:40",
  "busy": true,
- "free_gb": 57,
+ "free_gb": 56,
  "blender_procs": 0,
- "cpu": 44,
- "gpu": 91,
- "mem_free_pct": 55,
+ "cpu": 52,
+ "gpu": 96,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2231-mt44-premium-v2",
