@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-25T18:11:33.555Z",
- "current": "2315-mc43-stills since 2026-10-25 17:53:50",
+ "ts": "2026-10-25T18:11:36.377Z",
+ "current": "2116-ct43-up-people since 2026-10-25 18:11:36",
  "busy": true,
  "free_gb": 62,
  "blender_procs": 0,
@@ -63,18 +63,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2315-mc43-stills",
-  "title": "MC43 · Alles-Blender: 34 Standbilder",
-  "job_since": "2026-10-25T17:53:50.435Z",
-  "timeout_min": 90,
-  "step": 2,
-  "steps": 2,
-  "label": "Blender rendert 34 Standbilder der Welt (voll, 16 Samples, 2 Prozesse)",
-  "step_since": "2026-10-25T17:53:52.409Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2315-mc43-stills/s",
-   "total": 68
-  },
-  "updated": "2026-10-25T17:53:52.409Z"
+  "job": "2116-ct43-up-people",
+  "title": "CT43 · Figuren-Standbilder + Ofen-Heldenshot hochladen",
+  "job_since": "2026-10-25T18:11:36.351Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T18:11:36.351Z"
  }
 }
