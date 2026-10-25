@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T16:49:33.924Z",
+ "ts": "2026-10-25T16:51:33.960Z",
  "source": "dashboard",
  "current": "2411-ft29-hy-world since 2026-10-25 16:47:15",
  "busy": true,
  "free_gb": 54,
  "blender_procs": 1,
- "cpu": 7,
- "gpu": 95,
- "mem_free_pct": 34,
+ "cpu": 11,
+ "gpu": 91,
+ "mem_free_pct": 24,
  "progress": {
-  "n": 9,
+  "n": 30,
   "total": 247,
-  "eta_min": 17
+  "eta_min": 19
  },
  "done": [
   "2310-mc43-hero",
@@ -68,15 +68,15 @@
   "title": "FT29 · Hybrid: Welt-Standbilder + 3 Heldenshots (16 Samples)",
   "job_since": "2026-10-25T16:47:15.382Z",
   "timeout_min": 75,
-  "step": 13,
+  "step": 14,
   "steps": 16,
-  "label": "Tempo-Test: 10 Heldenbilder am Stueck (ein Prozess)",
-  "step_since": "2026-10-25T16:48:54.609Z",
+  "label": "Blender rendert 3 Heldenshots, 247 Bilder (16 Samples, 2 Prozesse)",
+  "step_since": "2026-10-25T16:49:38.395Z",
   "progress": {
    "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2411-ft29-hy-world/hero",
    "total": 247
   },
-  "updated": "2026-10-25T16:48:54.609Z"
+  "updated": "2026-10-25T16:49:38.395Z"
  },
  "queue": []
 }
