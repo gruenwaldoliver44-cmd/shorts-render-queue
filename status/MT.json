@@ -1,15 +1,15 @@
 {
- "title": "MT47",
+ "title": "MT48",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44-MT47 fertig (posting.md in Sandbox ~/v4x/). MT48 USB-Auswerfen rendert am Mac, MT49 Autoschlüssel in Arbeit",
+ "note": "MT44-MT48 fertig (posting.md in Sandbox ~/v4x/). MT49 Autoschlüssel rendert am Mac, MT50 SOS in Arbeit (letzte Folge)",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T22:41:00Z",
- "eta": "MT48: heute Nacht",
- "topic": "Bluetooth springt 1600 Mal pro Sekunde",
+ "updated": "2026-10-25T23:12:00Z",
+ "eta": "MT49 + MT50: heute Nacht",
+ "topic": "USB-Stick ohne Auswerfen",
  "progress": 100,
- "next": "MT48 QC + Upload, MT49 bauen",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/64a7e388-2a68-43c8-bcb3-df3f7399b64b.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/367fa8c5-2054-47ec-b83a-008a1b40b88f.mp4",
- "preview_note": "MT47 final"
+ "next": "MT49 QC + Upload, MT50 rendern",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3df33cba-0589-4fd9-ad99-97655f751cc3.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c4c59c4e-21c1-40a5-94cf-fa2d4d6033a1.mp4",
+ "preview_note": "MT48 final"
 }
