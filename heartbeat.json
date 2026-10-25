@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T23:50:52.557Z",
+ "ts": "2026-10-25T23:52:52.558Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 12,
+ "cpu": 16,
  "gpu": 0,
- "mem_free_pct": 84,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
   "2331-mc49-premium2",
