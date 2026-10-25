@@ -1,14 +1,14 @@
 {
  "title": "FT29",
  "stage": "Szenen",
- "note": "Blender-Welt fertig (2411: 15 Standbilder, 3 Heldenshots, 26 Mac-Minuten). KI-Szenen am Automaten (gleicher Automat, gleicher Mann) werden animiert, 2.5D-Fahrten fertig",
+ "note": "Neue Regel: kein KI-Bild. Menschen jetzt aus Blender: Job 2414 baut die Welt mit echten Figuren (Opfer, Betrueger, Bank/Polizei/Amt), 17 Standbilder + Hook- und Schluss-Heldenshot",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T17:30:45Z",
- "eta": "Mo 08:00",
+ "updated": "2026-10-25T18:10:06Z",
+ "eta": "heute Nacht (Freigabe durch Oliver)",
  "topic": "Bitcoin-Automat an der Tankstelle (Betrugsmasche)",
- "progress": 62,
- "next": "Zusammenschnitt in Remotion, Ton-Mix, QC, dann Slot morgen 08:00",
+ "progress": 55,
+ "next": "Figuren-Check auf den Standbildern, dann Schnitt (Remotion) + Ton, Final zur Freigabe",
  "preview_img": "local:work/2411-ft29-hy-world/poster.jpg",
  "preview_note": "Welt 2411 \u00b7 18:14 \u00b7 Automat in der Tankstelle (16 Samples, ohne Figuren)"
 }
