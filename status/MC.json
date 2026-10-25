@@ -1,15 +1,15 @@
 {
- "title": "MC48",
- "topic": "Diamonds aren't rare (De Beers)",
- "stage": "Render auf dem Mac (Job 2328)",
- "progress": 80,
- "note": "MC43+MC44 fertig. MC45/46/47 fertig gemischt, Renders in der Queue (2326, 2327, 2328 inkl. MC45 v3). MC48 Gates A/C bestanden, Mix -14 LUFS.",
- "next": "MC46/47/48 QC + Upload, dann MC49",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9bdc0546-8cea-443a-996a-ecc549a33eb1.jpg",
- "preview_note": "MC44 final 21:58",
+ "title": "MC45/MC46",
+ "topic": "Straddling-Bus + The Line",
+ "stage": "Fertig, wartet auf gemeinsamen Slot",
+ "progress": 90,
+ "note": "Fertig: MC43, MC44, MC45, MC46. Im Render: MC49 + MC47 v2 (Job 2329), MC48 v2 (Job 2330).",
+ "next": "MC47/48/49 QC + Upload",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/40dfac44-636b-4864-81b8-a0efc4211195.jpg",
+ "preview_note": "MC45 final",
  "slot": "",
  "error": false,
- "eta": "Mo 26.10. vormittags",
- "updated": "2026-10-25T22:32:14Z",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a0df5339-7766-44ba-9296-c314c71e6697.mp4"
+ "eta": "MC47-49 in ca. 1 h",
+ "updated": "2026-10-25T23:03:57Z",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4350b2f0-5c29-49f8-9000-ecdae25685e3.mp4"
 }
