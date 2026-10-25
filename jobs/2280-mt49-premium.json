@@ -1,0 +1,26 @@
+{
+ "id": "2280-mt49-premium",
+ "type": "remotion",
+ "title": "MT49 · Autoschlüssel mit leerer Batterie startet trotzdem (Remotion/R3F, Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/452ea8de-a8c0-4006-a622-b8cfcc20bf9c.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T22:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d24ab1f3-a618-49a7-9be4-60daad7d52e5.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGSDUYN6NC%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T230809Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEA9qt8SWt20ILWeMdIqXeRJP4GBqupy5WaNZ3RvLxiynICIQDPxF4d5Fvf8JC6pOMtq5c%2FuejnQMnd0po5bhLwy1TASiqwBQjE%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMOrkmFzu%2FbXBKuQZCKoQFH8R2Wk4HJrC5KO5aM8mmBcxvl5KjUV5M%2F5xm%2FqUEqnfPE21SPE8vRVLaQ0ET37MG%2BokMC8BxrwgV5rqZsxx%2F6Ufeox4Lj4qWj9WcBSbF6rk2mFgQIuPiE7%2F53UpbKpjaQ90lzSZCmuDSIWn0NPehAkfHFp6kSp8GDYd7AXzFDD7yznmAZQGAhf4oSPj6X%2FaeFwH19lybxoDnjIgmO%2FILC5qlbcYJBTAuK4tEaPXA5gHulV2Y%2FwoKpGLe%2Fow9HlVIDKEpo0JyiBdR1g1gjxd80kZCx%2FwAxYbW4oajol%2B4Tp8MCqTvvUDmo3W3lYBzmr36Osc8nFWod7HRiSBHr54St6ZlyWOwVHp%2BB25YGssE%2BB5qiVzNVGLdoDYhhuwZa%2BwmCIFhAjQ%2BRbfefSiDQsc80DAmWGST%2BNuH4ru%2BeSoHLxXSeRI3vG%2BcF4qqGeXWVEeQIg4d%2B1YRsFGLWIAL%2FUepa%2BDCjxjO9O%2B47g6TVf3a11glait%2FLGJA8HZH8szoJ2kS1zU4nkYP1yAgbF%2Bk3W2AO5tC0w5PZ6xD0Phg8KaDz%2Fi%2FuJ0%2B1r%2FmdaJJIepeyTxkaD582sUpHRLhjVXqneqV1MTIddbDN05x2WJIfJZKEFkmQbpPf8IATmERPv%2BkkKbkucpZ5VymENGKC1OsqY7wQwS2vYP9Y83fYrgiEpCNIEyRo3FIvOY1YuEG1N22Maf0SYIRQ1TCMfhN%2Byh96ererwmzM4dnFOrN9sx1OdQ4RdBkTd89NDrqfOwdeEtQ6mALPhTj7VtG%2Bhop1x%2BdZoE1WBSQ%2F8fzen%2FGLBBxGxq2Z5CrMwdqEmjUyT8vbC0nIT%2FZTfZ2C0RLlPOI5pYSDjPiLUtJPngwsLv51gY6jwGcHl0j2X6N7yMr3JbAO50eVbE6LxSWkkchHQEy5iEB%2BYuiiNKBd6191NOJiKzkX7SYHV7xzH1oWb0QxNnX0BGSdEVxpPTqnO3LzvAw7Wi6%2Ff23Aj7r%2FtHEplWyVHfSr%2BhCMlFywkm86ScXzQ7MGY3oNasmQtHil%2BzWAzvHY3AvFA%2Fh%2BjShHCtBjIA6TAScqA%3D%3D&X-Amz-Signature=18935d92a9e85a0d331ca052d3ef839639ae28f5bf5bd7ab03b09925800265c9",
+ "items": [
+  {
+   "comp": "MT49",
+   "entry": "src/indexMT49.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/eee81139-5d60-4766-ba6e-3440df6ce96d.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZR6PVCTQ%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T230809Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiBVsa%2FZqTcwJ4PmLFKRXwy4gqR1KBnp6GQAevZdW86FmwIgDDbet7LoWYDobfIPV%2B%2B980X%2BiT%2BABjnWHF9AbB5zpJUqsAUIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDAxf%2BwpeViDxBThkvCqEBQofk%2B9BbaloZrhz41LtO1jSuD5I8dhYSHsoTrH0PzJsglPPFLgYCMppYQMne6xUCK7fM%2FzzXxEbkENLQ%2ByReI8gQOPUpm6MJ1C0thdjvloaXA%2BG9myuvKFi%2BM%2FY8pXQlGEi%2FCQMMgvjX3lhiHgmqK7%2FQwGy5dh8dVCB7IIXrB8dFtodp%2FqYlPcldMDam6TaiVqnW4YuBWykIwEQAdVB8IYlGdOEs19pPy62O9RNv%2B13m%2FMrSJFHekT3TuCC3iabq%2ByFB4cn3nBStyAbN1xZFwR9YMdd61Qo088D4w0caADHSLDXe%2BiPH%2BhK1IjC%2FYaiSbqUMb38tP3tDA4wEsmFtzqZ5l5fDkTPv0b2mFnn0tkWvxD0AMCXL8zYkoFfDt11lZ9gEffzM3Q%2FawYW9nmg5HGV6eqnyRmGpumlMDovHpGxjsGjza036QR%2BaNzeNHg%2FL35Ha%2BD7rMH2GIOD%2FYBzEt4Uw3%2F5cfzzy3VeByTQmVv0N3QvPOaH6t8l1Zx3AOlA2EPU6Qw70orPRsU9A5Y%2B8RJhtglE%2FMkUmDjWa5xM8sZO5At98kzJtGgEOnNlEA36T5S7f%2BeSmngdvHuXyeYw%2FyDS4Rdc4Cz3Tpy6Rbfl8d%2BfIrn3lrOnq%2FKcdiwjppFVXJHPmVpfiqMx39JgNKqM5V%2Bkgu%2Bxd4exUOMhz%2Fmh%2BHsBX0FwWp8KH2MbTYY%2BkVR05gGFJsaYc2%2BmVOo8tVhApFQYq6UvCWQIIG58zbg9McrUgHlAYB9k7ECHnVLMmDLg3vN0f0cE4v2w2%2BEu%2BoMMUh3BpB8VQKdwN9F6qq13upyf3f7qa6gi%2B%2BCBFztLL1MAGkBzcqy3gd65QCx7XG2ToP5t9Mt9MKaA%2BdYGOpEB2z%2BBkpLvQoLr2Tf8nsHcM88oARzgWjwjTrSCIftlyirqHs6ZrpJ%2FK6IQl5GsTUhJTlWhPqvkmCMFGTnUcnplX8h%2BbyXY1gJPITWkGxOZ%2BR5EevkjEHE%2FIr2jab8%2FpoUnJcTLrUcf4cjsOLHadSTJRTgg9KU0ca2gHEulpnM7orLW9BCF%2B3v7FUF3s1nmpQJcLA%3D%3D&X-Amz-Signature=ae7898b71b74204cb8f23e275ac616e64eaf7f4299bac990f567adb788766f4d"
+  }
+ ]
+}
