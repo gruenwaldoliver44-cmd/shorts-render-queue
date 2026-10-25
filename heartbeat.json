@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T18:12:32.713Z",
+ "ts": "2026-10-25T18:13:36.542Z",
+ "source": "dashboard",
  "current": "2315-mc43-stills since 2026-10-25 18:12:32",
- "busy": true,
- "free_gb": 62,
- "blender_procs": 0,
+ "busy": false,
+ "free_gb": 48,
+ "blender_procs": 1,
+ "cpu": 21,
+ "gpu": 13,
+ "mem_free_pct": 35,
+ "progress": {
+  "n": 1,
+  "total": 68,
+  "eta_min": null
+ },
  "done": [
   "2116-ct43-up-people",
   "2115-ct43-people",
@@ -67,10 +76,18 @@
   "title": "MC43 · Alles-Blender: 34 Standbilder",
   "job_since": "2026-10-25T18:12:32.688Z",
   "timeout_min": 90,
-  "step": 0,
+  "step": 2,
   "steps": 2,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T18:12:32.688Z"
- }
+  "label": "Blender rendert 34 Standbilder der Welt (voll, 16 Samples, 2 Prozesse)",
+  "step_since": "2026-10-25T18:12:34.888Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2315-mc43-stills/s",
+   "total": 68
+  },
+  "updated": "2026-10-25T18:12:34.888Z"
+ },
+ "queue": [
+  "2413-ft29-up2409",
+  "2414-ft29-people"
+ ]
 }
