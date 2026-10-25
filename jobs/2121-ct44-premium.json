@@ -1,0 +1,25 @@
+{
+ "id": "2121-ct44-premium",
+ "title": "CT44 \u00b7 Silberbarren voll animiert (Remotion Premium, 69 s)",
+ "type": "remotion",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5e5e99af-f7dd-41c9-ad38-12324b12eccc.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/050c02fb-ea2f-4e89-97a9-8a90e3a364a5.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGV2Z7XPHS%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T213938Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiB40%2FpE9aWiSx9xpBon90jc7seBhPt3oW45tTczNy%2FesQIhANZfD4FxwgwOs3KRwKSeX6l%2Fhb9Ge992tB4EAo50InRQKrAFCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgznj2f8GpJ9cI8IY4EqhAXLip2GTq%2FCjh7dRo7PnDMC7BHhDRqCbuQZQHal%2BCTJX3WLEwFl3DSz4WKffbiGpAwikdHZtcxUo7bVhrX0TC2EIntxo7tzt79D9dHtq678SXWueVON42LhDLW75Cqv9JxAktuvFq9H3MTB0EshODtt0d2yG0ZBMM0tnmy6sUScZITYy0%2FfGSkb3YmXgrv9qQgU0VZ1pCQDd6pCgSwlzCRi4%2BmZ1IuzA4acwodN%2BnyQQuFmhFxb0pEXYJ6mVHR9I649u%2BuTgGRkDmOTn3HqaFPgfhS1UX%2FJI1v156Y5bQ60v6VVWY2DleJLE0hz%2BzZbQfluWDUBNLgRt%2FTdrFcaw0LxgMIVOwso8FIJllquRESGRUJAxvnTaU9rn6akmDrfVEjGvHVUjo1nbtPdFeG5bPCLx%2Bu4hH9oNIiwRm%2FSJU99RAixUJmtMBs0YxK9sylDmihkcq7QNVrUghLQR%2BlmLjegh83Nw2R7C3EfzS2sdMoinS097OvKK2xoqbcch%2F2WMJp0GoKxlXyTaOaN7xSLKwWYerBX5tewa0U7jFh5h9bzA5oHxN8P2aJFp8cFY%2BTWkxpVQifgolvtH9aeh80J4yKt4GdxKXoJbh%2FVunVUE3Uh9Wn3cwW7%2BGSWsVM3REDkLyu4pXxtXChN%2BD5nEQToU%2BScTvAfLUQrl%2B43%2Bn6qaZrLjQEKfQpSQLSBhSIN6owjeOL3mHOGOwvSDQ3%2BR4diYXJwR3xebBeOb1P4MdFHf5dzNl7lmWEbMmRx55R20doiIldH0u%2FQHpYgu27qev0VKRTq5PSHMn9NPAtxZ4Dd2ZUgK71tnFDPQxnUGn%2FWzdeMt0QRjy4n9jWFYuRHkoZiat9uZcZjmjC5nfnWBjqQAaw98j7zqkKYAR6kunf%2FrwBHW%2FPwKP0RtXHT2jRR5Rt6WfU31CQjdiDtDgKrxsHlz9TW72JFtebRUIUGfVExerLj65FqcqGurTjd8ikVDayy8%2Fn5L%2FFm6JCT37oJNPM9iK9mE5C1u2plNae4wGkbtu9NopPVRk1yLWYHDyd%2FepyGnSQoJuZINXVsdgfQC38rzA%3D%3D&X-Amz-Signature=bdb0f85262ff07e20485d23809d2e08c8d1dd11b65a65ad9b3eb89412d9270c4",
+ "items": [
+  {
+   "comp": "CT44",
+   "entry": "src/indexCT44.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/735557a0-c994-4f91-aa98-4379eb136b25.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6JDH6JJD%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T213938Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAwwU1aFWkO%2ByZAhR33DN66Ef7%2BYx%2Fn26i9os0IRN8iAMCIQCNBUiWP3fbC2eigVmZwROcgnObmBgkn7XpD4Q3QgL0TSqwBQjC%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMeXOWV3pbTfUBWqmtKoQF0UgCVw9TPLwFMjzmquFaVzdUY1lkHPltqK1DKh46OvTXDZGT4wGGrBP83a5VV4LySPIMqxUFBk8RI2QPUHwAqeF%2BxpqQAvYeiDEdtmTgFuMdUFf1sD5TerxzoQTM5lbTw5urXlnmaiaoNz%2BWOMmDGDmzXy0bUFDB0h2wu%2BAAmzjUfa0tzjab6kzf3f9Qxoxdp9vdF4yaUeOTQUtv4PfQQjKQSAbqw4cfkZ2z81Yyy3LRWZ0aNfcOhaKzDLFLjCB8jefunDMDZJm9owPgeJvp68L47y9yOhEFBKK86MJWGj14DEgodf0yMd8MoOTXw87D1i%2Bdsqk0iDXBYAKgZ4l2ziaASBD81t9OghpzQwHLXPJMi8uW1TRBzSkJUjcSqbiBrToD5UjSldvMWd9Z3F9%2FhvYs40MP8A8iIOjinSsd57Ht9owWd1C0w49SruFdaOlYMzyEMS%2BOyNVCTrYaTquztcVp3Vac9tdxJxL15Tvk%2BFWfGzpObXbqMd%2BhIwVGLo4S9sykpA5foyirBgi5g%2FJvgleuOHgtnSeViWQOU7A9AAxALsbFCG8muv%2F8seRMPHNZmWJrt%2BKOK0bBX6P2wYfZxlKh9ksK4mMG2yh%2Bd3YsjmhSTMzxZ%2F99T5%2FCcpUEF5C4AFpslo4YbxTCRvKq0oXzVb20IwtMbR%2BEACcuZwh5hOb40hUsMTgoo2zGrwdIGhtSwVwfwNEtJnuIFDLhEDEEISkxbNUzhCzVZvr1Ij0yh9X4nh%2BP%2FjJ%2BVvuScFJZiCOL4N7hm9mdpSMvj7NuNrVABro27R%2FDQkPPc1yHiTpjc2Zf7NvyBoHqr9%2F7NzKnatw80OotiXPIfjagG%2Blcyh%2BOx2Szw64whef41gY6jwGpiZKPnVaXCLMK%2FHf9xsNmitA0%2BMHG5EkNtmfFf3Gyk4tF3Iex%2FfguZHc1UHBHeIkzjw5DQrxAPhftsgd9PGe3b89mFp0ny5xbozYpmbqB1i4vg25g9BQaujOtLmQUgp78g3sP63akY6XptoxhubioOswyUcTJoAFPekiUYArotuezMrSbqunJc7rIdOtcPA%3D%3D&X-Amz-Signature=28444046e256b2b6fdd3f9c44e5d86b37db34ded813cd1b3c42cbe4eec467638"
+  }
+ ]
+}
