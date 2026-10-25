@@ -78,7 +78,22 @@ h1{font-size:20px;margin:0 0 4px}.sub{color:var(--mut);margin-bottom:18px}
 .hero{grid-column:1/-1}.hero .big{font-size:26px}.steps{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap}.steps span{padding:4px 10px;border-radius:20px;border:1px solid var(--line);color:var(--mut);font-size:13px}
 .steps .done{border-color:var(--ok);color:var(--ok)}.steps .now{border-color:var(--acc);color:#fff;background:#173250}.steps .err{border-color:var(--bad);color:var(--bad)}
 .tag{font-size:12px;padding:2px 8px;border-radius:10px;background:#1d2a3b;color:var(--acc);margin-right:6px}
-</style></head><body><h1>Shorts Kommandozentrale</h1><div class="sub" id="sub">lädt …</div><div class="grid" id="g"></div>
+.vids{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(560px,1fr));margin-bottom:14px}
+.vc{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;gap:16px}
+.vc .main{flex:1;min-width:0}.vc .ph{width:150px;flex:none}
+.vc .ph img,.vc .ph video{width:150px;aspect-ratio:9/16;object-fit:cover;border-radius:10px;border:1px solid var(--line);background:#0d1520;display:block;cursor:pointer}
+.vc .ph .none{width:150px;aspect-ratio:9/16;border-radius:10px;border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;text-align:center;color:var(--mut);font-size:13px;padding:10px}
+.vh{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.vh .t{font-size:18px;font-weight:700}
+.chip{font-size:12px;padding:3px 9px;border-radius:12px;font-weight:600}.c-run{background:#173250;color:#9fd2ff}.c-wait{background:#2a2f3a;color:#b9c4d4}.c-err{background:#3a1a20;color:#ff9aa4}.c-done{background:#123526;color:#7ff0bd}
+.pct{display:flex;align-items:baseline;gap:10px;margin:12px 0 4px}.pct b{font-size:30px}
+.pbar{height:14px;background:#0d1520;border-radius:8px;overflow:hidden}.pbar>i{display:block;height:100%;background:linear-gradient(90deg,#3a8dde,#5ab4ff 60%,#3ddc97);border-radius:8px;transition:width .8s}
+.stp{display:flex;justify-content:space-between;margin:14px 0 6px;position:relative}.stp:before{content:"";position:absolute;left:8px;right:8px;top:7px;height:2px;background:var(--line)}
+.stp div{position:relative;text-align:center;flex:1;min-width:0;font-size:12px;color:var(--mut)}.stp i{display:block;width:16px;height:16px;border-radius:50%;margin:0 auto 4px;background:#0d1520;border:2px solid var(--line)}
+.stp .d i{background:var(--ok);border-color:var(--ok)}.stp .d{color:var(--ok)}.stp .n i{background:var(--acc);border-color:var(--acc);box-shadow:0 0 0 4px #5ab4ff33;animation:pl 1.6s infinite}.stp .n{color:#fff;font-weight:600}.stp .e i{background:var(--bad);border-color:var(--bad)}.stp .e{color:var(--bad)}
+@keyframes pl{50%{box-shadow:0 0 0 8px #5ab4ff11}}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:4px 10px;margin-top:10px;font-size:14px}.kv span:nth-child(odd){color:var(--mut)}
+.live{margin-top:10px;padding:8px 10px;border-radius:10px;background:#10233a;font-size:13px}
+</style></head><body><h1>Shorts Kommandozentrale</h1><div class="sub" id="sub">lädt …</div><div class="vids" id="v"></div><div class="grid" id="g"></div>
 <script>
 const CHN={CT:"Compound Times",MT:"Machine Times",MC:"Money Classics",FT:"Future Tender"};
 const ch=id=>({"21":"CT","22":"MT","23":"MC","24":"FT"})[String(id).slice(0,2)]||"";
@@ -97,6 +112,24 @@ else if(d.hb&&!/ (200|201)$/.test(d.hb)){mood="warn";msg="Verbindung zu Claude g
 else if(d.diskGB<10){mood="warn";msg="Speicherplatz knapp"}
 else if(d.therm&&d.therm<80){mood="warn";msg="Mac drosselt wegen Hitze"}
 document.getElementById("sub").innerHTML=dot(mood)+msg+' · aktualisiert '+new Date(d.now).toLocaleTimeString("de-AT");
+// video cards (rebuilt only when their data changes, so preview images and videos do not flicker)
+const P=["Skript","Stimme","Szenen","Vorschau","Final","Ton & Prüfung","Geplant"],PS=["Skript","Stimme","Szenen","Vorschau","Final","Ton","Geplant"],PW=[8,15,30,45,80,92,100];
+const src=u=>!u?"":u.startsWith("local:")?"/local/"+u.slice(6):u;
+const live=(busy&&d.progress)?{ch:ch(s.job),n:d.progress.n,t:d.progress.total,eta:d.progress.eta_min,label:s.label,title:s.title}:(busy?{ch:ch(s.job),label:s.label,title:s.title}:null);
+const vkey=JSON.stringify([d.pipeline,live&&[live.ch,live.n,live.label]]);
+if(vkey!==window._vk){window._vk=vkey;let v="";
+ for(const k of ["CT","MT","MC","FT"]){const x=(d.pipeline&&d.pipeline.channels||{})[k];if(!x)continue;let i=P.indexOf(x.stage);if(i<0)i=0;
+  const pc=Math.max(0,Math.min(100,typeof x.progress==="number"?x.progress:(i?PW[i-1]:0)));
+  const st=x.error?["c-err","Problem"]:x.stage==="Geplant"?["c-done","Geplant"]:(live&&live.ch===k)?["c-run","Mac rendert"]:["c-wait","in Arbeit"];
+  let ph=x.preview_img?'<img src="'+src(x.preview_img)+'" title="Klicken zum Abspielen" onclick="'+(x.preview_video?"window.open('"+src(x.preview_video)+"')":"window.open(this.src)")+'">':x.preview_video?'<video src="'+src(x.preview_video)+'" muted loop autoplay playsinline onclick="window.open(this.src)"></video>':'<div class="none">Noch keine Vorschau</div>';
+  if(x.preview_note)ph+='<div class="mut" style="font-size:12px;margin-top:6px">'+x.preview_note+'</div>';
+  v+='<div class="vc"><div class="main"><div class="vh"><span class="tag">'+k+'</span><span class="t">'+(x.title||k)+'</span><span class="chip '+st[0]+'">'+st[1]+'</span></div><div class="mut">'+CHN[k]+(x.topic?' · '+x.topic:'')+'</div>';
+  v+='<div class="pct"><b>'+Math.round(pc)+' %</b><span class="mut">fertig</span></div><div class="pbar"><i style="width:'+pc+'%"></i></div>';
+  v+='<div class="stp">'+P.map((n,j)=>'<div class="'+(x.error&&j===i?"e":(j<i||x.stage==="Geplant")?"d":j===i?"n":"")+'"><i></i>'+PS[j]+'</div>').join("")+'</div>';
+  v+='<div class="kv"><span>Jetzt</span><span>'+(x.note||"–")+'</span>'+(x.next?'<span>Als Nächstes</span><span>'+x.next+'</span>':'')+'<span>Fertig ca.</span><span><b style="color:var(--acc)">'+(x.eta||"wird berechnet")+'</b></span>'+(x.slot?'<span>Post</span><span>'+x.slot+'</span>':'')+'</div>';
+  if(live&&live.ch===k)v+='<div class="live">Mac rendert gerade: <b>'+(live.label||"")+'</b>'+(live.t?' · '+live.n+' von '+live.t+' Bildern'+(live.eta!=null?' · noch ca. '+live.eta+' Min':''):'')+(live.t?meter(Math.round(100*live.n/live.t)):'')+'</div>';
+  v+='<div class="mut" style="font-size:12px;margin-top:10px">Stand '+(x.updated?new Date(x.updated).toLocaleTimeString("de-AT",{hour:"2-digit",minute:"2-digit"}):"–")+'</div></div><div class="ph">'+ph+'</div></div>'}
+ document.getElementById("v").innerHTML=v||'<div class="card mut">Noch keine Videos gemeldet.</div>'}
 // hero
 let h='<div class="card hero"><h2>Gerade jetzt</h2>';
 if(busy){h+='<div class="big">'+dot("ok")+(CHN[ch(s.job)]||"System")+' – '+(s.title||s.job)+'</div>';
@@ -107,12 +140,6 @@ if(busy){h+='<div class="big">'+dot("ok")+(CHN[ch(s.job)]||"System")+' – '+(s.
 else{h+='<div class="big">'+dot("idle")+'Bereit – wartet auf den nächsten Auftrag</div><div class="mut">Der Mac schaut jede Minute nach neuen Aufträgen.</div>'}
 if(s.last)h+='<div class="mut" style="margin-top:8px">Zuletzt: '+(CHN[ch(s.last.job)]||"")+' – '+s.last.title+': <b style="color:'+(s.last.result==="fertig"?"var(--ok)":"var(--bad)")+'">'+s.last.result+'</b> um '+hm(s.last.at)+'</div>';
 g.push(h+'</div>');
-// pipeline per channel
-if(d.pipeline&&d.pipeline.channels){const P=["Skript","Stimme","Szenen","Vorschau","Final","Ton & Prüfung","Geplant"];
- let c='<div class="card hero"><h2>Videos in Arbeit</h2>';
- for(const k of ["CT","MT","MC","FT"]){const x=d.pipeline.channels[k];if(!x)continue;const i=P.indexOf(x.stage);
-  c+='<div style="margin:10px 0 14px"><span class="tag">'+k+'</span><b>'+(x.title||CHN[k])+'</b> <span class="mut">'+(x.note||"")+'</span><div class="steps">'+P.map((n,j)=>'<span class="'+(x.error&&j===i?"err":j<i||(j===i&&x.stage==="Geplant")?"done":j===i?"now":"")+'">'+n+'</span>').join("")+'</div>'+((x.eta||x.slot)?'<div style="margin-top:6px">'+(x.eta?'<span style="color:var(--acc)">Voraussichtlich fertig: <b>'+x.eta+'</b></span>':'')+(x.eta&&x.slot?' <span class="mut">·</span> ':'')+(x.slot?'<span class="mut">Post: '+x.slot+'</span>':'')+'</div>':'')+'</div>'}
- g.push(c+'<div class="mut">Stand von Claude: '+(d.pipeline.updated?new Date(d.pipeline.updated).toLocaleString("de-AT"):"–")+'</div></div>')}
 // machine
 g.push('<div class="card"><h2>Prozessor</h2><div class="big">'+d.cpu+' %</div>'+meter(d.cpu,lvl(d.cpu,95,101))+'</div>');
 g.push('<div class="card"><h2>Grafikkarte</h2><div class="big">'+d.gpu+' %</div>'+meter(d.gpu)+'<div class="mut" style="margin-top:6px">'+(d.gpu>20?"rechnet":"wenig Last")+'</div></div>');
@@ -130,7 +157,14 @@ document.getElementById("g").innerHTML=g.join("")}
 tick();setInterval(tick,3000);
 </script></body></html>`;
 
+const TYPES = { ".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif", ".webp": "image/webp", ".mp4": "video/mp4" };
 http.createServer((req, res) => {
+  if (req.url.startsWith("/local/")) {
+    // serve preview files from the Mac's work folders only (images and mp4)
+    const rel = decodeURIComponent(req.url.slice(7).split("?")[0]); const f = path.resolve(A, rel); const t = TYPES[path.extname(f).toLowerCase()];
+    if (!t || !f.startsWith(path.join(A, "work") + path.sep) || !fs.existsSync(f)) { res.writeHead(404); res.end(); return; }
+    res.writeHead(200, { "Content-Type": t, "Cache-Control": "max-age=60" }); fs.createReadStream(f).pipe(res); return;
+  }
   if (req.url.startsWith("/api")) { res.writeHead(200, { "Content-Type": "application/json", "Cache-Control": "no-store" }); res.end(JSON.stringify(collect())); return; }
   res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" }); res.end(HTML);
 }).listen(PORT, "127.0.0.1");
