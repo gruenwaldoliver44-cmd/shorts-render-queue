@@ -170,7 +170,7 @@ for (const f of files) {
   if (fs.existsSync(path.join(STATE, "done", id))) continue;
   if (job.expires && Date.now() > Date.parse(job.expires)) continue;
   const failN = fs.existsSync(path.join(STATE, "failed", id)) ? Number(fs.readFileSync(path.join(STATE, "failed", id), "utf8")) : 0;
-  if (failN >= (job.retries ?? 2)) continue;
+  if (failN >= Math.max(1, job.retries ?? 2)) continue; // retries 0 still means one attempt
   if (freeGB < (job.min_free_gb ?? 4)) { console.log(`[${now()}] skip ${id}: only ${freeGB.toFixed(1)} GB free`); continue; }
   LOG = path.join(STATE, "logs", `${id}.log`);
   const wd = path.join(A, "work", id);

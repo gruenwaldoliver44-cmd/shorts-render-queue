@@ -64,7 +64,7 @@ const collect = () => {
     for (const f of fs.readdirSync(jobsDir).filter((x) => x.endsWith(".json")).sort()) {
       const j = readJSON(path.join(jobsDir, f)) || {}; const id = j.id || f.replace(/\.json$/, "");
       if (fs.existsSync(path.join(STATE, "done", id))) continue;
-      const fail = Number(readTxt(path.join(STATE, "failed", id)) || 0); if (fail >= (j.retries ?? 2)) continue;
+      const fail = Number(readTxt(path.join(STATE, "failed", id)) || 0); if (fail >= Math.max(1, j.retries ?? 2)) continue;
       if (j.expires && Date.now() > Date.parse(j.expires)) continue;
       if (st.state === "busy" && st.job === id) continue;
       queue.push({ id, ch: CH[id.slice(0, 2)] || "", title: j.title || id });

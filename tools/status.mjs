@@ -26,7 +26,7 @@ const queue = () => {
     const id = j.id || f.replace(/\.json$/, "");
     if (fs.existsSync(path.join(STATE, "done", id))) continue;
     const fail = Number((() => { try { return fs.readFileSync(path.join(STATE, "failed", id), "utf8"); } catch { return 0; } })());
-    if (fail >= (j.retries ?? 2)) continue;
+    if (fail >= Math.max(1, j.retries ?? 2)) continue;
     if (j.expires && Date.now() > Date.parse(j.expires)) continue;
     out.push(`${channel(id)}: ${j.title || id}`);
   }
