@@ -37,6 +37,23 @@ await (async () => {
   } catch { /* ignore */ }
 })();
 
+// Telegram notifications: every notify/*.txt in the repo is sent once to Oliver's Telegram bot chat
+// (token and chat id live only on the Mac: ~/ShortsRenderAgent/telegram_token, telegram_chat). Best effort.
+await (async () => {
+  try {
+    const tf = path.join(A, "telegram_token"), cf = path.join(A, "telegram_chat"), dir = path.join(REPO, "notify");
+    if (!fs.existsSync(tf) || !fs.existsSync(cf) || !fs.existsSync(dir)) return;
+    const sentDir = path.join(STATE, "notified"); fs.mkdirSync(sentDir, { recursive: true });
+    const tok = fs.readFileSync(tf, "utf8").trim(), chat = fs.readFileSync(cf, "utf8").trim();
+    for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".txt")).sort()) {
+      if (fs.existsSync(path.join(sentDir, f))) continue;
+      fs.writeFileSync(path.join(sentDir, f), now());
+      const text = fs.readFileSync(path.join(dir, f), "utf8").slice(0, 4000);
+      await fetch(`https://api.telegram.org/bot${tok}/sendMessage`, { method: "POST", headers: { "Content-Type": "application/json" }, signal: AbortSignal.timeout(15000), body: JSON.stringify({ chat_id: chat, text, disable_web_page_preview: false }) });
+    }
+  } catch { /* ignore */ }
+})();
+
 // single instance
 if (fs.existsSync(LOCK)) {
   const pid = Number(fs.readFileSync(LOCK, "utf8"));
