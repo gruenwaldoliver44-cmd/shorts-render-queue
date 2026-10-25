@@ -1,0 +1,25 @@
+{
+ "id": "2323-mc45-premium",
+ "type": "remotion",
+ "title": "MC45 \u00b7 Straddling-Bus komplett animiert (Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6314e0cf-fde4-4d32-881c-ddf3f6fd525b.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC45",
+   "entry": "src/indexMC45.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d5d260c6-99d2-4b08-834f-af19380c8192.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGRKIZHDMT%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T214822Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiAoXjTcVJOj4l37vg%2FQ3DPfru%2BX66wus06XrxmPA6QqQQIhAJSqL4tAX4iEbI1tAf%2Fd2HSIvPJ9djmQL5ytglVWcEecKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzbAhI6B4m6GXWkVDsqhAXjcql9PS42cf5RsuaRSzkxs8sRFs1K82P0DzAYQ2RgwFfaQgd%2F78wYz%2B%2FmhbXQvP5pxk00%2FvK%2FzIhB4p2gkBKJy3ITpvNAxo%2BfxgpkY1s5bwH%2F8ncEmKqyBWg%2F%2BP6GINA5ZC95qHDN2qE3zdFNQiiaS3JxAOXpNtViiltdctk1xHX2wDxQVP4y%2FTzF7oGLIn7lEBvZmudre2RMo%2FNTieKCCFvAriuAWa9zgiX5%2F4SchSW3pPUw86XPtzDHUrby65hm27KkDNxDoy1WPPHDiDgKCsEhBONu8Dc5WhRf8yinsv0LBJVKu2AEbsuCYjevt1jpdWK2HfRsoBrrDM33wUyFfUCXJ%2BLdiq4Jtwm%2F%2F2%2BJL%2BJH9dTAdYbNpCeyMoMneyJB5s08QX8CtD%2BnLQc7io18mH3rbsxQmgdZ0NFG9QdWR0snv0PpUFNFA%2Be6DBMdm2j6p632PyGaPXSLuCxcOTCo%2FgrnADtufRk3kBECpT4JwVyHYb%2FoMSr3uim7Xp7Xd2z5VyfRYRRULaFaSpO7TJlu5iIsHNL4vDKHcW%2BFuUi7PIGCTGL55TEjtWTi4yx8RFAY6xtX1OZTj7nsel75jK6M69ikA7U8nBMB0XWFFVOzSKgVpJkAuaWf4XKkMd98ydLIk7YhbjTL1yKI6JZHbHFMfOcVzFoSTIHrm5NQiA8M7mrz6AzR1KJmVD1JX1os4e0g2x1xYnyzyxoJv9BBlf%2BVbpBNQm7OmbO3JrZazrBFV0uL2UAuYWjeB4ve%2ByJsV08QngYaOQATxKdGvQEU8L1hvpMUQO51UH%2Fl0wYOYX9O6f%2BV%2BfrtO8KJSrHMc6rbk6Utf7SlyvxFx9pXMsGriCEAaKV19zCMifnWBjqQAbSnRxzZ%2BWEpTDAOIPgvYUsiXG3IHodc0BDp9mEMWf%2FYkYyWdwQW8sm861cmAm%2F8STcwD%2BXA%2Ff0sNjglUFPOOHNOQ0itAgn7shU1CFu8z4aUwB7VKEOuISAXBc%2FDnAXDq9CXiNWthx6O%2FznVt6sLT9vBQDaolkHf6v2CwRZ%2F0waT35aIjfcfkSoaXBpW5k8eTg%3D%3D&X-Amz-Signature=5b64a1df7fed1e468d1e42709352329b81cec016dc627f18a34ca216f1bb0b1d"
+  }
+ ]
+}
