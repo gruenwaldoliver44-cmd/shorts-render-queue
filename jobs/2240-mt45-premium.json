@@ -1,0 +1,26 @@
+{
+ "id": "2240-mt45-premium",
+ "type": "remotion",
+ "title": "MT45 · Handy weiß, wo oben ist (Remotion/R3F, Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f5582822-5310-4866-87b9-78e1c196bb00.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "expires": "2026-10-26T21:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6e0bc3f0-d3c9-4029-a0a0-3095ef040942.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6Y4JR7JX%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T214626Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAwdU%2BJyEfNWnN2bpI8RUcPD3y5BKjA8dzTBa6gHV86WgIgJyfjgRtFTppr1y%2BhlctELbQmZgF3jDGa3LlVo96tVE0qsAUIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDGvwYJjteqVAQXdhfyqEBdoGc3ywBIWzLceniasCCL0f4Uxoznt4X5bc6XLe%2BxdncR8ol2qYClMfMJYcG1p2dVm5qcnuyLDfvGisD3XOvIMpUMEU70MMIUx1ugbj9po5F9%2B1maxYJLM0fu7alqpBiWISRlHpbdnYdIWg1RQ%2Fy87%2BczzddGfgGydgjORB5P8uA81rpTSTx6ZPgK%2BWgZNCbZXOrqZmmEiS0Gl7y1U9%2BJSJ1gMROM6OUFMjGqDCaHiGUpKiXxRdZQX1WG3rvsiD%2BOGSh2rmOLBH6oXnixWVXshsY6AdI83aZd7Zv5KRg3Q4FRIpLVa7sWNSvML2XQ1qLGfU2FVSnH3Z4sPyVMqCK2RoH%2F%2FzNJtlrSkZwWfM4WzsBiArroySbKhMefrPt%2BEkXimjVpo87lhExbY9%2FLKKi4QBYFOhO8oVtwhbWopBOqjESY1dBjmNUobeCAa4BUMbg1imxplYqKJNayhB0VvpXmN0PFEfj1BNdd%2B9fWeR%2B9SRXOE0vX5ZjWiVBhBS3Ywl3xHRFnjFPfhgNmh6u4i3rRHcyhGyDtQSSMIOQjwqLgZrbMtbPWxgsYswzi6En6nnzxAEBjQO6Bbw8wbj7QCtxIvvNAvQ%2Bk9768Ll0TLGJt6WAUSk4KuvhOgpK7hLOQ2Vdx%2BnA5HdOmmdCeZ8leQ6rUUEfLaZM%2FSUcidK9mN7y2wCNy8KhnouCmztIXpmxRGvllxN%2B07EcGi6ZQTyQzEGWQOMsRG42TbYkuXb69TGCmJ%2BApCbUONhnI%2B0E0opdyJcZlMXXAzGot8LKIBNRKI0JHsoL2D5WFD9ywfvUJPRGixsbjgpoNWyJp8gI1ZuaT0QDXRmEdhBpLZAmNt4gBk6TbttvNgjMJGM%2BdYGOpEBQZcwmuomt2TTiZ%2FeBfC0UGJFFTvaF%2BkeiJAbEqrczY6SUhner%2BGzX5bCcRir0J7Nb7DtbNloHwtkYUm7Yogn4YXGFC7HYvY6GIr4Q6zEjLoYkECcZ7V6iEDqez1isFe1wwRhJdNM0H%2FuJxHLnPSn6ncAcpWU676EsWVtepIiP%2B8teyC5tyf6xWStjbeFguS51g%3D%3D&X-Amz-Signature=368f90b35bc13ceb2113ceb0001e76bf07b558438f8472955abdf7f65af50f1b",
+ "items": [
+  {
+   "comp": "MT45",
+   "entry": "src/indexMT45.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d27f10e8-e3e8-4bfd-8719-42abf5d8ffcf.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG5NT2CG76%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T214628Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiA%2BCiF8up4yibpKHUXU%2Frk1nMuyDZ61wstJuln246aPwQIgcfCGBQ0SMWrOSySOZVUUMPKvFxEzqvq1rBRixktLZjEqsAUIwv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDFG6uBpqj3sm1G%2FH6iqEBcm4a5CjgHJ6DfJ3YribV4%2FHhGyIjMDBP7vwF7yhGhQd0ZBNIGMNaLWAc3DS%2BPSHmWBAVLkKfYmDRaCBKCpnpLqji9nGM%2Bx%2BqbA6TrQ%2Fci7uigYv%2FBX1laRvrQyPidwbLjEoRjYKw4gP0wn91pp%2BJ8dufX%2FvEP0J2WSXX4ZBi0Ah0t%2Ft1gdS1I91kGz4AAD%2B6En%2FFffETNIJiDs6x4a1PPmf1I8ahl6DvhIUWogJ3dRGL07i%2BkNSbBCox%2FGRgpBAbKST3qvFGpnFuNMcWqejBS09X6Pi0PHSLWsh4bd8Deq2nifD2xxSOLWyZxnybSdBtBaZkpZuEwGMuFOf%2FNBs0jnzHfE2K0C4NMBqqCsWX%2B4f5InQkuUjEpA5xVQ9d8LtHB2wzzImXJ96xriwdtL%2Bru8EO7Cdqq8JrB37TDUIZK3aFEFQbU5BOW%2BERqjLIyEYp0U4rSpKXV3xnLyKIQ10djsPnYIAkgNPli2o1ZlSH6Zi%2F4AZP%2F6cF2WJ9pxoEvRUk4obN9Q1Meajh%2BromVfIu4UXgW%2Fascc9wbMq0CaF2%2BTsDdHVKLujQmigm1DYx7GH7lGWMJGIwlEmJMWLnYIQoKNU5TGKwNwjrncPc8O4BItoZTSoIAP5hbuLHTerno2y03Ihukk0lUGWmS1A3BKKAoMwKVW8ouZctFNyMgfAE4hhvcvP3iRtyOIK%2BB0jnmkhHveMMJ9Sz6kWm8axcJa8q2rZO9S9Be3uN45Yc4gs6aIRzvLgNMIZ4Ia%2B3aPQWevb%2Bpo%2BXy3QojCUIo8hk6BAV0zcp%2FhGgTEmn59aNdg8NIKlFixfervUqmHEtd15cegPwP7fx5JDjTmvRTv1wiKIql0gU31CMNvm%2BNYGOpEBRp3Crecpo6ZUEClRRbYMAIm6yuFoFKRNbpsbZDPh46%2BBYK6Hp%2BcS9USvi31irLrPPVP6INNkAPT%2BCIVzC4WDDmrSP6Tze%2Fd5TxLj%2BK%2B2A8A68qWutOrv%2B%2FUQKStsnNCk7w9p9pBkXZIKrJFFUutcfhgUlGA%2Fyj8gHSBhoyY5yObvIGJwvTt9YES4rN250m4tcg%3D%3D&X-Amz-Signature=6341effefd1e8dda784d73e459b589856cb8d29c0879492e28a7c94677c3b253"
+  }
+ ]
+}
