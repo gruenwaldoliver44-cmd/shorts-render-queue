@@ -1,0 +1,25 @@
+{
+ "id": "2322-mc44-premium2",
+ "type": "remotion",
+ "title": "MC44 \u00b7 Fort Knox v2 (Papier dunkler, Goldpyramide)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a1cf85e2-0cf4-46ff-a570-e53c071675bc.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC44",
+   "entry": "src/indexMC44.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c26235ab-d8d6-4284-acfe-b24c302c25d5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG3WQROG2H%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T214323Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiB7mVvQESI7ArXGMZW2%2Bj0K9OqmwPTTNLkYMXZolLbAzQIhAJYY5%2B9R8ar3JUwfijOi8GUJRLuUbO6WH07VVAMBAPiQKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxKEuQ4qoe3NrghL%2B0qhAXYOIs%2By%2FW9M3336aQDFmPIHU9yo4D8ZH6ENZIpFjHJlmD%2FgCgqudwqXnINFe154t2yh1ZQxA3BvtIcmk4G%2FjH%2Fc%2FfHPqMURisf1TPhYVCUnyoT9l%2BKygx%2B2tpwFv8r%2FXGhQ%2FyIMnOczKN8%2F5%2FI26l%2BS%2FVOqsoe6UY4h49mAf25VbTa4NawyY54FFjFQNSAxEybM0g1FMRVmXCNcOpSbFVJa%2FdUVLp9%2FMW%2BPUAw2TGqY29%2FpASRUzz%2BpwdcDdnkyIfAD8Klh7i4DUCbrardSnv%2BxI%2BhW6ujh4J%2FzShtts8VFmuEVrdF7Um8ndujhsEQh%2BKhp%2F5GNIZtIG2ANd%2FDDLudEpc3Q1EDL5%2FmpwNMzKHlNr%2B0rZssfB16lUx4iM8cw6qfBnmqp1YnGvoKakPfy4Z2HdxaKLoKs8mVgXQnQVETyRwemt%2FfBVUkA2Dz67lGP14LBISioVLreidfb69q9LtzYKN9%2FRxOKOtmtUbMibLGq%2BJ3Ig1Zvh2Foqhqm9i79MRza8lRjC8IhZdGToH8wrdlDhtoO2pzHgmAmEIgYyhn24SLtVuP8I0LN2JYKmVEsakYIo5bTiXoqKTLHgYuHBlbs6a5udSvpZsRBDTxJqvn4m6%2Fo%2F5BCFIc9uQco4rOGUq7mXWdyffmvBqJBtq9cNjgA5dK2hAy3S9TYBZwDoiCkEZ5EQ7bCVNCI3qanrsqWaiGvhUkMOV8gJN4ZzKifNhEGWj7N5rB%2BvZASpB0rUaSwWQWvb%2FZ7i6x721AZq9jX1Yk1MuA0A5mqwNN%2FAhSty6vq2uXZZ7kgZFnCHfl%2B5PDKBIH3a3C6BNz5sAdmW24t%2Bg9QVJfS6%2FvgFDqPt5uSwTIVfVj6zDM7fjWBjqQAcZPtt%2BqqOIsaDRE216KT05aQVEVTqh8jYNRMwEIwhPmMkuv%2B35SET5pef6KvySqf3%2B%2FztzgSjY85gNZQCfl%2FmgBMTAlYcu%2F5hb7r5zBeWTL2%2BcBKvXfOvuHHC8pD1YDTEBBnjhEIWUHyVxQxkL26IEElKjqHEZJf72kzRSTwLCUCZhYca%2BOQaIhrqJy347nOg%3D%3D&X-Amz-Signature=88755156750c64adcc2343159163a2c10e4fc6cc834b64f91dd21063c4ee7f95"
+  }
+ ]
+}
