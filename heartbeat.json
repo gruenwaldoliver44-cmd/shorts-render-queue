@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T15:59:33.974Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T15:59:45.437Z",
+ "current": "2113-ct43-hero since 2026-10-25 15:59:45",
+ "busy": true,
  "free_gb": 55,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 0,
- "mem_free_pct": 85,
- "progress": null,
  "done": [
   "2410-ft29-hy-stills",
   "2210-mt43-stills",
@@ -56,14 +51,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2410-ft29-hy-stills",
-   "title": "FT29 · Hybrid: Welt-Standbilder + Tempo-Test",
-   "result": "fertig",
-   "at": "2026-10-25T15:58:43.693Z"
-  },
-  "updated": "2026-10-25T15:58:43.693Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2113-ct43-hero",
+  "title": "CT43 · Hybrid: 3 Heldenshots rendern (245 Bilder, 2 parallel)",
+  "job_since": "2026-10-25T15:59:45.421Z",
+  "timeout_min": 70,
+  "step": 0,
+  "steps": 5,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T15:59:45.421Z"
+ }
 }
