@@ -1,0 +1,25 @@
+{
+ "id": "2326-mc47-premium",
+ "type": "remotion",
+ "title": "MC47 \u00b7 Air Force One komplett animiert (Premium-Render)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/cd82714e-9fc0-43e1-b753-7067aa9febb8.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC47",
+   "entry": "src/indexMC47.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5df3fd7a-658e-4630-9acf-a313069e1a41.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGWWDFNV4S%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221235Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEArVc2Icn8x1Mpw%2FxPa9BlGokMxv12Pn0xUtyNW%2B7aKTwCIFtMM2N0ZtgN90wehekqajFMD3pGAMfbpDoXq4n6Sqs6KrAFCMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwVzKg9021DVGB96DIqhAXlNnJ5zPZLoDYzjfYgsobYXKoPLW2tadOOJ9KzgjdFUPH%2BUAzG7LsSBh63nPiHdn%2FFYesTO9Py0q1h%2FzqazMu3CqrxMTOqMVvUPHUsTPeSs63eGAOhXcY023VzIaD3iW4HmsUgp3w7tu6JSSEEnpeqBx7qS6j0ZK8eC4FjGdKH2rrWOnunQ2F8xWlf%2FfRUvo0twDSLdj2h%2FGCLNVf%2FogdufBVqIFv0MxmpssdieTMWiYI291oD0k0jro39zPMghjU3b5wDP8anu5RhxJexnPiaqaSF0pGNriuoszW8q2tOUdS%2FFOtV1RuCBXNHJ6FjT4I%2BZ60ingl0jGOdldfdmbhXROk3AeF4gIPBNEtMr%2BDy7cRnpiyFlkck6BGcOQCKkIZg6OgTMyX19x6%2BlSe%2Bj34AyZXeo2r2yOJeeDhIue3Q4NtGhPrnY0ZgD82VrHhK%2FCnXmanIm%2BxZpZrHxT5Sz4LnqxwjzmPtSYtU7Ez2V3Y3823beZituM9%2FxVufkB3UGEFEfJAXG6do7F0zwAdVRRHRJbr8pjp1JiWiK0BhJVNhl5bzyzakf3RpY1nROJ0rflWUdKpRnsMtiQ2h7WP0gIBvox34UoS5GIMLSQYkqlo3CfTXOjzxMP%2BFkVl6UvAK%2BcUP36JqhxWumBPl7CyYqZza6AtrDsO9OZLS2fdgLqj%2B1ZLP9HHIvO1c9kdiC21xoRfWOBFe2RLcb0e161mq3Z9gtbMHyczeGA7YPlsj3NT2M3YKy9DR%2Bel0nFICcx0Juk5IZ40cDYwe9iyA%2FzW%2FToWNEBn77qEgeto1JorYmPI3MV3AL6wyG5E1%2FuwMOYG6UHxBrtEsLg15tz3RiDQbJ85m6pGqSjC9yvnWBjqQAbsrRL%2FTbVYlS4Bxvxws0m88fTMJ3NECHjbGkMwy9wmNp78WgbMDbI2z1nHy%2FjtYXGEyXPnBlZK%2FuffurpM3idaOfquG8Nm%2FqkgGjQkJis0RkWna%2F3e7%2FwhD36pqy9WzCTnatI0E6wIdGXHSiN%2BKOQBSu6tmaT1csHV6OwQEMyUqtepd1sx%2FQnX7rsOvRqK7zg%3D%3D&X-Amz-Signature=5c90dab5bbbab7e2ed1451ee89e78c9fe853f0eee4198d2f111f958ef3fa64c9"
+  }
+ ]
+}
