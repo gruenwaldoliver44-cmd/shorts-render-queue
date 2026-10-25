@@ -1,14 +1,14 @@
 {
  "title": "MT43",
  "stage": "Vorschau",
- "note": "Vorschau 6 rendert (ca. 80 s pro Halbbild, CPU-gebremst). Ursache gefunden: Modifikatoren der Assets werden jedes Bild neu berechnet; Fix (einmal einfrieren) wird getestet",
+ "note": "Vorschau 6 rendert noch (alter Stand). Tempo-Fix fertig: Asset-Modifikatoren werden einmal eingefroren statt jedes Bild neu berechnet. Tempo-Test + Vorschau 7 in der Warteschlange",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:18:30Z",
+ "updated": "2026-10-25T14:20:59Z",
  "eta": "nach dem Tempo-Test (ca. 17:30)",
  "topic": "Auto auf den Gleisen: Warum der Zug nicht bremsen kann",
  "progress": 42,
- "next": "Tempo-Test: 10 Bilder in voller Qualität mit dem Fix, dann Vorschau 7",
+ "next": "Tempo-Test auswerten (Ziel unter 15 s pro Vollbild), dann Final",
  "preview_img": "local:work/2207-mt43-prev6/prev.mp4",
  "preview_video": "local:work/2207-mt43-prev6/prev.mp4",
  "preview_note": "Vorschau 6 · läuft gerade"
