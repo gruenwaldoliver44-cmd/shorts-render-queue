@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:52:52.358Z",
- "source": "dashboard",
- "current": "2328-mc48-premium since 2026-10-25 22:47:41",
+ "ts": "2026-10-25T22:54:52.028Z",
+ "current": "2426-ft34-premium since 2026-10-25 22:54:52",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 46,
- "gpu": 95,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
+  "2328-mc48-premium",
   "2270-mt48-premium",
   "2425-ft31b-premium",
   "2424-ft33-premium",
@@ -48,8 +44,7 @@
   "2113-ct43-hero",
   "2410-ft29-hy-stills",
   "2210-mt43-stills",
-  "2111-ct43-herotest",
-  "2309-mc43-upload2"
+  "2111-ct43-herotest"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2328-mc48-premium",
-  "title": "MC48 · Diamonds (De Beers) + MC45 v3 (Billboard-Text fix)",
-  "job_since": "2026-10-25T22:47:41.046Z",
+  "job": "2426-ft34-premium",
+  "title": "FT34 · SIM-Swap (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T22:54:52.003Z",
   "timeout_min": 60,
   "step": 0,
-  "steps": 2,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:47:41.046Z"
- },
- "queue": [
-  "2426-ft34-premium"
- ]
+  "updated": "2026-10-25T22:54:52.003Z"
+ }
 }
