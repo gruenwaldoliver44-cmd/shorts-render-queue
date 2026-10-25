@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T14:58:27.409Z",
+ "ts": "2026-10-25T15:00:27.723Z",
  "source": "dashboard",
  "current": "2208-mt43-speed-prev7 since 2026-10-25 14:26:29",
  "busy": false,
- "free_gb": 47,
- "blender_procs": 0,
- "cpu": 21,
- "gpu": 0,
- "mem_free_pct": 85,
+ "free_gb": 45,
+ "blender_procs": 1,
+ "cpu": 18,
+ "gpu": 16,
+ "mem_free_pct": 32,
  "progress": {
-  "n": 10,
-  "total": 10,
-  "eta_min": 0
+  "n": 0,
+  "total": 57,
+  "eta_min": null
  },
  "done": [
   "2109-ct43-up",
@@ -58,15 +58,15 @@
   "title": "MT43 · Tempo-Test + Vorschau 7",
   "job_since": "2026-10-25T14:26:29.785Z",
   "timeout_min": 45,
-  "step": 6,
+  "step": 7,
   "steps": 8,
-  "label": "Tempo-Test: 10 Bilder in voller Qualität (16 Samples, Nebel an)",
-  "step_since": "2026-10-25T14:26:32.056Z",
+  "label": "Blender rendert Vorschau 7 (jedes 30. Bild, halbe Größe)",
+  "step_since": "2026-10-25T14:58:27.544Z",
   "progress": {
-   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2208-mt43-speed-prev7/blender_test.log",
-   "total": 10
+   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2208-mt43-speed-prev7/blender_prev.log",
+   "total": 57
   },
-  "updated": "2026-10-25T14:26:32.056Z"
+  "updated": "2026-10-25T14:58:27.551Z"
  },
  "queue": [
   "2409-ft29-prev3"
