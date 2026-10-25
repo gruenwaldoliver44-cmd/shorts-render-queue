@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-25T17:21:34.122Z",
+ "ts": "2026-10-25T17:23:34.169Z",
  "source": "dashboard",
- "current": "2412-ft29-hy-up since 2026-10-25 17:21:21",
- "busy": true,
- "free_gb": 53,
+ "current": "",
+ "busy": false,
+ "free_gb": 57,
  "blender_procs": 0,
- "cpu": 18,
+ "cpu": 15,
  "gpu": 0,
- "mem_free_pct": 85,
+ "mem_free_pct": 83,
  "progress": null,
  "done": [
+  "2412-ft29-hy-up",
   "2212-mt43-final",
   "2114-ct43-up-hero",
   "2411-ft29-hy-world",
@@ -63,17 +64,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2412-ft29-hy-up",
-  "title": "FT29 · Welt + Heldenshots hochladen",
-  "job_since": "2026-10-25T17:21:21.526Z",
-  "timeout_min": 15,
-  "step": 3,
-  "steps": 3,
-  "label": "FT29-Welt hochladen (Standbilder, Tiefe, 3 Heldenshots)",
-  "step_since": "2026-10-25T17:21:24.262Z",
-  "progress": null,
-  "updated": "2026-10-25T17:21:24.262Z"
+  "state": "idle",
+  "last": {
+   "job": "2412-ft29-hy-up",
+   "title": "FT29 · Welt + Heldenshots hochladen",
+   "result": "fertig",
+   "at": "2026-10-25T17:22:00.798Z"
+  },
+  "updated": "2026-10-25T17:22:00.798Z"
  },
  "queue": []
 }
