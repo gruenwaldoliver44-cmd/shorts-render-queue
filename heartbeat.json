@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T23:28:52.427Z",
- "source": "dashboard",
- "current": "2330-mc50-premium since 2026-10-25 23:23:31",
+ "ts": "2026-10-25T23:29:57.156Z",
+ "current": "2428-ft34b-ft36-premium since 2026-10-25 23:29:57",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 27,
- "gpu": 18,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
+  "2330-mc50-premium",
   "2290-mt50-premium",
   "2427-ft35-premium",
   "2280-mt49-premium",
@@ -48,8 +44,7 @@
   "2313-mc43-hero2",
   "2312-mc43-encup",
   "2412-ft29-hy-up",
-  "2212-mt43-final",
-  "2114-ct43-up-hero"
+  "2212-mt43-final"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,15 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2330-mc50-premium",
-  "title": "MC50 · Kansai (sinkender Flughafen) + MC48 v2 (Overlap-Fix)",
-  "job_since": "2026-10-25T23:23:31.150Z",
-  "timeout_min": 60,
+  "job": "2428-ft34b-ft36-premium",
+  "title": "FT34 Re-Render (Hook-Schnitte) + FT36 Maut-SMS (Remotion/R3F, Premium)",
+  "job_since": "2026-10-25T23:29:57.137Z",
+  "timeout_min": 90,
   "step": 0,
   "steps": 2,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T23:23:31.150Z"
- },
- "queue": []
+  "updated": "2026-10-25T23:29:57.137Z"
+ }
 }
