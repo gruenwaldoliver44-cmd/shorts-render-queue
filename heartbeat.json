@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T17:19:34.117Z",
- "source": "dashboard",
- "current": "2212-mt43-final since 2026-10-25 17:16:52",
+ "ts": "2026-10-25T17:20:16.224Z",
+ "current": "2311-mc43-heroup since 2026-10-25 17:20:16",
  "busy": true,
  "free_gb": 53,
  "blender_procs": 0,
- "cpu": 11,
- "gpu": 0,
- "mem_free_pct": 85,
- "progress": null,
  "done": [
+  "2212-mt43-final",
   "2114-ct43-up-hero",
   "2411-ft29-hy-world",
   "2310-mc43-hero",
@@ -62,18 +58,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2212-mt43-final",
-  "title": "MT43 · Final rendern (Hybrid, 84 s)",
-  "job_since": "2026-10-25T17:16:52.621Z",
-  "timeout_min": 60,
-  "step": 2,
-  "steps": 2,
-  "label": "Final hochladen",
-  "step_since": "2026-10-25T17:18:53.896Z",
+  "job": "2311-mc43-heroup",
+  "title": "MC43 · Heldenshots hochladen",
+  "job_since": "2026-10-25T17:20:16.201Z",
+  "timeout_min": 8,
+  "step": 0,
+  "steps": 6,
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T17:18:53.896Z"
- },
- "queue": [
-  "2311-mc43-heroup"
- ]
+  "updated": "2026-10-25T17:20:16.201Z"
+ }
 }
