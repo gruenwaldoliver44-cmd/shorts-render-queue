@@ -1,15 +1,15 @@
 {
  "title": "MT43",
- "stage": "Stimme",
- "note": "Neuer Standard: Skript auf 83 s erweitert (Gates A/C bestanden), neue Stimme fertig. Umbau auf Hybrid: Blender-Hero-Shots + KI-Menschen + Remotion",
+ "stage": "Szenen",
+ "note": "Hybrid: 8 Blender-Standbilder fertig gerendert, 9 KI-Szenen mit echten Menschen fertig, Grafiken + Ton gebaut (Mix -14 LUFS)",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T15:20:06Z",
- "eta": "ca. 20:00",
+ "updated": "2026-10-25T15:52:16Z",
+ "eta": "ca. 19:00",
  "topic": "Auto auf den Gleisen: Warum der Zug nicht bremsen kann",
- "progress": 22,
- "next": "Tempo-Daten lesen, KI-Szenen prüfen, Shotliste mit Mac-Budget (75-90 min)",
+ "progress": 45,
+ "next": "Blender-Bilder animieren (Hero-Shots), dann Remotion-Final auf dem Mac (ca. 20 min)",
  "preview_img": "",
  "preview_video": "",
- "preview_note": "noch keine fertige Vorschau"
+ "preview_note": "Vorschau folgt nach dem Final-Render"
 }
