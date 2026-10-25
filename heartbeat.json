@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-25T21:08:38.739Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-25T21:08:52.137Z",
+ "current": "2120-ct43r-premium since 2026-10-25 21:08:52",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 0,
- "mem_free_pct": 86,
- "progress": null,
  "done": [
   "2414-ft29-people",
   "2116-ct43-up-people",
@@ -49,8 +44,7 @@
   "1012-ct42b-prev3",
   "1011-ct42b-prev2",
   "1010-ct42b-prev1",
-  "0004-blender-test",
-  "0003-blenderkit-install"
+  "0004-blender-test"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2414-ft29-people",
-   "title": "FT29 · Blender-Figuren: 17 Standbilder + 2 Heldenshots (16 Samples)",
-   "result": "fertig",
-   "at": "2026-10-25T21:07:49.557Z"
-  },
-  "updated": "2026-10-25T21:07:49.557Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2120-ct43r-premium",
+  "title": "CT43 · Neubau voll animiert (Remotion Premium, 66 s)",
+  "job_since": "2026-10-25T21:08:52.116Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T21:08:52.117Z"
+ }
 }
