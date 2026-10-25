@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T17:24:30.367Z",
+ "ts": "2026-10-25T17:25:34.183Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 11,
+ "gpu": 0,
+ "mem_free_pct": 83,
+ "progress": null,
  "done": [
   "2312-mc43-encup",
   "2412-ft29-hy-up",
@@ -68,5 +73,6 @@
    "at": "2026-10-25T17:24:30.320Z"
   },
   "updated": "2026-10-25T17:24:30.321Z"
- }
+ },
+ "queue": []
 }
