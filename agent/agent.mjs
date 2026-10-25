@@ -136,7 +136,7 @@ const runShell = (job, wd) => {
   const steps = job.steps || [];
   for (let i = 0; i < steps.length; i++) {
     const st = typeof steps[i] === "string" ? { run: steps[i] } : steps[i];
-    setStatus({ ...JOB_INFO, step: i + 1, steps: steps.length, label: st.label || `Schritt ${i + 1}`, step_since: new Date().toISOString(), progress: st.progress ? { dir: path.join(wd, st.progress.dir), total: st.progress.total } : null });
+    setStatus({ ...JOB_INFO, step: i + 1, steps: steps.length, label: st.label || `Schritt ${i + 1}`, step_since: new Date().toISOString(), progress: st.progress ? { ...(st.progress.dir ? { dir: path.join(wd, st.progress.dir) } : {}), ...(st.progress.log ? { log: path.join(wd, st.progress.log) } : {}), total: st.progress.total } : null });
     if (!sh(st.run, wd, { AGENT_HOME: A, JOB_DIR: wd })) return false;
   }
   setStatus({ ...JOB_INFO, step: steps.length, steps: steps.length, label: "Lade Ergebnisse hoch", step_since: new Date().toISOString(), progress: null });

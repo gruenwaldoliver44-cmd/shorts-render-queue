@@ -15,6 +15,8 @@ const sh = (c) => (spawnSync("/bin/bash", ["-c", c], { encoding: "utf8", timeout
 const readJSON = (f) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return null; } };
 const readTxt = (f) => { try { return fs.readFileSync(f, "utf8").trim(); } catch { return ""; } };
 const countFiles = (d) => { try { return fs.readdirSync(d).filter((f) => !f.startsWith(".")).length; } catch { return 0; } };
+// frames finished according to a Blender log (works when Blender writes one video file instead of single frames)
+const countLog = (f) => { try { return (fs.readFileSync(f, "utf8").match(/Video append frame|Saved: '|Saved: "/g) || []).length; } catch { return 0; } };
 
 let lastCpu = os.cpus();
 const cpuPct = () => {
@@ -41,7 +43,7 @@ const collect = () => {
   const loopBeat = readTxt(path.join(A, "heartbeat"));
   let progress = null;
   if (st.state === "busy" && st.progress && st.progress.total) {
-    const n = countFiles(st.progress.dir); const h = (progHist[st.progress.dir] ||= []); h.push({ t: Date.now(), n }); while (h.length > 60) h.shift();
+    const n = st.progress.log ? countLog(st.progress.log) : countFiles(st.progress.dir); const key = st.progress.log || st.progress.dir; const h = (progHist[key] ||= []); h.push({ t: Date.now(), n }); while (h.length > 60) h.shift();
     let eta_min = null; if (h.length > 5 && h[h.length - 1].n > h[0].n) eta_min = Math.round(((h[h.length - 1].t - h[0].t) / (h[h.length - 1].n - h[0].n)) * (st.progress.total - n) / 60000);
     progress = { n, total: st.progress.total, eta_min };
   }
