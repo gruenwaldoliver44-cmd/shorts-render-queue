@@ -1,15 +1,15 @@
 {
  "title": "CT43",
- "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe (ohne Figuren)",
+ "stage": "Fertig, wartet auf gemeinsamen Slot",
+ "note": "Neubau voll animiert (Remotion Premium + Blender-Heldenclips), keine Standbilder",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T19:41:01Z",
+ "updated": "2026-10-25T21:22:47Z",
  "eta": "bereit",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 95,
- "next": "Oliver gibt frei",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8f786b54-a997-4710-ba72-ea4ac86c2cb1.jpg",
- "preview_note": "CT43 ohne Figuren · 65,8 s · nur Blender + Grafik",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8962a2d2-8646-4f14-a9c4-b838cc7fd160.mp4"
+ "progress": 100,
+ "next": "CT44 Silberbarren im Bau",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/12895566-46b0-4592-a009-83b42eb44ee5.jpg",
+ "preview_note": "CT43 Neubau · 65,8 s · alles bewegt",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f5238f4c-8c71-4e4e-9c6d-9bad5a07def2.mp4"
 }
