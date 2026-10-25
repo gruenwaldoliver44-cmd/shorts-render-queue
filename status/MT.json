@@ -1,15 +1,15 @@
 {
- "title": "MT46",
+ "title": "MT47",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44, MT45, MT46 fertig (posting.md in Sandbox ~/v4x/). MT47 Bluetooth rendert am Mac",
+ "note": "MT44-MT47 fertig (posting.md in Sandbox ~/v4x/). MT48 USB-Auswerfen rendert am Mac, MT49 Autoschlüssel in Arbeit",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T22:18:00Z",
- "eta": "MT47: heute Nacht",
- "topic": "SSD verliert Elektronen",
+ "updated": "2026-10-25T22:41:00Z",
+ "eta": "MT48: heute Nacht",
+ "topic": "Bluetooth springt 1600 Mal pro Sekunde",
  "progress": 100,
- "next": "MT47 QC + Upload, dann MT48",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5fdc77a8-5b8e-4ddf-8f9f-6e0765ab17f7.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ca4a2876-37ec-40da-af42-7db27918167b.mp4",
- "preview_note": "MT46 final"
+ "next": "MT48 QC + Upload, MT49 bauen",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/64a7e388-2a68-43c8-bcb3-df3f7399b64b.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/367fa8c5-2054-47ec-b83a-008a1b40b88f.mp4",
+ "preview_note": "MT47 final"
 }
