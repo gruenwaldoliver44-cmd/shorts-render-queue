@@ -1,18 +1,9 @@
 {
- "ts": "2026-10-25T15:10:27.484Z",
- "source": "dashboard",
- "current": "2208-mt43-speed-prev7 since 2026-10-25 14:26:29",
- "busy": false,
- "free_gb": 44,
- "blender_procs": 1,
- "cpu": 28,
- "gpu": 45,
- "mem_free_pct": 38,
- "progress": {
-  "n": 8,
-  "total": 57,
-  "eta_min": 52
- },
+ "ts": "2026-10-25T15:11:35.567Z",
+ "current": "2409-ft29-prev3 since 2026-10-25 15:11:35",
+ "busy": true,
+ "free_gb": 48,
+ "blender_procs": 0,
  "done": [
   "2109-ct43-up",
   "2308-mc43-upload",
@@ -40,6 +31,7 @@
   "0001-agent-test"
  ],
  "failed": [
+  "2208-mt43-speed-prev7",
   "2207-mt43-prev6",
   "2407-ft29-r2",
   "2206-mt43-prev5",
@@ -54,21 +46,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2208-mt43-speed-prev7",
-  "title": "MT43 · Tempo-Test + Vorschau 7",
-  "job_since": "2026-10-25T14:26:29.785Z",
-  "timeout_min": 45,
-  "step": 7,
-  "steps": 8,
-  "label": "Blender rendert Vorschau 7 (jedes 30. Bild, halbe Größe)",
-  "step_since": "2026-10-25T14:58:27.544Z",
-  "progress": {
-   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2208-mt43-speed-prev7/blender_prev.log",
-   "total": 57
-  },
-  "updated": "2026-10-25T14:58:27.551Z"
- },
- "queue": [
-  "2409-ft29-prev3"
- ]
+  "job": "2409-ft29-prev3",
+  "title": "FT29 · Vorschau 3 (24 Standbilder)",
+  "job_since": "2026-10-25T15:11:35.431Z",
+  "timeout_min": 25,
+  "step": 0,
+  "steps": 10,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T15:11:35.431Z"
+ }
 }
