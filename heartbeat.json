@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T22:08:52.368Z",
+ "ts": "2026-10-25T22:10:52.352Z",
  "source": "dashboard",
  "current": "2250-mt46-premium since 2026-10-25 22:07:21",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 61,
- "gpu": 94,
- "mem_free_pct": 49,
+ "cpu": 32,
+ "gpu": 19,
+ "mem_free_pct": 76,
  "progress": null,
  "done": [
   "2422-ft31-premium",
