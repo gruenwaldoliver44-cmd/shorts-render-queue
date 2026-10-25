@@ -1,19 +1,11 @@
 {
- "ts": "2026-10-25T16:35:33.928Z",
- "source": "dashboard",
- "current": "2113-ct43-hero since 2026-10-25 15:59:45",
+ "ts": "2026-10-25T16:36:13.856Z",
+ "current": "2211-mt43-stills-up since 2026-10-25 16:36:13",
  "busy": true,
- "free_gb": 52,
- "blender_procs": 1,
- "cpu": 11,
- "gpu": 99,
- "mem_free_pct": 29,
- "progress": {
-  "n": 239,
-  "total": 245,
-  "eta_min": 1
- },
+ "free_gb": 55,
+ "blender_procs": 0,
  "done": [
+  "2113-ct43-hero",
   "2410-ft29-hy-stills",
   "2210-mt43-stills",
   "2111-ct43-herotest",
@@ -61,23 +53,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2113-ct43-hero",
-  "title": "CT43 · Hybrid: 3 Heldenshots rendern (245 Bilder, 2 parallel)",
-  "job_since": "2026-10-25T15:59:45.421Z",
-  "timeout_min": 70,
-  "step": 4,
-  "steps": 5,
-  "label": "Blender: Heldenshots Ofen, Archiv, Schluss (16 Samples, N=2)",
-  "step_since": "2026-10-25T16:00:09.794Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2113-ct43-hero/hf",
-   "total": 245
-  },
-  "updated": "2026-10-25T16:00:09.794Z"
- },
- "queue": [
-  "2211-mt43-stills-up",
-  "2310-mc43-hero",
-  "2411-ft29-hy-world"
- ]
+  "job": "2211-mt43-stills-up",
+  "title": "MT43 · Standbilder hochladen",
+  "job_since": "2026-10-25T16:36:13.840Z",
+  "timeout_min": 8,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T16:36:13.840Z"
+ }
 }
