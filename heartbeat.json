@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T14:25:20.046Z",
+ "ts": "2026-10-25T14:26:09.849Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 55,
  "blender_procs": 0,
+ "cpu": 13,
+ "gpu": 13,
+ "mem_free_pct": 85,
+ "progress": null,
  "done": [
   "2308-mc43-upload",
   "2108-ct43-bench",
@@ -51,5 +56,6 @@
    "at": "2026-10-25T14:25:19.996Z"
   },
   "updated": "2026-10-25T14:25:19.996Z"
- }
+ },
+ "queue": []
 }
