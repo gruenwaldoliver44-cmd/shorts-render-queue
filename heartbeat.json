@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T23:00:52.377Z",
- "source": "dashboard",
- "current": "2131-ct46-premium since 2026-10-25 22:58:59",
+ "ts": "2026-10-25T23:02:45.792Z",
+ "current": "2271-mt48-premium-v2 since 2026-10-25 23:02:45",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 38,
- "gpu": 96,
- "mem_free_pct": 54,
- "progress": null,
  "done": [
+  "2131-ct46-premium",
   "2426-ft34-premium",
   "2328-mc48-premium",
   "2270-mt48-premium",
@@ -48,8 +44,7 @@
   "2310-mc43-hero",
   "2211-mt43-stills-up",
   "2113-ct43-hero",
-  "2410-ft29-hy-stills",
-  "2210-mt43-stills"
+  "2410-ft29-hy-stills"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,18 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2131-ct46-premium",
-  "title": "CT46 · Auto gepfaendet, Restschuld bleibt (Remotion Premium, 70 s)",
-  "job_since": "2026-10-25T22:58:59.091Z",
+  "job": "2271-mt48-premium-v2",
+  "title": "MT48 v2 · USB-Stick ohne Auswerfen, Standbild-Fix (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T23:02:45.768Z",
   "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:58:59.091Z"
- },
- "queue": [
-  "2271-mt48-premium-v2",
-  "2329-mc49-premium"
- ]
+  "updated": "2026-10-25T23:02:45.768Z"
+ }
 }
