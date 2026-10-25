@@ -24,9 +24,15 @@ if (fs.existsSync(LOCK)) {
 fs.writeFileSync(LOCK, String(process.pid));
 process.on("exit", () => { try { fs.unlinkSync(LOCK); } catch {} });
 
+// per-job time limit (job.timeout_min, default 100 min): a hung or runaway job is killed so the queue keeps moving
+let JOB_DEADLINE = 0, TIMED_OUT = false;
+const killRenders = () => spawnSync("/bin/bash", ["-c", "pkill -9 -f 'Blender.app/Contents/MacOS/Blender -b' ; pkill -9 -f 'Blender.app/Contents/MacOS/Blender --background' ; true"]);
 const sh = (cmd, cwd, extraEnv = {}) => {
   log("$", cmd.length > 300 ? cmd.slice(0, 300) + " ..." : cmd);
-  const r = spawnSync("/bin/bash", ["-c", cmd], { cwd, env: { ...process.env, ...extraEnv }, encoding: "utf8", maxBuffer: 1 << 28 });
+  const left = JOB_DEADLINE ? JOB_DEADLINE - Date.now() : 0;
+  if (JOB_DEADLINE && left <= 0) { TIMED_OUT = true; log("TIMEOUT: job time limit reached, skipping step"); return false; }
+  const r = spawnSync("/bin/bash", ["-c", cmd], { cwd, env: { ...process.env, ...extraEnv }, encoding: "utf8", maxBuffer: 1 << 28, ...(JOB_DEADLINE ? { timeout: left, killSignal: "SIGKILL" } : {}) });
+  if (r.error && r.error.code === "ETIMEDOUT") { TIMED_OUT = true; killRenders(); log("TIMEOUT: step killed after job time limit"); return false; }
   const out = ((r.stdout || "") + (r.stderr || "")).trim();
   if (out) log(out.split("\n").slice(-25).join("\n"));
   return r.status === 0;
@@ -86,11 +92,13 @@ for (const f of files) {
   fs.mkdirSync(wd, { recursive: true });
   log(`=== job ${id} (${job.type}) start, attempt ${failN + 1}`);
   let ok = false;
+  JOB_DEADLINE = Date.now() + (job.timeout_min ?? 100) * 60000; TIMED_OUT = false;
   try { ok = job.type === "remotion" ? runRemotion(job, wd) : job.type === "shell" ? runShell(job, wd) : false; }
   catch (e) { log("EXCEPTION " + (e && e.stack || e)); }
-  log(`=== job ${id} ${ok ? "DONE" : "FAILED"}`);
+  JOB_DEADLINE = 0;
+  log(`=== job ${id} ${ok ? "DONE" : TIMED_OUT ? "TIMED OUT (no retry)" : "FAILED"}`);
   if (ok) fs.writeFileSync(path.join(STATE, "done", id), now());
-  else fs.writeFileSync(path.join(STATE, "failed", id), String(failN + 1));
+  else fs.writeFileSync(path.join(STATE, "failed", id), String(TIMED_OUT ? 99 : failN + 1));
   if (job.log_upload) upload(LOG, job.log_upload, "text/plain");
   LOG = null;
 }
