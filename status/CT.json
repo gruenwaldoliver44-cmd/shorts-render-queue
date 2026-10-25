@@ -1,14 +1,14 @@
 {
  "title": "CT43",
- "stage": "Vorschau",
- "note": "Figuren-Check: Arme (B-Bones) und weisse Augen (Hornhaut-Material) repariert, Sitzpose Haende auf Knie; Test 2 (2110) wartet hinter MT",
+ "stage": "Skript",
+ "note": "Hybrid-Neustart: Skript auf 60-s-Standard erweitert (16 Fakten, Gates A und C bestanden), Stimme neu aufgenommen",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T14:35:52Z",
- "eta": "ca. morgen 08:00 (Slot); genauer nach Test 2",
+ "updated": "2026-10-25T15:13:42Z",
+ "eta": "heute 19:00 Vienna-Slot pruefen, sonst morgen 08:00",
  "topic": "Verbranntes Bargeld: der Staat zahlt es zurueck",
- "progress": 45,
- "next": "Test 2: 15 Vollbilder messen + Figuren-Standbilder pruefen, dann Final",
- "preview_img": "local:work/2108-ct43-bench/bo/s_1320.jpg",
- "preview_note": "Tempo-Test 2108 \u00b7 13:55 \u00b7 echte Figuren, Arme waren verzogen (repariert)"
+ "progress": 12,
+ "next": "Stimme pruefen, Shot-Liste Hybrid (3 Blender-Heldenshots, KI-Personen, Remotion-Grafik)",
+ "preview_img": "",
+ "preview_note": "Neuaufbau als Hybrid"
 }
