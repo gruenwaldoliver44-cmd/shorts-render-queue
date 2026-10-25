@@ -1,0 +1,17 @@
+{
+ "id": "2413-ft29-up2409",
+ "title": "FT29 \u00b7 Figuren-Test 2409 hochladen (1 Minute)",
+ "type": "shell",
+ "retries": 1,
+ "timeout_min": 8,
+ "steps": [
+  {
+   "run": "cd \"$AGENT_HOME/work/2409-ft29-prev3\" && ls -la; ls rp | head -40; cat times.txt; ls -la ft29_prev3.zip; true",
+   "label": "Vorschau 3 (2409) pruefen"
+  },
+  {
+   "run": "cd \"$AGENT_HOME/work/2409-ft29-prev3\" && [ -f ft29_prev3.zip ] || { rm -rf out && mkdir out && cp rp/*.png rp/notes.txt rp/stills*.txt times.txt out/ 2>/dev/null; zip -qr ft29_prev3.zip out; }; curl -s -o /dev/null -w 'up %{http_code}\\n' -X PUT -H 'Content-Type: application/zip' -H 'If-None-Match: *' --upload-file ft29_prev3.zip 'https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d514d707-b371-4a9b-af4c-9eae821e034f.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG7TOUZT7O%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T174049Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAn0ZvVcYDt%2FVdixKAVFZVvflFnzHXqbxmHdz2FCguf4gIgbMI8u3EIVguZdPxGSFGTcElZW%2FLZTwypKXKIfRsDMHQqsAUIvf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDML4%2FW%2FQQZyOzXlrGSqEBfxuIzips1GrJxRTaw4eYA1519gVm%2B1J6JoRDr5npN7zhqLCWkVLu4B9JgvPScNDkvwLzTaJGUqBnmZquPompC0IBkgrW5ZC9oDUS8XAmYNy%2BvuqidDjfHHfmtupq%2FJiIVl8K0sZsH5NXCZ7Bxey9p9bWzld2Jggm815FQkGBRxwjRxuGVMH9aqFoI1fqNdMtJMi9FxY%2FtBHGLMA8qrbl124QRxyt4FBLm1Sz%2FafIJEbFoWMdOs9s5RW5ZxDJmKCRcrCspiKSAg4R2Zek8KOORGF%2B4M5ep9qW66yuS7aHjHROPfFFojoiUgYw5D6QJXTW3H6wYrqNEoauJzDdZAOSsPFG%2FfOs4sYqfCCeWXrXD4b267okYzANiqMht1AzioEfUvsoKKh6f0RSOKoh3pw4ytvav5D16ERrV%2BJEQmhD8XceyC7iWGxkgUiTXQN8Ug9EtypPjmkiaoKnjFXk8gLqUZlOXpRvJzZTitXx49OIgSNPwyD7%2FrRi%2FxYWhCbTE74NG12PqFOuiHyht%2BBFMG4RhN9IsBKT3HkIWhLcnrMIi202btPxHB8%2BpVyDpTWNQ7qAJ05ECO20IwU5fWsAXYP1AVO%2FhYz79Hs5Zgga5EeXDo2SQSerh%2BDsM5pDnBe1aC%2BHZ6eFpaM37E1LDT0W2V3kCvK6yCMNMXUAhBhcp3slbknn7pihjrR0O%2FWgngP75ZIDeYyTOL1FPDUGFMyFNr1TA124vHKvB4PoKqigsRX59RQ4Wt%2BUoZC03hGuLZCHCfUwn3NBRaNgNPq9uZBtsdTgL5HrQq4s%2FF4LKP%2FGg5x5UbixYG3JhRHDcdiG8m5bVlGVpdeZg%2BH7AgHVqBV%2BCjRRxTs4CoTMMX299YGOpEBxTqpQxLy%2F3OrNCBAgsDTd7W7pxwWNcOKvA9g%2Fn2kKl2abjNuYCUxjDB6tHit6CmbTgXVpb0l3gqh6ac%2BP6PRvlFbbXcFEiN95BxQY4u4fY9JfVxxbZ03UdDe%2Bi0UuBR4JvhGEv6QNl7KyAxTUM1oSmWIEkPcOfhTBigrtQ6NQYeRUSFQDhmBDyNpSNZspFm6Ww%3D%3D&X-Amz-Signature=3ddd0962ab247b86561c31628af838b78dab320bb385c406d330a1bec332d4db'",
+   "label": "Vorschau 3 (Figuren-Test) hochladen"
+  }
+ ]
+}
