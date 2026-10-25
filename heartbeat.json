@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T23:04:52.382Z",
- "source": "dashboard",
- "current": "2271-mt48-premium-v2 since 2026-10-25 23:02:45",
+ "ts": "2026-10-25T23:05:46.252Z",
+ "current": "2329-mc49-premium since 2026-10-25 23:05:46",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 58,
- "gpu": 92,
- "mem_free_pct": 48,
- "progress": null,
  "done": [
+  "2271-mt48-premium-v2",
   "2131-ct46-premium",
   "2426-ft34-premium",
   "2328-mc48-premium",
@@ -48,8 +44,7 @@
   "2411-ft29-hy-world",
   "2310-mc43-hero",
   "2211-mt43-stills-up",
-  "2113-ct43-hero",
-  "2410-ft29-hy-stills"
+  "2113-ct43-hero"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2271-mt48-premium-v2",
-  "title": "MT48 v2 · USB-Stick ohne Auswerfen, Standbild-Fix (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T23:02:45.768Z",
+  "job": "2329-mc49-premium",
+  "title": "MC49 · San José Galleone + MC47 v2 (Hangar-Licht)",
+  "job_since": "2026-10-25T23:05:46.229Z",
   "timeout_min": 60,
   "step": 0,
-  "steps": 1,
+  "steps": 2,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T23:02:45.768Z"
- },
- "queue": [
-  "2329-mc49-premium"
- ]
+  "updated": "2026-10-25T23:05:46.229Z"
+ }
 }
