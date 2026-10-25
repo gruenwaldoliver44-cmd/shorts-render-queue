@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T14:48:27.382Z",
+ "ts": "2026-10-25T14:50:27.525Z",
  "source": "dashboard",
  "current": "2208-mt43-speed-prev7 since 2026-10-25 14:26:29",
  "busy": false,
  "free_gb": 44,
  "blender_procs": 1,
- "cpu": 22,
- "gpu": 86,
- "mem_free_pct": 17,
+ "cpu": 21,
+ "gpu": 0,
+ "mem_free_pct": 70,
  "progress": {
-  "n": 5,
+  "n": 6,
   "total": 10,
-  "eta_min": 14
+  "eta_min": 12
  },
  "done": [
   "2109-ct43-up",
