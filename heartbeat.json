@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T18:38:34.629Z",
+ "ts": "2026-10-25T18:40:35.223Z",
  "source": "dashboard",
  "current": "2315-mc43-stills since 2026-10-25 18:32:34",
  "busy": false,
- "free_gb": 39,
+ "free_gb": 42,
  "blender_procs": 1,
- "cpu": 31,
- "gpu": 77,
- "mem_free_pct": 50,
+ "cpu": 43,
+ "gpu": 61,
+ "mem_free_pct": 69,
  "progress": {
-  "n": 3,
+  "n": 4,
   "total": 68,
-  "eta_min": 388
+  "eta_min": 244
  },
  "done": [
   "2116-ct43-up-people",
