@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-25T21:32:52.218Z",
+ "ts": "2026-10-25T21:34:52.274Z",
  "source": "dashboard",
- "current": "2230-mt44-premium since 2026-10-25 21:29:02",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 22,
+ "cpu": 16,
  "gpu": 0,
- "mem_free_pct": 82,
+ "mem_free_pct": 81,
  "progress": null,
  "done": [
+  "2230-mt44-premium",
   "2421-ft30-premium",
   "2420-ft29r-premium",
   "2320-mc43p-premium",
@@ -68,16 +69,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2230-mt44-premium",
-  "title": "MT44 · QR-Code reißt und scannt trotzdem (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-25T21:29:02.197Z",
-  "timeout_min": 60,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T21:29:02.198Z"
+  "state": "idle",
+  "last": {
+   "job": "2230-mt44-premium",
+   "title": "MT44 · QR-Code reißt und scannt trotzdem (Remotion/R3F, Premium-Render)",
+   "result": "fertig",
+   "at": "2026-10-25T21:33:12.516Z"
+  },
+  "updated": "2026-10-25T21:33:12.516Z"
  },
  "queue": []
 }
