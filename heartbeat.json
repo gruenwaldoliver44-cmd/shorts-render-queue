@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T15:33:33.758Z",
+ "ts": "2026-10-25T15:35:33.769Z",
  "source": "dashboard",
  "current": "2210-mt43-stills since 2026-10-25 15:32:14",
  "busy": false,
- "free_gb": 55,
+ "free_gb": 41,
  "blender_procs": 1,
- "cpu": 84,
- "gpu": 0,
- "mem_free_pct": 87,
+ "cpu": 21,
+ "gpu": 9,
+ "mem_free_pct": 14,
  "progress": {
   "n": 0,
   "total": 8,
