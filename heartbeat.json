@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-25T22:16:52.418Z",
- "source": "dashboard",
- "current": "2325-mc45-premium2 since 2026-10-25 22:14:23",
+ "ts": "2026-10-25T22:18:15.893Z",
+ "current": "2423-ft32-premium since 2026-10-25 22:18:15",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 58,
- "gpu": 90,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
+  "2325-mc45-premium2",
   "2324-mc46-premium",
   "2250-mt46-premium",
   "2422-ft31-premium",
@@ -48,8 +44,7 @@
   "2108-ct43-bench",
   "2307-mc43-prev3",
   "2402-ft29-prev1",
-  "2303-mc43-src",
-  "2302-mc43-prev1"
+  "2303-mc43-src"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2325-mc45-premium2",
-  "title": "MC45 · Straddling-Bus v2 (Front, 32 Festnahmen, Plakat)",
-  "job_since": "2026-10-25T22:14:23.167Z",
-  "timeout_min": 45,
+  "job": "2423-ft32-premium",
+  "title": "FT32 · Bitcoin-Miner bezahlt fürs Abschalten (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-25T22:18:15.869Z",
+  "timeout_min": 60,
   "step": 0,
   "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-25T22:14:23.167Z"
- },
- "queue": [
-  "2423-ft32-premium"
- ]
+  "updated": "2026-10-25T22:18:15.869Z"
+ }
 }
