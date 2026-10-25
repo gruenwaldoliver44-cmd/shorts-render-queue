@@ -1,9 +1,9 @@
 {
  "id": "2317-mc43-objects",
- "title": "MC43 · 8 Blender-Objekt-Shots (ohne Menschen)",
+ "title": "MC43 · Objekt-Shots Teil 1 (4, leicht)",
  "type": "shell",
  "retries": 0,
- "timeout_min": 90,
+ "timeout_min": 60,
  "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8f6320af-f0b5-40bb-8ebe-65b85670832e.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGQL7LAZDM%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T184922Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiA2ToiPRV%2FJEDBXbIYMXUPm5buGnMSIJazmSQdYF9rR3wIhAIt%2F7hgYiBJUAPwIknDycQ1ws5lL6s8L2e1h29GT8SYnKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxHluGW7XXnM2TClkQqhAXPqLSJoTUJssoRAOz9XKSlOoj%2FKgsHxjGwx5kO56lneLSGxfH82Wip5LxAgK%2FJukX40rCeCdynD2x6xUZYFC7Gae9BeW%2FVF7FUWaMpX35I4PFItzHthF2sddo2QfjPxIl9DgQnDkJ5FugtflXnrQjmjYSCQVB26ic%2FAMkQ2jSFzHxRw6UUDMsBg%2FR8XOI5lO9JWbpWCGrCT60nCG5eNApzRGGRgR2s0zC5kuXY2fVUQx9Y%2B7u42I1Uret55BcTmH39LBqHirBDyp5NbyMan7DVD%2BAm1VZUvICBf3riTPIqH%2F6y7QCHcAReX9yyLoerYfnh%2FZSGASmOvsccH%2Bv%2BVo5G9TEoc%2FpkmhnnRM9qDo9PwEHTpR7%2FBfKvZGhKqiUVANXLoQLXmhp%2FHC4Wlj3P8wjaKXBp9JLSvZz1VRpA4gPVBS5OVgs82k2Do%2FIoNDpnX8sxoTkFBvw64xTlpqnKeWqo89dLVR3pw4T8cyXZrhnmFQl6nZIkqoNWHOfKik%2FRKt3fcl1AiHeBCKwHLZ3LshitBqdOXdORyfGL7N7Om0GYKx%2B7Huazim8trqscszf78YNhghlHXrHkk2OL2wr8R%2FtmIM06KIfkmbzRT4mxxRXUar5rNzL872tJP02eC2J4beD4MSDdtwZ7wSdD2OYyJxWau1qMepslFBl4Svt7Bta3HRsbt5d9Rdj9IevErQqZowVzMrbJK3znfHYHninphCrEr4RQXLuF6cRFNEx9VXFl%2F8YNfb2WGHPbyqIjdQ7yIneX9%2BCK9d41AXABC39EJYP72f8BPzw9eZSijZU%2FDz%2BY7qYj6WaiOZfdAmD1EE%2By6jtfsw1F%2FUXsQlUAaZXxtBP488JPXzD27vjWBjqQAQ4yeTY1a1Z0Wa0QmtMAo0QIA39bN3%2BRoAR8QgnpLvWD%2FTOr9gt%2BrafgdUr6hwCtuFCPzSgpM7%2FZRHXCwuFGCJLb7MFnmGV9C%2F%2BiS67pxXJfqBy5hF9K8nEQwwXhH75GyHnFwuyqDUGq5ebHjt%2Bl5iucOlB6XCN%2FowPsLtR9DNlWKtQAfgedTI9I%2BWX5yl6UVg%3D%3D&X-Amz-Signature=ab9a9cd8b1f2cfc03756702232c47b6e3d21cac3be360e5f113b6f2ce5438dfc",
  "steps": [
   {
@@ -19,11 +19,11 @@
    "label": "Blender baut 8 kleine Sets"
   },
   {
-   "run": "[ -f hero2.blend ] || exit 1; mkdir -p r; T=$(date +%s); set -- 0 84 100 174 200 262 300 349 400 499 500 574 600 674 700 787; while [ $# -gt 0 ]; do /Applications/Blender.app/Contents/MacOS/Blender -b hero2.blend -P hero2.py -- render $1 $2 >> render.log 2>&1; shift 2; done; grep FRAME render.log | awk '{s+=$3;n++} END {print n, \"frames, avg s\", s/n}'; ls r | wc -l; echo render_s $(( $(date +%s)-T ))",
-   "label": "Blender rendert 8 Shots, 700 Bilder (16 Samples, 1 Prozess, Szene je Shot neu geladen)",
+   "run": "[ -f hero2.blend ] || exit 1; mkdir -p r; T=$(date +%s); set -- 0 84 100 174 200 262 300 349; while [ $# -gt 0 ]; do /Applications/Blender.app/Contents/MacOS/Blender -b hero2.blend -P hero2.py -- render $1 $2 >> render.log 2>&1; shift 2; done; grep FRAME render.log | awk '{s+=$3;n++} END {print n, \"frames, avg s\", s/n}'; ls r | wc -l; echo render_s $(( $(date +%s)-T ))",
+   "label": "Blender rendert 4 Shots, 273 Bilder (16 Samples, 1 Prozess, Szene je Shot neu geladen, 1k/2k Texturen)",
    "progress": {
     "dir": "r",
-    "total": 700
+    "total": 273
    }
   },
   {
