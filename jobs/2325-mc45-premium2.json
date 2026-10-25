@@ -1,0 +1,25 @@
+{
+ "id": "2325-mc45-premium2",
+ "type": "remotion",
+ "title": "MC45 \u00b7 Straddling-Bus v2 (Front, 32 Festnahmen, Plakat)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6eb0e613-e850-43b2-a348-90c3662eac95.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC45",
+   "entry": "src/indexMC45.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a037987d-f770-45f5-8e4d-d4467fcdcb79.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGYE4UFUW4%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T220425Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAoZc5AJDWJgdx4IJ19s7oKgcn%2BQNhfBLW0esJFp1yj5wCIGBJLssBNFmQOpCbigW8VIaqAbh1TDquN0s7UJ1ExtZgKrAFCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxPbfgiCIaN6kGZ9I4qhAXeTSvwcKYwdlLCSzVunJbNSPTMae1NS98mesQADgcPXO1fYIc0QnuIqeP%2BFRx1H77AFFk0f8M57eHx17f4kbXYudwSFTm4DDDEbg6eS2E07toAgLFgwhJ5O2Ts8unbBOQ8vS7q04MswsUMv6ZhmP%2BdD7nmkJk4cGGaKOsp1fBblg6PLCsbtCTNx9XFXqQiLFBQXhQwtVDq%2FnVth%2FyoC%2Bg1OhEnLzb2T4ZlX2QMkzRpGRB9SMn0IqnqJ64CkEjw077inlvK%2F1nKcw%2BNEBn%2FyewZzA2YUskKSl%2FOf7PziUbbp7JY8vFsJUIpbpqWIY3DU3jTQSfndnVJTudAr9X5niMYLafFiK4TYJ8xIATJqKVT83%2BvZTU6G7hUj8D3P1cZMM7POTs1TAWUVDHQ8EIW0XZjhGRdIc8YuY15XaJPifiibuQXMVtjD6RrXAj4vG0%2BvPbAvY6uUQismSpHF3kaGSrkOiiXmAeeBf%2BYT0S%2BTqIB6VZIlT%2FlNEX%2Bkys5oA%2Fv8dXyVehY6lNE7%2F268Wk8MVmFzX73yQZRBzm1MtDgleYbCWQJFo10kVoKlBXKC%2FNEA4WG5Nf%2BkjU%2FJh3ogJZyUv6KWLgFStdhFzMSU31TC7s0a1HVvW%2BV%2FpamU2e3vAfBhA9Bp%2BhytsRVnK6KZ%2BTq5moKVhnxQT0cMiRiwIGMnOR%2FDcwXdKtgJ2dpLALKn2AVGzAybcSwuiIWLUPERzGafA06KlhZviW6hmouV5bhlcLnWDSzmmlVPMBcFq5HsJvRZj%2FmGLj%2Bai%2BavMhU%2BcAPfDNXeuHBc5Fbcb78lHqWR83e%2FX9%2F9cHESsMnirVT0Yn1GsFIwITw6n%2BW4p6KLmy%2Fwa%2Bl8FuqejDyq%2FnWBjqQAUINDw9HJYWnxhqkGm5D42POVltAKAqoKrTcRoIwTYlzx2luU%2BtOYJrpFrdQrLFjC5G1IfjK59JJ5BxY0tXj2F3e7ui46t0BUD0hSHlAd9DGDE57JLUV6pz9yhaR4OW%2BkXVKc4DpdmqQyACJsR8aWjqcsZ37AIy4EgTmMKL%2BRohgghn0um1iHXKEOFrGrTcxug%3D%3D&X-Amz-Signature=bbde323ec7f8a65926f0d67d682faab5b1c3d6d28e1d207ea95789618cf00d0d"
+  }
+ ]
+}
