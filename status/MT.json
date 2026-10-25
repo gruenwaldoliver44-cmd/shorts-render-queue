@@ -1,15 +1,15 @@
 {
- "title": "MT43",
- "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe",
- "slot": "",
+ "title": "MT44",
+ "stage": "Skript & Ton",
+ "note": "MT43 Shazam geplant: So 25.10. 22:00 (IG+TT, YT). MT44 QR-Code: Skript + Stimme fertig, Bau laeuft",
+ "slot": "Mo 26.10. 10:00",
  "error": false,
- "updated": "2026-10-25T20:21:15Z",
- "eta": "wartet auf Oliver",
- "topic": "Shazam",
- "progress": 95,
- "next": "Freigabe, dann Posting-Zeit festlegen",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9e612bb5-eeda-4eb6-ac4d-44bafb7afdfc.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f94a3c83-d772-4a66-bc04-90b7e2e72ff7.mp4",
- "preview_note": "v2: 85 s, Gate C bestanden, Cover = Sternkarte"
+ "updated": "2026-10-25T20:45:00Z",
+ "eta": "Mo 26.10. vormittags",
+ "topic": "QR-Code: ein Stueck abreissen und er scannt trotzdem",
+ "progress": 35,
+ "next": "MT44 bauen (3D-QR-Welt), Mix, QC, planen fuer Mo 10:00",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f5394c3e-afd9-4e2d-8778-abae1a690274.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a8ec92e7-bce3-404d-8401-d7024b11d6a6.mp4",
+ "preview_note": "MT43 Shazam final (Geplant 22:00): 84.8 s, keine Standbilder mehr"
 }
