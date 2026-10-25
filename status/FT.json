@@ -1,15 +1,15 @@
 {
- "title": "FT33",
+ "title": "FT36",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "FT31, FT32 und FT33 fertig, posting.md jeweils unter ~/v43/FTxx/posting.md (Sandbox). FT35 rendert auf dem Mac, danach FT34-Neurender (Hook-Schnitte) + FT36.",
+ "note": "Sprint fertig: FT29-FT36 alle hochgeladen, posting.md jeweils unter ~/v43/FTxx/posting.md (Sandbox). FT34 neu gerendert (Hook-Schnitte). Kein Mac-Job mehr in der Queue.",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T23:14:34Z",
- "eta": "FT35 / FT34b / FT36 nach Mac-Renders",
- "topic": "Bitcoin auf der Müllkippe (8.000 BTC)",
- "progress": 80,
- "next": "FT35 muxen, dann Job 2428 (FT34b + FT36)",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/55d11263-ef13-48b3-a09f-f33c03a718ea.jpg",
- "preview_note": "FT33 Endfassung · 58,9 s",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4ffb66e9-8ce0-4eff-ad99-083a3be44563.mp4"
+ "updated": "2026-10-25T23:51:43Z",
+ "eta": "",
+ "topic": "Maut-SMS-Betrug (unbezahlte Maut)",
+ "progress": 100,
+ "next": "Keine weiteren FT-Folgen in diesem Sprint",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4cbf5239-f6a4-4784-88a3-2aa20a22ff1f.jpg",
+ "preview_note": "FT36 Endfassung · 61,5 s",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a0b92534-f117-46c8-90b5-56d0eaf674c6.mp4"
 }
