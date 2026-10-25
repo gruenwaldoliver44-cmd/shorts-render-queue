@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-25T17:38:57.088Z",
+ "ts": "2026-10-25T17:39:34.196Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
+ "cpu": 23,
+ "gpu": 34,
+ "mem_free_pct": 80,
+ "progress": null,
  "done": [
   "2314-mc43-hero2up",
   "2313-mc43-hero2",
@@ -70,5 +75,6 @@
    "at": "2026-10-25T17:38:57.048Z"
   },
   "updated": "2026-10-25T17:38:57.048Z"
- }
+ },
+ "queue": []
 }
