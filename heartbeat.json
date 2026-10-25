@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-25T15:29:38.803Z",
+ "ts": "2026-10-25T15:31:33.817Z",
  "source": "dashboard",
  "current": "2111-ct43-herotest since 2026-10-25 15:29:33",
  "busy": false,
- "free_gb": 56,
+ "free_gb": 52,
  "blender_procs": 1,
- "cpu": 28,
- "gpu": 0,
- "mem_free_pct": 84,
+ "cpu": 27,
+ "gpu": 84,
+ "mem_free_pct": 24,
  "progress": {
-  "n": 0,
+  "n": 18,
   "total": 28,
-  "eta_min": null
+  "eta_min": 1
  },
  "done": [
   "2309-mc43-upload2",
