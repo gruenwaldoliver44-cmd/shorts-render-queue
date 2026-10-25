@@ -1,15 +1,15 @@
 {
- "title": "FT30",
+ "title": "FT32",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "FT30 fertig (71,5 s, -14 LUFS, QC bestanden, alles animiert, keine Menschen). FT29 ist fuer 22:55 geplant. posting.md: ~/v43/FT30/posting.md (Sandbox).",
+ "note": "FT32 fertig (67,1 s, -14 LUFS, QC bestanden). posting.md: ~/v43/FT32/posting.md (Sandbox). FT33 + FT31-Rerender + FT34 in der Mac-Queue.",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T21:44:32Z",
- "eta": "FT31 (Address Poisoning) in Arbeit",
- "topic": "Parkuhr-QR-Code-Betrug (Sticker ueber dem echten Code)",
+ "updated": "2026-10-25T22:28:45Z",
+ "eta": "FT33/FT31/FT34 nach Mac-Renders",
+ "topic": "Riot: 31,7 Mio. $ fuers Abschalten in der Hitzewelle",
  "progress": 100,
- "next": "FT31 bauen, rendern, QC",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ccfc0998-83b3-446c-919b-2cc2a5a34aca.jpg",
- "preview_note": "FT30 Endfassung · Premium-Render · 71,5 s",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/37081c66-375c-4dc2-911d-085d65b55526.mp4"
+ "next": "FT33, FT31, FT34 muxen + QC",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b189210d-61a9-4f0f-8cbd-b850dc35d651.jpg",
+ "preview_note": "FT32 Endfassung · Premium-Render · 67,1 s",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0d079c5f-1af2-4705-ac35-69507eb92789.mp4"
 }
