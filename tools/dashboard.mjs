@@ -30,10 +30,12 @@ const collect = () => {
   const memFree = Number((sh("memory_pressure -Q 2>/dev/null | grep -o '[0-9]*%' | tail -1 | tr -d '%'") || "0"));
   const therm = sh("pmset -g therm 2>/dev/null | grep -i 'CPU_Speed_Limit' | grep -o '[0-9]*'");
   const diskGB = Math.round(Number(sh("df -k \"$HOME\" | tail -1 | awk '{print $4}'") || 0) / 1048576);
-  // only real Blender processes (command starts with the Blender binary), not shell wrappers that mention it
-  const bl = sh("ps -axo pid=,pcpu=,rss=,etime=,command=").split("\n").map((l) => l.trim().split(/\s+/)).filter((m) => (m[4] || "").endsWith("Blender.app/Contents/MacOS/Blender")).map((m) => (
-    { pid: m[0], cpu: Number(String(m[1]).replace(",", ".")) || 0, ram_gb: Math.round(Number(m[2]) / 104857.6) / 10, time: m[3] }
-  ));
+  // real Blender processes only (binary path first). A render has "-b"/"--background"; Blender also starts its own
+  // helper processes (e.g. shader compilation) without "-b": those are shown as helpers, not as a second render.
+  const bl = sh("ps -axo pid=,pcpu=,rss=,etime=,command=").split("\n").map((l) => l.trim().split(/\s+/)).filter((m) => (m[4] || "").endsWith("Blender.app/Contents/MacOS/Blender")).map((m) => {
+    const args = m.slice(5);
+    return { pid: m[0], cpu: Number(String(m[1]).replace(",", ".")) || 0, ram_gb: Math.round(Number(m[2]) / 104857.6) / 10, time: m[3], render: args.includes("-b") || args.includes("--background") };
+  });
   const agentRunning = sh("pgrep -f '[a]gent/agent.mjs' | wc -l") !== "0";
   const hb = readTxt(path.join(STATE, "hb_result"));
   const loopBeat = readTxt(path.join(A, "heartbeat"));
@@ -86,7 +88,7 @@ const dot=c=>'<span class="dot '+c+'"></span>';
 const meter=(p,c)=>'<div class="meter"><i style="width:'+Math.min(100,p)+'%;'+(c?'background:'+c:'')+'"></i></div>';
 const lvl=(v,w,b)=>v>=b?"var(--bad)":v>=w?"var(--warn)":"var(--ok)";
 async function tick(){let d;try{d=await (await fetch("/api")).json()}catch(e){document.getElementById("sub").innerHTML=dot("bad")+"Dashboard nicht erreichbar";return}
-const s=d.st||{},g=[];const busy=s.state==="busy"&&d.agentRunning;const nb=d.blender.length;
+const s=d.st||{},g=[];const busy=s.state==="busy"&&d.agentRunning;const nb=d.blender.filter(x=>x.render).length;
 let mood="ok",msg="Alles in Ordnung";
 if(nb>1){mood="bad";msg="Mehr als ein Blender gleichzeitig – Claude Bescheid geben"}
 else if(!d.agentRunning&&nb>0){mood="bad";msg="Blender läuft ohne Auftrag"}
@@ -117,7 +119,7 @@ g.push('<div class="card"><h2>Grafikkarte</h2><div class="big">'+d.gpu+' %</div>
 g.push('<div class="card"><h2>Arbeitsspeicher frei</h2><div class="big">'+(d.memFree||"?")+' %</div>'+meter(d.memFree,lvl(100-d.memFree,80,90))+'</div>');
 g.push('<div class="card"><h2>Festplatte frei</h2><div class="big">'+d.diskGB+' GB</div>'+meter(Math.min(100,d.diskGB),lvl(100-Math.min(100,d.diskGB),85,92))+(d.therm!=null?'<div class="mut" style="margin-top:6px">Leistung: '+d.therm+' %'+(d.therm<100?' (Hitzebremse)':'')+'</div>':'')+'</div>');
 // blender
-let b='<div class="card"><h2>Blender</h2>';if(!nb)b+='<div class="big">'+dot("idle")+'aus</div>';else d.blender.forEach(x=>{b+='<div class="row"><span>'+dot(nb>1?"bad":"ok")+'Prozess '+x.pid+'</span><span>'+Math.round(x.cpu)+' % CPU · '+x.ram_gb+' GB · '+x.time+'</span></div>'});g.push(b+'</div>');
+let b='<div class="card"><h2>Blender</h2>';if(!d.blender.length)b+='<div class="big">'+dot("idle")+'aus</div>';else d.blender.forEach(x=>{b+='<div class="row"><span>'+dot(!x.render?"idle":nb>1?"bad":"ok")+(x.render?'Render':'Hilfsprozess')+' '+x.pid+'</span><span>'+Math.round(x.cpu)+' % CPU · '+x.ram_gb+' GB · '+x.time+'</span></div>'});g.push(b+'</div>');
 // connection
 const hbok=/ (200|201)$/.test(d.hb);g.push('<div class="card"><h2>Verbindung zu Claude</h2><div class="big">'+dot(hbok?"ok":d.hb?"bad":"warn")+(hbok?"verbunden":d.hb?"gestört":"noch keine Meldung")+'</div><div class="mut">'+(d.hb?"letzte Meldung "+hm(d.hb.split(" ")[0]):"")+'</div></div>');
 // queue
@@ -139,7 +141,7 @@ const beat = async () => {
   try {
     const tf = path.join(A, "token"); if (!fs.existsSync(tf)) return;
     const d = collect(); const recent = (x) => x.map((r) => r.id);
-    const status = { ts: new Date().toISOString(), source: "dashboard", current: readTxt(path.join(STATE, "current")), busy: d.st.state === "busy" && d.agentRunning, free_gb: d.diskGB, blender_procs: d.blender.length, cpu: d.cpu, gpu: d.gpu, mem_free_pct: d.memFree, progress: d.progress, done: recent(d.done), failed: recent(d.failed), status: d.st, queue: d.queue.map((q) => q.id) };
+    const status = { ts: new Date().toISOString(), source: "dashboard", current: readTxt(path.join(STATE, "current")), busy: d.st.state === "busy" && d.agentRunning, free_gb: d.diskGB, blender_procs: d.blender.filter((x) => x.render).length, cpu: d.cpu, gpu: d.gpu, mem_free_pct: d.memFree, progress: d.progress, done: recent(d.done), failed: recent(d.failed), status: d.st, queue: d.queue.map((q) => q.id) };
     // keep the full done/failed lists the agent writes
     const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-dashboard", Accept: "application/vnd.github+json" };
     const api = "https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/heartbeat.json";
