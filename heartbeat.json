@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-25T23:16:52.468Z",
+ "ts": "2026-10-25T23:18:52.435Z",
  "source": "dashboard",
  "current": "2427-ft35-premium since 2026-10-25 23:15:45",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 67,
- "gpu": 93,
- "mem_free_pct": 51,
+ "cpu": 28,
+ "gpu": 18,
+ "mem_free_pct": 78,
  "progress": null,
  "done": [
   "2280-mt49-premium",
