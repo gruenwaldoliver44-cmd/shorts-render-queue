@@ -1,19 +1,11 @@
 {
- "ts": "2026-10-25T15:55:33.933Z",
- "source": "dashboard",
- "current": "2210-mt43-stills since 2026-10-25 15:32:14",
- "busy": false,
- "free_gb": 43,
- "blender_procs": 1,
- "cpu": 29,
- "gpu": 0,
- "mem_free_pct": 65,
- "progress": {
-  "n": 7,
-  "total": 8,
-  "eta_min": 3
- },
+ "ts": "2026-10-25T15:56:08.098Z",
+ "current": "2410-ft29-hy-stills since 2026-10-25 15:56:08",
+ "busy": true,
+ "free_gb": 49,
+ "blender_procs": 0,
  "done": [
+  "2210-mt43-stills",
   "2111-ct43-herotest",
   "2309-mc43-upload2",
   "2209-mt43-speedinfo",
@@ -59,21 +51,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2210-mt43-stills",
-  "title": "MT43 · 8 Blender-Standbilder (Hybrid)",
-  "job_since": "2026-10-25T15:32:14.053Z",
-  "timeout_min": 45,
-  "step": 6,
-  "steps": 7,
-  "label": "Blender: 8 Standbilder in voller Qualitaet (16 Samples)",
-  "step_since": "2026-10-25T15:32:16.125Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2210-mt43-stills/r_st",
-   "total": 8
-  },
-  "updated": "2026-10-25T15:32:16.125Z"
- },
- "queue": [
-  "2410-ft29-hy-stills"
- ]
+  "job": "2410-ft29-hy-stills",
+  "title": "FT29 · Hybrid: Welt-Standbilder + Tempo-Test",
+  "job_since": "2026-10-25T15:56:08.078Z",
+  "timeout_min": 50,
+  "step": 0,
+  "steps": 10,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-25T15:56:08.079Z"
+ }
 }
