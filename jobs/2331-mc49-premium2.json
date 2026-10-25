@@ -1,0 +1,25 @@
+{
+ "id": "2331-mc49-premium2",
+ "type": "remotion",
+ "title": "MC49 v2 · Galleone (Counter-Fix)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ddd2ad46-70a2-4868-bd49-64f66bc96c4a.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC49",
+   "entry": "src/indexMC49.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5974f607-b44b-453b-8c72-ee620ac90e02.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGYAD6CVOD%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T231900Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAocGJdFBDXRwu4YLwi%2B1yWnNfjQQNy%2BVVlqrFHJD3ujsCICmx%2B5q728K4LtfLQykKe3VWhswNPElFvuKD9wpx5ks3KrAFCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxSYOKjeyMJz1CSGjsqhAWZClrdDxzAAXzKMrUKqD24RKvr6OQispV%2FSXTraTsyGo%2FvBs2p%2BWcO2y%2F3Xxs80JOpqucF8T5ewWyAtjw2XHAxb5Heg%2B%2FqSXApc8GAUx4HnEvIUE73JeVfNUgJ0IhhWA0ty91ZwvTvs6kNKTcjiEw%2Fm9BINYqQaG%2F8vkTNeqgtKXWG9lOa6effEwg88fk%2BZYbHzeFeRCP%2Fvl4zuGA3W3A9PzmO17EKSY3tYNnol9IJHm8fpyajNf%2Bl4EteKSdDleCSQZ1iJUOHOSwPHExPwfl86veqTOmNl2MMIhJGhdKu3omvg03b9BSTmDHdvTZmlqnefLlL2Drsi5ufj8KEXc%2BM2EqE7ESPlz6MwtSKRt6n1DS13wxByvjEW75hjXwhFrpsRUc6mtPwnOcWV%2FmF4XLD0oB3vjMP46o9xu9FiL4ppPW2UZgh0isq73A5HcIQnqS9G8OV07nBl93n0oeCINidx2nPc%2BRodyAQAOWkj9PqoewnYdcBIh%2BU3k42pnbvjMFJBsU62LIAV%2FneochGCbPPtaXDdCk1K7ZzLmxQAwmmVfv6XbBgNGOEYRNbyl2Nc5HcsXMc0KoyB8QEErb%2FxtgjtEqXwMkblkrLa1WYLDrn%2F%2BYLVN2cP7XQO5qmYSnDV%2F0XfxjPAjoa8Pj%2BSo0730omA1O%2FtPHJUfT78mHt%2BbHdFsd65cbrtg%2B17olY%2FpgviAFjmYuWMI4vm%2F3asjt9eqKiv99kty9NuxUrg2nCOxl2ZFY706YcE%2F9HEm2rgYsKjSNHUDaKw375ug%2FTgntdZNYFF1RNeLIPAyDl7YUeZqHQkvWcl8o3RdloRgbnSTmErVHOMm6jvZhncnB4yxPmi9jqkcblfDCekPnWBjqQAYRfmCgMH75ETX%2B8Wa1kjtRU1OHs7jLkcD71yOLuXXS7q9SCPzy9nsNOy%2F7ePBCmp9nD9HFYZ7zTRip0qM4Wro6l6QT1z43A8NS5SLCfkLdOOxhNDu2T1FjDje7VUVUfsutk1CD%2FONnh14qm62OzWHFdQKHVjbMgFm24oTOtUq66f1Bw%2B8BUxDOShjZeGEohcQ%3D%3D&X-Amz-Signature=6733e3cd585171e0d44344474a3d12deaa96c940d5ee52bb3bed808aa152e02a"
+  }
+ ]
+}
