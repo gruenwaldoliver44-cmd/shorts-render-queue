@@ -1,0 +1,25 @@
+{
+ "id": "2327-mc46-premium2",
+ "type": "remotion",
+ "title": "MC46 \u00b7 The Line v2 (hellere Spiegelw\u00e4nde, Baustelle frei)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4304038c-ecdc-4b62-b24d-27598610d280.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-26T20:00:00Z",
+ "items": [
+  {
+   "comp": "MC46",
+   "entry": "src/indexMC46.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c5c84405-ccbc-484c-ad3c-befe497cf2da.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG2MYXH5IT%2F20261025%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261025T221546Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEAxIENnuhDl2DYf%2Ba22ZO8pkqCEwvc0dHFb9cpDrYvjjoCIARm2cogNm%2F%2F3uMIZMhsX9eUNWAxYMhLaSLfy01309hFKrAFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwhRGFySMqcN8po8j4qhAWLRI%2FoUhfEENWX9J5Ih603MlV8cm1exQOTJS0Jm3cFhUtTiO0o88jB%2FJmRNPJqMAul5MCl47Migmt04ztBRDHJ0ras%2B0Tomk47inf6NibhZQI5rsSqA3nEOk%2F6GrKYbdr3RlW3JIIpZd8JDLh%2B8jaMi8zFIHNrqhv%2Bi28esaVmoJpCdEL%2FO%2BoC2ERSw9jzAE7wZdQ8493BBodSQ%2F1teqBPsK4lmNYz4CnDx4rcaxQ34yQdswM816XTCKAe01IJvaPYVq3rUQS5k4AyzNiG78ZoFJgGqRuH1mQWclcUVcKLNci1sxXEtC247MM08rZ1nxrzqjmQecjC3m9N6yrrBjyrr6ODZJzA2Nn4TjbLMPrfBED0u77xEuxXppYPVsANsMwj44WqXHxMe%2FGcXjuEDWgNvdHDbn%2FzM0J8hFYsn7mFKuthQcdQUmdiPXvFw1NhZ7wAn0zYK5HEhcHLXmArN%2FWvz7eEvkxVH27o0q00N80BF4GGIOqru8qepfmy05sClgBgrA%2BLIhK1RenxIPfqH%2FmDKeXVi0A3BH3RTJ9isNOBQC7z66ElpBlqjL%2BGlgcsKiDw5UqjJGhs3d%2B9SRt8MiBvVS9I3n%2BpfyPnTamTM9ZK9CpYTAJuoRuCBturrF0r6t1Nfvu0jSLwxgxaeQVVZJCTmBxffxfkhYTPzF0zT%2FCLRSbIlOEcWaSjgYBSxnlLn9p%2Bie74z1Y0mm0CrQFqfYIBGQBZcxYGeN8fYYiIUQ4hpfQKVDNaASc69pHy0T1TRt3X%2BmC6B44PRYSYm%2FGy1tdQXFr9G5lPQtKnus%2F82ia8c8241BZGTCaTQuErja1tR4QoRE6aQxyqRb2zPW49n4wdfRnznjCj4vjWBjqQAeQaOhCLlL2EyNpzgjd7GvbgTa0on6dFKdrTjjyIUUQsXm3lpLSYVz3G3RH9pD0O1EZ%2FyvAn5yYuxezOrgF3xVn5nGjo%2FKBcGbKuXvpOm6rNoOFuLJ0teMlCDEd4z0KlMeQC6Cp4Q4jUmWAXMGY6CxMon%2F4Bb1LfLRMmGQpx49WRZd6EBCGtdgAD5J0%2FevuCBg%3D%3D&X-Amz-Signature=d8183efdeb20f9690977cf95357d8ee0a1b463be4417dd9f4c2add4e4bab8d67"
+  }
+ ]
+}
