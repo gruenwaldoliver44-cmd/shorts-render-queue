@@ -1,15 +1,15 @@
 {
- "title": "MT44",
+ "title": "MT45",
  "stage": "Fertig, wartet auf gemeinsamen Slot",
- "note": "MT44 final 66.5 s, Gate A/C bestanden, QC ok; posting.md in Sandbox ~/v4x/MT44/posting.md. MT45 (Handy weiss wo oben ist) rendert am Mac, MT46 (SSD verliert Daten) im Bau",
+ "note": "MT44 + MT45 fertig (posting.md in ~/v4x/). MT46 SSD rendert am Mac, MT47 Bluetooth: Skript+Stimme",
  "slot": "Mo 26.10. 10:55",
  "error": false,
- "updated": "2026-10-25T21:58:00Z",
- "eta": "MT45: heute Nacht",
- "topic": "QR-Code: Stueck abreissen, scannt trotzdem",
+ "updated": "2026-10-25T22:06:00Z",
+ "eta": "MT46: heute Nacht",
+ "topic": "Handy weiss, wo oben ist",
  "progress": 100,
- "next": "MT45 QC + Upload, dann MT46",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/da479ab0-3eee-44ea-be51-add1bd9fd103.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f0d74d35-20b7-4e10-9675-696d50dacf63.mp4",
- "preview_note": "MT44 QR-Code final"
+ "next": "MT46 QC + Upload, MT47 bauen",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/797be286-3d71-4489-a2a5-de5929ece111.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b98c18f9-2f33-47fa-bd60-0431d26674f3.mp4",
+ "preview_note": "MT45 final"
 }
