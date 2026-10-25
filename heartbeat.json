@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-25T15:32:14.069Z",
+ "ts": "2026-10-25T15:33:33.758Z",
+ "source": "dashboard",
  "current": "2210-mt43-stills since 2026-10-25 15:32:14",
- "busy": true,
+ "busy": false,
  "free_gb": 55,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 84,
+ "gpu": 0,
+ "mem_free_pct": 87,
+ "progress": {
+  "n": 0,
+  "total": 8,
+  "eta_min": null
+ },
  "done": [
   "2111-ct43-herotest",
   "2309-mc43-upload2",
@@ -54,10 +63,17 @@
   "title": "MT43 · 8 Blender-Standbilder (Hybrid)",
   "job_since": "2026-10-25T15:32:14.053Z",
   "timeout_min": 45,
-  "step": 0,
+  "step": 6,
   "steps": 7,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T15:32:14.053Z"
- }
+  "label": "Blender: 8 Standbilder in voller Qualitaet (16 Samples)",
+  "step_since": "2026-10-25T15:32:16.125Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2210-mt43-stills/r_st",
+   "total": 8
+  },
+  "updated": "2026-10-25T15:32:16.125Z"
+ },
+ "queue": [
+  "2410-ft29-hy-stills"
+ ]
 }
