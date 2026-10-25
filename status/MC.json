@@ -1,15 +1,15 @@
 {
  "title": "MC44",
  "topic": "Fort Knox: 600 Mrd. Gold, in den Büchern 6",
- "stage": "Rendern",
- "progress": 70,
- "note": "MC43 fertig (wartet auf gemeinsamen Slot). MC44: Skript + Stimme + Ton fertig (Gates A/B/C bestanden, 56 s), Premium-Render 2321 auf dem Mac",
- "next": "QC, Upload, posting.md",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/08a26ab2-6958-44bc-bdc1-04278c09a7e3.jpg",
- "preview_note": "MC43 final 21:30",
+ "stage": "Fertig, wartet auf gemeinsamen Slot",
+ "progress": 95,
+ "note": "MC44 fertig (56.5 s, -14 LUFS, QC ok, Gates A/B/C bestanden). MC43 läuft 22:55. MC45 (Straddling-Bus) im Render, MC46 (The Line) Stimme fertig",
+ "next": "MC45 QC, MC46 Szenen",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9bdc0546-8cea-443a-996a-ecc549a33eb1.jpg",
+ "preview_note": "MC44 final 21:58",
  "slot": "",
  "error": false,
- "eta": "heute ca. 22:30",
- "updated": "2026-10-25T21:40:00Z",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/e0db9836-d0dd-49b6-b8e1-1f7f048e6059.mp4"
+ "eta": "fertig",
+ "updated": "2026-10-25T21:59:00Z",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a0df5339-7766-44ba-9296-c314c71e6697.mp4"
 }
