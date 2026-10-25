@@ -16,26 +16,28 @@ const now = () => new Date().toISOString().replace("T", " ").slice(0, 19);
 let LOG = null;
 const log = (...a) => { const s = `[${now()}] ${a.join(" ")}`; console.log(s); if (LOG) fs.appendFileSync(LOG, s + "\n"); };
 
-// heartbeat (every 5 min): writes heartbeat.json to the "heartbeat" branch so the cloud side can see the Mac is alive.
-// Best effort only: any failure (e.g. a read-only token) is ignored.
+// heartbeat: writes heartbeat.json to the "heartbeat" branch (every 5 min, and right after every job) so the
+// cloud side can wait for events instead of polling the CDN. Needs a token with Contents: write. Best effort.
 const CUR = path.join(STATE, "current");
-await (async () => {
+const heartbeat = async (force = false) => {
   try {
     const last = path.join(STATE, "hb_last"), tf = path.join(A, "token");
     if (!fs.existsSync(tf)) return;
-    if (fs.existsSync(last) && Date.now() - Number(fs.readFileSync(last, "utf8")) < 5 * 60000) return;
+    if (!force && fs.existsSync(last) && Date.now() - Number(fs.readFileSync(last, "utf8")) < 5 * 60000) return;
     fs.writeFileSync(last, String(Date.now()));
     const r = spawnSync("/bin/bash", ["-c", "df -k \"$HOME\" | tail -1 | awk '{print $4}'; pgrep -f 'Blender.app/Contents/MacOS/Blender' | wc -l"], { encoding: "utf8" });
     const [kb, nb] = (r.stdout || "").trim().split("\n");
-    const status = { ts: new Date().toISOString(), current: fs.existsSync(CUR) ? fs.readFileSync(CUR, "utf8") : "", busy: fs.existsSync(LOCK), free_gb: Math.round(Number(kb) / 1048576), blender_procs: Number(nb) || 0, done: fs.readdirSync(path.join(STATE, "done")).length, failed: fs.readdirSync(path.join(STATE, "failed")).length };
+    const recent = (d) => fs.readdirSync(path.join(STATE, d)).map((f) => [f, fs.statSync(path.join(STATE, d, f)).mtimeMs]).sort((a, b) => b[1] - a[1]).slice(0, 40).map((x) => x[0]);
+    const status = { ts: new Date().toISOString(), current: fs.existsSync(CUR) ? fs.readFileSync(CUR, "utf8") : "", busy: fs.existsSync(LOCK), free_gb: Math.round(Number(kb) / 1048576), blender_procs: Number(nb) || 0, done: recent("done"), failed: recent("failed") };
     const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-render-agent", Accept: "application/vnd.github+json" };
     const api = "https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/heartbeat.json";
-    const ctl = AbortSignal.timeout(15000);
-    const g = await fetch(api + "?ref=heartbeat", { headers: h, signal: ctl });
+    const g = await fetch(api + "?ref=heartbeat", { headers: h, signal: AbortSignal.timeout(15000) });
     const sha = g.ok ? (await g.json()).sha : undefined;
-    await fetch(api, { method: "PUT", headers: h, signal: AbortSignal.timeout(15000), body: JSON.stringify({ message: "heartbeat", branch: "heartbeat", content: Buffer.from(JSON.stringify(status, null, 1)).toString("base64"), ...(sha ? { sha } : {}) }) });
-  } catch { /* ignore */ }
-})();
+    const p = await fetch(api, { method: "PUT", headers: h, signal: AbortSignal.timeout(15000), body: JSON.stringify({ message: "heartbeat", branch: "heartbeat", content: Buffer.from(JSON.stringify(status, null, 1)).toString("base64"), ...(sha ? { sha } : {}) }) });
+    fs.writeFileSync(path.join(STATE, "hb_result"), `${new Date().toISOString()} ${p.status}`);
+  } catch (e) { try { fs.writeFileSync(path.join(STATE, "hb_result"), `${new Date().toISOString()} error ${e}`); } catch {} }
+};
+await heartbeat();
 
 // Telegram notifications: every notify/*.txt in the repo is sent once to Oliver's Telegram bot chat
 // (token and chat id live only on the Mac: ~/ShortsRenderAgent/telegram_token, telegram_chat). Best effort.
@@ -132,6 +134,7 @@ for (const f of files) {
   let ok = false;
   JOB_DEADLINE = Date.now() + (job.timeout_min ?? 100) * 60000; TIMED_OUT = false;
   fs.writeFileSync(CUR, `${id} since ${now()}`);
+  await heartbeat(true);
   try { ok = job.type === "remotion" ? runRemotion(job, wd) : job.type === "shell" ? runShell(job, wd) : false; }
   catch (e) { log("EXCEPTION " + (e && e.stack || e)); }
   JOB_DEADLINE = 0;
@@ -141,4 +144,5 @@ for (const f of files) {
   else fs.writeFileSync(path.join(STATE, "failed", id), String(TIMED_OUT ? 99 : failN + 1));
   if (job.log_upload) upload(LOG, job.log_upload, job.log_type || "application/octet-stream"); // presigned .txt URLs are signed as octet-stream
   LOG = null;
+  await heartbeat(true);
 }
