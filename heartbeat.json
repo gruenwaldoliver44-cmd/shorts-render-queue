@@ -1,6 +1,6 @@
 {
- "ts": "2026-10-25T17:20:16.224Z",
- "current": "2311-mc43-heroup since 2026-10-25 17:20:16",
+ "ts": "2026-10-25T17:20:18.276Z",
+ "current": "",
  "busy": true,
  "free_gb": 53,
  "blender_procs": 0,
@@ -43,6 +43,7 @@
   "0001-agent-test"
  ],
  "failed": [
+  "2311-mc43-heroup",
   "2208-mt43-speed-prev7",
   "2207-mt43-prev6",
   "2407-ft29-r2",
@@ -57,15 +58,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2311-mc43-heroup",
-  "title": "MC43 · Heldenshots hochladen",
-  "job_since": "2026-10-25T17:20:16.201Z",
-  "timeout_min": 8,
-  "step": 0,
-  "steps": 6,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-25T17:20:16.201Z"
+  "state": "idle",
+  "last": {
+   "job": "2311-mc43-heroup",
+   "title": "MC43 · Heldenshots hochladen",
+   "result": "Fehler",
+   "at": "2026-10-25T17:20:18.253Z"
+  },
+  "updated": "2026-10-25T17:20:18.253Z"
  }
 }
