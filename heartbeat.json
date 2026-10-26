@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T13:22:53.494Z",
- "source": "dashboard",
+ "ts": "2026-10-26T13:23:05.943Z",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -49,8 +44,7 @@
   "2260-mt47-premium",
   "2130-ct45-premium",
   "2423-ft32-premium",
-  "2325-mc45-premium2",
-  "2324-mc46-premium"
+  "2325-mc45-premium2"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -77,6 +71,5 @@
    "at": "2026-10-26T13:17:58.624Z"
   },
   "updated": "2026-10-26T13:17:58.624Z"
- },
- "queue": []
+ }
 }
