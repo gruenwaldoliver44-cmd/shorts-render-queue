@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T12:46:53.406Z",
+ "ts": "2026-10-26T12:48:53.450Z",
  "source": "dashboard",
  "current": "2343-mc52c-mc53-premium since 2026-10-26 12:42:56",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 0,
- "mem_free_pct": 79,
+ "cpu": 35,
+ "gpu": 96,
+ "mem_free_pct": 55,
  "progress": null,
  "done": [
   "2431-ft38-premium",
