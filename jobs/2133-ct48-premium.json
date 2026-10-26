@@ -1,0 +1,25 @@
+{
+ "id": "2133-ct48-premium",
+ "title": "CT48 \u00b7 Echter 20er, Automat spuckt ihn aus (Remotion Premium, 69 s)",
+ "type": "remotion",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8a861d24-1ae8-46d9-93dc-febb24a30dc7.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3e5ce33a-94ae-4072-a83e-a3bb9dae0000.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6DAZ7YZ4%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T001406Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEP3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAmTN5hfDCCfZwY7fIoRE736RrPiM8dHw68L%2F%2FEQG8KSMCIQDSmPFjL5fXabsse8CD3QgIw59YFOS02UMENxyu3KMv0iqwBQjG%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMCFhpXWqWLahiRcmFKoQFMJcGEHKpld3gWQZ%2BO%2FSXPLCii7eTgEnNrQEW5V3sBDTfC479UjDY4h8C6iVKZtz5dbXkZWI3bQj4RKjFvm9N90Mzo9Ez7D392b1V6D%2BAxd%2B4y%2BM1zP%2Bh98rBWTV3wNySQ7gdhdBCpqysm6I4xrF%2F0aI5cID%2BUauKGDgZbQFmgWIosxiwgzE32u3FKwebBCHVOBoMgXbpaWTyrJdorS%2F7izQZw4cj2bvavUnqzONpG9yM1bcXTyBWcddxNifSY6LQtzR6Gz7dD%2FXCcIdqKRQKiKV%2BPZAkPElaNi2k0hshUxBxSMeTXcAYuIudXQrPMO9WpZCyYXRRHkPk1eTdB%2FpYeN4I%2BVbS2ClGUwCmR3kLJFKs0EU73V9vr9cYL%2BCktmVvMfRJ32MMkVJ6XZZtBdYRwjFo0eKeKNKxfpWPMq3dJD4qqxJh839cKpGNiaGFu2i5%2FrEWdS3AP2Xqi8w0mMLVrgOPGI4dGOVrg76TVywtZLt%2F963pNSilZO9%2BwlkGT2GrOcGCxeY4F8jtrqGnTiC4N9PtXU9%2FBtUdJ36AhqFc7Bo0ZQfbP0Em6ShYI9wcz2JjfyjjIp1a%2FxYa8ZD6xqG7y5u9dj8VVSo8K3kfyf%2Br5feJ5QOTJk%2Bu79LMlQh7N2XgkBuWT0uHDvtYxfxZGnZfDCRMYVkTrJbd9MEBLIpp1JuLmvhxYuQHwBEHZ1ZLRFCjpUEQznyZbMeqT3sYGqemdfcdfLP9xd4UUUIfcNZojIH4n8PkL4dweTx61laU4LKdZ4SRcaA5jDyXU3tMjtsGLgYuT%2FkGb%2BdjgncRC1rkcH1anJcdiYdNo0FMg8Y5mUfKxEdJXSdKkPO9Wrv6d8SETKSZagwwqtv51gY6jwEBH1n9%2FHaRcHDqTR3E%2FnB8EUXadKHJSx%2BMSvusv3kE6uIP8HXBEktZBtCLt6QuOgEvqIxFT%2B3iKPSiwRKo200E%2BTW2Bz7e6osK2QNODw6rF0IcVmb4bNqunkPLg%2BETZrSuL1ZrGN3UHfsN8OFgfSEP4PALLPuhfM7rQm%2B8jl8%2F4GBZkWYgFvNFAqiGAHp2EQ%3D%3D&X-Amz-Signature=48b1814ad0d6d90d1e04757c9e8616e633405071d8ae1b4fb52f7189d47f1cc5",
+ "items": [
+  {
+   "comp": "CT48",
+   "entry": "src/indexCT48.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f337dcbb-8b0c-45b1-bd7a-3e8cc1f60f76.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG2ERGX3OW%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T001406Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAwEFv79lQ0en%2FcoTPt%2BAsRYolNmyseF1Q07SL5rqiKPgCIQDjT9wvzqdW1GtYoxl5ot3l58eOP%2BWlPOc7Q7aDM%2F1AJyqwBQjE%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMN%2Bbl1lzkAQ0wWilTKoQF71z5yBe2WiHwefkTXQef%2F2KdRdSOkvJf0Q4Sy5QCCQazA4zgSurRfjZKq1ghR9083EuBmGIUL3CGE6RRMMeJKcFZBaTJs7A4Wy4e0KqqRlTu9p%2FcDAO9sNx7uI8z6O4YPUkVu4rn7jnu02YSmlbxDqy6MAzGGJjkgmGjUM1KdnZf2Gld5c6xzsTihUPdX32oIUhlFxiqHhHna5QNO30PGX%2BuPD1zN1IkUiDMUScvZKL7c8EqWI3wMfEot2Vmjxe6fxnDzIqzxNd8HsHHb08gb%2Biitpk%2B9qs9J3VLkOS%2BS2OKkwJfIXhKvEzuWRMwHQe7xolqg66EfbQMZQcfPqkcFouGrqLK2DhwFPafMwuGafSvNSgC84pA17%2BoajoRqJOHB7fsvsxQVVVCbBrTFACDNOahAmTddV7s2HFjgbIaySl7M9wvxC40R3fYQ3hisD1ip%2Bro5rsUoiEemiSudEhhOdg%2FRsM48%2B4pW5CmSgK5ZlKKADiIA7oIoN74WnH%2F5Ut2yY4WaKG40YxfMujAc0vZq0gxqyasqjhgS%2FYNe5wnq7Jm004PicuykspfZoI4rjwbfhqyWPTL87B%2B92CQP7Rz%2FSjJONon5Efvq6wIaPdSNe%2FXq2PrOTpuLflw43f%2FYzNXIqkm910QdXsAMQ6PM3U%2F37Lv0L9SrvYUt5M%2BHv%2F1%2F9MX9wFq6m%2BgBxIDyxs1q3Zc5M7od4bY6ybOZ1AYnEOq76IfsXohW2rW7W82HoisMqIz91X4dsriFCfTKOAROjbM0Ooh6JrC7uHAli%2B2bmEMjcy4ii3rI77GWKW%2F8atyqCqqsqqGz7FMyvvnjpVdAPgTWvzhabWbNczndsvp7rf0AXs5VL4wgLL51gY6jwGtv7rPzr%2BAR4%2Fq1zkqcWaZ88ZIP8MOU6IlHpsrc9zmxCzQB0cRsn%2BWvprF8Qv5dx63kH8gRnYufGC9x%2BrPBKiKDq9Qf2%2BN74vC7pTQ%2FS3Chjlz2uIcBOLd7bOyLOIeGsJw1T08yziFcREtytFWxTlpYuBY3zElsGyivEjoFxIU3gPgHl7xidIPAxPGk1l7OA%3D%3D&X-Amz-Signature=08c0a753ef88d5501e87e4890df7704a66e5f30b874d028e062cfd88fff62715"
+  }
+ ]
+}
