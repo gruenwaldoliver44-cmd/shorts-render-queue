@@ -1,0 +1,31 @@
+{
+ "id": "2291-mt51-premium",
+ "type": "remotion",
+ "title": "MT51 \u00b7 Smart-TV v2: Fernseher scannt den Bildschirm (ACR) + Einstellungs-Fix (Remotion/R3F, Premium-Render)",
+ "steps": [
+  "Quellcode laden",
+  "Premium-Render 90 s",
+  "Upload"
+ ],
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9570519c-a186-4c6b-9bc9-9e80562d03e8.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 75,
+ "expires": "2026-10-27T10:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3aa45b9d-94a8-46a2-b3ff-58bbc2cc4a95.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG7DHLALHO%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T114246Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCmV1LW5vcnRoLTEiRzBFAiEAk%2BswTZuE5ruEWkXgGiOjqx%2F2QXGRtKT%2B3zyfyJje2n0CIFkbOZr3tLcALbqD%2BQ375dQMe1R0O6KZPjhVbpPxqDIyKrAFCND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzhiOst0AihuGvH3kQqhAWhjDJ7aWzHOry0%2Bl2kLMgz28seu20OeR%2FzKSJuDwYSoLHZrU9SJHVraU28cfq41OkpbfnrPcr0ngaiMvBofYjMCRVZFJy5HcP7FL%2BzgFo%2F0lxkB0TF4UsLj43kjZzy7ESaxbbhavOyQuCvotBinPaYSd6XL0uSrHpBSO%2FMbN32GCUTnvwEokTTHaKhHCfTqzU8OZY5bYkqleSiWi4I79jdg5IzyC5x1MW9TgxOGgzauKt8vScsLyjzPcV%2F%2BXWOm67CzM6SB3%2FONANkMqjU63UN7O4MwRS65RfjBFaz93y11oK9XxnFQeViGpYfT%2FBy6nJAWhItbUjGYKVerw7O4INwo9YcIuQ5FPIVLl08bggvTO8HPfDT50c%2B%2FYlg2bzyW65dhJ7J50aMjk7E%2FFIqvkO%2Bt0W5BrHyvFKY8gy5QnGfFZQB9%2B%2FFsEJBsQAuihTygNs854mN8seSQffURVTKPWATqEVZl2DpiWqwrsLRoK3XeQFgjPna0nypeF%2FZnMnGiQVobRjt7xrzoB3hcSb0sYieAkp4clN3JL8XVy2nbOSjX0WdzK%2BaRVjJ%2FKuGNO7DuEn1EYWw2XnOKppGXyAbbdEJpe04Lk5h8mSCKl8pT3bt5VuUWE0S9GHQXZoa45Z4srZcOQputVnG%2FKhUEMinxEO1QEc%2BO8SpxZqT2r7dlpucJPgPqGisgiWJmEklNZEa%2BHPVkglVsDw9VUK62fy3mzr67SL97qTWjyCdxLisiFNJMgg2J5MADUmnx8LV1TWPTrBz3%2FvqDvGgyiUgUBWlhGstCg%2BRMATnta%2Be4yOxC0PcvJSQG8M0Mqeh%2B8H%2BiTnjEt31f9Mzbo6AJgV8ODtbLG9%2BbavFzDCd9PvWBjqQAZE%2FOOiVOLlm8TQ%2Fe0Yd0tXT4Q7FOOLa6qfGJak0XzukUvhx0inyC3F1dlB8Plu%2FhQgaxM9Xmao8%2BA24%2B2mhi1xRhNieHl6F4HDXHTW%2BtMGE8b7SFBohMc3g2SKXS2154j8TQUpePhDp2ZqMfFn6dApe1aNU3v5Ey7zbr4jENWURwsFU7nPoKNiBdVabrZQ5vA%3D%3D&X-Amz-Signature=d6ac9d26b7db2d718fabc377446517e6acc762dbc480d105bff0bbb6da0c493a",
+ "items": [
+  {
+   "comp": "MT51",
+   "entry": "src/indexMT51.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b46d510b-f962-4983-b6ee-7044e491ae54.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG4JDMECUT%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T114246Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCmV1LW5vcnRoLTEiRzBFAiAZ5Kb%2BiQHPG95wbJaT%2FDRxaj6KsEXk56X4DH7sol72DwIhAJkYrTfBHKwPazk2m3lXPBbqxIf47AYerJ0KwjVVfSRoKrAFCND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgxiyo9rstkSR%2BaZdb0qhAXvR1VXYFNSY%2FtBrhESa9w%2BOTCrFpNyQteAN5zhjFe%2BQ6ghuO7YWe%2B23DzUEUzQZ6sysdgwsNA5of7bDtL7N2EwneMLbmYqFp5cDRdu6JBq9XaUD%2BvOmKrTSwh7h7DnRNoLZjl4WWBtY5p0cpYVD21qWgTHamVbwU%2BZbrHbK%2BErSe3nTGHmAv9mPVEE1KO3TePm6iEU4er%2FK24lhgqTY%2BZr2TGaRzeWvFebrz3wQady%2F1LprnYh6J82LaFCAl4I1YPMzU7Eb5VlGWiDblJOybwXNIdZKQ294eGv2WSGDFKUSO%2BiCuJHoLJbNsUCqmR%2BjYwdij8Zg3cjVaJGhZq%2BK2l69fCPQ5U%2Fi2gaKrkXqMfPAI7aBde%2FZwnnsaow5XxZXvkHXVfCS1awRcy98DCvqH5RDlCVHP6vHd5Ex%2Bz9ql%2FhSx6OABB6xAc%2FyESyJTggCAgqu7GuWJ3YNugxRihWolCPgB0YlkXfm1Xu9m7UlyZ%2B%2BBr2RmxKg2pNIZYF6MI%2BOcFggatt2GZ5UrJvxGTD%2BWEGxdTJkMBe5Fx%2FyWYdBbkC2AWasJwvY16uJdXa4R3BDuO22NpXnegKPNO%2F8SfEIaPgGNEQqU6CLCuYZJoLRuhZNj2L%2B2iqKoDxvh8BK54MmREtFyo3f8dE2tP%2F4mln5FweEJHkyHW6VK%2FLxuMINEOnMjopxQmEsa5nNN%2B9NCQ09jZnzOjIQqy5JGx%2FFuaAGIpxgiJZWfW18soFQz8HLfgYTqwO7vkbnKZYNmvT7l8ODzu5QehtM7TRnOT7B6e4MCxHpCu9xiu%2Bl3mChOy%2FbGghup87sbkRzXpy470ewckBb1i9A%2F8f5P4RRA5aJRL20esdMv8Q4zD69fvWBjqQASMmxIfK24yUfts6lyLBFgzYjEnra3rihOpGPXz9pe8LM7oJk7nEwoPv0hlgEntwsXrLr%2B6ZAjXWYvTOHzDBRstQ7tGRB9JYhCKSZ9CuEcx%2BvKDX2VCCyt3JlX0HAmXSUHIt%2BZp4wd5eOP2SzNqxiufPktUP8PjDRkPrth2S0HrKReU%2BzNx38tfcb0EbRPSZ8Q%3D%3D&X-Amz-Signature=c01141859e4766ff5f39de5751b46c67e5fa77996dc829b7b0adff5eec81ac5a"
+  }
+ ]
+}
