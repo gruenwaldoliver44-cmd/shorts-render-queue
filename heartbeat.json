@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T11:48:53.294Z",
+ "ts": "2026-10-26T11:50:53.302Z",
  "source": "dashboard",
  "current": "2291-mt51-premium since 2026-10-26 11:45:41",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 34,
- "gpu": 95,
- "mem_free_pct": 51,
+ "cpu": 13,
+ "gpu": 0,
+ "mem_free_pct": 79,
  "progress": null,
  "done": [
   "2340-mc51-premium",
