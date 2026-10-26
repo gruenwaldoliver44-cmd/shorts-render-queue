@@ -1,15 +1,15 @@
 {
  "title": "FT38",
- "stage": "Rendern (Mac)",
- "note": "FT37 fertig (wartet auf Freigabe, Slot Mo 16:00). FT38 im Mac-Render.",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe (FT38 für Di 27.10. 16:00; FT37 für Mo 16:00 ebenfalls fertig)",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T12:31:45Z",
- "eta": "Mo 26.10. ~15:15",
+ "updated": "2026-10-26T12:43:37Z",
+ "eta": "fertig (Slot Di 16:00)",
  "topic": "KI-Shopping-App Nate: die KI waren Menschen ($40M / 0%)",
- "progress": 70,
- "next": "FT38 Mux/QC/Upload, dann FT39 (Fake-Brad-Pitt, KI-Fotos)",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/78a56a1a-b169-41e8-9b32-f5e3b8e1a79a.jpg",
- "preview_note": "FT37 Endfassung · 70,0 s · -14 LUFS",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ef1a8823-1276-4160-b946-cef0ff2434f4.mp4"
+ "progress": 95,
+ "next": "FT39 (Fake-Brad-Pitt, KI-Fotos, 830.000 Euro) für Mi 16:00",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/da8e1ff7-f8e5-41fb-80f1-fc9b6e687f5a.jpg",
+ "preview_note": "FT38 Endfassung · 57,0 s · -14 LUFS",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6dc7c1dc-56ae-44a9-a555-c16e7d8c1196.mp4"
 }
