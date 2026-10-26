@@ -1,11 +1,11 @@
 {
- "ts": "2026-10-26T12:28:53.388Z",
+ "ts": "2026-10-26T12:30:53.387Z",
  "source": "dashboard",
  "current": "2342-mc52-premium2 since 2026-10-26 12:28:13",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 33,
+ "cpu": 34,
  "gpu": 95,
  "mem_free_pct": 55,
  "progress": null,
