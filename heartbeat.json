@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T11:56:53.354Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T11:58:26.808Z",
+ "current": "2341-mc52-premium since 2026-10-26 11:58:26",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 3,
- "gpu": 0,
- "mem_free_pct": 79,
- "progress": null,
  "done": [
   "2429-ft37-premium",
   "2291-mt51-premium",
@@ -49,8 +44,7 @@
   "2121-ct44-premium",
   "2321-mc44-premium",
   "2230-mt44-premium",
-  "2421-ft30-premium",
-  "2420-ft29r-premium"
+  "2421-ft30-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2429-ft37-premium",
-   "title": "FT37 Freysa v2: KI-Agent gibt 47.000 Dollar her (Remotion/R3F, Premium)",
-   "result": "fertig",
-   "at": "2026-10-26T11:55:21.708Z"
-  },
-  "updated": "2026-10-26T11:55:21.708Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2341-mc52-premium",
+  "title": "MC52 · 4-Dollar-Rahmen (Unabhängigkeitserklärung)",
+  "job_since": "2026-10-26T11:58:26.786Z",
+  "timeout_min": 45,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T11:58:26.787Z"
+ }
 }
