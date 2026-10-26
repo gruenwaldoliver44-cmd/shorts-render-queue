@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-26T11:40:53.342Z",
- "source": "dashboard",
- "current": "2137-ct51-premium since 2026-10-26 11:38:14",
+ "ts": "2026-10-26T11:41:35.063Z",
+ "current": "2340-mc51-premium since 2026-10-26 11:41:35",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 93,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
+  "2137-ct51-premium",
   "2136-ct50b-premium",
   "2135-ct49-ct50-premium",
   "2134-ct48-premium2",
@@ -48,8 +44,7 @@
   "2421-ft30-premium",
   "2420-ft29r-premium",
   "2320-mc43p-premium",
-  "2120-ct43r-premium",
-  "2414-ft29-people"
+  "2120-ct43r-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2137-ct51-premium",
-  "title": "CT51 Debitkarten-Sperre Mietwagen + Hotel (Remotion Premium, ca. 65 s)",
-  "job_since": "2026-10-26T11:38:14.730Z",
-  "timeout_min": 60,
+  "job": "2340-mc51-premium",
+  "title": "MC51 · Pudding-Becher (Remake des MC19-Hits)",
+  "job_since": "2026-10-26T11:41:35.038Z",
+  "timeout_min": 45,
   "step": 0,
-  "steps": 3,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-26T11:38:14.730Z"
- },
- "queue": [
-  "2340-mc51-premium"
- ]
+  "updated": "2026-10-26T11:41:35.038Z"
+ }
 }
