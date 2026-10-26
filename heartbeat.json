@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T00:54:52.699Z",
- "source": "dashboard",
+ "ts": "2026-10-26T00:55:17.697Z",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 0,
- "mem_free_pct": 79,
- "progress": null,
  "done": [
   "2135-ct49-ct50-premium",
   "2134-ct48-premium2",
@@ -49,8 +44,7 @@
   "2320-mc43p-premium",
   "2120-ct43r-premium",
   "2414-ft29-people",
-  "2116-ct43-up-people",
-  "2115-ct43-people"
+  "2116-ct43-up-people"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -77,6 +71,5 @@
    "at": "2026-10-26T00:50:10.580Z"
   },
   "updated": "2026-10-26T00:50:10.580Z"
- },
- "queue": []
+ }
 }
