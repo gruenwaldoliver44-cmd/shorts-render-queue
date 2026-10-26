@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T00:36:52.655Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T00:38:21.066Z",
+ "current": "2134-ct48-premium2 since 2026-10-26 00:38:21",
+ "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 0,
- "mem_free_pct": 81,
- "progress": null,
  "done": [
   "2133-ct48-premium",
   "2132-ct47-premium",
@@ -68,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2133-ct48-premium",
-   "title": "CT48 · Echter 20er, Automat spuckt ihn aus (Remotion Premium, 69 s)",
-   "result": "fertig",
-   "at": "2026-10-26T00:19:49.771Z"
-  },
-  "updated": "2026-10-26T00:19:49.771Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2134-ct48-premium2",
+  "title": "CT48 v2 · Geldschein-Pruefer, dunklere Walzen (Remotion Premium, 69 s)",
+  "job_since": "2026-10-26T00:38:21.045Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T00:38:21.045Z"
+ }
 }
