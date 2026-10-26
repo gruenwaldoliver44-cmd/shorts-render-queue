@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-26T00:16:44.056Z",
+ "ts": "2026-10-26T00:16:52.575Z",
+ "source": "dashboard",
  "current": "2133-ct48-premium since 2026-10-26 00:16:44",
  "busy": true,
- "free_gb": 56,
+ "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 23,
+ "gpu": 0,
+ "mem_free_pct": 81,
+ "progress": null,
  "done": [
   "2132-ct47-premium",
   "2331-mc49-premium2",
@@ -73,5 +78,6 @@
   "label": "Startet",
   "progress": null,
   "updated": "2026-10-26T00:16:44.037Z"
- }
+ },
+ "queue": []
 }
