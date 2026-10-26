@@ -1,0 +1,25 @@
+{
+ "id": "2344-mc54-premium",
+ "type": "remotion",
+ "title": "MC54 \u00b7 1-Cent-Briefmarke (9,48 Mio.)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a6c3e29a-fc20-4d4c-a6b1-22124259fa59.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-27T12:00:00Z",
+ "items": [
+  {
+   "comp": "MC54",
+   "entry": "src/indexMC54.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4805c9a7-f9ec-4fc9-b3b6-f94d9fdbb806.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6N7QHRNH%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T124719Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiSDBGAiEA9jPoVa2iyLuAq5rKMV7j26Gw2qxL%2FZeoinIQppsEAjQCIQCHjdi%2BplYxPkdOFMe6UPLW2XskWUeYoipAiZj4mnb9TiqwBQjV%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMeH4SKe8du%2FVemBegKoQFnmUowene%2FkS4GNzzh4AYD9ySl5zWwbBlKyqQeLJs3PQFHVxvW7oE%2F%2FKG1JNS3dWcxXUKbDvsS9NPmAbft%2FoD4etaQJkZrzbkd7Mt4W4CySw5Smpab36VpKRlI6AfAxJXWa975aJEttya03uQfYgkMxG2wHilKiNLFAqXPcaHlaeWBBKk0GLlF0OnBNNEdhipexuS%2FIb7VaxoJ%2BacbWMg5SOJDwJWd%2BmKA6Y3ko7wgV%2Bq0HkeeFhkd6J0FFZnixt3XZ0Mwc%2F8l2bJ9eX0zaZVyzIs7GN9aAOUOT%2B9ck0UI9dM49kFi3rMTOXmAxCBUrTY%2FEzeB983KBTJytUYgObN05kye4UpjvnFalAtTZyvjIl2%2BAJoRirS72JlcDnduhByz2Xzew6%2FNaZCnuFp01%2BsXG7acDvG0EXwYhJcb7UsZzGZv%2B14AbHYXPbNTNrnkg9Kd4qYX7pHTX60DuY%2B3%2FS%2Fo3SBEUHzUKMYqJ8BLay%2BkfF9VVOBbi2lO8Sjou5MOHUS0WVSZLVMoo1Xv%2BbE5Q%2BO%2B72AHbZ4dZrEhcM6WAQOxxMmQeld8tzbSTfhY1EKLEZHdhIE8Ii6zjKlVhT2tp3sMSjxtjXwCAXcDFDaMJQKguqo0V9hweOFD%2BwnZo3iQD9WDA1th7%2FCszSfcSyiDJ%2BqHP98exvdvQtTvWqVnf42XTZJaxw33t42E%2BeU5DSUhLI%2BP2Jzetd4SorJq2XAIDDGKvGY9SMMz%2FxQG5LwDkHGEwfdkRmfhgytMJ%2FCaUJAe1neI3ck56%2FmtAf5aM0fJsnV5tJRVix1RVlL7hn%2F0ZrmZ1rFjDSSjX1F0Pwyh26RyepPACGMw1esSl18v71H%2B6mR9f51TYQwkI791gY6jwHHHljAsgo9eSUsxxU0LLehRhSlZUQqrBUhLN5GtE7sL%2F806fcedCDreJzTJ3MBQnE7l3CgEbyvB09pg9b3dK7hQ8drvGNLv8g%2FVYGMyH1R%2FtQaBkVXNdE23OW%2F1WIT4UWg9LmiGUN5%2FbapJEHtfpPfKbewhjR6g%2Bp14rWB2cPCkaaLK9uk9HByMDZEMWCaFQ%3D%3D&X-Amz-Signature=7b624533c4292d0c1787f681e61cfd1592528a8cc0f65aabb98b174744b7c0f3"
+  }
+ ]
+}
