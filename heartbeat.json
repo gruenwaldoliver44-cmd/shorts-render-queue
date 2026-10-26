@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T00:38:52.641Z",
+ "ts": "2026-10-26T00:40:52.620Z",
  "source": "dashboard",
  "current": "2134-ct48-premium2 since 2026-10-26 00:38:21",
  "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 52,
- "gpu": 90,
- "mem_free_pct": 58,
+ "cpu": 34,
+ "gpu": 88,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
   "2133-ct48-premium",
