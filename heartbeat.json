@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-26T12:58:53.383Z",
- "source": "dashboard",
- "current": "2139-ct52b-ct53-ct54-premium since 2026-10-26 12:51:11",
+ "ts": "2026-10-26T13:00:08.033Z",
+ "current": "2292-mt52-premium since 2026-10-26 13:00:08",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 93,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
+  "2139-ct52b-ct53-ct54-premium",
   "2343-mc52c-mc53-premium",
   "2431-ft38-premium",
   "2342-mc52-premium2",
@@ -48,8 +44,7 @@
   "2324-mc46-premium",
   "2250-mt46-premium",
   "2422-ft31-premium",
-  "2323-mc45-premium",
-  "2240-mt45-premium"
+  "2323-mc45-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,18 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2139-ct52b-ct53-ct54-premium",
-  "title": "CT52 v2 Versicherung (Zaehler-Fix) + CT53 Geschenkkarten-Betrug + CT54 Payday-Kredit (Remotion Premium, 3 x ca. 65 s)",
-  "job_since": "2026-10-26T12:51:11.844Z",
-  "timeout_min": 90,
+  "job": "2292-mt52-premium",
+  "title": "MT52 · Geschirrspueler: 4-Stunden-Eco billiger als 1-Stunden-Kurzprogramm (Remotion/R3F, Premium-Render)",
+  "job_since": "2026-10-26T13:00:08.011Z",
+  "timeout_min": 75,
   "step": 0,
-  "steps": 5,
+  "steps": 3,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-26T12:51:11.844Z"
- },
- "queue": [
-  "2292-mt52-premium",
-  "2432-ft39-premium"
- ]
+  "updated": "2026-10-26T13:00:08.011Z"
+ }
 }
