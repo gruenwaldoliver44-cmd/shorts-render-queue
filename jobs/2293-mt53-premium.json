@@ -1,0 +1,31 @@
+{
+ "id": "2293-mt53-premium",
+ "type": "remotion",
+ "title": "MT53 \u00b7 Echo schickt jede Anfrage in die Cloud + Datenschutz-Fix (Remotion/R3F, Premium-Render)",
+ "steps": [
+  "Quellcode laden",
+  "Premium-Render 89 s",
+  "Upload"
+ ],
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c9dc5f8c-d05e-4d61-855f-a45d38915ce9.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 75,
+ "expires": "2026-10-27T12:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b927bb08-3b79-476e-b1d6-0970c2c6a9ae.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGVJQVUBBQ%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T130212Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiSDBGAiEA%2BAViK72iOYCz8WYCb%2FKbD1LP6Se6W2pVh%2FQLl6bd9jgCIQDSqEFUS7v2CVOoIX3siOFK1UyPp0yQMqgd1HPbUZFPlSqwBQjV%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMqvfdFEjESTL%2F1xTtKoQF5MvWFIwPF7Pg6vg4Zb0rQob5rVOVaNnd21w80pwj3NUaSrZWZe%2BaYU5iVRiniO%2FnBv51h2ioM7b883ou%2ByVT4QeB2yn4R3GK07jYgQJVTNaWFHqDBGjao1ZF7x8Ikwi7Iubfoa%2BaQNXy05F5mn1JK83T9cD4hgw%2B1ydZooIPYk78qXENCSJY1I1mQBQcRZudQ1WfBI8qga0eT8Fre8TfKf%2BoybC0yWDt7qyLYdUGgvX%2FHvtXnM1F7SmYigXHefPAqGjC0HFiZ5g9%2FCPcWmJH4L2OOYm9UQMnJ8a0mqVxQIMJ9PvbdMY1%2BV59LntV3HCFJnjLb1%2FL%2BZ%2BYK9fI0a0Ah0Xz1A6w98l0%2B%2FXJedNrmShyojqdqVaGW9Pde8PFMCMZu4Ml%2F7wwFUgMcgjBhN5L6BzhukYXQN6qGTx1fGARYG2vqnfjnuixlCTZfDYQalWP%2FVIVxlCKdhvYKArFkPNXANCiduF1ugUz%2FphC6WZKJBQnONsH3qGdDipQ6KL3V3tbdm7JdYfU%2B6%2BOladre2XVswq%2BbUchC92Hd114Pre0qvu6SNBjhLZed02gUQU4ixLUpsIK7iJ%2BFrbmXTK5op%2BE1l1zDPtCLk9YsrJJLenc2bOmQJy0icW3Zj2ec3M5NxMIA9ZOJrw%2BYI8UCWF%2BKJkV41%2B5pFoEfNWV0w5dx3QEthHDZeYCML93JfYR18XgufqzKwVfb1mHS79e8B5C950xJ2UE0hQ%2Fs2mvfQaw74kOYEv99Vpo7ON27g2%2FVMetM2E91qSBXPUPjvgkmrOynXeUxXBCebvI7saX%2FBjSxik17pG8ta%2Fs3j6b7Po8iSIwNh9KiZMsgVSSmjGklEKgCXzYv%2BxitpAw5Y791gY6jwF5OmmY37GndcpkQeNCjC%2Fl01LnqecWWGtmmbQvt65PmXMDwj6pldIiaZY6e1WzbIxfTmWqzDvtN2o29FQ7byT4krKZC4xORPwOWocIUpU3qRK30WDx9iFohvR7XDN5TYcWsrRFYo0ZMBQLCNigkuQMjXtEA7fn0ca4cE13XAvUxNtRu5m61djChNRLUFvn1Q%3D%3D&X-Amz-Signature=3843bb5a78157101c6306fcf96d6b4f3bc05f172d29ae4966d8911ffcb2152a1",
+ "items": [
+  {
+   "comp": "MT53",
+   "entry": "src/indexMT53.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/81e60288-9d89-4ea2-a459-f66a913ae745.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG3FB6ZK3K%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T130212Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiRzBFAiBqbK2OVjskKoJj3mwwnNI%2FcsN%2FpBAT2wdLPuaQ7vNYxAIhAL5LxGH6qo%2FLDW8u1VxzuyPfik1rFWbPuWpr4u%2FwlYZ0KrAFCNX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzygDyzD3PBxgzxu4cqhAX0KUGqyacMT5esl5tsenPZ19iUyQInZ915BLOVmooAKIyk9kteWOQ%2FTTLsa%2F248qgfpfWnkpLMwukTgCrtQI3fG5mL6AbbwjVNbdZipCaVnbBV6tS%2FpvQTpWW5rQTmoOlw3uRVH2ygN8ZpHcqPlToZegyLwJmlVprLHu1eITCgEmqpQ5Zc5zci7%2FuZj7D%2FIfep0LZ7YlcysDFQ0fAyC7cuF6iBdOmmwb4K%2FYTvKiqmFj%2BIhwBnNelhERtHBvfQjzRkZRnAnbLqm%2BIj%2FfBXFndkoW1BGSvm7CJpNsqta83l90zGi9hihwMC1SPgkVWfrq2%2FlnAq18%2FCqJRx3WEZh8gMwhenfndyqKvwGyqDfUKANDhP7zr3XGje6vv1tSx2uHaK4XEHpUmiUxrXmkouuvkh2QgwA2Dg9UXnZp%2B2v4aDP8nh7BrrNzPdgaMraFysy1LOOfjNcKLdLhcaNLHePscGObg26G9pSkDKhwg%2BcLBoAxW47g40n2eV4FdO6Q1zdSGy34i2PuntYGgGrhPNE4QRz%2BzWFoMQgRg7Uoj22Y7aFbsEGM2ie%2FVMq6yvkWm4agkRKlbf7ypg8U2i2ZVUKbl%2BB6KXabgIKCnebpJIlepLW0q9L6qdbrTo7tLK1tg2OKFpJRHe0eFWkPWwOwo%2BtShfCYl25SYvZ8UMUtOZDOIcasemiG%2F4e7z8HTwg419e6EsVV%2FLfdn9tgq%2BBevhHvJR1rUrPXoGR58%2FrbVQlcvv3p1TYK565qNzzA2U3BnorNpJUUIkbahglyzGUoSSgu7Cw7vasQAeve93g54YXvoX6AvqpWuuGQNnNg3nKsLQ84RG9cCXv20L1hRjxMpGEQJmkDQ8zADC7jv3WBjqQAVnMNFeEO3u4uqJBtceTTGbZ3QCh3lyd%2Froq9WSDffsBUmYJiwqtYCyVCOX%2Fd%2FLZ3M5QCjcN4p0j%2FhvfDq8FlSaqDoJW0gDOPgMxvnJoS1Ist7zEwhdsG3Zb5IFxxMLIxQQckfJhUxv0l2E5dex3fSc4SCYSKLMZfruR8%2BxhsvhEd1SdVo5U4QNJ8G0xMExXqw%3D%3D&X-Amz-Signature=6db9dc900e44b6cf1321ebc6a4db20ea755fd0350c0dc08dc828afe60f6985d1"
+  }
+ ]
+}
