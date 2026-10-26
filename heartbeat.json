@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-26T12:51:11.863Z",
+ "ts": "2026-10-26T12:52:53.377Z",
+ "source": "dashboard",
  "current": "2139-ct52b-ct53-ct54-premium since 2026-10-26 12:51:11",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 32,
+ "gpu": 95,
+ "mem_free_pct": 56,
+ "progress": null,
  "done": [
   "2343-mc52c-mc53-premium",
   "2431-ft38-premium",
@@ -73,5 +78,9 @@
   "label": "Startet",
   "progress": null,
   "updated": "2026-10-26T12:51:11.844Z"
- }
+ },
+ "queue": [
+  "2292-mt52-premium",
+  "2432-ft39-premium"
+ ]
 }
