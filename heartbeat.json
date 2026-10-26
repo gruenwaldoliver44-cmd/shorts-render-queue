@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-26T11:50:53.302Z",
- "source": "dashboard",
- "current": "2291-mt51-premium since 2026-10-26 11:45:41",
+ "ts": "2026-10-26T11:51:37.442Z",
+ "current": "2429-ft37-premium since 2026-10-26 11:51:37",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 0,
- "mem_free_pct": 79,
- "progress": null,
  "done": [
+  "2291-mt51-premium",
   "2340-mc51-premium",
   "2137-ct51-premium",
   "2136-ct50b-premium",
@@ -48,8 +44,7 @@
   "2321-mc44-premium",
   "2230-mt44-premium",
   "2421-ft30-premium",
-  "2420-ft29r-premium",
-  "2320-mc43p-premium"
+  "2420-ft29r-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2291-mt51-premium",
-  "title": "MT51 · Smart-TV v2: Fernseher scannt den Bildschirm (ACR) + Einstellungs-Fix (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-26T11:45:41.698Z",
-  "timeout_min": 75,
+  "job": "2429-ft37-premium",
+  "title": "FT37 Freysa v2: KI-Agent gibt 47.000 Dollar her (Remotion/R3F, Premium)",
+  "job_since": "2026-10-26T11:51:37.420Z",
+  "timeout_min": 90,
   "step": 0,
-  "steps": 3,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-26T11:45:41.698Z"
- },
- "queue": [
-  "2429-ft37-premium"
- ]
+  "updated": "2026-10-26T11:51:37.420Z"
+ }
 }
