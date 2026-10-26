@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-26T11:42:53.305Z",
+ "ts": "2026-10-26T11:44:53.338Z",
  "source": "dashboard",
- "current": "2340-mc51-premium since 2026-10-26 11:41:35",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 44,
- "gpu": 95,
- "mem_free_pct": 53,
+ "cpu": 4,
+ "gpu": 0,
+ "mem_free_pct": 78,
  "progress": null,
  "done": [
+  "2340-mc51-premium",
   "2137-ct51-premium",
   "2136-ct50b-premium",
   "2135-ct49-ct50-premium",
@@ -68,16 +69,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2340-mc51-premium",
-  "title": "MC51 · Pudding-Becher (Remake des MC19-Hits)",
-  "job_since": "2026-10-26T11:41:35.038Z",
-  "timeout_min": 45,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-26T11:41:35.038Z"
+  "state": "idle",
+  "last": {
+   "job": "2340-mc51-premium",
+   "title": "MC51 · Pudding-Becher (Remake des MC19-Hits)",
+   "result": "fertig",
+   "at": "2026-10-26T11:44:40.043Z"
+  },
+  "updated": "2026-10-26T11:44:40.043Z"
  },
  "queue": []
 }
