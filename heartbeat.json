@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T13:38:53.472Z",
+ "ts": "2026-10-26T13:40:53.472Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 6,
  "gpu": 0,
- "mem_free_pct": 79,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
   "2344-mc54-premium",
