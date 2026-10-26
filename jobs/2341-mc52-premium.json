@@ -1,0 +1,25 @@
+{
+ "id": "2341-mc52-premium",
+ "type": "remotion",
+ "title": "MC52 \u00b7 4-Dollar-Rahmen (Unabh\u00e4ngigkeitserkl\u00e4rung)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ad982083-ae86-4519-b6b9-344949b8da3e.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 45,
+ "expires": "2026-10-27T10:00:00Z",
+ "items": [
+  {
+   "comp": "MC52",
+   "entry": "src/indexMC52.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/939170f9-b95c-4c8d-b323-119601e5b21c.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG4JS3DLX6%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T115634Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCmV1LW5vcnRoLTEiSDBGAiEAx19l2C6bDJhTgGINqlP3HhLj7pmSy5trYgXk0o4jJbMCIQCaAB%2FQRZKeTBcGl4%2FB5LwHdrkZaTYwIiZrWI%2Fl1pK1myqwBQjQ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMEcQ5Z8y5vEl7BDoGKoQFEjDGkP%2BQ4mI53rD8Y8U6ynxPPx20EltDNzg3%2FCXblqCMB9ObAXkmBRwnHBz%2FuZr6gdDw9e3xjABYUMp7jn0YJ3xti5LK%2Bt6cKFU1xoz%2FeQewc08ZoXzCmIjfExDHeaxvKx6VCsnX3vmc%2Fzg8NYwbcNxUAG%2BR52oBt8QpsGBo5%2BgZuD7weNx%2F51tQTHH%2B1bHTF1FKYo943fJZw1Rtb3qydZviZr6BYhrCTeecuKBZpslRXbvanKvEZlsU5JnN3vOxwNig2fwIqqnUahuHF0pxGsUHbvwYlZS%2F1Eq46SOvGN1339YM4LLnR8fgolTYO2qAGKO2F5i7xNF0eISZl%2BS9xHTEv3ztczJmARQD5S50DrNrhQeKh9ixB4mxUQRNTwBCpkyvhB%2BWMqnaZm1w%2BF0QCYx7kp9Qf9KCiGCyZqI%2F5%2Bsii4CHxclMnvPI1MlEAlBF%2FPWd80830npf6SPgrSCc%2BJPhQQLb2RvhmwTgb8RvwQMIaLiN061DZM4X%2Bah60HXsFedgsn6ciR4gen9MD577u9T2mpBvI99Jw42R%2BHVR%2BPgh4jpAYlm1DCiCVczT%2Fj2KskZsT4XQOICD6ulYfEUmGskpyr%2BwoEyXVOJNcPTbcpQG8Lv%2FJMyrE%2Fy4vYsjbzrihe4uSxj3cl%2Bam4w%2B77FetXwPNMIk3cOlcOQQuuU3Q70iCdNLb4VDR5tHS41DJzA1Bcly76fohP%2B6ky8Py3jgZc3YtaWls7l%2BRC%2BCuwM8yYu9lh9%2Flv2NTe%2FWiILc%2FBp62043%2BFWmrvLG8t8tzyXwRklIeug6C2WsYBLJXyMoEQBoFZxhwfIA8Iu2Ta060aMDpZ%2BXGZT9PXIsjOyK8ScQbIqq8iIwlvT71gY6jwGtGE%2FsHxiI1NrMiy4BjMV4b90VMoLkn3UtSoz%2BOqF4YlLpxgRoKSytDdUaUaxnjUI62%2BrycoMMNjgF6CA6W0t%2BdHiZNZjoeOOSi0cwtyMZTEzU%2BBy4wSIS4hSfB%2FHxRYX77j%2F6UriHZpAo7nbYIw%2BxZ9OC%2FfgAZ9ebkOIiabwMyyj0%2BfsCjM7Vy3onhbuvgQ%3D%3D&X-Amz-Signature=4d8314ddb72d4c75c9dfe4beaf9dacdceab900f88e918123836a66cbf331a1d4"
+  }
+ ]
+}
