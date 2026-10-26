@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-26T12:07:13.391Z",
+ "ts": "2026-10-26T12:08:53.363Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 4,
+ "gpu": 0,
+ "mem_free_pct": 80,
+ "progress": null,
  "done": [
   "2341-mc52-premium",
   "2429-ft37-premium",
@@ -71,5 +76,6 @@
    "at": "2026-10-26T12:02:05.826Z"
   },
   "updated": "2026-10-26T12:02:05.826Z"
- }
+ },
+ "queue": []
 }
