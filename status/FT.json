@@ -1,15 +1,15 @@
 {
  "title": "FT37",
- "stage": "Bauen & Stills",
- "note": "Freysa v2: Remake des FT09-Gewinners (KI-Agent zahlt $47.000 aus). Skript, Stimme, Ton fertig; Gates A+C bestanden.",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T11:31:51Z",
- "eta": "Mo 26.10. 14:45",
- "topic": "Freysa v2: KI-Agent gibt $47.000 her",
- "progress": 55,
- "next": "Mac-Render, dann QC und Upload",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4cbf5239-f6a4-4784-88a3-2aa20a22ff1f.jpg",
- "preview_note": "FT37 in Arbeit",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a0b92534-f117-46c8-90b5-56d0eaf674c6.mp4"
+ "updated": "2026-10-26T12:27:42Z",
+ "eta": "fertig (Slot Mo 16:00)",
+ "topic": "Freysa v2: KI-Agent gibt $47.000 her (Remake FT09)",
+ "progress": 95,
+ "next": "FT38 (KI-Shopping-App, die Menschen waren) für Di 16:00",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/78a56a1a-b169-41e8-9b32-f5e3b8e1a79a.jpg",
+ "preview_note": "FT37 Endfassung · 70,0 s · -14 LUFS",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ef1a8823-1276-4160-b946-cef0ff2434f4.mp4"
 }
