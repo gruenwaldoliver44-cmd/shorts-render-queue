@@ -1,15 +1,15 @@
 {
- "title": "CT46",
+ "title": "CT47",
  "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe (CT45 + CT46)",
+ "note": "wartet auf Freigabe",
  "slot": "",
  "error": false,
- "updated": "2026-10-25T23:06:43Z",
- "eta": "CT45 bereit fuer Mo 26 Okt 22:55, CT46 bereit fuer Di 27 Okt 10:55",
- "topic": "Auto gepfaendet, Restschuld bleibt (CT45 Lizenz-Video ebenfalls fertig)",
+ "updated": "2026-10-26T00:17:18Z",
+ "eta": "CT47 bereit fuer Di 27 Okt 22:55; CT48 rendert (Mi 10:55)",
+ "topic": "401(k) Vesting: eine Woche zu frueh gekuendigt",
  "progress": 95,
- "next": "beide fertig, warten auf gemeinsamen Slot",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4ce1f8d8-fd7b-4dfb-9c1e-cebcfdae9538.jpg",
- "preview_note": "CT46 Auto-Restschuld · 69,8 s · -14 LUFS · alles bewegt. CT45 (77,5 s) Video: https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/5ea7d695-b786-43ba-a8df-b77c1092d4e9.mp4",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/1b3076e2-3d57-4895-aa7f-af275cb6cd25.mp4"
+ "next": "CT48 Geldschein-Pruefer, dann CT49 Haendler-Zinsaufschlag",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/bb27769e-c016-4ee1-bf19-e66c5ca3e7d3.jpg",
+ "preview_note": "CT47 401(k) Vesting · 70,8 s · -14 LUFS · alles bewegt",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49ab4b13-2319-431b-a5d8-05bcab7b4bc7.mp4"
 }
