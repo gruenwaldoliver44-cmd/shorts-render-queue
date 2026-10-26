@@ -1,0 +1,31 @@
+{
+ "id": "2292-mt52-premium",
+ "type": "remotion",
+ "title": "MT52 \u00b7 Geschirrspueler: 4-Stunden-Eco billiger als 1-Stunden-Kurzprogramm (Remotion/R3F, Premium-Render)",
+ "steps": [
+  "Quellcode laden",
+  "Premium-Render 86 s",
+  "Upload"
+ ],
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/c47949a9-badf-4dfc-8bab-b61f4d1efdff.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 75,
+ "expires": "2026-10-27T12:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/79a84e56-ce59-4de3-807c-b7427f7add2e.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG2J5UONK2%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T123617Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiRzBFAiEA703fX3FsY7KKE8PGUcWZpEeRQG%2B6UWXKPZSOAxnreccCIDxS6z%2BFG8AoUqQrtEC10WIgsLlUYUntI4PeEFx%2Bo2gsKrAFCNX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwsubqhmK2HX%2BQHwh8qhAVqyBXXlnNz08NPMUcttg9y6JJUtJKz37uLSFObKJ6mYOXdTogm4SRRxwaDXJgGlRsTQPas7oLbjBHlgmxZpUcOtloSIReJeOEXR0Li9vuJe3HspKFFr%2F64gJ9MX%2Bx4PkHFnUe0zvbnmG8x61M0xz%2B3Ci7HVg6CW43DUjSeINn8gls5WfiA6VoLVrPvlRKsi%2BZEzuOIeKhMhO%2BgD69pfWkvYw%2Ff3fLJ4xi8levc4%2B1Q4Evk%2BPLfpSy14LY9LsCKd%2FL9MK6BIyfGjZZTVRO877ZRBEhcXZBjXM86VWPb%2FwtEBx5cc3tjgj0p%2BWNg8Gx0ygpGXRUFsKCSCxRggZDeacYm2k6hkbcNAGLAf49Cyi52BSokZ51yE8I54gK%2BbaTUhgNyPUxmV79ntUOeCESyK7dgEldwoMyN9RVJnjC6A7zWqPCbSP80TcUxTnR7c7Gr6L0CP%2FBfN0c4zHv6lBUz%2FDT702fHh4wiP3GYpwF5AdlJCGQzhV0KSqnZX519PZGuVSx%2FLqhq7Xu4SqzsUF5ihiYuTBM7LpZ6mqrnZ%2BlNedEQUHKNUWN%2FYfeCqU2Z2cJ2bB2mHD8l8AkKVm6h35vhVT8SZ9vU1fH6U2g7SjBqicC4WOUx916Hq6Y%2F1f%2FFOo%2BVBu5CrfaGpA87Sar8gUt3wms8y1eb9vwRLKGwCSX1lv4rZmGtJXmshIBvdPnaMQOKCyldBVvsO%2BcJRnKkoLZe%2FNAqeJSXpmH8MAkmOlOazrqeqcF3207chA9SjgIN7xHl3NFlMB4GFmbNGEiTgUbhpNr1h%2FKt0nRisW0RanJTgsmhTWArMdv99WvcYOTB7ozmLzdlUYtOPGE0DrjRbjRsUWIdZg3j%2FDDkjv3WBjqQAY01QQNviLpUJAUeGeBKCIoQpaIXkKPX0gM9Pnfdh5%2F%2Fee911dK%2F0qYnvEC4AqE%2FP%2BLwCKGBqqqjDN2JHLFA%2BFQX7Kufpjln%2F3Zg8yLgRTLjBqqzJVrlaxWJkcJjBv5kJ3QJcfAmCY1mBwIA06ZuCQQ1Hs%2FQH933C1G1W5eBjpOk607A8k7z%2FVHpYjKbhhrLCA%3D%3D&X-Amz-Signature=e9e002a68bca2ff69571a0f35765f7aaec2daa7e74203211f643ab97999c5b0c",
+ "items": [
+  {
+   "comp": "MT52",
+   "entry": "src/indexMT52.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a4f902a-8c6a-484f-89f2-4d6630b77fb7.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG2G4RUSKQ%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T123617Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiRzBFAiBE0LYzSErhc4gy3LLDNbaOezCMR6%2F%2FmOLvLVLHcGeIQQIhAIIdWohKlTHD5DgKg248AlKWiZOYzwjZiaz%2FjRduHc%2BaKrAFCNX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgzo4Sb8e7eUeV%2B8A%2FgqhAU4jn1ri%2FFTP0u3FfnvufRflKohgS8uigcXH06gqN6K%2BgZqGZZlFFJzAME%2BKSlWp9fykVXZ5288tZhHXqWLe4G41aosGkKYx81XVHZzijro9aml%2B%2FWA1Jq47Ijd%2FhDBizc7K7IyGUOaq4wZclwYqH4TM49KIE9dtK%2FJHaPoLiJMfGFuQP5yVRI0xoST8mG25dNNBnTKCBQ6OYuVbgwOW3qJ7HtDPMz2NvlAMBi0OFMZsZf0AtlBj30JBzwc01edeue9aCHQlUxhwvKdzdhYQnBx0rb8kpFPpXHxTe6ViVWgqFvIDs%2BkEXHdzK4KDgP%2FAlyJW%2BT%2Fzindm%2BjTOoqxYUi%2BnpdbQyZfpH1KLt1vxOIoRH581EjAMIvmoZu%2BqXMhXzAYtg%2FATwd4BPhcAU5LPKQrLGD4wzRU32Hz7kULev%2BBGhBeSww%2Bpjed0ZP52z6o1TcCsoPq9%2FIYqjOIHL1DzuFQUC0m5HuT48FJczsIA%2Bj8TQvOI4Hem1v4XzqhDjXgFe7BOm3rOGWcBXYqqVsxfuonpwJPDLRmVsADbWhewtOrafKi3n1%2F3djxeFcS3W5YCKMmjd137h3ehpLu4Qkau973Bp4CSX9cO38krjqS8ZKo3G0PcY6JsKZdLCgZJ8I2Ct2Z2xpIi6CkleE1X5HqUEv3nBwtD5SXc3YwSZZPczgfwi%2FZsCPI1EjP0ccO99Ptt17lE5fDgxiSaEvgl6BNfW0tgqxXdS8q3IaqmqXLp2si97e9iMfq0waxUTpx51rNkPTZI9bwDaR3cFtfCuQJgQVZXNjDqFy%2F7iyZnSKmktqQ82qBEJ9ybDk9un0a%2BqFkv1r47rg%2FIjDdg14msOsVaxtxYQRTyzCSjv3WBjqQAWNcQVV%2FNDld5a5usRLJWAMWsHDMIprfj2%2BIV2iEH%2Fs8MvepuqSX3YBARuDT9ulaYilyIOIuNSK9nrRMIN8gwCLoz%2B9pJcmjVvnlwq0wioBl4M2u2eQVg1T%2BlqB%2F86v%2BZilMU3e4pcfDvVDkvzbju90LY2%2BLs3mOPEgLco9D6NKZonynAQOy34Ub2WN426YRLQ%3D%3D&X-Amz-Signature=34aec853004a5ca3759d0cb6f32d78115b11a918ca62052258cc4ab13024d291"
+  }
+ ]
+}
