@@ -1,7 +1,7 @@
 {
- "ts": "2026-10-26T12:19:13.787Z",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T12:20:17.840Z",
+ "current": "2138-ct51b-ct52-premium since 2026-10-26 12:20:17",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
  "done": [
@@ -63,13 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2430-ft37b-premium",
-   "title": "FT37 v2 Freysa: Feinschliff Schluss-Szene (Remotion/R3F, Premium)",
-   "result": "fertig",
-   "at": "2026-10-26T12:14:05.934Z"
-  },
-  "updated": "2026-10-26T12:14:05.934Z"
+  "state": "busy",
+  "job": "2138-ct51b-ct52-premium",
+  "title": "CT51 v2 Debitkarten-Sperre (Feinschliff) + CT52 Versicherung lehnt Anspruch ab (Remotion Premium, 2 x ca. 66 s)",
+  "job_since": "2026-10-26T12:20:17.822Z",
+  "timeout_min": 90,
+  "step": 0,
+  "steps": 4,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T12:20:17.822Z"
  }
 }
