@@ -1,15 +1,15 @@
 {
- "title": "MC43-MC50",
- "topic": "Billion-Dollar Things (8 Folgen)",
- "stage": "Fertig, wartet auf gemeinsamen Slot",
- "progress": 100,
- "note": "Alle 8 fertig + CDN: MC43, MC44, MC45, MC46, MC47, MC48, MC49, MC50. Keine MC-Jobs mehr in der Queue.",
- "next": "keins, Sprint fertig",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8192bb79-d4c3-4fd4-8156-171baf100d86.jpg",
- "preview_note": "MC49 final",
+ "title": "MC51-MC54",
+ "topic": "Know-how remakes (MC19 pattern)",
+ "stage": "Ton & Prüfung",
+ "progress": 95,
+ "note": "MC51 Pudding-Becher fertig, wartet auf Freigabe (Slot Mo 16:00). MC52 (4-Dollar-Rahmen) in Arbeit.",
+ "next": "MC52 Render, dann MC53, MC54",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0abfceca-c51d-4e8d-9e8e-6208b46bbecb.jpg",
+ "preview_note": "MC51 final",
  "slot": "",
  "error": false,
- "eta": "fertig",
- "updated": "2026-10-25T23:48:45Z",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8edd7298-1026-44bc-8c65-52d575905346.mp4"
+ "eta": "MC52 heute Nachmittag",
+ "updated": "2026-10-26T11:52:40Z",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/383cd147-b519-4cd2-be55-ed96db5e7434.mp4"
 }
