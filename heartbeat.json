@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T00:14:52.605Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T00:16:44.056Z",
+ "current": "2133-ct48-premium since 2026-10-26 00:16:44",
+ "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 0,
- "mem_free_pct": 81,
- "progress": null,
  "done": [
   "2132-ct47-premium",
   "2331-mc49-premium2",
@@ -68,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2132-ct47-premium",
-   "title": "CT47 · 401(k) Vesting: eine Woche zu frueh gekuendigt (Remotion Premium, 71 s)",
-   "result": "fertig",
-   "at": "2026-10-25T23:58:13.529Z"
-  },
-  "updated": "2026-10-25T23:58:13.529Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2133-ct48-premium",
+  "title": "CT48 · Echter 20er, Automat spuckt ihn aus (Remotion Premium, 69 s)",
+  "job_since": "2026-10-26T00:16:44.037Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T00:16:44.037Z"
+ }
 }
