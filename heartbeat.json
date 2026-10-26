@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T12:50:53.458Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T12:51:11.863Z",
+ "current": "2139-ct52b-ct53-ct54-premium since 2026-10-26 12:51:11",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2343-mc52c-mc53-premium",
   "2431-ft38-premium",
@@ -49,8 +44,7 @@
   "2250-mt46-premium",
   "2422-ft31-premium",
   "2323-mc45-premium",
-  "2240-mt45-premium",
-  "2322-mc44-premium2"
+  "2240-mt45-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2343-mc52c-mc53-premium",
-   "title": "MC52 v3 (Auktions-Nahaufnahme) + MC53 · 1943-Penny",
-   "result": "fertig",
-   "at": "2026-10-26T12:50:10.256Z"
-  },
-  "updated": "2026-10-26T12:50:10.256Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2139-ct52b-ct53-ct54-premium",
+  "title": "CT52 v2 Versicherung (Zaehler-Fix) + CT53 Geschenkkarten-Betrug + CT54 Payday-Kredit (Remotion Premium, 3 x ca. 65 s)",
+  "job_since": "2026-10-26T12:51:11.844Z",
+  "timeout_min": 90,
+  "step": 0,
+  "steps": 5,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T12:51:11.844Z"
+ }
 }
