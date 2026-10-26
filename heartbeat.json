@@ -1,9 +1,9 @@
 {
- "ts": "2026-10-26T16:54:53.691Z",
+ "ts": "2026-10-26T16:56:53.701Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 57,
+ "free_gb": 56,
  "blender_procs": 0,
  "cpu": 5,
  "gpu": 0,
