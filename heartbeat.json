@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-26T13:12:53.397Z",
- "source": "dashboard",
- "current": "2293-mt53-premium since 2026-10-26 13:09:24",
+ "ts": "2026-10-26T13:14:34.696Z",
+ "current": "2344-mc54-premium since 2026-10-26 13:14:34",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 95,
- "mem_free_pct": 52,
- "progress": null,
  "done": [
+  "2293-mt53-premium",
   "2432-ft39-premium",
   "2292-mt52-premium",
   "2139-ct52b-ct53-ct54-premium",
@@ -48,8 +44,7 @@
   "2130-ct45-premium",
   "2423-ft32-premium",
   "2325-mc45-premium2",
-  "2324-mc46-premium",
-  "2250-mt46-premium"
+  "2324-mc46-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2293-mt53-premium",
-  "title": "MT53 · Echo schickt jede Anfrage in die Cloud + Datenschutz-Fix (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-26T13:09:24.566Z",
-  "timeout_min": 75,
+  "job": "2344-mc54-premium",
+  "title": "MC54 · 1-Cent-Briefmarke (9,48 Mio.)",
+  "job_since": "2026-10-26T13:14:34.673Z",
+  "timeout_min": 45,
   "step": 0,
-  "steps": 3,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-26T13:09:24.566Z"
- },
- "queue": [
-  "2344-mc54-premium"
- ]
+  "updated": "2026-10-26T13:14:34.673Z"
+ }
 }
