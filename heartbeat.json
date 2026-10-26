@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-26T12:12:53.377Z",
+ "ts": "2026-10-26T12:14:53.408Z",
  "source": "dashboard",
- "current": "2430-ft37b-premium since 2026-10-26 12:10:19",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 95,
- "mem_free_pct": 56,
+ "cpu": 4,
+ "gpu": 0,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
+  "2430-ft37b-premium",
   "2341-mc52-premium",
   "2429-ft37-premium",
   "2291-mt51-premium",
@@ -68,16 +69,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2430-ft37b-premium",
-  "title": "FT37 v2 Freysa: Feinschliff Schluss-Szene (Remotion/R3F, Premium)",
-  "job_since": "2026-10-26T12:10:19.784Z",
-  "timeout_min": 90,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-26T12:10:19.784Z"
+  "state": "idle",
+  "last": {
+   "job": "2430-ft37b-premium",
+   "title": "FT37 v2 Freysa: Feinschliff Schluss-Szene (Remotion/R3F, Premium)",
+   "result": "fertig",
+   "at": "2026-10-26T12:14:05.934Z"
+  },
+  "updated": "2026-10-26T12:14:05.934Z"
  },
  "queue": []
 }
