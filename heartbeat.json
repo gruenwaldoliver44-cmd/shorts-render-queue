@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-26T12:10:19.802Z",
+ "ts": "2026-10-26T12:10:53.361Z",
+ "source": "dashboard",
  "current": "2430-ft37b-premium since 2026-10-26 12:10:19",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
+ "cpu": 40,
+ "gpu": 94,
+ "mem_free_pct": 55,
+ "progress": null,
  "done": [
   "2341-mc52-premium",
   "2429-ft37-premium",
@@ -73,5 +78,6 @@
   "label": "Startet",
   "progress": null,
   "updated": "2026-10-26T12:10:19.784Z"
- }
+ },
+ "queue": []
 }
