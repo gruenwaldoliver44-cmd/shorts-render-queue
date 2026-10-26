@@ -1,0 +1,26 @@
+{
+ "id": "2431-ft38-premium",
+ "type": "remotion",
+ "title": "FT38 KI-Shopping-App, die Menschen war (Remotion/R3F, Premium)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a922e8c2-190a-4a57-908e-83b3e27882f9.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 90,
+ "expires": "2026-10-30T21:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4b25d358-baca-4230-a523-b29ac75cb522.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG3UK7IRUY%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T123053Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiRzBFAiBpyWThZSdikjF0x7PI1Xw974Cpy7LyxPL6bZjOUoqUdgIhAImZLrgK8cbMa6itdDD%2FqF8cKJSsxN88F%2FmLXUmWzaPHKrAFCNX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgysXufNF3Fb9rc5xOUqhAWRE6T1TGr3LQD%2FGhzh5Bq9%2FTtrWILl5PhyprQjcIgmxSa8I5HLNnXcm5QPt0lPZn20qaJKPp%2B40pKBwnJk2%2FW6fxzC2zG13aeCnG%2FRU8LJy1A7MWMWTCUcOOzSSL4hkcK1GTvU0zIeyCkzyFzjsWTUq3MuBN4RG7CFgysykHBrvbmgmVkHxMKXrYypPrT%2FzpFtmmDG2PQS8o6ITKCsyn0J3QgnLMLfn0gDw5ZxhszuRww6UkYX1h9jFKkPviiLSG6oqO70feQGNcik46WxN1vKawWLGDW48rbd9z8rRfdcJJn6A52oeGbLeKebzxkkzt%2BWk%2Faz%2BsitBJSYe%2Bi10wi4NaNm4CmphwD5e%2BkTcGOONhuyOiYnHc%2FnyZqKnFQl29xWx4MxzZJSJDSmwKU1LOMzupIl4Om%2BMYjehSZu88jbEFImZp5R7OiWAztoodClYV%2BdDwhH%2BW6mcSSO4JQ7AQjOQoFjaj7OqbFoNIbrTB6Rd%2BPbcGrwudiwkpmybtz72QjVqw1xjJESm%2B6I4MrJgGGmDgtOaUZlnb8JVXIcxrQzrn9e5n1AfvaSnx94xFH%2FUUGu9tnyUczo5jsa3qyYm3lSlJyobI1QH1RCbxfN%2FCIWExziUlOH%2FDWah9cugn6Q70Ilv6Ct7chaWZfRoDNZ1kY%2FSzotdff7sm4RmdiDESFGTfB4hRfg6K6C%2BKo%2BsHlEdurHJdEMflxKKe9JQS0gKG6WSdSKuzLmnKRy%2FDWz0o8u26E%2FU%2Fie49CEqXXlNIAEpgp3JMZO2KdK38ZiBTGwqCT9WRtJWIKwyQHtx1T%2Bx7873atMbLRvqQNrQ3Aia%2BgL3mkUtHrqy5F5NfQ4t6rUxzUUZd9NcTC7jv3WBjqQAVcU8e8vpo98VUFYFwTsKhbSOjixVewFGpWiUs20upg8YnPJpMcv3u2mFyJQ8sp4Ol45RDMnU3rjzyrbLHYw1KwU0NSue%2Bpf%2BG%2B60iNgfQgBneodrE%2Be51MGm%2BwDYnrFrWNzmf%2Bbf2BaUFtlss2%2BqLRG7nFELXBKwC36NE7otPi3TGwvSkCjohG76Qm86iE2lA%3D%3D&X-Amz-Signature=d725eba19aed731efd5c2f9063650f036d51923d59aea188a661cea2eb4da994",
+ "items": [
+  {
+   "comp": "FT38",
+   "entry": "src/indexFT38.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/83db0580-ecb0-4442-93d0-9fe6227ce695.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGTHDVSGFO%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T123053Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAwaCmV1LW5vcnRoLTEiSDBGAiEAhPxRLqBy0hpcmx1JiGK6r3p2izLMDmTOc50wl0ufabgCIQD1jQTqX%2BLHwrybpkplm2HXtANPhYWgXaY60uHa1DejYCqwBQjV%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMpu1cd6prxk%2FHDt4mKoQFG6Fw4hRYR4OoOOsnN%2B4GUm%2FuIYfZ9Veg3ePaOmG3eaXhDteNAbWHOs%2BXvc%2Frdlw%2FQ%2BAvP3P3GEvmSw1AoOsznTIjjmsK8WLyiG0wRJGNCPQVvmfx62fG48alkCOzWN%2FEILo%2FY6c7QM6fjda2mb3bx2YbxaU%2F%2FRRIkaCx0L1tO4hwdCGLTKHn6epZWNSTbnFukGhcFAjLB6SP6MAUiO98BeZhVfMOYZoy82Ys%2FHrsANL2n36c4bRh5W3WJvlpniHHVKUF3C2k8tkhZZ6xPa9pb5zEGdr6j25KHyE0Z0CVyV4LjN0Bt0oCrtU2r6XiTIeaJRkXxO5KEaDBCfDyCDsYEG7T8PNDhGcC6as7Bw84%2FX6O7coKvyZoseEC8T57o%2F%2F85Rw5g8Q9iwgqM20QF%2FUe6G2fnDGcJGfub8H6ZNqMOSHxmrDYAX5nMpxopCtdSl6a1BZ%2BMSVIQNhedBSU4FZ1hRK3EopAuxWOWYXPanSxpvhD3M0huQ%2BFo3A37GKYvwYvnfKNkZhXR4LgyZyG0xnh2QnxyjqZ0WUnKMz%2FJDNJ0N9vQz6xB4OjVyvOSCwaeTL%2Fx1SaqXuAOZrwFZ4atbeYBuj0zSqO0K1St5k%2B2jC3x2%2FRsdUpNIQyaHVibl2WIfBPcmenB%2BsT5gpgESUyS2SNi%2FpD7BqA524a3N38X3EcB0%2FGDQIgg%2BHK7vmj88EsBMIqf41VLt3ieOkFqOO7Tfu2J%2Fa6PxQMP177IWtS3wlgjesfE2LgpUH0KiKHdAyKcrBivUp%2BbjYXOwyopFj7jgYW8ZtfVc9pb%2BRMucy0CYaBRVqUFKHkP%2Bf7CdRI7u7RJld95L2mkGpRu7c0oR0DjqAgf%2B4L9yAw5Y791gY6jwH57ouISF2wJpS62UETiZHKmNs4dU%2BHa3JWNUK5Tmj%2BmV96xV4KMSbDbXqu9v3oefBqZL%2Fj%2Bt4Y3tOJBcjSs4qajyw76jAoCU92hhThdsrcWEPEL77aCXIOxZ7gF8Q79mpppbNw2%2Bm4D23og0l%2BMgtFdjYHGbXVbonXLETY81YpTpYz1bAhsJRQupfdN%2Bh82Q%3D%3D&X-Amz-Signature=f09bdcf4fc33c5a8175e29fdeddde5d345d7cbd86a630d6672aeddc66f1443e0"
+  }
+ ]
+}
