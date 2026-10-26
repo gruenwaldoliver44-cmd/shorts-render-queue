@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-26T04:42:52.844Z",
+ "ts": "2026-10-26T04:44:52.799Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 21,
  "gpu": 0,
- "mem_free_pct": 78,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
   "2136-ct50b-premium",
