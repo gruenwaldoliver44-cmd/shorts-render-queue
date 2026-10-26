@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T13:02:53.420Z",
+ "ts": "2026-10-26T13:04:53.381Z",
  "source": "dashboard",
  "current": "2292-mt52-premium since 2026-10-26 13:00:08",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 37,
- "gpu": 94,
- "mem_free_pct": 52,
+ "cpu": 13,
+ "gpu": 0,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
   "2139-ct52b-ct53-ct54-premium",
