@@ -1,15 +1,15 @@
 {
- "title": "CT52-CT54",
- "stage": "Rendern",
- "note": "CT51 fertig (wartet auf Freigabe). CT52 v2 + CT53 + CT54: Mac rendert",
+ "title": "CT51-CT54",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe: CT51-CT54 fertig",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T12:50:00Z",
- "eta": "CT52 Di 27 Okt 16:00, CT53 Mi 28 Okt 16:00, CT54 Do 29 Okt 16:00",
- "topic": "CT52 Versicherung lehnt ab, CT53 Geschenkkarten-Betrug, CT54 Payday-Kredit",
- "progress": 85,
- "next": "Ton & Pruefung CT52-CT54",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/1d3e12be-2b0c-42f5-b62c-fb68385c785d.jpg",
- "preview_note": "CT51 Debitkarten-Sperre · 65,0 s · -14 LUFS",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3df5aac6-f4bb-4770-861e-d482966c359d.mp4"
+ "updated": "2026-10-26T13:12:00Z",
+ "eta": "CT51 Mo 26 Okt 16:00, CT52 Di 27 Okt 16:00, CT53 Mi 28 Okt 16:00, CT54 Do 29 Okt 16:00",
+ "topic": "CT51 Debit-Sperre, CT52 Versicherung, CT53 Geschenkkarte, CT54 Payday-Kredit",
+ "progress": 95,
+ "next": "keine (Auftrag CT51-CT54 erledigt)",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ad13fde8-06e1-4467-afd5-22b408e07a07.jpg",
+ "preview_note": "CT54 Payday · 64,4 s · -14 LUFS (CT52/CT53 siehe posting.md)",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/16854d28-9b49-4cb8-9e90-95138e6b43e0.mp4"
 }
