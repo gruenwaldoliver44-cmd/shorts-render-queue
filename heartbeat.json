@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T12:22:53.369Z",
+ "ts": "2026-10-26T12:24:53.384Z",
  "source": "dashboard",
  "current": "2138-ct51b-ct52-premium since 2026-10-26 12:20:17",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 0,
- "mem_free_pct": 79,
+ "cpu": 33,
+ "gpu": 95,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
   "2430-ft37b-premium",
