@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T12:26:53.419Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T12:28:13.920Z",
+ "current": "2342-mc52-premium2 since 2026-10-26 12:28:13",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2138-ct51b-ct52-premium",
   "2430-ft37b-premium",
@@ -49,8 +44,7 @@
   "2240-mt45-premium",
   "2322-mc44-premium2",
   "2231-mt44-premium-v2",
-  "2121-ct44-premium",
-  "2321-mc44-premium"
+  "2121-ct44-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2138-ct51b-ct52-premium",
-   "title": "CT51 v2 Debitkarten-Sperre (Feinschliff) + CT52 Versicherung lehnt Anspruch ab (Remotion Premium, 2 x ca. 66 s)",
-   "result": "fertig",
-   "at": "2026-10-26T12:26:10.542Z"
-  },
-  "updated": "2026-10-26T12:26:10.542Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2342-mc52-premium2",
+  "title": "MC52 v2 · 4-Dollar-Rahmen (Auktionskamera-Fix)",
+  "job_since": "2026-10-26T12:28:13.901Z",
+  "timeout_min": 45,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T12:28:13.901Z"
+ }
 }
