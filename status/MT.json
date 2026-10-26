@@ -1,15 +1,15 @@
 {
  "title": "MT51",
- "stage": "Rendern (Mac)",
- "note": "Smart-TV v2 (ACR) Premium-Render laeuft",
+ "stage": "Ton & Prüfung",
+ "note": "wartet auf Freigabe",
  "slot": "Mo 26.10. 16:00",
  "error": false,
- "updated": "2026-10-26T11:50:00Z",
- "eta": "14:30",
+ "updated": "2026-10-26T12:02:00Z",
+ "eta": "fertig",
  "topic": "Smart-TV scannt den Bildschirm (ACR) + Fix",
- "progress": 70,
- "next": "Ton muxen, QC, Upload",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49b50691-3716-4bb1-81c0-59894e0e922c.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8ca1841a-abe6-4073-a3ef-0c137204a86c.mp4",
- "preview_note": "MT50 final"
+ "progress": 95,
+ "next": "MT52 Geschirrspueler Eco vs Kurz (Di 16:00)",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9cb62aaf-de22-49c5-ac69-0f02c205982d.jpg",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b25cd9fc-8757-4e1e-a6f2-f6418920ac30.mp4",
+ "preview_note": "MT51 final"
 }
