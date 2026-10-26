@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-26T13:04:53.381Z",
- "source": "dashboard",
- "current": "2292-mt52-premium since 2026-10-26 13:00:08",
+ "ts": "2026-10-26T13:05:23.704Z",
+ "current": "2432-ft39-premium since 2026-10-26 13:05:23",
  "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
+  "2292-mt52-premium",
   "2139-ct52b-ct53-ct54-premium",
   "2343-mc52c-mc53-premium",
   "2431-ft38-premium",
@@ -48,8 +44,7 @@
   "2325-mc45-premium2",
   "2324-mc46-premium",
   "2250-mt46-premium",
-  "2422-ft31-premium",
-  "2323-mc45-premium"
+  "2422-ft31-premium"
  ],
  "failed": [
   "2315-mc43-stills",
@@ -69,17 +64,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2292-mt52-premium",
-  "title": "MT52 · Geschirrspueler: 4-Stunden-Eco billiger als 1-Stunden-Kurzprogramm (Remotion/R3F, Premium-Render)",
-  "job_since": "2026-10-26T13:00:08.011Z",
-  "timeout_min": 75,
+  "job": "2432-ft39-premium",
+  "title": "FT39 Fake-Brad-Pitt, KI-Fotos, 830.000 Euro (Remotion/R3F, Premium)",
+  "job_since": "2026-10-26T13:05:23.681Z",
+  "timeout_min": 90,
   "step": 0,
-  "steps": 3,
+  "steps": 1,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-26T13:00:08.011Z"
- },
- "queue": [
-  "2432-ft39-premium"
- ]
+  "updated": "2026-10-26T13:05:23.681Z"
+ }
 }
