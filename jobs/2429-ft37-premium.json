@@ -1,0 +1,26 @@
+{
+ "id": "2429-ft37-premium",
+ "type": "remotion",
+ "title": "FT37 Freysa v2: KI-Agent gibt 47.000 Dollar her (Remotion/R3F, Premium)",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8828b539-a4c9-4bc6-b002-e196de0670ef.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 90,
+ "expires": "2026-10-30T21:00:00Z",
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d059f33c-f5c9-4bf1-91bd-764ac0f8cb08.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG5JDDYN7D%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T113820Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCmV1LW5vcnRoLTEiRzBFAiBxYgCd8YPBapyNIQrbl5qXU7PpFLt7BuMmNF7VKY6WHAIhAOIpmmF%2FmYoYf3%2F5tXyDR%2BNSAUX93qK9iBL00fLvyS%2FeKrAFCND%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgz%2B4Kvqn%2B5uBZdtrCUqhAWwR1qAS0uw9%2BX92vFBVjB4gNcU1r44mjw10D1XYKu3XQJQDxcTddjjlGwM9tsZmqO8aTRt%2BJ8pRIc%2FA8UGemR%2FQqMWGZUZbtJzKCW8Kio81Ju65sa4MqOzn5Dosgh%2FDhWwdyo%2BKVgAWrxJFaoAUlxtKsrpeiFrt7GXGWS%2BILq0NxWDj3q2Btxkaepovq4GhsCNHtibLWxKf8PcGt9QKb7HK6AYCGJCBS%2FIJQGux4W9cg2fRzdi2BlviYQU1iQgkSc%2BvANAeG9TK%2BfqvvwRBFtJmafqv7%2FII921iVGyZ%2Fkyt%2F4ADYAiD2yiFpZMVFQ9q8ELRO6NoBlKfbiTEeNAy8U%2FJSWWsOo3TzqDBw9DPQLc%2FHAmK%2BuBeXUoAdqR3yoUVsAKZfwzEQbeu64P37VwjAzMj4k%2FEgFsb3alZUr8G3%2B2uN3HISZlLoN1ttAyS%2BRVbMj9KHQKSrnUyqibj5gfS54pk9Y5CyIdAHd4zdV22zzjVNtIx%2BF0nkiBJhJCZ9Ue5e5LBtxhNJtNNpmTbTxyh9cUtlhHgxB0JYRuXR5K2aRMrct2qsdYcfkMmQ86QMsFaG6F7jbKZnMBEdB2Ku%2FgG501wEn1p%2FskY%2B9qoS8pzEUo5wrswa6s7qi9uYwQvBS0ZvfYsXtakF7b7tMgTSpaB8lXNGlk1cLQI3eXtUJFM8x0%2FVUcirUjDX%2BX6HHPIvQ2JlQP1EeedR3tOmaThfiF0UhcNq%2FcjrSRN0vGd2z4iQXgV6bcMkqbulem%2FsyOVI9ZfbamwnXTvZPVVx3xnT4dzL0c98xe%2BjO5m890iyGNH2ZQ4XTnOidwsL1WPhbrIR%2FEGhHJ4TxzMxsqUGYDuaZ6Q2R1Dk5afzCn9%2FvWBjqQATN2VTe%2F%2FFRS3BSYWnTSiSQVnTNFh9uz%2FcuESDwBOK7MZULSEvPpKSdK12yG3vEHMqvLwfLHiBvrrox%2BaHLmgqQopjJElf2WYmhRgEnNf8NZPnehKsFQjDWo92A%2FtbFxxeff4jhp0W8yHu1W1vlhkf0rUPI2D0ehyhMyOFqNOB3kVrRVNqvmg%2F%2B1cpZpHc5nJg%3D%3D&X-Amz-Signature=c9076fb4d507249bde1cf31cd455ad80c872616d94d27195aa98cabab42c2ef0",
+ "items": [
+  {
+   "comp": "FT37",
+   "entry": "src/indexFT37.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a7aeb859-2df2-4fa2-b0e8-72bafb76f7e0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGTLJK6L3K%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T113820Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAcaCmV1LW5vcnRoLTEiSDBGAiEAx3WoayhPjry%2FIpyUwr5HV%2FQyZYfid1CdtUMstZPIaPECIQDvQx1quCOFXy7CaF4BPx7oL%2B8Plqj6ijRYEX%2B0WZARwyqwBQjQ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIMuR3%2FNxZFV68ZV7fuKoQFZLnpUMVgIajGF8lT7eWC2UD0KA01uvKw0XpszWMrpJE6dE9kV7g1rLHlp0k%2BIu3iD0gBXFuqTzLDNwjsuA6SXWj%2BnxmkjKriQGAcFPxdJyCRAFKpVxprtn4cavY1Ehmw%2FA5KMvQ412H7hMn6XI45MkSZVxDWYiGmGnYVkVxRr6YXT71YMvnq%2B9aKdhMjOibW0e2Dw%2BbvS%2Bc%2Bxc0mj1hhVuu%2F3GgPLkXUiuI2mDLRfbwb0%2BmVMuH4gfI7MutjU%2F3aqWuNXtKWC2oJ9PzfNw8kM2JDqhUTN9CAKyUqK5QQuKBtT69NmlUHs1d7dD%2BdKMNHvTPRGA88dC%2FjHS%2BZRkhFu9ON5HtRXyzii9hZ8IYQV60NJjQOEN0M8BEJJtR%2F7EJOAIpbyl8sAiT%2BYUNWGLkMxinK7QZalIyJo4qquFegNQyK86VgbqSeXhiAJTyh9q0r%2B6XnQIkaJ3xOidlEB1WrX0Tm4wT%2B%2Bl9KL2eWn22XsxZFyDL1t2QWrYsj3ykFpHMVdfkCi1mAW7UdgBc2wNPDyZ%2FLwhXlqFRiPsYi760nwcExE7btkIkaPdJ4hli0Fg%2B1ngaLAS9iUbGU85GUZ%2F%2Bdrz5xg5MKiqKJBdsf%2FeR9h5iAo%2BVPbT9TrwFrgWi0GYV8ctpThIX4mkuVTZwAdrS2swlbS9idCvY4UX5rBR3qdLCoE4Oal72E2cg7YQi%2FJ%2BxxPVfB6Zv25i4MMTduclLqHJICAnBhtG27F%2F3dlX%2F7RRLF%2F6HAjIpy84%2BVEy4YepxrN41npDjxLjmQ712WNEIs39yUuVwpCDjg86b0rpVcbs9pSJ2Z18GmCyrIP6XVAUWMve0Mp2XEgeOsi48kwRwlY5rJnaEwgvX71gY6jwFo27d0%2BGij5hEh0Ub1X2AFfaRraCcFPgGO%2BoD3W%2BDQziZAjeS2hIJDTIVzZcIgFvArW77JGu8iZzbAYcMYb5yjEqGT3b5fWFE7Cl%2BrJFOSACHyYDO205rbuxXt83exR8SkfsI78wVUSKKhVxpiPPcMnLHVvCJmQLtTXJ%2BeIg%2Fbg2JdzYSXoDcR%2BzHidCmWsA%3D%3D&X-Amz-Signature=609003a6e917b03315fb8cadb08efd41b1e6143ebe598c9c10b60844e17ef752"
+  }
+ ]
+}
