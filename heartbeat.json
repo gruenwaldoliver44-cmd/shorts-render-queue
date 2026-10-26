@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T00:10:52.614Z",
+ "ts": "2026-10-26T00:12:52.610Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 15,
+ "cpu": 16,
  "gpu": 0,
- "mem_free_pct": 80,
+ "mem_free_pct": 82,
  "progress": null,
  "done": [
   "2132-ct47-premium",
