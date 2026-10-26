@@ -1,15 +1,15 @@
 {
- "title": "CT47",
+ "title": "CT48",
  "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe",
+ "note": "wartet auf Freigabe (CT47 + CT48)",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T00:17:18Z",
- "eta": "CT47 bereit fuer Di 27 Okt 22:55; CT48 rendert (Mi 10:55)",
- "topic": "401(k) Vesting: eine Woche zu frueh gekuendigt",
+ "updated": "2026-10-26T00:48:22Z",
+ "eta": "CT47 bereit fuer Di 27 Okt 22:55, CT48 bereit fuer Mi 28 Okt 10:55; CT49+CT50 rendern",
+ "topic": "Echter 20er, Automat spuckt ihn aus (CT47 401(k)-Vesting ebenfalls fertig)",
  "progress": 95,
- "next": "CT48 Geldschein-Pruefer, dann CT49 Haendler-Zinsaufschlag",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/bb27769e-c016-4ee1-bf19-e66c5ca3e7d3.jpg",
- "preview_note": "CT47 401(k) Vesting · 70,8 s · -14 LUFS · alles bewegt",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49ab4b13-2319-431b-a5d8-05bcab7b4bc7.mp4"
+ "next": "CT49 Haendler-Zinsaufschlag, CT50 Arztrechnung ueber Kostenvoranschlag",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/765d7274-f16f-4a3a-9cb2-02c972bfa811.jpg",
+ "preview_note": "CT48 Geldschein-Pruefer · 69,2 s · -14 LUFS. CT47 (70,8 s) Video: https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49ab4b13-2319-431b-a5d8-05bcab7b4bc7.mp4",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a69a1b19-67d6-42d9-9d0c-4bea9e8ed6ed.mp4"
 }
