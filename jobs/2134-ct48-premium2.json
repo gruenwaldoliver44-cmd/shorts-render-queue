@@ -1,0 +1,25 @@
+{
+ "id": "2134-ct48-premium2",
+ "title": "CT48 v2 \u00b7 Geldschein-Pruefer, dunklere Walzen (Remotion Premium, 69 s)",
+ "type": "remotion",
+ "zip": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b553a750-6db5-416c-aba9-7f0705533365.zip",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 60,
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/25e4d212-00be-4718-854b-36cd6cd43d9b.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG3XH755WV%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T003634Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiEA1ehlVdXU5m77zp9rz7gpVXaRU9s9gwfQxXjTAcnsXR4CICFeXw9Y9MXWd8tDFGap1rwjiD7vGh1yKf7MT5wtG8E4KrAFCMT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwZ0DOo7JHfpD%2BVUWkqhAVQCxX3y%2BT8ul3hhRfK5Mzfbi9FfkIAZA4z3XmvPDKIrV%2FY9CU9o9V8KwTzxs0AWqzD%2B7iGuEqaN0BCJ3HtcBR82gIhEA6CljSsxXcguZCQetUxXDj8m7pMUYj6DTdDZL4TxdQgK712sFM2nEhJndIv0e95fI%2BKRyOvWmWUu1ibfTkIjr%2FQlNITKGqdvfA%2B0Ee%2F5LhY0WMilvMg07Mz%2F%2BMKErseTSsNDx6OKGyxEtrdvEmxR9K52CXxAb69LbWpziyC5aVmCK0FVNlzJetUIL%2B%2B7Er2KFfHQoKJSkZt5ZQMLmdgBA5tlflJ7rBMMSGIGXg2XFWjjhPJE%2BxyKCTorWpE0ymdP8LNATy3cwof7QobIIKyRuvTM1MHuynMpkdhOqy%2B63PlM51KsR4XYrfSfPYnucu10VkedaIOw7cJlKaMQQ2dd%2BXgKp4octFdX5sy3FUf9wIpmqi4euoHuq0JSzO4O9xgMy5CsbQTDwSsvbnqpvmOAycgTiTW6YXQFszWY8UCZVqNBT2i5En2NOJ0i5R%2FnwU%2BwpIlYszcn1YXtag7X%2BOAGfuOcWMKsZLDrYxw4Q2OZQ%2B1a7Tg7bzYpEbysPqfT%2BOaYyIME9WizmruR1hPLcF30aQzzA8Bt%2BjLdkMpBrLouxRS6gaRJqUn2IQxyTYeHNA7brKbXgzEFUH7qFviAU6oRv9bT6Y9nXa9OPbaE1K2%2B59aS%2FYHVBY1xoprQ%2F4nzl82iQtaw3wjEnOwj7k%2BY63ipM4lOXqhB7nwwjEVqDcGObFx8CPLIHmxGXCAd7lWzNf7Wx1GaiJkWFYIkhMpF%2FP%2Fa9vom0uu8Uu9IGvbz%2BIxsC70Av0z%2BngLsDgqQYxSr0q4cjC5uvnWBjqQARnvM6SZeloQSPO9PPZtrOsEmBfEeTjh0d29eDd6hw5fElN8vOJoLtLiqRvBrkPkbDYVnzozeFrK86MttxVYc9nvwyl6QMvU%2F4w4Di1z0uFOLAA82Ao1a%2FVG5Iu4OUgoSOWL6snNFtFSg4DYNtzzOJZsONuRa55C7j1HxNrUK%2FQB%2Ft9thyQKkbNoiesxToz3NA%3D%3D&X-Amz-Signature=2410f7ecff340add08dbeb87ea98a64949113548f6c7d17a1a77afdf43d6d9c1",
+ "items": [
+  {
+   "comp": "CT48",
+   "entry": "src/indexCT48.ts",
+   "props": {
+    "premium": true,
+    "premiumSamples": 1,
+    "premiumFx": "shadow,ao,smaa"
+   },
+   "scale": 1.5,
+   "concurrency": 3,
+   "gl": "angle",
+   "upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/2e40234b-a887-432e-b4f2-7016acd7f1cc.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZXEN6G4G%2F20261026%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261026T003633Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRzBFAiAx%2FzyrGIWPZLHMFFweTpTFTlsP26qQc9P9IPAtZiLrbAIhAPMWsyH09eYRjwscm4couKuwUgw6kMbbVceav93u4X6HKrAFCMX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMNTgyODgxNzMwNzAxIgwItFxqQVjEENXYUFUqhAUF%2Bl0ERyw7pnCt%2FFceiVTErYbOwMduRmmsQw83OyE9Foi%2FzOzWiNlmTG66%2BxEql75qd7lFJCkZAEX1MaIzv2nbn%2FIUJHCAnNUKLM0tNJBYtlQ5ueoKJ9MOtXwRGj4Uo3P%2FvE%2BQzHqzIKPS7LMkV2plEmRfop71qeSpBUJlOzEJ6FXzm%2F5HEBzsNgJYJygHVOXBnpvLQPlV%2B9IBdVNztBKSQ7C%2BnR68fckCeL6cLM%2B61Osz9rGFjlJkndPfn1JMSdAW77%2BK15IFNBfzY%2BGIkGJ4ieArCOxjau%2B1X7t2JIUK5jGW2yu6tP8qHN4YkG44KtH2ISCZwiojDw7Kzlss5Wbd3zyfO24W%2BWNO48uetiOBIrSUAlX0BpJyxaU6LfdaQykabm47lbcju%2BEu1zaw2YLVo6NvouhWJ33vNcFafDnbZWF8yShY9TPUlfbta%2BA0VsRME6AtmQ7mJdFo8xbpbob2MOJJdgU1cPtpG%2BbKSEAY1EF5bOsSZPOw5%2BhbFOYk186q38ag5j%2BkcK3H4MUaPxeDBUXIww0ECt2BZa8zN7ZfybERnlgQNdeIKw258kyUEcA%2BnPjgUGik86692Srdf3IK8brsgZ2YE0%2Bva5r5zWcQLrP9CLxO8G96HpSF6QIR3amNSPallYTEd2BvAXE3L6ocjhwpBgXmlPVD2uZVvghrk%2Bd3W2dXNGHibRMHk9cK3l3v%2FBw0lUes9kq8uTuv5lgsi3y0yVbtqMEMaduv4FeLxxhe13IjCyOMvC10qUwjv%2B3YMv6FwwoFdaosSq54suX9fpDbTql9GJHoN5cNIF7PB6b%2BVYebf14jk4GSfAajVGqKKbmBO5oOrQ3oGAU%2BZhiwXAvtrzCoyfnWBjqQAblz8moZv6%2BJDwTU4u3PxFl4KUVe99kj%2Bceqrl34xJl9sCzSvLFVPZKmF0jrdii6h4DafZEfhsl1M7DLYOvLjYLt8rT0u%2BTJzj1bjB7gK9WBxGGwCOtue94G8mSjYcmLatKUv7H2kQBvo4zUmrWy5%2FV%2BHWYbAMM4cUEq%2FGQ3QeXPnfxoZfW4RjwxjuTOfUbnLA%3D%3D&X-Amz-Signature=7d3947f00be7ab371ab9cf885af18aafbd9408a1fb5eb447e2afd58c2324f12b"
+  }
+ ]
+}
