@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T04:38:52.851Z",
- "source": "dashboard",
+ "ts": "2026-10-26T04:40:45.445Z",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 21,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2136-ct50b-premium",
   "2135-ct49-ct50-premium",
@@ -76,6 +71,5 @@
    "at": "2026-10-26T01:04:30.147Z"
   },
   "updated": "2026-10-26T01:04:30.147Z"
- },
- "queue": []
+ }
 }
