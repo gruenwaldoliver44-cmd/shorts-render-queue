@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-26T12:42:53.435Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-26T12:42:56.803Z",
+ "current": "2343-mc52c-mc53-premium since 2026-10-26 12:42:56",
+ "busy": true,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2431-ft38-premium",
   "2342-mc52-premium2",
@@ -68,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2431-ft38-premium",
-   "title": "FT38 KI-Shopping-App, die Menschen war (Remotion/R3F, Premium)",
-   "result": "fertig",
-   "at": "2026-10-26T12:35:44.040Z"
-  },
-  "updated": "2026-10-26T12:35:44.040Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2343-mc52c-mc53-premium",
+  "title": "MC52 v3 (Auktions-Nahaufnahme) + MC53 · 1943-Penny",
+  "job_since": "2026-10-26T12:42:56.784Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-26T12:42:56.784Z"
+ }
 }
