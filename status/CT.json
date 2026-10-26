@@ -1,15 +1,15 @@
 {
- "title": "CT48",
+ "title": "CT49",
  "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe (CT47 + CT48)",
+ "note": "wartet auf Freigabe (CT47, CT48, CT49)",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T00:48:22Z",
- "eta": "CT47 bereit fuer Di 27 Okt 22:55, CT48 bereit fuer Mi 28 Okt 10:55; CT49+CT50 rendern",
- "topic": "Echter 20er, Automat spuckt ihn aus (CT47 401(k)-Vesting ebenfalls fertig)",
- "progress": 95,
- "next": "CT49 Haendler-Zinsaufschlag, CT50 Arztrechnung ueber Kostenvoranschlag",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/765d7274-f16f-4a3a-9cb2-02c972bfa811.jpg",
- "preview_note": "CT48 Geldschein-Pruefer · 69,2 s · -14 LUFS. CT47 (70,8 s) Video: https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/49ab4b13-2319-431b-a5d8-05bcab7b4bc7.mp4",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a69a1b19-67d6-42d9-9d0c-4bea9e8ed6ed.mp4"
+ "updated": "2026-10-26T01:00:46Z",
+ "eta": "CT47 Di 27 Okt 22:55, CT48 Mi 28 Okt 10:55, CT49 Mi 28 Okt 22:55 bereit; CT50 rendert neu (Hook-Fix)",
+ "topic": "Autohaendler schlaegt 2 % auf deinen Kreditzins auf",
+ "progress": 96,
+ "next": "CT50 Arztrechnung ueber Kostenvoranschlag (v2 rendert)",
+ "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/043340f9-0d0d-4fd8-9b01-544441da3e37.jpg",
+ "preview_note": "CT49 Haendler-Zinsaufschlag · 65,7 s · -14 LUFS",
+ "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8fa91f14-2348-4b1a-a0d8-6f57987cc7da.mp4"
 }
