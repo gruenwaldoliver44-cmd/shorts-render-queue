@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-26T06:08:53.033Z",
+ "ts": "2026-10-26T06:10:53.059Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 20,
+ "cpu": 5,
  "gpu": 0,
- "mem_free_pct": 81,
+ "mem_free_pct": 84,
  "progress": null,
  "done": [
   "2136-ct50b-premium",
