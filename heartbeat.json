@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-29T22:47:01.909Z",
+ "ts": "2026-10-29T22:49:01.922Z",
  "source": "dashboard",
  "current": "2505-eevee-test since 2026-10-29 22:42:05",
  "busy": true,
  "free_gb": 67,
  "blender_procs": 1,
- "cpu": 29,
- "gpu": 97,
- "mem_free_pct": 42,
+ "cpu": 25,
+ "gpu": 91,
+ "mem_free_pct": 43,
  "progress": null,
  "done": [
   "2504-ct-bank390-v4",
