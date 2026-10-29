@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-29T23:25:01.935Z",
- "source": "dashboard",
+ "ts": "2026-10-29T23:26:24.973Z",
  "current": "",
  "busy": false,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 0,
- "mem_free_pct": 67,
- "progress": null,
  "done": [
   "2509-view-mt4",
   "2508-view-mt3",
@@ -78,6 +73,5 @@
    "at": "2026-10-29T23:21:16.006Z"
   },
   "updated": "2026-10-29T23:21:16.006Z"
- },
- "queue": []
+ }
 }
