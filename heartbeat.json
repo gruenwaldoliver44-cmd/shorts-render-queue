@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-29T19:45:01.163Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-29T19:46:34.885Z",
+ "current": "2503-ct-bank390-v3 since 2026-10-29 19:46:34",
+ "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 22,
- "gpu": 16,
- "mem_free_pct": 68,
- "progress": null,
  "done": [
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -70,14 +65,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2502-ct-bank390-v2",
-   "title": "CT · Bank verdient 390 $ (Blender, Metal)",
-   "result": "Fehler",
-   "at": "2026-10-29T19:44:29.998Z"
-  },
-  "updated": "2026-10-29T19:44:29.998Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2503-ct-bank390-v3",
+  "title": "CT · Bank verdient 390 $ (Blender, Metal)",
+  "job_since": "2026-10-29T19:46:34.861Z",
+  "timeout_min": 150,
+  "step": 0,
+  "steps": 5,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-29T19:46:34.861Z"
+ }
 }
