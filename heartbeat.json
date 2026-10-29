@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-29T23:03:01.885Z",
+ "ts": "2026-10-29T23:05:01.891Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 27,
- "gpu": 0,
- "mem_free_pct": 60,
+ "cpu": 23,
+ "gpu": 19,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2505-eevee-test",
