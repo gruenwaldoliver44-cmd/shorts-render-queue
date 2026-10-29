@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-29T19:57:01.449Z",
- "source": "dashboard",
- "current": "2503-ct-bank390-v3 since 2026-10-29 19:46:34",
+ "ts": "2026-10-29T19:58:07.857Z",
+ "current": "2504-ct-bank390-v4 since 2026-10-29 19:58:07",
  "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 72,
- "gpu": 87,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
+  "2503-ct-bank390-v3",
   "2344-mc54-premium",
   "2293-mt53-premium",
   "2432-ft39-premium",
@@ -48,8 +44,7 @@
   "2326-mc47-premium",
   "2260-mt47-premium",
   "2130-ct45-premium",
-  "2423-ft32-premium",
-  "2325-mc45-premium2"
+  "2423-ft32-premium"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -71,16 +66,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2503-ct-bank390-v3",
-  "title": "CT · Bank verdient 390 $ (Blender, Metal)",
-  "job_since": "2026-10-29T19:46:34.861Z",
-  "timeout_min": 150,
-  "step": 5,
+  "job": "2504-ct-bank390-v4",
+  "title": "CT · Bank 390 $ (Metal, 12 Samples)",
+  "job_since": "2026-10-29T19:58:07.837Z",
+  "timeout_min": 200,
+  "step": 0,
   "steps": 5,
-  "label": "Lade Ergebnisse hoch",
-  "step_since": "2026-10-29T19:56:58.967Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-29T19:56:58.967Z"
- },
- "queue": []
+  "updated": "2026-10-29T19:58:07.837Z"
+ }
 }
