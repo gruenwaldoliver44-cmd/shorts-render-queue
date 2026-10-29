@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-29T19:51:01.764Z",
+ "ts": "2026-10-29T19:53:01.358Z",
  "source": "dashboard",
  "current": "2503-ct-bank390-v3 since 2026-10-29 19:46:34",
  "busy": true,
  "free_gb": 66,
  "blender_procs": 1,
- "cpu": 72,
- "gpu": 88,
- "mem_free_pct": 41,
+ "cpu": 73,
+ "gpu": 89,
+ "mem_free_pct": 53,
  "progress": {
-  "n": 17,
+  "n": 27,
   "total": 999,
-  "eta_min": 251
+  "eta_min": 228
  },
  "done": [
   "2344-mc54-premium",
