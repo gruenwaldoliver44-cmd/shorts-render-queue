@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-29T23:13:01.896Z",
+ "ts": "2026-10-29T23:15:01.959Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 24,
- "mem_free_pct": 65,
+ "cpu": 35,
+ "gpu": 23,
+ "mem_free_pct": 62,
  "progress": null,
  "done": [
   "2506-view-mt1",
