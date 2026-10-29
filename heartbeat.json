@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-29T23:05:01.891Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-29T23:06:40.156Z",
+ "current": "2506-view-mt1 since 2026-10-29 23:06:40",
+ "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 23,
- "gpu": 19,
- "mem_free_pct": 64,
- "progress": null,
  "done": [
   "2505-eevee-test",
   "2504-ct-bank390-v4",
@@ -49,8 +44,7 @@
   "2424-ft33-premium",
   "2327-mc46-premium2",
   "2326-mc47-premium",
-  "2260-mt47-premium",
-  "2130-ct45-premium"
+  "2260-mt47-premium"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -71,14 +65,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2505-eevee-test",
-   "title": "Test · Eevee-Renderzeit (CT-Szene, 10 s)",
-   "result": "fertig",
-   "at": "2026-10-29T23:02:34.134Z"
-  },
-  "updated": "2026-10-29T23:02:34.134Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2506-view-mt1",
+  "title": "Ansicht · MT Teststills 1",
+  "job_since": "2026-10-29T23:06:40.136Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-29T23:06:40.136Z"
+ }
 }
