@@ -1,0 +1,16 @@
+{
+ "id": "2509-view-mt4",
+ "type": "shell",
+ "title": "Ansicht 2509-view-mt4",
+ "retries": 1,
+ "min_free_gb": 1,
+ "timeout_min": 5,
+ "expires": "2026-11-02T22:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Bild",
+   "run": "curl -fsSL -o v.jpg 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/2ba031d3-6b3b-4145-ac88-f612fdaebc89.jpg' && ls -la"
+  }
+ ],
+ "uploads": []
+}
