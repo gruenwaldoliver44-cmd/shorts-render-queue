@@ -1,0 +1,16 @@
+{
+ "id": "2510-view-mt5",
+ "type": "shell",
+ "title": "Ansicht 2510-view-mt5",
+ "retries": 1,
+ "min_free_gb": 1,
+ "timeout_min": 5,
+ "expires": "2026-11-02T22:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Bild",
+   "run": "curl -fsSL -o v.jpg 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3c72001b-a7de-4faa-b55f-939794675fda.jpg' && ls -la"
+  }
+ ],
+ "uploads": []
+}
