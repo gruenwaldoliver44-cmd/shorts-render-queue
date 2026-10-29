@@ -1,0 +1,43 @@
+{
+ "id": "2504-ct-bank390-v4",
+ "type": "shell",
+ "title": "CT \u00b7 Bank 390 $ (Metal, 12 Samples)",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 200,
+ "expires": "2026-10-30T19:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Szene",
+   "run": "curl -fsSL -o ctpack.zip 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4d4eb1bf-ef50-4fb8-99db-f2d675d7523c.zip' && rm -rf ct tex assets && unzip -oq ctpack.zip && ls ct"
+  },
+  {
+   "label": "Patch",
+   "run": "/Applications/Blender.app/Contents/MacOS/Blender -b --factory-startup --python-expr \"p='ct/scene.py'; s=open(p).read(); s=s.replace(\\\"; sc.view_settings.look = 'AgX - Medium High Contrast'\\\", '\\ntry: sc.view_settings.look = \\\"AgX - Medium High Contrast\\\"\\nexcept Exception as e: print(\\\"look skip\\\", e)'); open(p,'w').write(s); compile(s,p,'exec'); print('PATCHED')\" 2>&1 | grep PATCHED"
+  },
+  {
+   "label": "Patch2",
+   "run": "cat > fix2.py <<'EOF_FIX'\np='ct/render.py'; s=open(p).read()\na=\"    sc.render.image_settings.file_format = 'FFMPEG'\"\nassert a in s\ns=s.replace(a, \"    if hasattr(sc.render.image_settings, 'media_type'): sc.render.image_settings.media_type = 'VIDEO'\\n\"+a)\nb=\"    sc.render.ffmpeg.constant_rate_factor = 'PERC_LOSSLESS'; sc.render.ffmpeg.ffmpeg_preset = 'GOOD'\"\nassert b in s\ns=s.replace(b, \"    try:\\n        sc.render.ffmpeg.constant_rate_factor = 'PERC_LOSSLESS'; sc.render.ffmpeg.ffmpeg_preset = 'GOOD'\\n    except Exception as e: print('ff skip', e)\")\ncompile(s,p,'exec'); open(p,'w').write(s); print('PATCHED2')\nEOF_FIX\n/Applications/Blender.app/Contents/MacOS/Blender -b --factory-startup --python fix2.py 2>&1 | grep PATCHED2"
+  },
+  {
+   "label": "Baue 3D-Szene",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b -P ct/scene.py > build.log 2>&1; tail -5 build.log; grep -q 'SCENE OK' build.log"
+  },
+  {
+   "label": "Rendere 999 Frames (Metal GPU)",
+   "run": "rm -f out_*.mp4 out.mp4; CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/render.py -- mac $PWD/out_ 12 1 999 > render.log 2>&1; grep -E 'DEVICES|MAC RENDER DONE|Error' render.log | head -5; f=$(ls out_*.mp4 | head -1); test -n \"$f\" && mv \"$f\" out.mp4 && ls -la out.mp4",
+   "progress": {
+    "log": "render.log",
+    "total": 999
+   }
+  }
+ ],
+ "uploads": [
+  {
+   "file": "out.mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/eb9ccc4a-2e23-4939-a191-53dc4f2e9283.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGYV7LV6AI%2F20261029%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261029T194934Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFwaCmV1LW5vcnRoLTEiRzBFAiAUCod8Kl7XR%2B3tBq9J7FMNIGRA3g1oxTnjXPWwZ%2FhHnQIhAIsnE7BQwQmV%2F4c5j3wYKYnHUkrQMDAciP3NU90PUBVcKqcFCCQQABoMNTgyODgxNzMwNzAxIgxppzg0QoFXOteBtnIqhAXRs2ffDYPEUhM5D%2FRMz4nbCG743zgcce6LUNYJ7zDvDTkF8VGUskh5fM17RqQT26gKX3aFfzLNXg5b9k90U8hQ284ERiLGBI2ABqqNN7Y4r5SYdvS%2FJ7d%2FTr6eyLxoyyyhjhgiRSDsyLg3dj4t0Bh57ESxGk5SeuqYSI65%2F1d4wdLd2rAvip1RNoANjMB597MwiThLN4fmon4E0VvFB8pnhfcNzcyWBh9ycrt18XDopY168IDt6SFMwwgAD4Ba6x3gGoOhAeP5BmO9k0AVpQ%2BiJMJfS12h9iTy1W7Ox5M4721DVDHvtdV69bdMdHqKInARldSsVgECkgF7pgZnaHA44UOE7RjhPATNUrGQVK2FGSmcCjzrKXoVaGKDnxajZzapXYsQz5mYhwfUcboT2lhIuk5HpByG5BQv6keh7zlB0dKCSbHwKK9QToWP%2FJF%2FeXyYhhpMG6UQV6wxV4Zg98yIR0QGo8CVa%2FfYJSGoGXV2OYFkZV1McZwF%2BtfRCZVHlgWA0AgJtQ9yCZdhtK3MgRYTrV2S9LxFYOiECf5Fokax%2F6xqoD8VbQmmYgx%2FuT8Icey6iya4RtH5tohHV37yfS69QTZZNf52Pg%2BTDVwlS4%2F8akip61FVB8vF%2B5Mw3SkXlizCh6xEYEyE5mSBgggOiGKPSsPtpKd530Gcyj8B1gSD6R5Z%2BX4ARoLRE4W6WE8qr737HIFjKuYXVcg%2BTq8HNQnMc0tflApJlCPmrWBYtNZgW6TpTF%2FpUeq3cx4u%2F6yRr9R8bs%2BaDX3wu3zsNajHlhrCu6dq5eRs0sttqn%2FCo6xjgSRLSynHfa14nAFpoaXkKwZw6PK29eV3Runv0iMIIx%2BguvC2eDDAxI7XBjqQAXtz7dcETuVpEqtG9SbJgJkEskSNAuxwqdOkHzDMC0qlNo0QKG1TnOKsvh92iVVS%2FF1qIQdATgdsbuAx%2FCFAuDNahZ7oJTtBVDPASM2HX%2B189Xf%2BTezS%2Fuw4cQDaIHLbdo2%2F%2FgYDRm3v44EKvwbHupBK7wjpeGH77bmoFI0Y25gL8MGxEQUlJO2qcuTM%2B15d%2Fw%3D%3D&X-Amz-Signature=3f0c2476a2777e0d99cd96bdc3952fa50e6e0a4d6d58a7ed14749ec609e8884d",
+   "type": "video/mp4"
+  }
+ ],
+ "log_type": "application/octet-stream"
+}
