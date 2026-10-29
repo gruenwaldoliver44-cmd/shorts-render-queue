@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-29T19:43:01.173Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-29T19:43:10.645Z",
+ "current": "2501-ct-bank390-v1 since 2026-10-29 19:43:10",
+ "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 25,
- "gpu": 27,
- "mem_free_pct": 69,
- "progress": null,
  "done": [
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -68,14 +63,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2344-mc54-premium",
-   "title": "MC54 · 1-Cent-Briefmarke (9,48 Mio.)",
-   "result": "fertig",
-   "at": "2026-10-26T13:17:58.624Z"
-  },
-  "updated": "2026-10-26T13:17:58.624Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2501-ct-bank390-v1",
+  "title": "CT · Bank verdient 390 $ (Blender, Metal)",
+  "job_since": "2026-10-29T19:43:10.619Z",
+  "timeout_min": 150,
+  "step": 0,
+  "steps": 4,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-29T19:43:10.619Z"
+ }
 }
