@@ -1,19 +1,16 @@
 {
- "ts": "2026-10-29T22:27:01.911Z",
+ "ts": "2026-10-29T22:29:01.888Z",
  "source": "dashboard",
- "current": "2504-ct-bank390-v4 since 2026-10-29 19:58:07",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 67,
- "blender_procs": 1,
- "cpu": 53,
+ "blender_procs": 0,
+ "cpu": 16,
  "gpu": 0,
- "mem_free_pct": 55,
- "progress": {
-  "n": 997,
-  "total": 999,
-  "eta_min": 0
- },
+ "mem_free_pct": 64,
+ "progress": null,
  "done": [
+  "2504-ct-bank390-v4",
   "2503-ct-bank390-v3",
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -74,20 +71,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2504-ct-bank390-v4",
-  "title": "CT · Bank 390 $ (Metal, 12 Samples)",
-  "job_since": "2026-10-29T19:58:07.837Z",
-  "timeout_min": 200,
-  "step": 5,
-  "steps": 5,
-  "label": "Rendere 999 Frames (Metal GPU)",
-  "step_since": "2026-10-29T19:58:14.061Z",
-  "progress": {
-   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2504-ct-bank390-v4/render.log",
-   "total": 999
+  "state": "idle",
+  "last": {
+   "job": "2504-ct-bank390-v4",
+   "title": "CT · Bank 390 $ (Metal, 12 Samples)",
+   "result": "fertig",
+   "at": "2026-10-29T22:28:43.402Z"
   },
-  "updated": "2026-10-29T19:58:14.061Z"
+  "updated": "2026-10-29T22:28:43.402Z"
  },
  "queue": []
 }
