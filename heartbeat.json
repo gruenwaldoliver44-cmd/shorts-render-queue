@@ -1,18 +1,14 @@
 {
- "ts": "2026-10-29T19:55:01.734Z",
+ "ts": "2026-10-29T19:57:01.449Z",
  "source": "dashboard",
  "current": "2503-ct-bank390-v3 since 2026-10-29 19:46:34",
  "busy": true,
  "free_gb": 66,
- "blender_procs": 1,
- "cpu": 84,
- "gpu": 89,
- "mem_free_pct": 36,
- "progress": {
-  "n": 37,
-  "total": 999,
-  "eta_min": 217
- },
+ "blender_procs": 0,
+ "cpu": 72,
+ "gpu": 87,
+ "mem_free_pct": 56,
+ "progress": null,
  "done": [
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -81,13 +77,10 @@
   "timeout_min": 150,
   "step": 5,
   "steps": 5,
-  "label": "Rendere 999 Frames (Metal GPU)",
-  "step_since": "2026-10-29T19:46:40.475Z",
-  "progress": {
-   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2503-ct-bank390-v3/render.log",
-   "total": 999
-  },
-  "updated": "2026-10-29T19:46:40.475Z"
+  "label": "Lade Ergebnisse hoch",
+  "step_since": "2026-10-29T19:56:58.967Z",
+  "progress": null,
+  "updated": "2026-10-29T19:56:58.967Z"
  },
  "queue": []
 }
