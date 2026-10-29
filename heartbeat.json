@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-29T23:15:58.823Z",
- "current": "2507-view-mt2 since 2026-10-29 23:15:58",
+ "ts": "2026-10-29T23:16:01.197Z",
+ "current": "",
  "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
  "done": [
+  "2507-view-mt2",
   "2506-view-mt1",
   "2505-eevee-test",
   "2504-ct-bank390-v4",
@@ -43,8 +44,7 @@
   "2270-mt48-premium",
   "2425-ft31b-premium",
   "2424-ft33-premium",
-  "2327-mc46-premium2",
-  "2326-mc47-premium"
+  "2327-mc46-premium2"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -65,15 +65,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2507-view-mt2",
-  "title": "Ansicht 2507-view-mt2",
-  "job_since": "2026-10-29T23:15:58.800Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-29T23:15:58.800Z"
+  "state": "idle",
+  "last": {
+   "job": "2507-view-mt2",
+   "title": "Ansicht 2507-view-mt2",
+   "result": "fertig",
+   "at": "2026-10-29T23:16:01.167Z"
+  },
+  "updated": "2026-10-29T23:16:01.167Z"
  }
 }
