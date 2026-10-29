@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-29T19:01:01.078Z",
+ "ts": "2026-10-29T19:03:01.069Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 29,
- "mem_free_pct": 73,
+ "cpu": 23,
+ "gpu": 26,
+ "mem_free_pct": 74,
  "progress": null,
  "done": [
   "2344-mc54-premium",
