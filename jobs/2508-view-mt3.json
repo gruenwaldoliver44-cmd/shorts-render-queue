@@ -1,0 +1,16 @@
+{
+ "id": "2508-view-mt3",
+ "type": "shell",
+ "title": "Ansicht 2508-view-mt3",
+ "retries": 1,
+ "min_free_gb": 1,
+ "timeout_min": 5,
+ "expires": "2026-11-02T22:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Bild",
+   "run": "curl -fsSL -o v.jpg 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f07a2911-4040-4161-a0ac-cb72b6bff268.jpg' && ls -la"
+  }
+ ],
+ "uploads": []
+}
