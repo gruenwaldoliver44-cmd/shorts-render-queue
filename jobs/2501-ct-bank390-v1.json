@@ -13,7 +13,7 @@
   },
   {
    "label": "Patch",
-   "run": "python3 - << 'EOF_P'\np='ct/scene.py'; s=open(p).read()\ns=s.replace(\"sc.view_settings.look = 'AgX - Medium High Contrast'\",\"\\ntry:\\n    sc.view_settings.look = 'AgX - Medium High Contrast'\\nexcept Exception as e:\\n    print('look skip', e)\\n\")\nopen(p,'w').write(s)\nEOF_P"
+   "run": "/Applications/Blender.app/Contents/MacOS/Blender -b --factory-startup --python-expr \"p='ct/scene.py'; s=open(p).read(); s=s.replace(\\\"sc.view_settings.look = 'AgX - Medium High Contrast'\\\", 'try: sc.view_settings.look = \\\"AgX - Medium High Contrast\\\"\\nexcept Exception as e: print(\\\"look skip\\\", e)'); open(p,'w').write(s); print('PATCHED')\" 2>&1 | grep PATCHED"
   },
   {
    "label": "Baue 3D-Szene",
