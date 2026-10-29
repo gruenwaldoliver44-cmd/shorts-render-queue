@@ -1,0 +1,16 @@
+{
+ "id": "2507-view-mt2",
+ "type": "shell",
+ "title": "Ansicht 2507-view-mt2",
+ "retries": 1,
+ "min_free_gb": 1,
+ "timeout_min": 5,
+ "expires": "2026-11-02T22:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Bild",
+   "run": "curl -fsSL -o v.jpg 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/0cadbc96-06b5-456a-92f7-191aa619c671.jpg' && ls -la"
+  }
+ ],
+ "uploads": []
+}
