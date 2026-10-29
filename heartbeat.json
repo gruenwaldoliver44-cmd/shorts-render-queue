@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-29T23:01:01.904Z",
+ "ts": "2026-10-29T23:03:01.885Z",
  "source": "dashboard",
- "current": "2505-eevee-test since 2026-10-29 22:42:05",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 66,
- "blender_procs": 1,
- "cpu": 23,
- "gpu": 94,
- "mem_free_pct": 39,
+ "blender_procs": 0,
+ "cpu": 27,
+ "gpu": 0,
+ "mem_free_pct": 60,
  "progress": null,
  "done": [
+  "2505-eevee-test",
   "2504-ct-bank390-v4",
   "2503-ct-bank390-v3",
   "2344-mc54-premium",
@@ -70,17 +71,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2505-eevee-test",
-  "title": "Test · Eevee-Renderzeit (CT-Szene, 10 s)",
-  "job_since": "2026-10-29T22:42:05.326Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 3,
-  "label": "Eevee-Render 240 Frames",
-  "step_since": "2026-10-29T22:42:09.884Z",
-  "progress": null,
-  "updated": "2026-10-29T22:42:09.884Z"
+  "state": "idle",
+  "last": {
+   "job": "2505-eevee-test",
+   "title": "Test · Eevee-Renderzeit (CT-Szene, 10 s)",
+   "result": "fertig",
+   "at": "2026-10-29T23:02:34.134Z"
+  },
+  "updated": "2026-10-29T23:02:34.134Z"
  },
  "queue": []
 }
