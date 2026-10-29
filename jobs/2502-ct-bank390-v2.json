@@ -1,0 +1,39 @@
+{
+ "id": "2502-ct-bank390-v2",
+ "type": "shell",
+ "title": "CT \u00b7 Bank verdient 390 $ (Blender, Metal)",
+ "retries": 1,
+ "min_free_gb": 6,
+ "timeout_min": 150,
+ "expires": "2026-10-30T19:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Szene",
+   "run": "curl -fsSL -o ctpack.zip 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/4d4eb1bf-ef50-4fb8-99db-f2d675d7523c.zip' && rm -rf ct tex assets && unzip -oq ctpack.zip && ls ct"
+  },
+  {
+   "label": "Patch",
+   "run": "/Applications/Blender.app/Contents/MacOS/Blender -b --factory-startup --python-expr \"p='ct/scene.py'; s=open(p).read(); s=s.replace(\\\"; sc.view_settings.look = 'AgX - Medium High Contrast'\\\", '\\ntry: sc.view_settings.look = \\\"AgX - Medium High Contrast\\\"\\nexcept Exception as e: print(\\\"look skip\\\", e)'); open(p,'w').write(s); compile(s,p,'exec'); print('PATCHED')\" 2>&1 | grep PATCHED"
+  },
+  {
+   "label": "Baue 3D-Szene",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b -P ct/scene.py > build.log 2>&1; tail -5 build.log; grep -q 'SCENE OK' build.log"
+  },
+  {
+   "label": "Rendere 999 Frames (Metal GPU)",
+   "run": "rm -f out_*.mp4 out.mp4; CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/render.py -- mac $PWD/out_ 32 1 999 > render.log 2>&1; grep -E 'DEVICES|MAC RENDER DONE|Error' render.log | head -5; f=$(ls out_*.mp4 | head -1); test -n \"$f\" && mv \"$f\" out.mp4 && ls -la out.mp4",
+   "progress": {
+    "log": "render.log",
+    "total": 999
+   }
+  }
+ ],
+ "uploads": [
+  {
+   "file": "out.mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/e1930e55-31f8-4491-b0de-e0a53180cefe.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGU56IYKXX%2F20261029%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261029T194107Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFsaCmV1LW5vcnRoLTEiRjBEAiAT3p3q7rexpJ90GFPKWLOu%2FkPXk2Te0N2ogtxvY8xj2QIgU8z4Z61AfSfxSDi9Dqhepj6EaLlBWpip51eAfV%2B3EtoqpwUIJBAAGgw1ODI4ODE3MzA3MDEiDM1ERKHj73bpAHGdoiqEBWZa0vGP5rHl20x539VLHgq1gEmbO56VG9fBI%2BxCw5JBbjYYGf0eM8SeR3RSKQlH7gVGOqSJmUWRhQwq9BLCsHLXaqf4WRdGPpQNV4mt1KTapRxtVlbHs1llcMzj84hG0C5NOFyi73Y13iWsEFfsMWl7AcXNW%2Fl3AygyxwCSPkH9o%2BqVV7O5K06i0gigqdTu5gVJiclyL%2FnYpVguYlPlSSUFAwD4brcgSlYzFESghIx%2BtyjoKB%2BUnzW%2BLlIO%2BxxZDJhjH3wBnOmYI0SaZJ9dzZlZJUZ6a1Fj5HjQWPyPFU4WHyhjiQIBreACi7EQPr1XNGlfmSnO53rzDK9CdiOJsx2UgheaoT9AU%2FA3GCFPFTPHB6I1jKdCKiAkE%2F%2FfD3LH06lCGP%2FiOwAFXENcmV1n4xHWO%2BDIBnGv3GfbPMs6aajLIekQJb8jPJ%2BpLoa2aKBBuv2RCd42wTnCt7p9X0GwNloty5bR7SSJa1d1c3VU32Y5CiD1B%2B1HQlKPiqj5dA1FMUwlsTTd7OiJmhE8ddXo7LEo1BR00Ps4PPIh%2B%2B94BSknK7w1GW2oDR0iTR8Exn9U%2FNluYmc2GJMoMDqJJ7aOTbwDH00M81wV5wOWvKXNmGgCbMI0R%2BnE752hdrJph04IQ5ubwbvq2YVDV7Gg37ojBfrTirU2R1RX0PaDEUU6nzSAfTbR3yNpYlzYSTIOzlQrg4zs2Rm1sGKrUUJtD6RPhXbTLeirEf8axm60OsDhKmYZZW5dIm1Fd3GLKeAutnmsJbb1lSpMpBtWFQklidNCdoVgTC%2BBs7qyi7b9gWSAwIZKFMG8BRYUbxx%2F%2FrlGxpUIx%2FtjO5t6V7V0sDcUEauJ3YnaeJeTMOPBjtcGOpEBn3S7mugbtg%2BWn4x4cd0ElutO1%2BeYc9jXxD%2FmR2GQkeTP2fTKB4kL7J0huM3q0YPyABAf8oMQfdjbaoAFk6b4yfm6t6IU479d4H1k7g33bpxdXbwZG3kRO0Jsei6pimL2Ho%2BkZ1zSmHuAka22PTC5gFzhP9E4JLy1xeL3wIZcOahPWavXPXS717K%2FqtVXR0PhwA%3D%3D&X-Amz-Signature=60b625c622ba54822cfed860429a81f002b21cb904bebea12fb6c0e2fad14fb5",
+   "type": "video/mp4"
+  }
+ ],
+ "log_type": "application/octet-stream"
+}
