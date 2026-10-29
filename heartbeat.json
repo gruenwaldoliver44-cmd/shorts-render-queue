@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-29T20:49:02.114Z",
+ "ts": "2026-10-29T20:51:01.717Z",
  "source": "dashboard",
  "current": "2504-ct-bank390-v4 since 2026-10-29 19:58:07",
  "busy": true,
  "free_gb": 67,
  "blender_procs": 1,
- "cpu": 53,
- "gpu": 84,
- "mem_free_pct": 32,
+ "cpu": 57,
+ "gpu": 67,
+ "mem_free_pct": 50,
  "progress": {
-  "n": 294,
+  "n": 300,
   "total": 999,
-  "eta_min": 121
+  "eta_min": 125
  },
  "done": [
   "2503-ct-bank390-v3",
