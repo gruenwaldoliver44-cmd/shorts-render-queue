@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-29T19:46:34.885Z",
+ "ts": "2026-10-29T19:47:01.622Z",
+ "source": "dashboard",
  "current": "2503-ct-bank390-v3 since 2026-10-29 19:46:34",
  "busy": true,
  "free_gb": 66,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 65,
+ "gpu": 82,
+ "mem_free_pct": 56,
+ "progress": {
+  "n": 0,
+  "total": 999,
+  "eta_min": null
+ },
  "done": [
   "2344-mc54-premium",
   "2293-mt53-premium",
@@ -70,10 +79,15 @@
   "title": "CT · Bank verdient 390 $ (Blender, Metal)",
   "job_since": "2026-10-29T19:46:34.861Z",
   "timeout_min": 150,
-  "step": 0,
+  "step": 5,
   "steps": 5,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-29T19:46:34.861Z"
- }
+  "label": "Rendere 999 Frames (Metal GPU)",
+  "step_since": "2026-10-29T19:46:40.475Z",
+  "progress": {
+   "log": "/Users/olivergruenwald/ShortsRenderAgent/work/2503-ct-bank390-v3/render.log",
+   "total": 999
+  },
+  "updated": "2026-10-29T19:46:40.475Z"
+ },
+ "queue": []
 }
