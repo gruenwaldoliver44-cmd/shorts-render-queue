@@ -1,0 +1,16 @@
+{
+ "id": "2506-view-mt1",
+ "type": "shell",
+ "title": "Ansicht \u00b7 MT Teststills 1",
+ "retries": 1,
+ "min_free_gb": 1,
+ "timeout_min": 5,
+ "expires": "2026-10-31T22:00:00Z",
+ "steps": [
+  {
+   "label": "Lade Bild",
+   "run": "curl -fsSL -o s1.jpg 'https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/a694765a-76b3-4c74-8b65-6f4de3fea64b.jpg' && ls -la"
+  }
+ ],
+ "uploads": []
+}
