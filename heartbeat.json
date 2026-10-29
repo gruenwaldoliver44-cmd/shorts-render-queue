@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-29T22:33:01.889Z",
- "source": "dashboard",
+ "ts": "2026-10-29T22:33:50.719Z",
  "current": "",
  "busy": false,
  "free_gb": 67,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 0,
- "mem_free_pct": 66,
- "progress": null,
  "done": [
   "2504-ct-bank390-v4",
   "2503-ct-bank390-v3",
@@ -49,8 +44,7 @@
   "2327-mc46-premium2",
   "2326-mc47-premium",
   "2260-mt47-premium",
-  "2130-ct45-premium",
-  "2423-ft32-premium"
+  "2130-ct45-premium"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -79,6 +73,5 @@
    "at": "2026-10-29T22:28:43.402Z"
   },
   "updated": "2026-10-29T22:28:43.402Z"
- },
- "queue": []
+ }
 }
