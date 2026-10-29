@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-29T23:28:33.606Z",
+ "ts": "2026-10-29T23:29:02.040Z",
+ "source": "dashboard",
  "current": "2511-mt-listening-v1 since 2026-10-29 23:28:33",
  "busy": true,
  "free_gb": 66,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 62,
+ "gpu": 0,
+ "mem_free_pct": 38,
+ "progress": null,
  "done": [
   "2510-view-mt5",
   "2509-view-mt4",
@@ -70,10 +75,12 @@
   "title": "Machine Times · Active Listening (Cycles 1080p)",
   "job_since": "2026-10-29T23:28:33.585Z",
   "timeout_min": 330,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-29T23:28:33.585Z"
- }
+  "label": "Render 1162 Frames",
+  "step_since": "2026-10-29T23:28:38.123Z",
+  "progress": {},
+  "updated": "2026-10-29T23:28:38.123Z"
+ },
+ "queue": []
 }
