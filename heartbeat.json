@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-30T05:07:03.060Z",
- "source": "dashboard",
- "current": "2520-mc-pepsi-v1 since 2026-10-30 02:26:23",
+ "ts": "2026-10-30T05:09:01.775Z",
+ "current": "2530-ft-aircanada-v1 since 2026-10-30 05:09:01",
  "busy": true,
  "free_gb": 65,
- "blender_procs": 1,
- "cpu": 68,
- "gpu": 91,
- "mem_free_pct": 41,
- "progress": null,
+ "blender_procs": 0,
  "done": [
+  "2520-mc-pepsi-v1",
   "2511-mt-listening-v1",
   "2510-view-mt5",
   "2509-view-mt4",
@@ -48,8 +44,7 @@
   "2329-mc49-premium",
   "2271-mt48-premium-v2",
   "2131-ct46-premium",
-  "2426-ft34-premium",
-  "2328-mc48-premium"
+  "2426-ft34-premium"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -71,18 +66,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2520-mc-pepsi-v1",
-  "title": "Money Classics · Pepsi Jet (Cycles 1080p)",
-  "job_since": "2026-10-30T02:26:23.424Z",
-  "timeout_min": 330,
-  "step": 3,
+  "job": "2530-ft-aircanada-v1",
+  "title": "Future Tender · Air Canada Chatbot (Cycles 1080p)",
+  "job_since": "2026-10-30T05:09:01.757Z",
+  "timeout_min": 360,
+  "step": 0,
   "steps": 3,
-  "label": "Render 1086 Frames",
-  "step_since": "2026-10-30T02:26:27.952Z",
-  "progress": {},
-  "updated": "2026-10-30T02:26:27.952Z"
- },
- "queue": [
-  "2530-ft-aircanada-v1"
- ]
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-30T05:09:01.757Z"
+ }
 }
