@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T14:03:03.953Z",
+ "ts": "2026-10-30T14:05:03.971Z",
  "source": "dashboard",
- "current": "2550-ct3-probe since 2026-10-30 14:01:32",
- "busy": true,
- "free_gb": 64,
- "blender_procs": 1,
- "cpu": 16,
- "gpu": 24,
- "mem_free_pct": 65,
+ "current": "",
+ "busy": false,
+ "free_gb": 60,
+ "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 25,
+ "mem_free_pct": 84,
  "progress": null,
  "done": [
   "2540-ct-instacart-v1",
@@ -52,6 +52,7 @@
   "2271-mt48-premium-v2"
  ],
  "failed": [
+  "2550-ct3-probe",
   "2541-mt-faceid-v1",
   "2530-ft-aircanada-v1",
   "2502-ct-bank390-v2",
@@ -72,17 +73,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2550-ct3-probe",
-  "title": "CT3 BlenderKit Assets laden",
-  "job_since": "2026-10-30T14:01:32.799Z",
-  "timeout_min": 60,
-  "step": 2,
-  "steps": 2,
-  "label": "Assets laden + Lineup",
-  "step_since": "2026-10-30T14:01:35.054Z",
-  "progress": null,
-  "updated": "2026-10-30T14:01:35.054Z"
+  "state": "idle",
+  "last": {
+   "job": "2550-ct3-probe",
+   "title": "CT3 BlenderKit Assets laden",
+   "result": "Fehler",
+   "at": "2026-10-30T14:03:57.885Z"
+  },
+  "updated": "2026-10-30T14:03:57.885Z"
  },
  "queue": []
 }
