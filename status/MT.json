@@ -1,15 +1,15 @@
 {
  "title": "MT4 Rauchmelder radioaktiv",
  "topic": "Americium im Rauchmelder rettet dein Leben",
- "stage": "Stimme",
- "progress": 30,
- "note": "Skript + Stimme fertig",
- "next": "Modelle suchen, Szene",
+ "stage": "Szenen",
+ "progress": 40,
+ "note": "Stimme fertig. Blender-Welt gebaut: Küche mit Rauchmelder (BlenderKit) + aufgeschnittene Ionisationskammer mit Americium, Alpha-Teilchen, Strom, Rauch. Standbilder in der Mac-Warteschlange.",
+ "next": "Standbilder prüfen, dann Vollrender",
  "eta": "nacheinander, CT zuerst",
  "preview_img": "",
  "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:52:36Z"
+ "updated": "2026-10-30T15:39:45Z"
 }
