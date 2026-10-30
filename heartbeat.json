@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-30T14:58:34.325Z",
+ "ts": "2026-10-30T14:59:04.045Z",
+ "source": "dashboard",
  "current": "2562-ct4-stills2 since 2026-10-30 14:58:34",
  "busy": true,
  "free_gb": 61,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 57,
+ "gpu": 67,
+ "mem_free_pct": 46,
+ "progress": null,
  "done": [
   "2561-ct4-stills1",
   "2560-ct4-probe",
@@ -74,10 +79,12 @@
   "title": "CT4 Casino Standbilder v2",
   "job_since": "2026-10-30T14:58:34.307Z",
   "timeout_min": 50,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
+  "label": "Standbilder",
+  "step_since": "2026-10-30T14:58:40.932Z",
   "progress": null,
-  "updated": "2026-10-30T14:58:34.307Z"
- }
+  "updated": "2026-10-30T14:58:40.932Z"
+ },
+ "queue": []
 }
