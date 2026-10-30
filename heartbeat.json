@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T15:15:04.010Z",
+ "ts": "2026-10-30T15:17:04.004Z",
  "source": "dashboard",
  "current": "2564-ct4-full since 2026-10-30 15:14:03",
  "busy": true,
  "free_gb": 61,
  "blender_procs": 1,
- "cpu": 58,
+ "cpu": 53,
  "gpu": 0,
- "mem_free_pct": 70,
+ "mem_free_pct": 73,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
@@ -79,12 +79,12 @@
   "title": "CT4 Casino komplett (Stills v4 + Vollrender)",
   "job_since": "2026-10-30T15:14:03.331Z",
   "timeout_min": 360,
-  "step": 3,
+  "step": 4,
   "steps": 4,
-  "label": "Standbilder v4",
-  "step_since": "2026-10-30T15:14:10.358Z",
+  "label": "Vollrender 1080x1920",
+  "step_since": "2026-10-30T15:16:59.230Z",
   "progress": null,
-  "updated": "2026-10-30T15:14:10.358Z"
+  "updated": "2026-10-30T15:16:59.230Z"
  },
  "queue": []
 }
