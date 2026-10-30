@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-30T08:27:03.415Z",
- "source": "dashboard",
- "current": "2531-ft-upload since 2026-10-30 08:26:57",
+ "ts": "2026-10-30T08:27:19.903Z",
+ "current": "",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 0,
- "mem_free_pct": 65,
- "progress": null,
  "done": [
+  "2531-ft-upload",
   "2520-mc-pepsi-v1",
   "2511-mt-listening-v1",
   "2510-view-mt5",
@@ -48,8 +44,7 @@
   "2280-mt49-premium",
   "2329-mc49-premium",
   "2271-mt48-premium-v2",
-  "2131-ct46-premium",
-  "2426-ft34-premium"
+  "2131-ct46-premium"
  ],
  "failed": [
   "2530-ft-aircanada-v1",
@@ -71,17 +66,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2531-ft-upload",
-  "title": "Future Tender · Render hochladen",
-  "job_since": "2026-10-30T08:26:57.623Z",
-  "timeout_min": 15,
-  "step": 1,
-  "steps": 1,
-  "label": "Lade Ergebnisse hoch",
-  "step_since": "2026-10-30T08:26:59.440Z",
-  "progress": null,
-  "updated": "2026-10-30T08:26:59.440Z"
- },
- "queue": []
+  "state": "idle",
+  "last": {
+   "job": "2531-ft-upload",
+   "title": "Future Tender · Render hochladen",
+   "result": "fertig",
+   "at": "2026-10-30T08:27:19.875Z"
+  },
+  "updated": "2026-10-30T08:27:19.875Z"
+ }
 }
