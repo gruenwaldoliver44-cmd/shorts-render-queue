@@ -46,3 +46,12 @@ Oliver, 30 Oct 2026: "keine Ausreden … stell sicher, dass du es nicht vergisst
 
 ## Posted 30 Oct 2026
 - 13:55 CT Instacart (2540) IG+TT+YT. Hook: "You and your neighbor order the exact same crackers... you pay 23% more". Metrics due 1 Nov.
+
+## G. IG analysis 30 Oct (Metricool, all reels since 12 Oct)
+- Two clusters: ~1,300–2,000 views (normal) and ~100–200 (dead). Almost nothing breaks out above 3k.
+- Step change around 16 Oct: CT and MC went from ~100–200 to ~1,500 when topics switched from trivia/"watch till the end" to concrete money stories. That was real progress.
+- 3-s view rate is mostly 65–80%, so the hook already works OK. The ceiling is shares: almost always 0–3.
+- Top CT: pump hold $150 declined for $20 (5,695), restaurant tip hold (4,245), invest 38 vs 8 years (3,775), bank drilled safe deposit box (3,435). All: the viewer's OWN money frozen or taken, in a situation they know.
+- Top MT: dishwasher (3,365), smart TV screenshots (2,950). Top MC: KFC Colonel sues (2,577), Archegos (2,509), Fort Knox (2,458).
+- Blender premium (24–29 Oct) did NOT beat the cheap Remotion videos. Visual effort is not the lever right now.
+- Rule: topic and share trigger first (would I send this to a specific person?), visuals second.
