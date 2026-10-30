@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T02:23:02.680Z",
+ "ts": "2026-10-30T02:25:02.464Z",
  "source": "dashboard",
  "current": "2511-mt-listening-v1 since 2026-10-29 23:28:33",
  "busy": true,
  "free_gb": 66,
- "blender_procs": 1,
- "cpu": 72,
+ "blender_procs": 0,
+ "cpu": 34,
  "gpu": 0,
- "mem_free_pct": 45,
+ "mem_free_pct": 59,
  "progress": null,
  "done": [
   "2510-view-mt5",
@@ -77,10 +77,10 @@
   "timeout_min": 330,
   "step": 3,
   "steps": 3,
-  "label": "Render 1162 Frames",
-  "step_since": "2026-10-29T23:28:38.123Z",
-  "progress": {},
-  "updated": "2026-10-29T23:28:38.123Z"
+  "label": "Lade Ergebnisse hoch",
+  "step_since": "2026-10-30T02:24:47.876Z",
+  "progress": null,
+  "updated": "2026-10-30T02:24:47.876Z"
  },
  "queue": []
 }
