@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T21:15:04.880Z",
+ "ts": "2026-10-30T21:17:05.097Z",
  "source": "dashboard",
- "current": "",
- "busy": false,
+ "current": "2565-mt4-stills1 since 2026-10-30 21:15:05",
+ "busy": true,
  "free_gb": 61,
- "blender_procs": 0,
- "cpu": 12,
- "gpu": 0,
- "mem_free_pct": 71,
+ "blender_procs": 1,
+ "cpu": 64,
+ "gpu": 73,
+ "mem_free_pct": 49,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
@@ -75,14 +75,21 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2564-ct4-full",
-   "title": "CT4 Casino komplett (Stills v4 + Vollrender)",
-   "result": "Zeitlimit erreicht",
-   "at": "2026-10-30T21:14:03.584Z"
-  },
-  "updated": "2026-10-30T21:14:03.584Z"
+  "state": "busy",
+  "job": "2565-mt4-stills1",
+  "title": "MT4 Rauchmelder Standbilder v1",
+  "job_since": "2026-10-30T21:15:05.855Z",
+  "timeout_min": 60,
+  "step": 3,
+  "steps": 3,
+  "label": "Standbilder",
+  "step_since": "2026-10-30T21:15:24.026Z",
+  "progress": null,
+  "updated": "2026-10-30T21:15:24.026Z"
  },
- "queue": []
+ "queue": [
+  "2566-mc4-stills1",
+  "2567-ft4-stills1",
+  "2568-ct4-seq"
+ ]
 }
