@@ -1,0 +1,27 @@
+{
+ "id": "2531-ft-upload",
+ "type": "shell",
+ "title": "Future Tender \u00b7 Render hochladen",
+ "retries": 2,
+ "min_free_gb": 1,
+ "timeout_min": 15,
+ "expires": "2026-10-31T22:00:00Z",
+ "steps": [
+  {
+   "label": "Kopiere",
+   "run": "cp ../2530-ft-aircanada-v1/out.mp4 ../2530-ft-aircanada-v1/proj.txt . && ls -la"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "proj.txt",
+   "type": "application/octet-stream",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/061a3941-d78a-4778-bc14-b2d56c13e5be.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG73BLCGU7%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T082525Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCmV1LW5vcnRoLTEiRzBFAiEAtHoJpF%2B5AZ4eQL%2BkR2ymkR2ZRUduqt1Tq%2Fd84OyyA5gCIFXzh24hD%2FP8od50YcRnbkifiHy3LY6X9qKgC36yLR%2FSKqcFCC8QABoMNTgyODgxNzMwNzAxIgzHqmR4p5po8l5bvbYqhAU35JB2GOL0ZwQNtJ%2FjJeTODEPVcroBRnuwtaYcbrT%2BzHnx4VvFE6LK%2Fc67A%2FPLoRx7o9Szo7Q6NVnbSwyy6XMTQ%2BgoMsLumSLgF1OzJheRpj%2Fc3swm6BVZRk9WXYw8ljA0lUzuyX%2B12cprqDXN913jJ8BFpp5Xr3Bo4KJ8iEs7EhRuHKltPxGMa%2FL2W0fl9AXbltZ48MFDp00Hb0qRhvSBJkvtVie7fw%2F1fX1hKNRXhkcf4zJixU0K3UrYZp3t%2FdE6RskM4gxi7auj8116R6U0pCljvyO%2FRreP%2F%2Bt6hipVHtAlYWyMzSqVu8q5SgE4jTjGVFzBUKALbFc7u7NsTBSSzxCE0PakTvDLRQFCklZ0nr38xhr30m1YyM6B2yv%2FX061zeftPk0TN4Hgm0sI374YiQZEG5%2FvqYvQnWkQXavpdVzFEVVzYK9vFsQztPF9OSKLOw%2Fg522vhoA18NEph6xdT1pxonn2pdYVeosmqEmPWgrZ9fgoCbkAXvq5IcjBzArwVqYCMHF4UaiHAqPiqAvcOX%2BI1e188xJaAZG3zEvwe0v4ufgbxH6GtvOrkwkeLQrr4rUz5W1jUd8%2B6b%2FGWlzRopDLREkoqTwzCvch4WfGgztGpBOA6quD1NSWYUXyEY6VzbkdzCJ9dTYu4XziF7J2om0rr4dftJY4jbh8COE0jp3B4HHD4youBeRVgOjPMob6t4fUE4oPt3%2B7ZBPV0xGilmSPT2S3gCkJUG5cH34o9dAXZioSxSEeTN6oiz%2FBxtIJ4tt4CpywniguQIOstgDkxW0iyXDLY2RKqxUjZkostxWeRnlCaTIlP7jnUNzVdEU1rIh4VyDwkMr7ctg%2BRfaudgoeYTDC%2BpDXBjqQAZUMrbJgEhMcIQeybCk%2FafNyfjuDQFZbtICBWS%2FKXCbGW5RSs5ty%2Bd2sw0W%2FIBTM6KszsHfd24hWsEymi4yjApKHrOkuvVEt3%2FgoPZ%2BucduAD9HoODRu4c%2F00UotC3ClgDjR97Bsy5z5D8CMmYWHJTgls0Z6Vnm8svPvEjTBI8JrJk%2B%2Bv10xOcBEBBp3pjlIiw%3D%3D&X-Amz-Signature=34fc804847371713fabbe15b72613dee46c3a9c3f203274dd7d482090131f560"
+  },
+  {
+   "file": "out.mp4",
+   "type": "video/mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6e02933f-d640-430f-b9e1-41c86bce4e7c.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGWII7KQBB%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T082525Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCmV1LW5vcnRoLTEiRzBFAiEAleusNfiO886z%2Fs7GGfj2UKISgSsSWc2tHwtbuVFwoFcCIGkOGtjsBGZwT5FqQppTkSSUQZBFTrDIJz0lckYuRWCOKqcFCC8QABoMNTgyODgxNzMwNzAxIgwA1s8ZLwclpstR6vIqhAUP0F0%2F1Yh4Hv4tt8MV%2FxATnfBBzuFjcWO8J957X0ZLpMRZpp6h2wKKtghncOA0GJQ%2FbfNGcmN8fbDLHXF7vbpX9LvP614ST2XAkReTiaaz8mK6mEx9zECIiPWAos3h0%2FT5KslpUp956kU1m2PR4XwP2KSDXQSxQmJz5mXTt6xaciOX3NXtVud9zHLkdKirKmPv1MNpvxkAPtOobfvegWby5uF6obM8Pj3HA6GE0beQF5kIQiGdcBsKUhk1%2FdTwyODn1okeMeV%2FCdnARdzaAT39eiqHY7y7yFYbUKhlTlSe7EXdzNJG1wkVBqIlrnvbo03ZvAxm5IseGEacJ3TOnkKXugVUzIaEJo89JhxqU2IxN3kCxiWOC8x9W4TGhcx0LzThZGWwTXwP4E5ua1srnxM%2FfM77ILEx9IDQi8CUlsttq66EGmNzVQlpPDkGJeokyz95mzhN7PjJX5h2x6pmAjA6KJP9aRSZsVg035GyT%2BaQsw5Ck4olYAv8cm3QTe%2BADkJeifMCfiIGuZ1Ggkl%2F2zkmPXSmKBFbxtPQ13YafPXHJU77BIYqDT6vZb9stg4hyiaMPwOb%2BduYJYIJQzbev39Ylh%2FkpU8SUtWdTVVfvZnYJeAf8C%2B9xsm0P9AjVQSA1lghhaPLS8qZ1eRVyYQA8s%2F992CAaZWPG6GUCOiaugZ9G%2BC6J758Ux3A1lcZxAYZYbCLGUXM73HKGzkLmPDeXIGBGubowBSyQ1koHRljlat3ttWx4rCbIIevpwrWUONI2Vo0Ra4lkIi7Rx%2Fgmy1tSdD6n3PecaF2KNELMuEwh9bZINigDYuRy%2B%2FUSrk2FO%2FdurC6Z3BZ2RQK2j3UHAngM84NGMG%2FezDV%2BZDXBjqQASiK6IesydpD0wyjQzD72mZMOsWsafvUp9ulHW4LF2808%2BrVbyq3EXNbjG93DGgUKfYxovTWjPf1bclRQcw881y2r9%2Fp4DHn6Yx2GdbXq5nnTqpEBIACc%2Fdxer5Zl%2Bs8AQ2udSn0QwYtAx%2BepL6ks4Pms5fMMY0voi3hg7SsM7nLfxAVr28vPN16R%2BCK0SvdVg%3D%3D&X-Amz-Signature=a44b4eb63919d0c3daff44499f1f0fa26379c91b92696651b6a77ade67e9b5b0"
+  }
+ ]
+}
