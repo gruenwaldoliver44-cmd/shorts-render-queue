@@ -1,8 +1,8 @@
 {
- "ts": "2026-10-30T21:32:13.591Z",
- "current": "2567-ft4-stills1 since 2026-10-30 21:32:13",
+ "ts": "2026-10-30T21:33:02.199Z",
+ "current": "2568-ct4-seq since 2026-10-30 21:33:02",
  "busy": true,
- "free_gb": 51,
+ "free_gb": 58,
  "blender_procs": 0,
  "done": [
   "2563-ct4-stills3",
@@ -47,6 +47,7 @@
   "2330-mc50-premium"
  ],
  "failed": [
+  "2567-ft4-stills1",
   "2566-mc4-stills1",
   "2565-mt4-stills1",
   "2564-ct4-full",
@@ -73,14 +74,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2567-ft4-stills1",
-  "title": "FT4 Psyche Standbilder v1",
-  "job_since": "2026-10-30T21:32:13.572Z",
-  "timeout_min": 90,
+  "job": "2568-ct4-seq",
+  "title": "CT4 Casino Vollrender (Einzelbilder)",
+  "job_since": "2026-10-30T21:33:02.181Z",
+  "timeout_min": 600,
   "step": 0,
-  "steps": 3,
+  "steps": 4,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-30T21:32:13.572Z"
+  "updated": "2026-10-30T21:33:02.181Z"
  }
 }
