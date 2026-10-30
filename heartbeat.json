@@ -1,7 +1,7 @@
 {
- "ts": "2026-10-30T14:49:27.904Z",
- "current": "",
- "busy": false,
+ "ts": "2026-10-30T14:50:31.866Z",
+ "current": "2561-ct4-stills1 since 2026-10-30 14:50:31",
+ "busy": true,
  "free_gb": 61,
  "blender_procs": 0,
  "done": [
@@ -69,13 +69,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2560-ct4-probe",
-   "title": "CT4 Casino-Modelle laden",
-   "result": "fertig",
-   "at": "2026-10-30T14:44:18.274Z"
-  },
-  "updated": "2026-10-30T14:44:18.274Z"
+  "state": "busy",
+  "job": "2561-ct4-stills1",
+  "title": "CT4 Casino erste Standbilder",
+  "job_since": "2026-10-30T14:50:31.846Z",
+  "timeout_min": 50,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-30T14:50:31.846Z"
  }
 }
