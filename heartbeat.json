@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T01:21:02.484Z",
+ "ts": "2026-10-30T01:23:02.349Z",
  "source": "dashboard",
  "current": "2511-mt-listening-v1 since 2026-10-29 23:28:33",
  "busy": true,
  "free_gb": 66,
  "blender_procs": 1,
- "cpu": 71,
- "gpu": 0,
- "mem_free_pct": 40,
+ "cpu": 76,
+ "gpu": 78,
+ "mem_free_pct": 39,
  "progress": null,
  "done": [
   "2510-view-mt5",
