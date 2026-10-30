@@ -17,3 +17,11 @@ Pattern (measured, not opinion):
 5. Zero names, dates, companies, lawsuits. At most one number, saved for the very end.
 6. Ends the instant the payoff lands. No "send this to", no question, no twist stack.
 Note: Oliver's earlier rule excludes studios like Zack D. as visual/style model; these are used only to measure script structure. To be confirmed against so.thats.how / scroll.engineer transcripts.
+
+## Update: 13 transcripts (Oliver uploaded 14; 1 is a DAZN ad, excluded)
+- Words: 68-120, median ~84 (= ~28-33 s). Ours: 110-145.
+- Opener types: (a) "If/When you ..." second-person moment (gas pump, saw, trunk, hydrofoil, one-arm training); (b) cold open in the middle of an action, past tense, "He/They did X" (gasoline house, butterfly antennae drone, chocolate river, raccoon CPR, cheese allergy, firewood). Never a date, company name or number in sentence 1.
+- Sentence 2-3 hinge words: "You see," / "The fact is" / "The thing is" / "But" -> explanation that reveals why.
+- Then causal chain: "So ... Then ... And because ... This causes ...".
+- Ending: the outcome or the ironic reversal in one sentence ("before he learned he had been in the will all along"). No CTA, no question, no "send this".
+- Numbers: almost none (0-1 per video).
