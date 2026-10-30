@@ -1,0 +1,6 @@
+{"dur": 31.6,
+ "assets": {
+  "ship": {"size": 80.0, "fit": "y"},
+  "gavel": {"size": 0.34, "fit": "x"},
+  "money": {"size": 0.16, "fit": "x"}
+ }}
