@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T08:21:03.477Z",
+ "ts": "2026-10-30T08:23:03.456Z",
  "source": "dashboard",
- "current": "2530-ft-aircanada-v1 since 2026-10-30 05:09:01",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 65,
- "blender_procs": 1,
- "cpu": 68,
+ "blender_procs": 0,
+ "cpu": 15,
  "gpu": 0,
- "mem_free_pct": 55,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2520-mc-pepsi-v1",
@@ -52,6 +52,7 @@
   "2426-ft34-premium"
  ],
  "failed": [
+  "2530-ft-aircanada-v1",
   "2502-ct-bank390-v2",
   "2501-ct-bank390-v1",
   "2315-mc43-stills",
@@ -70,17 +71,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2530-ft-aircanada-v1",
-  "title": "Future Tender · Air Canada Chatbot (Cycles 1080p)",
-  "job_since": "2026-10-30T05:09:01.757Z",
-  "timeout_min": 360,
-  "step": 3,
-  "steps": 3,
-  "label": "Render 1239 Frames",
-  "step_since": "2026-10-30T05:09:05.314Z",
-  "progress": {},
-  "updated": "2026-10-30T05:09:05.314Z"
+  "state": "idle",
+  "last": {
+   "job": "2530-ft-aircanada-v1",
+   "title": "Future Tender · Air Canada Chatbot (Cycles 1080p)",
+   "result": "Fehler",
+   "at": "2026-10-30T08:21:46.514Z"
+  },
+  "updated": "2026-10-30T08:21:46.514Z"
  },
  "queue": []
 }
