@@ -1,0 +1,38 @@
+{
+ "id": "2540-ct-instacart-v1",
+ "type": "shell",
+ "title": "Compound Times \u00b7 Instacart (Cycles 1080p)",
+ "retries": 0,
+ "min_free_gb": 4,
+ "timeout_min": 330,
+ "expires": "2026-10-31T22:00:00Z",
+ "steps": [
+  {
+   "label": "Szene aus Repo",
+   "run": "rm -rf ct tex && cp -R \"$HOME/ShortsRenderAgent/repo/packs/ct2/ct\" \"$HOME/ShortsRenderAgent/repo/packs/ct2/tex\" . && ls ct tex | head -50"
+  },
+  {
+   "label": "Baue Szene",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b -P ct/scene.py > build.log 2>&1; grep -q 'SCENE OK' build.log || (tail -15 build.log; false); cp ct/proj.json proj.txt"
+  },
+  {
+   "label": "Render 1335 Frames",
+   "progress": "render.log",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/render.py -- mac $PWD/out_ 12 1 9999 > render.log 2>&1; f=$(ls out_*.mp4|head -1); test -n \"$f\" && mv \"$f\" out.mp4 && ls -la out.mp4"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "proj.txt",
+   "type": "application/octet-stream",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/022e0713-0b77-45f0-acb9-4d5b4ff7d74f.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG6M2VTSES%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T101054Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCmV1LW5vcnRoLTEiRzBFAiA2CsRpc0ruhEm29xkSB4%2BeFhR6KAPtLYU9lQ89ZzomkQIhAON1qx7zVbyGTCARwF0CngdAL4vZ68i4W3r%2BKOII%2FdSZKqcFCDAQABoMNTgyODgxNzMwNzAxIgy8b67sOOWV7flc7tYqhAVWgF5hJ9aTmlRMD2yGWjYa598R18NxKvkd1xTic57j8pTVvOrqw1t5K8qg4mp5etngClHHDQ3OhOWTNVBBebklxti05S3TqUekyXTDQ5K3RRtYKx4VcVf2eQN%2BGI6KLyZe9l%2FpzwhkRtnnh9bYT4TTayOo5F0UZeJEdHdEs2BJh9s82%2FoQZ7tARYDEEJ1McpesXrOJLNxUvfoyxl73iqDVYZlQTsHdYALv%2Fd%2BBxmSCn5la7ugIQ39GDAlF%2FH5X%2BoyRSIsz1m2IeQfCrpVDcZgILebswD9yq0roeLleIUF%2BINwN8Yh6SBTcErkK0PGUix6Y9HqO5aCIioO7jek2tgsLUQSGVp%2BICMcCl2TyUiuoxXT%2BFUpLGGWCUukbcjxe2FKIvDuWQWTMpOczxfKgVqdmNxoGAWE8EKxFd1XI0ObjIPS4%2Fn%2FRcPB3%2FRuhrugdnct0yqZcbUzgeIVtHeZhrAzW5HLy7wOnBNqtrOUr1TjYtbTFaIULWzJzYF%2F%2BAfyO%2FQLGmZztCecC7lX%2FhHY1Sfa5Ky7PT7ZR%2BzYDil8JZqk0M%2BYoRDLw4rMH4gFNX%2BwWHUZPeCLTQXgAV2h2Ny1U0GAtzpomUHeBZxrDDX93e7xYM%2FL3A44UZiLVUYR4EDH7TghUN2qvVAYIUlxOtWdYobcoD%2Bio0wvlr9rk8xKL98sFOaWc1CvEKnpDnUMOqNa2CgBN8lUyAObNRrcqstmldGpPWQlIYZBMIwSyKquT2NA%2F16944lQGtpAwhNHl3r%2Fk47wWQkbs6xqVW9fhX7QAHK5%2B29mlqR17kq7WGAdTeMR2w2M5SERJRx002zxslWK7KYbE%2Bp6JdpZMnUWg3SfRcfJf7YOpozDt%2BpDXBjqQATAgzXe5RFy7b3YCoLX4tPJYcYfZZAc916oe4clSOgkQogLYmgXu%2B9zIFIvaXNlBbkOnAteNWaAtVl7620keNz3qwe5T03k0lp1yA%2Be5scH5pD4fww0VLkXj2nxd%2FqyC8qAa4a6BFPXZIML5ZEDxA%2FrjGtrNsnus08KU1epT6nXfalMpgHd7MIzOCeOH4YU9Ww%3D%3D&X-Amz-Signature=b0111c55e6cd707043a7bc40b6314b999c044f212ff93f61ac54f8cf65f8854f"
+  },
+  {
+   "file": "out.mp4",
+   "type": "video/mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/7a4dc158-941f-4b68-b59e-5ef4ae8295d0.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGTYGNNZUD%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T101054Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCmV1LW5vcnRoLTEiRzBFAiA1%2BohLP6QIfqthZ7VCdRSwi%2BhLO%2FcomsyTPl2MWtQHoQIhAL4dVbhBbJ0yLGHrCMJ7US%2BvFXMOaseJVtDaJrUV360mKqcFCDAQABoMNTgyODgxNzMwNzAxIgznmYLeHpfxpZza%2BDUqhAWbq737hcLrXYvN9Nt0TMYmprD8BbY0w5EFbCYSHBFDESJyw%2FF%2Bu9Xue5kr9u5wxauwnPAOIdXp3enK%2F19hPk1x6Zi7juOSBQRPX5QRKjYh88nEW22InZlMzRGCkmbmwA5w%2BQSeVzVJHhclF1lrn8YEOW2xCAF8FDH%2Bj0Ly5bm6gF5akhwF7YeKhnx9yKqX8mgAkgSsRaCgQ9UaFq0Jj673%2FoYxvMdoo8NQS7Jl%2B7y3uKEHA7Xz9pyiXs5SveN8fB24cL3mD2BSIYSDuY4SJrwoedToOVUrr3eEebQwF8V9rNcHHFWEt6wicvGXX%2FqBTSnFP58l05kJONhNNBSa3YtplEfwG5TKOvGcNtoDcNL5M5kGINNwm0aYTi24dRfOMsNL9tYt%2Bu%2F7l08DJ%2FVq9eT6%2B1VQK8XVw65ov9f6H%2FW40d8%2FgxWX7AyBLl1RzF92gd5TM%2FCWfXnwi1X95ASic5HnHcdgZ2fbBzX9bliJ68BcIEJrqZuRoeSaalpNSNLbCpxV%2FbB%2F0zNdyxd9ukCI%2F%2Bk6QSxApFklWsRJQW9862MfTKuzCyKUUabqXp4sYaXifYcD1L4VAIFAkPbLfOlI2%2FzXdY1rCMWbYUSgm7DivVHrAckaDuVaH6r%2FmLq5fOUK%2FqOso3aS7kg5EHpSxBDB2%2BzzCQu4iR6lNCqKC0%2Fwt8QBfbgrJ4ddQuhTgXa%2BmCsCcOWCAjJ7bF1rUrE1SuGUOJsJBsTGANHYym9azxAGsodq%2FaMLzPHnd7xR4ZSQlcqj4ZKaEkvHrHkaLeDO%2BSUzV7Q0r9SoH8wEXhCQLYuESZxaCc2KipLeZ6mjLPu2fs%2Bf%2BGIKWGnB8lgdoz0E0tWAN68qNzWGTTDD%2BpDXBjqQAefy%2BJEqZaN48%2BZ%2BYiJunDEBNK6A%2FrKhpdKxYT6UoAqdEbTuAwt7aBA3ZEleUcgacY%2Fak90YXChaK57c82Q3n3yBy37ziyLlx5qKTCy9a%2BmxfuNN0sjjwjhA8tDG44KxsZ5o8MXeHf74OX%2BLygYrB1uqbAKq%2F8xQOcAUrRUr7IISZMH%2FfZMNFQAHqVznVRL5ew%3D%3D&X-Amz-Signature=35fbab4260f20f09d281eb5b61b8f59c6efdf79af066b849e1aa0145e41664af"
+  }
+ ],
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/8eeb3b89-5e82-43cd-ae8f-ef44495746e2.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGSKMADQW3%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T101054Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGcaCmV1LW5vcnRoLTEiSDBGAiEA%2FrPGVdheMFcDk9knqjzai7QKmZwGbZ%2Bv%2FnIDaRMPQnsCIQDTo2UyJL%2FUzCk741ou2xBC0gCtlbA7Nu1xeQGegSq%2BCiqnBQgvEAAaDDU4Mjg4MTczMDcwMSIMMqmS27hu4aECApPiKoQFRRzHmFe9GwfMhC1bBByImyBhFLbEuJe4oja0VehePK82qxje7YzHFHQ23F6mSLjMAwxYJuOiJ6qIkDiG5mhmFUebTjYWQVm3ea6Xiw%2FNsWq0BxGhbGSHvtIxLdB4IXEf0KIkwCmxzJ%2F1j2XhMh7qBJDzwst7v3xO2LcCzNCz1Kyps%2ByDJcLq9X4gRqQrTQk%2Bx%2FbIvBoT0LG46DWs3Q%2B7ATvyX5VfPcKCk4wr%2B%2FAFjUULYLTM8cis5kvZouCF8rwI%2BqgjQi8w1PKY96pP4FbscYT08k7CCRwoRFz9A6eI82GsAhbVVQ1LIPL2jggcERaEAjnSd419YC0KqMaTm7MUG0foOEm55sveKdfVCdRVx%2F2py6uaBqx0n3RNboixplL7jJ4nV1%2Bd6MrRah0V60A5MKUqoTB1OqxOkARqAmWBU2VSt%2BrLiPhxRuwgsZYfbEEPdZuLIxKQ7dTvQDFvKK1c2q8i1lRM%2FHeYaE%2FkH%2Fy7CAknQMAbpwYG%2FH8%2FUXX23LSkmoTFl%2FFVmHd3ONHmx3SOJ4mayG1e5U5aXqlEnsDnEozFhoz870NsV5SD4bbL22l6PX7a5b0f45HA%2Fap2Ob9GkuoA2QnJ2GQfyFV4iYawMV%2F97f00o%2FqcJ6XS8CBMXYKLieAtA23q6lFKUL8QGCkpV1vivzELb%2BSwcgUEPu6ujjxe3c9%2F2uUlYgKTg7tFOxQMCoS9wHckSl5js2XDaHH99AQSK025Gljg3loce4NbBIsBZp6kPYP%2FCHLmZEL3EqCSQucfii0UCkiZT00fttAlXcYNys6dbktbJn5Jv3tDqr0xxnSnT%2F87jDtuQxjaQF%2B12RguMpUjsG0al9ccXfJtvtKazEswiPuQ1wY6jwEJbvIVvUv0BZBv%2FjNHm7dJCo6FHnsLBHOXZMTxLvOqDJsjSuvoo46DyPbchB5uwCE45c%2BkgI2BMBOH%2BvKxDvj%2FrFZI%2F0a%2BMVY1x4ibYcnKDgZ7qK3v0reopE42KvGwjgcN6z7Htks8uLz338NLlXlLwdOfIMV2%2FVzmW53o7rJY7cyuZpNcOub82HxvFpHl%2BA%3D%3D&X-Amz-Signature=4f7bbd1bda65d411db5d0357a9e251bef97eb4b24d58ed3224adffdc71ab1c6a",
+ "log_type": "application/octet-stream"
+}
