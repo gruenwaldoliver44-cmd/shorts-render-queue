@@ -1,3 +1,12 @@
+# HARD RULES (Oliver, 30 Oct 2026, read first, every video)
+1. Every video is built on a verified 1M+ view template (link + views). The script may copy its structure 1:1; no template, no start.
+2. The start decides: visual hook and spoken hook in the first 1-3 s are checked against the template's first 3 s before anything else is built.
+3. Benchmark is the template, never our own best video (5k views is not a target).
+4. Up to 6 h per video, maximum Blender quality; the Mac may render non-stop.
+5. Simple and clear: one idea, explained so a non-native 14-year-old gets it.
+6. Before posting, an independent agent without my context compares hook, script, visuals and clarity against the template. Fail = no post.
+7. Never repeat a topic already posted (check Metricool history).
+
 # VIDEO REGISTER: Pflicht vor JEDEM Skript und vor JEDEM Post lesen
 
 Oliver, 30 Oct 2026: "keine Ausreden … stell sicher, dass du es nicht vergisst. Bei jedem Mal wieder."
