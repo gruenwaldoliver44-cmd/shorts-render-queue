@@ -1,0 +1,22 @@
+{
+ "dur": 30.8,
+ "assets": {
+  "kitchen": {
+   "size": 3.5,
+   "fit": "x"
+  },
+  "detector": {
+   "size": 0.13,
+   "fit": "x",
+   "rot": [
+    180,
+    0,
+    0
+   ]
+  },
+  "pan": {
+   "size": 0.5,
+   "fit": "x"
+  }
+ }
+}
