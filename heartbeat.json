@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-30T14:05:03.971Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-30T14:07:03.541Z",
+ "current": "2551-ct3-probe2 since 2026-10-30 14:07:03",
+ "busy": true,
  "free_gb": 60,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 25,
- "mem_free_pct": 84,
- "progress": null,
  "done": [
   "2540-ct-instacart-v1",
   "2531-ft-upload",
@@ -73,14 +68,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2550-ct3-probe",
-   "title": "CT3 BlenderKit Assets laden",
-   "result": "Fehler",
-   "at": "2026-10-30T14:03:57.885Z"
-  },
-  "updated": "2026-10-30T14:03:57.885Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2551-ct3-probe2",
+  "title": "CT3 BlenderKit Assets laden",
+  "job_since": "2026-10-30T14:07:03.524Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-30T14:07:03.524Z"
+ }
 }
