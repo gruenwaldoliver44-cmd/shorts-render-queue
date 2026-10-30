@@ -9,6 +9,7 @@
 9. BlenderKit (paid, ~80k assets, API key in the Mac's Blender addon) is ALWAYS used for every real object: download via the common_dl.py helper in earlier jobs (e.g. jobs/2113-ct43-hero.json). Code primitives only for abstract graphics. Plus Poly Haven HDRIs for lighting.
 10. Blender craft: every spoken sentence is shown as a logical physical action (the object does what the words say, on the word). Detailed, real-scale scenes, cinematic camera moves that follow cause and effect, no floating cards, no generic dark void. If a still looks like it could be made by code, redo it.
 11. Each channel gets its OWN concept, own reference creators and own visual language (characters/people, objects, archive, 3D: whatever fits that channel). The four videos must not look alike. Sound design and cut rhythm are part of the concept.
+12. Voice for ALL four channels: Mark (ElevenLabs v4 preset 27c04473-84a9-4b60-a41f-c8e8458bd4f1, stability 0.45, similarity 0.75), the Compound Times voice Oliver rated best.
 8. Topics are not limited to one family: pick the most fascinating topic available (strongest curiosity + share pull), then execute it perfectly. Our own data only hints at direction.
 
 # VIDEO REGISTER: Pflicht vor JEDEM Skript und vor JEDEM Post lesen
