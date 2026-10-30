@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T21:13:05.188Z",
+ "ts": "2026-10-30T21:15:04.880Z",
  "source": "dashboard",
- "current": "2564-ct4-full since 2026-10-30 15:14:03",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 61,
- "blender_procs": 1,
- "cpu": 58,
- "gpu": 94,
- "mem_free_pct": 36,
+ "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 0,
+ "mem_free_pct": 71,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
@@ -52,6 +52,7 @@
   "2330-mc50-premium"
  ],
  "failed": [
+  "2564-ct4-full",
   "2551-ct3-probe2",
   "2550-ct3-probe",
   "2541-mt-faceid-v1",
@@ -74,17 +75,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2564-ct4-full",
-  "title": "CT4 Casino komplett (Stills v4 + Vollrender)",
-  "job_since": "2026-10-30T15:14:03.331Z",
-  "timeout_min": 360,
-  "step": 4,
-  "steps": 4,
-  "label": "Vollrender 1080x1920",
-  "step_since": "2026-10-30T15:16:59.230Z",
-  "progress": null,
-  "updated": "2026-10-30T15:16:59.230Z"
+  "state": "idle",
+  "last": {
+   "job": "2564-ct4-full",
+   "title": "CT4 Casino komplett (Stills v4 + Vollrender)",
+   "result": "Zeitlimit erreicht",
+   "at": "2026-10-30T21:14:03.584Z"
+  },
+  "updated": "2026-10-30T21:14:03.584Z"
  },
  "queue": []
 }
