@@ -1,0 +1,3 @@
+# MC3 · Paul Singer holds Argentina's navy ship (template: cold open + reversal)
+A navy ship sailed into port with hundreds of cadets on board, and it wasn't allowed to leave. You see, the ship belonged to Argentina, and Argentina owed money to an American billionaire. When the country went broke, most lenders took a loss. He didn't. So his fund had a court in Ghana hold the ship until Argentina paid up. An international court set the ship free. But he kept fighting, for fifteen years. And when Argentina finally settled, a claim of six hundred million dollars had turned into two point two billion.
+Facts: CNNMoney 2 Mar 2016 (NML ~$2.28B on $617M claim); gCaptain/ITLOS release Dec 15 2012; AP: ARA Libertad held in Tema, Ghana, Oct 2 2012, $20M bond demand.
