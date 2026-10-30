@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-30T21:41:05.094Z",
+ "ts": "2026-10-30T21:43:05.127Z",
  "source": "dashboard",
  "current": "2568-ct4-seq since 2026-10-30 21:33:02",
  "busy": true,
  "free_gb": 59,
  "blender_procs": 1,
  "cpu": 59,
- "gpu": 84,
- "mem_free_pct": 53,
+ "gpu": 91,
+ "mem_free_pct": 52,
  "progress": {
-  "n": 22,
+  "n": 27,
   "total": 827,
-  "eta_min": 297
+  "eta_min": 301
  },
  "done": [
   "2563-ct4-stills3",
