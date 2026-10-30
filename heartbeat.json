@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-30T15:01:03.949Z",
+ "ts": "2026-10-30T15:03:03.957Z",
  "source": "dashboard",
- "current": "2562-ct4-stills2 since 2026-10-30 14:58:34",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 61,
- "blender_procs": 1,
- "cpu": 59,
+ "blender_procs": 0,
+ "cpu": 9,
  "gpu": 0,
- "mem_free_pct": 69,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
+  "2562-ct4-stills2",
   "2561-ct4-stills1",
   "2560-ct4-probe",
   "2552-ct3-probe3",
@@ -74,17 +75,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2562-ct4-stills2",
-  "title": "CT4 Casino Standbilder v2",
-  "job_since": "2026-10-30T14:58:34.307Z",
-  "timeout_min": 50,
-  "step": 3,
-  "steps": 3,
-  "label": "Standbilder",
-  "step_since": "2026-10-30T14:58:40.932Z",
-  "progress": null,
-  "updated": "2026-10-30T14:58:40.932Z"
+  "state": "idle",
+  "last": {
+   "job": "2562-ct4-stills2",
+   "title": "CT4 Casino Standbilder v2",
+   "result": "fertig",
+   "at": "2026-10-30T15:01:09.999Z"
+  },
+  "updated": "2026-10-30T15:01:09.999Z"
  },
  "queue": []
 }
