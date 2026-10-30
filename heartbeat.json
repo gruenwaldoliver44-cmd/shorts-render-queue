@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-30T13:03:03.973Z",
+ "ts": "2026-10-30T13:05:03.981Z",
  "source": "dashboard",
  "current": "2541-mt-faceid-v1 since 2026-10-30 12:39:23",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 52,
- "gpu": 96,
+ "cpu": 64,
+ "gpu": 99,
  "mem_free_pct": 41,
  "progress": null,
  "done": [
