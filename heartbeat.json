@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-30T08:47:59.668Z",
+ "ts": "2026-10-30T08:49:03.465Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 65,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 0,
+ "mem_free_pct": 66,
+ "progress": null,
  "done": [
   "2531-ft-upload",
   "2520-mc-pepsi-v1",
@@ -74,5 +79,6 @@
    "at": "2026-10-30T08:27:19.875Z"
   },
   "updated": "2026-10-30T08:27:19.875Z"
- }
+ },
+ "queue": []
 }
