@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-30T14:39:03.999Z",
- "source": "dashboard",
+ "ts": "2026-10-30T14:39:28.611Z",
  "current": "",
  "busy": false,
  "free_gb": 59,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 23,
- "mem_free_pct": 84,
- "progress": null,
  "done": [
   "2552-ct3-probe3",
   "2540-ct-instacart-v1",
@@ -49,8 +44,7 @@
   "2290-mt50-premium",
   "2427-ft35-premium",
   "2280-mt49-premium",
-  "2329-mc49-premium",
-  "2271-mt48-premium-v2"
+  "2329-mc49-premium"
  ],
  "failed": [
   "2551-ct3-probe2",
@@ -83,6 +77,5 @@
    "at": "2026-10-30T14:34:19.186Z"
   },
   "updated": "2026-10-30T14:34:19.186Z"
- },
- "queue": []
+ }
 }
