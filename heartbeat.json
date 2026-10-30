@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T14:13:03.991Z",
+ "ts": "2026-10-30T14:15:04.003Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 60,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 27,
- "mem_free_pct": 86,
+ "cpu": 22,
+ "gpu": 23,
+ "mem_free_pct": 85,
  "progress": null,
  "done": [
   "2540-ct-instacart-v1",
