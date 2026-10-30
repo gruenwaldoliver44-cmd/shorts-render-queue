@@ -1,11 +1,11 @@
 {
- "ts": "2026-10-30T05:53:03.012Z",
+ "ts": "2026-10-30T05:55:03.041Z",
  "source": "dashboard",
  "current": "2530-ft-aircanada-v1 since 2026-10-30 05:09:01",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 73,
+ "cpu": 72,
  "gpu": 0,
  "mem_free_pct": 56,
  "progress": null,
