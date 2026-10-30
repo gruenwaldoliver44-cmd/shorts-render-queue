@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T12:35:03.933Z",
+ "ts": "2026-10-30T12:37:03.988Z",
  "source": "dashboard",
  "current": "2540-ct-instacart-v1 since 2026-10-30 10:11:40",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 61,
- "gpu": 92,
- "mem_free_pct": 41,
+ "cpu": 63,
+ "gpu": 98,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2531-ft-upload",
