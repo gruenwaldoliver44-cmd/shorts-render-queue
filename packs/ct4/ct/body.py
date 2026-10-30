@@ -57,7 +57,7 @@ def reel_mat(i):
 REELS = []
 for i in range(3):
     x = P['scr_x'] + (i - 1) * P['scr_w'] / 3
-    bpy.ops.mesh.primitive_cylinder_add(vertices=48, radius=P['scr_h'] * 0.62, depth=P['scr_w'] / 3 * 0.86, location=(x, FRONT_Y + P['scr_h'] * 0.62 + 0.004, P['scr_z']), rotation=(0, math.pi / 2, 0))
+    bpy.ops.mesh.primitive_cylinder_add(vertices=64, radius=0.12, depth=P['scr_w'] / 3 * 0.82, location=(x, FRONT_Y + 0.12 + 0.045, P['scr_z'] - 0.02), rotation=(0, math.pi / 2, 0))
     c = bpy.context.active_object; c.name = 'reel%d' % i
     m, mp = reel_mat(i); c.data.materials.append(m)
     REELS.append((c, mp))
@@ -72,7 +72,7 @@ def spin_keys(mp, i, t0, t1, n_sym):
 for (t0, t1) in ((1.86, 3.3), (5.2, 6.4), (20.6, 22.0), (29.6, 33.4)):
     for i, (c, mp) in enumerate(REELS): spin_keys(mp, i, t0, t1, 16 + 8 * i)
 # ---------- phone on the deck ----------
-ph, pobjs, pmn, pmx = place('phone', (P['scr_x'] - 0.12, FRONT_Y - P['deck_y'], P['deck_z']))
+ph, pobjs, pmn, pmx = place('phone', (P['scr_x'] - 0.14, FRONT_Y - P['deck_y'] + 0.05, P['deck_z']))
 PH0 = ph.location.copy()
 def scr_plane(name, img, parent, size, z):
     m = mat_img('m_' + name, img, rough=0.2, emis=1.6)
@@ -107,11 +107,19 @@ ph.keyframe_insert('location', frame=F(17.0)); ph.keyframe_insert('rotation_eule
 ph.location = PH0; ph.rotation_euler = (0, 0, 0)
 ph.keyframe_insert('location', frame=F(17.6)); ph.keyframe_insert('rotation_euler', frame=F(17.6))
 # ---------- spin button on deck ----------
-bpy.ops.mesh.primitive_cylinder_add(vertices=48, radius=0.035, depth=0.03, location=(P['scr_x'] + P['btn_x'], FRONT_Y - P['deck_y'], P['deck_z'] + 0.015))
+bpy.ops.mesh.primitive_cylinder_add(vertices=64, radius=0.032, depth=0.022, location=(P['scr_x'] + P['btn_x'], FRONT_Y - P['deck_y'], P['deck_z'] + 0.014))
 btn = bpy.context.active_object; btn.name = 'spinbtn'
+bv = btn.modifiers.new('bv', 'BEVEL'); bv.width = 0.009; bv.segments = 6
+sub = btn.modifiers.new('ss', 'SUBSURF'); sub.levels = 1; sub.render_levels = 2
 bm = bpy.data.materials.new('btn'); bm.use_nodes = True; bb = bm.node_tree.nodes['Principled BSDF']
-bb.inputs['Base Color'].default_value = (1, 0.15, 0.1, 1); bb.inputs['Emission Color'].default_value = (1, 0.1, 0.05, 1); bb.inputs['Emission Strength'].default_value = 1.0; bb.inputs['Roughness'].default_value = 0.2
+bb.inputs['Base Color'].default_value = (0.8, 0.03, 0.02, 1); bb.inputs['Roughness'].default_value = 0.08
+bb.inputs['Coat Weight'].default_value = 1.0; bb.inputs['Emission Color'].default_value = (1, 0.08, 0.03, 1); bb.inputs['Emission Strength'].default_value = 0.6
 btn.data.materials.append(bm)
+bpy.ops.mesh.primitive_torus_add(major_radius=0.036, minor_radius=0.0055, location=(btn.location.x, btn.location.y, P['deck_z'] + 0.004))
+ring = bpy.context.active_object; ring.name = 'btnring'
+rm = bpy.data.materials.new('chrome'); rm.use_nodes = True; rb = rm.node_tree.nodes['Principled BSDF']
+rb.inputs['Base Color'].default_value = (0.9, 0.9, 0.92, 1); rb.inputs['Metallic'].default_value = 1.0; rb.inputs['Roughness'].default_value = 0.12
+ring.data.materials.append(rm)
 for t in (1.6, 4.95, 20.55, 21.45):
     z0 = btn.location.z
     btn.keyframe_insert('location', index=2, frame=F(t) - 2)
