@@ -43,3 +43,6 @@ Oliver, 30 Oct 2026: "keine Ausreden … stell sicher, dass du es nicht vergisst
 - Modifier-Count-Keys animieren nicht → Einzelobjekte + vis.
 - loudnorm: aformat s16 stereo davor.
 - Kein pkill -f mit eigenem Pattern.
+
+## Posted 30 Oct 2026
+- 13:55 CT Instacart (2540) IG+TT+YT. Hook: "You and your neighbor order the exact same crackers... you pay 23% more". Metrics due 1 Nov.
