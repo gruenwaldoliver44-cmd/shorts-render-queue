@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-30T21:31:04.968Z",
- "source": "dashboard",
- "current": "2566-mc4-stills1 since 2026-10-30 21:19:21",
+ "ts": "2026-10-30T21:32:13.591Z",
+ "current": "2567-ft4-stills1 since 2026-10-30 21:32:13",
  "busy": true,
- "free_gb": 53,
- "blender_procs": 1,
- "cpu": 19,
- "gpu": 0,
- "mem_free_pct": 35,
- "progress": null,
+ "free_gb": 51,
+ "blender_procs": 0,
  "done": [
   "2563-ct4-stills3",
   "2562-ct4-stills2",
@@ -52,6 +47,7 @@
   "2330-mc50-premium"
  ],
  "failed": [
+  "2566-mc4-stills1",
   "2565-mt4-stills1",
   "2564-ct4-full",
   "2551-ct3-probe2",
@@ -77,19 +73,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2566-mc4-stills1",
-  "title": "MC4 Libertad Standbilder v1",
-  "job_since": "2026-10-30T21:19:21.829Z",
+  "job": "2567-ft4-stills1",
+  "title": "FT4 Psyche Standbilder v1",
+  "job_since": "2026-10-30T21:32:13.572Z",
   "timeout_min": 90,
-  "step": 3,
+  "step": 0,
   "steps": 3,
-  "label": "Standbilder",
-  "step_since": "2026-10-30T21:28:07.342Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-30T21:28:07.342Z"
- },
- "queue": [
-  "2567-ft4-stills1",
-  "2568-ct4-seq"
- ]
+  "updated": "2026-10-30T21:32:13.572Z"
+ }
 }
