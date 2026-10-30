@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-30T14:01:32.820Z",
+ "ts": "2026-10-30T14:03:03.953Z",
+ "source": "dashboard",
  "current": "2550-ct3-probe since 2026-10-30 14:01:32",
  "busy": true,
- "free_gb": 65,
- "blender_procs": 0,
+ "free_gb": 64,
+ "blender_procs": 1,
+ "cpu": 16,
+ "gpu": 24,
+ "mem_free_pct": 65,
+ "progress": null,
  "done": [
   "2540-ct-instacart-v1",
   "2531-ft-upload",
@@ -72,10 +77,12 @@
   "title": "CT3 BlenderKit Assets laden",
   "job_since": "2026-10-30T14:01:32.799Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 2,
   "steps": 2,
-  "label": "Startet",
+  "label": "Assets laden + Lineup",
+  "step_since": "2026-10-30T14:01:35.054Z",
   "progress": null,
-  "updated": "2026-10-30T14:01:32.799Z"
- }
+  "updated": "2026-10-30T14:01:35.054Z"
+ },
+ "queue": []
 }
