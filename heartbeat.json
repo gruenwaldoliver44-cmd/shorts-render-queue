@@ -1,15 +1,11 @@
 {
- "ts": "2026-10-30T02:25:02.464Z",
- "source": "dashboard",
- "current": "2511-mt-listening-v1 since 2026-10-29 23:28:33",
+ "ts": "2026-10-30T02:26:23.442Z",
+ "current": "2520-mc-pepsi-v1 since 2026-10-30 02:26:23",
  "busy": true,
  "free_gb": 66,
  "blender_procs": 0,
- "cpu": 34,
- "gpu": 0,
- "mem_free_pct": 59,
- "progress": null,
  "done": [
+  "2511-mt-listening-v1",
   "2510-view-mt5",
   "2509-view-mt4",
   "2508-view-mt3",
@@ -48,8 +44,7 @@
   "2271-mt48-premium-v2",
   "2131-ct46-premium",
   "2426-ft34-premium",
-  "2328-mc48-premium",
-  "2270-mt48-premium"
+  "2328-mc48-premium"
  ],
  "failed": [
   "2502-ct-bank390-v2",
@@ -71,16 +66,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2511-mt-listening-v1",
-  "title": "Machine Times · Active Listening (Cycles 1080p)",
-  "job_since": "2026-10-29T23:28:33.585Z",
+  "job": "2520-mc-pepsi-v1",
+  "title": "Money Classics · Pepsi Jet (Cycles 1080p)",
+  "job_since": "2026-10-30T02:26:23.424Z",
   "timeout_min": 330,
-  "step": 3,
+  "step": 0,
   "steps": 3,
-  "label": "Lade Ergebnisse hoch",
-  "step_since": "2026-10-30T02:24:47.876Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-30T02:24:47.876Z"
- },
- "queue": []
+  "updated": "2026-10-30T02:26:23.424Z"
+ }
 }
