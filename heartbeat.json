@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T03:21:02.747Z",
+ "ts": "2026-10-30T03:23:02.666Z",
  "source": "dashboard",
  "current": "2520-mc-pepsi-v1 since 2026-10-30 02:26:23",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 70,
- "gpu": 77,
- "mem_free_pct": 43,
+ "cpu": 72,
+ "gpu": 0,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2511-mt-listening-v1",
