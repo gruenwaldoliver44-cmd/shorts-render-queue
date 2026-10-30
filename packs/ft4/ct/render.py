@@ -32,3 +32,17 @@ if argv[0] == 'mac':
     except Exception: pass
     sc.render.filepath = out
     bpy.ops.render.render(animation=True)
+if argv[0] == 'seq':
+    # resumable JPEG sequence f0001.jpg... for the dashboard progress counter and the sandbox comp
+    out, spp = argv[1], int(argv[2])
+    pr = bpy.context.preferences.addons['cycles'].preferences
+    pr.compute_device_type = 'METAL'; pr.get_devices()
+    for d in pr.devices: d.use = True
+    sc.cycles.device = 'GPU'; sc.cycles.samples = spp
+    sc.render.resolution_x = 1080; sc.render.resolution_y = 1920; sc.render.resolution_percentage = 100
+    sc.render.use_motion_blur = True; sc.render.motion_blur_shutter = 0.45
+    sc.render.image_settings.file_format = 'JPEG'; sc.render.image_settings.quality = 92
+    sc.render.use_overwrite = False; sc.render.use_placeholder = True
+    os.makedirs(out, exist_ok=True)
+    sc.render.filepath = out + '/f'
+    bpy.ops.render.render(animation=True)
