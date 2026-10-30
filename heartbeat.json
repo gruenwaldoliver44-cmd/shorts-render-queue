@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-30T02:26:23.442Z",
+ "ts": "2026-10-30T02:27:02.546Z",
+ "source": "dashboard",
  "current": "2520-mc-pepsi-v1 since 2026-10-30 02:26:23",
  "busy": true,
  "free_gb": 66,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 67,
+ "gpu": 0,
+ "mem_free_pct": 56,
+ "progress": null,
  "done": [
   "2511-mt-listening-v1",
   "2510-view-mt5",
@@ -70,10 +75,14 @@
   "title": "Money Classics · Pepsi Jet (Cycles 1080p)",
   "job_since": "2026-10-30T02:26:23.424Z",
   "timeout_min": 330,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-30T02:26:23.424Z"
- }
+  "label": "Render 1086 Frames",
+  "step_since": "2026-10-30T02:26:27.952Z",
+  "progress": {},
+  "updated": "2026-10-30T02:26:27.952Z"
+ },
+ "queue": [
+  "2530-ft-aircanada-v1"
+ ]
 }
