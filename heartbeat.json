@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T21:27:05.051Z",
+ "ts": "2026-10-30T21:29:04.978Z",
  "source": "dashboard",
  "current": "2566-mc4-stills1 since 2026-10-30 21:19:21",
  "busy": true,
- "free_gb": 61,
+ "free_gb": 56,
  "blender_procs": 1,
- "cpu": 91,
+ "cpu": 32,
  "gpu": 0,
- "mem_free_pct": 76,
+ "mem_free_pct": 37,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
@@ -81,12 +81,12 @@
   "title": "MC4 Libertad Standbilder v1",
   "job_since": "2026-10-30T21:19:21.829Z",
   "timeout_min": 90,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "Szene bauen",
-  "step_since": "2026-10-30T21:19:23.983Z",
+  "label": "Standbilder",
+  "step_since": "2026-10-30T21:28:07.342Z",
   "progress": null,
-  "updated": "2026-10-30T21:19:23.983Z"
+  "updated": "2026-10-30T21:28:07.342Z"
  },
  "queue": [
   "2567-ft4-stills1",
