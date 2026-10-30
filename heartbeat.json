@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T06:45:03.433Z",
+ "ts": "2026-10-30T06:47:03.291Z",
  "source": "dashboard",
  "current": "2530-ft-aircanada-v1 since 2026-10-30 05:09:01",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 72,
- "gpu": 91,
- "mem_free_pct": 38,
+ "cpu": 75,
+ "gpu": 0,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2520-mc-pepsi-v1",
