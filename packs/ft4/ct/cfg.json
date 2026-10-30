@@ -1,0 +1,6 @@
+{"dur": 30.8,
+ "assets": {
+  "asteroid": {"size": 20.0, "fit": "x"},
+  "earth": {"size": 260.0, "fit": "x"},
+  "ring": {"size": 0.024, "fit": "x"}
+ }}
