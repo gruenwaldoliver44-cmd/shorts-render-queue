@@ -1,12 +1,12 @@
 {
- "ts": "2026-10-30T11:05:03.791Z",
+ "ts": "2026-10-30T11:07:03.776Z",
  "source": "dashboard",
  "current": "2540-ct-instacart-v1 since 2026-10-30 10:11:40",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 55,
- "gpu": 24,
+ "cpu": 58,
+ "gpu": 10,
  "mem_free_pct": 53,
  "progress": null,
  "done": [
