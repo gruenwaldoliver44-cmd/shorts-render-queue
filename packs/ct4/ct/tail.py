@@ -9,13 +9,13 @@ GS = Vector(scr_g.location); CI = Vector(((cimn.x + cimx.x) / 2, (cimn.y + cimx.
 V = Vector
 SHOTS = [
  (0.0, 1.4, PHC + V((-0.22, -0.30, 0.16)), PHC, 70, PHC + V((-0.17, -0.24, 0.12)), PHC, 85),
- (1.4, 2.7, BTN + V((0.14, -0.26, 0.12)), BTN, 85, BTN + V((0.10, -0.20, 0.09)), BTN, 95),
+ (1.4, 2.7, BTN + V((0.22, -0.42, 0.20)), BTN, 60, BTN + V((0.18, -0.36, 0.17)), BTN, 65),
  (2.7, 4.1, V((SX, FY - 1.25, SZ + 0.02)), V((SX, FY, SZ)), 50, V((SX, FY - 0.95, SZ)), V((SX, FY, SZ)), 50),
  (4.1, 5.6, PHC + V((-0.55, -0.6, 0.35)), PHC, 45, PHC + V((-0.45, -0.5, 0.3)), PHC, 50),
  (5.6, 9.7, CI + V((0.35, -0.45, 0.30)), CI, 40, CI + V((0.12, -0.22, 0.14)), CI, 45),
  (9.7, 14.2, V((SX + 0.05, FY - 1.15, SZ + 0.12)), V((SX, FY, SZ)), 32, V((SX + 0.03, FY - 0.85, SZ + 0.08)), V((SX, FY, SZ)), 38),
  (14.2, 19.8, GS + V((-0.5, -1.5, 0.05)), GS, 35, GS + V((-0.1, -0.85, 0.0)), GS, 45),
- (19.8, 22.6, (PHC + BTN) / 2 + V((0.02, -0.55, 0.33)), (PHC + BTN) / 2, 50, (PHC + BTN) / 2 + V((0.0, -0.45, 0.27)), (PHC + BTN) / 2, 55),
+ (19.8, 22.6, (PHC + BTN) / 2 + V((0.05, -0.85, 0.45)), (PHC + BTN) / 2, 40, (PHC + BTN) / 2 + V((0.03, -0.72, 0.38)), (PHC + BTN) / 2, 42),
  (22.6, 26.2, V((0.35, -2.0, 3.2)), V((0, FY - 0.2, 1.0)), 24, V((0.2, -1.95, 3.2)), V((0, FY - 0.1, 1.1)), 28),
  (26.2, 29.4, MON + V((0.40, -0.55, 0.12)), MON, 55, MON + V((0.30, -0.42, 0.1)), MON, 60),
  (29.4, DUR, V((SX, FY - 1.9, SZ + 0.1)), V((SX, FY, SZ)), 32, V((SX, FY - 0.75, SZ)), V((SX, FY, SZ)), 50),
@@ -31,7 +31,7 @@ for idb in (cam, tg, cd):
         for i, kp in enumerate(kps):
             kp.interpolation = 'BEZIER' if i % 2 == 0 else 'CONSTANT'
             kp.handle_left_type = kp.handle_right_type = 'AUTO_CLAMPED'
-cd.dof.use_dof = True; cd.dof.focus_object = tg; cd.dof.aperture_fstop = 2.2
+cd.dof.use_dof = True; cd.dof.focus_object = tg; cd.dof.aperture_fstop = 4.5
 bpy.ops.wm.save_as_mainfile(filepath=ROOT + '/ct/scene.blend')
 from bpy_extras.object_utils import world_to_camera_view
 proj = {}

@@ -13,6 +13,7 @@ for i, (s, c) in enumerate(syms):
     if s == 'BAR':
         d.rounded_rectangle([60, y + 130, 340, y + 270], 20, fill=c); ct(d, y + 140, 'BAR', f, (245, 240, 228), W)
     else: ct(d, y + 40, s, f, c, W)
+im = im.rotate(90, expand=True)
 im.save('reel.png')
 # phone screens
 def phone(name, lines, rec=False, buzz=False):

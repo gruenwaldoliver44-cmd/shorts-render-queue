@@ -49,9 +49,9 @@ def reel_mat(i):
     m = bpy.data.materials.new('reel%d' % i); m.use_nodes = True; nt = m.node_tree; b = nt.nodes['Principled BSDF']
     tc = nt.nodes.new('ShaderNodeTexCoord'); mp = nt.nodes.new('ShaderNodeMapping'); t = nt.nodes.new('ShaderNodeTexImage')
     t.image = bpy.data.images.load(TX + 'reel.png'); t.extension = 'REPEAT'
-    mp.inputs['Scale'].default_value = (1, 1 / 8 * 1.6, 1)
+    mp.inputs['Scale'].default_value = (1.0, 1.0, 1)
     nt.links.new(tc.outputs['UV'], mp.inputs[0]); nt.links.new(mp.outputs[0], t.inputs[0])
-    nt.links.new(t.outputs[0], b.inputs['Base Color']); nt.links.new(t.outputs[0], b.inputs['Emission Color']); b.inputs['Emission Strength'].default_value = 1.2
+    nt.links.new(t.outputs[0], b.inputs['Base Color']); nt.links.new(t.outputs[0], b.inputs['Emission Color']); b.inputs['Emission Strength'].default_value = 0.35
     b.inputs['Roughness'].default_value = 0.35
     return m, mp
 REELS = []
@@ -65,9 +65,10 @@ for i in range(3):
 def spin_keys(mp, i, t0, t1, n_sym):
     f0, f1 = F(t0), F(t1 + i * 0.18)
     cur = mp.inputs['Location'].default_value[1]
-    mp.inputs['Location'].keyframe_insert('default_value', index=1, frame=f0)
-    mp.inputs['Location'].default_value[1] = cur + n_sym / 8.0
-    mp.inputs['Location'].keyframe_insert('default_value', index=1, frame=f1)
+    cur = mp.inputs['Location'].default_value[0]
+    mp.inputs['Location'].keyframe_insert('default_value', index=0, frame=f0)
+    mp.inputs['Location'].default_value[0] = cur + n_sym / 8.0
+    mp.inputs['Location'].keyframe_insert('default_value', index=0, frame=f1)
 for (t0, t1) in ((1.86, 3.3), (5.2, 6.4), (20.6, 22.0), (29.6, 33.4)):
     for i, (c, mp) in enumerate(REELS): spin_keys(mp, i, t0, t1, 16 + 8 * i)
 # ---------- phone on the deck ----------
@@ -79,7 +80,7 @@ def scr_plane(name, img, parent, size, z):
 PH_SCR = {}
 for nm, img in (('lock', 'scr_lock.png'), ('rec', 'scr_rec.png'), ('times', 'scr_times.png')):
     o = plane('ps_' + nm, 0.138, 0.066, (0, 0, 0), mat_img('m_' + nm, img, rough=0.15, emis=1.4))
-    o.rotation_euler = (0, 0, math.pi / 2); o.location = ((pmn.x + pmx.x) / 2, (pmn.y + pmx.y) / 2, pmx.z + 0.0006)
+    o.rotation_euler = (0, 0, -math.pi / 2); o.location = ((pmn.x + pmx.x) / 2, (pmn.y + pmx.y) / 2, pmx.z + 0.0006)
     o.parent = ph; o.matrix_parent_inverse = ph.matrix_world.inverted()
     PH_SCR[nm] = o
 def show(o, frames_on):
