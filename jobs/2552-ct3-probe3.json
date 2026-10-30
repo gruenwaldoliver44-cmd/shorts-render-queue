@@ -1,0 +1,33 @@
+{
+ "id": "2552-ct3-probe3",
+ "type": "shell",
+ "title": "CT3 BlenderKit Assets laden",
+ "retries": 0,
+ "min_free_gb": 4,
+ "timeout_min": 60,
+ "expires": "2026-11-01T22:00:00Z",
+ "steps": [
+  {
+   "label": "Pack",
+   "run": "rm -rf ct && cp -R \"$HOME/ShortsRenderAgent/repo/packs/ct3/ct\" . && ls ct"
+  },
+  {
+   "label": "Assets laden + Lineup",
+   "run": "mkdir -p o && /Applications/Blender.app/Contents/MacOS/Blender -b -P ct/probe.py -- $PWD/o > probe.log 2>&1; touch o/info.txt; grep -v -i -E 'bearer|api_key' probe.log | tail -40 >> o/info.txt; ls -la o; true"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "o/info.txt",
+   "type": "application/octet-stream",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/7cf42742-1b7d-43dc-9350-56b08c02d573.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG7GCOHWAQ%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T141009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCmV1LW5vcnRoLTEiRjBEAiBEDh2mqrWrovNmg68tohvcFtYDO45XPAKWt8S%2FB3iwVgIgdnxBKr%2FV5aK7qQcYvUWvZTUXc6brmguf5zH3G%2B78tLMqpwUINxAAGgw1ODI4ODE3MzA3MDEiDMTJnEYtOO%2B3t8UgQSqEBUmyLYLuGEwkyS1yCUg5BdlwePbrVvt5CJpt%2FllMxz%2FgmU52a7MtxA%2BxDkSTYiE%2BXGftjzU2uX7nLX5%2B3Xp%2FSRy9SbwWdZRXchO1Y1XXOT4SMKswZTwa%2BW9ibnform8YseeiPRBN2AJ6hqr8jA0xRRNvyGnXhtTueiUBi5tkv9%2BVgc0Tl7EhyXegpC%2F00VgcbhzvzavCkNTQSM7nIsGcR1iwr69hJeLMBUqREWeca3KXSxf2QklCO38ySNEoVoqCaY04UsqFOCJ6hFYJjxUQhHL0yYcra8YfT5wql2G5Om1I0gUFub6tD3s5BDTsHxuJgNIp48YFoC8DgE%2Fb1VYK7oniTBgtWQ9YWE9wRqt4XUKxETZeTNk1bKsFufUtglYb0DX9ipMNNU5esjDq4hOXkKZWtfglrFDpHjxhzGW8jde%2FtFkQRJmoVamxM5jmIMJTl2kGcikYiqQ%2Fozci16YloKccQz0Vrxrg04sXTIII996ZLh7y5E388hFw2PUWAIghwL3s8UTNgPOQmUvGwKAUIbfSerIlKGnh6mO9qH9fsOlZlxc%2BhE1xWfRbekC6sfFHqaWSL%2B2htSp42C8VwMm%2F49fU7yuPKIebOiJ5JErPiHPhrCKMLPO3qcJfehHTi99BGSAJ4UuQzmv%2FEHKjrWs9XaYYS1LXIe1iU7AL62ePGtABmZNOHGr7ssai8uTQD6tEVl9jAH%2BA4h0%2FAHHu23llkYvTKvMgdJF5qAPlfe8zFEbAsyOHr7YfsIgay7zr9JpFQFe9TFqEcbapKoViFwwQzD7EsoLUVlvmSGmwhPG8In%2B7n%2BB9bKMxSDC6D4V%2B52tVpOhb5qspLBj46vbab%2BVjMgqP9jIMMObIktcGOpEBs3dGGtuLbhlijdPliooYavSydWW50oM%2Bvf7SI7b9Xi4zHFJP6HTeNLnFRTX74u6rkXHMuKlMxkIc8Zl6r48ETjAwEeszlcLZONYnpjSaIOsR1%2BmjKZmfHPCJFh6e4xB1ofEmL6RuEW7Up%2BSIHGY4QxxvsWCE%2FsxplXhcnRAyPfe9fmkJxUjhpetkIIZtL4JM7g%3D%3D&X-Amz-Signature=115e138df7d963465b684c73aad38f53a8cdfd98cef01ad2494256c5b6809fff"
+  },
+  {
+   "file": "o/lineup.png",
+   "type": "image/png",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d8859b6f-666b-4b81-86c8-0f8be6857476.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG3U73SS3Q%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T141009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCmV1LW5vcnRoLTEiRzBFAiA1VqiaQOHfJn3i1sDmhxnIP3jzekDaJQGEfWVKG7rerQIhALobmiiJl9m8k8N701EWZr2skdQfGjwfmG5Q4p%2Blj8YMKqcFCDcQABoMNTgyODgxNzMwNzAxIgzrvYpVWNPagqDPe7oqhAVBL0gGrkzI%2BjoNfU4WS9hg9xI8VvMIxXefVoufI%2Fii%2F6wbXnjTzaiQycszuMqERba47EkfSJ5rAcmBLfipT9lqYPEoV8xVs3lVx3cjZy52IJ2DS1iPGXQuih1yGcJ0Dy1SE5CQl9nD%2B250LW6PI76xbE0wvKDaTsbbzqV9Q%2BqVyiXNUlVG6cGlYc6N7JhllWbEVZ3pgzjDCdSbECtwpEDO9TGYsFchUTdxGbxkASU1naIJfbWVd4rqS7a6nrXOD97BOc6n3abCYT2FIU5zdU2Cc0ms4Cd66tfeC3vE5Jk%2FGpbVFvaWLRwLT7oMmXcLu1btJCs7W5Uc93rvcgvURZtDW9qNxx97hRa7iBBlfCDgmmsjOfvC41CyqDaR3gqKjcswi58INkvdIHCh7Ag9PHQ5cSlsrPiSdDKmVqtwGTX6fUcPi6%2FYPxnehE0D29GV4l1oCdikpgV91DI7oDaiA%2Bjyxhx%2FDvD7hiTq60E2qMxtxDRjhnHNjRCydItXreFUtKOEw15kMudCbhjNO3j9sa897CRt25XvJRU2m9ebpQRj5PEDzohd7U1LUuo1ZE%2FAg6ETtXzxq%2BuxGRGzT%2FNBOumtEKNYhmRhZEpnop2EpyofjFyozAFpqwLa%2BxQCTzCMD7tUwRnvEDijBqyb3FkRUJ6I1BEPb0CjpatHvixshEcFJM%2Bm%2Bis3qLW1T6SSWoJqHCXC5LFRoDo6%2BGmx%2F3F%2BUsLuviVA1HZBi0rlJjn3lNgLNRIXcevb7YBoB2UAUlmbsSSbQQpM98ORAy0hSlHGlWexx6DyCLZJfrbh2WyGLU9NXtBd5DvtS8R52upD3bHR0gb557xi2oEV%2FPO8DC%2BXHhhf1qnEATDbyJLXBjqQAVKaLGuH8LXdUI83SORSgJ%2BXlPNlPs7yvWUF5iGx5HEFIMeVXpN35soh6E7kE2waq%2Fn0zgO2W4uem8QALLI8PdHXlTvybix2CfBHjAzEfqaLKpHUS1M7GVfEQcrxYK0cRJv7jxo5EfsjTG4J6XYTzWMZm9sAXNwk4GBkvERlDUs2Wt9JEV%2B1mdnedBCkX16MOA%3D%3D&X-Amz-Signature=20e5c9a573779f606ce73d3e60197473866ce41c46fed0700ed6cf7889c13d15"
+  }
+ ],
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f60216f9-8740-4560-bfcb-ba9e4b8a0536.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZDCUI3AR%2F20261030%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261030T141009Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEG4aCmV1LW5vcnRoLTEiRjBEAiByJpAzcfdZb02gJj1hGGB9COYOtQpPG9n7xt%2BcAzKB8QIgAZAd9662EwXlVvG3QB8BElPD8XwjFwD0DOSfspsEBvIqpwUINxAAGgw1ODI4ODE3MzA3MDEiDOJePp%2BjU%2BS2PhHo%2FCqEBdSQfI0HEwB0sGUnCwh3iJCejNdpcyErg1%2BMhrrGY%2BGhz39lPzXFCKF5OZW3VslEmIl4lqVEwgwBF%2BIyBV7BHOfEFNgNO3vYfA5a9p%2FHZzx9ateFTSN6XuIl7SwXMBGydUWaI%2FKOit%2FHcFGxa4XPLohGs%2BcsPk06m0mDiEU4IZBmQCts9qoycmcQOQrYuqlfWkEwOmLtBWGhTJICj5QnsiPVqTczhjevkmSfIefZAMsAdXrkIsWuMqUFADaomhqexI3ZDsFoZje%2BERfdZvPsPr%2B7SxGwaGz5LnJ%2BsOmfgRptMFjbQnCWX8%2BvsXQu4aPyF7BrulmSwdxH1RNULXsF8qYIVuim%2BNhz3fJvFp7zOG30EJ8ltNI5uGeqZueEjQcygrRP4If%2BUPbFqSpeOPfGbkEwQNrcD5hpHtYcNRUsiKyA5QtnAbe867xOHFzq9kjMEq57m8ZUUVlNxnPZXmMpARJbqZz2Mvh5eIsIQJIqcfb9EAk2Vd3YYhmXenJ3NVWi9pRUpakng2hEAkCDbKqOXNSRKdAkO68zdclkJF%2FDAgminnx3DAqN2qDk9BBzuTrdIRHS7Is%2BTdrKzozuG7Go0yH1viri5EYg67DMMpIGBQBDJ3ckQ00bHdldalhEi2nfFMdrUVKNz6KdWkv8LWBLonW2cfpPapKvtGSNFkqPz4NVAtt0DTV5ith86dxTYcULYQdsYS4x8N8CmwX3nkItIG65PG33JodazcTpjq0z%2Fl8RhU90yKQZzlCfiXObrkFP5Eb9Kh1ZlFtbMdEQRY718wsS3ZRFX0IkUpScEySO4SzQGfItr9nLNSrXTu86MpfS%2Bc%2BRYIngWyToqo3H69kLD0jiEVZKMJXJktcGOpEBvex6pOdvNptOZcFTR6wX1cHlU7dt%2Bn2UVvGyWOEPzSrg9lfIkh%2FUpMofq%2FFdsjgCm6kgcxboSB2%2BYc1yQoIvxpi78dFXulbGAoaW1j18emMcStziUGaEfIsz3spSwqoW8kn8T186v9ievbhElk8yRlWT1SSyTGLzgGhziVO%2FE0lZuEGO9QgmXelEXuCEHWxYlw%3D%3D&X-Amz-Signature=adb4adab9fb7cd4ec063d57f541c73841c7252deedbf045476f8dca2a120faf8",
+ "log_type": "application/octet-stream"
+}
