@@ -1,0 +1,11 @@
+{"dur": 34.4,
+ "assets": {
+  "slot": {"size": 1.98, "fit": "z"},
+  "phone": {"size": 0.148, "fit": "x"},
+  "chips": {"size": 0.32, "fit": "x"},
+  "cam": {"size": 0.16, "fit": "x"},
+  "money": {"size": 0.28, "fit": "x"},
+  "circuit": {"size": 0.6, "fit": "x"},
+  "setup": {"size": 1.65, "fit": "z"},
+  "stool": {"size": 0.75, "fit": "z"}
+ }}
