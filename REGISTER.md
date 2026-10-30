@@ -6,6 +6,7 @@
 5. Simple and clear: one idea, explained so a non-native 14-year-old gets it.
 6. Before posting, an independent agent without my context compares hook, script, visuals and clarity against the template. Fail = no post.
 7. Never repeat a topic already posted (check Metricool history).
+9. BlenderKit (paid, ~80k assets, API key in the Mac's Blender addon) is ALWAYS used for every real object: download via the common_dl.py helper in earlier jobs (e.g. jobs/2113-ct43-hero.json). Code primitives only for abstract graphics. Plus Poly Haven HDRIs for lighting.
 8. Topics are not limited to one family: pick the most fascinating topic available (strongest curiosity + share pull), then execute it perfectly. Our own data only hints at direction.
 
 # VIDEO REGISTER: Pflicht vor JEDEM Skript und vor JEDEM Post lesen
