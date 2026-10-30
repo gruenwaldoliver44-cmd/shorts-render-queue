@@ -1,15 +1,15 @@
 {
  "title": "CT4 Spielautomaten-Hacker",
  "topic": "Russen sagten Slots per Handy-Vibration voraus, >250.000 $/Woche",
- "stage": "Szenen",
- "progress": 45,
- "note": "Skript + Stimme fertig. BlenderKit-Casino gebaut (Slot, iPhone, Chips, Kamera, Geld). Mac rendert erste Standbilder.",
- "next": "Standbilder prüfen, an Oliver, dann Render",
+ "stage": "Render",
+ "progress": 60,
+ "note": "Fixes v4 (Walzen, Spin-Knopf, Handy). Mac rendert jetzt Standbilder v4 und danach das komplette Video 1080x1920.",
+ "next": "Video mit Ton und Untertiteln zusammensetzen, prüfen, posten",
  "eta": "nacheinander, CT zuerst",
  "preview_img": "",
  "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:52:36Z"
+ "updated": "2026-10-30T15:13:35Z"
 }
