@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-30T12:37:03.988Z",
+ "ts": "2026-10-30T12:39:03.903Z",
  "source": "dashboard",
- "current": "2540-ct-instacart-v1 since 2026-10-30 10:11:40",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 65,
- "blender_procs": 1,
- "cpu": 63,
- "gpu": 98,
- "mem_free_pct": 54,
+ "blender_procs": 0,
+ "cpu": 2,
+ "gpu": 0,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
+  "2540-ct-instacart-v1",
   "2531-ft-upload",
   "2520-mc-pepsi-v1",
   "2511-mt-listening-v1",
@@ -71,17 +72,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2540-ct-instacart-v1",
-  "title": "Compound Times · Instacart (Cycles 1080p)",
-  "job_since": "2026-10-30T10:11:40.782Z",
-  "timeout_min": 330,
-  "step": 3,
-  "steps": 3,
-  "label": "Render 1335 Frames",
-  "step_since": "2026-10-30T10:11:50.237Z",
-  "progress": {},
-  "updated": "2026-10-30T10:11:50.237Z"
+  "state": "idle",
+  "last": {
+   "job": "2540-ct-instacart-v1",
+   "title": "Compound Times · Instacart (Cycles 1080p)",
+   "result": "fertig",
+   "at": "2026-10-30T12:38:21.176Z"
+  },
+  "updated": "2026-10-30T12:38:21.176Z"
  },
  "queue": []
 }
