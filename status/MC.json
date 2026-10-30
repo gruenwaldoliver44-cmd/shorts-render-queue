@@ -1,15 +1,15 @@
 {
- "title": "MC3 Pepsi 349",
- "topic": "Pepsi versprach 40.000 $ für Kronkorken 349, dann hatten 800.000 Leute die 349",
+ "title": "MC3 · neues Thema",
+ "topic": "Themensuche läuft (alte Themen gestoppt, zu bekannt)",
  "stage": "Skript",
- "progress": 10,
- "note": "Fakten geprüft, Skript in unabhängiger Prüfung",
- "next": "Stimme, Modelle, Szene",
- "eta": "nach MT3",
+ "progress": 5,
+ "note": "4 Recherche-Agenten suchen neue, unglaubliche Themen mit Belegen. Oliver bekommt 3 pro Kanal zur Auswahl.",
+ "next": "Thema wählen, Skript (Ziel 8/10), dann Blender",
+ "eta": "offen",
  "preview_img": "",
- "preview_note": "Vorlage: Zack D. Films 11 Mio.",
+ "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:03:02Z"
+ "updated": "2026-10-30T14:11:06Z"
 }

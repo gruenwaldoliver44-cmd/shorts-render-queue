@@ -1,15 +1,15 @@
 {
- "title": "MT3 SawStop",
- "topic": "Säge stoppt in unter 5 ms, wenn sie einen Finger berührt",
- "stage": "Stimme",
- "progress": 25,
- "note": "Skript geprüft (6/10), Stimme Mark wird erzeugt",
- "next": "Modelle suchen (Säge, Hand), Szene",
- "eta": "nach CT3",
+ "title": "MT3 · neues Thema",
+ "topic": "Themensuche läuft (alte Themen gestoppt, zu bekannt)",
+ "stage": "Skript",
+ "progress": 5,
+ "note": "4 Recherche-Agenten suchen neue, unglaubliche Themen mit Belegen. Oliver bekommt 3 pro Kanal zur Auswahl.",
+ "next": "Thema wählen, Skript (Ziel 8/10), dann Blender",
+ "eta": "offen",
  "preview_img": "",
- "preview_note": "Vorlage: Zack D. Films 110 Mio.",
+ "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:03:02Z"
+ "updated": "2026-10-30T14:11:06Z"
 }

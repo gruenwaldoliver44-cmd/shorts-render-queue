@@ -3,9 +3,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common_dl import *
 OUTD = sys.argv[sys.argv.index("--") + 1]; os.makedirs(OUTD, exist_ok=True)
 for o in list(bpy.data.objects): bpy.data.objects.remove(o)
-sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.samples = 24
-try: sc.cycles.device = "GPU"
-except Exception: pass
+sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.samples = 8
+sc.cycles.device = "CPU"
 lines = []
 def W(*a): lines.append(" ".join(str(x) for x in a))
 keys = list(BK.keys()); x0 = 0.0
@@ -37,8 +36,10 @@ hd = ph_hdri("studio_small_09")
 if hd:
     n = w.node_tree.nodes.new("ShaderNodeTexEnvironment"); n.image = bpy.data.images.load(hd)
     w.node_tree.links.new(n.outputs[0], w.node_tree.nodes["Background"].inputs[0])
-sc.render.resolution_x, sc.render.resolution_y = 1600, 1200
+sc.render.resolution_x, sc.render.resolution_y = 1200, 900
+open(os.path.join(OUTD, "info.txt"), "w").write("\n".join(lines))
 sc.render.filepath = os.path.join(OUTD, "lineup.png")
-bpy.ops.render.render(write_still=True)
+try: bpy.ops.render.render(write_still=True)
+except Exception as e: print("RENDER FAIL", e)
 open(os.path.join(OUTD, "info.txt"), "w").write("\n".join(lines))
 print("PROBE OK")

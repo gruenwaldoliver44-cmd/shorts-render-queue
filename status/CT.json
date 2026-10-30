@@ -1,15 +1,15 @@
 {
- "title": "CT3 Garantie-Aufkleber",
- "topic": "'Warranty void if removed' ist ein Bluff (FTC 2018, Gesetz 1975) + Ölwechsel",
- "stage": "Szenen",
- "progress": 40,
- "note": "Skript geprüft (6/10), Stimme Mark fertig, Drucktexturen fertig. Mac lädt gerade 11 BlenderKit-Modelle (PS5, BMW M5, Hebebühne ...).",
- "next": "Szene bauen, erstes Standbild an Oliver, dann Render (~3 h)",
- "eta": "heute Abend",
+ "title": "CT3 · neues Thema",
+ "topic": "Themensuche läuft (alte Themen gestoppt, zu bekannt)",
+ "stage": "Skript",
+ "progress": 5,
+ "note": "4 Recherche-Agenten suchen neue, unglaubliche Themen mit Belegen. Oliver bekommt 3 pro Kanal zur Auswahl.",
+ "next": "Thema wählen, Skript (Ziel 8/10), dann Blender",
+ "eta": "offen",
  "preview_img": "",
- "preview_note": "Vorlage: Zack D. Films 73 Mio. + Erika Kullberg 46 Mio.",
+ "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:03:02Z"
+ "updated": "2026-10-30T14:11:06Z"
 }
