@@ -1,5 +1,5 @@
 # CT4 slot predictors: casino aisle (x=0), circuit macro (x=40), analysis desk (x=80)
-P = dict(scr_z=1.23, scr_w=0.50, scr_h=0.30, scr_x=-0.02, deck_z=0.93, deck_y=0.10, btn_x=0.18)
+P = dict(scr_z=1.23, scr_w=0.50, scr_h=0.30, scr_x=-0.02, deck_z=0.95, deck_y=0.16, btn_x=0.18)
 SW = SH = None
 # ---------- world ----------
 w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True
@@ -51,7 +51,7 @@ def reel_mat(i):
     t.image = bpy.data.images.load(TX + 'reel.png'); t.extension = 'REPEAT'
     mp.inputs['Scale'].default_value = (1.0, 1.0, 1)
     nt.links.new(tc.outputs['UV'], mp.inputs[0]); nt.links.new(mp.outputs[0], t.inputs[0])
-    nt.links.new(t.outputs[0], b.inputs['Base Color']); nt.links.new(t.outputs[0], b.inputs['Emission Color']); b.inputs['Emission Strength'].default_value = 0.35
+    nt.links.new(t.outputs[0], b.inputs['Base Color']); nt.links.new(t.outputs[0], b.inputs['Emission Color']); b.inputs['Emission Strength'].default_value = 0.18
     b.inputs['Roughness'].default_value = 0.35
     return m, mp
 REELS = []
@@ -110,7 +110,7 @@ ph.keyframe_insert('location', frame=F(17.6)); ph.keyframe_insert('rotation_eule
 bpy.ops.mesh.primitive_cylinder_add(vertices=48, radius=0.035, depth=0.03, location=(P['scr_x'] + P['btn_x'], FRONT_Y - P['deck_y'], P['deck_z'] + 0.015))
 btn = bpy.context.active_object; btn.name = 'spinbtn'
 bm = bpy.data.materials.new('btn'); bm.use_nodes = True; bb = bm.node_tree.nodes['Principled BSDF']
-bb.inputs['Base Color'].default_value = (1, 0.15, 0.1, 1); bb.inputs['Emission Color'].default_value = (1, 0.1, 0.05, 1); bb.inputs['Emission Strength'].default_value = 3.0; bb.inputs['Roughness'].default_value = 0.2
+bb.inputs['Base Color'].default_value = (1, 0.15, 0.1, 1); bb.inputs['Emission Color'].default_value = (1, 0.1, 0.05, 1); bb.inputs['Emission Strength'].default_value = 1.0; bb.inputs['Roughness'].default_value = 0.2
 btn.data.materials.append(bm)
 for t in (1.6, 4.95, 20.55, 21.45):
     z0 = btn.location.z
@@ -122,6 +122,7 @@ ch, cobjs, cmn, cmx = place('chips', (P['scr_x'], FRONT_Y - 0.18, P['deck_z'] - 
 # ---------- money pile grows (26.4-29.3) ----------
 MONEY = []
 mo, mobjs, mmn, mmx = place('money', (P['scr_x'] + 0.2, FRONT_Y - 0.16, P['deck_z'] + 0.001))
+MS0 = mo.scale.copy(); mo.scale = MS0 * 0.001; mo.keyframe_insert('scale', frame=1); mo.keyframe_insert('scale', frame=F(26.3)); mo.scale = MS0; mo.keyframe_insert('scale', frame=F(26.3) + 4)
 for k in range(9):
     piv = dup(mobjs, mo, (0.03 * (k % 3) - 0.03, 0.0, 0.042 * (k + 1)), 0.05 * k)
     piv.scale = (0.001, 0.001, 0.001); piv.keyframe_insert('scale', frame=1); piv.keyframe_insert('scale', frame=F(26.4 + k * 0.28))
