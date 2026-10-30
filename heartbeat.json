@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-30T10:11:03.667Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-30T10:11:40.816Z",
+ "current": "2540-ct-instacart-v1 since 2026-10-30 10:11:40",
+ "busy": true,
  "free_gb": 65,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 0,
- "mem_free_pct": 65,
- "progress": null,
  "done": [
   "2531-ft-upload",
   "2520-mc-pepsi-v1",
@@ -71,14 +66,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2531-ft-upload",
-   "title": "Future Tender · Render hochladen",
-   "result": "fertig",
-   "at": "2026-10-30T08:27:19.875Z"
-  },
-  "updated": "2026-10-30T08:27:19.875Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2540-ct-instacart-v1",
+  "title": "Compound Times · Instacart (Cycles 1080p)",
+  "job_since": "2026-10-30T10:11:40.782Z",
+  "timeout_min": 330,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-30T10:11:40.782Z"
+ }
 }
