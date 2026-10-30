@@ -1,15 +1,15 @@
 {
- "title": "CT51-CT54",
- "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe: CT51-CT54 fertig",
+ "title": "CT3 Garantie-Aufkleber",
+ "topic": "'Warranty void if removed' ist ein Bluff (FTC 2018, Gesetz 1975) + Ölwechsel",
+ "stage": "Szenen",
+ "progress": 40,
+ "note": "Skript geprüft (6/10), Stimme Mark fertig, Drucktexturen fertig. Mac lädt gerade 11 BlenderKit-Modelle (PS5, BMW M5, Hebebühne ...).",
+ "next": "Szene bauen, erstes Standbild an Oliver, dann Render (~3 h)",
+ "eta": "heute Abend",
+ "preview_img": "",
+ "preview_note": "Vorlage: Zack D. Films 73 Mio. + Erika Kullberg 46 Mio.",
+ "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T13:12:00Z",
- "eta": "CT51 Mo 26 Okt 16:00, CT52 Di 27 Okt 16:00, CT53 Mi 28 Okt 16:00, CT54 Do 29 Okt 16:00",
- "topic": "CT51 Debit-Sperre, CT52 Versicherung, CT53 Geschenkkarte, CT54 Payday-Kredit",
- "progress": 95,
- "next": "keine (Auftrag CT51-CT54 erledigt)",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/ad13fde8-06e1-4467-afd5-22b408e07a07.jpg",
- "preview_note": "CT54 Payday · 64,4 s · -14 LUFS (CT52/CT53 siehe posting.md)",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/16854d28-9b49-4cb8-9e90-95138e6b43e0.mp4"
+ "updated": "2026-10-30T14:03:02Z"
 }

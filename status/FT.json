@@ -1,15 +1,15 @@
 {
- "title": "FT38",
- "stage": "Ton & Prüfung",
- "note": "wartet auf Freigabe (FT38 für Di 27.10. 16:00; FT37 für Mo 16:00 ebenfalls fertig)",
+ "title": "FT3",
+ "topic": "Thema wird gewählt",
+ "stage": "Skript",
+ "progress": 5,
+ "note": "Recherche",
+ "next": "Vorlage + Skript",
+ "eta": "nach MC3",
+ "preview_img": "",
+ "preview_note": "",
+ "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-26T12:43:37Z",
- "eta": "fertig (Slot Di 16:00)",
- "topic": "KI-Shopping-App Nate: die KI waren Menschen ($40M / 0%)",
- "progress": 95,
- "next": "FT39 (Fake-Brad-Pitt, KI-Fotos, 830.000 Euro) für Mi 16:00",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/da8e1ff7-f8e5-41fb-80f1-fc9b6e687f5a.jpg",
- "preview_note": "FT38 Endfassung · 57,0 s · -14 LUFS",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/6dc7c1dc-56ae-44a9-a555-c16e7d8c1196.mp4"
+ "updated": "2026-10-30T14:03:02Z"
 }

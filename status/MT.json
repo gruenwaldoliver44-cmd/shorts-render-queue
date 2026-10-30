@@ -1,15 +1,15 @@
 {
- "title": "MT53",
- "stage": "Rendern (Mac)",
- "note": "MT51 wartet auf Freigabe; MT52 Ton & QC; MT53 Echo/Alexa Premium-Render",
- "slot": "Mi 28.10. 16:00",
+ "title": "MT3 SawStop",
+ "topic": "Säge stoppt in unter 5 ms, wenn sie einen Finger berührt",
+ "stage": "Stimme",
+ "progress": 25,
+ "note": "Skript geprüft (6/10), Stimme Mark wird erzeugt",
+ "next": "Modelle suchen (Säge, Hand), Szene",
+ "eta": "nach CT3",
+ "preview_img": "",
+ "preview_note": "Vorlage: Zack D. Films 110 Mio.",
+ "preview_video": "",
+ "slot": "",
  "error": false,
- "updated": "2026-10-26T13:07:00Z",
- "eta": "Mo 14:00",
- "topic": "Echo schickt jede Anfrage in die Cloud + Fix",
- "progress": 70,
- "next": "MT52 abliefern, MT53 QC, dann MT54 Barometer",
- "preview_img": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9cb62aaf-de22-49c5-ac69-0f02c205982d.jpg",
- "preview_video": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/b25cd9fc-8757-4e1e-a6f2-f6418920ac30.mp4",
- "preview_note": "MT51 final"
+ "updated": "2026-10-30T14:03:02Z"
 }
