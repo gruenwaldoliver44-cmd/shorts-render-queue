@@ -1,15 +1,15 @@
 {
- "title": "CT3 · neues Thema",
- "topic": "Themensuche läuft (alte Themen gestoppt, zu bekannt)",
- "stage": "Skript",
- "progress": 5,
- "note": "4 Recherche-Agenten suchen neue, unglaubliche Themen mit Belegen. Oliver bekommt 3 pro Kanal zur Auswahl.",
- "next": "Thema wählen, Skript (Ziel 8/10), dann Blender",
- "eta": "offen",
+ "title": "CT4 Spielautomaten-Hacker",
+ "topic": "Russen sagten Slots per Handy-Vibration voraus, >250.000 $/Woche",
+ "stage": "Szenen",
+ "progress": 45,
+ "note": "Skript + Stimme fertig. BlenderKit-Casino gebaut (Slot, iPhone, Chips, Kamera, Geld). Mac rendert erste Standbilder.",
+ "next": "Standbilder prüfen, an Oliver, dann Render",
+ "eta": "nacheinander, CT zuerst",
  "preview_img": "",
  "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T14:11:06Z"
+ "updated": "2026-10-30T14:52:36Z"
 }
