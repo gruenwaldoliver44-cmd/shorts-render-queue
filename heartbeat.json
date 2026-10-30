@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T21:25:05.016Z",
+ "ts": "2026-10-30T21:27:05.051Z",
  "source": "dashboard",
  "current": "2566-mc4-stills1 since 2026-10-30 21:19:21",
  "busy": true,
  "free_gb": 61,
  "blender_procs": 1,
- "cpu": 88,
+ "cpu": 91,
  "gpu": 0,
- "mem_free_pct": 75,
+ "mem_free_pct": 76,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
