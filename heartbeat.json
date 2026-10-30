@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T15:31:04.037Z",
+ "ts": "2026-10-30T15:33:04.042Z",
  "source": "dashboard",
  "current": "2564-ct4-full since 2026-10-30 15:14:03",
  "busy": true,
  "free_gb": 61,
  "blender_procs": 1,
- "cpu": 65,
- "gpu": 8,
- "mem_free_pct": 63,
+ "cpu": 62,
+ "gpu": 0,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2563-ct4-stills3",
