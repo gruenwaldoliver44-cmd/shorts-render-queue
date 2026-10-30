@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T13:51:04.057Z",
+ "ts": "2026-10-30T13:53:04.055Z",
  "source": "dashboard",
  "current": "2541-mt-faceid-v1 since 2026-10-30 12:39:23",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 51,
- "gpu": 88,
- "mem_free_pct": 39,
+ "cpu": 49,
+ "gpu": 94,
+ "mem_free_pct": 41,
  "progress": null,
  "done": [
   "2540-ct-instacart-v1",
