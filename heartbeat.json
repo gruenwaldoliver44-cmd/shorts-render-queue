@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-30T14:49:04.016Z",
- "source": "dashboard",
+ "ts": "2026-10-30T14:49:27.904Z",
  "current": "",
  "busy": false,
  "free_gb": 61,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 0,
- "mem_free_pct": 85,
- "progress": null,
  "done": [
   "2560-ct4-probe",
   "2552-ct3-probe3",
@@ -49,8 +44,7 @@
   "2330-mc50-premium",
   "2290-mt50-premium",
   "2427-ft35-premium",
-  "2280-mt49-premium",
-  "2329-mc49-premium"
+  "2280-mt49-premium"
  ],
  "failed": [
   "2551-ct3-probe2",
@@ -83,6 +77,5 @@
    "at": "2026-10-30T14:44:18.274Z"
   },
   "updated": "2026-10-30T14:44:18.274Z"
- },
- "queue": []
+ }
 }
