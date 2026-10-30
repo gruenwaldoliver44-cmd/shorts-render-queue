@@ -1,11 +1,11 @@
 {
- "ts": "2026-10-30T04:09:02.755Z",
+ "ts": "2026-10-30T04:11:02.758Z",
  "source": "dashboard",
  "current": "2520-mc-pepsi-v1 since 2026-10-30 02:26:23",
  "busy": true,
  "free_gb": 65,
  "blender_procs": 1,
- "cpu": 73,
+ "cpu": 67,
  "gpu": 0,
  "mem_free_pct": 57,
  "progress": null,
