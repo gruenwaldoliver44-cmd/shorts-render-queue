@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-30T13:59:04.076Z",
+ "ts": "2026-10-30T14:01:03.981Z",
  "source": "dashboard",
- "current": "2541-mt-faceid-v1 since 2026-10-30 12:39:23",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 65,
- "blender_procs": 1,
- "cpu": 58,
- "gpu": 67,
- "mem_free_pct": 35,
+ "blender_procs": 0,
+ "cpu": 27,
+ "gpu": 32,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
   "2540-ct-instacart-v1",
@@ -52,6 +52,7 @@
   "2271-mt48-premium-v2"
  ],
  "failed": [
+  "2541-mt-faceid-v1",
   "2530-ft-aircanada-v1",
   "2502-ct-bank390-v2",
   "2501-ct-bank390-v1",
@@ -71,17 +72,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2541-mt-faceid-v1",
-  "title": "Machine Times · Face ID (Cycles 1080p)",
-  "job_since": "2026-10-30T12:39:23.562Z",
-  "timeout_min": 360,
-  "step": 3,
-  "steps": 3,
-  "label": "Render 1403 Frames",
-  "step_since": "2026-10-30T12:39:42.237Z",
-  "progress": {},
-  "updated": "2026-10-30T12:39:42.237Z"
+  "state": "idle",
+  "last": {
+   "job": "2541-mt-faceid-v1",
+   "title": "Machine Times · Face ID (Cycles 1080p)",
+   "result": "Fehler",
+   "at": "2026-10-30T14:00:31.005Z"
+  },
+  "updated": "2026-10-30T14:00:31.005Z"
  },
  "queue": []
 }
