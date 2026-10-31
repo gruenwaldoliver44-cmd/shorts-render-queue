@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-31T16:36:16.825Z",
+ "ts": "2026-10-31T16:37:07.522Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 56,
  "blender_procs": 0,
+ "cpu": 7,
+ "gpu": 0,
+ "mem_free_pct": 84,
+ "progress": null,
  "done": [
   "2577-stills-reup",
   "2574a-mt4-reup",
@@ -87,5 +92,6 @@
    "at": "2026-10-31T16:25:54.028Z"
   },
   "updated": "2026-10-31T16:25:54.029Z"
- }
+ },
+ "queue": []
 }
