@@ -3,13 +3,16 @@
  "topic": "Americium im Rauchmelder rettet dein Leben",
  "stage": "Render",
  "progress": 65,
- "note": "Standbilder geprüft und korrigiert. Mac rendert das komplette Video (740 Bilder).",
- "next": "Ton + Untertitel, prüfen, posten (~12:30)",
+ "note": "Standbilder gepr\u00fcft und korrigiert. Mac rendert das komplette Video (740 Bilder).",
+ "next": "Ton + Untertitel, pr\u00fcfen, posten (~12:30)",
  "eta": "nacheinander, CT zuerst",
  "preview_img": "",
  "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-31T07:21:58Z"
+ "updated": "2026-10-31T07:21:58Z",
+ "video": "MT4 Rauchmelder",
+ "state": "gepostet 17:40",
+ "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/f50967b5-2028-4784-aad6-5371e9ef35e0.mp4"
 }

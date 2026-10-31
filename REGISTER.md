@@ -78,3 +78,4 @@ Oliver, 30 Oct 2026: "keine Ausreden … stell sicher, dass du es nicht vergisst
 
 17. (31.10. 08:58, Oliver) Dauerbetrieb wieder AN: jeder Kanal mind. 1 Video/Tag, sofort posten – ABER nur nach ehrlicher Vollbild-QA (jedes Bild 0.5 s-Raster in voller Groesse, jedes Wort, jeder Text) + Hook-Blindtest bestanden; Durchgefallenes wird neu gebaut, nicht gepostet. Massstab = 1M+-Videos mit Bildsprache, die wir wirklich nachbauen koennen (NICHT Zack D, NICHT eigene 5k-Videos). Erst Hook+Skript zur Freigabe, dann bauen.
 - 31.10.: Presigned upload URLs (STS) expire after ~6-8h, not 24h! Long renders: render job WITHOUT uploads, then separate fresh upload job (copy from work/<id>).
+- 2026-10-31 17:40 MT4 Rauchmelder (Americium) gepostet IG+TT 412284081, YT 412284094. QA-Mängel: LED schwarz statt rot vor Alarm, Rauch kaum sichtbar (20-23s), Schluss-Shot 26-31s zu nah/unscharf, Partikel überdecken Brand+Unterzeile, Zylinder facettiert.
