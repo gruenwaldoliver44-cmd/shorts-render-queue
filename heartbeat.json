@@ -1,5 +1,5 @@
 {
- "ts": "2026-10-31T15:57:07.560Z",
+ "ts": "2026-10-31T15:59:07.493Z",
  "source": "dashboard",
  "current": "2574-mc4-stills3 since 2026-10-31 15:26:32",
  "busy": true,
@@ -7,7 +7,7 @@
  "blender_procs": 1,
  "cpu": 32,
  "gpu": 0,
- "mem_free_pct": 35,
+ "mem_free_pct": 49,
  "progress": null,
  "done": [
   "2570-mt4-stills2",
