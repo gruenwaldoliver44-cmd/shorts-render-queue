@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-31T04:43:05.823Z",
- "source": "dashboard",
+ "ts": "2026-10-31T04:44:33.648Z",
  "current": "",
  "busy": false,
  "free_gb": 60,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 4,
- "mem_free_pct": 78,
- "progress": null,
  "done": [
   "2568-ct4-seq",
   "2563-ct4-stills3",
@@ -86,6 +81,5 @@
    "at": "2026-10-31T02:25:02.516Z"
   },
   "updated": "2026-10-31T02:25:02.516Z"
- },
- "queue": []
+ }
 }
