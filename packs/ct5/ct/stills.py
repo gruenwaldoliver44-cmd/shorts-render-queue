@@ -15,4 +15,15 @@ sc.render.image_settings.file_format = 'JPEG'
 for t in times:
     f = int(round(t * 24)) + 1; sc.frame_set(f)
     sc.render.filepath = '%s/t%05.1f.jpg' % (out, t); bpy.ops.render.render(write_still=True)
+import time
+if os.environ.get('EEVEE_TOO'):
+    t0 = time.time()
+    for eng in ('BLENDER_EEVEE_NEXT', 'BLENDER_EEVEE'):
+        try: sc.render.engine = eng; break
+        except Exception: pass
+    sc.render.resolution_percentage = 100
+    for t in times[:4]:
+        f = int(round(t * 24)) + 1; sc.frame_set(f)
+        sc.render.filepath = '%s/ev%05.1f.jpg' % (out, t); bpy.ops.render.render(write_still=True)
+    print('EEVEE_SEC_PER_FRAME', round((time.time() - t0) / 4, 1))
 print('STILLS OK')

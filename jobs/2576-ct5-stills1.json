@@ -17,7 +17,7 @@
   },
   {
    "label": "Standbilder",
-   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/stills.py -- $PWD/o 0.5,3.6,8.3,11.0,17.8,20.9,22.8,24.5,27.0,29.5 > stills.log 2>&1; tail -40 stills.log | grep -v -i blendkit; ls o/*.jpg >/dev/null 2>&1 || { echo RETRY_CPU; CPU_ONLY=1 CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/stills.py -- $PWD/o 0.5,3.6,8.3,11.0,17.8,20.9,22.8,24.5,27.0,29.5 > stills_cpu.log 2>&1; tail -30 stills_cpu.log | grep -v -i blendkit; }; cd o && zip -q -j ../ct5_s1.zip *.jpg; cd ..; ls -la ct5_s1.zip; true"
+   "run": "EEVEE_TOO=1 CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/stills.py -- $PWD/o 0.5,3.6,8.3,11.0,17.8,20.9,22.8,24.5,27.0,29.5 > stills.log 2>&1; tail -40 stills.log | grep -v -i blendkit; ls o/*.jpg >/dev/null 2>&1 || { echo RETRY_CPU; CPU_ONLY=1 CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/stills.py -- $PWD/o 0.5,3.6,8.3,11.0,17.8,20.9,22.8,24.5,27.0,29.5 > stills_cpu.log 2>&1; tail -30 stills_cpu.log | grep -v -i blendkit; }; cd o && zip -q -j ../ct5_s1.zip *.jpg; cd ..; ls -la ct5_s1.zip; true"
   }
  ],
  "uploads": [
