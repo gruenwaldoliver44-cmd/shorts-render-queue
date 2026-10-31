@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-31T07:07:06.577Z",
- "source": "dashboard",
- "current": "2571-mc4-stills2 since 2026-10-31 06:53:55",
+ "ts": "2026-10-31T07:08:46.320Z",
+ "current": "2572-ft4-stills2 since 2026-10-31 07:08:46",
  "busy": true,
- "free_gb": 49,
- "blender_procs": 1,
- "cpu": 30,
- "gpu": 20,
- "mem_free_pct": 35,
- "progress": null,
+ "free_gb": 50,
+ "blender_procs": 0,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -52,6 +47,7 @@
   "2132-ct47-premium"
  ],
  "failed": [
+  "2571-mc4-stills2",
   "2567-ft4-stills1",
   "2566-mc4-stills1",
   "2565-mt4-stills1",
@@ -79,18 +75,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2571-mc4-stills2",
-  "title": "MC4 Standbilder",
-  "job_since": "2026-10-31T06:53:55.778Z",
+  "job": "2572-ft4-stills2",
+  "title": "FT4 Standbilder",
+  "job_since": "2026-10-31T07:08:46.299Z",
   "timeout_min": 90,
-  "step": 3,
+  "step": 0,
   "steps": 3,
-  "label": "Standbilder",
-  "step_since": "2026-10-31T07:03:34.768Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-31T07:03:34.768Z"
- },
- "queue": [
-  "2572-ft4-stills2"
- ]
+  "updated": "2026-10-31T07:08:46.299Z"
+ }
 }
