@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-31T16:17:07.583Z",
- "source": "dashboard",
- "current": "2575-ft4-stills3 since 2026-10-31 16:16:25",
+ "ts": "2026-10-31T16:17:33.340Z",
+ "current": "2576-ct5-stills1 since 2026-10-31 16:17:33",
  "busy": true,
  "free_gb": 56,
- "blender_procs": 1,
- "cpu": 42,
- "gpu": 0,
- "mem_free_pct": 83,
- "progress": null,
+ "blender_procs": 0,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -52,6 +47,7 @@
   "2132-ct47-premium"
  ],
  "failed": [
+  "2575-ft4-stills3",
   "2574-mc4-stills3",
   "2573-mt4-seq",
   "2572-ft4-stills2",
@@ -83,18 +79,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2575-ft4-stills3",
-  "title": "FT4 Standbilder",
-  "job_since": "2026-10-31T16:16:25.469Z",
+  "job": "2576-ct5-stills1",
+  "title": "CT5 Rubbellos Standbilder",
+  "job_since": "2026-10-31T16:17:33.318Z",
   "timeout_min": 90,
-  "step": 3,
+  "step": 0,
   "steps": 3,
-  "label": "Standbilder",
-  "step_since": "2026-10-31T16:16:31.087Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-31T16:16:31.087Z"
- },
- "queue": [
-  "2576-ct5-stills1"
- ]
+  "updated": "2026-10-31T16:17:33.318Z"
+ }
 }
