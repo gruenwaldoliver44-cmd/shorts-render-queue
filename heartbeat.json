@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-31T23:21:08.023Z",
+ "ts": "2026-10-31T23:23:08.013Z",
  "source": "dashboard",
  "current": "2581-ft4-eevee since 2026-10-31 22:51:15",
  "busy": true,
  "free_gb": 54,
  "blender_procs": 1,
  "cpu": 6,
- "gpu": 80,
+ "gpu": 78,
  "mem_free_pct": 55,
  "progress": {
-  "n": 394,
+  "n": 422,
   "total": 758,
-  "eta_min": 27
+  "eta_min": 25
  },
  "done": [
   "2580-ct5-eevee",
