@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-31T06:49:45.752Z",
- "current": "2569-diag since 2026-10-31 06:49:45",
+ "ts": "2026-10-31T06:49:48.174Z",
+ "current": "",
  "busy": true,
  "free_gb": 60,
  "blender_procs": 0,
  "done": [
+  "2569-diag",
   "2568-ct4-seq",
   "2563-ct4-stills3",
   "2562-ct4-stills2",
@@ -43,8 +44,7 @@
   "2134-ct48-premium2",
   "2133-ct48-premium",
   "2132-ct47-premium",
-  "2331-mc49-premium2",
-  "2428-ft34b-ft36-premium"
+  "2331-mc49-premium2"
  ],
  "failed": [
   "2567-ft4-stills1",
@@ -73,15 +73,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2569-diag",
-  "title": "Diagnose",
-  "job_since": "2026-10-31T06:49:45.730Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-31T06:49:45.730Z"
+  "state": "idle",
+  "last": {
+   "job": "2569-diag",
+   "title": "Diagnose",
+   "result": "fertig",
+   "at": "2026-10-31T06:49:47.792Z"
+  },
+  "updated": "2026-10-31T06:49:47.792Z"
  }
 }
