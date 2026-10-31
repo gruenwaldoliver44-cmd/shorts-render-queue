@@ -1,15 +1,15 @@
 {
- "ts": "2026-10-31T14:47:07.203Z",
+ "ts": "2026-10-31T14:49:07.161Z",
  "source": "dashboard",
  "current": "2573-mt4-seq since 2026-10-31 07:09:57",
  "busy": true,
  "free_gb": 58,
  "blender_procs": 1,
- "cpu": 86,
+ "cpu": 75,
  "gpu": 98,
- "mem_free_pct": 38,
+ "mem_free_pct": 43,
  "progress": {
-  "n": 719,
+  "n": 720,
   "total": 740,
   "eta_min": 36
  },
