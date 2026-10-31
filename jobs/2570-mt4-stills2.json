@@ -1,0 +1,31 @@
+{
+ "id": "2570-mt4-stills2",
+ "type": "shell",
+ "title": "MT4 Standbilder",
+ "retries": 0,
+ "min_free_gb": 4,
+ "timeout_min": 90,
+ "expires": "2026-11-02T22:00:00Z",
+ "steps": [
+  {
+   "label": "Pack",
+   "run": "rm -rf ct tex && cp -R \"$HOME/ShortsRenderAgent/repo/packs/mt4/ct\" \"$HOME/ShortsRenderAgent/repo/packs/mt4/tex\" . && ls ct"
+  },
+  {
+   "label": "Szene bauen",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b -P ct/scene.py > build.log 2>&1; grep -v -i -E 'bearer|api_key|deprecat|use_nodes' build.log | tail -30; grep -q 'SCENE OK' build.log"
+  },
+  {
+   "label": "Standbilder",
+   "run": "CT_ROOT=$PWD /Applications/Blender.app/Contents/MacOS/Blender -b ct/scene.blend -P ct/stills.py -- $PWD/o 0.5,3.5,6.5,9.0,13.0,17.0,21.5,23.7,25.0,28.5 > stills.log 2>&1; tail -3 stills.log; cd o && zip -q -j ../mt4_s2.zip *.jpg; cd ..; ls -la mt4_s2.zip; true"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "mt4_s2.zip",
+   "type": "application/octet-stream",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/7fc0c712-c498-437b-97a0-07d2622965f1.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGXOC2KUWS%2F20261031%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261031T064710Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCmV1LW5vcnRoLTEiRjBEAiAuairYgTYfx9BybKfO%2FZJe1HclPNTR2etFmfDYfBvqvQIgXMd1ZuaoAYt7JXFt7%2FlOYcDMWjDYfqRUOdfbxwiSypgqpwUIRhAAGgw1ODI4ODE3MzA3MDEiDKNwOz0WMFWbeXjbMiqEBRGXHTnuakkRH7w1eeMEyOUki9WnJFyGGvkMcJ621tdqe0swDi8AZFVOh3f0us7WG7sPyBFnJI%2FdmYQS1dmVwk1Y6ZSPQtUmZ5N71EFy8FFS6H1v9cBHAdUR8A8VsWK8q2E1tujJiG5HkPBBpZTH1DZVl2Ogt69lZX6Cg1ZRpgx5KxIYdqHw31jMauGvjz5cDP%2B91Q%2FEuwQs4hGZhMcn3TwtUEv2iT%2FazG0OlWNbiwn3q8zvoaFjo8yfgaJZ%2F5buoFjwRIfa1tSGIV1dCFcSXri2VHHwdzq%2FHOF%2FfPwDwl5UrVj3ZVb2SZRCh5a%2FFnQRVN4%2BSTesRJmbK%2BdAI4zKPUjKq1p%2Fp6knVD8NGxxNMpgatnW0cuoItP%2FGMjuzd%2FH0xSnPZi25wjirnCHDjfQEuXGZSbWqsjdfJRwIF8Mnd04DfGhpjhCtL86Q1uxQZd5oZlICThHg%2BOmw4Ih%2FqMpFbTPNoIYls24lF8PKYfiB1JrILv4yEfbPHOIQVgek5fDCgesynJGHUm%2Blgtvw2%2F25OOSTpInFYp1h%2Fti%2F%2BRTgkdjCAQ%2FkhtqiL%2FeKZbgkLm1rnnc%2FMJ8axMON5GHYgWC707awXZ%2BD8UAZshxo95MfrCo3zvlS45Ayy1BWU9AdeEVDUOjkD13rmEa0xtCC%2Bs7XpLhPoEL3GFfaAlICNTgSQWGf5oYHlgRTHE4uCCXUCrKalY82rVArMe%2Fl39lZsuTQOIIntWg9dMBc3dOkCooNConje8z17mfzOjidqB7OYplRCY%2FIX%2FmjQDwkVP3x8WMZVjrPou7dXXFYjnvfm1Z%2BTVC5qkWM4b9GjvO3hsZzClXCiVd1pG94%2BvJoDPQ0YmgZGH3b%2BR%2F%2BMIWDltcGOpEBzG2wzYBiniYbj8stdl8Qhnu7o99o5TE7losQJNSjJbTGEL2G2kBHcZlgY%2FaDfj1JkMdxV9CXl3KVEo2PggWfrlTInknZYR%2B7QueqYMWXe%2FPapJrMujpKPw0TBiOBtoCZR0gwNvsFDM4DWE3MSKiOHpG6Hdd7qw71rysLxVx1RKp%2FhnEAs66aRTAUs37%2B8MWu2g%3D%3D&X-Amz-Signature=b84864a71e42655b9bc7ff8d69f068ce6a031df0825ec84a8cd3ab78311268ac"
+  }
+ ],
+ "log_upload": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9fbd13bd-3e4a-446e-acb6-9ec1c9bde2ef.txt?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGZPUBU6HV%2F20261031%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261031T064710Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH4aCmV1LW5vcnRoLTEiRjBEAiBb6kfbA8xSsUXyBhVs97SU%2FfxbI2ur%2FOuUH64O%2B7DJwQIgPsurmHlgjrYLvbrhKDL4Se86ppGdxqXbBgObETRtZ3oqpwUIRhAAGgw1ODI4ODE3MzA3MDEiDL%2BjGhgGY3%2BCsEUm1CqEBawNUeX1xb%2BSpbdTfo%2FVRmD4aq8jXavBaVTyKrVo9IF2c9SWQ%2BzjK1IBw%2BFY4%2B28TxUxFtMJN%2BOIT2Ub0Iz2YxNNdMlYmv2OdIUwC63K9hm%2B%2FrBeU02%2FVsJmsSpPhO60DYK1EIJeSYfqIo1GiQTXfhn9qYEGG293beofnbI%2FamPSESdHdQKbkduRGRC%2F%2F%2Ftk3imC3ABM5lGBkxTYXZ6c4sZANWnMiqYfB09Sw%2FRBtw9ccGOHBlwAaerlrN4HlGf0NEX%2BGyqdfk4IlswNk9U0ZEFn91PS469JJZ9Sa4DXZiJfeDd20SPbuZy3t4hh1mk4%2Ffxy8EjEeidEDYhjUPcrKwIlPvdPeibm849wqOqoZcpxUVcOCzIndCV%2FJMdpOXuwsvwvcl1p3ACJi%2BJF7xDCqsly%2BsMA2GSl0voSb3YY2CWp9pFwL5OB6Y6Leobz93YINvYw7ZVJCUQdrBEBJfkUFuWe6zUoFVKpGKEW%2BG%2BHNkXwpphEoyP2LSkau63oYbyZSa%2FypFOEyrso6lKySYEcDah2f3dsnC06VP6XFLeyIiSQG7SVivp3aCXta9X1zN2KmhmeR2p0Bux1pMmqLP1utUqBlGcNG5%2F21Hkstkbsr88ale9skPIOuLT5PIhcW4eN75JEws7v9bQ3nCXvWbYefk1lr7JTtD%2BcXX%2B0oi4CIhiJ9yctdRQcqeaAHLN7mSjYqlRiqi920IKx3uNfiznbhfrC6U6Nqr0%2FZYKgKR2SjUXidSqmTXxKURLMCQk1M%2FI%2BgqUIv%2B3oLmkOE0w1iaRl4FwHsv6oY9OUuucbq6ZYKZid%2B3nocLkptGPC5oKRF7EfchnUPuu%2BFxVXVCXfKoHher1rxy6cMJ6DltcGOpEBysRr%2Bvb%2FC%2BjD%2FI3GlIH0Y9sTqSRrM%2BRHSU6gRHncU71C6gopORYqhojc1Uq2x0gEYlqaiPJZgkH%2FyPuntOf7nimjMzDgP7HSZOtPrWDpXpv2cVHRJNez7kCtX64xQx5OPpTMTu3Xcu8U91qBl5elmHPjd2Rbt%2FG681CEgfsuQOiVrxIC3hGYZvjUfAcCJGd8dA%3D%3D&X-Amz-Signature=11cc7f317fc3ca7bd2d61943555fa414e8b91e3e169270b2cfe3269d32698cfc"
+}
