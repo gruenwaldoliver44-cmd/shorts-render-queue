@@ -1,18 +1,14 @@
 {
- "ts": "2026-10-31T02:21:05.666Z",
+ "ts": "2026-10-31T02:23:05.659Z",
  "source": "dashboard",
  "current": "2568-ct4-seq since 2026-10-30 21:33:02",
  "busy": true,
  "free_gb": 60,
- "blender_procs": 1,
- "cpu": 53,
+ "blender_procs": 0,
+ "cpu": 62,
  "gpu": 0,
- "mem_free_pct": 62,
- "progress": {
-  "n": 823,
-  "total": 827,
-  "eta_min": 1
- },
+ "mem_free_pct": 70,
+ "progress": null,
  "done": [
   "2563-ct4-stills3",
   "2562-ct4-stills2",
@@ -87,15 +83,12 @@
   "title": "CT4 Casino Vollrender (Einzelbilder)",
   "job_since": "2026-10-30T21:33:02.181Z",
   "timeout_min": 600,
-  "step": 3,
+  "step": 4,
   "steps": 4,
-  "label": "Vollrender 1080x1920",
-  "step_since": "2026-10-30T21:33:09.066Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2568-ct4-seq/frames",
-   "total": 827
-  },
-  "updated": "2026-10-30T21:33:09.066Z"
+  "label": "Packen",
+  "step_since": "2026-10-31T02:23:05.108Z",
+  "progress": null,
+  "updated": "2026-10-31T02:23:05.108Z"
  },
  "queue": []
 }
