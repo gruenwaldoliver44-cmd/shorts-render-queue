@@ -1,10 +1,33 @@
-{"dur": 30.4,
+{
+ "dur": 26.9,
  "assets": {
-  "drinks": {"size": 2.3, "fit": "z"},
-  "raw": {"size": 2.0, "fit": "z"},
-  "register": {"size": 0.45, "fit": "z"},
-  "phone": {"size": 0.22, "fit": "x"},
-  "notebook": {"size": 0.21, "fit": "x"},
-  "marker": {"size": 0.14, "fit": "y"},
-  "lamp": {"size": 0.42, "fit": "z"}
- }}
+  "drinks": {
+   "size": 2.3,
+   "fit": "z"
+  },
+  "raw": {
+   "size": 2.0,
+   "fit": "z"
+  },
+  "register": {
+   "size": 0.45,
+   "fit": "z"
+  },
+  "phone": {
+   "size": 0.22,
+   "fit": "x"
+  },
+  "notebook": {
+   "size": 0.21,
+   "fit": "x"
+  },
+  "marker": {
+   "size": 0.14,
+   "fit": "y"
+  },
+  "lamp": {
+   "size": 0.42,
+   "fit": "z"
+  }
+ }
+}

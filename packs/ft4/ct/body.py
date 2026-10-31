@@ -123,7 +123,7 @@ pt.links.new(ev.outputs[0], pt.nodes['Material Output'].inputs['Volume']); plume
 for p in parts: parent(p, craft)
 craft.rotation_euler = (math.radians(-90), 0, 0)   # thruster faces -Y: flies +Y
 # flight: cruising (13.4-16.8) then approach towards Psyche (16.8-18.7)
-key(craft, 'location', F(13.0), SCP + V((0, -40, 0))); key(craft, 'location', F(18.7), SCP + V((0, 0, 0)))
+key(craft, 'location', F(4.4), SCP + V((0, -60, 0))); key(craft, 'location', F(7.6), SCP + V((0, -42, 0))); key(craft, 'location', F(22.9), SCP + V((0, -20, 0))); key(craft, 'location', F(25.5), SCP)
 for fc in fcurves(craft):
     for kp in fc.keyframe_points: kp.interpolation = 'LINEAR'
 hide_list = parts
@@ -138,7 +138,7 @@ box('gtable', (3.0, 2.0, 0.06), GC + V((0, 0.3, 0.77)), vel)
 TT = GC + V((0, 0, 0.80))
 goldm = bpy.data.materials.new('gold'); goldm.use_nodes = True; gb2 = goldm.node_tree.nodes['Principled BSDF']
 gb2.inputs['Base Color'].default_value = (1.0, 0.72, 0.28, 1); gb2.inputs['Metallic'].default_value = 1.0; gb2.inputs['Roughness'].default_value = 0.16
-for t, c, r in ((0, (1.0, 0.72, 0.28), 0.16), (28.7, (1.0, 0.72, 0.28), 0.16), (29.9, (0.62, 0.55, 0.45), 0.42)):
+for t, c, r in ((0, (1.0, 0.72, 0.28), 0.16), (29.4, (1.0, 0.72, 0.28), 0.16), (30.5, (0.62, 0.55, 0.45), 0.42)):
     gb2.inputs['Base Color'].default_value = c + (1,); gb2.inputs['Base Color'].keyframe_insert('default_value', frame=F(t))
     gb2.inputs['Roughness'].default_value = r; gb2.inputs['Roughness'].keyframe_insert('default_value', frame=F(t))
 def goldbar(loc, rz=0.0):
@@ -159,7 +159,7 @@ for lay in range(4):
 for i in range(160):
     ang = random.uniform(0, 2 * math.pi); rr = random.uniform(0.25, 1.3)
     b = goldbar(TT + V((rr * math.cos(ang), 0.3 + rr * math.sin(ang) * 0.7, random.uniform(0, 0.12))), random.uniform(0, math.pi))
-    t0 = 24.4 + random.uniform(0, 1.2)
+    t0 = 20.0 + random.uniform(0, 1.6)
     key(b, 'scale', 1, (0.001,) * 3); key(b, 'scale', F(t0), (0.001,) * 3); key(b, 'scale', F(t0) + 2, (1, 1, 1))
     zt = b.location.z; key(b, 'location', F(t0), b.location + V((0, 0, 0.5))); key(b, 'location', F(t0) + 5, V((b.location.x, b.location.y, zt)))
     for fc in fcurves(b):
@@ -174,7 +174,7 @@ def L(name, loc, rot, size, energy, col, kind='AREA'):
     ob = bpy.data.objects.new(name, ld); link(ob); ob.location = loc; ob.rotation_euler = rot; return ob
 gk = L('gk', GC + V((-1.4, -1.6, 2.2)), (math.radians(48), 0, math.radians(-40)), 1.2, 180, (1.0, 0.85, 0.65))
 gr_ = L('gr', GC + V((1.6, 1.8, 1.6)), (math.radians(-55), 0, math.radians(140)), 1.0, 120, (1.0, 0.8, 0.6))
-for t, e, c in ((0, 180, (1.0, 0.85, 0.65)), (28.7, 180, (1.0, 0.85, 0.65)), (29.9, 70, (0.75, 0.82, 1.0))):
+for t, e, c in ((0, 180, (1.0, 0.85, 0.65)), (29.4, 180, (1.0, 0.85, 0.65)), (30.5, 70, (0.75, 0.82, 1.0))):
     gk.data.energy = e; gk.data.keyframe_insert('energy', frame=F(t)); gk.data.color = c; gk.data.keyframe_insert('color', frame=F(t))
 anchors['bars'] = empty('a_bars', TT + V((0, 0.25, 0.06)))
 anchors['ring'] = empty('a_ring', RC)

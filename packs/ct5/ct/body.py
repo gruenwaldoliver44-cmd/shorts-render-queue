@@ -95,12 +95,12 @@ for i in range(6):
     SLOTS.append(stack)
 # one ticket slides out of slot 2 (7.6-8.5)
 slid = SLOTS[2][0]
-key(slid, 'location', F(7.5), slid.location.copy()); key(slid, 'location', F(8.4), slid.location + V((0, -0.11, -0.045)))
+key(slid, 'location', F(6.2), slid.location.copy()); key(slid, 'location', F(7.0), slid.location + V((0, -0.11, -0.045)))
 # the game is pulled (28.6+): all tickets vanish slot by slot
 for i, stack in enumerate(SLOTS):
     for k, t in enumerate(stack):
         if t is slid: continue
-        pop(t, None, 28.6 + 0.08 * i + 0.02 * k)
+        pop(t, None, 25.0 + 0.08 * i + 0.02 * k)
 # hero ticket lying on the counter + coin
 hero = ticket('hero', (0.02, -0.16, CT + 0.0004), store_mat, rz=math.radians(-8))
 coin_m = mat_col('coinm', (0.78, 0.78, 0.8), rough=0.22, metal=1.0)
@@ -108,8 +108,8 @@ coin = cyl('coin', 0.0121, 0.00175, (0, 0, 0), coin_m, v=96)
 bv = coin.modifiers.new('bv', 'BEVEL'); bv.width = 0.0004; bv.segments = 2
 LAT = tpos(hero, 0.5, 0.24)
 key(coin, 'location', 1, LAT + V((0.09, -0.05, 0.05))); key(coin, 'rotation_euler', 1, (math.radians(70), 0, math.radians(20)))
-key(coin, 'location', F(3.4), LAT + V((0.03, 0.0, 0.012))); key(coin, 'rotation_euler', F(3.4), (math.radians(40), 0, math.radians(10)))
-key(coin, 'location', F(4.6), LAT + V((0.03, 0.0, 0.013)))
+key(coin, 'location', F(3.1), LAT + V((0.03, 0.0, 0.012))); key(coin, 'rotation_euler', F(3.1), (math.radians(40), 0, math.radians(10)))
+key(coin, 'location', F(4.0), LAT + V((0.03, 0.0, 0.013)))
 for z_ in range(3):
     plane('tube', 1.4, 0.12, (-0.4 + z_ * 0.6, 0.4 - z_ * 0.9, 3.0), emis('tubem', (1.0, 0.97, 0.92), 3.5), rot=(math.pi, 0, 0))
 alight('S_key', (-0.6, -0.9, 1.9), (math.radians(40), 0, math.radians(-30)), 0.8, 70, (1.0, 0.92, 0.82))
@@ -132,7 +132,7 @@ nb, _, _, _ = place('notebook', DC + V((-0.2, 0.05, DT)))
 desk_mat, REV = ticket_mat('tk_desk', scratch=True)
 dt = ticket('dticket', DC + V((0.08, -0.08, DT + 0.0004)), desk_mat, rz=math.radians(4))
 mk, mobjs, mmn, mmx = place('marker', DC + V((0.2, -0.12, DT)))
-for t, v in ((0, 0.0), (21.55, 0.0), (22.5, 1.2)):
+for t, v in ((0, 0.0), (18.2, 0.0), (19.1, 1.2)):
     REV.outputs[0].default_value = v; REV.outputs[0].keyframe_insert('default_value', frame=F(t))
 # marker circles appear one by one on the singletons, the winning row last
 cm = bpy.data.materials.new('circle'); cm.use_nodes = True; ct_ = cm.node_tree; cb = ct_.nodes['Principled BSDF']
@@ -142,13 +142,13 @@ others = [p for p in TJ['singles'] if p not in TJ['win']]
 order = others + TJ['win']
 for i, (u, v) in enumerate(order):
     c = plane('circ', 0.016, 0.013, tpos(dt, u, v, 0.0007), cm, rot=(0, 0, dt.rotation_euler.z))
-    pop(c, 15.9 + i * 0.3)
+    pop(c, 13.55 + i * 0.18)
 # strike line through the winning row (20.6)
 (u0, v0), (u2, v2) = TJ['win'][0], TJ['win'][2]
 mid = (tpos(dt, u0, v0, 0.0009) + tpos(dt, u2, v2, 0.0009)) / 2
 line = plane('winline', 0.034, 0.0009, mid, emis('linem', (0.85, 0.05, 0.05), 1.2), rot=(0, 0, dt.rotation_euler.z))
-line.scale = (0.001, 1, 1); line.keyframe_insert('scale', frame=1); line.keyframe_insert('scale', frame=F(20.55))
-line.scale = (1, 1, 1); line.keyframe_insert('scale', frame=F(20.85))
+line.scale = (0.001, 1, 1); line.keyframe_insert('scale', frame=1); line.keyframe_insert('scale', frame=F(17.0))
+line.scale = (1, 1, 1); line.keyframe_insert('scale', frame=F(17.3))
 alight('D_lamp', DC + V((-0.3, 0.2, DT + 0.45)), (0, 0, 0), 0.25, 30, (1.0, 0.82, 0.55))
 alight('D_key', DC + V((-0.7, -0.8, 1.7)), (math.radians(42), 0, math.radians(-38)), 0.7, 45, (1.0, 0.86, 0.68))
 alight('D_rim', DC + V((0.8, 0.9, 1.4)), (math.radians(-55), 0, math.radians(140)), 0.8, 45, (0.6, 0.75, 1.0))
