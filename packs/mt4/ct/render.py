@@ -35,6 +35,14 @@ if argv[0] == 'mac':
 if argv[0] == 'seq':
     # resumable JPEG sequence f0001.jpg... for the dashboard progress counter and the sandbox comp
     out, spp = argv[1], int(argv[2])
+    if len(argv) > 3 and argv[3] == 'eevee':
+        for eng in ('BLENDER_EEVEE_NEXT', 'BLENDER_EEVEE'):
+            try: sc.render.engine = eng; break
+            except Exception: pass
+        ee = sc.eevee
+        for a, v in (('taa_render_samples', 64), ('use_raytracing', True), ('use_shadows', True), ('volumetric_tile_size', '4')):
+            try: setattr(ee, a, v)
+            except Exception: pass
     pr = bpy.context.preferences.addons['cycles'].preferences
     pr.compute_device_type = 'METAL'; pr.get_devices()
     for d in pr.devices: d.use = True
