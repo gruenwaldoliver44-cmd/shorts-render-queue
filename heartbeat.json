@@ -1,10 +1,11 @@
 {
- "ts": "2026-10-31T16:37:20.475Z",
- "current": "2578-ct5-stills2 since 2026-10-31 16:37:20",
+ "ts": "2026-10-31T16:38:16.177Z",
+ "current": "2579-ft4-stills4 since 2026-10-31 16:38:16",
  "busy": true,
- "free_gb": 56,
+ "free_gb": 55,
  "blender_procs": 0,
  "done": [
+  "2578-ct5-stills2",
   "2577-stills-reup",
   "2574a-mt4-reup",
   "2570-mt4-stills2",
@@ -43,8 +44,7 @@
   "2340-mc51-premium",
   "2137-ct51-premium",
   "2136-ct50b-premium",
-  "2135-ct49-ct50-premium",
-  "2134-ct48-premium2"
+  "2135-ct49-ct50-premium"
  ],
  "failed": [
   "2576-ct5-stills1",
@@ -80,14 +80,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2578-ct5-stills2",
-  "title": "CT5 Standbilder v2 (Fixes)",
-  "job_since": "2026-10-31T16:37:20.458Z",
+  "job": "2579-ft4-stills4",
+  "title": "FT4 Standbilder v4 (Fixes)",
+  "job_since": "2026-10-31T16:38:16.156Z",
   "timeout_min": 90,
   "step": 0,
   "steps": 3,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-10-31T16:37:20.458Z"
+  "updated": "2026-10-31T16:38:16.156Z"
  }
 }
