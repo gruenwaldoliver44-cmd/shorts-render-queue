@@ -1,19 +1,11 @@
 {
- "ts": "2026-10-31T22:51:07.965Z",
- "source": "dashboard",
- "current": "2580-ct5-eevee since 2026-10-31 16:59:30",
+ "ts": "2026-10-31T22:51:15.578Z",
+ "current": "2581-ft4-eevee since 2026-10-31 22:51:15",
  "busy": true,
  "free_gb": 54,
- "blender_procs": 1,
- "cpu": 2,
- "gpu": 98,
- "mem_free_pct": 32,
- "progress": {
-  "n": 647,
-  "total": 647,
-  "eta_min": 0
- },
+ "blender_procs": 0,
  "done": [
+  "2580-ct5-eevee",
   "2579-ft4-stills4",
   "2578-ct5-stills2",
   "2577-stills-reup",
@@ -52,8 +44,7 @@
   "2429-ft37-premium",
   "2291-mt51-premium",
   "2340-mc51-premium",
-  "2137-ct51-premium",
-  "2136-ct50b-premium"
+  "2137-ct51-premium"
  ],
  "failed": [
   "2576-ct5-stills1",
@@ -89,21 +80,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2580-ct5-eevee",
-  "title": "CT5 Rubbellos Vollrender EEVEE",
-  "job_since": "2026-10-31T16:59:30.016Z",
+  "job": "2581-ft4-eevee",
+  "title": "FT4 Psyche Vollrender EEVEE",
+  "job_since": "2026-10-31T22:51:15.563Z",
   "timeout_min": 420,
-  "step": 3,
+  "step": 0,
   "steps": 4,
-  "label": "Vollrender EEVEE",
-  "step_since": "2026-10-31T16:59:35.151Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2580-ct5-eevee/frames",
-   "total": 647
-  },
-  "updated": "2026-10-31T16:59:35.151Z"
- },
- "queue": [
-  "2581-ft4-eevee"
- ]
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-31T22:51:15.563Z"
+ }
 }
