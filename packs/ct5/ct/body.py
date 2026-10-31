@@ -141,7 +141,7 @@ ct_.links.new(ci.outputs[0], cb.inputs['Base Color']); ct_.links.new(ci.outputs[
 others = [p for p in TJ['singles'] if p not in TJ['win']]
 order = others + TJ['win']
 for i, (u, v) in enumerate(order):
-    c = plane('circ', 0.016, 0.013, tpos(dt, u, v, 0.0007), cm, rot=(0, 0, dt.rotation_euler.z))
+    c = plane('circ', 0.0115, 0.0072, tpos(dt, u, v, 0.0007), cm, rot=(0, 0, dt.rotation_euler.z))
     pop(c, 13.55 + i * 0.18)
 # strike line through the winning row (20.6)
 (u0, v0), (u2, v2) = TJ['win'][0], TJ['win'][2]
@@ -149,6 +149,7 @@ mid = (tpos(dt, u0, v0, 0.0009) + tpos(dt, u2, v2, 0.0009)) / 2
 line = plane('winline', 0.034, 0.0009, mid, emis('linem', (0.85, 0.05, 0.05), 1.2), rot=(0, 0, dt.rotation_euler.z))
 line.scale = (0.001, 1, 1); line.keyframe_insert('scale', frame=1); line.keyframe_insert('scale', frame=F(17.0))
 line.scale = (1, 1, 1); line.keyframe_insert('scale', frame=F(17.3))
+alight('D_phone', PHC + V((0.05, -0.25, 0.55)), (math.radians(25), 0, 0), 0.35, 25, (1.0, 0.9, 0.78))
 alight('D_lamp', DC + V((-0.3, 0.2, DT + 0.45)), (0, 0, 0), 0.25, 30, (1.0, 0.82, 0.55))
 alight('D_key', DC + V((-0.7, -0.8, 1.7)), (math.radians(42), 0, math.radians(-38)), 0.7, 45, (1.0, 0.86, 0.68))
 alight('D_rim', DC + V((0.8, 0.9, 1.4)), (math.radians(-55), 0, math.radians(140)), 0.8, 45, (0.6, 0.75, 1.0))

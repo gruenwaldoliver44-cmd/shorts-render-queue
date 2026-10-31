@@ -15,7 +15,7 @@ BK = {
  "drinks": "ae93021a-cf84-426d-a981-f5b789d0758f",
  "raw": "dffe943d-14b5-403f-b2c4-cf263c4808c9",
  "register": "4180a87c-227f-4454-b839-3e6d323348ad",
- "phone": "a37f8afa-3f69-4eb4-8bb7-2654b6382e83",
+ "phone": "56e44e39-6a17-4456-bdb4-1c7fc615b547",
  "notebook": "ebb7a472-ceee-49d2-88e8-a40f26380063",
  "marker": "36afa7f2-43c0-48b1-bb87-0e99f74346c4",
  "lamp": "671619ae-d278-4388-a098-23bbbd6949d0",

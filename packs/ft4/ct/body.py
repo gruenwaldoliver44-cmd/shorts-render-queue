@@ -11,7 +11,7 @@ nz = nt.nodes.new('ShaderNodeTexNoise'); nz.inputs['Scale'].default_value = 900
 lt = nt.nodes.new('ShaderNodeMath'); lt.operation = 'LESS_THAN'; lt.inputs[1].default_value = 0.035
 mul = nt.nodes.new('ShaderNodeMath'); mul.operation = 'MULTIPLY'
 pw = nt.nodes.new('ShaderNodeMath'); pw.operation = 'POWER'; pw.inputs[1].default_value = 4.0
-m2 = nt.nodes.new('ShaderNodeMath'); m2.operation = 'MULTIPLY'; m2.inputs[1].default_value = 18.0
+m2 = nt.nodes.new('ShaderNodeMath'); m2.operation = 'MULTIPLY'; m2.inputs[1].default_value = 160.0
 bg = nt.nodes.new('ShaderNodeBackground'); bg.inputs[0].default_value = (1, 1, 1, 1)
 nt.links.new(tc.outputs['Generated'], vo.inputs['Vector']); nt.links.new(tc.outputs['Generated'], nz.inputs['Vector'])
 nt.links.new(vo.outputs['Distance'], lt.inputs[0]); nt.links.new(nz.outputs[0], pw.inputs[0])
@@ -50,9 +50,15 @@ rg = t.nodes.new('ShaderNodeMapRange'); rg.inputs[3].default_value = 0.65; rg.in
 bp = t.nodes.new('ShaderNodeBump'); bp.inputs['Strength'].default_value = 0.6
 t.links.new(tcn.outputs['Object'], n1.inputs['Vector']); t.links.new(tcn.outputs['Object'], vr.inputs['Vector'])
 t.links.new(n1.outputs[0], cr.inputs[0]); t.links.new(cr.outputs[0], b.inputs['Base Color'])
-t.links.new(vr.outputs['Distance'], fl.inputs[0]); t.links.new(fl.outputs[0], mt.inputs[0]); t.links.new(mt.outputs[0], b.inputs['Metallic'])
-t.links.new(fl.outputs[0], rg.inputs[0]); t.links.new(rg.outputs[0], b.inputs['Roughness'])
-t.links.new(n1.outputs[0], bp.inputs['Height']); t.links.new(bp.outputs[0], b.inputs['Normal'])
+# v2: no voronoi metal dots (rendered as black polka dots). Uniform metal-rich rock + fine grit bump.
+n2 = t.nodes.new('ShaderNodeTexNoise'); n2.inputs['Scale'].default_value = 7.0; n2.inputs['Detail'].default_value = 14
+t.links.new(tcn.outputs['Object'], n2.inputs['Vector'])
+cr.color_ramp.elements[0].color = (0.035, 0.033, 0.03, 1); cr.color_ramp.elements[1].color = (0.30, 0.28, 0.25, 1)
+b.inputs['Metallic'].default_value = 0.55
+t.links.new(n2.outputs[0], rg.inputs[0]); rg.inputs[3].default_value = 0.35; rg.inputs[4].default_value = 0.62; t.links.new(rg.outputs[0], b.inputs['Roughness'])
+ad = t.nodes.new('ShaderNodeMath'); ad.operation = 'ADD'; t.links.new(n1.outputs[0], ad.inputs[0]); m3 = t.nodes.new('ShaderNodeMath'); m3.operation = 'MULTIPLY'; m3.inputs[1].default_value = 0.35
+t.links.new(n2.outputs[0], m3.inputs[0]); t.links.new(m3.outputs[0], ad.inputs[1])
+t.links.new(ad.outputs[0], bp.inputs['Height']); t.links.new(bp.outputs[0], b.inputs['Normal'])
 for o in aobjs:
     if o.type == 'MESH':
         o.data.materials.clear(); o.data.materials.append(am)
@@ -117,7 +123,7 @@ for n in list(pt.nodes):
 ev = pt.nodes.new('ShaderNodeEmission'); ev.inputs[0].default_value = (0.3, 0.55, 1.0, 1)
 gr = pt.nodes.new('ShaderNodeTexGradient'); tco = pt.nodes.new('ShaderNodeTexCoord'); mpp = pt.nodes.new('ShaderNodeMapping')
 mpp.inputs['Rotation'].default_value = (0, math.radians(90), 0); mpp.inputs['Location'].default_value = (0, 0, 0.5)
-mr = pt.nodes.new('ShaderNodeMapRange'); mr.inputs[1].default_value = 0.0; mr.inputs[2].default_value = 1.0; mr.inputs[3].default_value = 0.0; mr.inputs[4].default_value = 1.6
+mr = pt.nodes.new('ShaderNodeMapRange'); mr.inputs[1].default_value = 0.0; mr.inputs[2].default_value = 1.0; mr.inputs[3].default_value = 0.0; mr.inputs[4].default_value = 0.7
 pt.links.new(tco.outputs['Generated'], mpp.inputs[0]); pt.links.new(mpp.outputs[0], gr.inputs[0]); pt.links.new(gr.outputs[0], mr.inputs[0]); pt.links.new(mr.outputs[0], ev.inputs[1])
 pt.links.new(ev.outputs[0], pt.nodes['Material Output'].inputs['Volume']); plume.data.materials.append(pm); parts.append(plume)
 for p in parts: parent(p, craft)
