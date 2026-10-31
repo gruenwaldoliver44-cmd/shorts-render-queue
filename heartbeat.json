@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-31T16:21:07.485Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-10-31T16:21:35.684Z",
+ "current": "2574a-mt4-reup since 2026-10-31 16:21:35",
+ "busy": true,
  "free_gb": 56,
  "blender_procs": 0,
- "cpu": 3,
- "gpu": 0,
- "mem_free_pct": 82,
- "progress": null,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -84,14 +79,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2576-ct5-stills1",
-   "title": "CT5 Rubbellos Standbilder",
-   "result": "Fehler",
-   "at": "2026-10-31T16:20:33.251Z"
-  },
-  "updated": "2026-10-31T16:20:33.251Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2574a-mt4-reup",
+  "title": "MT4 Upload wiederholen",
+  "job_since": "2026-10-31T16:21:35.667Z",
+  "timeout_min": 20,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-10-31T16:21:35.667Z"
+ }
 }
