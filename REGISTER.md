@@ -73,3 +73,5 @@ Oliver, 30 Oct 2026: "keine Ausreden … stell sicher, dass du es nicht vergisst
 - Top MT: dishwasher (3,365), smart TV screenshots (2,950). Top MC: KFC Colonel sues (2,577), Archegos (2,509), Fort Knox (2,458).
 - Blender premium (24–29 Oct) did NOT beat the cheap Remotion videos. Visual effort is not the lever right now.
 - Rule: topic and share trigger first (would I send this to a specific person?), visuals second.
+
+- 2026-10-31 07:58 CT4 'Slot machine phone' posted (Metricool 411958111 IG+TT, 411958136 YT). Render 14spp seq: 4h50 on Mac.
