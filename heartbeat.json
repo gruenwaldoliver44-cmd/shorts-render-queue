@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-31T16:16:25.488Z",
+ "ts": "2026-10-31T16:17:07.583Z",
+ "source": "dashboard",
  "current": "2575-ft4-stills3 since 2026-10-31 16:16:25",
  "busy": true,
- "free_gb": 43,
- "blender_procs": 0,
+ "free_gb": 56,
+ "blender_procs": 1,
+ "cpu": 42,
+ "gpu": 0,
+ "mem_free_pct": 83,
+ "progress": null,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -82,10 +87,14 @@
   "title": "FT4 Standbilder",
   "job_since": "2026-10-31T16:16:25.469Z",
   "timeout_min": 90,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
+  "label": "Standbilder",
+  "step_since": "2026-10-31T16:16:31.087Z",
   "progress": null,
-  "updated": "2026-10-31T16:16:25.469Z"
- }
+  "updated": "2026-10-31T16:16:31.087Z"
+ },
+ "queue": [
+  "2576-ct5-stills1"
+ ]
 }
