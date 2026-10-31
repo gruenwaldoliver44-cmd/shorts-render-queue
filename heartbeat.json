@@ -1,14 +1,9 @@
 {
- "ts": "2026-10-31T15:25:07.141Z",
- "source": "dashboard",
- "current": "2573-mt4-seq since 2026-10-31 07:09:57",
+ "ts": "2026-10-31T15:26:32.660Z",
+ "current": "2574-mc4-stills3 since 2026-10-31 15:26:32",
  "busy": true,
  "free_gb": 58,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 0,
- "mem_free_pct": 73,
- "progress": null,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -52,6 +47,7 @@
   "2132-ct47-premium"
  ],
  "failed": [
+  "2573-mt4-seq",
   "2572-ft4-stills2",
   "2571-mc4-stills2",
   "2567-ft4-stills1",
@@ -81,16 +77,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2573-mt4-seq",
-  "title": "MT4 Rauchmelder Vollrender",
-  "job_since": "2026-10-31T07:09:57.221Z",
-  "timeout_min": 600,
-  "step": 4,
-  "steps": 4,
-  "label": "Lade Ergebnisse hoch",
-  "step_since": "2026-10-31T15:24:25.021Z",
+  "job": "2574-mc4-stills3",
+  "title": "MC4 Standbilder",
+  "job_since": "2026-10-31T15:26:32.639Z",
+  "timeout_min": 90,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-10-31T15:24:25.021Z"
- },
- "queue": []
+  "updated": "2026-10-31T15:26:32.639Z"
+ }
 }
