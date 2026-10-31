@@ -5,6 +5,7 @@ os.makedirs(out, exist_ok=True)
 sc = bpy.context.scene
 pr = bpy.context.preferences.addons['cycles'].preferences
 try:
+    if os.environ.get('CPU_ONLY'): raise Exception('cpu only')
     pr.compute_device_type = 'METAL'; pr.get_devices()
     for d in pr.devices: d.use = True
     sc.cycles.device = 'GPU'
