@@ -64,7 +64,7 @@ alight('L_fill', (0.5, -4.8, 1.6), (math.radians(80), 0, 0), 2.0, 60, (0.85, 0.9
 # counter top via ray casts
 dg = bpy.context.evaluated_depsgraph_get()
 ctop = None
-for x in (0.3, 0.0, 0.6, -0.4, 0.9, -0.8, 1.2):
+for x in (-0.4, 0.3, 0.0, -0.8, 1.2):
     hit, loc, nrm, idx, ob, mtx = sc.ray_cast(dg, V((x, KY + 0.28, 1.25)), V((0, 0, -1)))
     print('RAY', x, hit, [round(v, 3) for v in loc] if hit else None, ob.name if hit else None)
     if hit and 0.7 < loc.z < 1.05 and ctop is None: ctop = V((x, KY + 0.28, loc.z))
@@ -88,7 +88,7 @@ for fr in range(F(0.0), F(DUR)):
     elif abs(t - 2.0) < 0.06: on = 25.0
     lede.inputs[1].default_value = on; lede.inputs[1].keyframe_insert('default_value', frame=fr)
 # kitchen smoke: rises from the pan and spreads under the ceiling (18-26.2)
-ksm = smoke_mat('ksmoke', 0.9, (0.62, 0.62, 0.64), 2.2)
+ksm = smoke_mat('ksmoke', 2.4, (0.62, 0.62, 0.64), 2.2)
 for i in range(7):
     bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=3, radius=1.0, location=PANC)
     b = bpy.context.active_object; b.name = 'ksm%d' % i; b.data.materials.append(ksm)
@@ -127,8 +127,8 @@ for o in (can, lid):
     bm.to_mesh(me); bm.free()
     so = o.modifiers.new('so', 'SOLIDIFY'); so.thickness = 0.02
 cm = can.data.materials[0]; nt = cm.node_tree; bsdf = nt.nodes['Principled BSDF']
-tc = nt.nodes.new('ShaderNodeTexCoord'); vo = nt.nodes.new('ShaderNodeTexVoronoi'); vo.inputs['Scale'].default_value = 14.0
-lt = nt.nodes.new('ShaderNodeMath'); lt.operation = 'GREATER_THAN'; lt.inputs[1].default_value = 0.22
+tc = nt.nodes.new('ShaderNodeTexCoord'); vo = nt.nodes.new('ShaderNodeTexVoronoi'); vo.inputs['Scale'].default_value = 11.0; vo.inputs['Randomness'].default_value = 0.0
+lt = nt.nodes.new('ShaderNodeMath'); lt.operation = 'GREATER_THAN'; lt.inputs[1].default_value = 0.30
 nt.links.new(tc.outputs['Object'], vo.inputs['Vector']); nt.links.new(vo.outputs['Distance'], lt.inputs[0]); nt.links.new(lt.outputs[0], bsdf.inputs['Alpha'])
 steel = mat_col('steel', (0.8, 0.8, 0.82), rough=0.18, metal=1.0)
 bot = cyl('bottom_plate', 0.46, 0.03, CX + V((0, 0, 0.07)), steel)
