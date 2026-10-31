@@ -1,15 +1,16 @@
 {
- "ts": "2026-10-31T02:23:05.659Z",
+ "ts": "2026-10-31T02:25:05.669Z",
  "source": "dashboard",
- "current": "2568-ct4-seq since 2026-10-30 21:33:02",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 60,
  "blender_procs": 0,
- "cpu": 62,
+ "cpu": 17,
  "gpu": 0,
- "mem_free_pct": 70,
+ "mem_free_pct": 72,
  "progress": null,
  "done": [
+  "2568-ct4-seq",
   "2563-ct4-stills3",
   "2562-ct4-stills2",
   "2561-ct4-stills1",
@@ -78,17 +79,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2568-ct4-seq",
-  "title": "CT4 Casino Vollrender (Einzelbilder)",
-  "job_since": "2026-10-30T21:33:02.181Z",
-  "timeout_min": 600,
-  "step": 4,
-  "steps": 4,
-  "label": "Packen",
-  "step_since": "2026-10-31T02:23:05.108Z",
-  "progress": null,
-  "updated": "2026-10-31T02:23:05.108Z"
+  "state": "idle",
+  "last": {
+   "job": "2568-ct4-seq",
+   "title": "CT4 Casino Vollrender (Einzelbilder)",
+   "result": "fertig",
+   "at": "2026-10-31T02:25:02.516Z"
+  },
+  "updated": "2026-10-31T02:25:02.516Z"
  },
  "queue": []
 }
