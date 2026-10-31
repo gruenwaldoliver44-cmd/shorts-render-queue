@@ -1,9 +1,14 @@
 {
- "ts": "2026-10-31T16:17:33.340Z",
+ "ts": "2026-10-31T16:19:07.576Z",
+ "source": "dashboard",
  "current": "2576-ct5-stills1 since 2026-10-31 16:17:33",
  "busy": true,
  "free_gb": 56,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 40,
+ "gpu": 55,
+ "mem_free_pct": 40,
+ "progress": null,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -83,10 +88,12 @@
   "title": "CT5 Rubbellos Standbilder",
   "job_since": "2026-10-31T16:17:33.318Z",
   "timeout_min": 90,
-  "step": 0,
+  "step": 3,
   "steps": 3,
-  "label": "Startet",
+  "label": "Standbilder",
+  "step_since": "2026-10-31T16:18:07.884Z",
   "progress": null,
-  "updated": "2026-10-31T16:17:33.318Z"
- }
+  "updated": "2026-10-31T16:18:07.884Z"
+ },
+ "queue": []
 }
