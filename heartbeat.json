@@ -1,9 +1,18 @@
 {
- "ts": "2026-10-31T22:51:15.578Z",
+ "ts": "2026-10-31T22:53:07.996Z",
+ "source": "dashboard",
  "current": "2581-ft4-eevee since 2026-10-31 22:51:15",
  "busy": true,
  "free_gb": 54,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 6,
+ "gpu": 84,
+ "mem_free_pct": 56,
+ "progress": {
+  "n": 24,
+  "total": 758,
+  "eta_min": null
+ },
  "done": [
   "2580-ct5-eevee",
   "2579-ft4-stills4",
@@ -84,10 +93,15 @@
   "title": "FT4 Psyche Vollrender EEVEE",
   "job_since": "2026-10-31T22:51:15.563Z",
   "timeout_min": 420,
-  "step": 0,
+  "step": 3,
   "steps": 4,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-10-31T22:51:15.563Z"
- }
+  "label": "Vollrender EEVEE",
+  "step_since": "2026-10-31T22:51:21.284Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2581-ft4-eevee/frames",
+   "total": 758
+  },
+  "updated": "2026-10-31T22:51:21.284Z"
+ },
+ "queue": []
 }
