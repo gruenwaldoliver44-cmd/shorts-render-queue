@@ -1,13 +1,13 @@
 {
- "ts": "2026-10-31T15:31:07.290Z",
+ "ts": "2026-10-31T15:33:07.236Z",
  "source": "dashboard",
  "current": "2574-mc4-stills3 since 2026-10-31 15:26:32",
  "busy": true,
- "free_gb": 58,
+ "free_gb": 52,
  "blender_procs": 1,
- "cpu": 91,
+ "cpu": 14,
  "gpu": 0,
- "mem_free_pct": 74,
+ "mem_free_pct": 37,
  "progress": null,
  "done": [
   "2570-mt4-stills2",
@@ -86,12 +86,12 @@
   "title": "MC4 Standbilder",
   "job_since": "2026-10-31T15:26:32.639Z",
   "timeout_min": 90,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "Szene bauen",
-  "step_since": "2026-10-31T15:26:34.616Z",
+  "label": "Standbilder",
+  "step_since": "2026-10-31T15:32:32.689Z",
   "progress": null,
-  "updated": "2026-10-31T15:26:34.616Z"
+  "updated": "2026-10-31T15:32:32.689Z"
  },
  "queue": [
   "2575-ft4-stills3",
