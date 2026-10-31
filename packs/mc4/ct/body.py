@@ -103,7 +103,7 @@ for y in (-30, -12, 12, 30):
     b = cyl('bollard', 0.32, 0.8, (QX + 1.1, y, QZ + 0.4), iron, v=32); cyl('bcap', 0.42, 0.12, (QX + 1.1, y, QZ + 0.85), iron, v=32)
     BOL.append(V((QX + 1.1, y, QZ + 0.6)))
 # warehouses + cranes as a skyline on the quay
-shed_m = mat_col('shed', (0.55, 0.57, 0.6), rough=0.6, metal=0.3)
+shed_m = mat_col('shed', (0.16, 0.24, 0.28), rough=0.55, metal=0.4)
 for i, y in enumerate((-90, -55, 55, 95)):
     box('shed', (22, 30, 10 + 3 * (i % 2)), (QX + 30, y, QZ + 5 + 1.5 * (i % 2)), shed_m)
 crane_m = mat_col('crane', (0.75, 0.25, 0.08), rough=0.5, metal=0.5)
