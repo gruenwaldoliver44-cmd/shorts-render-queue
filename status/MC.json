@@ -2,14 +2,14 @@
  "title": "MC4 Milliardär vs. Argentinien",
  "topic": "Paul Singer lässt Argentiniens Marineschiff in Ghana festhalten",
  "stage": "Szenen",
- "progress": 40,
- "note": "Stimme fertig. Welt gebaut: Hafen mit Ozean + Segelschulschiff (BlenderKit), Gericht mit Hammer und Flaggen, Geldtisch der von 600 Mio. auf 2,2 Mrd. wächst. Standbilder in der Warteschlange.",
- "next": "Standbilder prüfen, dann Vollrender",
+ "progress": 45,
+ "note": "Standbilder brachen 2x ab (Blender-Absturz). Neuer Versuch mit CPU-Ersatz + Fehlerprotokoll, läuft nach MT.",
+ "next": "Standbilder prüfen, Vollrender",
  "eta": "nacheinander, CT zuerst",
  "preview_img": "",
  "preview_note": "",
  "preview_video": "",
  "slot": "",
  "error": false,
- "updated": "2026-10-30T15:39:45Z"
+ "updated": "2026-10-31T07:21:58Z"
 }
