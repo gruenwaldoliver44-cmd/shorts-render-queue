@@ -1,17 +1,17 @@
 {
- "ts": "2026-10-31T11:35:06.824Z",
+ "ts": "2026-10-31T11:37:07.001Z",
  "source": "dashboard",
  "current": "2573-mt4-seq since 2026-10-31 07:09:57",
  "busy": true,
  "free_gb": 58,
  "blender_procs": 1,
- "cpu": 75,
- "gpu": 95,
- "mem_free_pct": 73,
+ "cpu": 71,
+ "gpu": 98,
+ "mem_free_pct": 45,
  "progress": {
-  "n": 603,
+  "n": 604,
   "total": 740,
-  "eta_min": 193
+  "eta_min": 199
  },
  "done": [
   "2570-mt4-stills2",
