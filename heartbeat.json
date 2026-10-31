@@ -1,18 +1,14 @@
 {
- "ts": "2026-10-31T15:23:07.327Z",
+ "ts": "2026-10-31T15:25:07.141Z",
  "source": "dashboard",
  "current": "2573-mt4-seq since 2026-10-31 07:09:57",
  "busy": true,
  "free_gb": 58,
- "blender_procs": 1,
- "cpu": 81,
- "gpu": 98,
- "mem_free_pct": 44,
- "progress": {
-  "n": 740,
-  "total": 740,
-  "eta_min": 0
- },
+ "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 0,
+ "mem_free_pct": 73,
+ "progress": null,
  "done": [
   "2570-mt4-stills2",
   "2569-diag",
@@ -89,15 +85,12 @@
   "title": "MT4 Rauchmelder Vollrender",
   "job_since": "2026-10-31T07:09:57.221Z",
   "timeout_min": 600,
-  "step": 3,
+  "step": 4,
   "steps": 4,
-  "label": "Vollrender 1080x1920",
-  "step_since": "2026-10-31T07:10:02.427Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/2573-mt4-seq/frames",
-   "total": 740
-  },
-  "updated": "2026-10-31T07:10:02.427Z"
+  "label": "Lade Ergebnisse hoch",
+  "step_since": "2026-10-31T15:24:25.021Z",
+  "progress": null,
+  "updated": "2026-10-31T15:24:25.021Z"
  },
  "queue": []
 }
