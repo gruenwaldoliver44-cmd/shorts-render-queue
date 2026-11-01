@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-01T20:59:09.559Z",
- "source": "dashboard",
+ "ts": "2026-11-01T21:00:25.523Z",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 1,
- "cpu": 22,
- "gpu": 99,
- "mem_free_pct": 40,
- "progress": null,
  "done": [
   "2581-ft4-eevee",
   "2580-ct5-eevee",
@@ -92,6 +87,5 @@
    "at": "2026-10-31T23:46:14.092Z"
   },
   "updated": "2026-10-31T23:46:14.092Z"
- },
- "queue": []
+ }
 }
