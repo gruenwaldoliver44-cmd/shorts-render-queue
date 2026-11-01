@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-01T10:49:08.792Z",
+ "ts": "2026-11-01T10:51:08.796Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 57,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 17,
- "mem_free_pct": 67,
+ "cpu": 13,
+ "gpu": 33,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2581-ft4-eevee",
