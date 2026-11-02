@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-02T12:21:10.609Z",
+ "ts": "2026-11-02T12:23:10.613Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 2,
  "gpu": 0,
- "mem_free_pct": 50,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2581-ft4-eevee",
