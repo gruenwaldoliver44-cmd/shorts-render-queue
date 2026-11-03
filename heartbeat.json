@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T19:42:21.492Z",
+ "ts": "2026-11-03T19:44:21.471Z",
  "source": "dashboard",
  "current": "2619-peloton-film5 since 2026-11-03 19:38:51",
  "busy": true,
- "free_gb": 40,
+ "free_gb": 39,
  "blender_procs": 0,
- "cpu": 46,
+ "cpu": 64,
  "gpu": 10,
- "mem_free_pct": 51,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2618-peloton-film4",
@@ -90,12 +90,12 @@
   "title": "Peloton Four Hundred Noes, Fassung 5",
   "job_since": "2026-11-03T19:38:51.839Z",
   "timeout_min": 60,
-  "step": 3,
+  "step": 4,
   "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T19:38:54.998Z",
+  "label": "Ton anlegen",
+  "step_since": "2026-11-03T19:44:20.000Z",
   "progress": null,
-  "updated": "2026-11-03T19:38:54.998Z"
+  "updated": "2026-11-03T19:44:20.000Z"
  },
  "queue": []
 }
