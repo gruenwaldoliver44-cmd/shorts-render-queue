@@ -1,11 +1,11 @@
 {
- "ts": "2026-11-03T21:06:21.657Z",
+ "ts": "2026-11-03T21:08:21.652Z",
  "source": "dashboard",
  "current": "2624-peloton-upload since 2026-11-03 21:03:20",
  "busy": true,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 12,
+ "cpu": 13,
  "gpu": 0,
  "mem_free_pct": 61,
  "progress": null,
