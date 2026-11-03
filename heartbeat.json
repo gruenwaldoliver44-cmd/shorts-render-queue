@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T18:34:21.215Z",
- "source": "dashboard",
+ "ts": "2026-11-03T18:35:01.599Z",
  "current": "",
  "busy": false,
  "free_gb": 41,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 14,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
   "2617-sfx-lib",
   "2616-sfx-kenney",
@@ -93,6 +88,5 @@
    "at": "2026-11-03T18:24:39.091Z"
   },
   "updated": "2026-11-03T18:24:39.091Z"
- },
- "queue": []
+ }
 }
