@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-03T18:21:25.283Z",
- "current": "2616-sfx-kenney since 2026-11-03 18:21:25",
+ "ts": "2026-11-03T18:21:28.786Z",
+ "current": "",
  "busy": true,
  "free_gb": 41,
  "blender_procs": 0,
  "done": [
+  "2616-sfx-kenney",
   "2615-peloton-film3b",
   "2614-music-library",
   "2613-peloton-film3",
@@ -43,8 +44,7 @@
   "2344-mc54-premium",
   "2293-mt53-premium",
   "2432-ft39-premium",
-  "2292-mt52-premium",
-  "2139-ct52b-ct53-ct54-premium"
+  "2292-mt52-premium"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -80,15 +80,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2616-sfx-kenney",
-  "title": "Soundeffekt-Bibliothek laden (Kenney, CC0)",
-  "job_since": "2026-11-03T18:21:25.265Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-03T18:21:25.265Z"
+  "state": "idle",
+  "last": {
+   "job": "2616-sfx-kenney",
+   "title": "Soundeffekt-Bibliothek laden (Kenney, CC0)",
+   "result": "fertig",
+   "at": "2026-11-03T18:21:28.758Z"
+  },
+  "updated": "2026-11-03T18:21:28.758Z"
  }
 }
