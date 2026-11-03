@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T17:56:21.097Z",
- "source": "dashboard",
+ "ts": "2026-11-03T17:56:51.237Z",
  "current": "",
  "busy": false,
  "free_gb": 41,
  "blender_procs": 0,
- "cpu": 5,
- "gpu": 0,
- "mem_free_pct": 55,
- "progress": null,
  "done": [
   "2613-peloton-film3",
   "2612-peloton-film2",
@@ -49,8 +44,7 @@
   "2292-mt52-premium",
   "2139-ct52b-ct53-ct54-premium",
   "2343-mc52c-mc53-premium",
-  "2431-ft38-premium",
-  "2342-mc52-premium2"
+  "2431-ft38-premium"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T17:51:42.198Z"
   },
   "updated": "2026-11-03T17:51:42.198Z"
- },
- "queue": []
+ }
 }
