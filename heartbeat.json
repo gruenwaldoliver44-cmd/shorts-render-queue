@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-03T22:53:41.377Z",
- "current": "2628-thumb-research since 2026-11-03 22:53:41",
- "busy": true,
+ "ts": "2026-11-03T22:54:21.999Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
+ "cpu": 25,
+ "gpu": 43,
+ "mem_free_pct": 58,
+ "progress": null,
  "done": [
+  "2628-thumb-research",
   "2627-ponzi-film3",
   "2626-ponzi-film2",
   "2625-ponzi-film1",
@@ -80,15 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2628-thumb-research",
-  "title": "Konkurrenz-Thumbnails laden",
-  "job_since": "2026-11-03T22:53:41.353Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-03T22:53:41.353Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2628-thumb-research",
+   "title": "Konkurrenz-Thumbnails laden",
+   "result": "fertig",
+   "at": "2026-11-03T22:54:18.929Z"
+  },
+  "updated": "2026-11-03T22:54:18.929Z"
+ },
+ "queue": []
 }
