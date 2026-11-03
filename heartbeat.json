@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-03T21:08:21.652Z",
+ "ts": "2026-11-03T21:10:21.652Z",
  "source": "dashboard",
  "current": "2624-peloton-upload since 2026-11-03 21:03:20",
  "busy": true,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 13,
  "gpu": 0,
- "mem_free_pct": 61,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2623-film6c-audio",
