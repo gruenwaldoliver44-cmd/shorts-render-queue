@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T21:03:20.698Z",
+ "ts": "2026-11-03T21:04:21.653Z",
+ "source": "dashboard",
  "current": "2624-peloton-upload since 2026-11-03 21:03:20",
  "busy": true,
  "free_gb": 38,
  "blender_procs": 0,
+ "cpu": 14,
+ "gpu": 29,
+ "mem_free_pct": 61,
+ "progress": null,
  "done": [
   "2623-film6c-audio",
   "2622-film6b-audio",
@@ -85,10 +90,12 @@
   "title": "Peloton Video bereitstellen",
   "job_since": "2026-11-03T21:03:20.680Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "Hochladen",
+  "step_since": "2026-11-03T21:03:23.543Z",
   "progress": null,
-  "updated": "2026-11-03T21:03:20.680Z"
- }
+  "updated": "2026-11-03T21:03:23.543Z"
+ },
+ "queue": []
 }
