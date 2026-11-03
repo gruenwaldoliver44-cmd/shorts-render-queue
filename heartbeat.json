@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T14:34:01.315Z",
+ "ts": "2026-11-03T14:35:49.678Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
+ "cpu": 4,
+ "gpu": 0,
+ "mem_free_pct": 57,
+ "progress": null,
  "done": [
   "2600-peloton-hook",
   "2581-ft4-eevee",
@@ -87,5 +92,6 @@
    "at": "2026-11-03T12:24:09.295Z"
   },
   "updated": "2026-11-03T12:24:09.295Z"
- }
+ },
+ "queue": []
 }
