@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T22:34:21.972Z",
+ "ts": "2026-11-03T22:36:21.887Z",
  "source": "dashboard",
- "current": "2626-ponzi-film2 since 2026-11-03 22:30:19",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 75,
- "gpu": 24,
- "mem_free_pct": 55,
+ "cpu": 3,
+ "gpu": 0,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
+  "2626-ponzi-film2",
   "2625-ponzi-film1",
   "2624-peloton-upload",
   "2623-film6c-audio",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2626-ponzi-film2",
-  "title": "Ponzi Fassung 2",
-  "job_since": "2026-11-03T22:30:19.093Z",
-  "timeout_min": 60,
-  "step": 2,
-  "steps": 3,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T22:30:21.401Z",
-  "progress": null,
-  "updated": "2026-11-03T22:30:21.401Z"
+  "state": "idle",
+  "last": {
+   "job": "2626-ponzi-film2",
+   "title": "Ponzi Fassung 2",
+   "result": "fertig",
+   "at": "2026-11-03T22:35:31.774Z"
+  },
+  "updated": "2026-11-03T22:35:31.774Z"
  },
  "queue": []
 }
