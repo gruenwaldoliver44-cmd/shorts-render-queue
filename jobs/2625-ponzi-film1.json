@@ -1,0 +1,21 @@
+{
+ "id": "2625-ponzi-film1",
+ "title": "Ponzi Fassung 1",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "Paket pruefen",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && cat pz1_aa pz1_ab pz1_ac pz1_ad pz1_ae pz1_af pz1_ag > pz1.tgz && [ \"$(md5 -q pz1.tgz)\" = 66f44919258c064d8f84df3ffb673e0b ] && rm -rf pz && mkdir pz && tar xzf pz1.tgz -C pz && ls pz/bundle | wc -l"
+  },
+  {
+   "label": "Video rendern",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && s=$(date +%s) && npx remotion render pz/bundle P pz_out1.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error && e=$(date +%s) && echo \"render_seconds $((e-s))\" > pz_time.txt"
+  },
+  {
+   "label": "Ton und Vorschau",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i pz_out1.mp4 -i pz/mix.m4a -map 0:v -map 1:a -c copy -shortest ponzi_film1.mp4 && npx remotion ffmpeg -y -v error -i ponzi_film1.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy ponzi_film1_vorschau.mp4 && tar czf pz1v.tgz ponzi_film1_vorschau.mp4 && ls -la ponzi_film1*.mp4 >> pz_time.txt"
+  }
+ ]
+}
