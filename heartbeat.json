@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T17:34:21.160Z",
+ "ts": "2026-11-03T17:36:21.124Z",
  "source": "dashboard",
- "current": "2612-peloton-film2 since 2026-11-03 17:30:17",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 42,
  "blender_procs": 0,
- "cpu": 82,
- "gpu": 19,
- "mem_free_pct": 43,
+ "cpu": 9,
+ "gpu": 8,
+ "mem_free_pct": 45,
  "progress": null,
  "done": [
+  "2612-peloton-film2",
   "2611-peloton-film1b",
   "2603-peloton-hook4",
   "2602-peloton-hook3",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2612-peloton-film2",
-  "title": "Peloton ganzes Video, Fassung 2",
-  "job_since": "2026-11-03T17:30:17.990Z",
-  "timeout_min": 60,
-  "step": 3,
-  "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T17:30:20.867Z",
-  "progress": null,
-  "updated": "2026-11-03T17:30:20.867Z"
+  "state": "idle",
+  "last": {
+   "job": "2612-peloton-film2",
+   "title": "Peloton ganzes Video, Fassung 2",
+   "result": "fertig",
+   "at": "2026-11-03T17:35:18.441Z"
+  },
+  "updated": "2026-11-03T17:35:18.441Z"
  },
  "queue": []
 }
