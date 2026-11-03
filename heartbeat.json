@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T17:44:21.074Z",
- "source": "dashboard",
+ "ts": "2026-11-03T17:45:39.064Z",
  "current": "",
  "busy": false,
  "free_gb": 42,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 7,
- "mem_free_pct": 54,
- "progress": null,
  "done": [
   "2612-peloton-film2",
   "2611-peloton-film1b",
@@ -93,6 +88,5 @@
    "at": "2026-11-03T17:35:18.441Z"
   },
   "updated": "2026-11-03T17:35:18.441Z"
- },
- "queue": []
+ }
 }
