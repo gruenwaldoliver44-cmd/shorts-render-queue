@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T22:30:19.110Z",
+ "ts": "2026-11-03T22:30:21.845Z",
+ "source": "dashboard",
  "current": "2626-ponzi-film2 since 2026-11-03 22:30:19",
  "busy": true,
  "free_gb": 39,
  "blender_procs": 0,
+ "cpu": 10,
+ "gpu": 31,
+ "mem_free_pct": 65,
+ "progress": null,
  "done": [
   "2625-ponzi-film1",
   "2624-peloton-upload",
@@ -85,10 +90,12 @@
   "title": "Ponzi Fassung 2",
   "job_since": "2026-11-03T22:30:19.093Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-03T22:30:21.401Z",
   "progress": null,
-  "updated": "2026-11-03T22:30:19.093Z"
- }
+  "updated": "2026-11-03T22:30:21.401Z"
+ },
+ "queue": []
 }
