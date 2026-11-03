@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T12:23:49.378Z",
+ "ts": "2026-11-03T12:25:49.305Z",
  "source": "dashboard",
- "current": "2600-peloton-hook since 2026-11-03 12:23:03",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
- "cpu": 29,
- "gpu": 24,
- "mem_free_pct": 38,
+ "cpu": 23,
+ "gpu": 21,
+ "mem_free_pct": 50,
  "progress": null,
  "done": [
+  "2600-peloton-hook",
   "2581-ft4-eevee",
   "2580-ct5-eevee",
   "2579-ft4-stills4",
@@ -84,17 +85,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2600-peloton-hook",
-  "title": "Peloton Hook-Vorschau",
-  "job_since": "2026-11-03T12:23:03.045Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T12:23:21.350Z",
-  "progress": null,
-  "updated": "2026-11-03T12:23:21.350Z"
+  "state": "idle",
+  "last": {
+   "job": "2600-peloton-hook",
+   "title": "Peloton Hook-Vorschau",
+   "result": "fertig",
+   "at": "2026-11-03T12:24:09.295Z"
+  },
+  "updated": "2026-11-03T12:24:09.295Z"
  },
  "queue": []
 }
