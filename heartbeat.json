@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T15:27:34.070Z",
+ "ts": "2026-11-03T15:27:49.958Z",
+ "source": "dashboard",
  "current": "2602-peloton-hook3 since 2026-11-03 15:27:34",
  "busy": true,
- "free_gb": 43,
+ "free_gb": 42,
  "blender_procs": 0,
+ "cpu": 28,
+ "gpu": 12,
+ "mem_free_pct": 42,
+ "progress": null,
  "done": [
   "2601-peloton-hook2",
   "2600-peloton-hook",
@@ -84,10 +89,12 @@
   "title": "Peloton Hook-Vorschau 3",
   "job_since": "2026-11-03T15:27:34.050Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 3,
   "steps": 4,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-03T15:27:36.730Z",
   "progress": null,
-  "updated": "2026-11-03T15:27:34.050Z"
- }
+  "updated": "2026-11-03T15:27:36.730Z"
+ },
+ "queue": []
 }
