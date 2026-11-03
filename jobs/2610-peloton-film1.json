@@ -1,0 +1,25 @@
+{
+ "id": "2610-peloton-film1",
+ "title": "Peloton ganzes Video, Testlauf 1",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "Projekt entpacken",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && cat g_v1_aa g_v1_ab g_v1_ac > film.tgz && cat h_v4_aa h_v4_ab h_v4_ac > mix.m4a && [ \"$(md5 -q film.tgz)\" = 0908aefe5263da9ec35af356cfc707bf ] && [ \"$(md5 -q mix.m4a)\" = 7d637b50007ce44c394a5fb03ac228a1 ] && rm -rf src public && tar xzf film.tgz && ls public | wc -l"
+  },
+  {
+   "label": "Pakete installieren",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npm_config_cache=\"$AGENT_HOME/npm-cache\" npm install --no-audit --no-fund --loglevel=error"
+  },
+  {
+   "label": "Video rendern",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && s=$(date +%s) && npx remotion render src/index.jsx P out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error && e=$(date +%s) && echo \"render_seconds $((e-s))\" > render_time.txt"
+  },
+  {
+   "label": "Ton anlegen",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i out.mp4 -i mix.m4a -map 0:v -map 1:a -c copy -shortest peloton_film1.mp4 && ls -la peloton_film1.mp4 >> render_time.txt"
+  }
+ ]
+}
