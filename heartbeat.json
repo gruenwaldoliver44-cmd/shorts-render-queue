@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T18:04:21.135Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-03T18:06:11.910Z",
+ "current": "2614-music-library since 2026-11-03 18:06:11",
+ "busy": true,
  "free_gb": 41,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 12,
- "mem_free_pct": 58,
- "progress": null,
  "done": [
   "2613-peloton-film3",
   "2612-peloton-film2",
@@ -85,14 +80,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2613-peloton-film3",
-   "title": "Peloton ganzes Video, Fassung 3",
-   "result": "fertig",
-   "at": "2026-11-03T17:51:42.198Z"
-  },
-  "updated": "2026-11-03T17:51:42.198Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2614-music-library",
+  "title": "Musikbibliothek laden (Kevin MacLeod, CC BY 4.0)",
+  "job_since": "2026-11-03T18:06:11.893Z",
+  "timeout_min": 10,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-03T18:06:11.893Z"
+ }
 }
