@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T21:54:21.945Z",
+ "ts": "2026-11-03T21:56:21.920Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 49,
- "mem_free_pct": 49,
+ "cpu": 17,
+ "gpu": 37,
+ "mem_free_pct": 50,
  "progress": null,
  "done": [
   "2624-peloton-upload",
