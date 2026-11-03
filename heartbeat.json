@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T20:38:21.650Z",
- "source": "dashboard",
+ "ts": "2026-11-03T20:39:10.741Z",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 7,
- "gpu": 12,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
   "2621-peloton-film6",
   "2620-music-new",
@@ -49,8 +44,7 @@
   "2507-view-mt2",
   "2506-view-mt1",
   "2505-eevee-test",
-  "2504-ct-bank390-v4",
-  "2503-ct-bank390-v3"
+  "2504-ct-bank390-v4"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T20:33:56.652Z"
   },
   "updated": "2026-11-03T20:33:56.652Z"
- },
- "queue": []
+ }
 }
