@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T23:22:21.967Z",
- "source": "dashboard",
+ "ts": "2026-11-03T23:24:10.627Z",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 10,
- "gpu": 27,
- "mem_free_pct": 63,
- "progress": null,
  "done": [
   "2629-ponzi-upload",
   "2628-thumb-research",
@@ -49,8 +44,7 @@
   "2552-ct3-probe3",
   "2540-ct-instacart-v1",
   "2531-ft-upload",
-  "2520-mc-pepsi-v1",
-  "2511-mt-listening-v1"
+  "2520-mc-pepsi-v1"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T23:19:00.530Z"
   },
   "updated": "2026-11-03T23:19:00.530Z"
- },
- "queue": []
+ }
 }
