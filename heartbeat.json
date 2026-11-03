@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T19:44:21.471Z",
+ "ts": "2026-11-03T19:46:21.492Z",
  "source": "dashboard",
- "current": "2619-peloton-film5 since 2026-11-03 19:38:51",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 64,
- "gpu": 10,
+ "cpu": 3,
+ "gpu": 1,
  "mem_free_pct": 54,
  "progress": null,
  "done": [
+  "2619-peloton-film5",
   "2618-peloton-film4",
   "2617-sfx-lib",
   "2616-sfx-kenney",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2619-peloton-film5",
-  "title": "Peloton Four Hundred Noes, Fassung 5",
-  "job_since": "2026-11-03T19:38:51.839Z",
-  "timeout_min": 60,
-  "step": 4,
-  "steps": 4,
-  "label": "Ton anlegen",
-  "step_since": "2026-11-03T19:44:20.000Z",
-  "progress": null,
-  "updated": "2026-11-03T19:44:20.000Z"
+  "state": "idle",
+  "last": {
+   "job": "2619-peloton-film5",
+   "title": "Peloton Four Hundred Noes, Fassung 5",
+   "result": "fertig",
+   "at": "2026-11-03T19:45:09.422Z"
+  },
+  "updated": "2026-11-03T19:45:09.422Z"
  },
  "queue": []
 }
