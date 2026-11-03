@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T22:40:40.106Z",
+ "ts": "2026-11-03T22:42:21.941Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
+ "cpu": 5,
+ "gpu": 0,
+ "mem_free_pct": 65,
+ "progress": null,
  "done": [
   "2626-ponzi-film2",
   "2625-ponzi-film1",
@@ -88,5 +93,6 @@
    "at": "2026-11-03T22:35:31.774Z"
   },
   "updated": "2026-11-03T22:35:31.774Z"
- }
+ },
+ "queue": []
 }
