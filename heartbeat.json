@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T18:21:28.786Z",
+ "ts": "2026-11-03T18:22:21.169Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 41,
  "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 15,
+ "mem_free_pct": 57,
+ "progress": null,
  "done": [
   "2616-sfx-kenney",
   "2615-peloton-film3b",
@@ -88,5 +93,6 @@
    "at": "2026-11-03T18:21:28.758Z"
   },
   "updated": "2026-11-03T18:21:28.758Z"
- }
+ },
+ "queue": []
 }
