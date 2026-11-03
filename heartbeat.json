@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T17:30:21.088Z",
+ "ts": "2026-11-03T17:32:21.157Z",
  "source": "dashboard",
  "current": "2612-peloton-film2 since 2026-11-03 17:30:17",
  "busy": true,
  "free_gb": 42,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 16,
- "mem_free_pct": 58,
+ "cpu": 65,
+ "gpu": 19,
+ "mem_free_pct": 44,
  "progress": null,
  "done": [
   "2611-peloton-film1b",
