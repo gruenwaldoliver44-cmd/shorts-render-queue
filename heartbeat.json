@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T23:04:39.390Z",
+ "ts": "2026-11-03T23:06:22.004Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
+ "cpu": 10,
+ "gpu": 11,
+ "mem_free_pct": 63,
+ "progress": null,
  "done": [
   "2628-thumb-research",
   "2627-ponzi-film3",
@@ -88,5 +93,6 @@
    "at": "2026-11-03T22:54:18.929Z"
   },
   "updated": "2026-11-03T22:54:18.929Z"
- }
+ },
+ "queue": []
 }
