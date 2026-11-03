@@ -1,6 +1,6 @@
 {
- "ts": "2026-11-03T17:01:47.309Z",
- "current": "2610-peloton-film1 since 2026-11-03 17:01:47",
+ "ts": "2026-11-03T17:01:49.823Z",
+ "current": "",
  "busy": true,
  "free_gb": 44,
  "blender_procs": 0,
@@ -47,6 +47,7 @@
   "2430-ft37b-premium"
  ],
  "failed": [
+  "2610-peloton-film1",
   "2576-ct5-stills1",
   "2575-ft4-stills3",
   "2574-mc4-stills3",
@@ -79,15 +80,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2610-peloton-film1",
-  "title": "Peloton ganzes Video, Testlauf 1",
-  "job_since": "2026-11-03T17:01:47.292Z",
-  "timeout_min": 60,
-  "step": 0,
-  "steps": 4,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-03T17:01:47.292Z"
+  "state": "idle",
+  "last": {
+   "job": "2610-peloton-film1",
+   "title": "Peloton ganzes Video, Testlauf 1",
+   "result": "Fehler",
+   "at": "2026-11-03T17:01:49.806Z"
+  },
+  "updated": "2026-11-03T17:01:49.806Z"
  }
 }
