@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T23:18:21.940Z",
+ "ts": "2026-11-03T23:20:21.959Z",
  "source": "dashboard",
- "current": "2629-ponzi-upload since 2026-11-03 23:16:04",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 21,
- "gpu": 27,
- "mem_free_pct": 62,
+ "cpu": 11,
+ "gpu": 4,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
+  "2629-ponzi-upload",
   "2628-thumb-research",
   "2627-ponzi-film3",
   "2626-ponzi-film2",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2629-ponzi-upload",
-  "title": "Ponzi bereitstellen",
-  "job_since": "2026-11-03T23:16:04.475Z",
-  "timeout_min": 20,
-  "step": 1,
-  "steps": 1,
-  "label": "Hochladen",
-  "step_since": "2026-11-03T23:16:06.356Z",
-  "progress": null,
-  "updated": "2026-11-03T23:16:06.356Z"
+  "state": "idle",
+  "last": {
+   "job": "2629-ponzi-upload",
+   "title": "Ponzi bereitstellen",
+   "result": "fertig",
+   "at": "2026-11-03T23:19:00.530Z"
+  },
+  "updated": "2026-11-03T23:19:00.530Z"
  },
  "queue": []
 }
