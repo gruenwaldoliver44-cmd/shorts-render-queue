@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T20:44:21.661Z",
- "source": "dashboard",
+ "ts": "2026-11-03T20:44:24.160Z",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 1,
- "mem_free_pct": 60,
- "progress": null,
  "done": [
   "2621-peloton-film6",
   "2620-music-new",
@@ -93,6 +88,5 @@
    "at": "2026-11-03T20:33:56.652Z"
   },
   "updated": "2026-11-03T20:33:56.652Z"
- },
- "queue": []
+ }
 }
