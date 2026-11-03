@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T17:01:52.145Z",
+ "ts": "2026-11-03T17:02:20.956Z",
+ "source": "dashboard",
  "current": "2611-peloton-film1b since 2026-11-03 17:01:52",
  "busy": true,
  "free_gb": 44,
  "blender_procs": 0,
+ "cpu": 7,
+ "gpu": 1,
+ "mem_free_pct": 59,
+ "progress": null,
  "done": [
   "2603-peloton-hook4",
   "2602-peloton-hook3",
@@ -85,10 +90,12 @@
   "title": "Peloton ganzes Video, Testlauf 1",
   "job_since": "2026-11-03T17:01:52.091Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 3,
   "steps": 4,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-03T17:02:10.282Z",
   "progress": null,
-  "updated": "2026-11-03T17:01:52.091Z"
- }
+  "updated": "2026-11-03T17:02:10.282Z"
+ },
+ "queue": []
 }
