@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T22:08:12.765Z",
+ "ts": "2026-11-03T22:08:21.908Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
+ "cpu": 4,
+ "gpu": 1,
+ "mem_free_pct": 52,
+ "progress": null,
  "done": [
   "2624-peloton-upload",
   "2623-film6c-audio",
@@ -88,5 +93,6 @@
    "at": "2026-11-03T21:10:57.189Z"
   },
   "updated": "2026-11-03T21:10:57.189Z"
- }
+ },
+ "queue": []
 }
