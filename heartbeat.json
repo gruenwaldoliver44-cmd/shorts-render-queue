@@ -1,15 +1,11 @@
 {
- "ts": "2026-11-03T15:27:49.958Z",
- "source": "dashboard",
- "current": "2602-peloton-hook3 since 2026-11-03 15:27:34",
+ "ts": "2026-11-03T15:28:01.333Z",
+ "current": "",
  "busy": true,
- "free_gb": 42,
+ "free_gb": 43,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 12,
- "mem_free_pct": 42,
- "progress": null,
  "done": [
+  "2602-peloton-hook3",
   "2601-peloton-hook2",
   "2600-peloton-hook",
   "2581-ft4-eevee",
@@ -48,8 +44,7 @@
   "2342-mc52-premium2",
   "2138-ct51b-ct52-premium",
   "2430-ft37b-premium",
-  "2341-mc52-premium",
-  "2429-ft37-premium"
+  "2341-mc52-premium"
  ],
  "failed": [
   "2576-ct5-stills1",
@@ -84,17 +79,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2602-peloton-hook3",
-  "title": "Peloton Hook-Vorschau 3",
-  "job_since": "2026-11-03T15:27:34.050Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T15:27:36.730Z",
-  "progress": null,
-  "updated": "2026-11-03T15:27:36.730Z"
- },
- "queue": []
+  "state": "idle",
+  "last": {
+   "job": "2602-peloton-hook3",
+   "title": "Peloton Hook-Vorschau 3",
+   "result": "fertig",
+   "at": "2026-11-03T15:28:01.315Z"
+  },
+  "updated": "2026-11-03T15:28:01.315Z"
+ }
 }
