@@ -1,6 +1,6 @@
 {
- "ts": "2026-11-03T17:01:49.823Z",
- "current": "",
+ "ts": "2026-11-03T17:01:52.145Z",
+ "current": "2611-peloton-film1b since 2026-11-03 17:01:52",
  "busy": true,
  "free_gb": 44,
  "blender_procs": 0,
@@ -80,13 +80,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2610-peloton-film1",
-   "title": "Peloton ganzes Video, Testlauf 1",
-   "result": "Fehler",
-   "at": "2026-11-03T17:01:49.806Z"
-  },
-  "updated": "2026-11-03T17:01:49.806Z"
+  "state": "busy",
+  "job": "2611-peloton-film1b",
+  "title": "Peloton ganzes Video, Testlauf 1",
+  "job_since": "2026-11-03T17:01:52.091Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 4,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-03T17:01:52.091Z"
  }
 }
