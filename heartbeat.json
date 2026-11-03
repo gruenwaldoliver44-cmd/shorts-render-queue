@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T18:14:21.153Z",
- "source": "dashboard",
+ "ts": "2026-11-03T18:16:08.400Z",
  "current": "",
  "busy": false,
  "free_gb": 41,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 22,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
   "2615-peloton-film3b",
   "2614-music-library",
@@ -49,8 +44,7 @@
   "2293-mt53-premium",
   "2432-ft39-premium",
   "2292-mt52-premium",
-  "2139-ct52b-ct53-ct54-premium",
-  "2343-mc52c-mc53-premium"
+  "2139-ct52b-ct53-ct54-premium"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T18:10:58.986Z"
   },
   "updated": "2026-11-03T18:10:58.986Z"
- },
- "queue": []
+ }
 }
