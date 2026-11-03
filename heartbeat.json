@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T20:36:21.643Z",
+ "ts": "2026-11-03T20:38:21.650Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 8,
- "gpu": 6,
- "mem_free_pct": 56,
+ "cpu": 7,
+ "gpu": 12,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
   "2621-peloton-film6",
