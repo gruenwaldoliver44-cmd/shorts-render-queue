@@ -1,0 +1,13 @@
+{
+ "id": "2617-sfx-lib",
+ "title": "Soundeffekte laden (Kenney, CC0)",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "Laden",
+   "run": "mkdir -p \"$AGENT_HOME/sfx\" && cd \"$AGENT_HOME/sfx\" && curl -sS -f -m 60 -o mc_sfx_kenney.tar \"https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/249ee5f7-cd7e-4c13-88ea-405765a59fd9.tar\" && ls -la mc_sfx_kenney.tar"
+  }
+ ]
+}
