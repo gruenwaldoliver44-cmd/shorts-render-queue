@@ -1,0 +1,1 @@
+{"id":"2620-music-new","title":"Neue Musik holen","type":"shell","timeout_min":10,"retries":1,"steps":[{"label":"Laden","run":"cd \"$AGENT_HOME/music\" && curl -sS -m 200 -o new.tar https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/2bef7c52-aaf3-4d6d-8317-07c3cd31a688.mp3 && tar xf new.tar && ls -la"}]}
