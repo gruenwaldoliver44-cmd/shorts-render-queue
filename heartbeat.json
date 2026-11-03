@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T12:27:49.312Z",
- "source": "dashboard",
+ "ts": "2026-11-03T12:29:18.286Z",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
- "cpu": 21,
- "gpu": 1,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
   "2600-peloton-hook",
   "2581-ft4-eevee",
@@ -49,8 +44,7 @@
   "2430-ft37b-premium",
   "2341-mc52-premium",
   "2429-ft37-premium",
-  "2291-mt51-premium",
-  "2340-mc51-premium"
+  "2291-mt51-premium"
  ],
  "failed": [
   "2576-ct5-stills1",
@@ -93,6 +87,5 @@
    "at": "2026-11-03T12:24:09.295Z"
   },
   "updated": "2026-11-03T12:24:09.295Z"
- },
- "queue": []
+ }
 }
