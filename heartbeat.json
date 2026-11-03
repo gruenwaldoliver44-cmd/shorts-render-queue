@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-03T20:28:03.767Z",
+ "ts": "2026-11-03T20:28:21.655Z",
+ "source": "dashboard",
  "current": "2621-peloton-film6 since 2026-11-03 20:28:03",
  "busy": true,
  "free_gb": 39,
  "blender_procs": 0,
+ "cpu": 27,
+ "gpu": 14,
+ "mem_free_pct": 46,
+ "progress": null,
  "done": [
   "2620-music-new",
   "2619-peloton-film5",
@@ -85,10 +90,12 @@
   "title": "Peloton Fassung 6",
   "job_since": "2026-11-03T20:28:03.750Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 3,
   "steps": 4,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-03T20:28:06.896Z",
   "progress": null,
-  "updated": "2026-11-03T20:28:03.750Z"
- }
+  "updated": "2026-11-03T20:28:06.896Z"
+ },
+ "queue": []
 }
