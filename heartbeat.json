@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T20:32:21.688Z",
+ "ts": "2026-11-03T20:34:21.633Z",
  "source": "dashboard",
- "current": "2621-peloton-film6 since 2026-11-03 20:28:03",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 83,
- "gpu": 12,
- "mem_free_pct": 51,
+ "cpu": 47,
+ "gpu": 1,
+ "mem_free_pct": 55,
  "progress": null,
  "done": [
+  "2621-peloton-film6",
   "2620-music-new",
   "2619-peloton-film5",
   "2618-peloton-film4",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2621-peloton-film6",
-  "title": "Peloton Fassung 6",
-  "job_since": "2026-11-03T20:28:03.750Z",
-  "timeout_min": 60,
-  "step": 3,
-  "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T20:28:06.896Z",
-  "progress": null,
-  "updated": "2026-11-03T20:28:06.896Z"
+  "state": "idle",
+  "last": {
+   "job": "2621-peloton-film6",
+   "title": "Peloton Fassung 6",
+   "result": "fertig",
+   "at": "2026-11-03T20:33:56.652Z"
+  },
+  "updated": "2026-11-03T20:33:56.652Z"
  },
  "queue": []
 }
