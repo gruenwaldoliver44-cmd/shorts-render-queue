@@ -1,0 +1,13 @@
+{
+ "id": "2621-peloton-film6",
+ "title": "Peloton Fassung 6",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 1,
+ "steps": [
+  {"label": "Projekt entpacken","run": "cd \"$AGENT_HOME/pilot_test/film\" && cat n6_aa n6_ab n6_ac n6_ad n6_ae n6_af > n6.tgz && [ \"$(md5 -q n6.tgz)\" = 053f9e8307d4e40c74f82aab10966efe ] && rm -rf nn6old && mkdir -p nn6old && mv src public nn6old/ 2>/dev/null; tar xzf n6.tgz && ls public | wc -l"},
+  {"label": "Pakete installieren","run": "cd \"$AGENT_HOME/pilot_test/film\" && npm_config_cache=\"$AGENT_HOME/npm-cache\" npm install --no-audit --no-fund --loglevel=error"},
+  {"label": "Video rendern","run": "cd \"$AGENT_HOME/pilot_test/film\" && s=$(date +%s) && npx remotion render src/index.jsx P out6.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error && e=$(date +%s) && echo \"render_seconds $((e-s))\" > render_time6.txt"},
+  {"label": "Ton anlegen","run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i out6.mp4 -i mix_n6.m4a -map 0:v -map 1:a -c copy -shortest peloton_film6.mp4 && npx remotion ffmpeg -y -v error -i peloton_film6.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy peloton_film6_vorschau.mp4 && tar czf film6v.tgz peloton_film6_vorschau.mp4 && ls -la peloton_film6*.mp4 >> render_time6.txt"}
+ ]
+}
