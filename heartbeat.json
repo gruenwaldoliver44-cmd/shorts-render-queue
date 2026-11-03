@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T18:42:21.269Z",
+ "ts": "2026-11-03T18:44:21.236Z",
  "source": "dashboard",
- "current": "2618-peloton-film4 since 2026-11-03 18:37:07",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 40,
  "blender_procs": 0,
- "cpu": 87,
- "gpu": 8,
- "mem_free_pct": 49,
+ "cpu": 4,
+ "gpu": 1,
+ "mem_free_pct": 50,
  "progress": null,
  "done": [
+  "2618-peloton-film4",
   "2617-sfx-lib",
   "2616-sfx-kenney",
   "2615-peloton-film3b",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2618-peloton-film4",
-  "title": "Peloton ganzes Video, Fassung 4",
-  "job_since": "2026-11-03T18:37:07.782Z",
-  "timeout_min": 60,
-  "step": 4,
-  "steps": 4,
-  "label": "Ton anlegen",
-  "step_since": "2026-11-03T18:41:45.554Z",
-  "progress": null,
-  "updated": "2026-11-03T18:41:45.554Z"
+  "state": "idle",
+  "last": {
+   "job": "2618-peloton-film4",
+   "title": "Peloton ganzes Video, Fassung 4",
+   "result": "fertig",
+   "at": "2026-11-03T18:42:36.599Z"
+  },
+  "updated": "2026-11-03T18:42:36.599Z"
  },
  "queue": []
 }
