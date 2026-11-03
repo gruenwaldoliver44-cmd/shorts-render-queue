@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T15:37:49.937Z",
- "source": "dashboard",
+ "ts": "2026-11-03T15:38:28.432Z",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
- "cpu": 2,
- "gpu": 0,
- "mem_free_pct": 55,
- "progress": null,
  "done": [
   "2602-peloton-hook3",
   "2601-peloton-hook2",
@@ -92,6 +87,5 @@
    "at": "2026-11-03T15:28:01.315Z"
   },
   "updated": "2026-11-03T15:28:01.315Z"
- },
- "queue": []
+ }
 }
