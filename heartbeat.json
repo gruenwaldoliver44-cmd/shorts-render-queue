@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T18:40:21.281Z",
+ "ts": "2026-11-03T18:42:21.269Z",
  "source": "dashboard",
  "current": "2618-peloton-film4 since 2026-11-03 18:37:07",
  "busy": true,
  "free_gb": 40,
  "blender_procs": 0,
- "cpu": 88,
- "gpu": 13,
- "mem_free_pct": 45,
+ "cpu": 87,
+ "gpu": 8,
+ "mem_free_pct": 49,
  "progress": null,
  "done": [
   "2617-sfx-lib",
@@ -90,12 +90,12 @@
   "title": "Peloton ganzes Video, Fassung 4",
   "job_since": "2026-11-03T18:37:07.782Z",
   "timeout_min": 60,
-  "step": 3,
+  "step": 4,
   "steps": 4,
-  "label": "Video rendern",
-  "step_since": "2026-11-03T18:37:10.700Z",
+  "label": "Ton anlegen",
+  "step_since": "2026-11-03T18:41:45.554Z",
   "progress": null,
-  "updated": "2026-11-03T18:37:10.700Z"
+  "updated": "2026-11-03T18:41:45.554Z"
  },
  "queue": []
 }
