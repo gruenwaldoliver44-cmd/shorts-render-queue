@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T12:25:49.305Z",
+ "ts": "2026-11-03T12:27:49.312Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
- "cpu": 23,
- "gpu": 21,
- "mem_free_pct": 50,
+ "cpu": 21,
+ "gpu": 1,
+ "mem_free_pct": 51,
  "progress": null,
  "done": [
   "2600-peloton-hook",
