@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-03T21:10:21.652Z",
+ "ts": "2026-11-03T21:12:21.689Z",
  "source": "dashboard",
- "current": "2624-peloton-upload since 2026-11-03 21:03:20",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 0,
- "mem_free_pct": 54,
+ "cpu": 20,
+ "gpu": 30,
+ "mem_free_pct": 55,
  "progress": null,
  "done": [
+  "2624-peloton-upload",
   "2623-film6c-audio",
   "2622-film6b-audio",
   "2621-peloton-film6",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2624-peloton-upload",
-  "title": "Peloton Video bereitstellen",
-  "job_since": "2026-11-03T21:03:20.680Z",
-  "timeout_min": 40,
-  "step": 1,
-  "steps": 1,
-  "label": "Hochladen",
-  "step_since": "2026-11-03T21:03:23.543Z",
-  "progress": null,
-  "updated": "2026-11-03T21:03:23.543Z"
+  "state": "idle",
+  "last": {
+   "job": "2624-peloton-upload",
+   "title": "Peloton Video bereitstellen",
+   "result": "fertig",
+   "at": "2026-11-03T21:10:57.189Z"
+  },
+  "updated": "2026-11-03T21:10:57.189Z"
  },
  "queue": []
 }
