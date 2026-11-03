@@ -1,0 +1,13 @@
+{
+ "id": "2619-peloton-film5",
+ "title": "Peloton Four Hundred Noes, Fassung 5",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 1,
+ "steps": [
+  {"label": "Projekt entpacken","run": "cd \"$AGENT_HOME/pilot_test/film\" && cat nn5_aa nn5_ab nn5_ac nn5_ad nn5_ae > nn5.tgz && [ \"$(md5 -q nn5.tgz)\" = 90aedaad01bfd9a99ae6f89261ca18d8 ] && mkdir -p nn5old && mv src public nn5old/ 2>/dev/null; tar xzf nn5.tgz && ls public | wc -l"},
+  {"label": "Pakete installieren","run": "cd \"$AGENT_HOME/pilot_test/film\" && npm_config_cache=\"$AGENT_HOME/npm-cache\" npm install --no-audit --no-fund --loglevel=error"},
+  {"label": "Video rendern","run": "cd \"$AGENT_HOME/pilot_test/film\" && s=$(date +%s) && npx remotion render src/index.jsx P out5.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error && e=$(date +%s) && echo \"render_seconds $((e-s))\" > render_time5.txt"},
+  {"label": "Ton anlegen","run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i out5.mp4 -i mix_nn.m4a -map 0:v -map 1:a -c copy -shortest peloton_film5.mp4 && npx remotion ffmpeg -y -v error -i peloton_film5.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy peloton_film5_vorschau.mp4 && ls -la peloton_film5*.mp4 >> render_time5.txt"}
+ ]
+}
