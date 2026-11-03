@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T19:48:21.508Z",
- "source": "dashboard",
+ "ts": "2026-11-03T19:50:21.228Z",
  "current": "",
  "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 15,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
   "2619-peloton-film5",
   "2618-peloton-film4",
@@ -49,8 +44,7 @@
   "2505-eevee-test",
   "2504-ct-bank390-v4",
   "2503-ct-bank390-v3",
-  "2344-mc54-premium",
-  "2293-mt53-premium"
+  "2344-mc54-premium"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T19:45:09.422Z"
   },
   "updated": "2026-11-03T19:45:09.422Z"
- },
- "queue": []
+ }
 }
