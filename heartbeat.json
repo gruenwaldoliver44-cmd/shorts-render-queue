@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T15:29:49.912Z",
+ "ts": "2026-11-03T15:31:49.920Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 43,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 12,
- "mem_free_pct": 51,
+ "cpu": 3,
+ "gpu": 1,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
   "2602-peloton-hook3",
