@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T22:26:21.958Z",
+ "ts": "2026-11-03T22:28:22.491Z",
  "source": "dashboard",
  "current": "2625-ponzi-film1 since 2026-11-03 22:23:50",
  "busy": true,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 98,
- "gpu": 38,
- "mem_free_pct": 61,
+ "cpu": 91,
+ "gpu": 34,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2624-peloton-upload",
