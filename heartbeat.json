@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-03T22:23:47.844Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-03T22:23:50.178Z",
+ "current": "2625-ponzi-film1 since 2026-11-03 22:23:50",
+ "busy": true,
  "free_gb": 37,
  "blender_procs": 0,
  "done": [
@@ -80,13 +80,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2624-peloton-upload",
-   "title": "Peloton Video bereitstellen",
-   "result": "fertig",
-   "at": "2026-11-03T21:10:57.189Z"
-  },
-  "updated": "2026-11-03T21:10:57.189Z"
+  "state": "busy",
+  "job": "2625-ponzi-film1",
+  "title": "Ponzi Fassung 1",
+  "job_since": "2026-11-03T22:23:50.160Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-03T22:23:50.160Z"
  }
 }
