@@ -1,0 +1,13 @@
+{
+ "id": "2600-peloton-hook",
+ "title": "Peloton Hook-Vorschau",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 1,
+ "steps": [
+  {"label": "Projekt entpacken", "run": "cd \"$AGENT_HOME/pilot_test/hook\" && rm -rf src public_new && tar xzf hook.tgz && ls public | wc -l"},
+  {"label": "Pakete installieren", "run": "cd \"$AGENT_HOME/pilot_test/hook\" && npm_config_cache=\"$AGENT_HOME/npm-cache\" npm install --no-audit --no-fund --loglevel=error"},
+  {"label": "Video rendern", "run": "cd \"$AGENT_HOME/pilot_test/hook\" && s=$(date +%s) && npx remotion render src/index.jsx P out.mp4 --gl=angle --crf=16 --muted --concurrency=6 --timeout=180000 --log=error && e=$(date +%s) && echo \"render_seconds $((e-s))\" > render_time.txt"},
+  {"label": "Ton anlegen", "run": "cd \"$AGENT_HOME/pilot_test/hook\" && npx remotion ffmpeg -y -v error -i out.mp4 -i mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 256k -shortest hook_final.mp4 && ls -la hook_final.mp4 >> render_time.txt"}
+ ]
+}
