@@ -1,0 +1,13 @@
+{
+ "id": "2614-music-library",
+ "title": "Musikbibliothek laden (Kevin MacLeod, CC BY 4.0)",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "Tracks laden",
+   "run": "mkdir -p \"$AGENT_HOME/music\" && cd \"$AGENT_HOME/music\" && curl -sS -f -m 120 -o mc_music_a.tar \"https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/9a6487a2-f816-42fe-9b56-3f7ed8318c64.tar\" && tar xf mc_music_a.tar && ls -la"
+  }
+ ]
+}
