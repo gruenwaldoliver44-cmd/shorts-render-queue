@@ -1,0 +1,13 @@
+{
+ "id": "2616-sfx-kenney",
+ "title": "Soundeffekt-Bibliothek laden (Kenney, CC0)",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "Packs laden",
+   "run": "mkdir -p \"$AGENT_HOME/sfx\" && cd \"$AGENT_HOME/sfx\" && for p in impact-sounds rpg-audio casino-audio interface-sounds digital-audio ui-audio; do i=$(printf \"assets/$p\" | xxd -p | tr -d '\\n'); u=$(curl -sS -f -m 30 -A \"Mozilla/5.0\" \"https://kenney.nl/download-link/$i\" | sed -E 's/.*\"url\":\"([^\"]+)\".*/\\1/' | sed 's#\\\\/#/#g'); curl -sS -f -m 120 -A \"Mozilla/5.0\" -o \"$p.zip\" \"$u\" && mkdir -p \"$p\" && unzip -q -o \"$p.zip\" -d \"$p\" && echo \"$p ok\"; done; find . -name \"*.ogg\" | wc -l; tar czf kenney_all.tgz impact-sounds rpg-audio casino-audio interface-sounds digital-audio ui-audio; ls -la kenney_all.tgz"
+  }
+ ]
+}
