@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-03T18:06:11.910Z",
- "current": "2614-music-library since 2026-11-03 18:06:11",
+ "ts": "2026-11-03T18:06:15.409Z",
+ "current": "",
  "busy": true,
  "free_gb": 41,
  "blender_procs": 0,
  "done": [
+  "2614-music-library",
   "2613-peloton-film3",
   "2612-peloton-film2",
   "2611-peloton-film1b",
@@ -43,8 +44,7 @@
   "2432-ft39-premium",
   "2292-mt52-premium",
   "2139-ct52b-ct53-ct54-premium",
-  "2343-mc52c-mc53-premium",
-  "2431-ft38-premium"
+  "2343-mc52c-mc53-premium"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -80,15 +80,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2614-music-library",
-  "title": "Musikbibliothek laden (Kevin MacLeod, CC BY 4.0)",
-  "job_since": "2026-11-03T18:06:11.893Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-03T18:06:11.893Z"
+  "state": "idle",
+  "last": {
+   "job": "2614-music-library",
+   "title": "Musikbibliothek laden (Kevin MacLeod, CC BY 4.0)",
+   "result": "fertig",
+   "at": "2026-11-03T18:06:15.389Z"
+  },
+  "updated": "2026-11-03T18:06:15.389Z"
  }
 }
