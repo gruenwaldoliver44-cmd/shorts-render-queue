@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T21:00:21.680Z",
- "source": "dashboard",
+ "ts": "2026-11-03T21:02:16.507Z",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 29,
- "mem_free_pct": 60,
- "progress": null,
  "done": [
   "2623-film6c-audio",
   "2622-film6b-audio",
@@ -93,6 +88,5 @@
    "at": "2026-11-03T20:51:51.300Z"
   },
   "updated": "2026-11-03T20:51:51.300Z"
- },
- "queue": []
+ }
 }
