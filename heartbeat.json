@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T22:48:21.947Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-03T22:49:00.748Z",
+ "current": "2627-ponzi-film3 since 2026-11-03 22:49:00",
+ "busy": true,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 26,
- "mem_free_pct": 65,
- "progress": null,
  "done": [
   "2626-ponzi-film2",
   "2625-ponzi-film1",
@@ -85,14 +80,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2626-ponzi-film2",
-   "title": "Ponzi Fassung 2",
-   "result": "fertig",
-   "at": "2026-11-03T22:35:31.774Z"
-  },
-  "updated": "2026-11-03T22:35:31.774Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2627-ponzi-film3",
+  "title": "Ponzi Fassung 3",
+  "job_since": "2026-11-03T22:49:00.729Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-03T22:49:00.729Z"
+ }
 }
