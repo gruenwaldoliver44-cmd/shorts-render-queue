@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-03T22:50:22.138Z",
+ "ts": "2026-11-03T22:52:22.046Z",
  "source": "dashboard",
  "current": "2627-ponzi-film3 since 2026-11-03 22:49:00",
  "busy": true,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 82,
- "gpu": 42,
- "mem_free_pct": 51,
+ "cpu": 69,
+ "gpu": 53,
+ "mem_free_pct": 50,
  "progress": null,
  "done": [
   "2626-ponzi-film2",
