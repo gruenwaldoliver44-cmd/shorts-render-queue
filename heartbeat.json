@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-03T21:14:21.698Z",
- "source": "dashboard",
+ "ts": "2026-11-03T21:16:06.125Z",
  "current": "",
  "busy": false,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 36,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
   "2624-peloton-upload",
   "2623-film6c-audio",
@@ -49,8 +44,7 @@
   "2510-view-mt5",
   "2509-view-mt4",
   "2508-view-mt3",
-  "2507-view-mt2",
-  "2506-view-mt1"
+  "2507-view-mt2"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-03T21:10:57.189Z"
   },
   "updated": "2026-11-03T21:10:57.189Z"
- },
- "queue": []
+ }
 }
