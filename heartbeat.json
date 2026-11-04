@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-04T14:40:53.010Z",
+ "ts": "2026-11-04T14:42:52.984Z",
  "source": "dashboard",
- "current": "2637-tupper-film1b since 2026-11-04 14:38:01",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 35,
  "blender_procs": 0,
- "cpu": 84,
- "gpu": 30,
- "mem_free_pct": 47,
+ "cpu": 30,
+ "gpu": 22,
+ "mem_free_pct": 55,
  "progress": null,
  "done": [
+  "2637-tupper-film1b",
   "2635-sears-upload4",
   "2633-sears-film3",
   "2631-sears-film2",
@@ -87,17 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2637-tupper-film1b",
-  "title": "Tupperware Film rendern, zweiter Versuch",
-  "job_since": "2026-11-04T14:38:01.877Z",
-  "timeout_min": 60,
-  "step": 2,
-  "steps": 3,
-  "label": "Video rendern",
-  "step_since": "2026-11-04T14:38:03.786Z",
-  "progress": null,
-  "updated": "2026-11-04T14:38:03.786Z"
+  "state": "idle",
+  "last": {
+   "job": "2637-tupper-film1b",
+   "title": "Tupperware Film rendern, zweiter Versuch",
+   "result": "fertig",
+   "at": "2026-11-04T14:42:11.332Z"
+  },
+  "updated": "2026-11-04T14:42:11.332Z"
  },
  "queue": []
 }
