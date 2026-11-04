@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-04T12:45:16.884Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-04T12:46:46.895Z",
+ "current": "2631-sears-film2 since 2026-11-04 12:46:46",
+ "busy": true,
  "free_gb": 38,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 28,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
   "2630-sears-film1",
   "2629-ponzi-upload",
@@ -49,8 +44,7 @@
   "2560-ct4-probe",
   "2552-ct3-probe3",
   "2540-ct-instacart-v1",
-  "2531-ft-upload",
-  "2520-mc-pepsi-v1"
+  "2531-ft-upload"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -86,14 +80,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2630-sears-film1",
-   "title": "Sears Fassung 1",
-   "result": "fertig",
-   "at": "2026-11-04T12:42:40.306Z"
-  },
-  "updated": "2026-11-04T12:42:40.306Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2631-sears-film2",
+  "title": "Sears Fassung 2",
+  "job_since": "2026-11-04T12:46:46.875Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-04T12:46:46.875Z"
+ }
 }
