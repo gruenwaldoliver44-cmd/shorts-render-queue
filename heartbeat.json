@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T14:38:53.015Z",
+ "ts": "2026-11-04T14:40:53.010Z",
  "source": "dashboard",
  "current": "2637-tupper-film1b since 2026-11-04 14:38:01",
  "busy": true,
- "free_gb": 36,
+ "free_gb": 35,
  "blender_procs": 0,
- "cpu": 77,
- "gpu": 28,
- "mem_free_pct": 41,
+ "cpu": 84,
+ "gpu": 30,
+ "mem_free_pct": 47,
  "progress": null,
  "done": [
   "2635-sears-upload4",
