@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-04T12:38:13.085Z",
+ "ts": "2026-11-04T12:39:16.898Z",
+ "source": "dashboard",
  "current": "2630-sears-film1 since 2026-11-04 12:38:13",
  "busy": true,
  "free_gb": 38,
  "blender_procs": 0,
+ "cpu": 76,
+ "gpu": 30,
+ "mem_free_pct": 41,
+ "progress": null,
  "done": [
   "2629-ponzi-upload",
   "2628-thumb-research",
@@ -85,10 +90,12 @@
   "title": "Sears Fassung 1",
   "job_since": "2026-11-04T12:38:13.062Z",
   "timeout_min": 70,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-04T12:38:15.295Z",
   "progress": null,
-  "updated": "2026-11-04T12:38:13.062Z"
- }
+  "updated": "2026-11-04T12:38:15.295Z"
+ },
+ "queue": []
 }
