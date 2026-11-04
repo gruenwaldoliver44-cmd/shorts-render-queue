@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T14:32:52.917Z",
+ "ts": "2026-11-04T14:34:52.919Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 29,
- "mem_free_pct": 56,
+ "cpu": 12,
+ "gpu": 16,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
   "2635-sears-upload4",
