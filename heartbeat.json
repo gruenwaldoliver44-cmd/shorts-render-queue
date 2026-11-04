@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T13:23:17.023Z",
+ "ts": "2026-11-04T13:25:16.969Z",
  "source": "dashboard",
  "current": "2633-sears-film3 since 2026-11-04 13:20:57",
  "busy": true,
- "free_gb": 37,
+ "free_gb": 36,
  "blender_procs": 0,
- "cpu": 98,
- "gpu": 25,
- "mem_free_pct": 48,
+ "cpu": 85,
+ "gpu": 0,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
   "2631-sears-film2",
@@ -90,12 +90,12 @@
   "title": "Sears Fassung 3",
   "job_since": "2026-11-04T13:20:57.517Z",
   "timeout_min": 60,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "Video rendern",
-  "step_since": "2026-11-04T13:20:59.943Z",
+  "label": "Ton und Vorschau",
+  "step_since": "2026-11-04T13:24:34.599Z",
   "progress": null,
-  "updated": "2026-11-04T13:20:59.943Z"
+  "updated": "2026-11-04T13:24:34.599Z"
  },
  "queue": []
 }
