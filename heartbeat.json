@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T04:04:22.330Z",
+ "ts": "2026-11-04T04:06:22.322Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
- "cpu": 8,
- "gpu": 26,
- "mem_free_pct": 60,
+ "cpu": 6,
+ "gpu": 25,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
   "2629-ponzi-upload",
