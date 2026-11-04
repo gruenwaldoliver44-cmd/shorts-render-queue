@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T13:51:59.405Z",
+ "ts": "2026-11-04T13:54:52.766Z",
  "source": "dashboard",
- "current": "2634-sears-upload3 since 2026-11-04 13:45:04",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 26,
- "mem_free_pct": 60,
+ "cpu": 30,
+ "gpu": 62,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2633-sears-film3",
@@ -52,6 +52,7 @@
   "2552-ct3-probe3"
  ],
  "failed": [
+  "2634-sears-upload3",
   "2610-peloton-film1",
   "2576-ct5-stills1",
   "2575-ft4-stills3",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2634-sears-upload3",
-  "title": "Sears Fassung 3 bereitstellen",
-  "job_since": "2026-11-04T13:45:04.303Z",
-  "timeout_min": 25,
-  "step": 1,
-  "steps": 1,
-  "label": "Hochladen",
-  "step_since": "2026-11-04T13:45:06.234Z",
-  "progress": null,
-  "updated": "2026-11-04T13:45:06.234Z"
+  "state": "idle",
+  "last": {
+   "job": "2634-sears-upload3",
+   "title": "Sears Fassung 3 bereitstellen",
+   "result": "Fehler",
+   "at": "2026-11-04T13:52:17.862Z"
+  },
+  "updated": "2026-11-04T13:52:17.862Z"
  },
  "queue": []
 }
