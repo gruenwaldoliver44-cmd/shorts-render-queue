@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-04T14:38:01.897Z",
+ "ts": "2026-11-04T14:38:53.015Z",
+ "source": "dashboard",
  "current": "2637-tupper-film1b since 2026-11-04 14:38:01",
  "busy": true,
  "free_gb": 36,
  "blender_procs": 0,
+ "cpu": 77,
+ "gpu": 28,
+ "mem_free_pct": 41,
+ "progress": null,
  "done": [
   "2635-sears-upload4",
   "2633-sears-film3",
@@ -87,10 +92,12 @@
   "title": "Tupperware Film rendern, zweiter Versuch",
   "job_since": "2026-11-04T14:38:01.877Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "Video rendern",
+  "step_since": "2026-11-04T14:38:03.786Z",
   "progress": null,
-  "updated": "2026-11-04T14:38:01.877Z"
- }
+  "updated": "2026-11-04T14:38:03.786Z"
+ },
+ "queue": []
 }
