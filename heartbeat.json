@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-04T01:20:22.162Z",
+ "ts": "2026-11-04T01:22:22.203Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 8,
  "gpu": 25,
- "mem_free_pct": 62,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
   "2629-ponzi-upload",
