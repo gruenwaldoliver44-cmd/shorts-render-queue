@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-04T14:46:53.005Z",
- "source": "dashboard",
+ "ts": "2026-11-04T14:47:19.942Z",
  "current": "",
  "busy": false,
  "free_gb": 35,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 30,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
   "2637-tupper-film1b",
   "2635-sears-upload4",
@@ -49,8 +44,7 @@
   "2568-ct4-seq",
   "2563-ct4-stills3",
   "2562-ct4-stills2",
-  "2561-ct4-stills1",
-  "2560-ct4-probe"
+  "2561-ct4-stills1"
  ],
  "failed": [
   "2636-tupper-film1",
@@ -96,6 +90,5 @@
    "at": "2026-11-04T14:42:11.332Z"
   },
   "updated": "2026-11-04T14:42:11.332Z"
- },
- "queue": []
+ }
 }
