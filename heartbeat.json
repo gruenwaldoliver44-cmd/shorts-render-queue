@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-04T14:05:47.329Z",
+ "ts": "2026-11-04T14:06:52.836Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
+ "cpu": 21,
+ "gpu": 29,
+ "mem_free_pct": 53,
+ "progress": null,
  "done": [
   "2635-sears-upload4",
   "2633-sears-film3",
@@ -89,5 +94,6 @@
    "at": "2026-11-04T14:00:38.391Z"
   },
   "updated": "2026-11-04T14:00:38.391Z"
- }
+ },
+ "queue": []
 }
