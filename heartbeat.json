@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-04T13:13:16.908Z",
+ "ts": "2026-11-04T13:15:16.945Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 37,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 19,
- "mem_free_pct": 60,
+ "cpu": 21,
+ "gpu": 28,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2631-sears-film2",
