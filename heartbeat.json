@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-04T13:25:16.969Z",
+ "ts": "2026-11-04T13:27:16.927Z",
  "source": "dashboard",
- "current": "2633-sears-film3 since 2026-11-04 13:20:57",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 85,
- "gpu": 0,
+ "cpu": 17,
+ "gpu": 50,
  "mem_free_pct": 57,
  "progress": null,
  "done": [
+  "2633-sears-film3",
   "2631-sears-film2",
   "2630-sears-film1",
   "2629-ponzi-upload",
@@ -85,17 +86,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2633-sears-film3",
-  "title": "Sears Fassung 3",
-  "job_since": "2026-11-04T13:20:57.517Z",
-  "timeout_min": 60,
-  "step": 3,
-  "steps": 3,
-  "label": "Ton und Vorschau",
-  "step_since": "2026-11-04T13:24:34.599Z",
-  "progress": null,
-  "updated": "2026-11-04T13:24:34.599Z"
+  "state": "idle",
+  "last": {
+   "job": "2633-sears-film3",
+   "title": "Sears Fassung 3",
+   "result": "fertig",
+   "at": "2026-11-04T13:25:25.575Z"
+  },
+  "updated": "2026-11-04T13:25:25.575Z"
  },
  "queue": []
 }
