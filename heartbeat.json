@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-04T13:29:16.963Z",
- "source": "dashboard",
+ "ts": "2026-11-04T13:30:34.345Z",
  "current": "",
  "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 24,
- "mem_free_pct": 38,
- "progress": null,
  "done": [
   "2633-sears-film3",
   "2631-sears-film2",
@@ -49,8 +44,7 @@
   "2562-ct4-stills2",
   "2561-ct4-stills1",
   "2560-ct4-probe",
-  "2552-ct3-probe3",
-  "2540-ct-instacart-v1"
+  "2552-ct3-probe3"
  ],
  "failed": [
   "2610-peloton-film1",
@@ -94,6 +88,5 @@
    "at": "2026-11-04T13:25:25.575Z"
   },
   "updated": "2026-11-04T13:25:25.575Z"
- },
- "queue": []
+ }
 }
