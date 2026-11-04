@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-04T05:21:38.327Z",
+ "ts": "2026-11-04T05:22:22.427Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 39,
  "blender_procs": 0,
+ "cpu": 6,
+ "gpu": 25,
+ "mem_free_pct": 61,
+ "progress": null,
  "done": [
   "2629-ponzi-upload",
   "2628-thumb-research",
@@ -88,5 +93,6 @@
    "at": "2026-11-03T23:19:00.530Z"
   },
   "updated": "2026-11-03T23:19:00.530Z"
- }
+ },
+ "queue": []
 }
