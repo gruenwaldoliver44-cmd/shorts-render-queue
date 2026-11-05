@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T20:16:56.099Z",
+ "ts": "2026-11-05T20:18:56.121Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 29,
  "blender_procs": 0,
- "cpu": 61,
- "gpu": 23,
- "mem_free_pct": 62,
+ "cpu": 29,
+ "gpu": 19,
+ "mem_free_pct": 68,
  "progress": null,
  "done": [
   "2644-ki-render2",
