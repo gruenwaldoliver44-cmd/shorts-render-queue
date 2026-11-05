@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-05T13:44:55.506Z",
- "source": "dashboard",
+ "ts": "2026-11-05T13:46:18.898Z",
  "current": "",
  "busy": false,
  "free_gb": 33,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 39,
- "mem_free_pct": 54,
- "progress": null,
  "done": [
   "2639-preis-render",
   "2638-tupper-film2",
@@ -49,8 +44,7 @@
   "2570-mt4-stills2",
   "2569-diag",
   "2568-ct4-seq",
-  "2563-ct4-stills3",
-  "2562-ct4-stills2"
+  "2563-ct4-stills3"
  ],
  "failed": [
   "2636-tupper-film1",
@@ -96,6 +90,5 @@
    "at": "2026-11-05T13:40:57.191Z"
   },
   "updated": "2026-11-05T13:40:57.191Z"
- },
- "queue": []
+ }
 }
