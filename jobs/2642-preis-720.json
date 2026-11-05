@@ -1,0 +1,13 @@
+{
+ "id": "2642-preis-720",
+ "title": "Preis Video 720p",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "klein",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i pr_film3.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy pr_final_720.mp4 && ls -l pr_final_720.mp4 > pr_done4.txt"
+  }
+ ]
+}
