@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-05T13:46:18.898Z",
+ "ts": "2026-11-05T13:46:55.500Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 33,
  "blender_procs": 0,
+ "cpu": 15,
+ "gpu": 14,
+ "mem_free_pct": 55,
+ "progress": null,
  "done": [
   "2639-preis-render",
   "2638-tupper-film2",
@@ -90,5 +95,6 @@
    "at": "2026-11-05T13:40:57.191Z"
   },
   "updated": "2026-11-05T13:40:57.191Z"
- }
+ },
+ "queue": []
 }
