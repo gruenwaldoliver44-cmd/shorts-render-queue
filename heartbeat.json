@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T14:38:55.537Z",
+ "ts": "2026-11-05T14:40:55.546Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 31,
+ "free_gb": 30,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 35,
- "mem_free_pct": 53,
+ "cpu": 22,
+ "gpu": 22,
+ "mem_free_pct": 46,
  "progress": null,
  "done": [
   "2641-preis-final",
