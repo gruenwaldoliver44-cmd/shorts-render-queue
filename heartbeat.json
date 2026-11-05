@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T14:32:55.638Z",
+ "ts": "2026-11-05T14:34:55.677Z",
  "source": "dashboard",
  "current": "2641-preis-final since 2026-11-05 14:30:58",
  "busy": true,
  "free_gb": 32,
  "blender_procs": 0,
- "cpu": 88,
- "gpu": 57,
- "mem_free_pct": 41,
+ "cpu": 85,
+ "gpu": 45,
+ "mem_free_pct": 35,
  "progress": null,
  "done": [
   "2640-preis-render2",
