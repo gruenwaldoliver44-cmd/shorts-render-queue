@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-05T14:42:55.540Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-05T14:43:32.274Z",
+ "current": "2642-preis-720 since 2026-11-05 14:43:32",
+ "busy": true,
  "free_gb": 30,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 49,
- "mem_free_pct": 61,
- "progress": null,
  "done": [
   "2641-preis-final",
   "2640-preis-render2",
@@ -87,14 +82,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2641-preis-final",
-   "title": "Preis Video Endfassung mit Jazz",
-   "result": "fertig",
-   "at": "2026-11-05T14:37:16.161Z"
-  },
-  "updated": "2026-11-05T14:37:16.161Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2642-preis-720",
+  "title": "Preis Video 720p",
+  "job_since": "2026-11-05T14:43:32.236Z",
+  "timeout_min": 10,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-05T14:43:32.236Z"
+ }
 }
