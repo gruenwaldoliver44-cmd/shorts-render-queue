@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-05T20:10:53.327Z",
+ "ts": "2026-11-05T20:10:56.069Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 30,
  "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 19,
+ "mem_free_pct": 68,
+ "progress": null,
  "done": [
   "2643-ki-render",
   "2642-preis-720",
@@ -90,5 +95,6 @@
    "at": "2026-11-05T20:05:43.946Z"
   },
   "updated": "2026-11-05T20:05:43.946Z"
- }
+ },
+ "queue": []
 }
