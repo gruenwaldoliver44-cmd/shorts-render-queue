@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T19:40:55.988Z",
+ "ts": "2026-11-05T19:42:55.993Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 31,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 26,
- "mem_free_pct": 77,
+ "cpu": 15,
+ "gpu": 29,
+ "mem_free_pct": 76,
  "progress": null,
  "done": [
   "2642-preis-720",
