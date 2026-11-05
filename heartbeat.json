@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-05T14:43:32.274Z",
- "current": "2642-preis-720 since 2026-11-05 14:43:32",
- "busy": true,
+ "ts": "2026-11-05T14:44:55.532Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 30,
  "blender_procs": 0,
+ "cpu": 34,
+ "gpu": 23,
+ "mem_free_pct": 62,
+ "progress": null,
  "done": [
+  "2642-preis-720",
   "2641-preis-final",
   "2640-preis-render2",
   "2639-preis-render",
@@ -82,15 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2642-preis-720",
-  "title": "Preis Video 720p",
-  "job_since": "2026-11-05T14:43:32.236Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-05T14:43:32.236Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2642-preis-720",
+   "title": "Preis Video 720p",
+   "result": "fertig",
+   "at": "2026-11-05T14:44:11.061Z"
+  },
+  "updated": "2026-11-05T14:44:11.061Z"
+ },
+ "queue": []
 }
