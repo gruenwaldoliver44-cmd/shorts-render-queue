@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T02:30:54.653Z",
+ "ts": "2026-11-05T02:32:54.676Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 0,
- "mem_free_pct": 47,
+ "cpu": 27,
+ "gpu": 1,
+ "mem_free_pct": 46,
  "progress": null,
  "done": [
   "2638-tupper-film2",
