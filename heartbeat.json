@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-05T07:02:55.079Z",
- "source": "dashboard",
+ "ts": "2026-11-05T07:04:23.350Z",
  "current": "",
  "busy": false,
  "free_gb": 36,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 49,
- "progress": null,
  "done": [
   "2638-tupper-film2",
   "2637-tupper-film1b",
@@ -95,6 +90,5 @@
    "at": "2026-11-04T14:54:30.700Z"
   },
   "updated": "2026-11-04T14:54:30.700Z"
- },
- "queue": []
+ }
 }
