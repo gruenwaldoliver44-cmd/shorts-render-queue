@@ -1,0 +1,21 @@
+{
+ "id": "2639-preis-render",
+ "title": "Preis Video Render",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "entpacken",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20; do [ \"$(cat pr1_a? | md5 -q)\" = d7965a9da6623f5f5e2155b0267aac77 ] && break; sleep 15; done; cat pr1_a? > pr1.tgz && [ \"$(md5 -q pr1.tgz)\" = d7965a9da6623f5f5e2155b0267aac77 ] && rm -rf pr && mkdir pr && tar xzf pr1.tgz -C pr && for f in pr/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls pr/bundle/public | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render pr/bundle P pr_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i pr_out.mp4 -i pr/mix.m4a -map 0:v -map 1:a -c copy -shortest pr_film.mp4 && npx remotion ffmpeg -y -v error -i pr_film.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy pr_vorschau.mp4 && tar czf prv.tgz pr_vorschau.mp4 && ls -l prv.tgz pr_film.mp4 > pr_done.txt"
+  }
+ ]
+}
