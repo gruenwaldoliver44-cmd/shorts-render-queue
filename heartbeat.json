@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-05T14:36:55.580Z",
+ "ts": "2026-11-05T14:38:55.537Z",
  "source": "dashboard",
- "current": "2641-preis-final since 2026-11-05 14:30:58",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 31,
  "blender_procs": 0,
- "cpu": 81,
- "gpu": 40,
- "mem_free_pct": 37,
+ "cpu": 32,
+ "gpu": 35,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
+  "2641-preis-final",
   "2640-preis-render2",
   "2639-preis-render",
   "2638-tupper-film2",
@@ -87,17 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2641-preis-final",
-  "title": "Preis Video Endfassung mit Jazz",
-  "job_since": "2026-11-05T14:30:58.139Z",
-  "timeout_min": 40,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-05T14:30:59.970Z",
-  "progress": null,
-  "updated": "2026-11-05T14:30:59.970Z"
+  "state": "idle",
+  "last": {
+   "job": "2641-preis-final",
+   "title": "Preis Video Endfassung mit Jazz",
+   "result": "fertig",
+   "at": "2026-11-05T14:37:16.161Z"
+  },
+  "updated": "2026-11-05T14:37:16.161Z"
  },
  "queue": []
 }
