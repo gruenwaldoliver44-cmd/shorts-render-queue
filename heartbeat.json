@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-05T13:34:55.517Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-05T13:35:44.017Z",
+ "current": "2639-preis-render since 2026-11-05 13:35:43",
+ "busy": true,
  "free_gb": 35,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 46,
- "mem_free_pct": 48,
- "progress": null,
  "done": [
   "2638-tupper-film2",
   "2637-tupper-film1b",
@@ -87,14 +82,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2638-tupper-film2",
-   "title": "Tupperware Film Fassung 2 rendern",
-   "result": "fertig",
-   "at": "2026-11-04T14:54:30.700Z"
-  },
-  "updated": "2026-11-04T14:54:30.700Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2639-preis-render",
+  "title": "Preis Video Render",
+  "job_since": "2026-11-05T13:35:43.994Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-05T13:35:43.994Z"
+ }
 }
