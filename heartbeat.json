@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T20:02:56.062Z",
+ "ts": "2026-11-05T20:04:56.083Z",
  "source": "dashboard",
  "current": "2643-ki-render since 2026-11-05 20:00:57",
  "busy": true,
- "free_gb": 31,
+ "free_gb": 30,
  "blender_procs": 0,
- "cpu": 69,
- "gpu": 39,
- "mem_free_pct": 61,
+ "cpu": 88,
+ "gpu": 43,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2642-preis-720",
