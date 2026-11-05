@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-05T13:40:55.505Z",
+ "ts": "2026-11-05T13:42:55.528Z",
  "source": "dashboard",
- "current": "2639-preis-render since 2026-11-05 13:35:43",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 33,
  "blender_procs": 0,
- "cpu": 85,
- "gpu": 59,
+ "cpu": 17,
+ "gpu": 52,
  "mem_free_pct": 50,
  "progress": null,
  "done": [
+  "2639-preis-render",
   "2638-tupper-film2",
   "2637-tupper-film1b",
   "2635-sears-upload4",
@@ -87,17 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2639-preis-render",
-  "title": "Preis Video Render",
-  "job_since": "2026-11-05T13:35:43.994Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 3,
-  "label": "mux",
-  "step_since": "2026-11-05T13:39:59.605Z",
-  "progress": null,
-  "updated": "2026-11-05T13:39:59.605Z"
+  "state": "idle",
+  "last": {
+   "job": "2639-preis-render",
+   "title": "Preis Video Render",
+   "result": "fertig",
+   "at": "2026-11-05T13:40:57.191Z"
+  },
+  "updated": "2026-11-05T13:40:57.191Z"
  },
  "queue": []
 }
