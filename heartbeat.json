@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-05T13:48:24.567Z",
+ "ts": "2026-11-05T13:48:55.521Z",
+ "source": "dashboard",
  "current": "2640-preis-render2 since 2026-11-05 13:48:24",
  "busy": true,
  "free_gb": 33,
  "blender_procs": 0,
+ "cpu": 35,
+ "gpu": 19,
+ "mem_free_pct": 42,
+ "progress": null,
  "done": [
   "2639-preis-render",
   "2638-tupper-film2",
@@ -87,10 +92,12 @@
   "title": "Preis Video Render 2",
   "job_since": "2026-11-05T13:48:24.549Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-05T13:48:26.715Z",
   "progress": null,
-  "updated": "2026-11-05T13:48:24.549Z"
- }
+  "updated": "2026-11-05T13:48:26.715Z"
+ },
+ "queue": []
 }
