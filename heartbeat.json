@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-05T14:58:55.599Z",
- "source": "dashboard",
+ "ts": "2026-11-05T14:59:44.824Z",
  "current": "",
  "busy": false,
  "free_gb": 30,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 35,
- "mem_free_pct": 62,
- "progress": null,
  "done": [
   "2642-preis-720",
   "2641-preis-final",
@@ -95,6 +90,5 @@
    "at": "2026-11-05T14:44:11.061Z"
   },
   "updated": "2026-11-05T14:44:11.061Z"
- },
- "queue": []
+ }
 }
