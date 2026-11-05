@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-05T20:14:56.151Z",
+ "ts": "2026-11-05T20:16:56.099Z",
  "source": "dashboard",
- "current": "2644-ki-render2 since 2026-11-05 20:11:58",
- "busy": true,
- "free_gb": 30,
+ "current": "",
+ "busy": false,
+ "free_gb": 29,
  "blender_procs": 0,
- "cpu": 86,
- "gpu": 32,
- "mem_free_pct": 52,
+ "cpu": 61,
+ "gpu": 23,
+ "mem_free_pct": 62,
  "progress": null,
  "done": [
+  "2644-ki-render2",
   "2643-ki-render",
   "2642-preis-720",
   "2641-preis-final",
@@ -87,17 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2644-ki-render2",
-  "title": "KI Video Render 2",
-  "job_since": "2026-11-05T20:11:58.702Z",
-  "timeout_min": 40,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-05T20:12:01.001Z",
-  "progress": null,
-  "updated": "2026-11-05T20:12:01.001Z"
+  "state": "idle",
+  "last": {
+   "job": "2644-ki-render2",
+   "title": "KI Video Render 2",
+   "result": "fertig",
+   "at": "2026-11-05T20:16:49.491Z"
+  },
+  "updated": "2026-11-05T20:16:49.491Z"
  },
  "queue": []
 }
