@@ -1,0 +1,21 @@
+{
+ "id": "2644-ki-render2",
+ "title": "KI Video Render 2",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "entpacken",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20; do [ \"$(cat ai2_a? | md5 -q)\" = 0de8b45f34f4da8043076f80b462fdd0 ] && break; sleep 15; done; cat ai2_a? > ai2.tgz && [ \"$(md5 -q ai2.tgz)\" = 0de8b45f34f4da8043076f80b462fdd0 ] && tar xzf ai2.tgz -C ai && for f in ai/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls ai/bundle/public | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render ai/bundle P ai_out2.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i ai_out2.mp4 -i ai/mix.m4a -map 0:v -map 1:a -c copy -shortest ai_film2.mp4 && npx remotion ffmpeg -y -v error -i ai_film2.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy ai2_720.mp4 && ls -l ai2_720.mp4 ai_film2.mp4 > ai_done2.txt"
+  }
+ ]
+}
