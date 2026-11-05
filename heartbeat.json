@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-05T14:30:58.164Z",
+ "ts": "2026-11-05T14:32:55.638Z",
+ "source": "dashboard",
  "current": "2641-preis-final since 2026-11-05 14:30:58",
  "busy": true,
  "free_gb": 32,
  "blender_procs": 0,
+ "cpu": 88,
+ "gpu": 57,
+ "mem_free_pct": 41,
+ "progress": null,
  "done": [
   "2640-preis-render2",
   "2639-preis-render",
@@ -87,10 +92,12 @@
   "title": "Preis Video Endfassung mit Jazz",
   "job_since": "2026-11-05T14:30:58.139Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-05T14:30:59.970Z",
   "progress": null,
-  "updated": "2026-11-05T14:30:58.139Z"
- }
+  "updated": "2026-11-05T14:30:59.970Z"
+ },
+ "queue": []
 }
