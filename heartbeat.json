@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-05T14:28:55.512Z",
+ "ts": "2026-11-05T14:30:55.549Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 32,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 38,
- "mem_free_pct": 64,
+ "cpu": 14,
+ "gpu": 10,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2640-preis-render2",
