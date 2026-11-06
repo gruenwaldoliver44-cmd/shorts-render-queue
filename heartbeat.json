@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-06T13:40:57.456Z",
- "source": "dashboard",
+ "ts": "2026-11-06T13:41:17.576Z",
  "current": "",
  "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 0,
- "mem_free_pct": 56,
- "progress": null,
  "done": [
   "2655-pa-render",
   "2654-pa-render",
@@ -49,8 +44,7 @@
   "2615-peloton-film3b",
   "2614-music-library",
   "2613-peloton-film3",
-  "2612-peloton-film2",
-  "2611-peloton-film1b"
+  "2612-peloton-film2"
  ],
  "failed": [
   "2650-ki2-render",
@@ -97,6 +91,5 @@
    "at": "2026-11-06T13:36:08.164Z"
   },
   "updated": "2026-11-06T13:36:08.164Z"
- },
- "queue": []
+ }
 }
