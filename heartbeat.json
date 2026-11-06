@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T12:38:12.790Z",
+ "ts": "2026-11-06T12:38:57.513Z",
+ "source": "dashboard",
  "current": "2654-pa-render since 2026-11-06 12:38:12",
  "busy": true,
- "free_gb": 21,
+ "free_gb": 20,
  "blender_procs": 0,
+ "cpu": 76,
+ "gpu": 55,
+ "mem_free_pct": 38,
+ "progress": null,
  "done": [
   "2653-pa-render",
   "2652-ki-upload",
@@ -88,10 +93,12 @@
   "title": "Paraguay-Video neu rendern",
   "job_since": "2026-11-06T12:38:12.770Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-06T12:38:15.407Z",
   "progress": null,
-  "updated": "2026-11-06T12:38:12.770Z"
- }
+  "updated": "2026-11-06T12:38:15.407Z"
+ },
+ "queue": []
 }
