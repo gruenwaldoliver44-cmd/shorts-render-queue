@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T10:57:20.924Z",
+ "ts": "2026-11-06T10:58:57.187Z",
+ "source": "dashboard",
  "current": "2651-ki2-render since 2026-11-06 10:57:20",
  "busy": true,
  "free_gb": 23,
  "blender_procs": 0,
+ "cpu": 75,
+ "gpu": 29,
+ "mem_free_pct": 38,
+ "progress": null,
  "done": [
   "2649-up-koepfe",
   "2648-up-test",
@@ -88,10 +93,12 @@
   "title": "KI-Video neu rendern",
   "job_since": "2026-11-06T10:57:20.908Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-06T10:57:23.035Z",
   "progress": null,
-  "updated": "2026-11-06T10:57:20.908Z"
- }
+  "updated": "2026-11-06T10:57:23.035Z"
+ },
+ "queue": []
 }
