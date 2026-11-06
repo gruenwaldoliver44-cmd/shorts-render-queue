@@ -1,0 +1,1 @@
+{"id":"2648-up-test","title":"Testbild hochladen","type":"shell","timeout_min":3,"retries":0,"steps":[{"label":"up","run":"cd ~/ShortsRenderAgent/pilot_test/film/up && curl -s -o /dev/null -w '%{http_code}\\n' -X PUT -H 'Content-Type: image/png' -H 'If-None-Match: *' --data-binary @li_talk_head.png \"$(cat up_li.txt)\" > up_li.res; cat up_li.res"}]}
