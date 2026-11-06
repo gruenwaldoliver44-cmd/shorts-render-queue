@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T09:09:55.949Z",
+ "ts": "2026-11-06T09:10:57.110Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
+ "cpu": 14,
+ "gpu": 14,
+ "mem_free_pct": 68,
+ "progress": null,
  "done": [
   "2645-musik-test",
   "2644-ki-render2",
@@ -90,5 +95,6 @@
    "at": "2026-11-06T09:09:55.920Z"
   },
   "updated": "2026-11-06T09:09:55.920Z"
- }
+ },
+ "queue": []
 }
