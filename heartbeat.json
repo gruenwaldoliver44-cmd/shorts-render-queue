@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-06T09:09:37.746Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-06T09:09:39.877Z",
+ "current": "2645-musik-test since 2026-11-06 09:09:39",
+ "busy": true,
  "free_gb": 23,
  "blender_procs": 0,
  "done": [
@@ -82,13 +82,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2644-ki-render2",
-   "title": "KI Video Render 2",
-   "result": "fertig",
-   "at": "2026-11-05T20:16:49.491Z"
-  },
-  "updated": "2026-11-05T20:16:49.491Z"
+  "state": "busy",
+  "job": "2645-musik-test",
+  "title": "Musikseiten erreichbar?",
+  "job_since": "2026-11-06T09:09:39.855Z",
+  "timeout_min": 6,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-06T09:09:39.855Z"
  }
 }
