@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-06T14:16:57.469Z",
+ "ts": "2026-11-06T14:18:57.519Z",
  "source": "dashboard",
- "current": "2657-pa-upload since 2026-11-06 14:15:25",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 21,
- "gpu": 19,
- "mem_free_pct": 51,
+ "cpu": 13,
+ "gpu": 28,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
+  "2657-pa-upload",
   "2656-pa-render",
   "2655-pa-render",
   "2654-pa-render",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2657-pa-upload",
-  "title": "Paraguay-Video fuer Metricool bereitstellen",
-  "job_since": "2026-11-06T14:15:25.487Z",
-  "timeout_min": 30,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-06T14:15:27.830Z",
-  "progress": null,
-  "updated": "2026-11-06T14:15:27.830Z"
+  "state": "idle",
+  "last": {
+   "job": "2657-pa-upload",
+   "title": "Paraguay-Video fuer Metricool bereitstellen",
+   "result": "fertig",
+   "at": "2026-11-06T14:18:39.625Z"
+  },
+  "updated": "2026-11-06T14:18:39.625Z"
  },
  "queue": []
 }
