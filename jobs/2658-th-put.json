@@ -1,0 +1,1 @@
+{"id":"2658-th-put","title":"Thumbnail-Testbilder hochladen","type":"shell","timeout_min":3,"retries":0,"steps":[{"label":"upload","run":"bash ~/ShortsRenderAgent/work/th_put.sh > ~/ShortsRenderAgent/work/th_put.log 2>&1; cat ~/ShortsRenderAgent/work/th_put.log"}]}
