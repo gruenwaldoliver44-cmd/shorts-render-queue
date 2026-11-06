@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-06T15:54:07.716Z",
- "current": "2658-th-put since 2026-11-06 15:54:07",
+ "ts": "2026-11-06T15:54:11.250Z",
+ "current": "",
  "busy": true,
  "free_gb": 19,
  "blender_procs": 0,
  "done": [
+  "2658-th-put",
   "2657-pa-upload",
   "2656-pa-render",
   "2655-pa-render",
@@ -43,8 +44,7 @@
   "2618-peloton-film4",
   "2617-sfx-lib",
   "2616-sfx-kenney",
-  "2615-peloton-film3b",
-  "2614-music-library"
+  "2615-peloton-film3b"
  ],
  "failed": [
   "2650-ki2-render",
@@ -83,15 +83,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2658-th-put",
-  "title": "Thumbnail-Testbilder hochladen",
-  "job_since": "2026-11-06T15:54:07.698Z",
-  "timeout_min": 3,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-06T15:54:07.698Z"
+  "state": "idle",
+  "last": {
+   "job": "2658-th-put",
+   "title": "Thumbnail-Testbilder hochladen",
+   "result": "fertig",
+   "at": "2026-11-06T15:54:11.213Z"
+  },
+  "updated": "2026-11-06T15:54:11.213Z"
  }
 }
