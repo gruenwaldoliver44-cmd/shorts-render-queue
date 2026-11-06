@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T11:39:09.900Z",
+ "ts": "2026-11-06T11:40:57.250Z",
+ "source": "dashboard",
  "current": "2652-ki-upload since 2026-11-06 11:39:09",
  "busy": true,
  "free_gb": 22,
  "blender_procs": 0,
+ "cpu": 31,
+ "gpu": 16,
+ "mem_free_pct": 43,
+ "progress": null,
  "done": [
   "2651-ki2-render",
   "2649-up-koepfe",
@@ -88,10 +93,12 @@
   "title": "KI-Video fuer Metricool bereitstellen",
   "job_since": "2026-11-06T11:39:09.883Z",
   "timeout_min": 25,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-06T11:39:11.847Z",
   "progress": null,
-  "updated": "2026-11-06T11:39:09.883Z"
- }
+  "updated": "2026-11-06T11:39:11.847Z"
+ },
+ "queue": []
 }
