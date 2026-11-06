@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-06T10:39:28.868Z",
- "current": "2649-up-koepfe since 2026-11-06 10:39:28",
+ "ts": "2026-11-06T10:39:33.398Z",
+ "current": "",
  "busy": true,
  "free_gb": 23,
  "blender_procs": 0,
  "done": [
+  "2649-up-koepfe",
   "2648-up-test",
   "2647-musik-lib",
   "2646-musik-katalog",
@@ -43,8 +44,7 @@
   "2603-peloton-hook4",
   "2602-peloton-hook3",
   "2601-peloton-hook2",
-  "2600-peloton-hook",
-  "2581-ft4-eevee"
+  "2600-peloton-hook"
  ],
  "failed": [
   "2636-tupper-film1",
@@ -82,15 +82,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2649-up-koepfe",
-  "title": "Koepfe hochladen",
-  "job_since": "2026-11-06T10:39:28.846Z",
-  "timeout_min": 3,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-06T10:39:28.846Z"
+  "state": "idle",
+  "last": {
+   "job": "2649-up-koepfe",
+   "title": "Koepfe hochladen",
+   "result": "fertig",
+   "at": "2026-11-06T10:39:33.359Z"
+  },
+  "updated": "2026-11-06T10:39:33.359Z"
  }
 }
