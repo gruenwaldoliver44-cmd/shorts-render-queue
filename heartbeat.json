@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-06T09:32:57.101Z",
- "source": "dashboard",
+ "ts": "2026-11-06T09:32:58.820Z",
  "current": "",
  "busy": false,
  "free_gb": 22,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 25,
- "mem_free_pct": 64,
- "progress": null,
  "done": [
   "2647-musik-lib",
   "2646-musik-katalog",
@@ -49,8 +44,7 @@
   "2601-peloton-hook2",
   "2600-peloton-hook",
   "2581-ft4-eevee",
-  "2580-ct5-eevee",
-  "2579-ft4-stills4"
+  "2580-ct5-eevee"
  ],
  "failed": [
   "2636-tupper-film1",
@@ -96,6 +90,5 @@
    "at": "2026-11-06T09:27:48.348Z"
   },
   "updated": "2026-11-06T09:27:48.348Z"
- },
- "queue": []
+ }
 }
