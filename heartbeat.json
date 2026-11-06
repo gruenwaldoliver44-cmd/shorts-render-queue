@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-06T12:16:57.424Z",
- "source": "dashboard",
+ "ts": "2026-11-06T12:18:23.392Z",
  "current": "",
  "busy": false,
  "free_gb": 22,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 26,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
   "2652-ki-upload",
   "2651-ki2-render",
@@ -96,6 +91,5 @@
    "at": "2026-11-06T11:42:09.621Z"
   },
   "updated": "2026-11-06T11:42:09.621Z"
- },
- "queue": []
+ }
 }
