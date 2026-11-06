@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-06T12:37:08.683Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-06T12:38:12.790Z",
+ "current": "2654-pa-render since 2026-11-06 12:38:12",
+ "busy": true,
  "free_gb": 21,
  "blender_procs": 0,
  "done": [
@@ -83,13 +83,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2653-pa-render",
-   "title": "Paraguay-Video rendern",
-   "result": "fertig",
-   "at": "2026-11-06T12:32:00.154Z"
-  },
-  "updated": "2026-11-06T12:32:00.154Z"
+  "state": "busy",
+  "job": "2654-pa-render",
+  "title": "Paraguay-Video neu rendern",
+  "job_since": "2026-11-06T12:38:12.770Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-06T12:38:12.770Z"
  }
 }
