@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T12:28:57.413Z",
+ "ts": "2026-11-06T12:30:57.477Z",
  "source": "dashboard",
  "current": "2653-pa-render since 2026-11-06 12:27:44",
  "busy": true,
  "free_gb": 21,
  "blender_procs": 0,
- "cpu": 68,
- "gpu": 33,
- "mem_free_pct": 39,
+ "cpu": 80,
+ "gpu": 30,
+ "mem_free_pct": 40,
  "progress": null,
  "done": [
   "2652-ki-upload",
