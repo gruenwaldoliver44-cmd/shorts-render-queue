@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T14:07:15.329Z",
+ "ts": "2026-11-06T14:08:57.476Z",
+ "source": "dashboard",
  "current": "2656-pa-render since 2026-11-06 14:07:15",
  "busy": true,
- "free_gb": 20,
+ "free_gb": 19,
  "blender_procs": 0,
+ "cpu": 81,
+ "gpu": 40,
+ "mem_free_pct": 44,
+ "progress": null,
  "done": [
   "2655-pa-render",
   "2654-pa-render",
@@ -88,10 +93,12 @@
   "title": "Paraguay-Video Endfassung rendern",
   "job_since": "2026-11-06T14:07:15.310Z",
   "timeout_min": 45,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-06T14:07:17.308Z",
   "progress": null,
-  "updated": "2026-11-06T14:07:15.311Z"
- }
+  "updated": "2026-11-06T14:07:17.308Z"
+ },
+ "queue": []
 }
