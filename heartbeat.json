@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T10:49:54.833Z",
+ "ts": "2026-11-06T10:50:57.181Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
+ "cpu": 15,
+ "gpu": 46,
+ "mem_free_pct": 43,
+ "progress": null,
  "done": [
   "2649-up-koepfe",
   "2648-up-test",
@@ -90,5 +95,6 @@
    "at": "2026-11-06T10:39:33.359Z"
   },
   "updated": "2026-11-06T10:39:33.359Z"
- }
+ },
+ "queue": []
 }
