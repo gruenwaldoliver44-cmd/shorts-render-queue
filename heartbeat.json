@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-06T14:10:57.503Z",
+ "ts": "2026-11-06T14:12:57.507Z",
  "source": "dashboard",
- "current": "2656-pa-render since 2026-11-06 14:07:15",
- "busy": true,
- "free_gb": 19,
+ "current": "",
+ "busy": false,
+ "free_gb": 20,
  "blender_procs": 0,
- "cpu": 83,
- "gpu": 22,
- "mem_free_pct": 44,
+ "cpu": 11,
+ "gpu": 17,
+ "mem_free_pct": 47,
  "progress": null,
  "done": [
+  "2656-pa-render",
   "2655-pa-render",
   "2654-pa-render",
   "2653-pa-render",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2656-pa-render",
-  "title": "Paraguay-Video Endfassung rendern",
-  "job_since": "2026-11-06T14:07:15.310Z",
-  "timeout_min": 45,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-06T14:07:17.308Z",
-  "progress": null,
-  "updated": "2026-11-06T14:07:17.308Z"
+  "state": "idle",
+  "last": {
+   "job": "2656-pa-render",
+   "title": "Paraguay-Video Endfassung rendern",
+   "result": "fertig",
+   "at": "2026-11-06T14:12:19.296Z"
+  },
+  "updated": "2026-11-06T14:12:19.296Z"
  },
  "queue": []
 }
