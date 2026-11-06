@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-06T13:34:57.476Z",
+ "ts": "2026-11-06T13:36:57.488Z",
  "source": "dashboard",
- "current": "2655-pa-render since 2026-11-06 13:29:14",
- "busy": true,
- "free_gb": 19,
+ "current": "",
+ "busy": false,
+ "free_gb": 20,
  "blender_procs": 0,
- "cpu": 90,
- "gpu": 25,
- "mem_free_pct": 47,
+ "cpu": 14,
+ "gpu": 24,
+ "mem_free_pct": 55,
  "progress": null,
  "done": [
+  "2655-pa-render",
   "2654-pa-render",
   "2653-pa-render",
   "2652-ki-upload",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2655-pa-render",
-  "title": "Paraguay-Video Fassung 2 rendern",
-  "job_since": "2026-11-06T13:29:14.147Z",
-  "timeout_min": 45,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-06T13:29:16.585Z",
-  "progress": null,
-  "updated": "2026-11-06T13:29:16.585Z"
+  "state": "idle",
+  "last": {
+   "job": "2655-pa-render",
+   "title": "Paraguay-Video Fassung 2 rendern",
+   "result": "fertig",
+   "at": "2026-11-06T13:36:08.164Z"
+  },
+  "updated": "2026-11-06T13:36:08.164Z"
  },
  "queue": []
 }
