@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-06T10:38:57.214Z",
- "source": "dashboard",
+ "ts": "2026-11-06T10:39:26.982Z",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 30,
- "mem_free_pct": 41,
- "progress": null,
  "done": [
   "2648-up-test",
   "2647-musik-lib",
@@ -95,6 +90,5 @@
    "at": "2026-11-06T10:34:16.809Z"
   },
   "updated": "2026-11-06T10:34:16.809Z"
- },
- "queue": []
+ }
 }
