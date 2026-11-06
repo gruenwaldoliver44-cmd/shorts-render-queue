@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-06T09:09:39.877Z",
- "current": "2645-musik-test since 2026-11-06 09:09:39",
+ "ts": "2026-11-06T09:09:55.949Z",
+ "current": "",
  "busy": true,
  "free_gb": 23,
  "blender_procs": 0,
  "done": [
+  "2645-musik-test",
   "2644-ki-render2",
   "2643-ki-render",
   "2642-preis-720",
@@ -43,8 +44,7 @@
   "2581-ft4-eevee",
   "2580-ct5-eevee",
   "2579-ft4-stills4",
-  "2578-ct5-stills2",
-  "2577-stills-reup"
+  "2578-ct5-stills2"
  ],
  "failed": [
   "2636-tupper-film1",
@@ -82,15 +82,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2645-musik-test",
-  "title": "Musikseiten erreichbar?",
-  "job_since": "2026-11-06T09:09:39.855Z",
-  "timeout_min": 6,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-06T09:09:39.855Z"
+  "state": "idle",
+  "last": {
+   "job": "2645-musik-test",
+   "title": "Musikseiten erreichbar?",
+   "result": "fertig",
+   "at": "2026-11-06T09:09:55.920Z"
+  },
+  "updated": "2026-11-06T09:09:55.920Z"
  }
 }
