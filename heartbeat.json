@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T10:34:57.218Z",
+ "ts": "2026-11-06T10:36:57.205Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 30,
- "mem_free_pct": 43,
+ "cpu": 17,
+ "gpu": 31,
+ "mem_free_pct": 41,
  "progress": null,
  "done": [
   "2648-up-test",
