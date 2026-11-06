@@ -1,0 +1,13 @@
+{
+ "id": "2645-musik-test",
+ "title": "Musikseiten erreichbar?",
+ "type": "shell",
+ "timeout_min": 6,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "test",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && mkdir -p mus_test && cd mus_test && : > status.txt && for u in https://freepd.com/ https://freepd.com/upbeat.php https://incompetech.com/music/royalty-free/music.html https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3 https://archive.org/ https://pixabay.com/music/ https://cdn.pixabay.com/ https://www.scottbuckley.com.au/ https://www.bensound.com/ https://mixkit.co/free-stock-music/ https://www.chosic.com/free-music/all/ https://ccmixter.org/ https://opengameart.org/ https://upload.wikimedia.org/; do printf \"%s \" \"$u\" >> status.txt; curl -s -L -o /dev/null -m 12 -A \"Mozilla/5.0\" -w \"%{http_code}\\n\" \"$u\" >> status.txt || echo fail >> status.txt; done; curl -s -L -m 20 -A \"Mozilla/5.0\" -o freepd.html https://freepd.com/ ; curl -s -L -m 20 -A \"Mozilla/5.0\" -o freepd_up.html https://freepd.com/upbeat.php; curl -s -L -m 30 -A \"Mozilla/5.0\" -o incomp.html \"https://incompetech.com/music/royalty-free/music.html\"; ls -l >> status.txt; true"
+  }
+ ]
+}
