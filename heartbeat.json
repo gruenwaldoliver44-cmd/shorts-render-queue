@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T19:59:02.938Z",
+ "ts": "2026-11-06T20:00:57.837Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 19,
  "blender_procs": 0,
+ "cpu": 17,
+ "gpu": 32,
+ "mem_free_pct": 48,
+ "progress": null,
  "done": [
   "2658-th-put",
   "2657-pa-upload",
@@ -91,5 +96,6 @@
    "at": "2026-11-06T15:54:11.213Z"
   },
   "updated": "2026-11-06T15:54:11.213Z"
- }
+ },
+ "queue": []
 }
