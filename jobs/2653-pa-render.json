@@ -1,0 +1,21 @@
+{
+ "id": "2653-pa-render",
+ "title": "Paraguay-Video rendern",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "entpacken",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && for i in $(seq 1 40); do [ \"$(cat pa_a? | md5 -q)\" = 8aa06ae09c454a9932312b404a27ca30 ] && [ \"$(cat pa_p? | md5 -q)\" = bf7ff630b103f7e2653f3f6ec5dbaa7c ] && break; sleep 15; done; cat pa_a? > pa1.tgz; cat pa_p? > pa_pub.tgz; [ \"$(md5 -q pa1.tgz)\" = 8aa06ae09c454a9932312b404a27ca30 ] && [ \"$(md5 -q pa_pub.tgz)\" = bf7ff630b103f7e2653f3f6ec5dbaa7c ] && rm -rf pa && cp -Rc ki pa && tar xzf pa1.tgz -C pa && tar xzf pa_pub.tgz -C pa/bundle && for f in pa/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls pa/bundle/public | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render pa/bundle P pa_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i pa_out.mp4 -i pa/mix2.m4a -map 0:v -map 1:a -c copy -shortest pa_film.mp4 && npx remotion ffmpeg -y -v error -i pa_film.mp4 -c:v libx264 -crf 27 -preset veryfast -vf scale=1280:-2 -c:a copy pa_720.mp4 && ls -l pa_720.mp4 pa_film.mp4 > pa_done.txt"
+  }
+ ]
+}
