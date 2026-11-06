@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T13:04:57.416Z",
+ "ts": "2026-11-06T13:06:57.440Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 52,
- "mem_free_pct": 57,
+ "cpu": 9,
+ "gpu": 35,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
   "2654-pa-render",
