@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T09:34:57.123Z",
+ "ts": "2026-11-06T09:36:57.117Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 22,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 24,
- "mem_free_pct": 67,
+ "cpu": 13,
+ "gpu": 31,
+ "mem_free_pct": 66,
  "progress": null,
  "done": [
   "2647-musik-lib",
