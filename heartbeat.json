@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T12:27:44.792Z",
+ "ts": "2026-11-06T12:28:57.413Z",
+ "source": "dashboard",
  "current": "2653-pa-render since 2026-11-06 12:27:44",
  "busy": true,
- "free_gb": 22,
+ "free_gb": 21,
  "blender_procs": 0,
+ "cpu": 68,
+ "gpu": 33,
+ "mem_free_pct": 39,
+ "progress": null,
  "done": [
   "2652-ki-upload",
   "2651-ki2-render",
@@ -88,10 +93,12 @@
   "title": "Paraguay-Video rendern",
   "job_since": "2026-11-06T12:27:44.773Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-06T12:27:47.324Z",
   "progress": null,
-  "updated": "2026-11-06T12:27:44.773Z"
- }
+  "updated": "2026-11-06T12:27:47.324Z"
+ },
+ "queue": []
 }
