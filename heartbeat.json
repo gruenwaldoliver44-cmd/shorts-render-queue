@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-06T09:26:57.099Z",
+ "ts": "2026-11-06T09:28:57.105Z",
  "source": "dashboard",
- "current": "2647-musik-lib since 2026-11-06 09:18:21",
- "busy": true,
- "free_gb": 23,
+ "current": "",
+ "busy": false,
+ "free_gb": 22,
  "blender_procs": 0,
  "cpu": 14,
- "gpu": 21,
- "mem_free_pct": 62,
+ "gpu": 13,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
+  "2647-musik-lib",
   "2646-musik-katalog",
   "2645-musik-test",
   "2644-ki-render2",
@@ -87,17 +88,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2647-musik-lib",
-  "title": "Musik-Bibliothek laden",
-  "job_since": "2026-11-06T09:18:21.827Z",
-  "timeout_min": 25,
-  "step": 1,
-  "steps": 1,
-  "label": "lib",
-  "step_since": "2026-11-06T09:18:23.674Z",
-  "progress": null,
-  "updated": "2026-11-06T09:18:23.674Z"
+  "state": "idle",
+  "last": {
+   "job": "2647-musik-lib",
+   "title": "Musik-Bibliothek laden",
+   "result": "fertig",
+   "at": "2026-11-06T09:27:48.348Z"
+  },
+  "updated": "2026-11-06T09:27:48.348Z"
  },
  "queue": []
 }
