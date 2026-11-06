@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-06T12:42:57.446Z",
+ "ts": "2026-11-06T12:44:57.418Z",
  "source": "dashboard",
- "current": "2654-pa-render since 2026-11-06 12:38:12",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 58,
- "gpu": 53,
- "mem_free_pct": 43,
+ "cpu": 19,
+ "gpu": 35,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
+  "2654-pa-render",
   "2653-pa-render",
   "2652-ki-upload",
   "2651-ki2-render",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2654-pa-render",
-  "title": "Paraguay-Video neu rendern",
-  "job_since": "2026-11-06T12:38:12.770Z",
-  "timeout_min": 40,
-  "step": 3,
-  "steps": 3,
-  "label": "mux",
-  "step_since": "2026-11-06T12:42:53.905Z",
-  "progress": null,
-  "updated": "2026-11-06T12:42:53.905Z"
+  "state": "idle",
+  "last": {
+   "job": "2654-pa-render",
+   "title": "Paraguay-Video neu rendern",
+   "result": "fertig",
+   "at": "2026-11-06T12:43:34.710Z"
+  },
+  "updated": "2026-11-06T12:43:34.710Z"
  },
  "queue": []
 }
