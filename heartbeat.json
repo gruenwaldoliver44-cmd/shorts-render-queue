@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-06T12:36:57.441Z",
- "source": "dashboard",
+ "ts": "2026-11-06T12:37:08.683Z",
  "current": "",
  "busy": false,
  "free_gb": 21,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 46,
- "mem_free_pct": 49,
- "progress": null,
  "done": [
   "2653-pa-render",
   "2652-ki-upload",
@@ -49,8 +44,7 @@
   "2613-peloton-film3",
   "2612-peloton-film2",
   "2611-peloton-film1b",
-  "2603-peloton-hook4",
-  "2602-peloton-hook3"
+  "2603-peloton-hook4"
  ],
  "failed": [
   "2650-ki2-render",
@@ -97,6 +91,5 @@
    "at": "2026-11-06T12:32:00.154Z"
   },
   "updated": "2026-11-06T12:32:00.154Z"
- },
- "queue": []
+ }
 }
