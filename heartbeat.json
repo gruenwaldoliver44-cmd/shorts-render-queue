@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T09:53:46.941Z",
+ "ts": "2026-11-06T09:54:57.148Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 22,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 25,
+ "mem_free_pct": 45,
+ "progress": null,
  "done": [
   "2647-musik-lib",
   "2646-musik-katalog",
@@ -90,5 +95,6 @@
    "at": "2026-11-06T09:27:48.348Z"
   },
   "updated": "2026-11-06T09:27:48.348Z"
- }
+ },
+ "queue": []
 }
