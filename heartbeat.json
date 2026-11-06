@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-06T14:15:25.504Z",
+ "ts": "2026-11-06T14:16:57.469Z",
+ "source": "dashboard",
  "current": "2657-pa-upload since 2026-11-06 14:15:25",
  "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
+ "cpu": 21,
+ "gpu": 19,
+ "mem_free_pct": 51,
+ "progress": null,
  "done": [
   "2656-pa-render",
   "2655-pa-render",
@@ -88,10 +93,12 @@
   "title": "Paraguay-Video fuer Metricool bereitstellen",
   "job_since": "2026-11-06T14:15:25.487Z",
   "timeout_min": 30,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-06T14:15:27.830Z",
   "progress": null,
-  "updated": "2026-11-06T14:15:25.487Z"
- }
+  "updated": "2026-11-06T14:15:27.830Z"
+ },
+ "queue": []
 }
