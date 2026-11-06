@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-06T10:50:57.181Z",
+ "ts": "2026-11-06T10:52:57.195Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 46,
- "mem_free_pct": 43,
+ "cpu": 17,
+ "gpu": 28,
+ "mem_free_pct": 45,
  "progress": null,
  "done": [
   "2649-up-koepfe",
