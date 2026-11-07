@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-07T12:18:31.188Z",
+ "ts": "2026-11-07T12:20:31.168Z",
  "source": "dashboard",
- "current": "2659-co-render since 2026-11-07 12:17:04",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 17,
  "blender_procs": 0,
- "cpu": 80,
+ "cpu": 21,
  "gpu": 0,
- "mem_free_pct": 38,
+ "mem_free_pct": 39,
  "progress": null,
  "done": [
+  "2659-co-render",
   "2658-th-put",
   "2657-pa-upload",
   "2656-pa-render",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2659-co-render",
-  "title": "Concorde-Video rendern",
-  "job_since": "2026-11-07T12:17:04.323Z",
-  "timeout_min": 45,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-07T12:17:06.772Z",
-  "progress": null,
-  "updated": "2026-11-07T12:17:06.772Z"
+  "state": "idle",
+  "last": {
+   "job": "2659-co-render",
+   "title": "Concorde-Video rendern",
+   "result": "fertig",
+   "at": "2026-11-07T12:20:31.008Z"
+  },
+  "updated": "2026-11-07T12:20:31.008Z"
  },
  "queue": []
 }
