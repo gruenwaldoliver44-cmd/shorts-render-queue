@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-07T12:34:31.269Z",
- "source": "dashboard",
+ "ts": "2026-11-07T12:36:02.421Z",
  "current": "",
  "busy": false,
  "free_gb": 16,
  "blender_procs": 0,
- "cpu": 10,
- "gpu": 15,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
   "2659-co-render",
   "2658-th-put",
@@ -96,6 +91,5 @@
    "at": "2026-11-07T12:20:31.008Z"
   },
   "updated": "2026-11-07T12:20:31.008Z"
- },
- "queue": []
+ }
 }
