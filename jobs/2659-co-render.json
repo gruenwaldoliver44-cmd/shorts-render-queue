@@ -1,0 +1,4 @@
+{"id":"2659-co-render","title":"Concorde-Video rendern","type":"shell","timeout_min":45,"retries":0,"steps":[
+{"label":"entpacken","run":"cd \"$AGENT_HOME/pilot_test/film\" && cat co1pa? > co1.tgz && [ \"$(md5 -q co1.tgz)\" = e6587d69b2c4bfb6467a32b081145a4c ] && mkdir -p co && rm -rf co/bundle && tar xzf co1.tgz -C co && for f in co/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls co/bundle | wc -l"},
+{"label":"render","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render co/bundle P co_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"},
+{"label":"mux","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i co_out.mp4 -i co/mixm.m4a -map 0:v -map 1:a -c copy -shortest co_film.mp4 && ls -l co_film.mp4 > co_done.txt"}]}
