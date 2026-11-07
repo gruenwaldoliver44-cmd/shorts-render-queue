@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-07T09:38:30.870Z",
+ "ts": "2026-11-07T09:40:30.874Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 19,
  "blender_procs": 0,
- "cpu": 9,
+ "cpu": 23,
  "gpu": 0,
- "mem_free_pct": 44,
+ "mem_free_pct": 45,
  "progress": null,
  "done": [
   "2658-th-put",
