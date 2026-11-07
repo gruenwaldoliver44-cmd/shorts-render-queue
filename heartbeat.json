@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-07T12:36:04.743Z",
+ "ts": "2026-11-07T12:36:31.233Z",
+ "source": "dashboard",
  "current": "2660-co-render2 since 2026-11-07 12:36:04",
  "busy": true,
  "free_gb": 16,
  "blender_procs": 0,
+ "cpu": 62,
+ "gpu": 21,
+ "mem_free_pct": 42,
+ "progress": null,
  "done": [
   "2659-co-render",
   "2658-th-put",
@@ -88,10 +93,12 @@
   "title": "Concorde-Video rendern",
   "job_since": "2026-11-07T12:36:04.727Z",
   "timeout_min": 45,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-07T12:36:06.863Z",
   "progress": null,
-  "updated": "2026-11-07T12:36:04.727Z"
- }
+  "updated": "2026-11-07T12:36:06.863Z"
+ },
+ "queue": []
 }
