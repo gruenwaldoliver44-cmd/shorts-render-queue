@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-07T12:24:31.223Z",
- "source": "dashboard",
+ "ts": "2026-11-07T12:25:40.382Z",
  "current": "",
  "busy": false,
  "free_gb": 16,
  "blender_procs": 0,
- "cpu": 10,
- "gpu": 0,
- "mem_free_pct": 50,
- "progress": null,
  "done": [
   "2659-co-render",
   "2658-th-put",
@@ -49,8 +44,7 @@
   "2619-peloton-film5",
   "2618-peloton-film4",
   "2617-sfx-lib",
-  "2616-sfx-kenney",
-  "2615-peloton-film3b"
+  "2616-sfx-kenney"
  ],
  "failed": [
   "2650-ki2-render",
@@ -97,6 +91,5 @@
    "at": "2026-11-07T12:20:31.008Z"
   },
   "updated": "2026-11-07T12:20:31.008Z"
- },
- "queue": []
+ }
 }
