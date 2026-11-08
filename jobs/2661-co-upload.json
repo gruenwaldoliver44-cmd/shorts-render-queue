@@ -1,0 +1,13 @@
+{
+ "id": "2661-co-upload",
+ "title": "Concorde-Video fuer Metricool bereitstellen",
+ "type": "shell",
+ "timeout_min": 30,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > up4.res; for i in 1 2 3 4 5 6 7 8 9 10 11 12; do [ -f up/up4.txt ] && [ -f up/co_thumb.jpg ] && break; sleep 10; done; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> up4.res; done < up/up4.txt; echo fertig >> up4.res; cat up4.res"
+  }
+ ]
+}
