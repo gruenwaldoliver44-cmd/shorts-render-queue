@@ -1,0 +1,13 @@
+{
+ "id": "2663-bili-check",
+ "title": "Claude-Befehl suchen",
+ "type": "shell",
+ "timeout_min": 3,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "check",
+   "run": "O=\"$AGENT_HOME/work/bili2.log\"; : > \"$O\"; exec >>\"$O\" 2>&1; echo \"login shell: $(dscl . -read ~ UserShell 2>/dev/null)\"; /bin/zsh -ilc \"command -v claude\" || echo ZSH_NO; ls -l ~/.local/bin/claude ~/.claude/local/claude /opt/homebrew/bin/claude /usr/local/bin/claude 2>&1 | grep -v \"No such\"; echo DONE2"
+  }
+ ]
+}
