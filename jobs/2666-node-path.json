@@ -1,0 +1,13 @@
+{
+ "id": "2666-node-path",
+ "title": "Node fuer Terminal freischalten",
+ "type": "shell",
+ "timeout_min": 3,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "path",
+   "run": "O=\"$AGENT_HOME/work/bili5.log\"; : > \"$O\"; exec >>\"$O\" 2>&1\nL='export PATH=\"$PATH:$HOME/ShortsRenderAgent/node/bin\"'; RC=\"$HOME/.bash_profile\"\ngrep -qF \"$L\" \"$RC\" || echo \"$L\" >> \"$RC\"; cat \"$RC\"\nenv -i HOME=\"$HOME\" USER=\"$USER\" /bin/bash -lc 'node -v; bili --version'\necho DONE5\n"
+  }
+ ]
+}
