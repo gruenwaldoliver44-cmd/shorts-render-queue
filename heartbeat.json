@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-08T06:30:44.626Z",
+ "ts": "2026-11-08T06:32:44.649Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 16,
+ "free_gb": 14,
  "blender_procs": 0,
- "cpu": 22,
+ "cpu": 26,
  "gpu": 13,
- "mem_free_pct": 81,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2660-co-render2",
