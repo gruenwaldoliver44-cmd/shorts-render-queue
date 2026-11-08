@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-08T14:31:48.174Z",
+ "ts": "2026-11-08T14:32:45.182Z",
+ "source": "dashboard",
  "current": "2661-co-upload since 2026-11-08 14:31:48",
  "busy": true,
  "free_gb": 13,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 23,
+ "mem_free_pct": 77,
+ "progress": null,
  "done": [
   "2660-co-render2",
   "2659-co-render",
@@ -88,10 +93,12 @@
   "title": "Concorde-Video fuer Metricool bereitstellen",
   "job_since": "2026-11-08T14:31:48.151Z",
   "timeout_min": 30,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-08T14:31:50.058Z",
   "progress": null,
-  "updated": "2026-11-08T14:31:48.151Z"
- }
+  "updated": "2026-11-08T14:31:50.058Z"
+ },
+ "queue": []
 }
