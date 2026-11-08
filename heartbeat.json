@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-08T22:47:52.335Z",
+ "ts": "2026-11-08T22:49:52.340Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 15,
+ "cpu": 16,
  "gpu": 0,
- "mem_free_pct": 61,
+ "mem_free_pct": 62,
  "progress": null,
  "done": [
   "2666-node-path",
