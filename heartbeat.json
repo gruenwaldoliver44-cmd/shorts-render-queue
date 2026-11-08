@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-08T21:54:49.708Z",
+ "ts": "2026-11-08T21:56:17.892Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 14,
  "blender_procs": 0,
+ "cpu": 15,
+ "gpu": 26,
+ "mem_free_pct": 68,
+ "progress": null,
  "done": [
   "2663-bili-check",
   "2662-bili-setup",
@@ -91,5 +96,6 @@
    "at": "2026-11-08T21:54:49.679Z"
   },
   "updated": "2026-11-08T21:54:49.679Z"
- }
+ },
+ "queue": []
 }
