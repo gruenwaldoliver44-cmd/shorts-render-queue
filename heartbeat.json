@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-08T22:02:17.900Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-08T22:02:24.878Z",
+ "current": "2665-node-check since 2026-11-08 22:02:24",
+ "busy": true,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 48,
- "mem_free_pct": 62,
- "progress": null,
  "done": [
   "2664-bili-setup2",
   "2663-bili-check",
@@ -88,14 +83,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2664-bili-setup2",
-   "title": "Billion Context einrichten",
-   "result": "fertig",
-   "at": "2026-11-08T22:00:17.634Z"
-  },
-  "updated": "2026-11-08T22:00:17.634Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2665-node-check",
+  "title": "Node-Pfad suchen",
+  "job_since": "2026-11-08T22:02:24.853Z",
+  "timeout_min": 3,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-08T22:02:24.853Z"
+ }
 }
