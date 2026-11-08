@@ -1,6 +1,6 @@
 {
- "ts": "2026-11-08T22:02:27.140Z",
- "current": "",
+ "ts": "2026-11-08T22:03:31.789Z",
+ "current": "2666-node-path since 2026-11-08 22:03:31",
  "busy": true,
  "free_gb": 14,
  "blender_procs": 0,
@@ -83,13 +83,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2665-node-check",
-   "title": "Node-Pfad suchen",
-   "result": "fertig",
-   "at": "2026-11-08T22:02:27.102Z"
-  },
-  "updated": "2026-11-08T22:02:27.102Z"
+  "state": "busy",
+  "job": "2666-node-path",
+  "title": "Node fuer Terminal freischalten",
+  "job_since": "2026-11-08T22:03:31.764Z",
+  "timeout_min": 3,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-08T22:03:31.764Z"
  }
 }
