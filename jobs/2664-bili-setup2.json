@@ -1,0 +1,13 @@
+{
+ "id": "2664-bili-setup2",
+ "title": "Billion Context einrichten",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "setup",
+   "run": "O=\"$AGENT_HOME/work/bili3.log\"; : > \"$O\"; exec >>\"$O\" 2>&1\nL='export PATH=\"$HOME/.local/bin:$PATH\"'; RC=\"$HOME/.bash_profile\"\necho \"== PATH-Zeile\"; if grep -qF \"$L\" \"$RC\" 2>/dev/null; then echo \"RC_HAS_LINE\"; else echo \"$L\" >> \"$RC\" && echo \"RC_ADDED $RC\" || echo \"RC_WRITE_FAILED\"; fi\necho \"== 1 node\"; node -v\necho \"== 2 claude\"; /bin/bash -lc 'command -v claude; claude --version' || { echo STOP_NOCLAUDE; exit 0; }\necho \"== 3 install\"; npm install -g billion-context --prefix=~/.local || { echo INSTALL_FAILED; exit 0; }\necho \"== 4 bili\"; /bin/bash -lc 'command -v bili' || echo BILI_NOT_IN_LOGIN_PATH\necho \"== 5 version\"; /bin/bash -lc 'bili --version' || ~/.local/bin/bili --version\necho DONE3\n"
+  }
+ ]
+}
