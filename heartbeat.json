@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-08T18:17:27.415Z",
+ "ts": "2026-11-08T18:33:50.456Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 25,
  "gpu": 33,
- "mem_free_pct": 66,
+ "mem_free_pct": 67,
  "progress": null,
  "done": [
   "2661-co-upload",
