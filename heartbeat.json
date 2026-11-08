@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-08T21:56:17.892Z",
+ "ts": "2026-11-08T21:58:17.929Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 26,
- "mem_free_pct": 68,
+ "cpu": 16,
+ "gpu": 28,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2663-bili-check",
