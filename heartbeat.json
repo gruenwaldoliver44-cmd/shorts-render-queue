@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-08T14:32:45.182Z",
+ "ts": "2026-11-08T14:34:45.214Z",
  "source": "dashboard",
- "current": "2661-co-upload since 2026-11-08 14:31:48",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 23,
- "mem_free_pct": 77,
+ "cpu": 20,
+ "gpu": 50,
+ "mem_free_pct": 72,
  "progress": null,
  "done": [
+  "2661-co-upload",
   "2660-co-render2",
   "2659-co-render",
   "2658-th-put",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2661-co-upload",
-  "title": "Concorde-Video fuer Metricool bereitstellen",
-  "job_since": "2026-11-08T14:31:48.151Z",
-  "timeout_min": 30,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-08T14:31:50.058Z",
-  "progress": null,
-  "updated": "2026-11-08T14:31:50.058Z"
+  "state": "idle",
+  "last": {
+   "job": "2661-co-upload",
+   "title": "Concorde-Video fuer Metricool bereitstellen",
+   "result": "fertig",
+   "at": "2026-11-08T14:34:24.292Z"
+  },
+  "updated": "2026-11-08T14:34:24.292Z"
  },
  "queue": []
 }
