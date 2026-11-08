@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-08T22:03:31.789Z",
- "current": "2666-node-path since 2026-11-08 22:03:31",
+ "ts": "2026-11-08T22:03:34.397Z",
+ "current": "",
  "busy": true,
  "free_gb": 14,
  "blender_procs": 0,
  "done": [
+  "2666-node-path",
   "2665-node-check",
   "2664-bili-setup2",
   "2663-bili-check",
@@ -43,8 +44,7 @@
   "2626-ponzi-film2",
   "2625-ponzi-film1",
   "2624-peloton-upload",
-  "2623-film6c-audio",
-  "2622-film6b-audio"
+  "2623-film6c-audio"
  ],
  "failed": [
   "2650-ki2-render",
@@ -83,15 +83,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2666-node-path",
-  "title": "Node fuer Terminal freischalten",
-  "job_since": "2026-11-08T22:03:31.764Z",
-  "timeout_min": 3,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-08T22:03:31.764Z"
+  "state": "idle",
+  "last": {
+   "job": "2666-node-path",
+   "title": "Node fuer Terminal freischalten",
+   "result": "fertig",
+   "at": "2026-11-08T22:03:34.373Z"
+  },
+  "updated": "2026-11-08T22:03:34.373Z"
  }
 }
