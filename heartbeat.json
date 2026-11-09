@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-09T13:03:53.740Z",
- "source": "dashboard",
+ "ts": "2026-11-09T13:05:50.863Z",
  "current": "",
  "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 0,
- "mem_free_pct": 63,
- "progress": null,
  "done": [
   "2668-bk-preview",
   "2667-bk-render",
@@ -49,8 +44,7 @@
   "2628-thumb-research",
   "2627-ponzi-film3",
   "2626-ponzi-film2",
-  "2625-ponzi-film1",
-  "2624-peloton-upload"
+  "2625-ponzi-film1"
  ],
  "failed": [
   "2650-ki2-render",
@@ -97,6 +91,5 @@
    "at": "2026-11-09T13:00:41.187Z"
   },
   "updated": "2026-11-09T13:00:41.187Z"
- },
- "queue": []
+ }
 }
