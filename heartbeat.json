@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-09T13:05:50.863Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-09T13:05:53.196Z",
+ "current": "2669-bk-render2 since 2026-11-09 13:05:53",
+ "busy": true,
  "free_gb": 18,
  "blender_procs": 0,
  "done": [
@@ -83,13 +83,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2668-bk-preview",
-   "title": "Banken-Video Vorschau 720p",
-   "result": "fertig",
-   "at": "2026-11-09T13:00:41.187Z"
-  },
-  "updated": "2026-11-09T13:00:41.187Z"
+  "state": "busy",
+  "job": "2669-bk-render2",
+  "title": "Banken-Video rendern v2",
+  "job_since": "2026-11-09T13:05:53.174Z",
+  "timeout_min": 90,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-09T13:05:53.174Z"
  }
 }
