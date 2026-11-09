@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-09T13:11:53.811Z",
+ "ts": "2026-11-09T13:13:53.788Z",
  "source": "dashboard",
- "current": "2669-bk-render2 since 2026-11-09 13:05:53",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 17,
  "blender_procs": 0,
- "cpu": 44,
- "gpu": 15,
+ "cpu": 17,
+ "gpu": 0,
  "mem_free_pct": 61,
  "progress": null,
  "done": [
+  "2669-bk-render2",
   "2668-bk-preview",
   "2667-bk-render",
   "2666-node-path",
@@ -88,17 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2669-bk-render2",
-  "title": "Banken-Video rendern v2",
-  "job_since": "2026-11-09T13:05:53.174Z",
-  "timeout_min": 90,
-  "step": 3,
-  "steps": 3,
-  "label": "mux",
-  "step_since": "2026-11-09T13:11:42.261Z",
-  "progress": null,
-  "updated": "2026-11-09T13:11:42.261Z"
+  "state": "idle",
+  "last": {
+   "job": "2669-bk-render2",
+   "title": "Banken-Video rendern v2",
+   "result": "fertig",
+   "at": "2026-11-09T13:12:12.268Z"
+  },
+  "updated": "2026-11-09T13:12:12.268Z"
  },
  "queue": []
 }
