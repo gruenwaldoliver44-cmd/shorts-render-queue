@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-09T09:41:55.423Z",
+ "ts": "2026-11-09T09:43:30.731Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
+ "cpu": 5,
+ "gpu": 0,
+ "mem_free_pct": 66,
+ "progress": null,
  "done": [
   "2666-node-path",
   "2665-node-check",
@@ -91,5 +96,6 @@
    "at": "2026-11-08T22:03:34.373Z"
   },
   "updated": "2026-11-08T22:03:34.373Z"
- }
+ },
+ "queue": []
 }
