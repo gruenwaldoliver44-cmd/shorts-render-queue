@@ -1,0 +1,3 @@
+{"id":"2668-bk-preview","title":"Banken-Video Vorschau 720p","type":"shell","timeout_min":30,"retries":0,"steps":[
+{"label":"720p","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i bk_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 26 -c:a aac -b:a 160k bk_720.mp4 && ls -l bk_720.mp4 > bk_prev.txt"},
+{"label":"lautheit","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -hide_banner -i bk_film.mp4 -af ebur128 -f null - 2>&1 | tail -12 > bk_loud.txt; cat bk_loud.txt"}]}
