@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-09T13:00:09.403Z",
- "current": "2668-bk-preview since 2026-11-09 13:00:09",
- "busy": true,
+ "ts": "2026-11-09T13:01:53.732Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 25,
+ "gpu": 1,
+ "mem_free_pct": 63,
+ "progress": null,
  "done": [
+  "2668-bk-preview",
   "2667-bk-render",
   "2666-node-path",
   "2665-node-check",
@@ -83,15 +89,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2668-bk-preview",
-  "title": "Banken-Video Vorschau 720p",
-  "job_since": "2026-11-09T13:00:09.382Z",
-  "timeout_min": 30,
-  "step": 0,
-  "steps": 2,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-09T13:00:09.382Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2668-bk-preview",
+   "title": "Banken-Video Vorschau 720p",
+   "result": "fertig",
+   "at": "2026-11-09T13:00:41.187Z"
+  },
+  "updated": "2026-11-09T13:00:41.187Z"
+ },
+ "queue": []
 }
