@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-09T21:27:16.021Z",
+ "ts": "2026-11-09T21:29:16.016Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 21,
  "blender_procs": 0,
  "cpu": 4,
- "gpu": 1,
- "mem_free_pct": 71,
+ "gpu": 20,
+ "mem_free_pct": 70,
  "progress": null,
  "done": [
   "2671-bk-thumb",
