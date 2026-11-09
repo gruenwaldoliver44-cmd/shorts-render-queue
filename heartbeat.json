@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-09T16:23:17.297Z",
+ "ts": "2026-11-09T16:48:05.158Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 17,
  "blender_procs": 0,
+ "cpu": 11,
+ "gpu": 66,
+ "mem_free_pct": 61,
+ "progress": null,
  "done": [
   "2671-bk-thumb",
   "2670-bk-upload",
@@ -91,5 +96,6 @@
    "at": "2026-11-09T13:33:47.215Z"
   },
   "updated": "2026-11-09T13:33:47.215Z"
- }
+ },
+ "queue": []
 }
