@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-09T10:45:30.718Z",
+ "ts": "2026-11-09T10:47:30.710Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 8,
  "gpu": 7,
- "mem_free_pct": 67,
+ "mem_free_pct": 66,
  "progress": null,
  "done": [
   "2666-node-path",
