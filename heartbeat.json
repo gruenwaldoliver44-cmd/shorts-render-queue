@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-09T13:29:53.906Z",
+ "ts": "2026-11-09T13:31:53.904Z",
  "source": "dashboard",
  "current": "2670-bk-upload since 2026-11-09 13:29:51",
  "busy": true,
  "free_gb": 17,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 45,
- "mem_free_pct": 63,
+ "cpu": 24,
+ "gpu": 42,
+ "mem_free_pct": 59,
  "progress": null,
  "done": [
   "2669-bk-render2",
