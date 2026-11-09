@@ -1,0 +1,2 @@
+{"id":"2671-bk-thumb","title":"Banken-Thumbnail hochladen","type":"shell","timeout_min":10,"retries":0,"steps":[
+{"label":"up","run":"cd \"$AGENT_HOME/pilot_test/film\" && : > up6.res; for i in $(seq 1 30); do [ -f up/up6.txt ] && [ -f up/bk_thumb2.jpg ] && break; sleep 10; done; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> up6.res; done < up/up6.txt; echo fertig >> up6.res; cat up6.res"}]}
