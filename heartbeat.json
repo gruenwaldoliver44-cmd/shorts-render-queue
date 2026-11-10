@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-10T17:10:26.047Z",
+ "ts": "2026-11-10T17:12:26.069Z",
  "source": "dashboard",
- "current": "2676-bk2-final since 2026-11-10 17:06:50",
- "busy": true,
- "free_gb": 19,
+ "current": "",
+ "busy": false,
+ "free_gb": 18,
  "blender_procs": 0,
- "cpu": 56,
- "gpu": 24,
- "mem_free_pct": 48,
+ "cpu": 68,
+ "gpu": 20,
+ "mem_free_pct": 53,
  "progress": null,
  "done": [
+  "2676-bk2-final",
   "2675-bk2-render",
   "2671-bk-thumb",
   "2670-bk-upload",
@@ -91,17 +92,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2676-bk2-final",
-  "title": "Bankpleite-Video final rendern (CLOSED-Schild)",
-  "job_since": "2026-11-10T17:06:50.347Z",
-  "timeout_min": 120,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-10T17:06:53.288Z",
-  "progress": null,
-  "updated": "2026-11-10T17:06:53.288Z"
+  "state": "idle",
+  "last": {
+   "job": "2676-bk2-final",
+   "title": "Bankpleite-Video final rendern (CLOSED-Schild)",
+   "result": "fertig",
+   "at": "2026-11-10T17:12:17.340Z"
+  },
+  "updated": "2026-11-10T17:12:17.340Z"
  },
  "queue": []
 }
