@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-10T17:13:34.833Z",
+ "ts": "2026-11-10T17:14:26.125Z",
+ "source": "dashboard",
  "current": "2677-bk2-final2 since 2026-11-10 17:13:34",
  "busy": true,
  "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 41,
+ "gpu": 32,
+ "mem_free_pct": 46,
+ "progress": null,
  "done": [
   "2676-bk2-final",
   "2675-bk2-render",
@@ -91,10 +96,12 @@
   "title": "Bankpleite-Video final 2",
   "job_since": "2026-11-10T17:13:34.811Z",
   "timeout_min": 120,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-10T17:13:37.243Z",
   "progress": null,
-  "updated": "2026-11-10T17:13:34.811Z"
- }
+  "updated": "2026-11-10T17:13:37.243Z"
+ },
+ "queue": []
 }
