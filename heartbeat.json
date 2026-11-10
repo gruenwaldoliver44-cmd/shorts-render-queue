@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-10T18:32:21.708Z",
+ "ts": "2026-11-10T18:32:26.465Z",
+ "source": "dashboard",
  "current": "2679-bk4-render since 2026-11-10 18:32:21",
  "busy": true,
  "free_gb": 17,
  "blender_procs": 0,
+ "cpu": 8,
+ "gpu": 34,
+ "mem_free_pct": 51,
+ "progress": null,
  "done": [
   "2678-bk3-render",
   "2677-bk2-final2",
@@ -91,10 +96,12 @@
   "title": "Bankpleite-Video Fassung 2b",
   "job_since": "2026-11-10T18:32:21.688Z",
   "timeout_min": 120,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-10T18:32:23.663Z",
   "progress": null,
-  "updated": "2026-11-10T18:32:21.688Z"
- }
+  "updated": "2026-11-10T18:32:23.663Z"
+ },
+ "queue": []
 }
