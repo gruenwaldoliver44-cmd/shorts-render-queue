@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-10T17:50:10.122Z",
+ "ts": "2026-11-10T17:50:26.208Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 6,
+ "gpu": 1,
+ "mem_free_pct": 60,
+ "progress": null,
  "done": [
   "2677-bk2-final2",
   "2676-bk2-final",
@@ -94,5 +99,6 @@
    "at": "2026-11-10T17:18:36.877Z"
   },
   "updated": "2026-11-10T17:18:36.877Z"
- }
+ },
+ "queue": []
 }
