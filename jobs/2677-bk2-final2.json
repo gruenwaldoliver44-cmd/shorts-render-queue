@@ -1,0 +1,21 @@
+{
+ "id": "2677-bk2-final2",
+ "title": "Bankpleite-Video final 2",
+ "type": "shell",
+ "timeout_min": 120,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "update",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && for i in $(seq 1 30); do [ -s bk2_upd2.tgz ] && break; sleep 10; done; rm -f bk2/bundle/*.js bk2/bundle/*.js.map && tar xzf bk2_upd2.tgz -C bk2/bundle && mv -f bk2/bundle/s_atmc.jpg bk2/bundle/public/ && for f in bk2/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls bk2/bundle/*.js | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render bk2/bundle P bk2g_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i bk2g_out.mp4 -i bk2/mixm.m4a -map 0:v -map 1:a -c copy -shortest bk2g_film.mp4 && npx remotion ffmpeg -y -v error -i bk2g_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k bk2g_720.mp4 && ls -l bk2g_film.mp4 bk2g_720.mp4 > bk2g_done.txt; cat bk2g_done.txt"
+  }
+ ]
+}
