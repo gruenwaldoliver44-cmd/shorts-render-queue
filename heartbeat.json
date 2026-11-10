@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-10T17:34:26.127Z",
+ "ts": "2026-11-10T17:36:26.147Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 6,
- "gpu": 1,
- "mem_free_pct": 57,
+ "cpu": 7,
+ "gpu": 0,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
   "2677-bk2-final2",
