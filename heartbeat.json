@@ -1,6 +1,6 @@
 {
- "ts": "2026-11-10T16:58:51.382Z",
- "current": "2674-bk2-render since 2026-11-10 16:58:51",
+ "ts": "2026-11-10T16:58:53.403Z",
+ "current": "",
  "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
@@ -47,6 +47,7 @@
   "2628-thumb-research"
  ],
  "failed": [
+  "2674-bk2-render",
   "2673-bk2-render",
   "2672-bk2-render",
   "2650-ki2-render",
@@ -85,15 +86,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2674-bk2-render",
-  "title": "Bankpleite-Video rendern (3)",
-  "job_since": "2026-11-10T16:58:51.361Z",
-  "timeout_min": 120,
-  "step": 0,
-  "steps": 3,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-10T16:58:51.361Z"
+  "state": "idle",
+  "last": {
+   "job": "2674-bk2-render",
+   "title": "Bankpleite-Video rendern (3)",
+   "result": "Fehler",
+   "at": "2026-11-10T16:58:53.378Z"
+  },
+  "updated": "2026-11-10T16:58:53.378Z"
  }
 }
