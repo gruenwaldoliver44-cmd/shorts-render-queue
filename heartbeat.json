@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-10T17:08:26.055Z",
+ "ts": "2026-11-10T17:10:26.047Z",
  "source": "dashboard",
  "current": "2676-bk2-final since 2026-11-10 17:06:50",
  "busy": true,
  "free_gb": 19,
  "blender_procs": 0,
- "cpu": 60,
- "gpu": 34,
- "mem_free_pct": 47,
+ "cpu": 56,
+ "gpu": 24,
+ "mem_free_pct": 48,
  "progress": null,
  "done": [
   "2675-bk2-render",
