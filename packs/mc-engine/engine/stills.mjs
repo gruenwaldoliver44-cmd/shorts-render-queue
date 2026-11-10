@@ -1,0 +1,10 @@
+import {openBrowser,selectComposition,renderStill} from '@remotion/renderer';
+import fs from 'fs';
+const fr=fs.readFileSync('work/all.txt','utf8').trim().split(/\s+/).map(Number);const scale=parseFloat(process.argv[2]||'.33');
+const puppeteerInstance=await openBrowser('chrome',{browserExecutable:'/opt/pw-browsers/chromium-1243/chrome-linux64/chrome',chromiumOptions:{}});
+const serveUrl='/home/claude/ys/bk/eng/work/bundle';
+const composition=await selectComposition({serveUrl,id:'P',puppeteerInstance});
+fs.rmSync('work/st',{recursive:true,force:true});fs.mkdirSync('work/st',{recursive:true});
+const N=2;let i=0;
+await Promise.all(Array.from({length:N},async()=>{while(i<fr.length){const f=fr[i++];await renderStill({composition,serveUrl,output:`work/st/${String(f).padStart(5,'0')}.jpg`,frame:f,imageFormat:'jpeg',scale,puppeteerInstance,overwrite:true,jpegQuality:72});}}));
+await puppeteerInstance.close({silent:true});console.log('done',fr.length);

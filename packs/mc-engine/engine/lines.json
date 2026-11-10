@@ -1,0 +1,681 @@
+[
+{
+"i": 1,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Level one: you're fifty-nine dollars short before payday, so you lose thirty-five dollars to a bank fee. But why does that same bank pamper you at fifty million?"
+},
+{
+"i": 2,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "We're going to climb seven levels of money, all the way up to fifty million in the bank, and at every level, the same bank treats you like a different person."
+},
+{
+"i": 3,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Here's how that fee happened. Last night you filled up your tank with almost nothing in your account, because payday is on Friday. Your bank could have simply declined the card. Instead it paid, and at 7:52 this morning your phone lit up with the fee."
+},
+{
+"i": 4,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Banks call that an overdraft. What really happened is your bank lent you fifty-nine dollars for four days and charged you thirty-five for it. If that were a normal loan, it would be over five thousand percent interest a year. And the strangest part is that you agreed to it. You just don't remember when."
+},
+{
+"i": 5,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Now meet Jess. She did the exact same thing last night: same gas station, same fee. She's sitting in her car, doing the math on rent, and then she walks inside to start her shift, because she works at that bank. It's her first week as a teller."
+},
+{
+"i": 6,
+"ch": 0,
+"sp": "GLORIA",
+"tag": "",
+"t": "Welcome to banking, sweetheart."
+},
+{
+"i": 7,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "That's Gloria, thirty years at this counter. Today Jess will watch customers from every level come to her window, and by five o'clock she'll know who's paying for all the pampering at the top. It might be you. She'll also find a setting on your phone that the bank really hopes you never touch."
+},
+{
+"i": 8,
+"ch": 0,
+"sp": "JESS",
+"tag": "",
+"t": "Can I reverse my own fee? I work here."
+},
+{
+"i": 9,
+"ch": 0,
+"sp": "GLORIA",
+"tag": "",
+"t": "Employee perks start after ninety days, honey. Call the number like everybody else."
+},
+{
+"i": 10,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "So on her break she calls the hotline and waits twenty minutes, listening to the same sad saxophone loop."
+},
+{
+"i": 11,
+"ch": 0,
+"sp": "PHONE VOICE",
+"tag": "",
+"t": "Fees cannot be reversed at this time. Thank you for banking with us."
+},
+{
+"i": 12,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Back at her window, a customer needs a pen. There is one, but it's chained to the counter, and Earl, the security guard, just shrugs."
+},
+{
+"i": 13,
+"ch": 0,
+"sp": "EARL",
+"tag": "",
+"t": "People kept walking off with them."
+},
+{
+"i": 14,
+"ch": 0,
+"sp": "JESS",
+"tag": "",
+"t": "It's a forty-cent pen."
+},
+{
+"i": 15,
+"ch": 0,
+"sp": "EARL",
+"tag": "",
+"t": "Policy."
+},
+{
+"i": 16,
+"ch": 0,
+"sp": "NARRATOR",
+"tag": "warm, wry",
+"t": "Keep an eye on that pen, because before closing time, somebody in this bank is going to get a very different one."
+},
+{
+"i": 17,
+"ch": 2,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Level two is three hundred dollars, and the first customer is a waitress. She gets paid in cash tips and paper checks, so nothing ever lands in her account automatically. And her account has a rule: keep fifteen hundred dollars in it, set up direct deposit, or pay twelve dollars every month."
+},
+{
+"i": 18,
+"ch": 2,
+"sp": "WAITRESS",
+"tag": "",
+"t": "So every month I pay you twelve bucks to hold my three hundred?"
+},
+{
+"i": 19,
+"ch": 2,
+"sp": "JESS",
+"tag": "",
+"t": "Yes."
+},
+{
+"i": 20,
+"ch": 2,
+"sp": "GLORIA",
+"tag": "",
+"t": "Don't say yes."
+},
+{
+"i": 21,
+"ch": 2,
+"sp": "WAITRESS",
+"tag": "",
+"t": "How do I make it stop?"
+},
+{
+"i": 22,
+"ch": 2,
+"sp": "GLORIA",
+"tag": "",
+"t": "Get a paycheck that goes straight in."
+},
+{
+"i": 23,
+"ch": 2,
+"sp": "WAITRESS",
+"tag": "",
+"t": "I'm a waitress."
+},
+{
+"i": 24,
+"ch": 2,
+"sp": "GLORIA",
+"tag": "",
+"t": "Then get rich."
+},
+{
+"i": 25,
+"ch": 2,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "That's a hundred and forty-four dollars a year, almost half of everything she has in the bank."
+},
+{
+"i": 26,
+"ch": 2,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Every customer on Jess's screen has a little colored badge next to their name. The waitress's badge is gray."
+},
+{
+"i": 27,
+"ch": 2,
+"sp": "JESS",
+"tag": "",
+"t": "What does gray mean?"
+},
+{
+"i": 28,
+"ch": 2,
+"sp": "GLORIA",
+"tag": "",
+"t": "It means she's a fee."
+},
+{
+"i": 29,
+"ch": 3,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Level three is five thousand dollars. The next customer is a nurse with the same kind of account, but he keeps five thousand dollars in it and his paycheck lands here every two weeks, so he never pays that twelve-dollar fee."
+},
+{
+"i": 30,
+"ch": 3,
+"sp": "NURSE",
+"tag": "",
+"t": "I got three credit card offers this week. From you guys."
+},
+{
+"i": 31,
+"ch": 3,
+"sp": "GLORIA",
+"tag": "",
+"t": "That means they like you."
+},
+{
+"i": 32,
+"ch": 3,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "And they do, but what they really like is his paycheck. The bank pays him almost nothing to hold it, then lends that same money out as car loans and mortgages and keeps the interest. And that paycheck shows up every two weeks, like clockwork."
+},
+{
+"i": 33,
+"ch": 3,
+"sp": "JESS",
+"tag": "",
+"t": "So what's he to the bank?"
+},
+{
+"i": 34,
+"ch": 3,
+"sp": "GLORIA",
+"tag": "",
+"t": "A paycheck."
+},
+{
+"i": 35,
+"ch": 3,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Jess still doesn't know who's paying for all of this, but the next customer is about to show her who isn't."
+},
+{
+"i": 36,
+"ch": 4,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Level four is a hundred and sixty thousand dollars. The customer is the woman who owns the flower shop on Main Street, and when her name pops up, Gloria does something Jess hasn't seen her do all day. She stands up."
+},
+{
+"i": 37,
+"ch": 4,
+"sp": "GLORIA",
+"tag": "",
+"t": "Over a hundred K, you stand."
+},
+{
+"i": 38,
+"ch": 4,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "Real banks do this too. At Chase, about a hundred and fifty thousand dollars makes you a private client. You get your own banker, and you never wait in line."
+},
+{
+"i": 39,
+"ch": 4,
+"sp": "FLORIST",
+"tag": "",
+"t": "I got a thirty-five-dollar overdraft fee yesterday. A check went through before I moved money over from savings."
+},
+{
+"i": 40,
+"ch": 4,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "It's the exact same fee Jess got. But before the florist can even finish her sentence, Gloria clicks one button, and the fee is gone in about ten seconds."
+},
+{
+"i": 41,
+"ch": 4,
+"sp": "JESS",
+"tag": "",
+"t": "I called about mine and got a recording."
+},
+{
+"i": 42,
+"ch": 4,
+"sp": "GLORIA",
+"tag": "",
+"t": "You asked a machine. She didn't even have to ask."
+},
+{
+"i": 43,
+"ch": 4,
+"sp": "NARRATOR",
+"tag": "warm, storytelling",
+"t": "The reason is simple. If the florist gets annoyed, she can take her hundred and sixty thousand dollars across the street tomorrow. Jess can't take her money anywhere, because with the fee on top, she owes this bank ninety-four dollars."
+},
+{
+"i": 44,
+"ch": 4,
+"sp": "GLORIA",
+"tag": "",
+"t": "She's a flight risk. You're a sure thing."
+},
+{
+"i": 45,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "So if the people at the top get their fees back, who's paying for all that pampering? Gloria turns her screen toward Jess."
+},
+{
+"i": 46,
+"ch": 5,
+"sp": "GLORIA",
+"tag": "",
+"t": "Pick any hundred accounts. How many do you think pay most of the overdraft fees?"
+},
+{
+"i": 47,
+"ch": 5,
+"sp": "JESS",
+"tag": "",
+"t": "Half?"
+},
+{
+"i": 48,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "The real answer is nine accounts out of a hundred. When the government's consumer watchdog dug through the data, it found that those nine paid almost eighty percent of all overdraft and bounced-check fees. Most of them are people who come up a few days short, month after month."
+},
+{
+"i": 49,
+"ch": 5,
+"sp": "JESS",
+"tag": "",
+"t": "People like me."
+},
+{
+"i": 50,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "Which means that to this bank, Jess isn't a problem customer at all. She's one of its best ones."
+},
+{
+"i": 51,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "In 2024, that same watchdog passed a rule that could have cut this fee to five dollars at the biggest banks. Congress killed it before it ever kicked in."
+},
+{
+"i": 52,
+"ch": 5,
+"sp": "JESS",
+"tag": "",
+"t": "It could have been five dollars?"
+},
+{
+"i": 53,
+"ch": 5,
+"sp": "GLORIA",
+"tag": "",
+"t": "Could have. Wasn't."
+},
+{
+"i": 54,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "Upstairs, the branch manager, Mr. Pruitt, is signing the monthly fee report, and he has circled the overdraft line in green, because it's the best number on the page."
+},
+{
+"i": 55,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "So poor people pay the fees, rich people don't, and that's the whole story, right?"
+},
+{
+"i": 56,
+"ch": 5,
+"sp": "NARRATOR",
+"tag": "serious, building tension",
+"t": "Not even close, because from here on up, the bank doesn't just stop charging you. It starts paying you to come over."
+},
+{
+"i": 57,
+"ch": 6,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "Level five is a million dollars. The next customer is a retired engineer, and he skips the line completely. Earl holds a side door open for him, and he disappears into a private room with leather armchairs."
+},
+{
+"i": 58,
+"ch": 6,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "The lobby coffee machine has been out of order for three weeks, but in here there's an espresso machine, and Jess gets sent in to make him one. On his table sits a jar of nice pens, and not one of them is chained down."
+},
+{
+"i": 59,
+"ch": 6,
+"sp": "OLD ENGINEER",
+"tag": "",
+"t": "Do you have oat milk?"
+},
+{
+"i": 60,
+"ch": 6,
+"sp": "JESS",
+"tag": "",
+"t": "We have oat milk in here? Out there, we chain the pens."
+},
+{
+"i": 61,
+"ch": 6,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "He just moved his savings here from the bank across the street, and this bank paid him to do it. At Chase, new customers who bring over that kind of money have been offered bonuses of up to three thousand dollars, just for moving it."
+},
+{
+"i": 62,
+"ch": 6,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "So Jess paid thirty-five dollars for being short, and he got paid for crossing the street."
+},
+{
+"i": 63,
+"ch": 6,
+"sp": "GLORIA",
+"tag": "",
+"t": "At a million, you're a guest."
+},
+{
+"i": 64,
+"ch": 7,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "Level six is ten million dollars, and this client never comes to the branch. Mr. Pruitt grabs his coat and drives out to her."
+},
+{
+"i": 65,
+"ch": 7,
+"sp": "JESS",
+"tag": "",
+"t": "Where's he going?"
+},
+{
+"i": 66,
+"ch": 7,
+"sp": "GLORIA",
+"tag": "",
+"t": "Ten million doesn't take a number."
+},
+{
+"i": 67,
+"ch": 7,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "He even brings pastries. She wants a beach house, but her money is in stocks, and selling them would mean a big tax bill. So she doesn't sell. The bank lends her the cash and holds on to her stocks, and if she ever can't pay, it just sells them. For a bank, that's about as safe as a loan gets."
+},
+{
+"i": 68,
+"ch": 7,
+"sp": "NARRATOR",
+"tag": "wry, storytelling",
+"t": "An hour later, Pruitt calls and has Jess print the loan papers. Jess's own credit card charges her about twenty-two percent a year. The woman with ten million pays less than half of that."
+},
+{
+"i": 69,
+"ch": 7,
+"sp": "JESS",
+"tag": "",
+"t": "So the less you need the money, the cheaper it gets?"
+},
+{
+"i": 70,
+"ch": 7,
+"sp": "GLORIA",
+"tag": "",
+"t": "Now you're learning. At ten million, you're a house call."
+},
+{
+"i": 71,
+"ch": 8,
+"sp": "NARRATOR",
+"tag": "wry, building tension",
+"t": "Level seven is fifty million dollars. It's a quarter to four, Pruitt is back from his house call, and a guy in a hoodie and old sneakers walks up to Jess's window."
+},
+{
+"i": 72,
+"ch": 8,
+"sp": "JESS",
+"tag": "",
+"t": "You'll want to take a number, sir."
+},
+{
+"i": 73,
+"ch": 8,
+"sp": "NARRATOR",
+"tag": "wry, building tension",
+"t": "Then she types in his name, her whole screen turns gold, and Mr. Pruitt sprints across the lobby so fast that one of his shoes flies off."
+},
+{
+"i": 74,
+"ch": 8,
+"sp": "PRUITT",
+"tag": "",
+"t": "Mr. Kessler! Coffee? Lunch? Anything at all?"
+},
+{
+"i": 75,
+"ch": 8,
+"sp": "KESSLER",
+"tag": "",
+"t": "Just the restroom."
+},
+{
+"i": 76,
+"ch": 8,
+"sp": "PRUITT",
+"tag": "",
+"t": "Of course. Our very best one."
+},
+{
+"i": 77,
+"ch": 8,
+"sp": "NARRATOR",
+"tag": "wry, building tension",
+"t": "Why is a manager sweating over a man in a hoodie? Plenty of branches hold less than a hundred million dollars in total, so Mr. Kessler alone could be half of this one. If he walks across the street, half the branch walks with him."
+},
+{
+"i": 78,
+"ch": 8,
+"sp": "NARRATOR",
+"tag": "wry, building tension",
+"t": "On his way out, the bank hands him a little gift box, and inside is a heavy silver pen."
+},
+{
+"i": 79,
+"ch": 8,
+"sp": "JESS",
+"tag": "",
+"t": "His pen doesn't have a chain."
+},
+{
+"i": 80,
+"ch": 8,
+"sp": "EARL",
+"tag": "",
+"t": "Policy."
+},
+{
+"i": 81,
+"ch": 8,
+"sp": "GLORIA",
+"tag": "",
+"t": "At fifty million, the bank works for you."
+},
+{
+"i": 82,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "At five o'clock the doors are locked, and Jess looks at her own account again. She's still ninety-four dollars in the red, with a gray badge next to her name."
+},
+{
+"i": 83,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "So she calls the number one more time, and this time she keeps saying \"representative\" until a real person picks up. Then she asks them to waive the fee."
+},
+{
+"i": 84,
+"ch": 9,
+"sp": "REP",
+"tag": "",
+"t": "I can do that as a one-time courtesy."
+},
+{
+"i": 85,
+"ch": 9,
+"sp": "JESS",
+"tag": "",
+"t": "Ten seconds. Same as the florist."
+},
+{
+"i": 86,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "That gets her back to fifty-nine in the red, and that's when Gloria speaks up."
+},
+{
+"i": 87,
+"ch": 9,
+"sp": "GLORIA",
+"tag": "",
+"t": "Want to know the switch?"
+},
+{
+"i": 88,
+"ch": 9,
+"sp": "JESS",
+"tag": "",
+"t": "Wait, there's a switch? You knew all day?"
+},
+{
+"i": 89,
+"ch": 9,
+"sp": "GLORIA",
+"tag": "",
+"t": "You asked how to get it back. You never asked how to stop it."
+},
+{
+"i": 90,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "Since 2010, a bank can only charge you an overdraft fee at an ATM or on an everyday debit card purchase if you said yes to it first. Jess said yes the day she opened her account, with one tiny checkbox buried in a stack of forms."
+},
+{
+"i": 91,
+"ch": 9,
+"sp": "GLORIA",
+"tag": "",
+"t": "Open your banking app and look in your debit card settings. It's usually called something like debit card coverage."
+},
+{
+"i": 92,
+"ch": 9,
+"sp": "JESS",
+"tag": "",
+"t": "It says it's on."
+},
+{
+"i": 93,
+"ch": 9,
+"sp": "GLORIA",
+"tag": "",
+"t": "Then turn it off."
+},
+{
+"i": 94,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "From now on, when Jess is short, her card simply gets declined. Checks and automatic bills can still overdraw her, but the gas-pump trap from last night is gone. The next morning at 7:52, her coffee at the same gas station gets declined, and she pays in coins without a cent in fees."
+},
+{
+"i": 95,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "At nine, a nervous college kid slides his phone across her counter. He's forty dollars in the red."
+},
+{
+"i": 96,
+"ch": 9,
+"sp": "JESS",
+"tag": "",
+"t": "Want to know the switch?"
+},
+{
+"i": 97,
+"ch": 9,
+"sp": "NARRATOR",
+"tag": "warm, slower",
+"t": "What's the worst fee your bank has ever charged you? Put the number in the comments."
+}
+]

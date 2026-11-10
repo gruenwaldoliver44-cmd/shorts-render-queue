@@ -1,0 +1,110 @@
+TITLE: How Banks Treat You at Every Level of Wealth ($0 to $50M)
+N6 = N5 + fixes from the cold-viewer review (22 points) and the tension retest. Shorter sentences, still connected; no number without a unit; every new person introduced. Hook line 1 unchanged (hookscore 90).
+Cast: NARRATOR = Mark. JESS (teller, first week), GLORIA (veteran teller). Support: EARL (guard), PRUITT (manager), KESSLER (hoodie). Roles: PHONE VOICE, WAITRESS, NURSE, FLORIST, OLD ENGINEER, REP. Fictional bank, labelled Dramatized.
+
+[1] NARRATOR: Level one: you're fifty-nine dollars short before payday, so you lose thirty-five dollars to a bank fee. But why does that same bank pamper you at fifty million?
+[2] NARRATOR: We're going to climb seven levels of money, all the way up to fifty million in the bank, and at every level, the same bank treats you like a different person.
+[3] NARRATOR: Here's how that fee happened. Last night you filled up your tank with almost nothing in your account, because payday is on Friday. Your bank could have simply declined the card. Instead it paid, and at 7:52 this morning your phone lit up with the fee.
+[4] NARRATOR: Banks call that an overdraft. What really happened is your bank lent you fifty-nine dollars for four days and charged you thirty-five for it. If that were a normal loan, it would be over five thousand percent interest a year. And the strangest part is that you agreed to it. You just don't remember when.
+[5] NARRATOR: Now meet Jess. She did the exact same thing last night: same gas station, same fee. She's sitting in her car, doing the math on rent, and then she walks inside to start her shift, because she works at that bank. It's her first week as a teller.
+[6] GLORIA: Welcome to banking, sweetheart.
+[7] NARRATOR: That's Gloria, thirty years at this counter. Today Jess will watch customers from every level come to her window, and by five o'clock she'll know who's paying for all the pampering at the top. It might be you. She'll also find a setting on your phone that the bank really hopes you never touch.
+[8] JESS: Can I reverse my own fee? I work here.
+[9] GLORIA: Employee perks start after ninety days, honey. Call the number like everybody else.
+[10] NARRATOR: So on her break she calls the hotline and waits twenty minutes, listening to the same sad saxophone loop.
+[11] PHONE VOICE: Fees cannot be reversed at this time. Thank you for banking with us.
+[12] NARRATOR: Back at her window, a customer needs a pen. There is one, but it's chained to the counter, and Earl, the security guard, just shrugs.
+[13] EARL: People kept walking off with them.
+[14] JESS: It's a forty-cent pen.
+[15] EARL: Policy.
+[16] NARRATOR: Keep an eye on that pen, because before closing time, somebody in this bank is going to get a very different one.
+
+[17] NARRATOR: Level two is three hundred dollars, and the first customer is a waitress. She gets paid in cash tips and paper checks, so nothing ever lands in her account automatically. And her account has a rule: keep fifteen hundred dollars in it, set up direct deposit, or pay twelve dollars every month.
+[18] WAITRESS: So every month I pay you twelve bucks to hold my three hundred?
+[19] JESS: Yes.
+[20] GLORIA: Don't say yes.
+[21] WAITRESS: How do I make it stop?
+[22] GLORIA: Get a paycheck that goes straight in.
+[23] WAITRESS: I'm a waitress.
+[24] GLORIA: Then get rich.
+[25] NARRATOR: That's a hundred and forty-four dollars a year, almost half of everything she has in the bank.
+[26] NARRATOR: Every customer on Jess's screen has a little colored badge next to their name. The waitress's badge is gray.
+[27] JESS: What does gray mean?
+[28] GLORIA: It means she's a fee.
+
+[29] NARRATOR: Level three is five thousand dollars. The next customer is a nurse with the same kind of account, but he keeps five thousand dollars in it and his paycheck lands here every two weeks, so he never pays that twelve-dollar fee.
+[30] NURSE: I got three credit card offers this week. From you guys.
+[31] GLORIA: That means they like you.
+[32] NARRATOR: And they do, but what they really like is his paycheck. The bank pays him almost nothing to hold it, then lends that same money out as car loans and mortgages and keeps the interest. And that paycheck shows up every two weeks, like clockwork.
+[33] JESS: So what's he to the bank?
+[34] GLORIA: A paycheck.
+[35] NARRATOR: Jess still doesn't know who's paying for all of this, but the next customer is about to show her who isn't.
+
+[36] NARRATOR: Level four is a hundred and sixty thousand dollars. The customer is the woman who owns the flower shop on Main Street, and when her name pops up, Gloria does something Jess hasn't seen her do all day. She stands up.
+[37] GLORIA: Over a hundred K, you stand.
+[38] NARRATOR: Real banks do this too. At Chase, about a hundred and fifty thousand dollars makes you a private client. You get your own banker, and you never wait in line.
+[39] FLORIST: I got a thirty-five-dollar overdraft fee yesterday. A check went through before I moved money over from savings.
+[40] NARRATOR: It's the exact same fee Jess got. But before the florist can even finish her sentence, Gloria clicks one button, and the fee is gone in about ten seconds.
+[41] JESS: I called about mine and got a recording.
+[42] GLORIA: You asked a machine. She didn't even have to ask.
+[43] NARRATOR: The reason is simple. If the florist gets annoyed, she can take her hundred and sixty thousand dollars across the street tomorrow. Jess can't take her money anywhere, because with the fee on top, she owes this bank ninety-four dollars.
+[44] GLORIA: She's a flight risk. You're a sure thing.
+
+[45] NARRATOR: So if the people at the top get their fees back, who's paying for all that pampering? Gloria turns her screen toward Jess.
+[46] GLORIA: Pick any hundred accounts. How many do you think pay most of the overdraft fees?
+[47] JESS: Half?
+[48] NARRATOR: The real answer is nine accounts out of a hundred. When the government's consumer watchdog dug through the data, it found that those nine paid almost eighty percent of all overdraft and bounced-check fees. Most of them are people who come up a few days short, month after month.
+[49] JESS: People like me.
+[50] NARRATOR: Which means that to this bank, Jess isn't a problem customer at all. She's one of its best ones.
+[51] NARRATOR: In 2024, that same watchdog passed a rule that could have cut this fee to five dollars at the biggest banks. Congress killed it before it ever kicked in.
+[52] JESS: It could have been five dollars?
+[53] GLORIA: Could have. Wasn't.
+[54] NARRATOR: Upstairs, the branch manager, Mr. Pruitt, is signing the monthly fee report, and he has circled the overdraft line in green, because it's the best number on the page.
+
+[55] NARRATOR: So poor people pay the fees, rich people don't, and that's the whole story, right?
+[56] NARRATOR: Not even close, because from here on up, the bank doesn't just stop charging you. It starts paying you to come over.
+
+[57] NARRATOR: Level five is a million dollars. The next customer is a retired engineer, and he skips the line completely. Earl holds a side door open for him, and he disappears into a private room with leather armchairs.
+[58] NARRATOR: The lobby coffee machine has been out of order for three weeks, but in here there's an espresso machine, and Jess gets sent in to make him one. On his table sits a jar of nice pens, and not one of them is chained down.
+[59] OLD ENGINEER: Do you have oat milk?
+[60] JESS: We have oat milk in here? Out there, we chain the pens.
+[61] NARRATOR: He just moved his savings here from the bank across the street, and this bank paid him to do it. At Chase, new customers who bring over that kind of money have been offered bonuses of up to three thousand dollars, just for moving it.
+[62] NARRATOR: So Jess paid thirty-five dollars for being short, and he got paid for crossing the street.
+[63] GLORIA: At a million, you're a guest.
+
+[64] NARRATOR: Level six is ten million dollars, and this client never comes to the branch. Mr. Pruitt grabs his coat and drives out to her.
+[65] JESS: Where's he going?
+[66] GLORIA: Ten million doesn't take a number.
+[67] NARRATOR: He even brings pastries. She wants a beach house, but her money is in stocks, and selling them would mean a big tax bill. So she doesn't sell. The bank lends her the cash and holds on to her stocks, and if she ever can't pay, it just sells them. For a bank, that's about as safe as a loan gets.
+[68] NARRATOR: An hour later, Pruitt calls and has Jess print the loan papers. Jess's own credit card charges her about twenty-two percent a year. The woman with ten million pays less than half of that.
+[69] JESS: So the less you need the money, the cheaper it gets?
+[70] GLORIA: Now you're learning. At ten million, you're a house call.
+
+[71] NARRATOR: Level seven is fifty million dollars. It's a quarter to four, Pruitt is back from his house call, and a guy in a hoodie and old sneakers walks up to Jess's window.
+[72] JESS: You'll want to take a number, sir.
+[73] NARRATOR: Then she types in his name, her whole screen turns gold, and Mr. Pruitt sprints across the lobby so fast that one of his shoes flies off.
+[74] PRUITT: Mr. Kessler! Coffee? Lunch? Anything at all?
+[75] KESSLER: Just the restroom.
+[76] PRUITT: Of course. Our very best one.
+[77] NARRATOR: Why is a manager sweating over a man in a hoodie? Plenty of branches hold less than a hundred million dollars in total, so Mr. Kessler alone could be half of this one. If he walks across the street, half the branch walks with him.
+[78] NARRATOR: On his way out, the bank hands him a little gift box, and inside is a heavy silver pen.
+[79] JESS: His pen doesn't have a chain.
+[80] EARL: Policy.
+[81] GLORIA: At fifty million, the bank works for you.
+
+[82] NARRATOR: At five o'clock the doors are locked, and Jess looks at her own account again. She's still ninety-four dollars in the red, with a gray badge next to her name.
+[83] NARRATOR: So she calls the number one more time, and this time she keeps saying "representative" until a real person picks up. Then she asks them to waive the fee.
+[84] REP: I can do that as a one-time courtesy.
+[85] JESS: Ten seconds. Same as the florist.
+[86] NARRATOR: That gets her back to fifty-nine in the red, and that's when Gloria speaks up.
+[87] GLORIA: Want to know the switch?
+[88] JESS: Wait, there's a switch? You knew all day?
+[89] GLORIA: You asked how to get it back. You never asked how to stop it.
+[90] NARRATOR: Since 2010, a bank can only charge you an overdraft fee at an ATM or on an everyday debit card purchase if you said yes to it first. Jess said yes the day she opened her account, with one tiny checkbox buried in a stack of forms.
+[91] GLORIA: Open your banking app and look in your debit card settings. It's usually called something like debit card coverage.
+[92] JESS: It says it's on.
+[93] GLORIA: Then turn it off.
+[94] NARRATOR: From now on, when Jess is short, her card simply gets declined. Checks and automatic bills can still overdraw her, but the gas-pump trap from last night is gone. The next morning at 7:52, her coffee at the same gas station gets declined, and she pays in coins without a cent in fees.
+[95] NARRATOR: At nine, a nervous college kid slides his phone across her counter. He's forty dollars in the red.
+[96] JESS: Want to know the switch?
+[97] NARRATOR: What's the worst fee your bank has ever charged you? Put the number in the comments.
