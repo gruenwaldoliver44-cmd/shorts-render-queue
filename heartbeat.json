@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-10T18:36:26.392Z",
+ "ts": "2026-11-10T18:38:26.417Z",
  "source": "dashboard",
- "current": "2679-bk4-render since 2026-11-10 18:32:21",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 16,
  "blender_procs": 0,
- "cpu": 59,
- "gpu": 25,
- "mem_free_pct": 51,
+ "cpu": 51,
+ "gpu": 26,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
+  "2679-bk4-render",
   "2678-bk3-render",
   "2677-bk2-final2",
   "2676-bk2-final",
@@ -91,17 +92,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2679-bk4-render",
-  "title": "Bankpleite-Video Fassung 2b",
-  "job_since": "2026-11-10T18:32:21.688Z",
-  "timeout_min": 120,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-10T18:32:23.663Z",
-  "progress": null,
-  "updated": "2026-11-10T18:32:23.663Z"
+  "state": "idle",
+  "last": {
+   "job": "2679-bk4-render",
+   "title": "Bankpleite-Video Fassung 2b",
+   "result": "fertig",
+   "at": "2026-11-10T18:37:40.229Z"
+  },
+  "updated": "2026-11-10T18:37:40.229Z"
  },
  "queue": []
 }
