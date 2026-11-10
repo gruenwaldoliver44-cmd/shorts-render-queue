@@ -1,0 +1,21 @@
+{
+ "id": "2679-bk4-render",
+ "title": "Bankpleite-Video Fassung 2b",
+ "type": "shell",
+ "timeout_min": 120,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "update",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && rm -f bk2/bundle/*.js bk2/bundle/*.js.map && tar xzf bk2_upd4.tgz -C bk2/bundle && for f in bk2/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls bk2/bundle/*.js | wc -l; ls -l bk2/mixm4.m4a"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render bk2/bundle P bk4_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i bk4_out.mp4 -i bk2/mixm4.m4a -map 0:v -map 1:a -c copy -shortest bk4_film.mp4 && npx remotion ffmpeg -y -v error -i bk4_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k bk4_720.mp4 && ls -l bk4_film.mp4 bk4_720.mp4 > bk4_done.txt; cat bk4_done.txt"
+  }
+ ]
+}
