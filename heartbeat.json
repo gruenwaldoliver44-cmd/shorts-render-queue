@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-11T14:12:28.429Z",
+ "ts": "2026-11-11T14:14:28.462Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 10,
  "gpu": 1,
- "mem_free_pct": 57,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
   "2679-bk4-render",
