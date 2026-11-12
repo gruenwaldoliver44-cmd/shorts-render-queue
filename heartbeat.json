@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-12T12:10:18.545Z",
+ "ts": "2026-11-12T12:12:18.550Z",
  "source": "dashboard",
- "current": "2676-wk-upload since 2026-11-12 12:07:52",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 25,
- "mem_free_pct": 50,
+ "cpu": 17,
+ "gpu": 17,
+ "mem_free_pct": 51,
  "progress": null,
  "done": [
+  "2676-wk-upload",
   "2675-wk-mux3",
   "2673-wk-music",
   "2672-wk-render",
@@ -92,17 +93,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2676-wk-upload",
-  "title": "Weltkrise-Video + Thumbnail hochladen",
-  "job_since": "2026-11-12T12:07:52.761Z",
-  "timeout_min": 40,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-12T12:07:54.640Z",
-  "progress": null,
-  "updated": "2026-11-12T12:07:54.640Z"
+  "state": "idle",
+  "last": {
+   "job": "2676-wk-upload",
+   "title": "Weltkrise-Video + Thumbnail hochladen",
+   "result": "fertig",
+   "at": "2026-11-12T12:10:49.961Z"
+  },
+  "updated": "2026-11-12T12:10:49.961Z"
  },
  "queue": []
 }
