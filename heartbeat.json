@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-12T12:14:18.605Z",
- "source": "dashboard",
+ "ts": "2026-11-12T12:16:04.638Z",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 54,
- "mem_free_pct": 41,
- "progress": null,
  "done": [
   "2676-wk-upload",
   "2675-wk-mux3",
@@ -49,8 +44,7 @@
   "2643-ki-render",
   "2642-preis-720",
   "2641-preis-final",
-  "2640-preis-render2",
-  "2639-preis-render"
+  "2640-preis-render2"
  ],
  "failed": [
   "2674-wk-mux2",
@@ -101,6 +95,5 @@
    "at": "2026-11-12T12:10:49.961Z"
   },
   "updated": "2026-11-12T12:10:49.961Z"
- },
- "queue": []
+ }
 }
