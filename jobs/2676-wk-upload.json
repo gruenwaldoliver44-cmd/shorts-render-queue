@@ -1,0 +1,2 @@
+{"id":"2676-wk-upload","title":"Weltkrise-Video + Thumbnail hochladen","type":"shell","timeout_min":40,"retries":0,"steps":[
+{"label":"up","run":"cd \"$AGENT_HOME/pilot_test/film\" && : > up7.res; for i in $(seq 1 60); do [ -f wk_done2.txt ] && [ -f up/up7.txt ] && break; sleep 10; done; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> up7.res; done < up/up7.txt; echo fertig >> up7.res; cat up7.res"}]}
