@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-12T19:42:35.681Z",
+ "ts": "2026-11-12T19:44:35.708Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 5,
  "gpu": 1,
- "mem_free_pct": 60,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
   "2676-wk-upload",
