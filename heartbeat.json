@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-12T11:13:40.663Z",
+ "ts": "2026-11-12T11:14:18.494Z",
+ "source": "dashboard",
  "current": "2672-wk-render since 2026-11-12 11:13:40",
  "busy": true,
- "free_gb": 13,
+ "free_gb": 12,
  "blender_procs": 0,
+ "cpu": 30,
+ "gpu": 29,
+ "mem_free_pct": 39,
+ "progress": null,
  "done": [
   "2679-bk4-render",
   "2678-bk3-render",
@@ -91,10 +96,12 @@
   "title": "Weltkrise-Video rendern",
   "job_since": "2026-11-12T11:13:40.638Z",
   "timeout_min": 170,
-  "step": 0,
+  "step": 2,
   "steps": 4,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-12T11:13:43.123Z",
   "progress": null,
-  "updated": "2026-11-12T11:13:40.638Z"
- }
+  "updated": "2026-11-12T11:13:43.123Z"
+ },
+ "queue": []
 }
