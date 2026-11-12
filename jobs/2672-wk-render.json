@@ -1,0 +1,5 @@
+{"id":"2672-wk-render","title":"Weltkrise-Video rendern","type":"shell","timeout_min":170,"retries":0,"steps":[
+{"label":"entpacken","run":"cd \"$AGENT_HOME/pilot_test/film\" && cat wkpc? > wk.tgz && [ \"$(md5 -q wk.tgz)\" = 5e931678ffa56add4fd3b0f9b4ac10d0 ] && rm -rf wk && tar xzf wk.tgz && for f in wk/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls wk/bundle | wc -l"},
+{"label":"render","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render wk/bundle P wk_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"},
+{"label":"mux","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i wk_out.mp4 -i wk/mix.m4a -map 0:v -map 1:a -c copy -shortest wk_film.mp4 && npx remotion ffmpeg -y -v error -i wk_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 26 -c:a aac -b:a 160k wk_720.mp4 && ls -l wk_film.mp4 wk_720.mp4 > wk_done.txt"},
+{"label":"lautheit","run":"cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -hide_banner -i wk_film.mp4 -af ebur128 -f null - 2>&1 | tail -12 > wk_loud.txt; cat wk_loud.txt"}]}
