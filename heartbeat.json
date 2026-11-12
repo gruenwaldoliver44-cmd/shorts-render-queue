@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-12T11:20:18.525Z",
+ "ts": "2026-11-12T11:22:18.456Z",
  "source": "dashboard",
- "current": "2672-wk-render since 2026-11-12 11:13:40",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 84,
- "gpu": 34,
+ "cpu": 15,
+ "gpu": 18,
  "mem_free_pct": 46,
  "progress": null,
  "done": [
+  "2672-wk-render",
   "2679-bk4-render",
   "2678-bk3-render",
   "2677-bk2-final2",
@@ -91,17 +92,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2672-wk-render",
-  "title": "Weltkrise-Video rendern",
-  "job_since": "2026-11-12T11:13:40.638Z",
-  "timeout_min": 170,
-  "step": 3,
-  "steps": 4,
-  "label": "mux",
-  "step_since": "2026-11-12T11:19:27.424Z",
-  "progress": null,
-  "updated": "2026-11-12T11:19:27.424Z"
+  "state": "idle",
+  "last": {
+   "job": "2672-wk-render",
+   "title": "Weltkrise-Video rendern",
+   "result": "fertig",
+   "at": "2026-11-12T11:20:21.875Z"
+  },
+  "updated": "2026-11-12T11:20:21.875Z"
  },
  "queue": []
 }
