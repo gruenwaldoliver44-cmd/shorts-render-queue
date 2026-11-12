@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-12T12:16:04.638Z",
+ "ts": "2026-11-12T12:16:18.580Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
+ "cpu": 25,
+ "gpu": 38,
+ "mem_free_pct": 38,
+ "progress": null,
  "done": [
   "2676-wk-upload",
   "2675-wk-mux3",
@@ -95,5 +100,6 @@
    "at": "2026-11-12T12:10:49.961Z"
   },
   "updated": "2026-11-12T12:10:49.961Z"
- }
+ },
+ "queue": []
 }
