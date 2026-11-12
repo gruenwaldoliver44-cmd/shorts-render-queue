@@ -1,0 +1,2 @@
+{"id":"2674-wk-mux2","title":"Weltkrise: neue Musik einsetzen","type":"shell","timeout_min":20,"retries":0,"steps":[
+{"label":"mux","run":"cd \"$AGENT_HOME/pilot_test/film\" && [ \"$(md5 -q wk_mix2.m4a)\" = 630a451df083a3512574d5281db65727 ] && npx remotion ffmpeg -y -v error -i wk_out.mp4 -i wk_mix2.m4a -map 0:v -map 1:a -c copy -shortest wk_film2.mp4 && ls -l wk_film2.mp4 > wk_done2.txt"}]}
