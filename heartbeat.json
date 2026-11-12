@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-12T11:52:18.458Z",
- "source": "dashboard",
+ "ts": "2026-11-12T11:53:16.942Z",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 11,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
   "2673-wk-music",
   "2672-wk-render",
@@ -49,8 +44,7 @@
   "2641-preis-final",
   "2640-preis-render2",
   "2639-preis-render",
-  "2638-tupper-film2",
-  "2637-tupper-film1b"
+  "2638-tupper-film2"
  ],
  "failed": [
   "2674-bk2-render",
@@ -100,6 +94,5 @@
    "at": "2026-11-12T11:48:02.763Z"
   },
   "updated": "2026-11-12T11:48:02.763Z"
- },
- "queue": []
+ }
 }
