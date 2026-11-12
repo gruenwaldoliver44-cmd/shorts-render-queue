@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-12T09:14:17.828Z",
- "source": "dashboard",
+ "ts": "2026-11-12T09:15:25.373Z",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 21,
- "mem_free_pct": 52,
- "progress": null,
  "done": [
   "2679-bk4-render",
   "2678-bk3-render",
@@ -99,6 +94,5 @@
    "at": "2026-11-10T18:37:40.229Z"
   },
   "updated": "2026-11-10T18:37:40.229Z"
- },
- "queue": []
+ }
 }
