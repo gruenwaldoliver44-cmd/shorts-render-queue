@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-12T10:06:17.979Z",
+ "ts": "2026-11-12T10:08:18.004Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 5,
- "gpu": 1,
- "mem_free_pct": 57,
+ "cpu": 15,
+ "gpu": 19,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2679-bk4-render",
