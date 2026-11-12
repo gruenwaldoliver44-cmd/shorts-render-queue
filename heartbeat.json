@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-12T12:04:18.538Z",
+ "ts": "2026-11-12T12:06:18.569Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 22,
- "mem_free_pct": 53,
+ "cpu": 22,
+ "gpu": 24,
+ "mem_free_pct": 52,
  "progress": null,
  "done": [
   "2673-wk-music",
