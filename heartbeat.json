@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-12T12:08:18.536Z",
+ "ts": "2026-11-12T12:10:18.545Z",
  "source": "dashboard",
  "current": "2676-wk-upload since 2026-11-12 12:07:52",
  "busy": true,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 22,
- "gpu": 33,
- "mem_free_pct": 52,
+ "cpu": 24,
+ "gpu": 25,
+ "mem_free_pct": 50,
  "progress": null,
  "done": [
   "2675-wk-mux3",
