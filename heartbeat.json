@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-12T11:58:18.444Z",
- "source": "dashboard",
+ "ts": "2026-11-12T11:58:35.535Z",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 6,
- "gpu": 1,
- "mem_free_pct": 54,
- "progress": null,
  "done": [
   "2673-wk-music",
   "2672-wk-render",
@@ -100,6 +95,5 @@
    "at": "2026-11-12T11:53:20.479Z"
   },
   "updated": "2026-11-12T11:53:20.479Z"
- },
- "queue": []
+ }
 }
