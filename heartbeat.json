@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-12T11:24:18.444Z",
- "source": "dashboard",
+ "ts": "2026-11-12T11:25:35.467Z",
  "current": "",
  "busy": false,
  "free_gb": 12,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 18,
- "mem_free_pct": 47,
- "progress": null,
  "done": [
   "2672-wk-render",
   "2679-bk4-render",
@@ -49,8 +44,7 @@
   "2640-preis-render2",
   "2639-preis-render",
   "2638-tupper-film2",
-  "2637-tupper-film1b",
-  "2635-sears-upload4"
+  "2637-tupper-film1b"
  ],
  "failed": [
   "2674-bk2-render",
@@ -100,6 +94,5 @@
    "at": "2026-11-12T11:20:21.875Z"
   },
   "updated": "2026-11-12T11:20:21.875Z"
- },
- "queue": []
+ }
 }
