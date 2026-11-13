@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-13T17:17:46.852Z",
- "source": "dashboard",
+ "ts": "2026-11-13T17:19:30.693Z",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 6,
- "gpu": 1,
- "mem_free_pct": 54,
- "progress": null,
  "done": [
   "2682-fe-render",
   "2680-fe-sfx",
@@ -101,6 +96,5 @@
    "at": "2026-11-13T17:08:31.431Z"
   },
   "updated": "2026-11-13T17:08:31.431Z"
- },
- "queue": []
+ }
 }
