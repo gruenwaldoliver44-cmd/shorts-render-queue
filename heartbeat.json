@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-13T16:04:23.223Z",
- "current": "2677-fe-refs since 2026-11-13 16:04:23",
+ "ts": "2026-11-13T16:04:27.195Z",
+ "current": "",
  "busy": true,
  "free_gb": 15,
  "blender_procs": 0,
  "done": [
+  "2677-fe-refs",
   "2676-wk-upload",
   "2675-wk-mux3",
   "2673-wk-music",
@@ -43,8 +44,7 @@
   "2644-ki-render2",
   "2643-ki-render",
   "2642-preis-720",
-  "2641-preis-final",
-  "2640-preis-render2"
+  "2641-preis-final"
  ],
  "failed": [
   "2674-wk-mux2",
@@ -87,15 +87,13 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2677-fe-refs",
-  "title": "Stil-Referenzen hochladen",
-  "job_since": "2026-11-13T16:04:23.204Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-13T16:04:23.204Z"
+  "state": "idle",
+  "last": {
+   "job": "2677-fe-refs",
+   "title": "Stil-Referenzen hochladen",
+   "result": "fertig",
+   "at": "2026-11-13T16:04:27.162Z"
+  },
+  "updated": "2026-11-13T16:04:27.162Z"
  }
 }
