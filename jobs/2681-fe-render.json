@@ -1,0 +1,21 @@
+{
+ "id": "2681-fe-render",
+ "title": "Blamage-Video rendern (1)",
+ "type": "shell",
+ "timeout_min": 150,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "unpack",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && [ \"$(md5 -q fe/fe_bundle.tgz)\" = 73e4de1a0b1913ffd67356ac9d5fe1d0 ] && [ \"$(md5 -q fe/fe_mix.m4a)\" = 22ec5aabd9188d7a2deb460c04b93978 ] && rm -rf fe/bundle && mkdir -p fe/bundle && tar xzf fe/fe_bundle.tgz -C fe/bundle && for f in fe/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done; ls fe/bundle/public | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render fe/bundle P fe_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i fe_out.mp4 -i fe/fe_mix.m4a -map 0:v -map 1:a -c copy -shortest fe_film.mp4 && npx remotion ffmpeg -y -v error -i fe_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k fe_720.mp4 && ls -l fe_film.mp4 fe_720.mp4 > fe_done.txt; cat fe_done.txt"
+  }
+ ]
+}
