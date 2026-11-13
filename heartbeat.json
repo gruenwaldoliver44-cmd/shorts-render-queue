@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-13T17:47:46.904Z",
+ "ts": "2026-11-13T17:49:46.941Z",
  "source": "dashboard",
- "current": "2683-fe-upload since 2026-11-13 17:37:50",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 18,
+ "cpu": 16,
  "gpu": 57,
  "mem_free_pct": 58,
  "progress": null,
  "done": [
+  "2683-fe-upload",
   "2682-fe-render",
   "2680-fe-sfx",
   "2679-fe-dl2",
@@ -93,17 +94,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2683-fe-upload",
-  "title": "Blamage-Video hochladen",
-  "job_since": "2026-11-13T17:37:50.755Z",
-  "timeout_min": 40,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-13T17:37:52.350Z",
-  "progress": null,
-  "updated": "2026-11-13T17:37:52.350Z"
+  "state": "idle",
+  "last": {
+   "job": "2683-fe-upload",
+   "title": "Blamage-Video hochladen",
+   "result": "fertig",
+   "at": "2026-11-13T17:49:21.153Z"
+  },
+  "updated": "2026-11-13T17:49:21.153Z"
  },
  "queue": []
 }
