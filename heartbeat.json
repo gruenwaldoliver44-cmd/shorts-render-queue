@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-13T17:01:46.860Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-13T17:02:34.639Z",
+ "current": "2682-fe-render since 2026-11-13 17:02:34",
+ "busy": true,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 58,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
   "2680-fe-sfx",
   "2679-fe-dl2",
@@ -93,14 +88,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2681-fe-render",
-   "title": "Blamage-Video rendern (1)",
-   "result": "Fehler",
-   "at": "2026-11-13T16:59:32.720Z"
-  },
-  "updated": "2026-11-13T16:59:32.720Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2682-fe-render",
+  "title": "Blamage-Video rendern (2)",
+  "job_since": "2026-11-13T17:02:34.619Z",
+  "timeout_min": 150,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-13T17:02:34.619Z"
+ }
 }
