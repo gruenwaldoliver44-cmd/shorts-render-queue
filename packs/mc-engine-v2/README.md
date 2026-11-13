@@ -20,7 +20,7 @@ Das ist der **Mindeststandard** für jedes Longform-Video. Referenz: „What If 
 
 ## Wiederherstellen (geprüft 13.11.2026: build.py liefert identische Dauer 697,4 s)
 ```
-cd engine && npm i remotion@4.0.540 @remotion/cli@4.0.540 @remotion/bundler@4.0.540 @remotion/renderer@4.0.540 react react-dom d3-geo topojson-client
+cd engine && npm i                     # Versionen fest in package.json
 python3 build.py                       # scenes.py -> src/timeline.json + work/mix
 python3 ../music/score.py . cues.json work/final2.m4a   # Musik (Bibliothek: Mac ~/ShortsRenderAgent/music/lib)
 node bundle.mjs && node stills.mjs .4 && python3 sheet.py 4 16
