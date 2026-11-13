@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-13T17:37:48.372Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-13T17:37:50.773Z",
+ "current": "2683-fe-upload since 2026-11-13 17:37:50",
+ "busy": true,
  "free_gb": 13,
  "blender_procs": 0,
  "done": [
@@ -88,13 +88,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2682-fe-render",
-   "title": "Blamage-Video rendern (2)",
-   "result": "fertig",
-   "at": "2026-11-13T17:08:31.431Z"
-  },
-  "updated": "2026-11-13T17:08:31.431Z"
+  "state": "busy",
+  "job": "2683-fe-upload",
+  "title": "Blamage-Video hochladen",
+  "job_since": "2026-11-13T17:37:50.755Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-13T17:37:50.755Z"
  }
 }
