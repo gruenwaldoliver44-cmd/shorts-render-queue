@@ -1,0 +1,74 @@
+[
+{
+"datei": "H_neu/Hitman.mp3",
+"von": 0,
+"bis": 128.6,
+"ab": 0,
+"gain": 0,
+"ein": 0.2,
+"aus": 1.4
+},
+{
+"datei": "H_neu/Darkling.mp3",
+"von": 128.2,
+"bis": 189.6,
+"ab": 0,
+"gain": -1,
+"ein": 0.4,
+"aus": 1.6
+},
+{
+"datei": "H_neu/Spy_Glass.mp3",
+"von": 189.2,
+"bis": 319.8,
+"ab": 0,
+"gain": 0,
+"ein": 1.0,
+"aus": 1.6
+},
+{
+"datei": "H_neu/Crisis.mp3",
+"von": 319.4,
+"bis": 385.4,
+"ab": 0,
+"gain": 0,
+"ein": 0.8,
+"aus": 1.6
+},
+{
+"datei": "H_neu/Rising_Game.mp3",
+"von": 385.0,
+"bis": 462.67,
+"ab": 0,
+"gain": -1,
+"ein": 0.8,
+"aus": 0.5
+},
+{
+"datei": "H_neu/Night_on_the_Docks_-_Sax.mp3",
+"von": 464.23,
+"bis": 517.6,
+"ab": 6,
+"gain": 1,
+"ein": 0.6,
+"aus": 1.8
+},
+{
+"datei": "H_neu/Industrial_Revolution.mp3",
+"von": 517.2,
+"bis": 636.8,
+"ab": 0,
+"gain": 0,
+"ein": 1.0,
+"aus": 2.0
+},
+{
+"datei": "H_neu/Long_Road_Ahead.mp3",
+"von": 636.4,
+"bis": 697.17,
+"ab": 70,
+"gain": 0,
+"ein": 2.0,
+"aus": 3.0
+}
+]

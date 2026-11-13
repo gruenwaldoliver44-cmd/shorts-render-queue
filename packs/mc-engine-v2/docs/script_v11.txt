@@ -1,0 +1,72 @@
+TITLE (working): What If the AI Bubble Crashed the Whole World? Who Survives?
+Cast: NARRATOR = Mark. Side roles: TRADER (Tokyo), JEWELER (Mumbai), BAKER (Cairo), CAPTAIN (container ship, Shanghai), TELLER (bank, Frankfurt), MANAGER (office, US, one line). On screen at the start: "Scenario. Corvane is fictional."
+
+[1] NARRATOR: Day one. The whole world wakes up to a normal Monday. In Tokyo it's almost midnight, in London people are coming back from lunch, and in New York the stock market is about to open. And by the end of today, the world economy will have started to fall apart.
+[2] NARRATOR: By the end of this story, a few countries will be in ruins, you'll find out whether the money in your account is still worth anything, and one country will be sitting on top of the pile, writing the new rules for everybody else. Which country that is, and why, is the strangest part of the whole thing.
+[3] NARRATOR: The company that starts it is made up. But every step after it has really happened somewhere before, and a lot of it happened this year.
+
+[4] NARRATOR: And the world is already on edge. A war with Iran kept tankers out of the Strait of Hormuz for months this year, so filling up a car costs more than it did last winter. Interest rates in America just went up for the first time in three years, so every loan costs more. And tech companies have borrowed almost five hundred billion dollars this year alone to build AI data centers.
+[5] NARRATOR: One of those borrowers is a company called Corvane. It owns a giant warehouse in Virginia full of AI chips and rents them out to AI companies. To buy them, it borrowed twelve billion dollars, and promised the lenders they could take the chips if Corvane ever stopped paying.
+[6] NARRATOR: At 10:17 on Monday morning, a four-hundred-million-dollar payment from Corvane fails to arrive at its bank. Its biggest customer, an AI lab that has never made a profit, stopped paying its bills on Friday.
+[7] NARRATOR: So the lenders come for the chips, and that's when everyone finds out what those chips are really worth. On paper, forty thousand dollars each. At a fire sale, with every lender selling at once, maybe five.
+[8] NARRATOR: And this is where it reaches you. America's biggest tech companies own millions of those same chips, and those few companies make up more than a third of the S&P 500, the list of big companies most Americans' retirement money is bet on. Say your job puts part of every paycheck into a retirement fund, and it's grown to ten thousand dollars. You open the app at lunch and it says nine thousand one hundred. By Friday, eight thousand.
+[9] NARRATOR: Remember that number. In a few weeks, you'll be tempted to do the one thing that turns a bad month into a lost decade, and almost everybody does it.
+
+[10] NARRATOR: Day two, and the crash takes a detour through Tokyo that ends at your car loan.
+[11] NARRATOR: For years, big investors borrowed money in Japan, where loans cost almost nothing, and used it to buy American stocks. Now those stocks are falling, the loans still have to be paid back, and everyone runs for the same exit at once.
+[12] TRADER: I'm selling everything to pay back the loan. So is everyone else on this floor. So who's buying?
+[13] NARRATOR: Nobody. On August 5th, 2024, a small version of this trade came apart, and Japan's stock market fell twelve percent in a single day.
+[14] NARRATOR: Here's how it comes back to you. Japan owns more American government IOUs than any other country, and when Japanese investors need cash, they sell them. When lots get sold at once, America has to pay higher interest to keep borrowing, and that spreads to every loan. Japan sold about thirty billion dollars of them in just the first three months of this year, and American rates went up. In our crash, it's many times that, so your mortgage, your car loan and your credit card get more expensive the same week your savings shrank.
+
+[15] NARRATOR: And on day three, the one thing everyone says will protect you starts falling.
+[16] NARRATOR: Mumbai. India loves gold, and in a crash, families who need cash bring their gold to the jeweler. They expect a great price, because gold is supposed to go up when everything else goes down.
+[17] JEWELER: Madam, I didn't change the price. The world changed the price. Twice, since you walked in.
+[18] NARRATOR: Gold is falling because the big investors who borrowed to bet on stocks have to pay those loans back today, and gold is the fastest thing on Earth to turn into cash. It happened just last month: tech stocks fell, and gold dropped below four thousand dollars an ounce, almost thirty percent under its January record. So if your emergency plan was gold, it got cheaper the very week you needed it.
+
+[19] NARRATOR: End of week one, and the crash spreads around the world through the one thing everyone suddenly wants: dollars.
+[20] NARRATOR: In a panic, money everywhere runs into the dollar, so the dollar gets stronger, even though the mess started in America. And because oil and wheat are paid for in dollars, if you live outside America, your gas and your groceries now cost more, even if nothing changed where you live.
+[21] NARRATOR: Cairo feels it first. Egypt is one of the biggest wheat buyers in the world.
+[22] BAKER: Last week the flour cost me nine hundred Egyptian pounds a sack. Today it's eleven hundred. My customers think I'm the one getting rich.
+[23] NARRATOR: In 2011, rising food prices helped push Egyptians into the streets, and eighteen days later their president was gone. In America, the crash arrives a different way: as a calendar invite.
+
+[24] NARRATOR: Week three. In Shanghai, China's factories can make almost anything, but the people who buy their stuff just watched their savings shrink, so they stop ordering. The world's busiest port goes quiet.
+[25] CAPTAIN: Eighteen days at anchor. Full fuel tank, empty containers, and my crew has started a card tournament.
+[26] NARRATOR: Fewer ships means fewer trucks and fewer warehouses. In Ohio, the warehouse that unloads those containers cuts its whole night shift. In the last big crash, America lost almost nine million jobs, and for a lot of people it started with a fifteen-minute meeting called quick sync.
+[27] MANAGER: Thanks for jumping on. This won't take long.
+[28] NARRATOR: And in month two, people start asking the question nobody wants to ask out loud: is my money in the bank even safe?
+
+[29] NARRATOR: In our scenario, the first big bank to go is in Europe. It lent heavily to AI data centers, and on a Monday morning its customers find the doors locked.
+[30] TELLER: We're open again Wednesday. I'm sorry. No, I don't know if that's true.
+[31] NARRATOR: Here's the honest answer for your own account. In America, the government insures up to two hundred and fifty thousand dollars per person at each bank, and when a bank fails, people usually get that money back within days. In Europe, it's a hundred thousand euros.
+[32] NARRATOR: But the insurance doesn't protect your paycheck. In March 2023, Silicon Valley Bank collapsed over a weekend, and thousands of companies had their payroll money inside it. For a few days, a lot of workers had no idea whether Friday's paycheck would arrive.
+[33] NARRATOR: And one bank is how the last world depression spread. The crash of 1929 started in New York, but in 1931, Austria's biggest bank, the Creditanstalt in Vienna, collapsed, and the panic ran across Europe until Germany closed all of its banks by law.
+
+[34] NARRATOR: Month three. Your fund slides to seven thousand five hundred, and the crash shows up on your grocery receipt.
+[35] NARRATOR: Every country starts protecting itself. Governments put taxes on foreign goods, and you pay those taxes at the checkout. Some countries stop selling their food abroad, like India did in 2023, when the world's biggest rice seller banned most of its rice exports and rice prices around the world jumped.
+[36] NARRATOR: Between 1929 and 1933, that thinking helped shrink world trade by about two thirds. And in Cairo, the baker raises his prices one more time, and this time a crowd forms outside his shop.
+
+[37] NARRATOR: Month four, and finally, good news. Which is exactly when most people make their worst mistake.
+[38] NARRATOR: The central banks, the banks that print each country's money, cut interest rates and promise to print as much as it takes. Stocks jump twenty percent in two weeks. Your fund climbs back to nine thousand, and on TV, everyone says the worst is over.
+[39] NARRATOR: They said that in November 1929 too. America's stock market climbed almost fifty percent, then fell another eighty-six. And our rally dies the same way: Corvane's chips sell at auction for less than five thousand dollars each, two more AI companies miss payments, and your fund drops to six thousand dollars.
+[40] NARRATOR: So be honest for a second. You've watched four thousand dollars disappear, you got your hopes up, and now it's gone again. Would you sell? Most people do. People who stayed calm through the first drop give up in the second and sell right near the bottom, and a loss on a screen becomes a real one. Hold on to your answer.
+
+[41] NARRATOR: Which brings us to the question underneath all the others: is your money going to be worth anything?
+[42] NARRATOR: In America, at first, it's worth more. Nobody is buying, so prices drop and every dollar buys more. During the Great Depression, prices in America fell by about a quarter.
+[43] NARRATOR: But governments that owe too much have an easy way out: they make their money worth less. In 1933, America ordered its citizens to hand in their gold at twenty dollars and sixty-seven cents an ounce, then less than a year later set the price at thirty-five. The government made sixty-nine percent, and the people who handed it in made nothing.
+[44] NARRATOR: So the real risk isn't that your money disappears overnight. It's that it buys a little less every year, and nobody sends you a letter about it.
+
+[45] NARRATOR: So far, we've followed the money down. Now let's see where it lands, because this is where the world gets a new boss.
+[46] NARRATOR: When everything breaks, stock prices stop mattering. A country survives on what it can't print: food, energy, factories, an army, and whether the rest of the world still trusts its money.
+[47] NARRATOR: Europe buys more than half of its energy from abroad, so its factories and its heating bills get hit first. Japan and the Gulf states have the same weak spot: they import their energy or their food.
+[48] NARRATOR: China is the real contender. It makes almost a third of everything manufactured on Earth, it has stockpiled about half the world's wheat, and its central bank keeps buying gold. But our captain is still at anchor, because China's customers are broke, and much of its oil comes through the Strait of Hormuz.
+[49] NARRATOR: And then there's America, where the first domino fell. It pumps more oil than any country in history, grows far more grain than it eats, has an ocean on each side and the strongest military on Earth.
+[50] NARRATOR: And that's the strange part: the country that started the crash comes out on top. In 2008, the crisis started in American banks, and the dollar still rose by more than a fifth. This October, with America at war, the dollar hit its highest point in a year and a half. The fire starts in America, and the world runs into the burning house anyway, because it's still the strongest house on the street.
+
+[51] NARRATOR: So America wins this crash. But the people who run the world's money are quietly betting it won't win the next one.
+[52] NARRATOR: Last year, for the first time since 1996, the world's central banks held more of their savings in gold than in American government IOUs. And between July and September of this year alone, they bought about three hundred and twenty tons more, roughly two blue whales of pure gold.
+[53] NARRATOR: The people who print money are buying the one thing they can't print. Because in 2022, Russia woke up to find about three hundred billion dollars of its savings frozen by the West, and every central bank asked itself: what if we're next? Every ton they buy is a bet that next time, the money runs somewhere else, to the countries piling up gold, like China.
+
+[54] NARRATOR: Now, back to your answer. After 2008, someone who simply held on to an index fund was back to even within about five years, counting dividends, and the people who sold in the panic locked in their loss. The people who came through these crashes best usually had three things in common: some cash they could reach, no debt that could be called in, and the nerve not to sell at the bottom. In 1932, a lot of them weren't investors at all, just people with a skill everyone still needed, like keeping the heat and the lights working.
+[55] NARRATOR: The last time the whole world broke, the new rules were written in a hotel in the mountains of New Hampshire. In July 1944, forty-four countries met there for three weeks and put the dollar at the center of the world, because America held about two thirds of the world's gold.
+[56] NARRATOR: Those invitations went out from Washington. The central banks buying gold right now are betting the next ones won't.
+[57] NARRATOR: So which country would you bet on? Tell me in the comments, and tell me where you're watching from.
