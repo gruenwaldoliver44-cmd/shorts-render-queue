@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-13T16:07:46.728Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-13T16:08:55.690Z",
+ "current": "2678-fe-dl1 since 2026-11-13 16:08:55",
+ "busy": true,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 55,
- "mem_free_pct": 49,
- "progress": null,
  "done": [
   "2677-fe-refs",
   "2676-wk-upload",
@@ -92,14 +87,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2677-fe-refs",
-   "title": "Stil-Referenzen hochladen",
-   "result": "fertig",
-   "at": "2026-11-13T16:04:27.162Z"
-  },
-  "updated": "2026-11-13T16:04:27.162Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2678-fe-dl1",
+  "title": "Sets und Figuren laden",
+  "job_since": "2026-11-13T16:08:55.672Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-13T16:08:55.672Z"
+ }
 }
