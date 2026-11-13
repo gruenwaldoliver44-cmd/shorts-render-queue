@@ -1,0 +1,2 @@
+{"id":"2677-fe-refs","title":"Stil-Referenzen hochladen","type":"shell","timeout_min":10,"retries":0,"steps":[
+{"label":"up","run":"cd \"$AGENT_HOME/pilot_test/film\" && : > up8.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> up8.res; done < up/up8.txt; echo fertig >> up8.res; cat up8.res"}]}
