@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-13T17:19:46.977Z",
+ "ts": "2026-11-13T17:21:46.907Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 57,
- "mem_free_pct": 57,
+ "cpu": 15,
+ "gpu": 55,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
   "2682-fe-render",
