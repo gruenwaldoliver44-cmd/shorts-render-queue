@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-13T17:03:46.920Z",
+ "ts": "2026-11-13T17:05:46.846Z",
  "source": "dashboard",
  "current": "2682-fe-render since 2026-11-13 17:02:34",
  "busy": true,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 53,
- "gpu": 57,
- "mem_free_pct": 42,
+ "cpu": 82,
+ "gpu": 36,
+ "mem_free_pct": 45,
  "progress": null,
  "done": [
   "2680-fe-sfx",
