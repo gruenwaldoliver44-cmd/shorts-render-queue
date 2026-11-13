@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-13T16:15:46.762Z",
+ "ts": "2026-11-13T16:17:46.758Z",
  "source": "dashboard",
- "current": "2679-fe-dl2 since 2026-11-13 16:15:23",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 14,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 54,
+ "cpu": 16,
+ "gpu": 55,
  "mem_free_pct": 50,
  "progress": null,
  "done": [
+  "2679-fe-dl2",
   "2678-fe-dl1",
   "2677-fe-refs",
   "2676-wk-upload",
@@ -92,17 +93,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2679-fe-dl2",
-  "title": "Stimmen laden",
-  "job_since": "2026-11-13T16:15:23.152Z",
-  "timeout_min": 15,
-  "step": 1,
-  "steps": 1,
-  "label": "dl",
-  "step_since": "2026-11-13T16:15:24.722Z",
-  "progress": null,
-  "updated": "2026-11-13T16:15:24.722Z"
+  "state": "idle",
+  "last": {
+   "job": "2679-fe-dl2",
+   "title": "Stimmen laden",
+   "result": "fertig",
+   "at": "2026-11-13T16:15:54.611Z"
+  },
+  "updated": "2026-11-13T16:15:54.611Z"
  },
  "queue": []
 }
