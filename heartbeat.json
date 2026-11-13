@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-13T15:47:46.797Z",
+ "ts": "2026-11-13T15:49:46.764Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 14,
+ "free_gb": 15,
  "blender_procs": 0,
- "cpu": 23,
- "gpu": 31,
- "mem_free_pct": 52,
+ "cpu": 19,
+ "gpu": 51,
+ "mem_free_pct": 51,
  "progress": null,
  "done": [
   "2676-wk-upload",
