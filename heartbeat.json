@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-13T17:05:46.846Z",
+ "ts": "2026-11-13T17:07:46.879Z",
  "source": "dashboard",
  "current": "2682-fe-render since 2026-11-13 17:02:34",
  "busy": true,
- "free_gb": 14,
+ "free_gb": 13,
  "blender_procs": 0,
- "cpu": 82,
- "gpu": 36,
- "mem_free_pct": 45,
+ "cpu": 89,
+ "gpu": 21,
+ "mem_free_pct": 48,
  "progress": null,
  "done": [
   "2680-fe-sfx",
@@ -98,12 +98,12 @@
   "title": "Blamage-Video rendern (2)",
   "job_since": "2026-11-13T17:02:34.619Z",
   "timeout_min": 150,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-13T17:02:39.387Z",
+  "label": "mux",
+  "step_since": "2026-11-13T17:07:38.254Z",
   "progress": null,
-  "updated": "2026-11-13T17:02:39.387Z"
+  "updated": "2026-11-13T17:07:38.254Z"
  },
  "queue": []
 }
