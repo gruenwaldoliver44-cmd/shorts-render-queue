@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-13T16:33:42.829Z",
+ "ts": "2026-11-13T16:33:46.743Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 14,
  "blender_procs": 0,
+ "cpu": 14,
+ "gpu": 52,
+ "mem_free_pct": 53,
+ "progress": null,
  "done": [
   "2679-fe-dl2",
   "2678-fe-dl1",
@@ -95,5 +100,6 @@
    "at": "2026-11-13T16:15:54.611Z"
   },
   "updated": "2026-11-13T16:15:54.611Z"
- }
+ },
+ "queue": []
 }
