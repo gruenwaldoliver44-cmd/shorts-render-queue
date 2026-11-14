@@ -1,0 +1,11 @@
+ℹ️  blendkit: Verbose is enabled [23:03:58.466, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [23:03:58.466, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [23:03:58.467, client_lib.py:163]
+Created history step 0746605b-4881-41e2-b25c-e64fd83acf3f
+ℹ️  blendkit: Created new search history step [23:03:58.471, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [23:03:58.472, download.py:431]
+ℹ️  blendkit: Unregistering Blendkit add-on [23:04:03.359, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [23:04:03.362, download.py:431]
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
