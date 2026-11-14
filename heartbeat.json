@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T20:15:16.927Z",
+ "ts": "2026-11-14T20:17:16.836Z",
  "source": "dashboard",
  "current": "2687-sd-render since 2026-11-14 20:13:15",
  "busy": true,
  "free_gb": 8,
  "blender_procs": 0,
- "cpu": 92,
- "gpu": 41,
- "mem_free_pct": 35,
+ "cpu": 94,
+ "gpu": 48,
+ "mem_free_pct": 43,
  "progress": null,
  "done": [
   "2686-sd-mux",
@@ -98,12 +98,12 @@
   "title": "Silent-Depression-Video rendern (3, nach QA)",
   "job_since": "2026-11-14T20:13:15.131Z",
   "timeout_min": 150,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-14T20:13:18.670Z",
+  "label": "mux",
+  "step_since": "2026-11-14T20:17:13.094Z",
   "progress": null,
-  "updated": "2026-11-14T20:13:18.670Z"
+  "updated": "2026-11-14T20:17:13.094Z"
  },
  "queue": []
 }
