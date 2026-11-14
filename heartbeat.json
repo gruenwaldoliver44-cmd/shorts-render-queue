@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-14T22:31:43.369Z",
- "current": "2705-euv-music since 2026-11-14 22:31:43",
- "busy": true,
+ "ts": "2026-11-14T22:32:43.822Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
+ "cpu": 15,
+ "gpu": 11,
+ "mem_free_pct": 64,
+ "progress": null,
  "done": [
+  "2705-euv-music",
   "2704-euv-bkpush2",
   "2702-euv-bkpush",
   "2689-thumb-upload",
@@ -89,15 +95,14 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2705-euv-music",
-  "title": "MT EUV · Musik holen",
-  "job_since": "2026-11-14T22:31:43.319Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:31:43.319Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2705-euv-music",
+   "title": "MT EUV · Musik holen",
+   "result": "fertig",
+   "at": "2026-11-14T22:32:31.975Z"
+  },
+  "updated": "2026-11-14T22:32:31.975Z"
+ },
+ "queue": []
 }
