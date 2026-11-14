@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T18:23:03.144Z",
- "source": "dashboard",
+ "ts": "2026-11-14T18:23:38.121Z",
  "current": "",
  "busy": false,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 0,
- "mem_free_pct": 50,
- "progress": null,
  "done": [
   "2685-sd-render",
   "2684-sd-render",
@@ -49,8 +44,7 @@
   "2652-ki-upload",
   "2651-ki2-render",
   "2649-up-koepfe",
-  "2648-up-test",
-  "2647-musik-lib"
+  "2648-up-test"
  ],
  "failed": [
   "2681-fe-render",
@@ -102,6 +96,5 @@
    "at": "2026-11-14T18:17:33.323Z"
   },
   "updated": "2026-11-14T18:17:33.323Z"
- },
- "queue": []
+ }
 }
