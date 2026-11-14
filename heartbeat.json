@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T20:55:17.023Z",
- "source": "dashboard",
+ "ts": "2026-11-14T20:56:30.123Z",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 46,
- "mem_free_pct": 46,
- "progress": null,
  "done": [
   "2688-sd-upload",
   "2687-sd-render",
@@ -101,6 +96,5 @@
    "at": "2026-11-14T20:38:50.550Z"
   },
   "updated": "2026-11-14T20:38:50.550Z"
- },
- "queue": []
+ }
 }
