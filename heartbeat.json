@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T20:41:16.901Z",
+ "ts": "2026-11-14T20:43:16.874Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 22,
- "mem_free_pct": 46,
+ "cpu": 20,
+ "gpu": 39,
+ "mem_free_pct": 47,
  "progress": null,
  "done": [
   "2688-sd-upload",
