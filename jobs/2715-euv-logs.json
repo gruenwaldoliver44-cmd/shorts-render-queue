@@ -1,0 +1,13 @@
+{
+ "id": "2715-euv-logs",
+ "title": "MT EUV \u00b7 Logs",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "push",
+   "run": "cd \"$AGENT_HOME/work/euv_main\" && (ls r | wc -l; ls r | head -3; ls r | tail -3; df -h ~ | tail -1) > cnt.txt; tail -c 6000 r1.log > r1t.log; tail -c 6000 r2.log > r2t.log; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" cnt.txt euv/logs/cnt.txt r1t.log euv/logs/r1.log r2t.log euv/logs/r2.log"
+  }
+ ]
+}
