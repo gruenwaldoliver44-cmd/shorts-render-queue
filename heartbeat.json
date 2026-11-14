@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:52:43.818Z",
- "source": "dashboard",
+ "ts": "2026-11-14T22:54:14.035Z",
  "current": "",
  "busy": false,
  "free_gb": 7,
- "blender_procs": 0,
- "cpu": 22,
- "gpu": 31,
- "mem_free_pct": 55,
- "progress": null,
+ "blender_procs": 1,
  "done": [
   "2712-euv-render2",
   "2711-euv-render1",
@@ -102,6 +97,5 @@
    "at": "2026-11-14T22:48:18.091Z"
   },
   "updated": "2026-11-14T22:48:18.091Z"
- },
- "queue": []
+ }
 }
