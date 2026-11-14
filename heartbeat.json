@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T18:19:03.139Z",
+ "ts": "2026-11-14T18:21:03.140Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 30,
+ "cpu": 6,
  "gpu": 1,
- "mem_free_pct": 46,
+ "mem_free_pct": 49,
  "progress": null,
  "done": [
   "2685-sd-render",
