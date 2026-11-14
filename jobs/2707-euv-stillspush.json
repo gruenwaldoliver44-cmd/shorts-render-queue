@@ -1,0 +1,13 @@
+{
+ "id": "2707-euv-stillspush",
+ "title": "MT EUV \u00b7 Standbilder zur\u00fcck",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "push",
+   "run": "W=\"$AGENT_HOME/work/2706-euv-stills1\"; a=\"\"; for f in \"$W\"/s/f*.jpg; do a=\"$a $f euv/e1/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -3"
+  }
+ ]
+}
