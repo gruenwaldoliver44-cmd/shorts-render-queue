@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-14T22:25:47.740Z",
+ "ts": "2026-11-14T22:26:43.805Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
+ "cpu": 16,
+ "gpu": 34,
+ "mem_free_pct": 64,
+ "progress": null,
  "done": [
   "2704-euv-bkpush2",
   "2702-euv-bkpush",
@@ -97,5 +102,6 @@
    "at": "2026-11-14T22:25:47.700Z"
   },
   "updated": "2026-11-14T22:25:47.700Z"
- }
+ },
+ "queue": []
 }
