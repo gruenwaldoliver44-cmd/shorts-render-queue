@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-14T22:09:42.649Z",
+ "ts": "2026-11-14T22:10:43.724Z",
+ "source": "dashboard",
  "current": "2703-euv-bksearch2 since 2026-11-14 22:09:42",
  "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 12,
+ "mem_free_pct": 61,
+ "progress": null,
  "done": [
   "2702-euv-bkpush",
   "2689-thumb-upload",
@@ -94,10 +99,12 @@
   "title": "MT EUV · BlenderKit-Suche 2",
   "job_since": "2026-11-14T22:09:42.632Z",
   "timeout_min": 15,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "montage",
+  "step_since": "2026-11-14T22:10:22.388Z",
   "progress": null,
-  "updated": "2026-11-14T22:09:42.632Z"
- }
+  "updated": "2026-11-14T22:10:22.388Z"
+ },
+ "queue": []
 }
