@@ -361,10 +361,24 @@ else:
 lp_ = N.new("ShaderNodeLightPath"); mix = N.new("ShaderNodeMixShader")
 Lk.new(lp_.outputs["Is Camera Ray"], mix.inputs[0]); Lk.new(WL.outputs[0], mix.inputs[1]); Lk.new(WC.outputs[0], mix.inputs[2])
 Lk.new(mix.outputs[0], wout.inputs["Surface"])
-WLS = sock(WL, "Strength")
-KV(WLS, 1, 0.0, "CONSTANT")
-for (a_, b_) in [(s_[1], s_[2]) for s_ in C.SHOTS if s_[3] in ("G", "G2")]:
-    KV(WLS, C.fr(a_) - 1, 1.0, "CONSTANT"); KV(WLS, C.fr(b_) + 1, 0.0, "CONSTANT")
+WLS = sock(WL, "Strength"); WLS.default_value = 0.0   # no sky inside the chamber / lab / phone sets
+def sky_dome(name, center, radius):
+    """inward-facing sphere that shows the HDRI sky (only around the Germany sets)"""
+    o = prim("sphere", name, loc=center, segments=64, ring_count=32, radius=radius)
+    bpy.ops.object.mode_set(mode="EDIT"); bpy.ops.mesh.flip_normals(); bpy.ops.object.mode_set(mode="OBJECT")
+    m = bpy.data.materials.new(name + "_m"); m.use_nodes = True
+    nt_ = m.node_tree; N_ = nt_.nodes
+    for n in list(N_): N_.remove(n)
+    out_ = N_.new("ShaderNodeOutputMaterial"); em_ = N_.new("ShaderNodeEmission"); SV(em_, "Strength", 1.0)
+    tc_ = N_.new("ShaderNodeTexCoord"); en_ = N_.new("ShaderNodeTexEnvironment")
+    if hp:
+        en_.image = bpy.data.images.load(hp) if not bpy.data.images.get(os.path.basename(hp)) else bpy.data.images.get(os.path.basename(hp))
+        nt_.links.new(tc_.outputs["Object"], en_.inputs["Vector"]); nt_.links.new(en_.outputs["Color"], em_.inputs["Color"])
+    else:
+        SV(em_, "Color", (0.35, 0.5, 0.75, 1))
+    nt_.links.new(em_.outputs[0], out_.inputs["Surface"])
+    setmat(o, m)
+    return o
 
 def area(name, loc, rot, energy, size=2.0, col=(1, 1, 1), shape="RECTANGLE", sy=None):
     ld = bpy.data.lights.new(name, "AREA"); ld.energy = energy; ld.color = col; ld.size = size
@@ -866,7 +880,7 @@ bl = point("bulb_light", Lb + Vector((20, 0, FIL_Z)), 0.0, (1.0, 0.7, 0.4), 0.08
 # glows, flickers, dies
 seqb = [(21.25, 1.0), (21.9, 1.0), (22.0, 0.25), (22.06, 0.9), (22.15, 0.1), (22.2, 0.7), (C.EV["bulb_die"], 0.0)]
 for t, v in seqb:
-    KV(fil_s, F(t), 45.0 * v, "CONSTANT"); bl.data.energy = 140.0 * v; K(bl.data, "energy", F(t), "CONSTANT")
+    KV(fil_s, F(t), 7.0 * v, "CONSTANT"); bl.data.energy = 18.0 * v; K(bl.data, "energy", F(t), "CONSTANT")
 tlamp, _ = text3d("t_lamp", "13.5 nm?", Lb + Vector((20.55, -0.2, BT + 1.15)), size=0.13, es=3.0, col=(0.85, 0.7, 1.0), align="LEFT")
 pop_in(tlamp, 22.45); vis(tlamp, shots_of("s10"))
 # D3 air: beam fades in haze
@@ -989,6 +1003,7 @@ ger = new_mesh_obj("germany", bm); ger.location = G
 gbv = ger.modifiers.new("bev", "BEVEL"); gbv.width = 0.25; gbv.segments = 3; gbv.limit_method = "ANGLE"
 ger_m = mat("germany_m", (0.92, 0.93, 0.95), 0.015, 1.0, film=300.0, film_ior=1.5)
 setmat(ger, ger_m)
+sky_dome("sky_ger", G, 160.0)
 gk = area("ger_key", G + Vector((-40, -60, 80)), (0, 0, 0), 60000.0, 60.0, (1.0, 0.95, 0.9)); aim(gk, G)
 # faint neighbours grid on a dark plane below
 sea_m = mat("sea_m", (0.01, 0.012, 0.018), 0.4, 0.0)
@@ -1013,6 +1028,7 @@ for o_ in (tmm, tpp): vis(o_, shots_of("s22"))
 arrow_m, _ = emat("arrow_m", (1, 1, 1), 3.0, solid=True)
 ar = prim("cyl", "bump_marker", loc=G2 + Vector((0.2, 0, 0.5)), vertices=12, radius=0.008, depth=0.5); setmat(ar, arrow_m)
 vis(ar, shots_of("s22")); pop_in(ar, C.EV["mm_text"] - 0.1)
+sky_dome("sky_g2", G2, 25.0)
 g2k = area("g2_key", G2 + Vector((-3, -4, 4)), (0, 0, 0), 600.0, 3.0, (1.0, 0.95, 0.9)); aim(g2k, G2)
 
 # ================================================================ cameras
