@@ -1,0 +1,13 @@
+{
+ "id": "2708-euv-build",
+ "title": "MT EUV \u00b7 Szene bauen",
+ "type": "shell",
+ "timeout_min": 20,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "build",
+   "run": "mkdir -p \"$AGENT_HOME/work/euv_main\" && cd \"$AGENT_HOME/work/euv_main\" && cp \"$AGENT_HOME/repo/packs/euv/\"* . && rm -f screen.jpg && /Applications/Blender.app/Contents/MacOS/Blender -b -P euv.py -- save > b1.log 2>&1 && /Applications/Blender.app/Contents/MacOS/Blender -b euv.blend -P euv_render.py -- stills 100 184 > s1.log 2>&1 && cp s/f0184.jpg screen.jpg && /Applications/Blender.app/Contents/MacOS/Blender -b -P euv.py -- save > b2.log 2>&1 && grep -a 'EUV SAVED' b2.log | cut -c1-300 && ls -l euv.blend"
+  }
+ ]
+}

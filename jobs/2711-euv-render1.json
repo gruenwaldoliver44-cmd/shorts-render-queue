@@ -1,0 +1,17 @@
+{
+ "id": "2711-euv-render1",
+ "title": "MT EUV \u00b7 Rendern Teil 1 (Bilder 1-800)",
+ "type": "shell",
+ "timeout_min": 180,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "render 1-800",
+   "run": "cd \"$AGENT_HOME/work/euv_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b euv.blend -P euv_render.py -- render 1 800 100 > r1.log 2>&1; grep -a '^FRAME' r1.log | tail -3; n=$(ls r | wc -l); echo frames $n",
+   "progress": {
+    "dir": "../euv_main/r",
+    "total": 1588
+   }
+  }
+ ]
+}
