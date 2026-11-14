@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:24:43.801Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-14T22:25:40.739Z",
+ "current": "2704-euv-bkpush2 since 2026-11-14 22:25:40",
+ "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 14,
- "mem_free_pct": 61,
- "progress": null,
  "done": [
   "2702-euv-bkpush",
   "2689-thumb-upload",
@@ -94,14 +89,15 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2703-euv-bksearch2",
-   "title": "MT EUV · BlenderKit-Suche 2",
-   "result": "Fehler",
-   "at": "2026-11-14T22:12:01.563Z"
-  },
-  "updated": "2026-11-14T22:12:01.563Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2704-euv-bkpush2",
+  "title": "MT EUV · Suchergebnis 2 zurück",
+  "job_since": "2026-11-14T22:25:40.720Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T22:25:40.720Z"
+ }
 }
