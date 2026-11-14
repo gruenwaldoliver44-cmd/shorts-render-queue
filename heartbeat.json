@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T18:39:03.210Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-14T18:39:54.097Z",
+ "current": "2686-sd-mux since 2026-11-14 18:39:54",
+ "busy": true,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 12,
- "mem_free_pct": 53,
- "progress": null,
  "done": [
   "2685-sd-render",
   "2684-sd-render",
@@ -93,14 +88,15 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2685-sd-render",
-   "title": "Silent-Depression-Video rendern (2)",
-   "result": "fertig",
-   "at": "2026-11-14T18:17:33.323Z"
-  },
-  "updated": "2026-11-14T18:17:33.323Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2686-sd-mux",
+  "title": "Silent Depression: neue Musik einmischen",
+  "job_since": "2026-11-14T18:39:54.075Z",
+  "timeout_min": 20,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T18:39:54.075Z"
+ }
 }
