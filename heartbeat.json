@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:56:43.880Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-14T22:57:26.055Z",
+ "current": "2716-euv-render-all since 2026-11-14 22:57:26",
+ "busy": true,
  "free_gb": 7,
- "blender_procs": 0,
- "cpu": 20,
- "gpu": 15,
- "mem_free_pct": 57,
- "progress": null,
+ "blender_procs": 1,
  "done": [
   "2715-euv-logs",
   "2712-euv-render2",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2715-euv-logs",
-   "title": "MT EUV · Logs",
-   "result": "fertig",
-   "at": "2026-11-14T22:55:53.265Z"
-  },
-  "updated": "2026-11-14T22:55:53.265Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2716-euv-render-all",
+  "title": "MT EUV · Rendern (mit Neustart bei Absturz)",
+  "job_since": "2026-11-14T22:57:26.035Z",
+  "timeout_min": 200,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T22:57:26.035Z"
+ }
 }
