@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-14T22:55:46.192Z",
- "current": "2715-euv-logs since 2026-11-14 22:55:46",
+ "ts": "2026-11-14T22:55:53.292Z",
+ "current": "",
  "busy": true,
  "free_gb": 7,
  "blender_procs": 1,
  "done": [
+  "2715-euv-logs",
   "2712-euv-render2",
   "2711-euv-render1",
   "2708-euv-build",
@@ -43,8 +44,7 @@
   "2665-node-check",
   "2664-bili-setup2",
   "2663-bili-check",
-  "2662-bili-setup",
-  "2661-co-upload"
+  "2662-bili-setup"
  ],
  "failed": [
   "2714-euv-encode",
@@ -89,15 +89,13 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2715-euv-logs",
-  "title": "MT EUV · Logs",
-  "job_since": "2026-11-14T22:55:46.175Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:55:46.175Z"
+  "state": "idle",
+  "last": {
+   "job": "2715-euv-logs",
+   "title": "MT EUV · Logs",
+   "result": "fertig",
+   "at": "2026-11-14T22:55:53.265Z"
+  },
+  "updated": "2026-11-14T22:55:53.265Z"
  }
 }
