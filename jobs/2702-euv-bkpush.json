@@ -1,0 +1,13 @@
+{
+ "id": "2702-euv-bkpush",
+ "title": "MT EUV \u00b7 Suchergebnis zur\u00fcck",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "push",
+   "run": "W=\"$AGENT_HOME/work/2701-euv-bksearch\"; ls -l \"$W\" | head; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" \"$W/bksearch.txt\" euv/bksearch.txt \"$W/thumbs.jpg\" euv/bkthumbs.jpg \"$W/bl.log\" euv/bl.log"
+  }
+ ]
+}
