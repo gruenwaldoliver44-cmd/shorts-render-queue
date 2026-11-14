@@ -1,0 +1,39 @@
+[2026-11-14 22:09:42] === job 2703-euv-bksearch2 (shell) start, attempt 1
+[2026-11-14 22:09:44] $ cat > bksearch.py <<'EOF_PY'
+import bpy, json, urllib.request, urllib.parse, os
+out = []
+def p(*a): out.append(" ".join(str(x) for x in a))
+key = ""
+for name, ad in bpy.context.preferences.addons.items():
+    if "blenderkit" in name.lower():
+        key = getattr(ad.preferences, "api_key", "") or "" ...
+[2026-11-14 22:10:22] key True
+pref api_key str 30
+pref api_key_refresh str 30
+[2026-11-14 22:10:22] $ cd "$AGENT_HOME/pilot_test/film" && mkdir -p "$JOB_DIR/seq" && for k in $(seq 1 100); do s=$(printf '%s/th/%03d.jpg' "$JOB_DIR" $k); o=$(printf '%s/seq/%03d.png' "$JOB_DIR" $k); if [ -f "$s" ]; then npx remotion ffmpeg -y -v error -i "$s" -vf 'scale=240:240:force_original_aspect_ratio=decrease,pad=2 ...
+[2026-11-14 22:12:01] [AVFilterGraph @ 0x7ccc095e0] No such filter: 'color'
+[AVFilterGraph @ 0x7ccc095e0] Error processing filtergraph: Filter not found
+[in#0 @ 0x7ccc1c000] Error opening input: Filter not found
+Error opening input file color=c=gray:s=240x240.
+Error opening input files: Filter not found
+[AVFilterGraph @ 0xa58c20150] No such filter: 'color'
+[AVFilterGraph @ 0xa58c20150] Error processing filtergraph: Filter not found
+[in#0 @ 0xa58c1c000] Error opening input: Filter not found
+Error opening input file color=c=gray:s=240x240.
+Error opening input files: Filter not found
+[AVFilterGraph @ 0x8c4c095e0] No such filter: 'color'
+[AVFilterGraph @ 0x8c4c095e0] Error processing filtergraph: Filter not found
+[in#0 @ 0x8c4c1c000] Error opening input: Filter not found
+Error opening input file color=c=gray:s=240x240.
+Error opening input files: Filter not found
+[AVFilterGraph @ 0x9b5010150] No such filter: 'color'
+[AVFilterGraph @ 0x9b5010150] Error processing filtergraph: Filter not found
+[in#0 @ 0x9b4c20000] Error opening input: Filter not found
+Error opening input file color=c=gray:s=240x240.
+Error opening input files: Filter not found
+[image2 @ 0x9c9010000] Could find no file with path '/Users/olivergruenwald/ShortsRenderAgent/work/2703-euv-bksearch2/seq/%03d.png' and index in the range 1-5
+[in#0 @ 0x9c8c20000] Error opening input: No such file or directory
+Error opening input file /Users/olivergruenwald/ShortsRenderAgent/work/2703-euv-bksearch2/seq/%03d.png.
+Error opening input files: No such file or directory
+ls: /Users/olivergruenwald/ShortsRenderAgent/work/2703-euv-bksearch2/thumbs.jpg: No such file or directory
+[2026-11-14 22:12:01] === job 2703-euv-bksearch2 FAILED
