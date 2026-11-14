@@ -1,17 +1,17 @@
 {
- "ts": "2026-11-14T23:14:43.839Z",
+ "ts": "2026-11-14T23:16:43.856Z",
  "source": "dashboard",
  "current": "2716-euv-render-all since 2026-11-14 22:57:26",
  "busy": true,
  "free_gb": 6,
  "blender_procs": 1,
- "cpu": 23,
- "gpu": 96,
- "mem_free_pct": 36,
+ "cpu": 24,
+ "gpu": 94,
+ "mem_free_pct": 34,
  "progress": {
-  "n": 652,
+  "n": 705,
   "total": 1588,
-  "eta_min": 44
+  "eta_min": 41
  },
  "done": [
   "2715-euv-logs",
