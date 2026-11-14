@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:44:43.807Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-14T22:44:54.448Z",
+ "current": "2708-euv-build since 2026-11-14 22:44:54",
+ "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 38,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
   "2707-euv-stillspush",
   "2706-euv-stills1",
@@ -49,8 +44,7 @@
   "2661-co-upload",
   "2660-co-render2",
   "2659-co-render",
-  "2658-th-put",
-  "2657-pa-upload"
+  "2658-th-put"
  ],
  "failed": [
   "2703-euv-bksearch2",
@@ -95,14 +89,15 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2707-euv-stillspush",
-   "title": "MT EUV · Standbilder zurück",
-   "result": "fertig",
-   "at": "2026-11-14T22:40:32.438Z"
-  },
-  "updated": "2026-11-14T22:40:32.438Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2708-euv-build",
+  "title": "MT EUV · Szene bauen",
+  "job_since": "2026-11-14T22:44:54.430Z",
+  "timeout_min": 20,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T22:44:54.430Z"
+ }
 }
