@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T18:05:03.126Z",
+ "ts": "2026-11-14T18:07:03.109Z",
  "source": "dashboard",
  "current": "2684-sd-render since 2026-11-14 18:01:03",
  "busy": true,
- "free_gb": 10,
+ "free_gb": 9,
  "blender_procs": 0,
- "cpu": 55,
- "gpu": 25,
- "mem_free_pct": 40,
+ "cpu": 58,
+ "gpu": 30,
+ "mem_free_pct": 42,
  "progress": null,
  "done": [
   "2683-fe-upload",
@@ -98,12 +98,12 @@
   "title": "Silent-Depression-Video rendern",
   "job_since": "2026-11-14T18:01:03.356Z",
   "timeout_min": 150,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-14T18:01:06.996Z",
+  "label": "mux",
+  "step_since": "2026-11-14T18:07:01.331Z",
   "progress": null,
-  "updated": "2026-11-14T18:01:06.996Z"
+  "updated": "2026-11-14T18:07:01.331Z"
  },
  "queue": []
 }
