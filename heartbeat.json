@@ -1,15 +1,15 @@
 {
- "ts": "2026-11-14T22:58:43.805Z",
+ "ts": "2026-11-14T23:00:43.850Z",
  "source": "dashboard",
  "current": "2716-euv-render-all since 2026-11-14 22:57:26",
  "busy": true,
  "free_gb": 6,
  "blender_procs": 1,
- "cpu": 22,
- "gpu": 92,
- "mem_free_pct": 38,
+ "cpu": 17,
+ "gpu": 96,
+ "mem_free_pct": 46,
  "progress": {
-  "n": 135,
+  "n": 185,
   "total": 1588,
   "eta_min": null
  },
