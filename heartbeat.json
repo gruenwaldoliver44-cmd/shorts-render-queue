@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:16:43.780Z",
- "source": "dashboard",
+ "ts": "2026-11-14T22:18:12.190Z",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 11,
- "mem_free_pct": 61,
- "progress": null,
  "done": [
   "2702-euv-bkpush",
   "2689-thumb-upload",
@@ -91,8 +86,7 @@
   "2105-ct43-combo",
   "2403-ft29-probe2",
   "2203-mt43-prev2",
-  "2104-ct43-prev2",
-  "2103-ct43-prev1b"
+  "2104-ct43-prev2"
  ],
  "status": {
   "state": "idle",
@@ -103,6 +97,5 @@
    "at": "2026-11-14T22:12:01.563Z"
   },
   "updated": "2026-11-14T22:12:01.563Z"
- },
- "queue": []
+ }
 }
