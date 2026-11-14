@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T19:43:16.559Z",
+ "ts": "2026-11-14T19:45:16.622Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 40,
- "gpu": 65,
- "mem_free_pct": 43,
+ "cpu": 18,
+ "gpu": 28,
+ "mem_free_pct": 48,
  "progress": null,
  "done": [
   "2686-sd-mux",
