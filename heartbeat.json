@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T18:15:03.123Z",
+ "ts": "2026-11-14T18:17:03.154Z",
  "source": "dashboard",
  "current": "2685-sd-render since 2026-11-14 18:12:36",
  "busy": true,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 61,
- "gpu": 19,
- "mem_free_pct": 40,
+ "cpu": 67,
+ "gpu": 20,
+ "mem_free_pct": 43,
  "progress": null,
  "done": [
   "2684-sd-render",
@@ -98,12 +98,12 @@
   "title": "Silent-Depression-Video rendern (2)",
   "job_since": "2026-11-14T18:12:36.979Z",
   "timeout_min": 150,
-  "step": 2,
+  "step": 3,
   "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-14T18:12:40.072Z",
+  "label": "mux",
+  "step_since": "2026-11-14T18:16:58.004Z",
   "progress": null,
-  "updated": "2026-11-14T18:12:40.072Z"
+  "updated": "2026-11-14T18:16:58.004Z"
  },
  "queue": []
 }
