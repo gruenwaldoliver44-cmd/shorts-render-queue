@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T18:43:03.182Z",
- "source": "dashboard",
+ "ts": "2026-11-14T18:48:45.131Z",
  "current": "",
  "busy": false,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 11,
- "mem_free_pct": 48,
- "progress": null,
  "done": [
   "2686-sd-mux",
   "2685-sd-render",
@@ -49,8 +44,7 @@
   "2653-pa-render",
   "2652-ki-upload",
   "2651-ki2-render",
-  "2649-up-koepfe",
-  "2648-up-test"
+  "2649-up-koepfe"
  ],
  "failed": [
   "2681-fe-render",
@@ -102,6 +96,5 @@
    "at": "2026-11-14T18:40:27.371Z"
   },
   "updated": "2026-11-14T18:40:27.371Z"
- },
- "queue": []
+ }
 }
