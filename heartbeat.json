@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-14T22:39:41.531Z",
- "current": "2707-euv-stillspush since 2026-11-14 22:39:41",
- "busy": true,
+ "ts": "2026-11-14T22:40:43.818Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 46,
+ "mem_free_pct": 57,
+ "progress": null,
  "done": [
+  "2707-euv-stillspush",
   "2706-euv-stills1",
   "2705-euv-music",
   "2704-euv-bkpush2",
@@ -89,15 +95,14 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2707-euv-stillspush",
-  "title": "MT EUV · Standbilder zurück",
-  "job_since": "2026-11-14T22:39:41.514Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:39:41.514Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2707-euv-stillspush",
+   "title": "MT EUV · Standbilder zurück",
+   "result": "fertig",
+   "at": "2026-11-14T22:40:32.438Z"
+  },
+  "updated": "2026-11-14T22:40:32.438Z"
+ },
+ "queue": []
 }
