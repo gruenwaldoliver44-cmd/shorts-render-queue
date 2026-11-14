@@ -328,7 +328,7 @@ sc.render.fps = FPS
 sc.frame_start, sc.frame_end = 1, C.NF
 sc.render.engine = "BLENDER_EEVEE"
 ee = sc.eevee
-setattr_safe(ee, "taa_render_samples", 24)
+setattr_safe(ee, "taa_render_samples", 20)
 setattr_safe(ee, "use_raytracing", True)
 try:
     ee.ray_tracing_options.resolution_scale = "2"; ee.ray_tracing_options.use_denoise = True
@@ -361,6 +361,10 @@ else:
 lp_ = N.new("ShaderNodeLightPath"); mix = N.new("ShaderNodeMixShader")
 Lk.new(lp_.outputs["Is Camera Ray"], mix.inputs[0]); Lk.new(WL.outputs[0], mix.inputs[1]); Lk.new(WC.outputs[0], mix.inputs[2])
 Lk.new(mix.outputs[0], wout.inputs["Surface"])
+WLS = sock(WL, "Strength")
+KV(WLS, 1, 0.0, "CONSTANT")
+for (a_, b_) in [(s_[1], s_[2]) for s_ in C.SHOTS if s_[3] in ("G", "G2")]:
+    KV(WLS, C.fr(a_) - 1, 1.0, "CONSTANT"); KV(WLS, C.fr(b_) + 1, 0.0, "CONSTANT")
 
 def area(name, loc, rot, energy, size=2.0, col=(1, 1, 1), shape="RECTANGLE", sy=None):
     ld = bpy.data.lights.new(name, "AREA"); ld.energy = energy; ld.color = col; ld.size = size
@@ -514,7 +518,7 @@ for f in range(1, C.NF + 1):
 vis(plasma, nonmacro_A + macro_ranges); vis(halo, nonmacro_A + macro_ranges); vis(lbeam, nonmacro_A)
 
 # 3D number in s03
-t50, t50s = text3d("t50k", "50,000 drops / second", A + Vector((0.35, -0.10, 1.95)), size=0.2, rot=(D(90), 0, D(-65)), es=4.0, align="LEFT")
+t50, t50s = text3d("t50k", "50,000 drops\nevery second", A + Vector((0.24, -0.50, 1.95)), size=0.12, rot=(D(90), 0, D(-65)), es=4.0, align="CENTER")
 pop_in(t50, C.EV["text50k"])
 vis(t50, shots_of("s03"))
 
@@ -664,7 +668,7 @@ def rrect(name, w, l, t, r, z0, seg=10):
 frame_m = mat("phone_frame", (0.55, 0.53, 0.5), 0.22, 1.0)
 body = rrect("phone_body", PW, PL, PT, 0.1, 0.0); setmat(body, frame_m)
 back_m = mat("phone_back", (0.06, 0.065, 0.075), 0.35, 0.0, coat=0.6)
-glass_top = rrect("phone_glass", PW - 0.025, PL - 0.025, 0.004, 0.09, PT); setmat(glass_top, mat("phone_glass_m", (0.005, 0.005, 0.007), 0.04, 0.0, coat=1.0))
+glass_top = rrect("phone_glass", PW - 0.025, PL - 0.025, 0.004, 0.09, PT); setmat(glass_top, mat("phone_glass_m", (0.005, 0.005, 0.007), 0.12, 0.0, coat=0.3))
 # side buttons
 for i, (yy, ll) in enumerate(((0.32, 0.16), (0.12, 0.1))):
     bt = prim("cube", "pbtn%d" % i, loc=B + Vector((-PW / 2 - 0.006, yy, PT * 0.55)), scale=(0.008, ll / 2, 0.012), smooth=False); setmat(bt, frame_m)
@@ -674,7 +678,7 @@ scr_m = bpy.data.materials.new("screen_m"); scr_m.use_nodes = True
 nts = scr_m.node_tree; Ns = nts.nodes
 for n in list(Ns): Ns.remove(n)
 so = Ns.new("ShaderNodeOutputMaterial"); se_ = Ns.new("ShaderNodeEmission"); sg = Ns.new("ShaderNodeBsdfGlossy")
-SV(sg, "Roughness", 0.03); SV(sg, "Color", (0.04, 0.04, 0.05, 1))
+SV(sg, "Roughness", 0.12); SV(sg, "Color", (0.025, 0.025, 0.03, 1))
 gr = Ns.new("ShaderNodeTexGradient"); gr.gradient_type = "LINEAR"; tcs = Ns.new("ShaderNodeTexCoord")
 mpg = Ns.new("ShaderNodeMapping"); SV(mpg, "Rotation", (0, 0, D(70)))
 nts.links.new(tcs.outputs["Generated"], mpg.inputs[0]); nts.links.new(mpg.outputs[0], gr.inputs[0])
@@ -725,7 +729,7 @@ for f in range(F(59.1), F(63.5) + 1):
     last = max([c for c in cr2 if c <= t] or [-9]); v = math.exp(-max(0, t - last) / 0.05) if t - last < 0.3 else 0
     if f % 1 == 0:
         KV(SCR_S, f, 1.4 + 1.6 * v, "CONSTANT"); KV(SCR_FAC, f, 0.35 * v, "CONSTANT")
-pk = area("phone_key", B + Vector((-2.8, 1.5, 3.0)), (0, 0, 0), 90.0, 2.5, (1.0, 0.93, 0.85)); aim(pk, B)
+pk = area("phone_key", B + Vector((-3.5, 0.5, 4.5)), (0, 0, 0), 140.0, 1.5, (1.0, 0.93, 0.85)); aim(pk, B)
 pr = area("phone_rim", B + Vector((2.6, 2.4, 1.2)), (0, 0, 0), 160.0, 1.5, (0.55, 0.65, 1.0)); aim(pr, B)
 glow = point("screen_glow", B + Vector((0, 0, 0.45)), 0.0, (0.7, 0.45, 1.0), 0.4)
 glow.data.energy = 0; K(glow.data, "energy", 1, "CONSTANT")
@@ -878,7 +882,7 @@ airb = prim("cyl", "air_beam", loc=Lb + Vector((41.0, 0, BT + 1.0)), rot=(0, D(9
 # object-space Z of the beam = world x - 41 (rotated cylinder, world 36..46); air starts at world x 39.9
 src1 = prim("cyl", "euv_source1", loc=Lb + Vector((35.7, 0, BT + 1.0)), rot=(0, D(90), 0), vertices=32, radius=0.25, depth=0.8); setmat(src1, steel)
 KV(airb_front, 1, -100.0, "CONSTANT"); KV(airb_front, F(C.EV["air_beam"]), -5.0, "LINEAR"); KV(airb_front, F(C.EV["air_beam"] + 0.9), 5.0, "LINEAR")
-tair, _ = text3d("t_air", "air", Lb + Vector((42.5, -1.7, BT + 1.75)), size=0.3, es=2.0, align="CENTER")
+tair, _ = text3d("t_air", "air", Lb + Vector((42.5, -1.7, BT + 1.55)), size=0.45, es=2.0, align="CENTER")
 for o_ in (air, airb, tair): vis(o_, shots_of("s16"))
 pop_in(tair, C.EV["air_beam"] + 0.5)
 # D4 glass block stops the beam
@@ -893,7 +897,7 @@ KV(gb_front, 1, -100.0, "CONSTANT"); KV(gb_front, F(C.EV["glass_beam"]), -2.5, "
 hit_m, hit_s = emat("hit_m", EUVCOL, 0.0, alpha=0.7, soft=2.0)
 hit = prim("sphere", "glass_hit", loc=Lb + Vector((59.4, 0, BT + 1.0)), segments=24, ring_count=12, radius=0.2, scale=(0.3, 1, 1)); setmat(hit, hit_m)
 KV(hit_s, 1, 0.0, "CONSTANT"); KV(hit_s, F(C.EV["glass_beam"] + 0.3), 0.0, "CONSTANT"); KV(hit_s, F(C.EV["glass_beam"] + 0.35), 30.0, "CONSTANT")
-tgl, _ = text3d("t_glass", "glass", Lb + Vector((60.0, -1.25, BT + 2.0)), size=0.3, es=2.0)
+tgl, _ = text3d("t_glass", "glass", Lb + Vector((60.0, -1.2, BT + 2.15)), size=0.32, es=2.0)
 for o_ in (gblock, gbeam, hit, tgl): vis(o_, shots_of("s17"))
 pop_in(tgl, C.EV["glass_beam"] + 0.4)
 # D5 a lens tips over
@@ -939,6 +943,7 @@ for i in range(len(PTS) - 1):
     mo = prim("cyl", "mirror%d" % i, loc=p_, vertices=64, radius=0.62, depth=0.12); setmat(mo, mir_m)
     mo.rotation_euler = nrm.to_track_quat("Z", "Y").to_euler()
     back = prim("cyl", "mback%d" % i, loc=p_ - nrm * 0.1, vertices=64, radius=0.66, depth=0.1); back.rotation_euler = mo.rotation_euler; setmat(back, steel_dk)
+    rim_ = prim("torus", "mrim%d" % i, loc=p_ - nrm * 0.02, major_radius=0.66, minor_radius=0.045, major_segments=64, minor_segments=8); rim_.rotation_euler = mo.rotation_euler; setmat(rim_, steel)
     pst = prim("cyl", "mpost%d" % i, loc=Vector((p_.x, p_.y, (BT + p_.z) / 2 - 0.3)), vertices=16, radius=0.05, depth=max(0.2, p_.z - BT - 0.6)); setmat(pst, steel)
 waf_m = bpy.data.materials.new("wafer_m"); waf_m.use_nodes = True
 ntw = waf_m.node_tree; bw = ntw.nodes.get("Principled BSDF")
