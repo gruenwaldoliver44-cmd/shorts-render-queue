@@ -1,19 +1,11 @@
 {
- "ts": "2026-11-14T23:46:43.885Z",
- "source": "dashboard",
- "current": "2716-euv-render-all since 2026-11-14 22:57:26",
+ "ts": "2026-11-14T23:48:06.006Z",
+ "current": "2717-euv-encode2 since 2026-11-14 23:48:05",
  "busy": true,
  "free_gb": 6,
- "blender_procs": 1,
- "cpu": 5,
- "gpu": 91,
- "mem_free_pct": 35,
- "progress": {
-  "n": 1537,
-  "total": 1588,
-  "eta_min": 2
- },
+ "blender_procs": 0,
  "done": [
+  "2716-euv-render-all",
   "2715-euv-logs",
   "2712-euv-render2",
   "2711-euv-render1",
@@ -52,8 +44,7 @@
   "2666-node-path",
   "2665-node-check",
   "2664-bili-setup2",
-  "2663-bili-check",
-  "2662-bili-setup"
+  "2663-bili-check"
  ],
  "failed": [
   "2714-euv-encode",
@@ -99,21 +90,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2716-euv-render-all",
-  "title": "MT EUV · Rendern (mit Neustart bei Absturz)",
-  "job_since": "2026-11-14T22:57:26.035Z",
-  "timeout_min": 200,
-  "step": 1,
-  "steps": 1,
-  "label": "render 1-1588",
-  "step_since": "2026-11-14T22:57:27.707Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r",
-   "total": 1588
-  },
-  "updated": "2026-11-14T22:57:27.707Z"
- },
- "queue": [
-  "2717-euv-encode2"
- ]
+  "job": "2717-euv-encode2",
+  "title": "MT EUV · Video zusammensetzen",
+  "job_since": "2026-11-14T23:48:05.988Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T23:48:05.988Z"
+ }
 }
