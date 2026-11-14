@@ -1,0 +1,17 @@
+{
+ "id": "2716-euv-render-all",
+ "title": "MT EUV \u00b7 Rendern (mit Neustart bei Absturz)",
+ "type": "shell",
+ "timeout_min": 200,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "render 1-1588",
+   "run": "cd \"$AGENT_HOME/work/euv_main\" && for i in $(seq 1 40); do /Applications/Blender.app/Contents/MacOS/Blender -b euv.blend -P euv_render.py -- render 1 1588 100 >> rall.log 2>&1; n=$(ls r | wc -l); echo \"pass $i frames $n\"; [ $n -ge 1588 ] && break; sleep 5; done; grep -a '^FRAME' rall.log | tail -2; ls r | wc -l",
+   "progress": {
+    "dir": "../euv_main/r",
+    "total": 1588
+   }
+  }
+ ]
+}
