@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-14T22:34:43.825Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-14T22:35:29.401Z",
+ "current": "2706-euv-stills1 since 2026-11-14 22:35:29",
+ "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 20,
- "mem_free_pct": 64,
- "progress": null,
  "done": [
   "2705-euv-music",
   "2704-euv-bkpush2",
@@ -49,8 +44,7 @@
   "2659-co-render",
   "2658-th-put",
   "2657-pa-upload",
-  "2656-pa-render",
-  "2655-pa-render"
+  "2656-pa-render"
  ],
  "failed": [
   "2703-euv-bksearch2",
@@ -95,14 +89,15 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2705-euv-music",
-   "title": "MT EUV · Musik holen",
-   "result": "fertig",
-   "at": "2026-11-14T22:32:31.975Z"
-  },
-  "updated": "2026-11-14T22:32:31.975Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2706-euv-stills1",
+  "title": "MT EUV · Eevee-Standbilder (Test)",
+  "job_since": "2026-11-14T22:35:29.383Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T22:35:29.383Z"
+ }
 }
