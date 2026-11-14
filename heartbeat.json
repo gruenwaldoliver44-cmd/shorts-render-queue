@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T22:36:43.856Z",
+ "ts": "2026-11-14T22:38:43.823Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 71,
- "mem_free_pct": 54,
+ "cpu": 17,
+ "gpu": 46,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2706-euv-stills1",
