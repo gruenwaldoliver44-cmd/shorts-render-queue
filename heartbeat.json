@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-14T23:48:43.919Z",
+ "ts": "2026-11-14T23:50:43.939Z",
  "source": "dashboard",
- "current": "2717-euv-encode2 since 2026-11-14 23:48:05",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 32,
- "gpu": 87,
+ "cpu": 3,
+ "gpu": 1,
  "mem_free_pct": 57,
  "progress": null,
  "done": [
+  "2717-euv-encode2",
   "2716-euv-render-all",
   "2715-euv-logs",
   "2712-euv-render2",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2717-euv-encode2",
-  "title": "MT EUV · Video zusammensetzen",
-  "job_since": "2026-11-14T23:48:05.988Z",
-  "timeout_min": 30,
-  "step": 1,
-  "steps": 2,
-  "label": "encode",
-  "step_since": "2026-11-14T23:48:07.720Z",
-  "progress": null,
-  "updated": "2026-11-14T23:48:07.720Z"
+  "state": "idle",
+  "last": {
+   "job": "2717-euv-encode2",
+   "title": "MT EUV · Video zusammensetzen",
+   "result": "fertig",
+   "at": "2026-11-14T23:49:44.640Z"
+  },
+  "updated": "2026-11-14T23:49:44.640Z"
  },
  "queue": []
 }
