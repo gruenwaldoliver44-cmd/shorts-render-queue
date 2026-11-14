@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-14T22:47:51.406Z",
- "current": "2712-euv-render2 since 2026-11-14 22:47:51",
+ "ts": "2026-11-14T22:48:15.083Z",
+ "current": "",
  "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
  "done": [
+  "2712-euv-render2",
   "2711-euv-render1",
   "2708-euv-build",
   "2707-euv-stillspush",
@@ -43,8 +44,7 @@
   "2664-bili-setup2",
   "2663-bili-check",
   "2662-bili-setup",
-  "2661-co-upload",
-  "2660-co-render2"
+  "2661-co-upload"
  ],
  "failed": [
   "2703-euv-bksearch2",
@@ -89,15 +89,13 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2712-euv-render2",
-  "title": "MT EUV · Rendern Teil 2 (Bilder 801-1588)",
-  "job_since": "2026-11-14T22:47:51.388Z",
-  "timeout_min": 180,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:47:51.388Z"
+  "state": "idle",
+  "last": {
+   "job": "2712-euv-render2",
+   "title": "MT EUV · Rendern Teil 2 (Bilder 801-1588)",
+   "result": "fertig",
+   "at": "2026-11-14T22:48:15.057Z"
+  },
+  "updated": "2026-11-14T22:48:15.057Z"
  }
 }
