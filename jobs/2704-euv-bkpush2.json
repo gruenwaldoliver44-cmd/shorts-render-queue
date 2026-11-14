@@ -1,0 +1,13 @@
+{
+ "id": "2704-euv-bkpush2",
+ "title": "MT EUV \u00b7 Suchergebnis 2 zur\u00fcck",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "push",
+   "run": "W=\"$AGENT_HOME/work/2703-euv-bksearch2\"; LG=$(ls \"$AGENT_HOME\"/state/logs/2703-euv-bksearch2.log 2>/dev/null || find \"$AGENT_HOME\" -name '2703-euv-bksearch2.log' | head -1); cp \"$LG\" job.log 2>/dev/null; ls \"$W\" | head > ls.txt; ls \"$W/th\" | wc -l >> ls.txt; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" \"$W/bksearch.txt\" euv/bksearch2.txt job.log euv/job2703.log ls.txt euv/ls2703.txt"
+  }
+ ]
+}
