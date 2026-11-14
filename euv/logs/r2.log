@@ -1,0 +1,18 @@
+ℹ️  blendkit: Verbose is enabled [23:47:54.558, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [23:47:54.558, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [23:47:54.560, client_lib.py:163]
+Created history step 697c5866-3865-47f1-995c-ee470de7d04e
+ℹ️  blendkit: Created new search history step [23:47:54.563, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [23:47:54.563, download.py:431]
+00:00.516  blend            | Read blend: "/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/euv.blend"
+ℹ️  blendkit: No temporarily enabled addons to clean up [23:47:54.593, download.py:431]
+00:05.141  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r/f0801.jpg'
+FRAME 801 s14 4.6s
+00:08.872  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r/f0802.jpg'
+FRAME 802 s14 3.7s
+00:12.648  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r/f0803.jpg'
+FRAME 803 s14 3.8s
+00:16.464  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r/f0804.jpg'
+FRAME 804 s14 3.8s
+00:20.295  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r/f0805.jpg'
+FRAME 805 s14 3.8s
