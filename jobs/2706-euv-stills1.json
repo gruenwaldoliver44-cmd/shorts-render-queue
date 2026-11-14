@@ -1,0 +1,21 @@
+{
+ "id": "2706-euv-stills1",
+ "title": "MT EUV \u00b7 Eevee-Standbilder (Test)",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "pack",
+   "run": "cp \"$AGENT_HOME/repo/packs/euv/\"* . && ls"
+  },
+  {
+   "label": "stills",
+   "run": "bash stills.sh 23,64,117,181,227,292,383,457,510,561,624,686,750,814,879,941,1016,1077,1115,1180,1258,1317,1376,1446,1507,1562 50 t1 2>&1 | tail -5; ls s | wc -l"
+  },
+  {
+   "label": "sheet",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -pattern_type glob -i \"$JOB_DIR/s/f*.jpg\" -vf 'scale=480:270,tile=6x5:padding=4' -frames:v 1 -q:v 3 \"$JOB_DIR/sheet.jpg\"; cd \"$JOB_DIR\"; grep -a '^FRAME' st.log > timing.txt; cp build_info.json bi.json; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" sheet.jpg euv/eevee_sheet1.jpg timing.txt euv/eevee_timing1.txt bi.json euv/build_info1.json s/f0184.jpg euv/f0184.jpg"
+  }
+ ]
+}
