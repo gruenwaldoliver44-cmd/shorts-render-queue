@@ -1,0 +1,21 @@
+{
+ "id": "2684-sd-render",
+ "title": "Silent-Depression-Video rendern",
+ "type": "shell",
+ "timeout_min": 150,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "unpack",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && [ \"$(md5 -q sd/sd_bundle.tgz)\" = bd4e568e8183fd147a69bf70c06f8ba9 ] && [ \"$(md5 -q sd/sd_mix.m4a)\" = 162d2a52670464c71240eef5189ac46c ] && rm -rf sd/bundle && mkdir -p sd/bundle && tar xzf sd/sd_bundle.tgz -C sd/bundle && for f in sd/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done && ls sd/bundle/public | wc -l && npx remotion ffprobe -v error -show_entries format=duration -of csv=p=0 sd/sd_mix.m4a"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render sd/bundle P sd_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i sd_out.mp4 -i sd/sd_mix.m4a -map 0:v -map 1:a -c copy -shortest sd_film.mp4 && npx remotion ffmpeg -y -v error -i sd_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k sd_720.mp4 && ls -l sd_film.mp4 sd_720.mp4 > sd_done.txt; cat sd_done.txt"
+  }
+ ]
+}
