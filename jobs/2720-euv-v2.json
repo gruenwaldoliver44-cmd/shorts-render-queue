@@ -1,0 +1,29 @@
+{
+ "id": "2720-euv-v2",
+ "title": "MT EUV v2 \u00b7 bauen + rendern",
+ "type": "shell",
+ "timeout_min": 220,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "build",
+   "run": "mkdir -p \"$AGENT_HOME/work/euv_v2\" && cd \"$AGENT_HOME/work/euv_v2\" && cp \"$AGENT_HOME/repo/packs/euv/\"* . && cp \"$AGENT_HOME/work/euv_main/screen.jpg\" . && /Applications/Blender.app/Contents/MacOS/Blender -b -P euv.py -- save > b.log 2>&1 && grep -a 'EUV SAVED' b.log | cut -c1-300"
+  },
+  {
+   "label": "render 1-1588",
+   "run": "cd \"$AGENT_HOME/work/euv_v2\" && for i in $(seq 1 40); do /Applications/Blender.app/Contents/MacOS/Blender -b euv.blend -P euv_render.py -- render 1 1588 100 >> rall.log 2>&1; n=$(ls r | wc -l); echo \"pass $i frames $n\"; [ $n -ge 1588 ] && break; sleep 5; done; ls r | wc -l",
+   "progress": {
+    "dir": "../euv_v2/r",
+    "total": 1588
+   }
+  },
+  {
+   "label": "encode",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -framerate 25 -i \"$AGENT_HOME/work/euv_v2/r/f%04d.jpg\" -i \"$AGENT_HOME/work/euv_v2/euv_mix.m4a\" -map 0:v -map 1:a -c:v libx264 -preset medium -crf 21 -pix_fmt yuv420p -c:a copy -shortest -movflags +faststart \"$AGENT_HOME/work/euv_v2/euv_mt_v2.mp4\" && ls -l \"$AGENT_HOME/work/euv_v2/euv_mt_v2.mp4\""
+  },
+  {
+   "label": "push",
+   "run": "cd \"$AGENT_HOME/work/euv_v2\" && \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" euv_mt_v2.mp4 euv/final/euv_mt_v2_1080.mp4"
+  }
+ ]
+}
