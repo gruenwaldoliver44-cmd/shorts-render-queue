@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-14T20:29:58.958Z",
+ "ts": "2026-11-14T20:31:16.884Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 34,
+ "mem_free_pct": 53,
+ "progress": null,
  "done": [
   "2687-sd-render",
   "2686-sd-mux",
@@ -96,5 +101,6 @@
    "at": "2026-11-14T20:18:01.472Z"
   },
   "updated": "2026-11-14T20:18:01.472Z"
- }
+ },
+ "queue": []
 }
