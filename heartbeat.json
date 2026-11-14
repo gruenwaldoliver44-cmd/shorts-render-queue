@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-14T22:10:43.724Z",
+ "ts": "2026-11-14T22:12:43.773Z",
  "source": "dashboard",
- "current": "2703-euv-bksearch2 since 2026-11-14 22:09:42",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 12,
+ "cpu": 18,
+ "gpu": 11,
  "mem_free_pct": 61,
  "progress": null,
  "done": [
@@ -52,6 +52,7 @@
   "2654-pa-render"
  ],
  "failed": [
+  "2703-euv-bksearch2",
   "2701-euv-bksearch",
   "2681-fe-render",
   "2674-wk-mux2",
@@ -94,17 +95,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2703-euv-bksearch2",
-  "title": "MT EUV · BlenderKit-Suche 2",
-  "job_since": "2026-11-14T22:09:42.632Z",
-  "timeout_min": 15,
-  "step": 2,
-  "steps": 3,
-  "label": "montage",
-  "step_since": "2026-11-14T22:10:22.388Z",
-  "progress": null,
-  "updated": "2026-11-14T22:10:22.388Z"
+  "state": "idle",
+  "last": {
+   "job": "2703-euv-bksearch2",
+   "title": "MT EUV · BlenderKit-Suche 2",
+   "result": "Fehler",
+   "at": "2026-11-14T22:12:01.563Z"
+  },
+  "updated": "2026-11-14T22:12:01.563Z"
  },
  "queue": []
 }
