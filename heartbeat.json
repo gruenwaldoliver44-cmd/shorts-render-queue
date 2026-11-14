@@ -1,9 +1,18 @@
 {
- "ts": "2026-11-14T22:57:26.055Z",
+ "ts": "2026-11-14T22:58:43.805Z",
+ "source": "dashboard",
  "current": "2716-euv-render-all since 2026-11-14 22:57:26",
  "busy": true,
- "free_gb": 7,
+ "free_gb": 6,
  "blender_procs": 1,
+ "cpu": 22,
+ "gpu": 92,
+ "mem_free_pct": 38,
+ "progress": {
+  "n": 135,
+  "total": 1588,
+  "eta_min": null
+ },
  "done": [
   "2715-euv-logs",
   "2712-euv-render2",
@@ -94,10 +103,17 @@
   "title": "MT EUV · Rendern (mit Neustart bei Absturz)",
   "job_since": "2026-11-14T22:57:26.035Z",
   "timeout_min": 200,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:57:26.035Z"
- }
+  "label": "render 1-1588",
+  "step_since": "2026-11-14T22:57:27.707Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r",
+   "total": 1588
+  },
+  "updated": "2026-11-14T22:57:27.707Z"
+ },
+ "queue": [
+  "2717-euv-encode2"
+ ]
 }
