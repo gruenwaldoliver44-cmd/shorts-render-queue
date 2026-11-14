@@ -1,0 +1,13 @@
+{
+ "id": "2686-sd-mux",
+ "title": "Silent Depression: neue Musik einmischen",
+ "type": "shell",
+ "timeout_min": 20,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && [ \"$(md5 -q sd/sd_mix2.m4a)\" = b1c9676fc9e51598938c4bd9ff8764a6 ] && [ \"$(md5 -q sd_out.mp4)\" = b767dd1a37a1df003bd83385c91ce752 ] && npx remotion ffmpeg -y -v error -i sd_out.mp4 -i sd/sd_mix2.m4a -map 0:v -map 1:a -c copy -shortest sd_film.mp4 && npx remotion ffmpeg -y -v error -i sd_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k sd_720.mp4 && ls -l sd_film.mp4 sd_720.mp4 > sd_done2.txt; cat sd_done2.txt"
+  }
+ ]
+}
