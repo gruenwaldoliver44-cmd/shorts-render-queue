@@ -1,9 +1,18 @@
 {
- "ts": "2026-11-14T22:45:07.975Z",
+ "ts": "2026-11-14T22:46:43.839Z",
+ "source": "dashboard",
  "current": "2711-euv-render1 since 2026-11-14 22:45:07",
  "busy": true,
  "free_gb": 7,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 19,
+ "gpu": 90,
+ "mem_free_pct": 36,
+ "progress": {
+  "n": 58,
+  "total": 1588,
+  "eta_min": null
+ },
  "done": [
   "2708-euv-build",
   "2707-euv-stillspush",
@@ -94,10 +103,18 @@
   "title": "MT EUV · Rendern Teil 1 (Bilder 1-800)",
   "job_since": "2026-11-14T22:45:07.923Z",
   "timeout_min": 180,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-14T22:45:07.923Z"
- }
+  "label": "render 1-800",
+  "step_since": "2026-11-14T22:45:10.029Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/euv_main/r",
+   "total": 1588
+  },
+  "updated": "2026-11-14T22:45:10.029Z"
+ },
+ "queue": [
+  "2712-euv-render2",
+  "2714-euv-encode"
+ ]
 }
