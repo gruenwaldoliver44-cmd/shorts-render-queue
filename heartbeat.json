@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-14T20:37:16.858Z",
+ "ts": "2026-11-14T20:39:16.880Z",
  "source": "dashboard",
- "current": "2688-sd-upload since 2026-11-14 20:31:28",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 11,
+ "cpu": 18,
+ "gpu": 17,
  "mem_free_pct": 54,
  "progress": null,
  "done": [
+  "2688-sd-upload",
   "2687-sd-render",
   "2686-sd-mux",
   "2685-sd-render",
@@ -93,17 +94,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2688-sd-upload",
-  "title": "Silent-Depression-Video hochladen",
-  "job_since": "2026-11-14T20:31:28.628Z",
-  "timeout_min": 40,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-14T20:31:30.386Z",
-  "progress": null,
-  "updated": "2026-11-14T20:31:30.386Z"
+  "state": "idle",
+  "last": {
+   "job": "2688-sd-upload",
+   "title": "Silent-Depression-Video hochladen",
+   "result": "fertig",
+   "at": "2026-11-14T20:38:50.550Z"
+  },
+  "updated": "2026-11-14T20:38:50.550Z"
  },
  "queue": []
 }
