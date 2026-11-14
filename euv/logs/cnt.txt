@@ -1,0 +1,8 @@
+      98
+f0001.jpg
+f0002.jpg
+f0003.jpg
+f0803.jpg
+f0804.jpg
+f0805.jpg
+/dev/disk3s5   460Gi   426Gi   7.2Gi    99%    2.1M   76M    3%   /System/Volumes/Data
