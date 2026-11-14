@@ -1,6 +1,6 @@
 {
- "ts": "2026-11-14T22:48:15.083Z",
- "current": "",
+ "ts": "2026-11-14T22:48:16.538Z",
+ "current": "2714-euv-encode since 2026-11-14 22:48:16",
  "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
@@ -89,13 +89,15 @@
   "2104-ct43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2712-euv-render2",
-   "title": "MT EUV · Rendern Teil 2 (Bilder 801-1588)",
-   "result": "fertig",
-   "at": "2026-11-14T22:48:15.057Z"
-  },
-  "updated": "2026-11-14T22:48:15.057Z"
+  "state": "busy",
+  "job": "2714-euv-encode",
+  "title": "MT EUV · Video zusammensetzen",
+  "job_since": "2026-11-14T22:48:16.490Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-14T22:48:16.490Z"
  }
 }
