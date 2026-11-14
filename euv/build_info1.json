@@ -1,0 +1,12 @@
+{
+ "notes": [
+  "screen image",
+  "glare ok"
+ ],
+ "assets": {},
+ "phone": {
+  "procedural": true
+ },
+ "font": "Arial Bold",
+ "build_s": 0.9
+}
