@@ -1,0 +1,89 @@
+key True
+pref api_key str 30
+pref api_key_refresh str 30
+pref api_key_timeout int 1793514000
+download test HTTP Error 401: Unauthorized
+## search 'smartphone' count 510
+[001] Zombie mobile holder & iPhone 4 | base a1ad4593-ea78-4e7e-9b3c-6e344eb208e9 | dl https://www.blenderkit.com/api/v1/downloads/ba595214-7342-4590-92c9-95fc28692147/ | free False | can False | dims [None, None, None] | score 8000.0 | polys 275589
+[002] Honda E(Rigged) | base d7966512-13e3-40b7-925e-25bfe4ee1621 | dl https://www.blenderkit.com/api/v1/downloads/30bbeb7f-0df1-47bd-af1d-7f06e0217aba/ | free False | can False | dims [None, None, None] | score 7000.0 | polys 1516898
+[003] Tech Device Store | base 45e10958-a3c5-4db4-aa7a-ce68c7f09a88 | dl https://www.blenderkit.com/api/v1/downloads/fd196388-a6d4-4f4a-b817-eee6019f43ce/ | free True | can True | dims [None, None, None] | score 6166.666666666666 | polys 4018401
+[004] Milany Female Character - rigged | base 27f611ee-7374-4c96-92fd-79e8d74a77f3 | dl https://www.blenderkit.com/api/v1/downloads/d9e4f0fd-7c32-4297-b85d-0e5ffe3c06e9/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[005] Milany Female Character - rigged | base 308ca8ad-c5d0-41a8-87dc-2c6a68240d28 | dl https://www.blenderkit.com/api/v1/downloads/2bd1d106-82c3-4c35-b284-0ad805db623d/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[006] Milany Female Character - rigged | base 147a0d6a-2d2d-4028-9f1a-6f519eb2235b | dl https://www.blenderkit.com/api/v1/downloads/c4ec9be0-2a65-4859-9ac5-a5f11f210270/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[007] Xiaomi SU7 | base 5ad643e1-8955-4e7a-be0a-15f4b0635b05 | dl https://www.blenderkit.com/api/v1/downloads/9458cab5-6ae6-4da4-b676-6555dd04f7ba/ | free False | can False | dims [None, None, None] | score 5500.0 | polys 47177
+[008] 1930s Correspondence | base ac48aa69-8b3d-419b-b616-94495e4af50c | dl https://www.blenderkit.com/api/v1/downloads/b928b967-364d-4a81-9ff8-8816199a5d5f/ | free True | can True | dims [None, None, None] | score 5000.0 | polys 563859
+## search 'iphone' count 179
+[009] Zombie mobile holder & iPhone 4 | base a1ad4593-ea78-4e7e-9b3c-6e344eb208e9 | dl https://www.blenderkit.com/api/v1/downloads/ba595214-7342-4590-92c9-95fc28692147/ | free False | can False | dims [None, None, None] | score 8000.0 | polys 275589
+[010] Apple Mac Pro Workstation Office Set | base 59142c02-679c-4a9e-8ea3-29cae0bb67bc | dl https://www.blenderkit.com/api/v1/downloads/b44f19a2-d55b-4f6e-ac39-865391ebade8/ | free False | can False | dims [None, None, None] | score 5000.0 | polys 404748
+[011] Brightly | base 796b39d5-4057-41a3-8bb8-d9958a4afae4 | dl https://www.blenderkit.com/api/v1/downloads/29979f30-987e-4299-a1e6-88df1e5b8077/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50390
+[012] Moon Girl | base 518cddf2-eb2b-4b1e-aa65-b74d4d351d4d | dl https://www.blenderkit.com/api/v1/downloads/8b68046c-cfb4-4416-8b2a-d6db4996f02c/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 50000
+[013] Apple vision pro | base e229837f-6940-4e7a-a234-6ac6896500d5 | dl https://www.blenderkit.com/api/v1/downloads/1c28a1a3-6f39-46ea-9ebb-b9cd690a5e09/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 9004
+[014] IPhone Duo – Rigged Foldable Smartphone | base e07987fc-21c1-470c-be4c-19069e084080 | dl https://www.blenderkit.com/api/v1/downloads/329009dd-300f-461e-91b0-4041fa953013/ | free False | can False | dims [None, None, None] | score 2000.0 | polys 45265
+[015] Iphone 15 Pro(White Titanium) | base 106914b1-126a-4abd-8e2f-95890b360652 | dl https://www.blenderkit.com/api/v1/downloads/f4bd470a-a1e0-4913-bd83-bf73b93d65ac/ | free True | can True | dims [None, None, None] | score 1404.0 | polys 17217
+[016] Iphone 16 all color | base ba60b4f5-96db-473e-8f73-d3d272c1cff1 | dl https://www.blenderkit.com/api/v1/downloads/86febad1-7ee9-4ce7-a81d-bdc57fffd29e/ | free False | can False | dims [None, None, None] | score 1200.0 | polys 7521
+## search 'silicon wafer' count 0
+## search 'microchip processor' count 1
+[017] LM555 integrated circuit | base c6b5da8b-f338-438c-b43d-66b49344656b | dl https://www.blenderkit.com/api/v1/downloads/03ce70c0-23e6-46c2-b422-9898a775a546/ | free True | can True | dims [None, None, None] | score 120.0 | polys 318
+## search 'sports car' count 361
+[018] Porsche Carrera GT | base 4b6a1c98-076c-4148-8f37-33da3d902008 | dl https://www.blenderkit.com/api/v1/downloads/3caf9e61-c35b-432d-afae-9ba5129d99ba/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 227657
+[019] Audi RS5 2018 | base e76d8213-1a95-4036-8417-098c5469c6fe | dl https://www.blenderkit.com/api/v1/downloads/67e86e6b-2329-4d60-9026-a3c63729c551/ | free False | can False | dims [None, None, None] | score 22272.727272727272 | polys 448051
+[020] Toyota Supra 2022 Sport Car | base 02d7c424-be2c-41f2-bb4a-76814af8a60c | dl https://www.blenderkit.com/api/v1/downloads/dde0f153-2f73-4a62-8145-7bb723ec0871/ | free False | can False | dims [None, None, None] | score 20000.0 | polys 1186426
+[021] Volkswagen Beetle sport | base 6884dcf4-8dcd-439d-b7d5-ad626a13cfb5 | dl https://www.blenderkit.com/api/v1/downloads/ace705d5-8dc3-40e3-8524-856dbaebadd0/ | free False | can False | dims [None, None, None] | score 20000.0 | polys 104288
+[022] Bmw x6 4WD | base ebd19a21-be91-4a05-b6a9-4219b94f288a | dl https://www.blenderkit.com/api/v1/downloads/a6a61ae6-b6a1-4f92-9c63-a7cb5446b5b1/ | free False | can False | dims [None, None, None] | score 19500.0 | polys 407230
+[023] Mercedes-Benz SLR supercar | base c85c8399-a1b5-478c-84ce-05918bf23b5e | dl https://www.blenderkit.com/api/v1/downloads/3819f3fb-6ce6-4ae2-b9ac-c0da17c5c038/ | free False | can False | dims [None, None, None] | score 17500.0 | polys 195706
+[024] Hyundai N Vision 74 | base 4684ed71-fd9e-47d0-bc87-325b56534e39 | dl https://www.blenderkit.com/api/v1/downloads/5fc5c47b-8f1f-4ca6-b533-c0ef8f51b6d4/ | free False | can False | dims [None, None, None] | score 17500.0 | polys 840658
+[025] Mclaren 720s spider | base 116ab296-8a60-40d8-998a-ca11e7566221 | dl https://www.blenderkit.com/api/v1/downloads/8bf1aa26-fd09-4687-9a2a-bbac3a9412cc/ | free True | can True | dims [None, None, None] | score 17150.000000000004 | polys 347164
+## search 'sedan car' count 64
+[026] Skoda Scala 2019 | base c86da1a1-bc31-457f-a708-fcbc0865211a | dl https://www.blenderkit.com/api/v1/downloads/80884a4f-0ede-4b2f-b7d3-8d5552ba8419/ | free False | can False | dims [None, None, None] | score 18909.09090909091 | polys 376459
+[027] Audi a3 sedan | base fe557ae3-272e-41e6-a4cb-bc3bad664f84 | dl https://www.blenderkit.com/api/v1/downloads/ffbb76b6-ba48-45a0-b632-0cacec5c9af1/ | free False | can False | dims [None, None, None] | score 12900.0 | polys 582584
+[028] Skoda Scala 2019 only exterior | base d120416d-9f0f-441e-b974-2946f0e3201f | dl https://www.blenderkit.com/api/v1/downloads/d539e6ef-5fc3-4277-8030-aa7bdb430bdd/ | free False | can False | dims [None, None, None] | score 12500.0 | polys 209053
+[029] Audi e-Tron GT RS 2021 | base 2c8c3a83-37c0-489d-9070-2a4b0f948dc6 | dl https://www.blenderkit.com/api/v1/downloads/5e7ec020-d346-40b6-98e9-612e97ade23c/ | free False | can False | dims [None, None, None] | score 12000.0 | polys 493183
+[030] City Sedan | base ef10ac97-a01d-4bca-b2e7-f21eb32dc416 | dl https://www.blenderkit.com/api/v1/downloads/bef69c79-ee12-4a85-af74-30bd250cdecd/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 20936
+[031] New York Taxi Cab | base 50a12096-298f-4766-a324-6c2305ee65f8 | dl https://www.blenderkit.com/api/v1/downloads/0dd24f1d-0bb1-4e24-87f1-5b42efbf4d14/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 21731
+[032] Modern Muscle Car | base 7d2265c6-dd33-433d-aedc-c4370bc8b00f | dl https://www.blenderkit.com/api/v1/downloads/db156858-891f-4949-aae4-022dbf378770/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 18750
+[033] Volvo S90 | base b501e06a-f9fa-47b3-a164-de6300c64ac9 | dl https://www.blenderkit.com/api/v1/downloads/85bdf7cc-dcfd-481f-b7d4-ad3212b4c4bd/ | free True | can True | dims [None, None, None] | score 9375.0 | polys 325114
+## search 'laboratory clean room' count 1
+[034] Medical Table | base 73fdcd63-546c-4944-bdb9-4f094de80231 | dl https://www.blenderkit.com/api/v1/downloads/b92db6f0-f4b9-418f-80c3-eb5c45b3201b/ | free False | can False | dims [None, None, None] | score 250.0 | polys 31388
+## search 'vacuum chamber' count 0
+## search 'light bulb' count 343
+[035] Vintage Flashlight Beam – Focused | base 0d902b25-12b0-47cc-9832-ceaadff1e36d | dl https://www.blenderkit.com/api/v1/downloads/84b1ba7d-2ca6-449f-a35c-97500df8da27/ | free True | can True | dims [None, None, None] | score 2295.0 | polys 0
+[036] Light Bulb | base b09ed772-72ea-4d39-b33f-585fb15ac226 | dl https://www.blenderkit.com/api/v1/downloads/57c6d5d7-7287-4511-b14f-899ef1e1e963/ | free False | can False | dims [None, None, None] | score 2000.0 | polys 6
+[037] Lantern Chandelier 01 | base f1f75041-5801-4528-bf49-709acfe829e8 | dl https://www.blenderkit.com/api/v1/downloads/108a729d-1084-42c5-8c47-6fb06b33de92/ | free True | can True | dims [None, None, None] | score 1852.5 | polys None
+[038] Christmas Lights Pointy | base 03be9777-289e-42be-8c5b-e2c8c82ccac2 | dl https://www.blenderkit.com/api/v1/downloads/a2de3c24-6531-4d11-b195-49728715f155/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 23924
+[039] Christmas Lights Round | base 99641cf5-2872-4432-9ac1-a080c700bda7 | dl https://www.blenderkit.com/api/v1/downloads/e8d4d9d9-3954-4430-b818-6cd93b4d3904/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 24692
+[040] Kettle Hanging Lamp | base 7afb70dd-71b8-4fd5-a735-d3dc5f3ce2ba | dl https://www.blenderkit.com/api/v1/downloads/39dd9da2-497e-49d1-8be6-9f66bc803128/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 3010
+[041] Antique Floor Lamp | base f63dc9ef-7b91-44f3-b542-914f32139453 | dl https://www.blenderkit.com/api/v1/downloads/1726ae9f-fd68-414f-aed7-3e052078096b/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 99146
+[042] Three-Bulb Drop-Chain Pan Light | base 820943f5-fa21-4399-9279-4854f5d1d244 | dl https://www.blenderkit.com/api/v1/downloads/79848585-76de-4e8a-ae4a-506531538108/ | free False | can False | dims [None, None, None] | score 1200.0 | polys 17204
+## search 'camera lens' count 46
+[043] R8 Revolver (Black) | base 5ed8507e-70d4-4fa2-8405-19240dc73a92 | dl https://www.blenderkit.com/api/v1/downloads/f201eb23-7137-4edd-94ac-416f63c62045/ | free False | can False | dims [None, None, None] | score 4750.0 | polys 26846
+[044] R8 Revolver | base 3804fc21-ee71-42fa-a3de-fa61b9a716c0 | dl https://www.blenderkit.com/api/v1/downloads/2873d864-6122-4a00-a44e-9915740c6b2f/ | free False | can False | dims [None, None, None] | score 3800.0 | polys 26846
+[045] Camera 01 | base 4d492e32-ab48-4efd-abfc-3d7e34a25367 | dl https://www.blenderkit.com/api/v1/downloads/6f2f4e4d-9387-4424-918a-77584d56d42c/ | free True | can True | dims [None, None, None] | score 3000.0 | polys None
+[046] Vintage Nikon F3 SLR Film Camera | base 49dc35f9-ed27-4128-b924-e1a0ea4e4a9a | dl https://www.blenderkit.com/api/v1/downloads/2da495f8-5b15-4d54-960c-d0ec5f8cfc91/ | free False | can False | dims [None, None, None] | score 2000.0 | polys 40988
+[047] Security Camera 01 | base fce13ec4-2a51-4498-b7a8-ad67e489c62b | dl https://www.blenderkit.com/api/v1/downloads/72014d8b-4c8c-415c-970a-be956ec3e9af/ | free True | can True | dims [None, None, None] | score 1937.5 | polys None
+[048] Polaroid Camera OneStep+ Black | base 95e9387c-a9ad-40df-a103-b397c3f26684 | dl https://www.blenderkit.com/api/v1/downloads/fcd97a3a-f573-4a17-ab10-d78809902b3d/ | free False | can False | dims [None, None, None] | score 1662.5 | polys 17620
+[049] Lancaster Instantograph | base 4e31c619-638a-4d69-8bf1-caeefacdec75 | dl https://www.blenderkit.com/api/v1/downloads/78cf8c84-b9de-4086-a106-c2bbc2bc9535/ | free True | can True | dims [None, None, None] | score 1600.0 | polys 26760
+[050] Polaroid Camera OneStep+ White | base a0ee2aef-f44e-4ddc-979c-1e0a98717b95 | dl https://www.blenderkit.com/api/v1/downloads/9d70ddc4-d4e5-499b-8ab4-22eb8036e135/ | free False | can False | dims [None, None, None] | score 1520.0 | polys 17620
+## search 'sheet of paper' count 7
+[051] Office Notepads | base 4d3173c4-4f90-4a37-b90b-94cd33032e36 | dl https://www.blenderkit.com/api/v1/downloads/e5920017-d960-463d-8003-b70ae0bc7947/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[052] Office Mesh Document Tray | base 8bf3a0a2-c7e5-4fae-862e-fd1b2aa5ad59 | dl https://www.blenderkit.com/api/v1/downloads/5d8679c9-178b-499c-9eef-9213c3ad274e/ | free True | can True | dims [None, None, None] | score 400.0 | polys 5402
+[053] Graph Paper Sheet | base d6dbd1ec-e6f9-4140-840c-b887f3fd4a9e | dl https://www.blenderkit.com/api/v1/downloads/c966f280-4e9e-4cc7-a691-51a8eac45ab8/ | free False | can False | dims [None, None, None] | score 140.0 | polys 3574
+[054] Paper Towel Roll | base 6a9bcec0-0aa3-40f1-bed3-9aee0b1baae1 | dl https://www.blenderkit.com/api/v1/downloads/47384d99-1597-4de2-8dfe-cb288cc63e4e/ | free False | can False | dims [None, None, None] | score 90.0 | polys 14774
+[055] Memo note block | base d1f94335-2fc7-454d-9200-c5ff551803c9 | dl https://www.blenderkit.com/api/v1/downloads/d6117651-c78a-4d0e-90ab-11d615c31aeb/ | free False | can False | dims [None, None, None] | score 70.0 | polys 2868
+[056] SM PaperSheets | base bd134aab-5db5-4875-a57b-a291324780d0 | dl https://www.blenderkit.com/api/v1/downloads/1f01aadf-825f-4c1a-9e16-512098878980/ | free False | can False | dims [None, None, None] | score 50.0 | polys 25
+[057] A4 paper sheet | base 3207a6d9-7f37-482b-908f-bebc0d1c2863 | dl https://www.blenderkit.com/api/v1/downloads/35abfc3a-99c4-4f80-8093-311c6d286419/ | free False | can False | dims [None, None, None] | score 15.0 | polys 77
+## search 'laboratory equipment' count 14
+[058] SCI-FI Lab Equipment | base bd16c427-6a3d-40a5-a3bc-d1f0e689a99b | dl https://www.blenderkit.com/api/v1/downloads/032268b6-e3a0-4af5-b730-b73c0c8e8196/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 303634
+[059] Oscilloscope | base d2077501-0da4-47cd-8c98-4feaf021d58a | dl https://www.blenderkit.com/api/v1/downloads/36ea2433-d4ed-46f1-905f-84c819152e52/ | free False | can False | dims [None, None, None] | score 3000.0 | polys None
+[060] Lab equipment set | base 4f29e847-38f5-452f-bdb5-1cd363fbff6c | dl https://www.blenderkit.com/api/v1/downloads/8167ccc5-6bfd-4e0a-9843-e1d0b61578d8/ | free True | can True | dims [None, None, None] | score 3000.0 | polys 7927
+[061] ROBOTIQ 2F140 robot two finger gripper. | base ffdf5796-95fc-4e67-89ad-0896989ada1d | dl https://www.blenderkit.com/api/v1/downloads/dd47b060-3d0a-4b08-a09f-ff6738732b5f/ | free True | can True | dims [None, None, None] | score 1200.0 | polys 92479
+[062] Medieval Box 07 | base a8cd99a2-b768-4f51-b656-bcc4f50470f2 | dl https://www.blenderkit.com/api/v1/downloads/d3605aed-f440-40bc-bc24-941b2fc471f1/ | free True | can True | dims [None, None, None] | score 480.0 | polys 6
+[063] ROBOTIQ 2F140 robot two finger gripper black version | base 436ff063-0442-4ae6-9a21-f1fcc2b66101 | dl https://www.blenderkit.com/api/v1/downloads/b0532882-b75e-4761-a3e6-7793a1aee9bd/ | free True | can True | dims [None, None, None] | score 404.0 | polys 82847
+[064] Lab equipmet | base 05282593-2907-449d-85b9-6e334cdfe896 | dl https://www.blenderkit.com/api/v1/downloads/cb02ff71-97bd-41bc-a2a7-a34c18f693a5/ | free False | can False | dims [None, None, None] | score 340.0 | polys 181420
+[065] Scifi Barrel Battery Cell | base c804e855-ccf3-490d-9e3a-2e242fea4849 | dl https://www.blenderkit.com/api/v1/downloads/5684dce4-4990-48f4-bf49-eb36d415bcfe/ | free False | can False | dims [None, None, None] | score 270.0 | polys 2066
+## search 'concrete floor' count 539
+[066] Concrete Floor Worn 02 | base c7ade46a-1f0b-4f84-b8df-9755252d38ff | dl https://www.blenderkit.com/api/v1/downloads/c6dbf7a2-b379-48f7-9ad5-3f7750b58ada/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[067] Hangar Concrete Floor | base 8773005d-7038-41fc-89de-125c17d76228 | dl https://www.blenderkit.com/api/v1/downloads/b91fefbb-2837-48bc-bcc1-37fc7a4edbc1/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[068] Smooth Concrete Floor | base 215213a4-7450-461b-8e7b-998e7c99f742 | dl https://www.blenderkit.com/api/v1/downloads/c7143592-aff5-4205-90fd-26011581a8ab/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[069] Damaged Concrete Floor 02 | base 303c12be-0fa6-4d39-b8ec-18bb1ab92fce | dl https://www.blenderkit.com/api/v1/downloads/9363e415-2cf5-4b3c-b163-eb660e9439d0/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[070] Damaged Concrete Floor 03 | base f3d69ec8-ea59-4ffe-b2ad-e7c5b842b383 | dl https://www.blenderkit.com/api/v1/downloads/dc90ebad-4e11-4cea-b395-1f1ce16f5dab/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
+[071] Rubble | base 5082ab5a-f25f-4842-a46c-7e31b1506d27 | dl https://www.blenderkit.com/api/v1/downloads/3dd974c6-4d30-4747-b587-eef7644be754/ | free True | can True | dims [None, None, None] | score 500.0 | polys None
