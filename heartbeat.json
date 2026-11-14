@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-14T18:03:03.123Z",
+ "ts": "2026-11-14T18:05:03.126Z",
  "source": "dashboard",
  "current": "2684-sd-render since 2026-11-14 18:01:03",
  "busy": true,
  "free_gb": 10,
  "blender_procs": 0,
- "cpu": 56,
- "gpu": 28,
+ "cpu": 55,
+ "gpu": 25,
  "mem_free_pct": 40,
  "progress": null,
  "done": [
