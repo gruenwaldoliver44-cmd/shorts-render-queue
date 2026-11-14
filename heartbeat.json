@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-14T18:07:03.109Z",
+ "ts": "2026-11-14T18:09:03.094Z",
  "source": "dashboard",
- "current": "2684-sd-render since 2026-11-14 18:01:03",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 9,
  "blender_procs": 0,
- "cpu": 58,
- "gpu": 30,
- "mem_free_pct": 42,
+ "cpu": 38,
+ "gpu": 16,
+ "mem_free_pct": 45,
  "progress": null,
  "done": [
+  "2684-sd-render",
   "2683-fe-upload",
   "2682-fe-render",
   "2680-fe-sfx",
@@ -93,17 +94,14 @@
   "2103-ct43-prev1b"
  ],
  "status": {
-  "state": "busy",
-  "job": "2684-sd-render",
-  "title": "Silent-Depression-Video rendern",
-  "job_since": "2026-11-14T18:01:03.356Z",
-  "timeout_min": 150,
-  "step": 3,
-  "steps": 3,
-  "label": "mux",
-  "step_since": "2026-11-14T18:07:01.331Z",
-  "progress": null,
-  "updated": "2026-11-14T18:07:01.331Z"
+  "state": "idle",
+  "last": {
+   "job": "2684-sd-render",
+   "title": "Silent-Depression-Video rendern",
+   "result": "fertig",
+   "at": "2026-11-14T18:07:40.139Z"
+  },
+  "updated": "2026-11-14T18:07:40.139Z"
  },
  "queue": []
 }
