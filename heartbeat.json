@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-14T22:18:43.776Z",
+ "ts": "2026-11-14T22:20:43.782Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 12,
- "mem_free_pct": 61,
+ "cpu": 16,
+ "gpu": 25,
+ "mem_free_pct": 63,
  "progress": null,
  "done": [
   "2702-euv-bkpush",
