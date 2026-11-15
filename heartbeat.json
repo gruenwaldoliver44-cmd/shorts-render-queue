@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T00:52:44.203Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T00:53:27.489Z",
+ "current": "2721-euv-shortup since 2026-11-15 00:53:27",
+ "busy": true,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 10,
- "gpu": 1,
- "mem_free_pct": 59,
- "progress": null,
  "done": [
   "2720-euv-v2",
   "2717-euv-encode2",
@@ -49,8 +44,7 @@
   "2668-bk-preview",
   "2667-bk-render",
   "2666-node-path",
-  "2665-node-check",
-  "2664-bili-setup2"
+  "2665-node-check"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2720-euv-v2",
-   "title": "MT EUV v2 · bauen + rendern",
-   "result": "fertig",
-   "at": "2026-11-15T00:48:45.744Z"
-  },
-  "updated": "2026-11-15T00:48:45.744Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2721-euv-shortup",
+  "title": "MT EUV · Short hochladen",
+  "job_since": "2026-11-15T00:53:27.473Z",
+  "timeout_min": 10,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T00:53:27.473Z"
+ }
 }
