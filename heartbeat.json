@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T17:12:30.184Z",
+ "ts": "2026-11-15T17:14:30.183Z",
  "source": "dashboard",
- "current": "2747-esp-thumbs since 2026-11-15 17:11:23",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 18,
+ "cpu": 15,
  "gpu": 15,
  "mem_free_pct": 77,
  "progress": null,
  "done": [
+  "2747-esp-thumbs",
   "2746-esp-bksearch",
   "2744-ink-render",
   "2743-ink-stills2",
@@ -94,17 +95,16 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2747-esp-thumbs",
-  "title": "MT Espresso · Vorschaubilder",
-  "job_since": "2026-11-15T17:11:23.644Z",
-  "timeout_min": 15,
-  "step": 1,
-  "steps": 1,
-  "label": "suche",
-  "step_since": "2026-11-15T17:11:25.593Z",
-  "progress": null,
-  "updated": "2026-11-15T17:11:25.593Z"
+  "state": "idle",
+  "last": {
+   "job": "2747-esp-thumbs",
+   "title": "MT Espresso · Vorschaubilder",
+   "result": "fertig",
+   "at": "2026-11-15T17:14:23.527Z"
+  },
+  "updated": "2026-11-15T17:14:23.527Z"
  },
- "queue": []
+ "queue": [
+  "2690-nw-render"
+ ]
 }
