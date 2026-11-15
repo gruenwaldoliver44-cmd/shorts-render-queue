@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T22:15:15.467Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
- "free_gb": 11,
+ "ts": "2026-11-15T22:17:08.294Z",
+ "current": "2766-ship-render-a since 2026-11-15 22:17:08",
+ "busy": true,
+ "free_gb": 13,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 46,
- "mem_free_pct": 75,
- "progress": null,
  "done": [
   "2765-ship-stills",
   "2764-ship-music",
@@ -49,8 +44,7 @@
   "2712-euv-render2",
   "2711-euv-render1",
   "2708-euv-build",
-  "2707-euv-stillspush",
-  "2706-euv-stills1"
+  "2707-euv-stillspush"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2765-ship-stills",
-   "title": "MT Schiff · 3D-Probebilder",
-   "result": "fertig",
-   "at": "2026-11-15T22:14:08.644Z"
-  },
-  "updated": "2026-11-15T22:14:08.644Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2766-ship-render-a",
+  "title": "MT Schiff · Render Teil A (Maschinenraum, Kurbel, Propeller)",
+  "job_since": "2026-11-15T22:17:08.274Z",
+  "timeout_min": 400,
+  "step": 0,
+  "steps": 13,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T22:17:08.274Z"
+ }
 }
