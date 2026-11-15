@@ -1,17 +1,17 @@
 {
- "ts": "2026-11-15T15:40:29.745Z",
+ "ts": "2026-11-15T15:42:29.752Z",
  "source": "dashboard",
  "current": "2744-ink-render since 2026-11-15 15:06:24",
  "busy": true,
  "free_gb": 3,
  "blender_procs": 1,
- "cpu": 19,
- "gpu": 95,
- "mem_free_pct": 38,
+ "cpu": 15,
+ "gpu": 93,
+ "mem_free_pct": 37,
  "progress": {
-  "n": 1130,
+  "n": 1215,
   "total": 1663,
-  "eta_min": 16
+  "eta_min": 13
  },
  "done": [
   "2743-ink-stills2",
