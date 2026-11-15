@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T16:24:52.097Z",
+ "ts": "2026-11-15T16:26:29.919Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
+ "cpu": 18,
+ "gpu": 18,
+ "mem_free_pct": 81,
+ "progress": null,
  "done": [
   "2744-ink-render",
   "2743-ink-stills2",
@@ -97,5 +102,8 @@
    "at": "2026-11-15T15:54:38.546Z"
   },
   "updated": "2026-11-15T15:54:38.546Z"
- }
+ },
+ "queue": [
+  "2745-ink-push"
+ ]
 }
