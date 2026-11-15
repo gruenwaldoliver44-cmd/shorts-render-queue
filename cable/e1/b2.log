@@ -1,0 +1,29 @@
+ℹ️  blendkit: Verbose is enabled [09:57:55.983, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [09:57:55.983, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [09:57:55.984, client_lib.py:163]
+Created history step 11ac0e19-9819-4cb4-a3b7-d99c9c6eda95
+ℹ️  blendkit: Created new search history step [09:57:55.988, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [09:57:55.988, download.py:431]
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:344: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  w = bpy.data.worlds.new("W"); sc.world = w; w.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:118: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:495: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fog_m = bpy.data.materials.new("fog_m"); fog_m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:134: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:518: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name); m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:892: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  uw_m = bpy.data.materials.new("uw_m"); uw_m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:364: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new(name + "_m"); m.use_nodes = True
+/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/cable.py:946: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  scr_m = bpy.data.materials.new("screen_m"); scr_m.use_nodes = True
+Info: Saved as "cable.blend"
+CABLE SAVED {"notes": [], "assets": {"shark": {"dims": [6.962, 9.144, 4.854], "scale": 2.7341}, "anchor2": {"dims": [0.86, 1.407, 0.698], "scale": 21.323}, "satellite": {"dims": [7.388, 7.403, 7.911], "scale": 0.177}, "phone": {"dims": [0.148, 0.073, 0.012], "scale": 9.9444}}, "info": {"shark": {"dims": [6.962, 9.144, 4.854], "scale": 2.7341}, "shark_anim": ["Armature", "Shark_Forward(1-30)", "Shark_Attack(1-40)"], "phone": {"dims": [0.148, 0.073, 0.012], "scale": 9.9444}, "phone_bbox": [[299.2650146484375, -0.3607742488384247, 4.656612873077393e-10], [300.7349853515625, 0.3607742190361023, 0.11836615204811096]]}, "font": "Arial Bold", "build_s": 7.7}
+ℹ️  blendkit: Unregistering Blendkit add-on [09:58:03.766, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [09:58:03.766, download.py:431]
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
