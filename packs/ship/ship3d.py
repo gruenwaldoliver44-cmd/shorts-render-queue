@@ -12,11 +12,11 @@ PCT = int(argv[2]) if len(argv) > 2 else 100
 # ------------------------------------------------------------------ shot table
 # set, duration (s), camera keys [(t, pos, target, lens)], extras
 SH = {
- "port":       ("PORT", 8.02,  [(0, (-95, -150, 9), (10, 25, 22), 28), (8.02, (-55, -140, 11), (25, 25, 22), 28)], {}),
+ "port":       ("SEA", 8.02,   [(0, (520, 180, 210), (40, 0, 10), 32), (8.02, (470, 150, 170), (20, 0, 10), 32)], {}),
  "holo_reveal":("HOLO", 6.36,  [(0, (19, -15.5, 5), (0, 0, 9), 22), (6.36, (13, -14.5, 4.5), (-2, 0, 9.5), 22)], {}),
  "crank_a":    ("CRANK", 8.11, [(0, (0.55, -1.25, 0.32), (0, 0, 0.0), 45), (8.11, (0.25, -1.0, 0.22), (0, 0, 0.02), 45)], {}),
  "sea_title":  ("SEA", 4.64,   [(0, (430, -270, 150), (0, 0, 15), 35), (4.64, (390, -240, 128), (0, 0, 15), 35)], {}),
- "sea_track":  ("SEA", 8.92,   [(0, (170, -175, 38), (170, 0, 22), 35), (8.92, (-40, -175, 38), (-40, 0, 22), 35)], {}),
+ "sea_track":  ("SEA", 8.92,   [(0, (260, -190, 55), (110, 0, 20), 30), (8.92, (90, -200, 50), (-60, 0, 20), 30)], {}),
  "sea_bow":    ("SEA", 7.3,    [(0, (330, -70, 4), (185, 0, 14), 28), (7.3, (300, -58, 5), (185, 0, 16), 28)], {}),
  "holo_dive":  ("HOLO", 10.72, [(0, (14, -11, 24.5), (0, 0, 12), 22), (5.0, (12, -12, 15), (0, 0, 10), 22), (10.72, (17, -14.5, 3.5), (0, 0, 9), 22)], {}),
  "holo_orbit": ("HOLO", 10.95, [], {"orbit": (17, 6, 8, -75, -25)}),
@@ -63,6 +63,21 @@ def world(hdri=None, strength=1.0, cam_sees=True, back=(0.004, 0.005, 0.008), ro
         SV(v, "Anisotropy", vol[2] if len(vol) > 2 else 0.3)
         Lk.new(v.outputs[0], out.inputs["Volume"])
 
+def sky_world(elev_deg, rot_deg, strength=1.0, haze=1.0):
+    """procedural physical sky (no download needed). Returns the sun direction rotation for a matching sun lamp."""
+    w = bpy.data.worlds.new("W_sky"); sc.world = w; w.use_nodes = True
+    nt = w.node_tree; N = nt.nodes
+    for n in list(N): N.remove(n)
+    out = N.new("ShaderNodeOutputWorld"); bg = N.new("ShaderNodeBackground"); sk = N.new("ShaderNodeTexSky")
+    for t in ("MULTIPLE_SCATTERING", "SINGLE_SCATTERING", "NISHITA"):
+        if setattr_safe(sk, "sky_type", t): break
+    setattr_safe(sk, "sun_elevation", D(elev_deg)); setattr_safe(sk, "sun_rotation", D(rot_deg))
+    setattr_safe(sk, "sun_disc", True); setattr_safe(sk, "air_density", 1.0); setattr_safe(sk, "aerosol_density", haze)
+    setattr_safe(sk, "sun_intensity", 0.6)
+    nt.links.new(sk.outputs[0], bg.inputs["Color"]); SV(bg, "Strength", strength)
+    nt.links.new(bg.outputs[0], out.inputs["Surface"])
+    return (D(90 - elev_deg), 0, D(rot_deg + 90))
+
 def sun(rot, energy, col=(1, 0.97, 0.92), angle=1.0):
     ld = bpy.data.lights.new("sun", "SUN"); ld.energy = energy; ld.color = col; ld.angle = D(angle)
     o = link(bpy.data.objects.new("sun", ld)); o.rotation_euler = rot; return o
@@ -70,7 +85,7 @@ def sun(rot, energy, col=(1, 0.97, 0.92), angle=1.0):
 # ------------------------------------------------------------------ container ship (real scale, metres; bow +X, waterline z=0)
 LOA, BEAM, DECK, DRAFT = 400.0, 61.0, 18.0, 15.0
 def hull_halfwidth(x):
-    if x > 120: return BEAM / 2 * max(0.0, 1 - ((x - 120) / 80.0) ** 1.8) ** 0.55
+    if x > 110: return BEAM / 2 * max(0.0, 1 - ((x - 110) / 90.0) ** 1.6) ** 0.85
     if x < -170: return BEAM / 2 * (0.9 + 0.1 * (x + 200) / 30.0)
     return BEAM / 2
 def hull_bottom(x):
@@ -187,23 +202,36 @@ def crate_mesh():
     CRATE = c
     return c
 
-PALETTE = [(0.0, 1.0), (0.58, 0.8), (0.62, 0.6), (0.33, 0.6), (0.1, 1.2), (0.0, 0.35), (0.5, 0.7), (0.0, 2.2), (0.15, 1.1), (0.7, 0.5)]
+CCOL = [(0.32, 0.06, 0.04), (0.04, 0.1, 0.24), (0.5, 0.5, 0.48), (0.08, 0.18, 0.1), (0.4, 0.2, 0.06), (0.1, 0.1, 0.11),
+        (0.28, 0.28, 0.3), (0.05, 0.18, 0.26), (0.45, 0.33, 0.07), (0.22, 0.08, 0.06)]
+PALETTE = CCOL
+def crate_paint(k):
+    col = CCOL[k % len(CCOL)]
+    m = bpy.data.materials.new("cpaint%d" % k); m.use_nodes = True; nt = m.node_tree; b = nt.nodes.get("Principled BSDF")
+    tc = nt.nodes.new("ShaderNodeTexCoord")
+    wv = nt.nodes.new("ShaderNodeTexWave"); setattr_safe(wv, "wave_type", "BANDS"); setattr_safe(wv, "bands_direction", "X")
+    SV(wv, "Scale", 3.2); nt.links.new(tc.outputs["Object"], wv.inputs["Vector"])
+    bm_ = nt.nodes.new("ShaderNodeBump"); SV(bm_, "Strength", 0.25); nt.links.new(wv.outputs["Fac"], bm_.inputs["Height"])
+    nt.links.new(bm_.outputs[0], b.inputs["Normal"])
+    nz = nt.nodes.new("ShaderNodeTexNoise"); SV(nz, "Scale", 2.5); SV(nz, "Detail", 8)
+    nt.links.new(tc.outputs["Object"], nz.inputs["Vector"])
+    mr = nt.nodes.new("ShaderNodeMapRange"); SV(mr, 1, 0.4); SV(mr, 2, 0.7); SV(mr, 3, 1.0); SV(mr, 4, 0.7)
+    nt.links.new(nz.outputs["Fac"], mr.inputs[0])
+    mx = nt.nodes.new("ShaderNodeMix"); mx.data_type = "RGBA"; mx.blend_type = "MULTIPLY"; SV(mx, "Factor_Float", 1.0)
+    sock(mx, "A_Color").default_value = (*col, 1)
+    cmb = nt.nodes.new("ShaderNodeCombineColor")
+    for i in range(3): nt.links.new(mr.outputs[0], cmb.inputs[i])
+    nt.links.new(cmb.outputs[0], sock(mx, "B_Color"))
+    nt.links.new(next(x for x in mx.outputs if x.identifier == "Result_Color"), b.inputs["Base Color"])
+    SV(b, "Roughness", 0.55); SV(b, "Metallic", 0.35)
+    return m
+
 def tinted_crate(k):
-    """copy of the crate with a hue/value-shifted material, for colour variety"""
     base = crate_mesh()
     c = base.copy(); c.data = base.data.copy(); link(c); c.name = "crate_v%d" % k
     c.hide_render = False; c.hide_viewport = False
-    hue, val = PALETTE[k % len(PALETTE)]
-    for i, ms in enumerate(c.data.materials):
-        if ms is None or not ms.use_nodes: continue
-        m2 = ms.copy(); c.data.materials[i] = m2
-        b = next((n for n in m2.node_tree.nodes if n.bl_idname == "ShaderNodeBsdfPrincipled"), None)
-        if b is None: NOTES.append("tint: no principled in %s" % ms.name); continue
-        src = b.inputs["Base Color"].links[0].from_socket if b.inputs["Base Color"].is_linked else None
-        hs = m2.node_tree.nodes.new("ShaderNodeHueSaturation"); SV(hs, "Hue", (0.5 + hue) % 1.0); SV(hs, "Value", val); SV(hs, "Saturation", 0.75)
-        if src: m2.node_tree.links.new(src, hs.inputs["Color"])
-        else: SV(hs, "Color", (*b.inputs["Base Color"].default_value[:3], 1))
-        m2.node_tree.links.new(hs.outputs[0], b.inputs["Base Color"])
+    m = crate_paint(k)
+    c.data.materials.clear(); c.data.materials.append(m)
     return c
 
 def stacks(name, positions_by_variant, parent_loc=(0, 0, 0)):
@@ -266,19 +294,37 @@ def foam_plane(name, loc, size, rot=(0, 0, 0), dens=0.5, speed=(0, 0), scale=0.0
     KV(loc0, 1, (0, 0, 0)); KV(loc0, NFR + 1, (-speed[0] * DUR / size[0], -speed[1] * DUR / size[1], 0))
     return o
 
+def sea_plane(name="sea", size=40000.0, V=7.5, col=(0.006, 0.03, 0.045)):
+    o = prim("plane", name, loc=(0, 0, 0), scale=(size / 2, size / 2, 1), smooth=False)
+    m = bpy.data.materials.new(name + "_m"); m.use_nodes = True; nt = m.node_tree; b = nt.nodes.get("Principled BSDF")
+    SV(b, "Base Color", (*col, 1)); SV(b, "Roughness", 0.06); SV(b, "IOR", 1.33); SV(b, "Specular IOR Level", 0.5)
+    tc = nt.nodes.new("ShaderNodeTexCoord"); mp = nt.nodes.new("ShaderNodeMapping")
+    nt.links.new(tc.outputs["Object"], mp.inputs["Vector"])
+    loc = sock(mp, "Location"); KV(loc, 1, (0, 0, 0)); KV(loc, NFR + 1, (V * DUR / (size / 2), 0, 0))
+    acc = None
+    for k, (sc_, st) in enumerate(((size / 2 / 6.0, 0.35), (size / 2 / 1.8, 0.25), (size / 2 / 0.5, 0.12))):
+        nz = nt.nodes.new("ShaderNodeTexNoise")
+        SV(nz, "Scale", sc_); SV(nz, "Detail", 4); SV(nz, "Roughness", 0.55); setattr_safe(nz, "noise_dimensions", "4D")
+        wsock = sock(nz, "W")
+        if wsock is not None: KV(wsock, 1, 0.0); KV(wsock, NFR + 1, DUR * (0.25 + 0.15 * k))
+        nt.links.new(mp.outputs[0], nz.inputs["Vector"])
+        bm_ = nt.nodes.new("ShaderNodeBump"); SV(bm_, "Strength", st); SV(bm_, "Distance", 0.2)
+        nt.links.new(nz.outputs["Fac"], bm_.inputs["Height"])
+        if acc is not None: nt.links.new(acc.outputs[0], bm_.inputs["Normal"])
+        acc = bm_
+    nt.links.new(acc.outputs[0], b.inputs["Normal"])
+    setmat(o, m)
+    return o
+
 def set_sea():
-    sunset = EX.get("sunset")
-    if sunset:
-        hd = next((h for h in ("belfast_sunset_puresky", "qwantani_dusk_2_puresky", "kiara_1_dawn") if ph_hdri(h)), None)
-        world(hd, 1.0, rot=D(120)); sun((D(84), 0, D(-60)), 2.5, (1.0, 0.62, 0.35), 0.8)
+    if EX.get("sunset"):
+        r = sky_world(3.0, 200, 1.0, haze=2.5); sun(r, 2.2, (1.0, 0.55, 0.3), 0.6)
     else:
-        world("kloofendal_48d_partly_cloudy_puresky", 1.0, rot=D(30)); sun((D(48), 0, D(-35)), 4.0)
+        r = sky_world(32.0, 150, 1.0, haze=1.0); sun(r, 4.5, (1.0, 0.96, 0.9), 0.6)
+    sc.view_settings.exposure = -3.2 if not EX.get("sunset") else -2.2
     build_ship()
-    V = 7.5   # m/s the water streams past the ship (ship appears to move +X)
-    oc = ocean("ocean", (-1000, -1000, 0), size=1000, res=10, wave_scale=1.6, choppy=1.1, wind=14, time_keys=[(0, 0.0), (DUR, DUR)])
-    oc.modifiers["Ocean"].repeat_x = 3; oc.modifiers["Ocean"].repeat_y = 3
-    K(oc, "location", 1); oc.location = (-1000 - V * DUR, -1000, 0); K(oc, "location", NFR + 1)
-    far = prim("plane", "farsea", loc=(0, 0, -0.6), scale=(15000, 15000, 1), smooth=False); setmat(far, oc.data.materials[0])
+    V = 7.5
+    sea_plane("sea", 40000.0, V)
     # bow wave, hull-side foam and wake
     foam_plane("bowfoam", (200, 0, 0.3), (40, 70), dens=0.45, speed=(-V * 0.2, 0), scale=0.03)
     foam_plane("sidefoamL", (0, -BEAM / 2 - 3, 0.25), (420, 10), dens=0.55, speed=(-V, 0), scale=0.04)
@@ -589,7 +635,12 @@ ims = sc.render.image_settings
 try: ims.media_type = "IMAGE"
 except Exception: pass
 ims.file_format = "JPEG"; ims.quality = 92
-if MODE == "still":
+if MODE == "mid":
+    sc.frame_set(max(1, NFR // 2))
+    sc.render.filepath = os.path.join(os.getcwd(), "mid_%s.jpg" % SHOT)
+    bpy.ops.render.render(write_still=True)
+    print("SHIP3D MID", SHOT, "t=%.1f" % (time.time() - T0))
+elif MODE == "still":
     for frac in (0.15, 0.6):
         f = max(1, int(NFR * frac)); sc.frame_set(f)
         sc.render.filepath = os.path.join(os.getcwd(), "st_%s_%d.jpg" % (SHOT, int(frac * 100)))
