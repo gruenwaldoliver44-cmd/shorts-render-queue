@@ -1,0 +1,101 @@
+key True
+pref api_key str 30
+pref api_key_refresh str 30
+pref api_key_timeout int 1795327046
+download test OK https://assets.blendkit.com/assets/3fdcd
+## search 'shark' count 51
+[001] Bull Shark Animated | base b3144af4-84d9-4001-823b-cc89c3562a52 | dl https://www.blenderkit.com/api/v1/downloads/c6e09040-990c-46e6-a669-a92e25c8e8da/ | free False | can False | dims [None, None, None] | score 20000.0 | polys 8820
+[002] Bull Shark Animated | base d9e1978d-673e-4362-801c-85080241c73a | dl https://www.blenderkit.com/api/v1/downloads/ad00e3ee-18b7-4373-b266-2df19d1d3fb7/ | free False | can False | dims [None, None, None] | score 10212.5 | polys 8820
+[003] Hammerhead Shark Rigged | base cdd8e6f6-d4f5-4925-afca-ac20c5fbf65b | dl https://www.blenderkit.com/api/v1/downloads/21e1f024-3009-4397-be9f-50f7d740e8ac/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 25542
+[004] Mako Shark Rigged | base ca0e85ca-9ddd-40aa-9031-6e3a91077750 | dl https://www.blenderkit.com/api/v1/downloads/ebd1f7ef-adb8-4367-ae90-9b37c9080094/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 19542
+[005] Nurse Shark Rigged | base 282732b1-0159-4c3d-8680-45fb8be4ebce | dl https://www.blenderkit.com/api/v1/downloads/a6f8c1b4-d778-4659-bac0-eec05413e1e4/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 32176
+[006] Whale Shark Rigged | base a39dc837-da6f-4ef4-9dfe-dfb4036e9aee | dl https://www.blenderkit.com/api/v1/downloads/98b9cd66-b1ae-406f-a466-d28b6885b724/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 30656
+[007] Bull Shark Rigged | base 9facc45f-9c5b-4762-84b8-b8e43d8ff44a | dl https://www.blenderkit.com/api/v1/downloads/f257a900-344f-4a00-9342-c77c23936cda/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 28638
+[008] Great White Shark Rigged | base cf5cd502-c0bb-4210-a307-3b2b1745d1b7 | dl https://www.blenderkit.com/api/v1/downloads/3909264d-2e86-4a07-8568-43066a70e10c/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 34116
+## search 'great white shark animated' count 1
+[009] Great White Shark | base d3c3319b-269b-4e2b-a40e-c6874cb89162 | dl https://www.blenderkit.com/api/v1/downloads/34a788cf-d077-436e-b748-b8007e4eb103/ | free False | can False | dims [None, None, None] | score 302.5 | polys 6311
+## search 'ship anchor' count 5
+[010] Lucca Reeded Coffee Table | base eac0b543-e94e-43b1-b5c6-db02cf303445 | dl https://www.blenderkit.com/api/v1/downloads/7d9ab393-05ac-4526-911e-219f953d7f5d/ | free False | can False | dims [None, None, None] | score 540.0 | polys 40237
+[011] Captain's cap | base 1e637327-7c67-41ce-b8b2-02f9189a05bd | dl https://www.blenderkit.com/api/v1/downloads/6562105f-c87e-4f4a-b1d3-af4d50866faa/ | free False | can False | dims [None, None, None] | score 350.0 | polys None
+[012] Anchor | base c37e518f-307a-490c-96ef-e7da0bcb1f31 | dl https://www.blenderkit.com/api/v1/downloads/2542b9b5-094a-40ac-9cbe-70bca5532e45/ | free False | can False | dims [None, None, None] | score 320.0 | polys 21310
+[013] 18th Century Ship's Anchor | base 47826ec9-15a0-473e-9b79-174f24057894 | dl https://www.blenderkit.com/api/v1/downloads/680c388a-5553-44e5-84a5-045199f5f672/ | free False | can False | dims [None, None, None] | score 250.0 | polys 6716
+[014] Rusty Old Anchor | base 67c8523a-e711-437f-be0f-88fbe26160cc | dl https://www.blenderkit.com/api/v1/downloads/8c05779a-ae17-4a93-b4d1-fcd5cc3cda59/ | free True | can True | dims [None, None, None] | score 210.0 | polys 491160
+## search 'cargo ship' count 44
+[015] Medieval boat- Kollerup-Kogge | base d6c91112-8ec1-4936-bf6d-8171bf1a5c0c | dl https://www.blenderkit.com/api/v1/downloads/dda0c045-88d9-4ad7-9a09-aeeb94a2c2d3/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 22825
+[016] Sci Fi Industrial Colony Ship | base 3139abc7-e76b-4c8c-8535-764ec13799d2 | dl https://www.blenderkit.com/api/v1/downloads/c32f4f7a-6845-4b4b-af57-976ff2ee284c/ | free False | can False | dims [None, None, None] | score 2400.0 | polys 191800
+[017] 20 ft Shipping Cargo Container | base 94b00d28-af93-4d67-bffb-9d38664ba990 | dl https://www.blenderkit.com/api/v1/downloads/f5e063c8-77a9-4f3c-a1a6-746a59c2acae/ | free False | can False | dims [None, None, None] | score 2193.75 | polys 128776
+[018] Daeyoung cellinglight | base b9a18588-6d99-4f4f-a857-6d2557b4660b | dl https://www.blenderkit.com/api/v1/downloads/0cdb4021-90b7-4c4e-a661-408ac6ae753e/ | free True | can True | dims [None, None, None] | score 2050.0 | polys 252761
+[019] Container Rusty | base 7805ca2a-f110-4e68-a74f-0ce1039f7aec | dl https://www.blenderkit.com/api/v1/downloads/acfb238b-ccda-4128-a60a-2bde58449c51/ | free False | can False | dims [None, None, None] | score 1800.0 | polys 5960
+[020] 20ft Cargo Container(White) | base e8845fdf-da93-44df-b40d-0cdf4f24d6eb | dl https://www.blenderkit.com/api/v1/downloads/ccfe4a30-ee77-4141-8d2f-0b2b5d4a2287/ | free False | can False | dims [None, None, None] | score 1750.0 | polys 128776
+[021] Heavy Duty Cargo Freighter | base 9890abed-1445-4f2e-ae96-7f2472ff2378 | dl https://www.blenderkit.com/api/v1/downloads/5a954496-6fbd-4752-bceb-573b4cd6526d/ | free True | can True | dims [None, None, None] | score 1625.0 | polys 733541
+[022] International Bulk Container | base 2fc7ba05-b12d-4eff-8686-f9be56b1800f | dl https://www.blenderkit.com/api/v1/downloads/f92768bb-5808-476e-8a72-567b1e8e1af1/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 16493
+## search 'cable laying ship' count 0
+## search 'fishing trawler' count 0
+## search 'satellite' count 38
+[023] Satellite | base eed181f3-9b62-436f-b305-1982be0b1542 | dl https://www.blenderkit.com/api/v1/downloads/3345d815-f47a-42b1-aefc-8193c8c1f3c2/ | free True | can True | dims [None, None, None] | score 3000.0 | polys 26519
+[024] Falcon Heavy | base 3dfc96c2-20f0-4efc-80ed-70c304b6fd32 | dl https://www.blenderkit.com/api/v1/downloads/71ae0cb8-da7e-4546-aad6-1d8851191d86/ | free True | can True | dims [None, None, None] | score 2800.0 | polys 627240
+[025] Satellite | base 7a3b9449-9725-4f41-b5b7-72930db9624e | dl https://www.blenderkit.com/api/v1/downloads/2637daf9-faf6-446e-a568-5666ae8e97d8/ | free False | can False | dims [None, None, None] | score 2000.0 | polys 176875
+[026] Sputnik - 1 USSR | base 919e05c1-a44b-4120-a6ee-c3ebc6263905 | dl https://www.blenderkit.com/api/v1/downloads/155deeae-a2bc-4b95-be42-8ae064201da9/ | free False | can False | dims [None, None, None] | score 1900.0 | polys None
+[027] Elliptical Satellite Antenna Dish | base ee477d73-bbb0-4060-85d3-302c9518ce4c | dl https://www.blenderkit.com/api/v1/downloads/6d62dc7e-d93a-48a1-838f-95a9ec4c1118/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 7274
+[028] C Bank TV Satellite Dish | base 07108ab0-10ca-4534-892b-58d3d50c351c | dl https://www.blenderkit.com/api/v1/downloads/ba693410-87fd-4db4-b9b5-9f2af98c82fb/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 20496
+[029] Science Fiction Satellite Space Probe | base f90a99dd-91dc-40b8-a995-d588c93ac327 | dl https://www.blenderkit.com/api/v1/downloads/43ccad5d-37aa-4683-8f04-b19724ff086b/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 2442
+[030] NASA Phasa 35 Drone | base e8700af8-af93-44bf-91bf-d55e9164f63d | dl https://www.blenderkit.com/api/v1/downloads/0666d9b5-3027-4bdb-8367-7b5d6919add6/ | free True | can True | dims [None, None, None] | score 1350.0 | polys 23639
+## search 'earth globe' count 21
+[031] Standing Terrestrial Globe | base f9363ff7-b303-42aa-a758-4e2229abf320 | dl https://www.blenderkit.com/api/v1/downloads/f6fb5d00-b7fe-44f7-82d0-814be86d8602/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 47940
+[032] 1930s Art-Deco Tabletop Globe | base 9d31c79f-5363-45de-91e6-c76c82f0abc6 | dl https://www.blenderkit.com/api/v1/downloads/76ef14b9-5033-40b5-b367-830f5443e506/ | free True | can True | dims [None, None, None] | score 1000.0 | polys 9904
+[033] 1930s Art-Deco Tabletop Globe Large | base 62a37cdf-f225-49f8-af7f-08453d6a2d99 | dl https://www.blenderkit.com/api/v1/downloads/1ac11b58-8ef9-4c23-9a19-df2860b7e8c5/ | free True | can True | dims [None, None, None] | score 1000.0 | polys 9904
+[034] Faux Antique Standing Globe | base 4eafa2c0-a0e2-47d0-bc64-863bbeef9fbc | dl https://www.blenderkit.com/api/v1/downloads/214c1b15-6d99-41a1-a073-d12735789cbe/ | free True | can True | dims [None, None, None] | score 1000.0 | polys 35544
+[035] Holographic Earth Globe (Animated) | base a5104442-f18f-496c-a5d6-b2d96b2f8997 | dl https://www.blenderkit.com/api/v1/downloads/d9a89f9b-90dc-4735-a473-b1bd7997dacd/ | free False | can False | dims [None, None, None] | score 800.0 | polys 6827
+[036] Late 1800s Tabletop Globe Display | base fabcc520-8133-4f5b-9988-4c76224eb488 | dl https://www.blenderkit.com/api/v1/downloads/7985905e-0dd6-4082-803b-a7d92ad0d630/ | free True | can True | dims [None, None, None] | score 800.0 | polys 5695
+[037] Late 1800s Stylish Dark Globe | base 9fdd8e9e-5317-4896-ae88-aaab83860ea5 | dl https://www.blenderkit.com/api/v1/downloads/abfb7e8a-fcd6-4fac-be90-ec4eba9e54b0/ | free True | can True | dims [None, None, None] | score 800.0 | polys 12876
+[038] Puzzle Globe | base 81f153df-313c-48a6-bf1a-bf25ed1e1309 | dl https://www.blenderkit.com/api/v1/downloads/c63794f2-3dd4-4742-a13e-251e37824301/ | free False | can False | dims [None, None, None] | score 640.0 | polys 54032
+## search 'smartphone' count 510
+[039] Zombie mobile holder & iPhone 4 | base a1ad4593-ea78-4e7e-9b3c-6e344eb208e9 | dl https://www.blenderkit.com/api/v1/downloads/ba595214-7342-4590-92c9-95fc28692147/ | free False | can False | dims [None, None, None] | score 8000.0 | polys 275589
+[040] Honda E(Rigged) | base d7966512-13e3-40b7-925e-25bfe4ee1621 | dl https://www.blenderkit.com/api/v1/downloads/30bbeb7f-0df1-47bd-af1d-7f06e0217aba/ | free False | can False | dims [None, None, None] | score 7000.0 | polys 1516898
+[041] Tech Device Store | base 45e10958-a3c5-4db4-aa7a-ce68c7f09a88 | dl https://www.blenderkit.com/api/v1/downloads/fd196388-a6d4-4f4a-b817-eee6019f43ce/ | free True | can True | dims [None, None, None] | score 6166.666666666666 | polys 4018401
+[042] Milany Female Character - rigged | base 27f611ee-7374-4c96-92fd-79e8d74a77f3 | dl https://www.blenderkit.com/api/v1/downloads/d9e4f0fd-7c32-4297-b85d-0e5ffe3c06e9/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[043] Milany Female Character - rigged | base 308ca8ad-c5d0-41a8-87dc-2c6a68240d28 | dl https://www.blenderkit.com/api/v1/downloads/2bd1d106-82c3-4c35-b284-0ad805db623d/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[044] Milany Female Character - rigged | base 147a0d6a-2d2d-4028-9f1a-6f519eb2235b | dl https://www.blenderkit.com/api/v1/downloads/c4ec9be0-2a65-4859-9ac5-a5f11f210270/ | free False | can False | dims [None, None, None] | score 6000.0 | polys 56873
+[045] Xiaomi SU7 | base 5ad643e1-8955-4e7a-be0a-15f4b0635b05 | dl https://www.blenderkit.com/api/v1/downloads/9458cab5-6ae6-4da4-b676-6555dd04f7ba/ | free False | can False | dims [None, None, None] | score 5500.0 | polys 47177
+[046] 1930s Correspondence | base ac48aa69-8b3d-419b-b616-94495e4af50c | dl https://www.blenderkit.com/api/v1/downloads/b928b967-364d-4a81-9ff8-8816199a5d5f/ | free True | can True | dims [None, None, None] | score 5000.0 | polys 563859
+## search 'iphone' count 179
+[047] Zombie mobile holder & iPhone 4 | base a1ad4593-ea78-4e7e-9b3c-6e344eb208e9 | dl https://www.blenderkit.com/api/v1/downloads/ba595214-7342-4590-92c9-95fc28692147/ | free False | can False | dims [None, None, None] | score 8000.0 | polys 275589
+[048] Apple Mac Pro Workstation Office Set | base 59142c02-679c-4a9e-8ea3-29cae0bb67bc | dl https://www.blenderkit.com/api/v1/downloads/b44f19a2-d55b-4f6e-ac39-865391ebade8/ | free False | can False | dims [None, None, None] | score 5000.0 | polys 404748
+[049] Brightly | base 796b39d5-4057-41a3-8bb8-d9958a4afae4 | dl https://www.blenderkit.com/api/v1/downloads/29979f30-987e-4299-a1e6-88df1e5b8077/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50390
+[050] Moon Girl | base 518cddf2-eb2b-4b1e-aa65-b74d4d351d4d | dl https://www.blenderkit.com/api/v1/downloads/8b68046c-cfb4-4416-8b2a-d6db4996f02c/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 50000
+[051] Apple vision pro | base e229837f-6940-4e7a-a234-6ac6896500d5 | dl https://www.blenderkit.com/api/v1/downloads/1c28a1a3-6f39-46ea-9ebb-b9cd690a5e09/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 9004
+[052] IPhone Duo – Rigged Foldable Smartphone | base e07987fc-21c1-470c-be4c-19069e084080 | dl https://www.blenderkit.com/api/v1/downloads/329009dd-300f-461e-91b0-4041fa953013/ | free False | can False | dims [None, None, None] | score 2000.0 | polys 45265
+[053] Iphone 15 Pro(White Titanium) | base 106914b1-126a-4abd-8e2f-95890b360652 | dl https://www.blenderkit.com/api/v1/downloads/f4bd470a-a1e0-4913-bd83-bf73b93d65ac/ | free True | can True | dims [None, None, None] | score 1404.0 | polys 17217
+[054] Iphone 16 all color | base ba60b4f5-96db-473e-8f73-d3d272c1cff1 | dl https://www.blenderkit.com/api/v1/downloads/86febad1-7ee9-4ce7-a81d-bdc57fffd29e/ | free False | can False | dims [None, None, None] | score 1200.0 | polys 7521
+## search 'hand holding phone' count 9
+[055] Smiling Girl | base d5293a03-b39b-46f3-aae9-47cada01e6bd | dl https://www.blenderkit.com/api/v1/downloads/6634eddf-7f44-4d8f-91dd-704797a8a122/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 55960
+[056] Voice Messaging Girl in Casual Outfit | base 6e9eb60f-990d-4c70-91b0-84ded1eede46 | dl https://www.blenderkit.com/api/v1/downloads/56e49cc3-0e0d-4892-9236-c94e87f1c91c/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50350
+[057] The Curly Observer Man on Bar Stool | base 2a4ad05e-663e-40ac-9463-dd05a3dd8b13 | dl https://www.blenderkit.com/api/v1/downloads/c764e07f-c5b1-4ca2-9b2e-ab4c673ca574/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 55268
+[058] Girl in Tight Jeans and Pink Top | base eb9fec80-55f7-45ca-b9cc-b24d5878105a | dl https://www.blenderkit.com/api/v1/downloads/5c2ca2c4-8593-409b-85ad-745312e66e32/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50000
+[059] Turtleneck Guy | base 92c09ebc-b5d5-46c5-8d14-c1fb4df4d90a | dl https://www.blenderkit.com/api/v1/downloads/2a0d10da-0550-4b62-a207-3a9b977299c7/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50000
+[060] Lost in location | base 22a71cca-10d3-4701-837d-c72aa095b840 | dl https://www.blenderkit.com/api/v1/downloads/973b7855-d36b-40ec-bee2-b61f5514d129/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 50400
+[061] I was fired | base 895b0706-1d4a-4b5b-af36-5b2f5d840a3e | dl https://www.blenderkit.com/api/v1/downloads/2fe16c27-0b7d-40b5-8f69-afb18216d745/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 53384
+[062] Sitting Observer Young Man | base c66c8e0b-c614-405a-812a-b8bf421a2aa0 | dl https://www.blenderkit.com/api/v1/downloads/05b72d8f-fd53-4851-b837-70594f1cf2be/ | free False | can False | dims [None, None, None] | score 1700.0 | polys 53518
+## search 'seabed rocks' count 2
+[063] Underwater Bubbles Effect | base 08f53774-fc59-44e2-9b2f-a57f78352f7c | dl https://www.blenderkit.com/api/v1/downloads/2691d050-d927-45b0-b17e-8b907f6e946d/ | free True | can True | dims [None, None, None] | score 2100.0 | polys 0
+[064] Net Pod — Alien Underwater Organism | base a21af399-877f-4d78-8122-d5ae244b01e5 | dl https://www.blenderkit.com/api/v1/downloads/9ff1355e-b24a-4885-8083-007fb34f362b/ | free False | can False | dims [None, None, None] | score 320.0 | polys 6464
+## search 'underwater ground' count 0
+## search 'garden hose' count 4
+[065] Garden Sprinkler 01 | base 06ba62f8-43ec-4d22-b1a4-d4f2480c0ead | dl https://www.blenderkit.com/api/v1/downloads/991bb9df-911e-43c4-bdf5-de5c4ef3f10f/ | free True | can True | dims [None, None, None] | score 3000.0 | polys None
+[066] Early 1900s Liquid Spray Canister B | base f50fc8d1-e53a-4383-a9f3-cba0215bebf1 | dl https://www.blenderkit.com/api/v1/downloads/2ea91d57-adc9-4925-8962-45605c7880f6/ | free False | can False | dims [None, None, None] | score 1000.0 | polys 17658
+[067] Garden Hose Wall Mounted 01 | base d1cc5dec-effd-4945-8049-8bbdebb0d29f | dl https://www.blenderkit.com/api/v1/downloads/041cf8ba-8172-4dcf-be48-47f4bc1a3f30/ | free True | can True | dims [None, None, None] | score 1000.0 | polys None
+[068] Garden Hose Spray Nozzle | base e405b6f3-3d00-43a4-83f3-b24391ebee2b | dl https://www.blenderkit.com/api/v1/downloads/8e90c0bf-7e4a-4067-b206-437e5fd61abd/ | free True | can True | dims [None, None, None] | score 320.0 | polys 50000
+## search 'fishing net' count 4
+[069] Wooden rowboat | base 00172954-dda5-425f-b2f0-e0fe03ac99a8 | dl https://www.blenderkit.com/api/v1/downloads/91a2358f-4f71-4229-885e-b742f5124fc7/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 33059
+[070] Neapolitan fisherman | base 860f8cd2-ac79-46c2-a95a-ed34b12b7a52 | dl https://www.blenderkit.com/api/v1/downloads/38bd853c-7228-4f9e-8e5b-36489dec15b6/ | free False | can False | dims [None, None, None] | score 540.0 | polys 54015
+[071] Net Pod — Alien Underwater Organism | base a21af399-877f-4d78-8122-d5ae244b01e5 | dl https://www.blenderkit.com/api/v1/downloads/9ff1355e-b24a-4885-8083-007fb34f362b/ | free False | can False | dims [None, None, None] | score 320.0 | polys 6464
+[072] Fish Crate with Net | base 2e4b3c28-06fb-4393-9cf8-5481cc3bda8c | dl https://www.blenderkit.com/api/v1/downloads/80a4c79a-6364-446e-a6e1-621f3e9c5c14/ | free False | can False | dims [None, None, None] | score 180.0 | polys 547930
+## search 'ocean' count 672
+[073] RMS TITANIC game ready | base 4f387acc-1e85-46a5-be14-4baab8ea6e36 | dl https://www.blenderkit.com/api/v1/downloads/377ed28a-6c69-4c7a-a8be-ccc160843446/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 301200
+[074] Male Penguin ( Animated ) | base e3d49c19-a4ef-41d3-96fc-e3d1cc99d57f | dl https://www.blenderkit.com/api/v1/downloads/8bc359e9-6d14-4df0-ba66-72a6233fe4ed/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 35764
+[075] Orca Animated | base de91fc25-bc71-4b34-a165-72d4feb2a3fe | dl https://www.blenderkit.com/api/v1/downloads/168c5bff-962a-4eee-b8dc-8c2f492d12bd/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 5876
+[076] Dolphin +11 Animations | base 33deee56-226c-4e10-8688-e8dd784d6f13 | dl https://www.blenderkit.com/api/v1/downloads/dd98fb08-25d8-44b5-b24a-27075cc3b506/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 14669
+[077] Blue Crab Animated | base 5d968531-4981-4e96-92d3-181b8250f951 | dl https://www.blenderkit.com/api/v1/downloads/fa4defe6-0e08-44b9-9eb3-d08c2a66c8a0/ | free False | can False | dims [None, None, None] | score 25000.0 | polys 19308
+[078] Baby Turtle Animated | base 49b813ed-876e-4dab-af34-a8aabccf73a4 | dl https://www.blenderkit.com/api/v1/downloads/e87fcc1d-23f2-47a3-a84f-34b5fd08cfc6/ | free False | can False | dims [None, None, None] | score 25000.0 | polys None
+[079] Female Turtle Animated | base cc843a6f-fbbf-45d0-93d5-3831ea61389b | dl https://www.blenderkit.com/api/v1/downloads/af9eaee3-1173-4f5b-991a-5a2c2cc1cbd6/ | free False | can False | dims [None, None, None] | score 25000.0 | polys None
+[080] Bull Shark Animated | base b3144af4-84d9-4001-823b-cc89c3562a52 | dl https://www.blenderkit.com/api/v1/downloads/c6e09040-990c-46e6-a669-a92e25c8e8da/ | free False | can False | dims [None, None, None] | score 20000.0 | polys 8820
