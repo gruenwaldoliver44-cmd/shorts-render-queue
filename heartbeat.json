@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T17:14:56.773Z",
+ "ts": "2026-11-15T17:16:30.192Z",
+ "source": "dashboard",
  "current": "2690-nw-render since 2026-11-15 17:14:56",
  "busy": true,
- "free_gb": 6,
+ "free_gb": 5,
  "blender_procs": 0,
+ "cpu": 54,
+ "gpu": 33,
+ "mem_free_pct": 59,
+ "progress": null,
  "done": [
   "2747-esp-thumbs",
   "2746-esp-bksearch",
@@ -94,10 +99,12 @@
   "title": "No-Longer-Worth-It-Video rendern (1)",
   "job_since": "2026-11-15T17:14:56.752Z",
   "timeout_min": 150,
-  "step": 0,
+  "step": 2,
   "steps": 3,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-15T17:14:58.935Z",
   "progress": null,
-  "updated": "2026-11-15T17:14:56.752Z"
- }
+  "updated": "2026-11-15T17:14:58.935Z"
+ },
+ "queue": []
 }
