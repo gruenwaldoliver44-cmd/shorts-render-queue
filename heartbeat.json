@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T18:08:30.336Z",
- "source": "dashboard",
+ "ts": "2026-11-15T18:08:32.450Z",
  "current": "",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 11,
- "mem_free_pct": 82,
- "progress": null,
  "done": [
   "2753-esp-liquid-search",
   "2751-esp-stills1",
@@ -49,8 +44,7 @@
   "2686-sd-mux",
   "2685-sd-render",
   "2684-sd-render",
-  "2683-fe-upload",
-  "2682-fe-render"
+  "2683-fe-upload"
  ],
  "failed": [
   "2714-euv-encode",
@@ -103,6 +97,5 @@
    "at": "2026-11-15T18:02:35.327Z"
   },
   "updated": "2026-11-15T18:02:35.327Z"
- },
- "queue": []
+ }
 }
