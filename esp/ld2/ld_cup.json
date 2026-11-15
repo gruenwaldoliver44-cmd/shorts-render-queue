@@ -1,0 +1,109 @@
+{
+ "images": [
+  [
+   "Mat\u00e9riau sans titre_BaseColor.png",
+   "G:/Mon Drive/IMAGE EN COURS DRIVE/perso/kitchen elements/tasse/latteart/Mat\u00e9riau sans titre/Mat\u00e9riau sans titre_BaseColor.png",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Mat\u00e9riau sans titre_Displacement.png",
+   "G:/Mon Drive/IMAGE EN COURS DRIVE/perso/kitchen elements/tasse/latteart/Mat\u00e9riau sans titre/Mat\u00e9riau sans titre_Displacement.png",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Mat\u00e9riau sans titre_Metallic.png",
+   "G:/Mon Drive/IMAGE EN COURS DRIVE/perso/kitchen elements/tasse/latteart/Mat\u00e9riau sans titre/Mat\u00e9riau sans titre_Metallic.png",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Mat\u00e9riau sans titre_Normal.png",
+   "G:/Mon Drive/IMAGE EN COURS DRIVE/perso/kitchen elements/tasse/latteart/Mat\u00e9riau sans titre/Mat\u00e9riau sans titre_Normal.png",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Mat\u00e9riau sans titre_Roughness.png",
+   "G:/Mon Drive/IMAGE EN COURS DRIVE/perso/kitchen elements/tasse/latteart/Mat\u00e9riau sans titre/Mat\u00e9riau sans titre_Roughness.png",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "ceramic": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "LATTEART": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": false,
+   "method": "DISPLACEMENT"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "OctDiffuse2": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "SPOON": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 13.8
+}
