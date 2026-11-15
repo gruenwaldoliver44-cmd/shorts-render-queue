@@ -1,0 +1,162 @@
+{
+ "images": [
+  [
+   "Conti-espresso-color.png",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Conti-espresso-color.png",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal012_2K_Color.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Metal012_2K_Color.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal012_2K_Displacement.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Metal012_2K_Displacement.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal012_2K_Metalness.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Metal012_2K_Metalness.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal012_2K_NormalGL.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Metal012_2K_NormalGL.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal012_2K_Roughness.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Metal012_2K_Roughness.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic010_1K_Displacement.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Plastic010_1K_Displacement.jpg",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Plastic010_1K_NormalGL.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Plastic010_1K_NormalGL.jpg",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Plastic010_1K_Roughness.jpg",
+   "E:/3D Blender/00 Projets/Machine Conti-espresso/textures/Plastic010_1K_Roughness.jpg",
+   true,
+   [
+    1024,
+    1024
+   ],
+   true
+  ],
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "Conti-espresso-black-plastic": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-glass": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-green-light": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-metal": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-red-light": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-red-plastic": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Conti-espresso-white-plastic": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 23.0
+}
