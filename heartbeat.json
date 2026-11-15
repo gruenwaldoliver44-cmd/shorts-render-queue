@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T18:30:02.187Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T18:30:27.929Z",
+ "current": "2760-nw-upload2 since 2026-11-15 18:30:27",
+ "busy": true,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 12,
- "mem_free_pct": 82,
- "progress": null,
  "done": [
   "2754-esp-fluidtest",
   "2753-esp-liquid-search",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2754-esp-fluidtest",
-   "title": "MT Espresso · Flüssigkeits-Test",
-   "result": "fertig",
-   "at": "2026-11-15T18:16:14.061Z"
-  },
-  "updated": "2026-11-15T18:16:14.061Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2760-nw-upload2",
+  "title": "No-Longer-Worth-Video v2 hochladen",
+  "job_since": "2026-11-15T18:30:27.909Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T18:30:27.909Z"
+ }
 }
