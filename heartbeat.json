@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-15T19:04:47.259Z",
- "current": "2757-esp-lookdev since 2026-11-15 19:04:47",
- "busy": true,
+ "ts": "2026-11-15T19:05:25.236Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 68,
+ "gpu": 83,
+ "mem_free_pct": 66,
+ "progress": null,
  "done": [
+  "2757-esp-lookdev",
   "2756-esp-fluidtest3",
   "2755-esp-fluidtest2",
   "2760-nw-upload2",
@@ -89,15 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2757-esp-lookdev",
-  "title": "MT Espresso · Material-Check Maschine",
-  "job_since": "2026-11-15T19:04:47.237Z",
-  "timeout_min": 30,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T19:04:47.237Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2757-esp-lookdev",
+   "title": "MT Espresso · Material-Check Maschine",
+   "result": "fertig",
+   "at": "2026-11-15T19:05:24.267Z"
+  },
+  "updated": "2026-11-15T19:05:24.267Z"
+ },
+ "queue": []
 }
