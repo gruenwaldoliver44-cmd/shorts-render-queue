@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T09:08:46.264Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T09:09:05.295Z",
+ "current": "2734-cable-render since 2026-11-15 09:09:05",
+ "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 11,
- "gpu": 13,
- "mem_free_pct": 70,
- "progress": null,
  "done": [
   "2733-cable-stills2",
   "2732-cable-stills",
@@ -49,8 +44,7 @@
   "2676-bk2-final",
   "2675-bk2-render",
   "2671-bk-thumb",
-  "2670-bk-upload",
-  "2669-bk-render2"
+  "2670-bk-upload"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2733-cable-stills2",
-   "title": "MT Seekabel · Standbilder Runde 2",
-   "result": "fertig",
-   "at": "2026-11-15T09:04:31.292Z"
-  },
-  "updated": "2026-11-15T09:04:31.292Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2734-cable-render",
+  "title": "MT Seekabel · bauen + rendern + Video",
+  "job_since": "2026-11-15T09:09:05.277Z",
+  "timeout_min": 200,
+  "step": 0,
+  "steps": 4,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T09:09:05.277Z"
+ }
 }
