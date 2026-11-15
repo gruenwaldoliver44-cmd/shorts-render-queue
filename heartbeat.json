@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T17:24:30.153Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T17:25:03.452Z",
+ "current": "2749-esp-probe2 since 2026-11-15 17:25:03",
+ "busy": true,
  "free_gb": 19,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 40,
- "mem_free_pct": 81,
- "progress": null,
  "done": [
   "2748-esp-probe",
   "2690-nw-render",
@@ -49,8 +44,7 @@
   "2682-fe-render",
   "2680-fe-sfx",
   "2679-fe-dl2",
-  "2678-fe-dl1",
-  "2677-fe-refs"
+  "2678-fe-dl1"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2748-esp-probe",
-   "title": "MT Espresso · Assets laden + prüfen",
-   "result": "fertig",
-   "at": "2026-11-15T17:22:16.778Z"
-  },
-  "updated": "2026-11-15T17:22:16.778Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2749-esp-probe2",
+  "title": "MT Espresso · Materialien + Ansichten",
+  "job_since": "2026-11-15T17:25:03.433Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:25:03.433Z"
+ }
 }
