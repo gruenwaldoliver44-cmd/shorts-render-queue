@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T19:05:25.236Z",
+ "ts": "2026-11-15T19:07:25.194Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 68,
- "gpu": 83,
- "mem_free_pct": 66,
+ "cpu": 18,
+ "gpu": 42,
+ "mem_free_pct": 70,
  "progress": null,
  "done": [
   "2757-esp-lookdev",
