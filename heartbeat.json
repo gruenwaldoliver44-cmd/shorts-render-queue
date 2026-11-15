@@ -1,18 +1,9 @@
 {
- "ts": "2026-11-15T17:52:30.282Z",
- "source": "dashboard",
+ "ts": "2026-11-15T17:54:25.317Z",
  "current": "2752-esp-preview since 2026-11-15 17:48:17",
  "busy": true,
  "free_gb": 16,
  "blender_procs": 1,
- "cpu": 22,
- "gpu": 94,
- "mem_free_pct": 55,
- "progress": {
-  "n": 193,
-  "total": 1490,
-  "eta_min": null
- },
  "done": [
   "2751-esp-stills1",
   "2750-esp-probe2b",
@@ -112,6 +103,5 @@
    "total": 1490
   },
   "updated": "2026-11-15T17:49:16.604Z"
- },
- "queue": []
+ }
 }
