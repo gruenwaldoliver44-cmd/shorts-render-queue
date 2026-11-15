@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-15T08:20:46.222Z",
+ "ts": "2026-11-15T08:22:46.233Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 8,
  "gpu": 1,
- "mem_free_pct": 66,
+ "mem_free_pct": 67,
  "progress": null,
  "done": [
   "2721-euv-shortup",
