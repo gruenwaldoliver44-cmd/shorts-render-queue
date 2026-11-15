@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T17:06:31.402Z",
+ "ts": "2026-11-15T17:08:30.132Z",
  "source": "dashboard",
- "current": "2746-esp-bksearch since 2026-11-15 17:04:32",
- "busy": true,
- "free_gb": 4,
+ "current": "",
+ "busy": false,
+ "free_gb": 3,
  "blender_procs": 0,
- "cpu": 28,
- "gpu": 42,
+ "cpu": 18,
+ "gpu": 16,
  "mem_free_pct": 78,
  "progress": null,
  "done": [
+  "2746-esp-bksearch",
   "2744-ink-render",
   "2743-ink-stills2",
   "2742-ink-stills",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2746-esp-bksearch",
-  "title": "MT Espresso · BlenderKit-Suche",
-  "job_since": "2026-11-15T17:04:32.754Z",
-  "timeout_min": 15,
-  "step": 1,
-  "steps": 1,
-  "label": "suche",
-  "step_since": "2026-11-15T17:04:34.442Z",
-  "progress": null,
-  "updated": "2026-11-15T17:04:34.442Z"
+  "state": "idle",
+  "last": {
+   "job": "2746-esp-bksearch",
+   "title": "MT Espresso · BlenderKit-Suche",
+   "result": "fertig",
+   "at": "2026-11-15T17:06:41.464Z"
+  },
+  "updated": "2026-11-15T17:06:41.464Z"
  },
  "queue": []
 }
