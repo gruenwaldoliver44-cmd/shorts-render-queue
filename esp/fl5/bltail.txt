@@ -1,0 +1,25 @@
+ℹ️  blendkit: Verbose is enabled [21:25:30.659, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [21:25:30.660, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [21:25:30.661, client_lib.py:163]
+Created history step 0352989b-1d05-4768-b66a-2945de86d6ce
+ℹ️  blendkit: Created new search history step [21:25:30.665, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [21:25:30.665, download.py:431]
+/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fltest.py:98: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  gmat = bpy.data.materials.new("glass_true"); gmat.use_nodes = True; gb = gmat.node_tree.nodes["Principled BSDF"]
+15:44.806  reports          | Fluid: Bake All complete (943.92s)
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fltest.py:152: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m = bpy.data.materials.new("espresso"); m.use_nodes = True; b = m.node_tree.nodes["Principled BSDF"]
+/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fltest.py:160: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world.use_nodes = True; sc.world.node_tree.nodes["Background"].inputs[0].default_value = (0.01, 0.01, 0.012, 1); sc.world.node_tree.nodes["Background"].inputs[1].default_value = 0.4
+/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fltest.py:163: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new("fm"); fm.use_nodes = True; bb = fm.node_tree.nodes["Principled BSDF"]; bb.inputs["Base Color"].default_value = (0.01, 0.01, 0.012, 1); bb.inputs["Roughness"].default_value = 0.2; fl.materials.append(fm)
+16:11.200  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fl/f030.jpg'
+16:34.899  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fl/f070.jpg'
+16:58.185  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fl/f110.jpg'
+17:22.050  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2762-esp-fluidtest5/fl/f138.jpg'
+FLTEST DONE {"spout_z": 0.12000000476837158, "basket": [[-0.04272054135799408, -0.04300389438867569, 0.175731360912323], [0.04272054135799408, 0.04300389438867569, 0.2026633769273758]], "glass": [[-0.031149467453360558, -0.031149467453360558, 0.0], [0.031149467453360558, 0.031149467453360558, 0.06109930947422981]], "gmats": {"cup": ["material.001"], "Coffee": ["espresso coffee"]}, "cupcol_manifold": true, "bake": "{'FINISHED'}", "bake_s": 944.4, "render_s": 1041.5}
+ℹ️  blendkit: Unregistering Blendkit add-on [21:42:52.312, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [21:42:52.312, download.py:431]
+
+Blender quit
