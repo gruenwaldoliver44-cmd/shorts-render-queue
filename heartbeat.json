@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T08:43:44.282Z",
+ "ts": "2026-11-15T08:44:48.446Z",
+ "source": "dashboard",
  "current": "2731-cable-probe since 2026-11-15 08:43:44",
  "busy": true,
- "free_gb": 6,
- "blender_procs": 0,
+ "free_gb": 5,
+ "blender_procs": 1,
+ "cpu": 28,
+ "gpu": 34,
+ "mem_free_pct": 47,
+ "progress": null,
  "done": [
   "2730-cable-bksearch",
   "2721-euv-shortup",
@@ -94,10 +99,12 @@
   "title": "MT Seekabel · Assets laden + prüfen",
   "job_since": "2026-11-15T08:43:44.241Z",
   "timeout_min": 30,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "probe",
+  "step_since": "2026-11-15T08:43:45.965Z",
   "progress": null,
-  "updated": "2026-11-15T08:43:44.241Z"
- }
+  "updated": "2026-11-15T08:43:45.965Z"
+ },
+ "queue": []
 }
