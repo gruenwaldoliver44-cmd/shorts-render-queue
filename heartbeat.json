@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T17:38:30.147Z",
+ "ts": "2026-11-15T17:40:30.170Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 20,
+ "free_gb": 19,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 35,
- "mem_free_pct": 78,
+ "cpu": 18,
+ "gpu": 36,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2750-esp-probe2b",
