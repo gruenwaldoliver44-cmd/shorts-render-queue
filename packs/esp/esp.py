@@ -409,6 +409,7 @@ EV = C.EV
 INFO = {}
 OVR = {}            # per-shot camera offset (computed from asset positions)
 WLS.default_value = 0.35
+sc.view_settings.exposure = -0.4
 def snap(): return set(o.name for o in bpy.data.objects)
 def set_vis(before, st):
     rng = set_ranges(st)
@@ -488,9 +489,9 @@ CHROME = mat("x_chrome", (0.9, 0.9, 0.92), 0.06, 1.0)
 BRUSHED = mat("x_brushed", (0.72, 0.72, 0.74), 0.28, 1.0)
 BLACKP = mat("x_blackp", (0.02, 0.02, 0.022), 0.35, 0.0, coat=0.4)
 FLOOR = mat("x_floor", (0.012, 0.012, 0.014), 0.22, 0.0, coat=1.0)
-WALNUT = mat("x_walnut", (0.09, 0.045, 0.02), 0.35, 0.0, coat=0.6)
+WALNUT = mat("x_walnut", (0.035, 0.016, 0.007), 0.3, 0.0, coat=0.7)
 COFFEE = mat("x_coffee", (0.03, 0.012, 0.004), 0.06, 0.0, coat=1.0)
-WATER = mat("x_water", (0.75, 0.9, 1.0), 0.02, 0.0, trans=1.0, ior=1.33, emit=(0.25, 0.6, 1.0), es=0.6)
+WATER = mat("x_water", (0.8, 0.9, 1.0), 0.02, 0.0, trans=1.0, ior=1.33, emit=(0.25, 0.6, 1.0), es=0.15)
 COPPER = mat("x_copper", (0.95, 0.55, 0.35), 0.22, 1.0)
 
 def crema_mat(name="x_crema"):
@@ -501,11 +502,11 @@ def crema_mat(name="x_crema"):
     ns = N_.new("ShaderNodeTexNoise"); SV(ns, "Scale", 60.0); SV(ns, "Detail", 6.0); SV(ns, "Roughness", 0.6)
     L_.new(tc.outputs["Object"], ns.inputs["Vector"])
     cr = N_.new("ShaderNodeValToRGB"); e = cr.color_ramp.elements
-    e[0].position = 0.35; e[0].color = (0.30, 0.13, 0.04, 1); e[1].position = 0.7; e[1].color = (0.78, 0.48, 0.20, 1)
+    e[0].position = 0.3; e[0].color = (0.16, 0.06, 0.015, 1); e[1].position = 0.75; e[1].color = (0.52, 0.27, 0.08, 1)
     L_.new(ns.outputs["Fac"], cr.inputs[0]); L_.new(cr.outputs[0], b.inputs["Base Color"])
     vo = N_.new("ShaderNodeTexVoronoi"); SV(vo, "Scale", 900.0); setattr_safe(vo, "feature", "F1")
     L_.new(tc.outputs["Object"], vo.inputs["Vector"])
-    bu = N_.new("ShaderNodeBump"); SV(bu, "Strength", 0.35); SV(bu, "Distance", 0.0004)
+    bu = N_.new("ShaderNodeBump"); SV(bu, "Strength", 0.8); SV(bu, "Distance", 0.0008)
     L_.new(vo.outputs["Distance"], bu.inputs["Height"]); L_.new(bu.outputs["Normal"], b.inputs["Normal"])
     SV(b, "Roughness", 0.32); SV(b, "Coat Weight", 0.5); SV(b, "Subsurface Weight", 0.15)
     return m
@@ -547,7 +548,7 @@ def cup_at(key_suffix, loc, size=0.106, rot=(0, 0, 0)):
 
 # ======================================================================== CUP set
 B = snap(); Co = Vector(C.CUP)
-studio("cup", Co, 0.12, key=1.0, warm=True, floor=False)
+studio("cup", Co, 0.12, key=0.45, warm=True, floor=False)
 tbl = prim("plane", "cup_table", loc=Co, size=4); setmat(tbl, WALNUT)
 cup1 = cup_at("_a", Co)
 if cup1:
@@ -570,9 +571,9 @@ conti = load_asset("conti", 0.75, Oo + Vector((0.05, 0.22, 0.0)))
 vg = load_asset("vgrinder", 0.24, Oo + Vector((-0.42, 0.12, 0.0)), rot=(0, 0, D(-25)))
 gauges = load_asset("gauges", 0.62, Oo + Vector((0.30, -0.02, 0.24)), rot=(D(90), 0, 0), ground=False)
 if gauges:
-    g = find(gauges, "Pressure gauge")
-    if g:
-        mn, mx = bbox_of([g]); c_ = (mn + mx) / 2; INFO["gauge"] = [round(x, 3) for x in c_]
+    hs = [o for o in kids_of(gauges) if o.type == "MESH" and o.name.startswith("Needle holder")]
+    if hs:
+        mn, mx = bbox_of(hs[:1]); c_ = (mn + mx) / 2; INFO["gauge"] = [round(x, 3) for x in (c_ - Oo)]
         OVR["o02"] = c_ - (Oo + Vector((0.30, 0.0, 0.40)))
 cup_old = cup_at("_old", Oo + Vector((-0.30, 0.0, 0.0)))
 if cup_old:
@@ -648,14 +649,14 @@ B = snap(); So = Vector(C.SEA)
 sea = prim("cube", "sea_vol", loc=So + Vector((0, 0, 0.5)), size=12)
 sv = bpy.data.materials.new("sea_vol_m"); sv.use_nodes = True
 for n in list(sv.node_tree.nodes): sv.node_tree.nodes.remove(n)
-vp = sv.node_tree.nodes.new("ShaderNodeVolumePrincipled"); SV(vp, "Density", 0.25); SV(vp, "Color", (0.15, 0.45, 0.7, 1)); SV(vp, "Absorption Color", (0.02, 0.25, 0.45, 1))
+vp = sv.node_tree.nodes.new("ShaderNodeVolumePrincipled"); SV(vp, "Density", 0.07); SV(vp, "Color", (0.1, 0.35, 0.6, 1)); SV(vp, "Absorption Color", (0.01, 0.12, 0.3, 1))
 vo_ = sv.node_tree.nodes.new("ShaderNodeOutputMaterial"); sv.node_tree.links.new(vp.outputs[0], vo_.inputs["Volume"]); setmat(sea, sv)
 diver = load_asset("diver", 0.7, So + Vector((0, 0, 0.05)), rot=(D(8), 0, D(20)))
 if diver:
     kr(diver, 26.7, (D(8), 0, D(20)), "LINEAR"); kr(diver, 30.6, (D(10), 0, D(45)), "LINEAR")
     kl(diver, 26.7, So + Vector((0, 0, 0.25)), "LINEAR"); kl(diver, 30.6, So + Vector((0, 0, -0.05)), "LINEAR")
-sun = spot("sea_sun", So + Vector((0.4, 0.6, 5.0)), (0, 0, 0), 9000, size_deg=40, blend=0.8, col=(0.6, 0.85, 1.0), radius=0.5); aim(sun, So)
-a_ = area("sea_fill", So + Vector((-1.5, -2.0, 1.0)), (0, 0, 0), 400, size=2, col=(0.4, 0.7, 1.0)); aim(a_, So)
+sun = spot("sea_sun", So + Vector((0.4, 0.6, 5.0)), (0, 0, 0), 2500, size_deg=40, blend=0.8, col=(0.6, 0.85, 1.0), radius=0.5); aim(sun, So)
+a_ = area("sea_fill", So + Vector((-1.5, -2.0, 1.0)), (0, 0, 0), 120, size=2, col=(0.4, 0.7, 1.0)); aim(a_, So)
 random.seed(8)
 bm = bmesh.new()
 for i in range(260):
@@ -681,9 +682,9 @@ ar_m, AR = emat("puk_arrow_m", (1.0, 0.75, 0.4), 0.0, solid=True)
 for i in range(7):
     a = (i / 7) * 2 * math.pi; rr = 0.0 if i == 0 else 0.017
     p = pc + Vector((rr * math.cos(a), rr * math.sin(a), 0.03))
-    c_ = prim("cone", "puk_arrow%d" % i, loc=p, rot=(D(180), 0, 0), vertices=24, radius1=0.004, radius2=0.0, depth=0.012); setmat(c_, ar_m)
+    c_ = prim("cone", "puk_arrow%d" % i, loc=p, rot=(D(180), 0, 0), vertices=24, radius1=0.0025, radius2=0.0, depth=0.012); setmat(c_, ar_m)
     kl(c_, 30.6, p + Vector((0, 0, 0.02))); kl(c_, 31.4, p, "BEZIER"); kl(c_, 33.5, p - Vector((0, 0, 0.012)))
-kv(AR, 30.6, 0.0); kv(AR, 31.2, 6.0); kv(AR, 33.5, 6.0)
+kv(AR, 30.6, 0.0); kv(AR, 31.2, 2.5); kv(AR, 33.5, 2.5)
 set_vis(B, "PUK")
 
 # ======================================================================== STU set – Linea Mini, x-ray, pour
@@ -764,17 +765,17 @@ B = snap(); Go = Vector(C.SGN)
 studio("sgn", Go, 0.3, key=0.35, warm=True, floor=True)
 bokeh("sgn_bokeh", Go, 34, 1.6, 0.1, 1.2, (1.0, 0.62, 0.3), 5.0, 0.03, seed=9)
 panel = prim("cube", "sgn_panel", loc=Go + Vector((0, 0, 0.30)), size=1.0); panel.scale = (0.30, 0.008, 0.10); apply_scale(panel)
-setmat(panel, mat("x_acrylic", (0.95, 0.9, 0.82), 0.35, 0.0, trans=0.85, ior=1.49, emit=(1.0, 0.82, 0.6), es=0.6))
+setmat(panel, mat("x_acrylic", (0.95, 0.9, 0.82), 0.35, 0.0, trans=0.85, ior=1.49, emit=(1.0, 0.72, 0.45), es=0.12))
 frame_ = prim("cube", "sgn_frame", loc=Go + Vector((0, 0.01, 0.30)), size=1.0); frame_.scale = (0.31, 0.006, 0.106); apply_scale(frame_); setmat(frame_, mat("x_brass", (0.95, 0.72, 0.38), 0.25, 1.0))
-lt = area("sgn_back", Go + Vector((0, 0.08, 0.30)), (D(-90), 0, 0), 25, size=0.5, col=(1.0, 0.8, 0.55)); aim(lt, Go + Vector((0, -1, 0.30)))
+lt = area("sgn_back", Go + Vector((0, 0.08, 0.30)), (D(-90), 0, 0), 6, size=0.5, col=(1.0, 0.8, 0.55)); aim(lt, Go + Vector((0, -1, 0.30)))
 for f_ in ("/System/Library/Fonts/Supplemental/SnellRoundhand.ttc", "/System/Library/Fonts/Supplemental/Zapfino.ttf"):
     if os.path.exists(f_):
         try: SCRIPT = bpy.data.fonts.load(f_); break
         except Exception: SCRIPT = None
 else:
     SCRIPT = None
-t1, _ = text3d("sgn_t1", "Crema caffè naturale", Go + Vector((0, -0.010, 0.315)), size=0.055, col=(1.0, 0.55, 0.18), es=6.0)
-t2, _ = text3d("sgn_t2", "FUNZIONA SENZA VAPORE", Go + Vector((0, -0.010, 0.255)), size=0.016, col=(0.25, 0.12, 0.05), es=0.0)
+t1, _ = text3d("sgn_t1", "Crema caffè naturale", Go + Vector((0, -0.013, 0.312)), size=0.05, col=(1.0, 0.5, 0.15), es=4.0, extrude=0.0008)
+t2, _ = text3d("sgn_t2", "FUNZIONA SENZA VAPORE", Go + Vector((0, -0.013, 0.258)), size=0.014, col=(0.9, 0.55, 0.25), es=1.5)
 if SCRIPT: t1.data.font = SCRIPT
 pop_in(t1, 52.0, 0.4)
 set_vis(B, "SGN")
