@@ -1,0 +1,29 @@
+{
+ "id": "2744-ink-render",
+ "title": "MT Drucker \u00b7 rendern + Video",
+ "type": "shell",
+ "timeout_min": 240,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/ink_main\" && cd \"$AGENT_HOME/work/ink_main\" && cp \"$AGENT_HOME/repo/packs/ink/\"* . && rm -rf s r && bash prep.sh | head -c 300"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/work/ink_main\" && for i in $(seq 1 40); do /Applications/Blender.app/Contents/MacOS/Blender -b ink.blend -P ink_render.py -- render 1 1663 100 >> rall.log 2>&1; n=$(ls r | wc -l); echo \"pass $i frames $n\"; [ $n -ge 1663 ] && break; sleep 5; done; ls r | wc -l",
+   "progress": {
+    "dir": "../ink_main/r",
+    "total": 1663
+   }
+  },
+  {
+   "label": "encode",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -framerate 25 -i \"$AGENT_HOME/work/ink_main/r/f%04d.jpg\" -i \"$AGENT_HOME/work/ink_main/ink_mix.m4a\" -map 0:v -map 1:a -c:v libx264 -preset medium -crf 21 -pix_fmt yuv420p -c:a copy -shortest -movflags +faststart \"$AGENT_HOME/work/ink_main/ink_1080.mp4\" && ls -l \"$AGENT_HOME/work/ink_main/ink_1080.mp4\""
+  },
+  {
+   "label": "push",
+   "run": "cd \"$AGENT_HOME/work/ink_main\" && \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" ink_1080.mp4 ink/final/ink_1080.mp4 | tail -2"
+  }
+ ]
+}
