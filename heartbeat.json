@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T10:00:46.271Z",
- "source": "dashboard",
+ "ts": "2026-11-15T10:02:32.482Z",
  "current": "",
  "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 5,
- "gpu": 1,
- "mem_free_pct": 68,
- "progress": null,
  "done": [
   "2735-cable-fiberfix",
   "2734-cable-render",
@@ -102,6 +97,5 @@
    "at": "2026-11-15T09:50:39.595Z"
   },
   "updated": "2026-11-15T09:50:39.595Z"
- },
- "queue": []
+ }
 }
