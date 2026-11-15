@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T18:40:02.331Z",
+ "ts": "2026-11-15T18:42:02.386Z",
  "source": "dashboard",
  "current": "2755-esp-fluidtest2 since 2026-11-15 18:37:56",
  "busy": true,
  "free_gb": 18,
  "blender_procs": 1,
  "cpu": 72,
- "gpu": 45,
- "mem_free_pct": 74,
+ "gpu": 36,
+ "mem_free_pct": 76,
  "progress": null,
  "done": [
   "2760-nw-upload2",
