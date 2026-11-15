@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T10:42:00.799Z",
+ "ts": "2026-11-15T10:42:28.721Z",
+ "source": "dashboard",
  "current": "2742-ink-stills since 2026-11-15 10:42:00",
  "busy": true,
- "free_gb": 5,
- "blender_procs": 0,
+ "free_gb": 3,
+ "blender_procs": 1,
+ "cpu": 22,
+ "gpu": 56,
+ "mem_free_pct": 49,
+ "progress": null,
  "done": [
   "2741-ink-probe",
   "2740-ink-bksearch",
@@ -94,10 +99,12 @@
   "title": "MT Drucker · Standbilder Runde 1",
   "job_since": "2026-11-15T10:42:00.781Z",
   "timeout_min": 50,
-  "step": 0,
+  "step": 2,
   "steps": 2,
-  "label": "Startet",
+  "label": "stills",
+  "step_since": "2026-11-15T10:42:06.499Z",
   "progress": null,
-  "updated": "2026-11-15T10:42:00.781Z"
- }
+  "updated": "2026-11-15T10:42:06.499Z"
+ },
+ "queue": []
 }
