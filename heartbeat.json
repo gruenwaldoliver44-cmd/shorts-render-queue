@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-15T10:40:27.954Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T10:42:00.799Z",
+ "current": "2742-ink-stills since 2026-11-15 10:42:00",
+ "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2741-ink-probe",
-   "title": "MT Drucker · Assets laden + prüfen",
-   "result": "fertig",
-   "at": "2026-11-15T10:16:13.586Z"
-  },
-  "updated": "2026-11-15T10:16:13.586Z"
+  "state": "busy",
+  "job": "2742-ink-stills",
+  "title": "MT Drucker · Standbilder Runde 1",
+  "job_since": "2026-11-15T10:42:00.781Z",
+  "timeout_min": 50,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T10:42:00.781Z"
  }
 }
