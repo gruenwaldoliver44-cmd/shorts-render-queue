@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T18:06:30.347Z",
+ "ts": "2026-11-15T18:08:30.336Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 11,
+ "cpu": 13,
  "gpu": 11,
- "mem_free_pct": 83,
+ "mem_free_pct": 82,
  "progress": null,
  "done": [
   "2753-esp-liquid-search",
