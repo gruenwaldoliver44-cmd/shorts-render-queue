@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T17:40:30.170Z",
- "source": "dashboard",
+ "ts": "2026-11-15T17:41:18.255Z",
  "current": "",
  "busy": false,
  "free_gb": 19,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 36,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
   "2750-esp-probe2b",
   "2749-esp-probe2",
@@ -102,6 +97,5 @@
    "at": "2026-11-15T17:30:28.737Z"
   },
   "updated": "2026-11-15T17:30:28.737Z"
- },
- "queue": []
+ }
 }
