@@ -1,0 +1,50 @@
+{
+ "hero": [
+  "c5800f10-7a64-4a2a-acff-edcba10c1bec",
+  "https://www.blenderkit.com/api/v1/downloads/1ff2a51e-0294-405e-907a-9d61bb39ddcf/"
+ ],
+ "linea": [
+  "52ca2af8-013e-4db9-98c9-47e14a9647da",
+  "https://www.blenderkit.com/api/v1/downloads/78a4c0bc-7067-48ce-a18a-29c5904137b9/"
+ ],
+ "portafilter": [
+  "ae88e19c-5b8c-4dc8-9a51-3a089f82f08b",
+  "https://www.blenderkit.com/api/v1/downloads/33be021d-effc-4de9-82e4-1761f251ac1f/"
+ ],
+ "cup": [
+  "1ec713e7-7871-4acc-a034-d4bff9ab2161",
+  "https://www.blenderkit.com/api/v1/downloads/dda7d068-4a43-49ba-a2dc-0808b6c29018/"
+ ],
+ "beans": [
+  "73a9fb47-bacb-40a6-8893-78708f4b4ad4",
+  "https://www.blenderkit.com/api/v1/downloads/32cb2b26-db45-4c32-8c39-63f6b892a967/"
+ ],
+ "gauges": [
+  "759b24b3-f27e-498d-927d-5ca8064be208",
+  "https://www.blenderkit.com/api/v1/downloads/cf2a4d36-f049-4845-bb0d-b2d660fab6d8/"
+ ],
+ "diver": [
+  "bd6f8baf-7908-466c-8a55-4987bf94ad4d",
+  "https://www.blenderkit.com/api/v1/downloads/6fed4301-1bcd-44d1-8be3-952179b33c7c/"
+ ],
+ "retro": [
+  "42299091-3a0c-49b3-bf47-aae7ea74fd60",
+  "https://www.blenderkit.com/api/v1/downloads/2507f78f-a9fb-4fed-8b71-b9759ca86209/"
+ ],
+ "francis": [
+  "ddf3e3d8-3c0b-4464-9544-bca33b74b73d",
+  "https://www.blenderkit.com/api/v1/downloads/a211bfe6-1695-40ed-bc7e-bf5065e48ae1/"
+ ],
+ "conti": [
+  "b5930949-ec27-49f3-9e7b-42e9a853dcd8",
+  "https://www.blenderkit.com/api/v1/downloads/84a9d0bf-95cf-4636-9976-364a01287897/"
+ ],
+ "grinder": [
+  "085f1ca3-82ab-4b24-8604-b7a781b32314",
+  "https://www.blenderkit.com/api/v1/downloads/da2ba20c-e851-4e8c-80e6-34fce5cb8976/"
+ ],
+ "vgrinder": [
+  "dcb6dbb5-cac5-4c0f-bdc9-1e99e5c11e04",
+  "https://www.blenderkit.com/api/v1/downloads/2515c647-c29f-4206-a1ee-120a56105700/"
+ ]
+}
