@@ -1,0 +1,13 @@
+{
+ "title": "Silent-Depression-Video hochladen",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "id": "2760-nw-upload2",
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > upnw2.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> upnw2.res; done < up/up_nw2.txt; echo fertig >> upnw2.res; cat upnw2.res"
+  }
+ ]
+}
