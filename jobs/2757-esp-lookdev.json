@@ -1,0 +1,14 @@
+{
+ "id": "2757-esp-lookdev",
+ "title": "MT Espresso \u00b7 Material-Check Maschine",
+ "type": "shell",
+ "timeout_min": 30,
+ "retries": 0,
+ "min_free_gb": 3,
+ "steps": [
+  {
+   "label": "lookdev",
+   "run": "cp \"$AGENT_HOME/repo/packs/esp/\"* . && /Applications/Blender.app/Contents/MacOS/Blender -b -P lookdev.py > bl.log 2>&1; grep -a 'LOOKDEV DONE' bl.log || tail -20 bl.log; a=\"ld.json esp/ld/ld.json\"; for f in ld/*.jpg; do a=\"$a $f esp/ld/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
