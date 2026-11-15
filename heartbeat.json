@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T17:22:30.211Z",
+ "ts": "2026-11-15T17:24:30.153Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 15,
+ "free_gb": 19,
  "blender_procs": 0,
  "cpu": 24,
- "gpu": 58,
- "mem_free_pct": 80,
+ "gpu": 40,
+ "mem_free_pct": 81,
  "progress": null,
  "done": [
   "2748-esp-probe",
