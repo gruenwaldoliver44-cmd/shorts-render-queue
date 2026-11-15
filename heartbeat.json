@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T08:29:57.478Z",
+ "ts": "2026-11-15T08:30:46.266Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 6,
  "blender_procs": 0,
+ "cpu": 25,
+ "gpu": 33,
+ "mem_free_pct": 65,
+ "progress": null,
  "done": [
   "2721-euv-shortup",
   "2720-euv-v2",
@@ -97,5 +102,6 @@
    "at": "2026-11-15T00:53:40.253Z"
   },
   "updated": "2026-11-15T00:53:40.253Z"
- }
+ },
+ "queue": []
 }
