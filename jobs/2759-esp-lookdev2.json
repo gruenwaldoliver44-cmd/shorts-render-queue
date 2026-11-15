@@ -1,0 +1,14 @@
+{
+ "id": "2759-esp-lookdev2",
+ "title": "MT Espresso \u00b7 Material-Check Tassen/Teile",
+ "type": "shell",
+ "timeout_min": 45,
+ "retries": 0,
+ "min_free_gb": 3,
+ "steps": [
+  {
+   "label": "lookdev",
+   "run": "cp \"$AGENT_HOME/repo/packs/esp/\"* . && for K in ecup eglass cup portafilter retro conti; do KEYS=$K /Applications/Blender.app/Contents/MacOS/Blender -b -P lookdev.py > bl_$K.log 2>&1; done; a=\"\"; for f in ld/*.jpg ld_*.json; do a=\"$a $f esp/ld2/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}

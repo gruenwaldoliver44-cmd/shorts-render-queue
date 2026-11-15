@@ -30,7 +30,9 @@ sc.render.image_settings.file_format = "JPEG"
 import time
 for o in list(bpy.data.objects): bpy.data.objects.remove(o, do_unlink=True)
 sc.render.resolution_x, sc.render.resolution_y = 960, 720
-p = bk_file("linea")
+KEYS = os.environ.get("KEYS", "linea").split(",")
+key0 = KEYS[0]
+p = bk_file(key0)
 with bpy.data.libraries.load(p, link=False) as (df, dt):
     dt.objects = list(df.objects)
 objs = [o for o in dt.objects if o]
@@ -59,19 +61,20 @@ def area(loc, e, s, col=(1, 1, 1)):
     ld = bpy.data.lights.new("a", "AREA"); ld.energy = e; ld.size = s; ld.color = col
     o = bpy.data.objects.new("a", ld); sc.collection.objects.link(o); o.location = ctr + Vector(loc)
     o.rotation_euler = (ctr - o.location).to_track_quat("-Z", "Y").to_euler()
-area((-0.6, -0.8, 0.7), 60, 0.6, (1.0, 0.95, 0.9)); area((0.7, 0.6, 0.4), 50, 0.4, (0.8, 0.9, 1.0)); area((0, 0.2, 1.0), 25, 1.0)
+k = size / 0.4
+area((-0.6 * k, -0.8 * k, 0.7 * k), 60 * k * k, 0.6 * k, (1.0, 0.95, 0.9)); area((0.7 * k, 0.6 * k, 0.4 * k), 50 * k * k, 0.4 * k, (0.8, 0.9, 1.0)); area((0, 0.2 * k, 1.0 * k), 25 * k * k, 1.0 * k)
 cd = bpy.data.cameras.new("c"); cd.lens = 50; cam = bpy.data.objects.new("c", cd); sc.collection.objects.link(cam); sc.camera = cam
-cam.location = ctr + Vector((-0.45, -0.85, 0.25)); cam.rotation_euler = (ctr - cam.location).to_track_quat("-Z", "Y").to_euler()
+cam.location = ctr + Vector((-0.45, -0.85, 0.35)) * (size / 0.4); cam.rotation_euler = (ctr - cam.location).to_track_quat("-Z", "Y").to_euler()
 os.makedirs("ld", exist_ok=True)
 sc.render.image_settings.file_format = "JPEG"
-sc.render.engine = "BLENDER_EEVEE"; sc.render.filepath = os.path.abspath("ld/eevee_orig.jpg"); bpy.ops.render.render(write_still=True)
+sc.render.engine = "BLENDER_EEVEE"; sc.render.filepath = os.path.abspath("ld/%s_eevee_orig.jpg" % key0); bpy.ops.render.render(write_still=True)
 # variant: disconnect displacement
 for m in bpy.data.materials:
     if m.use_nodes:
         out = m.node_tree.nodes.get("Material Output")
         if out and out.inputs["Displacement"].is_linked:
             for l in list(out.inputs["Displacement"].links): m.node_tree.links.remove(l)
-sc.render.filepath = os.path.abspath("ld/eevee_nodisp.jpg"); bpy.ops.render.render(write_still=True)
+sc.render.filepath = os.path.abspath("ld/%s_eevee_nodisp.jpg" % key0); bpy.ops.render.render(write_still=True)
 sc.render.engine = "CYCLES"
 try:
     cp = bpy.context.preferences.addons["cycles"].preferences; cp.compute_device_type = "METAL"; cp.get_devices()
@@ -79,6 +82,6 @@ try:
     sc.cycles.device = "GPU"
 except Exception as e: print("GPU", e)
 sc.cycles.samples = 128; sc.cycles.use_denoising = True
-t = time.time(); sc.render.filepath = os.path.abspath("ld/cycles_nodisp.jpg"); bpy.ops.render.render(write_still=True); info["cycles_s"] = round(time.time() - t, 1)
-json.dump(info, open("ld.json", "w"), indent=1, default=str)
+t = time.time(); sc.render.filepath = os.path.abspath("ld/%s_cycles.jpg" % key0); bpy.ops.render.render(write_still=True); info["cycles_s"] = round(time.time() - t, 1)
+json.dump(info, open("ld_%s.json" % key0, "w"), indent=1, default=str)
 print("LOOKDEV DONE")
