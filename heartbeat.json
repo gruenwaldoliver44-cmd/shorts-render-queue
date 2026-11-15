@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T08:38:46.304Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
- "free_gb": 5,
+ "ts": "2026-11-15T08:38:54.739Z",
+ "current": "2730-cable-bksearch since 2026-11-15 08:38:54",
+ "busy": true,
+ "free_gb": 6,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 28,
- "mem_free_pct": 64,
- "progress": null,
  "done": [
   "2721-euv-shortup",
   "2720-euv-v2",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2721-euv-shortup",
-   "title": "MT EUV · Short hochladen",
-   "result": "fertig",
-   "at": "2026-11-15T00:53:40.253Z"
-  },
-  "updated": "2026-11-15T00:53:40.253Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2730-cable-bksearch",
+  "title": "MT Seekabel · BlenderKit-Suche",
+  "job_since": "2026-11-15T08:38:54.716Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T08:38:54.716Z"
+ }
 }
