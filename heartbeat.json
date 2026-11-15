@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T00:48:44.254Z",
+ "ts": "2026-11-15T00:50:44.190Z",
  "source": "dashboard",
- "current": "2720-euv-v2 since 2026-11-14 23:54:16",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 91,
+ "cpu": 11,
+ "gpu": 1,
  "mem_free_pct": 58,
  "progress": null,
  "done": [
+  "2720-euv-v2",
   "2717-euv-encode2",
   "2716-euv-render-all",
   "2715-euv-logs",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2720-euv-v2",
-  "title": "MT EUV v2 · bauen + rendern",
-  "job_since": "2026-11-14T23:54:16.453Z",
-  "timeout_min": 220,
-  "step": 4,
-  "steps": 4,
-  "label": "push",
-  "step_since": "2026-11-15T00:48:08.733Z",
-  "progress": null,
-  "updated": "2026-11-15T00:48:08.733Z"
+  "state": "idle",
+  "last": {
+   "job": "2720-euv-v2",
+   "title": "MT EUV v2 · bauen + rendern",
+   "result": "fertig",
+   "at": "2026-11-15T00:48:45.744Z"
+  },
+  "updated": "2026-11-15T00:48:45.744Z"
  },
  "queue": []
 }
