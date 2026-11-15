@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T20:23:53.034Z",
+ "ts": "2026-11-15T20:24:17.178Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
+ "cpu": 13,
+ "gpu": 41,
+ "mem_free_pct": 71,
+ "progress": null,
  "done": [
   "2759-esp-lookdev2",
   "2758-esp-fluidtest4",
@@ -97,5 +102,6 @@
    "at": "2026-11-15T20:02:55.235Z"
   },
   "updated": "2026-11-15T20:02:55.235Z"
- }
+ },
+ "queue": []
 }
