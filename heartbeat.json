@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-15T00:28:44.166Z",
+ "ts": "2026-11-15T00:30:44.155Z",
  "source": "dashboard",
  "current": "2720-euv-v2 since 2026-11-14 23:54:16",
  "busy": true,
@@ -9,9 +9,9 @@
  "gpu": 95,
  "mem_free_pct": 38,
  "progress": {
-  "n": 894,
+  "n": 921,
   "total": 1588,
-  "eta_min": 27
+  "eta_min": 26
  },
  "done": [
   "2717-euv-encode2",
