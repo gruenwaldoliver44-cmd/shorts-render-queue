@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T20:01:53.198Z",
+ "ts": "2026-11-15T20:19:06.394Z",
  "source": "dashboard",
- "current": "2759-esp-lookdev2 since 2026-11-15 19:26:35",
- "busy": true,
- "free_gb": 14,
- "blender_procs": 1,
- "cpu": 49,
- "gpu": 93,
- "mem_free_pct": 38,
+ "current": "",
+ "busy": false,
+ "free_gb": 15,
+ "blender_procs": 0,
+ "cpu": 22,
+ "gpu": 97,
+ "mem_free_pct": 66,
  "progress": null,
  "done": [
+  "2759-esp-lookdev2",
   "2758-esp-fluidtest4",
   "2757-esp-lookdev",
   "2756-esp-fluidtest3",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2759-esp-lookdev2",
-  "title": "MT Espresso · Material-Check Tassen/Teile",
-  "job_since": "2026-11-15T19:26:35.990Z",
-  "timeout_min": 45,
-  "step": 1,
-  "steps": 1,
-  "label": "lookdev",
-  "step_since": "2026-11-15T19:26:37.818Z",
-  "progress": null,
-  "updated": "2026-11-15T19:26:37.818Z"
+  "state": "idle",
+  "last": {
+   "job": "2759-esp-lookdev2",
+   "title": "MT Espresso · Material-Check Tassen/Teile",
+   "result": "fertig",
+   "at": "2026-11-15T20:02:55.235Z"
+  },
+  "updated": "2026-11-15T20:02:55.235Z"
  },
  "queue": []
 }
