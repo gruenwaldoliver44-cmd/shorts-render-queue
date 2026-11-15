@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T09:42:46.380Z",
+ "ts": "2026-11-15T09:44:46.260Z",
  "source": "dashboard",
- "current": "2734-cable-render since 2026-11-15 09:09:05",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 93,
+ "cpu": 16,
+ "gpu": 11,
  "mem_free_pct": 64,
  "progress": null,
  "done": [
+  "2734-cable-render",
   "2733-cable-stills2",
   "2732-cable-stills",
   "2731-cable-probe",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2734-cable-render",
-  "title": "MT Seekabel · bauen + rendern + Video",
-  "job_since": "2026-11-15T09:09:05.277Z",
-  "timeout_min": 200,
-  "step": 3,
-  "steps": 4,
-  "label": "encode",
-  "step_since": "2026-11-15T09:42:29.896Z",
-  "progress": null,
-  "updated": "2026-11-15T09:42:29.896Z"
+  "state": "idle",
+  "last": {
+   "job": "2734-cable-render",
+   "title": "MT Seekabel · bauen + rendern + Video",
+   "result": "fertig",
+   "at": "2026-11-15T09:43:28.792Z"
+  },
+  "updated": "2026-11-15T09:43:28.792Z"
  },
  "queue": []
 }
