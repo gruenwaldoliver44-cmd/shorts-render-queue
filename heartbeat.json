@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-15T16:44:30.025Z",
+ "ts": "2026-11-15T16:46:29.955Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 3,
+ "free_gb": 4,
  "blender_procs": 0,
- "cpu": 20,
- "gpu": 29,
+ "cpu": 18,
+ "gpu": 38,
  "mem_free_pct": 80,
  "progress": null,
  "done": [
@@ -103,7 +103,5 @@
   },
   "updated": "2026-11-15T15:54:38.546Z"
  },
- "queue": [
-  "2745-ink-push"
- ]
+ "queue": []
 }
