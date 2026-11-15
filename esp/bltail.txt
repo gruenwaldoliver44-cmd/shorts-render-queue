@@ -1,0 +1,38 @@
+ℹ️  blendkit: Verbose is enabled [18:29:21.570, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [18:29:21.571, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [18:29:21.572, client_lib.py:163]
+Created history step 1229cf02-45f9-4102-b93d-11bb6ff7a5c9
+ℹ️  blendkit: Created new search history step [18:29:21.575, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [18:29:21.575, download.py:431]
+/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/probe2.py:34: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world.use_nodes = True; sc.world.node_tree.nodes["Background"].inputs[0].default_value = (0.02, 0.02, 0.025, 1)
+/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/probe2.py:55: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:
+/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/probe2.py:76: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  fm = bpy.data.materials.new("fm"); fm.use_nodes = True; b = fm.node_tree.nodes["Principled BSDF"]; b.inputs["Base Color"].default_value = (0.01, 0.01, 0.012, 1); b.inputs["Roughness"].default_value = 0.15; fl.materials.append(fm)
+00:02.188  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/linea_0.jpg'
+00:03.578  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/linea_1.jpg'
+00:05.359  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/linea_2.jpg'
+00:07.566  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/linea_3.jpg'
+00:10.314  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/hero_0.jpg'
+00:11.591  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/hero_1.jpg'
+00:12.827  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/hero_2.jpg'
+00:13.998  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/hero_3.jpg'
+00:14.976  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/cup_0.jpg'
+00:15.965  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/cup_1.jpg'
+00:17.021  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/cup_2.jpg'
+00:18.054  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/cup_3.jpg'
+00:19.530  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/retro_0.jpg'
+00:20.954  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/retro_1.jpg'
+00:22.183  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/retro_2.jpg'
+00:23.437  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/retro_3.jpg'
+00:24.736  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/portafilter_0.jpg'
+00:25.726  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/portafilter_1.jpg'
+00:26.819  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/portafilter_2.jpg'
+00:27.698  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2750-esp-probe2b/p2/portafilter_3.jpg'
+PROBE2 DONE
+ℹ️  blendkit: Unregistering Blendkit add-on [18:29:48.818, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [18:29:48.820, download.py:431]
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
