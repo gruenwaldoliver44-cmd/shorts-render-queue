@@ -1,15 +1,11 @@
 {
- "ts": "2026-11-15T17:18:30.295Z",
- "source": "dashboard",
- "current": "2690-nw-render since 2026-11-15 17:14:56",
+ "ts": "2026-11-15T17:20:23.343Z",
+ "current": "2748-esp-probe since 2026-11-15 17:20:23",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 81,
- "gpu": 37,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
+  "2690-nw-render",
   "2747-esp-thumbs",
   "2746-esp-bksearch",
   "2744-ink-render",
@@ -48,8 +44,7 @@
   "2680-fe-sfx",
   "2679-fe-dl2",
   "2678-fe-dl1",
-  "2677-fe-refs",
-  "2676-wk-upload"
+  "2677-fe-refs"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,18 +90,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2690-nw-render",
-  "title": "No-Longer-Worth-It-Video rendern (1)",
-  "job_since": "2026-11-15T17:14:56.752Z",
-  "timeout_min": 150,
-  "step": 2,
-  "steps": 3,
-  "label": "render",
-  "step_since": "2026-11-15T17:14:58.935Z",
+  "job": "2748-esp-probe",
+  "title": "MT Espresso · Assets laden + prüfen",
+  "job_since": "2026-11-15T17:20:23.322Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-11-15T17:14:58.935Z"
- },
- "queue": [
-  "2748-esp-probe"
- ]
+  "updated": "2026-11-15T17:20:23.322Z"
+ }
 }
