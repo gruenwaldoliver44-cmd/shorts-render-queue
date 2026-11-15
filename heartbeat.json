@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T10:32:46.311Z",
- "source": "dashboard",
+ "ts": "2026-11-15T10:40:27.954Z",
  "current": "",
  "busy": false,
- "free_gb": 4,
+ "free_gb": 5,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 32,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
   "2741-ink-probe",
   "2740-ink-bksearch",
@@ -102,6 +97,5 @@
    "at": "2026-11-15T10:16:13.586Z"
   },
   "updated": "2026-11-15T10:16:13.586Z"
- },
- "queue": []
+ }
 }
