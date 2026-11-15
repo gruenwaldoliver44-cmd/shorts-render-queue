@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T02:16:44.661Z",
+ "ts": "2026-11-15T02:18:44.672Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 8,
- "gpu": 0,
- "mem_free_pct": 65,
+ "cpu": 7,
+ "gpu": 1,
+ "mem_free_pct": 64,
  "progress": null,
  "done": [
   "2721-euv-shortup",
