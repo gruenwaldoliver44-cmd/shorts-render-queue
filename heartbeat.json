@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T18:46:02.259Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T18:48:00.784Z",
+ "current": "2756-esp-fluidtest3 since 2026-11-15 18:48:00",
+ "busy": true,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 83,
- "mem_free_pct": 67,
- "progress": null,
  "done": [
   "2755-esp-fluidtest2",
   "2760-nw-upload2",
@@ -49,8 +44,7 @@
   "2689-thumb-upload",
   "2688-sd-upload",
   "2687-sd-render",
-  "2686-sd-mux",
-  "2685-sd-render"
+  "2686-sd-mux"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2755-esp-fluidtest2",
-   "title": "MT Espresso · Flüssigkeits-Test",
-   "result": "fertig",
-   "at": "2026-11-15T18:45:02.166Z"
-  },
-  "updated": "2026-11-15T18:45:02.166Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2756-esp-fluidtest3",
+  "title": "MT Espresso · Flüssigkeits-Test",
+  "job_since": "2026-11-15T18:48:00.766Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T18:48:00.766Z"
+ }
 }
