@@ -1,0 +1,20 @@
+{
+ "id": "2736-cable-shortup",
+ "title": "MT Seekabel \u00b7 Short hochladen",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "copy",
+   "run": "cp \"$AGENT_HOME/repo/packs/cable/out/mt_cable_short.mp4\" . && ls -l mt_cable_short.mp4"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "mt_cable_short.mp4",
+   "type": "video/mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/3fb73b1b-ce11-4977-ab7a-013ba60b656e.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCGTTPZ7YGX%2F20261115%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261115T100435Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiSDBGAiEAz9LONRKOAFwA11gGugz7obg7GMhYZYKRrr3WwwELIscCIQDH0V%2FHD41NMkhX2rrfWgaJTZ4KylhVJxBIJJhezhZBSiqwBQiv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDU4Mjg4MTczMDcwMSIM4X1Bqo1k%2BeBmv2dwKoQFgnlGOsxUd3SDnbojiejGe5bK%2FLD3dsYdzcEx8mR5qqi8YQRdUXFQkKXoTtH1aWp%2B9Bv1Lctz1TYbrDljSFh8NexOqnNc9nmytR8opz8oR4ba9sGUtFsw9tpUTxVRAJhSN%2Bf8aJuEO%2BR2Lgx%2BQPRE5%2Fx7YOcN7ZziXF%2FP9kBkKF%2Ba%2FQxQhmpbY%2B0QYEwFSteQnfL89ru87j1ievhcBQ0mg2XyPIJvVjkJuiedKDbbDbGztjF%2BRSVoOX83zRaAeEyS4mGUIWc4KmEHQPX%2BaR5HuX4KPzVAgKh5k6ohu8tuu4CGj%2Bgmw17RTZ5E%2BSM0QP7a31j1wOVZAnz7GrN4mgttC2nwERQ6sqKec4bExbEmglGCmsdhIOwWMgUN51Bxr%2Fy4jTSfpXTVGcvRg5wQFnHjLIzgWc9KvBdwWjvSMlBZDJhQquzsv8j32CqPHRkhG4iw%2Fg1easRrNzWfSnWI1OagKl8RkMDjr99VLCJ763O0f0g4Hj0zHEvLzxHEBRol9jO1Kw0JS6z5MDSZNUfzXZGjvtljDHCVVS0dfu8LBtuOWrCsop%2Bdr15F3gYkNWbnFklJTYWYViiszbCcHJ%2BRXNSTM1Mr3COF4CmGHaJDXaf95ImYPHddlc%2B96nL538iXVtmpO5Bc5L4Jpk43eLkzNDAmEw5ZTWoTjje7JScHV3vqFk0sPf3E3ohI8QnPCJeJxJ9z1SjKp5EcPwdybOLf9rmzwpsmTQomHsZYqcY8LmM29VvN1cPPTQ1y9VrAzShqh8DLHlJB10ytCAC%2BesIFAz25VKnsK%2Ft0Vo1gW%2Bwam04Es0U%2FrnpzUeRlUXUttPODiuEYECFHNA9sMLRcCZ7KgOlSpCcS5NYwg6Dl1wY6jwGz4wW8ozZZDZszcJWpc84E28KzpnBxb66eQEbeR75KgKjWsPsgGd3gAXV6ix3fIYpq8T48eek8G9ccu7cR0mhuiCABECpqaarVTvg3V5Qnl6faWJgIlM8HMq%2BjiQAy%2FBtSSMQF6Ll9rGnEss3kaqUV3vVtnlhzpLcG9PppSV1WKaCtFT9ySrkPppFdSvlXjg%3D%3D&X-Amz-Signature=f8ce7f81d439c214978920dba06dce525a4cc265e056ca23abef01418f11b0ec"
+  }
+ ]
+}
