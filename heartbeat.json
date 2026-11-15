@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T10:12:46.280Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T10:14:45.218Z",
+ "current": "2741-ink-probe since 2026-11-15 10:14:45",
+ "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 11,
- "mem_free_pct": 78,
- "progress": null,
  "done": [
   "2740-ink-bksearch",
   "2736-cable-shortup",
@@ -49,8 +44,7 @@
   "2672-wk-render",
   "2679-bk4-render",
   "2678-bk3-render",
-  "2677-bk2-final2",
-  "2676-bk2-final"
+  "2677-bk2-final2"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2740-ink-bksearch",
-   "title": "MT Drucker · BlenderKit-Suche",
-   "result": "fertig",
-   "at": "2026-11-15T10:11:40.339Z"
-  },
-  "updated": "2026-11-15T10:11:40.339Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2741-ink-probe",
+  "title": "MT Drucker · Assets laden + prüfen",
+  "job_since": "2026-11-15T10:14:45.200Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T10:14:45.200Z"
+ }
 }
