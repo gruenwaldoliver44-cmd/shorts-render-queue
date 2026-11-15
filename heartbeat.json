@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T09:47:58.478Z",
+ "ts": "2026-11-15T09:48:46.318Z",
+ "source": "dashboard",
  "current": "2735-cable-fiberfix since 2026-11-15 09:47:58",
  "busy": true,
  "free_gb": 5,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 15,
+ "gpu": 76,
+ "mem_free_pct": 48,
+ "progress": null,
  "done": [
   "2734-cable-render",
   "2733-cable-stills2",
@@ -94,10 +99,12 @@
   "title": "MT Seekabel · Glasfaser-Szene neu",
   "job_since": "2026-11-15T09:47:58.461Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 2,
   "steps": 4,
-  "label": "Startet",
+  "label": "render",
+  "step_since": "2026-11-15T09:48:22.811Z",
   "progress": null,
-  "updated": "2026-11-15T09:47:58.461Z"
- }
+  "updated": "2026-11-15T09:48:22.811Z"
+ },
+ "queue": []
 }
