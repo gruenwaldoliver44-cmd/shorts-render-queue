@@ -1,0 +1,38 @@
+{
+ "printer": [
+  "e86f59e5-fddc-41ce-acc1-f1bf53f45637",
+  "https://www.blenderkit.com/api/v1/downloads/c9cba2d0-1c4f-49da-ad3c-4f269fe41aee/"
+ ],
+ "printer2": [
+  "731a5140-811a-4679-a848-a273ca19ba75",
+  "https://www.blenderkit.com/api/v1/downloads/8bbbf892-678c-4d05-a03a-e6458aa87624/"
+ ],
+ "solder": [
+  "3b63c95c-4a67-4b61-b6cc-d16e4d42ea31",
+  "https://www.blenderkit.com/api/v1/downloads/adee8ce2-76e7-4d7c-a535-b0a2d5561218/"
+ ],
+ "syringe": [
+  "1194f86a-6e07-4309-b1b4-b49968f0906b",
+  "https://www.blenderkit.com/api/v1/downloads/7daf882f-8b35-4950-97a3-27a4c46cdd42/"
+ ],
+ "syringe2": [
+  "ae05439a-c48d-4ff9-88d7-dba7203b92d9",
+  "https://www.blenderkit.com/api/v1/downloads/7fa669c0-ffe5-48c3-b4a6-f87fabff7697/"
+ ],
+ "bucket": [
+  "ef13daf8-140d-452f-8f11-6479aaefc410",
+  "https://www.blenderkit.com/api/v1/downloads/7139f656-0697-42f0-85c7-185062e96250/"
+ ],
+ "tower": [
+  "6b0f37ea-6334-4728-884d-3c4173917322",
+  "https://www.blenderkit.com/api/v1/downloads/a998534e-2644-4ddb-ab50-7ed212151390/"
+ ],
+ "microscope": [
+  "add6391e-481b-4ded-bad4-15b8d15145cb",
+  "https://www.blenderkit.com/api/v1/downloads/66f24f33-265a-4c14-930a-a0021524f151/"
+ ],
+ "grapes": [
+  "92f54add-7a99-4571-969b-494ff2914666",
+  "https://www.blenderkit.com/api/v1/downloads/01c54924-0bd9-4323-95a8-2220ff4545aa/"
+ ]
+}

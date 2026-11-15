@@ -1,0 +1,17 @@
+{
+ "id": "2742-ink-stills",
+ "title": "MT Drucker \u00b7 Standbilder Runde 1",
+ "type": "shell",
+ "timeout_min": 50,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/ink_main\" && cd \"$AGENT_HOME/work/ink_main\" && cp \"$AGENT_HOME/repo/packs/ink/\"* . && rm -rf s && bash prep.sh && cat build_info.json | head -c 1500"
+  },
+  {
+   "label": "stills",
+   "run": "cd \"$AGENT_HOME/work/ink_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b ink.blend -P ink_render.py -- stills 50 31,81,163,226,323,389,439,489,551,616,651,763,866,916,1039,1083,1176,1263,1339,1401,1426,1489,1531,1601 > st.log 2>&1; grep -a FRAME st.log | tr '\\n' ' '; a=\"build_info.json ink/e1/build_info.json\"; for f in s/f*.jpg; do a=\"$a $f ink/e1/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
