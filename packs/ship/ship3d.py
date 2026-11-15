@@ -22,13 +22,13 @@ SH = {
  "holo_orbit": ("HOLO", 10.95, [], {"orbit": (17, 6, 8, -75, -25)}),
  "holo_close": ("HOLO", 7.11,  [(0, (14, -4.6, 17.2), (-6, 0, 14.5), 22), (7.11, (-9, -4.6, 17.0), (-24, 0, 14), 22)], {}),
  "holo_shaft": ("HOLO", 6.68,  [(0, (-16, -1.9, 3.4), (-40, 0, 2.2), 24), (6.68, (-50, -1.9, 3.1), (-72, 0, 2.2), 24)], {}),
- "stern_prop": ("STERN", 8.42, [(0, (-19, -11, -1.5), (0, 0, 0), 26), (8.42, (-15, -12.5, -0.6), (0, 0, 0.3), 26)], {}),
+ "stern_prop": ("STERN", 8.42, [(0, (-12, -12.5, -4.8), (0, 0, 0.3), 24), (8.42, (-6.5, -14, -4.4), (0.5, 0, 0.5), 24)], {}),
  "crank_b":    ("CRANK", 3.01, [(0, (-0.6, -1.1, 0.45), (0, 0, 0.05), 40), (3.01, (-0.5, -1.0, 0.4), (0, 0, 0.05), 40)], {"air": 1}),
  "holo_eff":   ("HOLO", 7.22,  [(0, (22, -17, 3), (0, 0, 8), 20), (7.22, (20, -15.5, 12), (0, 0, 7), 20)], {}),
  "sea_top":    ("SEA", 11.45,  [(0, (80, 10, 430), (80, 0, 0), 28), (11.45, (-30, -10, 400), (-30, 0, 0), 28)], {"roll": 1}),
  "sea_wake":   ("SEA", 3.58,   [(0, (-430, 50, 70), (-120, 0, 12), 38), (3.58, (-410, 42, 66), (-120, 0, 12), 38)], {}),
  "sea_sunset": ("SEA", 8.2,    [(0, (-650, -320, 55), (0, 0, 20), 55), (8.2, (-610, -300, 50), (0, 0, 20), 55)], {"sunset": 1}),
- "stern_slow": ("STERN", 4.33, [(0, (-9, -6, 0.6), (0, 0, 0.3), 30), (4.33, (-8, -5.4, 0.5), (0, 0, 0.3), 30)], {}),
+ "stern_slow": ("STERN", 4.33, [(0, (-7, -12, -4), (0, 0, 0.5), 28), (4.33, (-6, -11, -3.8), (0, 0, 0.5), 30)], {}),
  "holo_end":   ("HOLO", 7.59,  [(0, (16, -14, 10), (0, 0, 9), 22), (7.59, (9, -9.5, 7.5), (0, 0, 9), 26)], {}),
  "sea_end":    ("SEA", 8.55,   [(0, (-900, 260, 95), (0, 0, 20), 45), (8.55, (-860, 245, 85), (0, 0, 20), 45)], {"sunset": 1}),
 }
@@ -275,7 +275,7 @@ def set_sea():
         world("kloofendal_48d_partly_cloudy_puresky", 1.0, rot=D(30)); sun((D(48), 0, D(-35)), 4.0)
     build_ship()
     V = 7.5   # m/s the water streams past the ship (ship appears to move +X)
-    oc = ocean("ocean", (-1000, -1000, 0), size=1000, res=14, wave_scale=1.6, choppy=1.1, wind=14, time_keys=[(0, 0.0), (DUR, DUR)])
+    oc = ocean("ocean", (-1000, -1000, 0), size=1000, res=10, wave_scale=1.6, choppy=1.1, wind=14, time_keys=[(0, 0.0), (DUR, DUR)])
     oc.modifiers["Ocean"].repeat_x = 3; oc.modifiers["Ocean"].repeat_y = 3
     K(oc, "location", 1); oc.location = (-1000 - V * DUR, -1000, 0); K(oc, "location", NFR + 1)
     far = prim("plane", "farsea", loc=(0, 0, -0.6), scale=(15000, 15000, 1), smooth=False); setmat(far, oc.data.materials[0])
@@ -358,7 +358,7 @@ def build_engine():
     P = dict(eng=paint("engpaint", (0.30, 0.36, 0.36), 0.45), dark=paint("darksteel", (0.07, 0.075, 0.08), 0.35, metal=0.6),
              silver=paint("insul", (0.62, 0.63, 0.64), 0.3, metal=0.9, grime=0.2, scale=6), yellow=paint("railyel", (0.85, 0.6, 0.05), 0.45),
              blue=paint("pipeblue", (0.08, 0.22, 0.45), 0.4), green=paint("pipegrn", (0.12, 0.35, 0.18), 0.4), red=paint("pipered", (0.5, 0.06, 0.04), 0.4),
-             floor=paint("floorpl", (0.12, 0.12, 0.13), 0.35, metal=0.7, grime=0.5, scale=3), wall=paint("wallp", (0.2, 0.24, 0.26), 0.6, grime=0.45))
+             floor=paint("floorpl", (0.12, 0.12, 0.13), 0.35, metal=0.7, grime=0.5, scale=3), wall=paint("wallp", (0.2, 0.24, 0.26), 0.6, grime=0.18, scale=0.4))
     xs = [(i - (NCYL - 1) / 2) * PITCH for i in range(NCYL)]
     L = NCYL * PITCH + 2.4
     bevel(setmat(cub("bedplate", (0, 0, 1.3), (L + 1, 6.6, 2.6)), P["eng"]), 0.06)
@@ -369,7 +369,7 @@ def build_engine():
     for k, x in enumerate((-8.5, 0.5, 9.5)):
         setmat(cylu("turbo%d" % k, (x, -5.6, 13.0), 1.45, 2.8, rot=(D(90), 0, 0)), P["silver"])
         setmat(cylu("turbocone%d" % k, (x, -7.3, 13.0), 0.9, 0.8, rot=(D(90), 0, 0)), P["dark"])
-        bevel(setmat(cub("cooler%d" % k, (x, -5.6, 9.6), (2.6, 2.2, 3.6)), P["dark"]), 0.05)
+        bevel(setmat(cub("cooler%d" % k, (x, -5.6, 9.6), (2.6, 2.2, 3.6)), paint("coolerp", (0.22, 0.26, 0.27), 0.75)), 0.05)
         for fz in range(8): setmat(cub("fin%d_%d" % (k, fz), (x, -6.72, 8.1 + fz * 0.42), (2.4, 0.06, 0.12)), P["silver"])
         setmat(cylu("tdown%d" % k, (x, -4.4, 14.2), 0.45, 1.6), P["silver"])
     for i, x in enumerate(xs):
@@ -424,8 +424,12 @@ def build_engine():
         point("pr%d" % k, (x, y, z), 500, (1.0, 0.78, 0.55), radius=0.4)
     # aft bulkhead with the shaft tunnel opening, intermediate shaft on bearings to the stern seal
     ZC = 2.2
-    setmat(prim("plane", "bulk", loc=(-45, 0, 13), rot=(0, D(90), 0), scale=(13, 20, 1), smooth=False), P["wall"])
+    for side in (-1, 1):
+        setmat(prim("plane", "bulk%d" % side, loc=(-45, side * 11.6, 13), rot=(0, D(90), 0), scale=(13, 8.4, 1), smooth=False), P["wall"])
+    setmat(prim("plane", "bulkT", loc=(-45, 0, 16.3), rot=(0, D(90), 0), scale=(9.7, 3.2, 1), smooth=False), P["wall"])
     setmat(cylu("shaft", (-38, 0, ZC), 0.42, 56, rot=(0, D(90), 0)), paint("shaftsteel", (0.55, 0.56, 0.58), 0.25, metal=1.0, grime=0.15, scale=8))
+    for k in range(4):
+        point("sp%d" % k, (-14 - k * 8, -2.5, 4.5), 700, (1.0, 0.82, 0.6), radius=0.3)
     for k in range(5):
         bevel(setmat(cub("bearing%d" % k, (-18 - k * 8, 0, ZC - 0.5), (1.2, 1.6, 1.4)), P["eng"]), 0.04)
     for k in range(3):
@@ -439,7 +443,7 @@ def build_engine():
     setmat(prim("plane", "tend", loc=(-71.5, 0, 3), rot=(0, D(90), 0), scale=(3, 3.2, 1), smooth=False), P["dark"])
     for k in range(6):
         setmat(cub("tl%d" % k, (-48 - k * 4, 0, 5.5), (1.5, 0.15, 0.08)), lamp_m)
-        point("tp%d" % k, (-48 - k * 4, 0, 5.0), 120, (1.0, 0.86, 0.68), radius=0.2)
+        point("tp%d" % k, (-48 - k * 4, 1.5, 5.0), 900, (1.0, 0.86, 0.68), radius=0.3)
     # rotating shaft (76 rpm): rotation key so flanges/bearing highlights move
     sh = bpy.data.objects["shaft"]
     sh.rotation_euler = (0, D(90), 0); K(sh, "rotation_euler", 1)
@@ -482,7 +486,7 @@ def build_propeller(name, loc, R, holo=False, blades=6):
         o.parent = root; o.rotation_euler = (b * 2 * math.pi / blades, 0, 0)
         objs.append(o)
     if True:
-        bronze = mat("bronze", (0.62, 0.42, 0.22), 0.28, metal=1.0)
+        bronze = paint("bronze", (0.72, 0.5, 0.28), 0.22, metal=1.0, grime=0.25, scale=3)
         for o in objs: setmat(o, bronze)
         sub = None
     return root
@@ -494,32 +498,35 @@ def set_engine():
 
 # ------------------------------------------------------------------ underwater stern
 def set_stern():
-    world(None, 1.0, back=(0.02, 0.13, 0.15), vol=((0.3, 0.75, 0.75), 0.02, 0.55))
-    sun((D(25), D(10), D(30)), 8.0, (0.85, 1.0, 0.95), 2.0)
-    area("uwfill", (-14, -10, -6), (D(110), 0, D(-55)), 30000, size=12, col=(0.55, 0.9, 0.9))
-    area("uwkey", (-6, -14, 4), (D(70), 0, D(-25)), 18000, size=6, col=(0.9, 1.0, 0.95))
-    # hull bottom above the propeller (stern section of the same hull, local)
+    world("kloofendal_48d_partly_cloudy_puresky", 1.0, rot=D(200)); sun((D(55), 0, D(-120)), 4.5)
+    # the ship sits in a dry dock: hull bottom above, keel blocks, concrete floor and walls
     h = build_hull("sternhull", sections=80); h.location = (190, 0, 13.5)
-    shaftm = mat("steelshaft", (0.4, 0.4, 0.42), 0.3, metal=1.0)
+    conc = paint("dockconc", (0.42, 0.41, 0.39), 0.85, grime=0.5, scale=0.6)
+    fl = setmat(prim("plane", "dockfloor", loc=(60, 0, -7.5), scale=(160, 45, 1), smooth=False), conc)
+    for side in (-1, 1):
+        setmat(prim("plane", "dockwall%d" % side, loc=(60, side * 45, 4), rot=(D(90), 0, 0), scale=(160, 12, 1), smooth=False), conc)
+    setmat(prim("plane", "dockend", loc=(-60, 0, 4), rot=(0, D(90), 0), scale=(12, 45, 1), smooth=False), conc)
+    wood = paint("keelblk", (0.3, 0.2, 0.12), 0.8)
+    for k in range(14):
+        x = 14 + k * 12
+        zb = hull_bottom(x - 190) + 13.5
+        box("kb%d" % k, (x, 0, (-7.5 + zb) / 2), (1.6, 3.2, max(0.5, zb + 7.5)), wood)
+    shaftm = mat("steelshaft", (0.5, 0.5, 0.52), 0.3, metal=1.0)
     s = cylu("shaft", (6, 0, 0), 0.5, 12, rot=(0, D(90), 0)); setmat(s, shaftm)
-    boss = cylu("boss", (13, 0, 0), 1.3, 3, rot=(0, D(90), 0)); setmat(boss, mat("hullred", (0.32, 0.035, 0.03), 0.6))
-    rud = cub("rudder", (-7, 0, 1), (5, 0.9, 12)); setmat(rud, mat("hullred", (0.32, 0.035, 0.03), 0.6))
+    red = paint("hullred2", (0.32, 0.04, 0.03), 0.6)
+    boss = cylu("boss", (13, 0, 0), 1.3, 3, rot=(0, D(90), 0)); setmat(boss, red)
+    rud = cub("rudder", (-8, 0, 1.5), (5, 0.9, 12)); bevel(setmat(rud, red), 0.2)
     prop = build_propeller("prop", (0, 0, 0), 4.8, holo=False)
-    rps = 76.0 / 60.0
-    prop.rotation_euler = (0, 0, 0); K(prop, "rotation_euler", 1)
-    prop.rotation_euler = (2 * math.pi * rps * DUR, 0, 0); K(prop, "rotation_euler", NFR + 1)
-    # bubbles: particles from a ring at the blade tips
-    em = cylu("bubsrc", (0.3, 0, 0), 4.6, 0.4, rot=(0, D(90), 0)); em.hide_render = True
-    bub = prim("ico", "bubble", loc=(0, 0, -50), radius=0.05, subdivisions=1); setmat(bub, mat("bubm", (0.9, 1, 1), 0.05, trans=1.0, ior=1.0))
-    em.modifiers.new("ps", "PARTICLE_SYSTEM"); ps = em.particle_systems[0].settings
-    ps.count = 6000; ps.frame_start = -200; ps.frame_end = NFR; ps.lifetime = 120; ps.normal_factor = 0.3
-    ps.object_align_factor = (-1.5, 0, 0); ps.factor_random = 0.6
-    ps.render_type = "OBJECT"; ps.instance_object = bub; ps.particle_size = 1.0; ps.size_random = 0.8
-    ps.effector_weights.gravity = -0.03
-    # light shafts from above
-    for k in range(4):
-        spot("ray%d" % k, (-10 + k * 8, -4 + k * 2, 40), (0, 0, 0), 60000, size_deg=12, blend=0.9, col=(0.8, 1, 0.95), radius=0.5)
-    setattr_safe(sc.eevee, "volumetric_end", 120.0)
+    area("propfill", (-10, -12, -6), (D(115), 0, D(-40)), 6000, size=8, col=(1.0, 0.92, 0.8))
+    rps = 76.0 / 60.0 * 0.25
+    prop.rotation_euler = (0, 0, 0); K(prop, "rotation_euler", 1, "LINEAR")
+    prop.rotation_euler = (2 * math.pi * rps * DUR, 0, 0); K(prop, "rotation_euler", NFR + 1, "LINEAR")
+    # scaffolding poles and a tiny worker-height railing for scale
+    yel = paint("scaf", (0.85, 0.6, 0.05), 0.5)
+    for k in range(6):
+        setmat(cylu("pole%d" % k, (-14 + k * 2.4, 9, -2), 0.05, 11, verts=8), yel)
+    setmat(cylu("scafrail", (-8, 9, -6.4), 0.04, 13, verts=8, rot=(0, D(90), 0)), yel)
+    setmat(cylu("scafrail2", (-8, 9, 3.5), 0.04, 13, verts=8, rot=(0, D(90), 0)), yel)
 
 # ------------------------------------------------------------------ crank (BlenderKit 'Car Engine ANIMATED' x-ray asset)
 def set_crank():
@@ -563,8 +570,16 @@ else:
 if SET == "CRANK":
     cam_d.dof.use_dof = True; cam_d.dof.focus_object = tgt; cam_d.dof.aperture_fstop = 2.8
 
-for k in ("taa_render_samples",):
-    setattr_safe(sc.eevee, k, 24 if SET in ("SEA", "PORT", "STERN") else 16)
+# speed profile (Mac must finish ~3,000 frames overnight): half resolution (upscaled in the edit), no ray tracing, no motion blur
+FAST = os.environ.get("SHIPFAST", "1") == "1"
+if FAST:
+    setattr_safe(sc.eevee, "taa_render_samples", 12 if SET in ("SEA", "PORT") else 10)
+    setattr_safe(sc.eevee, "use_raytracing", False)
+    setattr_safe(sc.render, "use_motion_blur", False)
+    setattr_safe(sc.eevee, "shadow_ray_count", 1); setattr_safe(sc.eevee, "shadow_step_count", 2)
+    setattr_safe(sc.eevee, "volumetric_samples", 24); setattr_safe(sc.eevee, "volumetric_tile_size", "16")
+else:
+    setattr_safe(sc.eevee, "taa_render_samples", 24 if SET in ("SEA", "PORT", "STERN") else 16)
 
 print("SHIP3D BUILT", SHOT, SET, NFR, "notes:", NOTES[:30], "assets:", INFO_ASSETS, "t=%.1f" % (time.time() - T0))
 
@@ -581,7 +596,7 @@ if MODE == "still":
         bpy.ops.render.render(write_still=True)
     print("SHIP3D STILLS", SHOT, "t=%.1f" % (time.time() - T0))
 else:
-    od = os.path.join(os.getcwd(), "r_" + SHOT); os.makedirs(od, exist_ok=True)
+    od = os.path.join(os.getcwd(), "r_" + SHOT + os.environ.get("RTAG", "")); os.makedirs(od, exist_ok=True)
     for f in range(1, NFR + 1):
         p = os.path.join(od, "f%04d.jpg" % f)
         if os.path.exists(p) and os.path.getsize(p) > 1000: continue
