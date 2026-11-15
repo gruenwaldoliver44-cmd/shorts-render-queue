@@ -1,0 +1,21 @@
+{
+ "id": "2690-nw-render",
+ "title": "No-Longer-Worth-It-Video rendern (1)",
+ "type": "shell",
+ "timeout_min": 150,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "unpack",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && [ \"$(md5 -q nw/nw_bundle1.tgz)\" = 309d2ef00c2fa64e22c6678f09a3cba7 ] && [ \"$(md5 -q nw/nw_mix.m4a)\" = 2310604672dec7e1c8ad588bb65c8c3c ] && rm -rf nw/bundle && mkdir -p nw/bundle && tar xzf nw/nw_bundle1.tgz -C nw/bundle && for f in nw/bundle/*.js; do [ -f \"$f.map\" ] || echo '{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\"}' > \"$f.map\"; done && ls nw/bundle/public | wc -l"
+  },
+  {
+   "label": "render",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion render nw/bundle P nw_out.mp4 --gl=angle --crf=18 --muted --concurrency=6 --timeout=180000 --log=error"
+  },
+  {
+   "label": "mux",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && npx remotion ffmpeg -y -v error -i nw_out.mp4 -i nw/nw_mix.m4a -map 0:v -map 1:a -c:v copy -c:a copy nw_film.mp4 && npx remotion ffmpeg -y -v error -i nw_film.mp4 -vf scale=1280:720 -c:v libx264 -preset veryfast -crf 27 -c:a aac -b:a 128k nw_720.mp4 && ls -l nw_film.mp4 nw_720.mp4 > nw_done1.txt; cat nw_done1.txt"
+  }
+ ]
+}
