@@ -1,15 +1,15 @@
 {
- "ts": "2026-11-15T09:10:46.236Z",
+ "ts": "2026-11-15T09:12:46.230Z",
  "source": "dashboard",
  "current": "2734-cable-render since 2026-11-15 09:09:05",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 1,
- "cpu": 13,
- "gpu": 90,
- "mem_free_pct": 61,
+ "cpu": 14,
+ "gpu": 86,
+ "mem_free_pct": 51,
  "progress": {
-  "n": 58,
+  "n": 157,
   "total": 1450,
   "eta_min": null
  },
