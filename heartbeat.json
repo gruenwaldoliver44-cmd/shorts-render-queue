@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T09:02:46.283Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T09:03:33.275Z",
+ "current": "2733-cable-stills2 since 2026-11-15 09:03:33",
+ "busy": true,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 13,
- "mem_free_pct": 75,
- "progress": null,
  "done": [
   "2732-cable-stills",
   "2731-cable-probe",
@@ -49,8 +44,7 @@
   "2675-bk2-render",
   "2671-bk-thumb",
   "2670-bk-upload",
-  "2669-bk-render2",
-  "2668-bk-preview"
+  "2669-bk-render2"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2732-cable-stills",
-   "title": "MT Seekabel · Szene bauen + Eevee-Standbilder",
-   "result": "fertig",
-   "at": "2026-11-15T08:59:02.792Z"
-  },
-  "updated": "2026-11-15T08:59:02.792Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2733-cable-stills2",
+  "title": "MT Seekabel · Standbilder Runde 2",
+  "job_since": "2026-11-15T09:03:33.257Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T09:03:33.257Z"
+ }
 }
