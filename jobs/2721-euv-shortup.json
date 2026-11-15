@@ -1,0 +1,20 @@
+{
+ "id": "2721-euv-shortup",
+ "title": "MT EUV \u00b7 Short hochladen",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "copy",
+   "run": "cp \"$AGENT_HOME/repo/packs/euv/out/mt_euv_short.mp4\" . && ls -l mt_euv_short.mp4"
+  }
+ ],
+ "uploads": [
+  {
+   "file": "mt_euv_short.mp4",
+   "type": "video/mp4",
+   "url": "https://upload.higgsfield.ai/user_38Z8oWSnRHNn2APJObaAQyRFvxH/95f84c47-fe18-4426-b42b-e8bd79e26f0a.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAYPNTVMCG5DLUY7AE%2F20261115%2Feu-north-1%2Fs3%2Faws4_request&X-Amz-Date=20261115T005141Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=content-type%3Bhost%3Bif-none-match&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmV1LW5vcnRoLTEiRjBEAiAyhO3HawlMLgyJ56QX51csyHAm%2Fnqnpts4Ei7001N4MgIgLJN9Gb2WSEue7VDkhmHJKRL%2FWltnPzpT%2BWJ00y5DKvwqsAUIqf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw1ODI4ODE3MzA3MDEiDGvQepLUIkyXjg9NjyqEBUhUCo3lv%2F0dmV9QwzikXx0TPC1cHlE5yNpqvAGs78Kiwh93EmpLOUBusX6GG7rdhlXf2Cuwhm3D6JClGXRVPD04%2BGsFByP6S%2FSY937txumKIdfZro3qTwQ2u8YDiv6Sg4IHrwHTeFR7bIqx813QGVJEEBOTicWMXjuw%2FkCtM4edf9HM8V7q9wvgPCi4nu1IkBEnIZ3O38sSmk5YaT6yhu9t11aF45RQSD%2B%2BSf9vx0p49j70%2FKnQZFM36Vxv9jhBO7sjWAGcDSIubR1HUSOD7CBKhyz0yoLqSY9qwsSipXoyupp9PYA8M5hl6EyfdWjah0j%2B8BH1Leq1dxcfZmU5BHIrOhDEDZ96a2ztE7I7bQZr8RFx9Nyom1hZJTiWTOU%2FjmAMtyfOUm5m1CQA46ZT0sLCpRu9zG7SX0B%2BsbljwX52cbAcRapMfTXwvxLqYs2PqRb0%2Bp4Iei2GVTGY9KDrj%2FXFwDF0J5MNYdHpLPJqEyWIyXRODTsrTQbf42ClBDTvHxauxotFwZeAxT7g70rjIrvQ%2FSPJQPbwez5c0sjN9%2BbjpSCGRVbTAZ%2FMDBkSBkY45ZgoP2hVQ6gI3qWoqBTk070pEyKxvHnmRUviNppRAyX5w5G058Ests0pBUo1qQ4QtTjts84Vp1jl1NHeZILnKnHIlNRerZy%2FM%2BUF1M%2F2Au%2FNB70WfDNHwibqmayZ7AhQbzqoZxI9sBVtgGMo1PKkd6xGYkbme9Fi6ZWNXWc0pmV2P3k5qaQCx7QG1Xs6ajUQe%2B6xZy0T5PiJ2UFyD54d8MxTinJHYsrnjLNC8gw4DR4bL7zplzxkVildNdOG5UrPNys8w1rDRlUoAYXrxeIxlqKZ4EpcMLTr49cGOpEBNHrr%2F36pl4jlXAwnVoccF5jYheCbwc8bmZmK3dTyRkQuqdZPagkuEJ4uebrJDxck%2BNi%2BOR6fIEJ3UDcx%2FfM5x8SFmIiSCyi10%2B8P1HUTvoyCqlJzvfdLUeqHcOt7rZybChWL%2Fcuwuu4mfYi66HBsDklb9fvFdizCxVLNh9g%2B4kUTdia3SCowm95ObdjLhbcYSA%3D%3D&X-Amz-Signature=ae9ca15cf4d1d1d74de28999fdb390ad7eb68248ef8b1cec6b00c94129458af0"
+  }
+ ]
+}
