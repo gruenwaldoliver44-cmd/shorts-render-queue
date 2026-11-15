@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-15T21:01:40.879Z",
+ "ts": "2026-11-15T21:03:40.907Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 41,
+ "cpu": 14,
+ "gpu": 33,
  "mem_free_pct": 72,
  "progress": null,
  "done": [
