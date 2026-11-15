@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T09:54:46.272Z",
- "source": "dashboard",
+ "ts": "2026-11-15T09:56:35.845Z",
  "current": "",
  "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 21,
- "mem_free_pct": 67,
- "progress": null,
  "done": [
   "2735-cable-fiberfix",
   "2734-cable-render",
@@ -49,8 +44,7 @@
   "2678-bk3-render",
   "2677-bk2-final2",
   "2676-bk2-final",
-  "2675-bk2-render",
-  "2671-bk-thumb"
+  "2675-bk2-render"
  ],
  "failed": [
   "2714-euv-encode",
@@ -103,6 +97,5 @@
    "at": "2026-11-15T09:50:39.595Z"
   },
   "updated": "2026-11-15T09:50:39.595Z"
- },
- "queue": []
+ }
 }
