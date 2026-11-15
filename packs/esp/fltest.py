@@ -27,6 +27,7 @@ def bk_file(key):
 sc = bpy.context.scene
 sc.render.engine = "BLENDER_EEVEE"; sc.render.resolution_x = 640; sc.render.resolution_y = 480
 sc.render.image_settings.file_format = "JPEG"
+import bmesh, time
 # ---- espresso pour: Mantaflow liquid test
 D = math.radians
 for o in list(bpy.data.objects): bpy.data.objects.remove(o, do_unlink=True)
@@ -40,10 +41,21 @@ try: ee.ray_tracing_options.resolution_scale = "1"
 except Exception: pass
 sc.view_settings.view_transform = "AgX"
 def load(key, loc):
-    p = bk_file(key)
-    with bpy.data.libraries.load(p, link=False) as (df, dt):
-        dt.objects = list(df.objects)
-    objs = [o for o in dt.objects if o]
+    try:
+        p = bk_file(key)
+        with bpy.data.libraries.load(p, link=False) as (df, dt):
+            dt.objects = list(df.objects)
+        objs = [o for o in dt.objects if o]
+    except Exception as e:
+        print("LOAD FALLBACK", key, e)
+        if key == "portafilter":
+            bpy.ops.mesh.primitive_cylinder_add(radius=0.035, depth=0.025, location=(0, 0, 0.05)); a = bpy.context.object; a.name = "basket"
+            bpy.ops.mesh.primitive_cylinder_add(radius=0.006, depth=0.02, location=(0, 0, 0.03)); b = bpy.context.object; b.name = "spout"
+            objs = [a, b]
+        else:
+            bpy.ops.mesh.primitive_cylinder_add(radius=0.035, depth=0.08, location=(0, 0, 0.04)); objs = [bpy.context.object]
+        for o in objs:
+            for c in list(o.users_collection): c.objects.unlink(o)
     root = bpy.data.objects.new("root_" + key, None); sc.collection.objects.link(root)
     for o in objs:
         sc.collection.objects.link(o)
@@ -117,9 +129,9 @@ for i, dy in enumerate((-0.0085, 0.0085)):
     fs.use_initial_velocity = True; fs.velocity_coord = (0, 0, -0.25)
     fs.use_plane_init = False
     io.hide_render = True
-    fs.use_flow = True
-    fs.keyframe_insert("use_flow", frame=1); fs.use_flow = True; fs.keyframe_insert("use_flow", frame=70)
-    fs.use_flow = False; fs.keyframe_insert("use_flow", frame=72)
+    fs.use_inflow = True
+    fs.keyframe_insert("use_inflow", frame=1); fs.use_inflow = True; fs.keyframe_insert("use_inflow", frame=70)
+    fs.use_inflow = False; fs.keyframe_insert("use_inflow", frame=72)
 m3 = col.modifiers.new("Fluid", "FLUID"); m3.fluid_type = "EFFECTOR"; m3.effector_settings.effector_type = "COLLISION"
 t0 = time.time() if "time" in dir() else 0
 import time as _t; t0 = _t.time()
