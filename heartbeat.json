@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T18:14:36.537Z",
+ "ts": "2026-11-15T18:16:02.128Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 49,
+ "mem_free_pct": 82,
+ "progress": null,
  "done": [
   "2753-esp-liquid-search",
   "2751-esp-stills1",
@@ -97,5 +102,6 @@
    "at": "2026-11-15T18:02:35.327Z"
   },
   "updated": "2026-11-15T18:02:35.327Z"
- }
+ },
+ "queue": []
 }
