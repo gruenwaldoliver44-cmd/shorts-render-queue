@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T09:48:46.318Z",
+ "ts": "2026-11-15T09:50:46.310Z",
  "source": "dashboard",
- "current": "2735-cable-fiberfix since 2026-11-15 09:47:58",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 5,
- "blender_procs": 1,
- "cpu": 15,
- "gpu": 76,
- "mem_free_pct": 48,
+ "blender_procs": 0,
+ "cpu": 26,
+ "gpu": 77,
+ "mem_free_pct": 67,
  "progress": null,
  "done": [
+  "2735-cable-fiberfix",
   "2734-cable-render",
   "2733-cable-stills2",
   "2732-cable-stills",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2735-cable-fiberfix",
-  "title": "MT Seekabel · Glasfaser-Szene neu",
-  "job_since": "2026-11-15T09:47:58.461Z",
-  "timeout_min": 60,
-  "step": 2,
-  "steps": 4,
-  "label": "render",
-  "step_since": "2026-11-15T09:48:22.811Z",
-  "progress": null,
-  "updated": "2026-11-15T09:48:22.811Z"
+  "state": "idle",
+  "last": {
+   "job": "2735-cable-fiberfix",
+   "title": "MT Seekabel · Glasfaser-Szene neu",
+   "result": "fertig",
+   "at": "2026-11-15T09:50:39.595Z"
+  },
+  "updated": "2026-11-15T09:50:39.595Z"
  },
  "queue": []
 }
