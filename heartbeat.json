@@ -1,18 +1,9 @@
 {
- "ts": "2026-11-15T17:58:30.387Z",
- "source": "dashboard",
+ "ts": "2026-11-15T17:59:32.764Z",
  "current": "2752-esp-preview since 2026-11-15 17:48:17",
- "busy": true,
+ "busy": false,
  "free_gb": 16,
- "blender_procs": 1,
- "cpu": 35,
- "gpu": 82,
- "mem_free_pct": 58,
- "progress": {
-  "n": 307,
-  "total": 1490,
-  "eta_min": null
- },
+ "blender_procs": 0,
  "done": [
   "2751-esp-stills1",
   "2750-esp-probe2b",
@@ -112,8 +103,5 @@
    "total": 1490
   },
   "updated": "2026-11-15T17:49:16.604Z"
- },
- "queue": [
-  "2753-esp-liquid-search"
- ]
+ }
 }
