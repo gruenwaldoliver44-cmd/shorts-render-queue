@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T21:28:57.072Z",
- "source": "dashboard",
+ "ts": "2026-11-15T21:35:02.257Z",
  "current": "",
  "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 16,
- "gpu": 27,
- "mem_free_pct": 75,
- "progress": null,
  "done": [
   "2763-ship-bksearch",
   "2762-esp-fluidtest5",
@@ -102,6 +97,5 @@
    "at": "2026-11-15T20:48:11.809Z"
   },
   "updated": "2026-11-15T20:48:11.809Z"
- },
- "queue": []
+ }
 }
