@@ -1,18 +1,14 @@
 {
- "ts": "2026-11-15T09:40:46.266Z",
+ "ts": "2026-11-15T09:42:46.380Z",
  "source": "dashboard",
  "current": "2734-cable-render since 2026-11-15 09:09:05",
  "busy": true,
  "free_gb": 5,
- "blender_procs": 1,
- "cpu": 13,
- "gpu": 94,
- "mem_free_pct": 41,
- "progress": {
-  "n": 1366,
-  "total": 1450,
-  "eta_min": 2
- },
+ "blender_procs": 0,
+ "cpu": 24,
+ "gpu": 93,
+ "mem_free_pct": 64,
+ "progress": null,
  "done": [
   "2733-cable-stills2",
   "2732-cable-stills",
@@ -103,15 +99,12 @@
   "title": "MT Seekabel · bauen + rendern + Video",
   "job_since": "2026-11-15T09:09:05.277Z",
   "timeout_min": 200,
-  "step": 2,
+  "step": 3,
   "steps": 4,
-  "label": "render",
-  "step_since": "2026-11-15T09:09:30.393Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/cable_main/r",
-   "total": 1450
-  },
-  "updated": "2026-11-15T09:09:30.393Z"
+  "label": "encode",
+  "step_since": "2026-11-15T09:42:29.896Z",
+  "progress": null,
+  "updated": "2026-11-15T09:42:29.896Z"
  },
  "queue": []
 }
