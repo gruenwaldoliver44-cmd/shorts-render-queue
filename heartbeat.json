@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-15T10:46:28.610Z",
+ "ts": "2026-11-15T10:48:28.623Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 12,
+ "cpu": 12,
+ "gpu": 11,
  "mem_free_pct": 74,
  "progress": null,
  "done": [
@@ -104,5 +104,7 @@
   },
   "updated": "2026-11-15T10:43:29.380Z"
  },
- "queue": []
+ "queue": [
+  "2743-ink-stills2"
+ ]
 }
