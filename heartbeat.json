@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-15T13:22:29.231Z",
+ "ts": "2026-11-15T13:24:29.228Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 5,
- "gpu": 1,
+ "cpu": 3,
+ "gpu": 0,
  "mem_free_pct": 81,
  "progress": null,
  "done": [
@@ -104,10 +104,6 @@
   "updated": "2026-11-15T10:43:29.380Z"
  },
  "queue": [
-  "2636-tupper-film1",
-  "2650-ki2-render",
-  "2703-euv-bksearch2",
-  "2714-euv-encode",
   "2743-ink-stills2",
   "2744-ink-render"
  ]
