@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-15T22:31:15.584Z",
+ "ts": "2026-11-15T22:33:15.611Z",
  "source": "dashboard",
  "current": "2766-ship-render-a since 2026-11-15 22:17:08",
  "busy": true,
@@ -7,7 +7,7 @@
  "blender_procs": 1,
  "cpu": 6,
  "gpu": 99,
- "mem_free_pct": 52,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2765-ship-stills",
