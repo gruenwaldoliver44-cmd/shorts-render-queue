@@ -1,12 +1,12 @@
 {
- "ts": "2026-11-15T20:26:17.521Z",
+ "ts": "2026-11-15T20:28:17.432Z",
  "source": "dashboard",
  "current": "2762-esp-fluidtest5 since 2026-11-15 20:25:27",
  "busy": true,
  "free_gb": 15,
  "blender_procs": 1,
- "cpu": 36,
- "gpu": 17,
+ "cpu": 68,
+ "gpu": 16,
  "mem_free_pct": 72,
  "progress": null,
  "done": [
