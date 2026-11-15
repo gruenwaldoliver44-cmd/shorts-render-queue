@@ -1,0 +1,17 @@
+{
+ "id": "2732-cable-stills",
+ "title": "MT Seekabel \u00b7 Szene bauen + Eevee-Standbilder",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/cable_main\" && cd \"$AGENT_HOME/work/cable_main\" && cp \"$AGENT_HOME/repo/packs/cable/\"* . && bash prep.sh"
+  },
+  {
+   "label": "stills",
+   "run": "cd \"$AGENT_HOME/work/cable_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b cable.blend -P cable_render.py -- stills 50 27,67,107,155,234,328,431,529,617,732,897,1008,1077,1110,1140,1189,1281,1406,1445 > st.log 2>&1; grep -a '^FRAME' st.log | tr '\\n' ' ' > timing.txt; cp build_info.json bi.json; a=\"timing.txt cable/e1/timing.txt bi.json cable/e1/build_info.json b2.log cable/e1/b2.log\"; for f in s/f*.jpg; do a=\"$a $f cable/e1/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}

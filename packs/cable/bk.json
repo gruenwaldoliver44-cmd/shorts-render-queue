@@ -1,0 +1,18 @@
+{
+ "shark": [
+  "b3144af4-84d9-4001-823b-cc89c3562a52",
+  "https://www.blenderkit.com/api/v1/downloads/c6e09040-990c-46e6-a669-a92e25c8e8da/"
+ ],
+ "anchor2": [
+  "c37e518f-307a-490c-96ef-e7da0bcb1f31",
+  "https://www.blenderkit.com/api/v1/downloads/2542b9b5-094a-40ac-9cbe-70bca5532e45/"
+ ],
+ "satellite": [
+  "eed181f3-9b62-436f-b305-1982be0b1542",
+  "https://www.blenderkit.com/api/v1/downloads/3345d815-f47a-42b1-aefc-8193c8c1f3c2/"
+ ],
+ "phone": [
+  "106914b1-126a-4abd-8e2f-95890b360652",
+  "https://www.blenderkit.com/api/v1/downloads/f4bd470a-a1e0-4913-bd83-bf73b93d65ac/"
+ ]
+}
