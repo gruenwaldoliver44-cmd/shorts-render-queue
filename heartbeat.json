@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T10:06:46.250Z",
+ "ts": "2026-11-15T10:08:46.326Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 14,
- "gpu": 18,
- "mem_free_pct": 74,
+ "cpu": 21,
+ "gpu": 30,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2736-cable-shortup",
