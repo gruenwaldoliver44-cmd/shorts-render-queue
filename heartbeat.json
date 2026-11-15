@@ -1,14 +1,18 @@
 {
- "ts": "2026-11-15T15:06:29.690Z",
+ "ts": "2026-11-15T15:08:29.632Z",
  "source": "dashboard",
  "current": "2744-ink-render since 2026-11-15 15:06:24",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 1,
- "cpu": 5,
- "gpu": 83,
- "mem_free_pct": 77,
- "progress": null,
+ "cpu": 22,
+ "gpu": 93,
+ "mem_free_pct": 57,
+ "progress": {
+  "n": 52,
+  "total": 1663,
+  "eta_min": null
+ },
  "done": [
   "2743-ink-stills2",
   "2742-ink-stills",
@@ -99,12 +103,15 @@
   "title": "MT Drucker · rendern + Video",
   "job_since": "2026-11-15T15:06:24.748Z",
   "timeout_min": 240,
-  "step": 1,
+  "step": 2,
   "steps": 4,
-  "label": "prep",
-  "step_since": "2026-11-15T15:06:26.504Z",
-  "progress": null,
-  "updated": "2026-11-15T15:06:26.504Z"
+  "label": "render",
+  "step_since": "2026-11-15T15:06:29.742Z",
+  "progress": {
+   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/ink_main/r",
+   "total": 1663
+  },
+  "updated": "2026-11-15T15:06:29.742Z"
  },
  "queue": []
 }
