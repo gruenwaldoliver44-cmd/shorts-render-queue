@@ -1,17 +1,17 @@
 {
- "ts": "2026-11-15T09:24:46.277Z",
+ "ts": "2026-11-15T09:26:46.280Z",
  "source": "dashboard",
  "current": "2734-cable-render since 2026-11-15 09:09:05",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 1,
  "cpu": 10,
- "gpu": 89,
- "mem_free_pct": 41,
+ "gpu": 86,
+ "mem_free_pct": 44,
  "progress": {
-  "n": 718,
+  "n": 801,
   "total": 1450,
-  "eta_min": 16
+  "eta_min": 14
  },
  "done": [
   "2733-cable-stills2",
