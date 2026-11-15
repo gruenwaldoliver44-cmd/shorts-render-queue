@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-15T17:41:18.255Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T17:41:33.790Z",
+ "current": "2751-esp-stills1 since 2026-11-15 17:41:33",
+ "busy": true,
  "free_gb": 19,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2750-esp-probe2b",
-   "title": "MT Espresso · Materialien + Ansichten",
-   "result": "fertig",
-   "at": "2026-11-15T17:30:28.737Z"
-  },
-  "updated": "2026-11-15T17:30:28.737Z"
+  "state": "busy",
+  "job": "2751-esp-stills1",
+  "title": "MT Espresso · Standbilder Runde 1",
+  "job_since": "2026-11-15T17:41:33.768Z",
+  "timeout_min": 50,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:41:33.768Z"
  }
 }
