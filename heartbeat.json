@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T18:16:02.128Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T18:16:07.933Z",
+ "current": "2754-esp-fluidtest since 2026-11-15 18:16:07",
+ "busy": true,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 19,
- "gpu": 49,
- "mem_free_pct": 82,
- "progress": null,
  "done": [
   "2753-esp-liquid-search",
   "2751-esp-stills1",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2753-esp-liquid-search",
-   "title": "MT Espresso · Suche Kaffee/Flüssigkeit",
-   "result": "fertig",
-   "at": "2026-11-15T18:02:35.327Z"
-  },
-  "updated": "2026-11-15T18:02:35.327Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2754-esp-fluidtest",
+  "title": "MT Espresso · Flüssigkeits-Test",
+  "job_since": "2026-11-15T18:16:07.912Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T18:16:07.912Z"
+ }
 }
