@@ -1,11 +1,11 @@
 {
- "ts": "2026-11-15T22:07:15.501Z",
+ "ts": "2026-11-15T22:09:15.498Z",
  "source": "dashboard",
  "current": "2765-ship-stills since 2026-11-15 21:58:21",
  "busy": true,
  "free_gb": 11,
  "blender_procs": 1,
- "cpu": 5,
+ "cpu": 6,
  "gpu": 99,
  "mem_free_pct": 52,
  "progress": null,
