@@ -1,0 +1,231 @@
+{
+ "images": [
+  [
+   "Cup Warmer Grid.jpg",
+   "/Desktop/Blender Asset/10 Generated Texturess/Cup Warmer Grid.jpg",
+   true,
+   [
+    1080,
+    1080
+   ],
+   true
+  ],
+  [
+   "Drip Tray Grid.jpg",
+   "/Desktop/Blender Asset/10 Generated Texturess/Drip Tray Grid.jpg",
+   true,
+   [
+    1920,
+    1080
+   ],
+   true
+  ],
+  [
+   "LaMarzocco Logo.png",
+   "/Desktop/#1 Blender Projects/Coffee Machine/Linea Mini/LaMarzocco Logo.png",
+   true,
+   [
+    500,
+    500
+   ],
+   true
+  ],
+  [
+   "Metal032_2K_Displacement.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Metal032_2K-JPG-Smooth Grey Aluminuym/Stainless Steel/Metal032_2K_Displacement.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal032_2K_Metalness.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Metal032_2K-JPG-Smooth Grey Aluminuym/Stainless Steel/Metal032_2K_Metalness.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal032_2K_Normal.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Metal032_2K-JPG-Smooth Grey Aluminuym/Stainless Steel/Metal032_2K_Normal.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal032_2K_White_Color.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Metal032_2K-JPG-Smooth Grey Aluminuym/Stainless Steel/Metal032_2K_White_Color.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Metal032_LOW_Roughness.jpg.001",
+   "/Desktop/Blender Asset/2 2k Textures/Metal032_2K-JPG-Smooth Grey Aluminuym/Stainless Steel/Metal032_LOW_Roughness.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic008_2K_BlackColor.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Plastic008_2K-JPG/Black Plastic/Plastic008_2K_BlackColor.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic008_2K_Displacement.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Plastic008_2K-JPG/Black Plastic/Plastic008_2K_Displacement.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic008_2K_Normal.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Plastic008_2K-JPG/Black Plastic/Plastic008_2K_Normal.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic008_2K_Roughness.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Plastic008_2K-JPG/Black Plastic/Plastic008_2K_Roughness.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Plastic008_2K_White_Color.jpg",
+   "/Desktop/Blender Asset/2 2k Textures/Plastic008_2K-JPG/Colour Variation/Plastic008_2K_White_Color.jpg",
+   true,
+   [
+    2048,
+    2048
+   ],
+   true
+  ],
+  [
+   "Pressure Indicator Clean.jpg",
+   "/Desktop/#1 Blender Projects/Coffee Machine/Linea Mini/Pressure Indicator Clean.jpg",
+   true,
+   [
+    515,
+    496
+   ],
+   true
+  ],
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "Black Plastic": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "Black Plastic Rough": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Drip Tray Grid": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "LaMarzocco Logo": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Pressure Display": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "Stainless Steel": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "Stainless Steel Grid Top": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "White Plastic": {
+   "disp": [
+    "ShaderNodeDisplacement"
+   ],
+   "disp_linked": true,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 21.2
+}
