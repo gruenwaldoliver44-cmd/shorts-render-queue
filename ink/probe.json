@@ -1,0 +1,267 @@
+[
+ {
+  "key": "printer",
+  "n": 21,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.433,
+   0.519,
+   0.156
+  ],
+  "min": [
+   -0.217,
+   -0.178,
+   -0.0
+  ],
+  "names": [
+   "tray",
+   "top_panel",
+   "power_plug",
+   "main_panel",
+   "leg.010",
+   "leg.009",
+   "leg.008",
+   "leg.007",
+   "leg.006",
+   "leg.005",
+   "leg.004",
+   "leg.003"
+  ],
+  "actions": [],
+  "mb": 2.3
+ },
+ {
+  "key": "printer2",
+  "n": 15,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.425,
+   0.355,
+   0.263
+  ],
+  "min": [
+   -0.213,
+   -0.138,
+   -0.003
+  ],
+  "names": [
+   "Top cover",
+   "top cover",
+   "scanner cover",
+   "power plug",
+   "Power plug",
+   "paper tray out 3",
+   "paper tray out 2",
+   "paper tray out 1",
+   "Paper feeding tray",
+   "paper",
+   "main body.001",
+   "main body"
+  ],
+  "actions": [],
+  "mb": 6.8
+ },
+ {
+  "key": "solder",
+  "n": 11,
+  "types": [
+   "CURVE",
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.28,
+   0.511,
+   0.212
+  ],
+  "min": [
+   -0.178,
+   -0.177,
+   -0.008
+  ],
+  "names": [
+   "Welder cable",
+   "Soldering station CD 8898 v.1.2",
+   "Soldeirng Iron",
+   "Schwam.001",
+   "Schwam",
+   "Plug-220v",
+   "plug",
+   "JCD 8898 Soldering Station.001",
+   "Hot Air Heater",
+   "cable-Air heater",
+   "220v cable.001"
+  ],
+  "actions": [],
+  "mb": 53.4
+ },
+ {
+  "key": "syringe",
+  "n": 5,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.054,
+   0.204,
+   0.034
+  ],
+  "min": [
+   -0.027,
+   -0.108,
+   -0.005
+  ],
+  "names": [
+   "Syringe",
+   "support",
+   "needle_cover",
+   "needle",
+   "Body_injection"
+  ],
+  "actions": [],
+  "mb": 3.8
+ },
+ {
+  "key": "syringe2",
+  "n": 7,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.026,
+   0.203,
+   0.132
+  ],
+  "min": [
+   -0.014,
+   -0.093,
+   -0.05
+  ],
+  "names": [
+   "thumb ring",
+   "threaded",
+   "syringe body",
+   "Syringe",
+   "piston rod",
+   "harpoon",
+   "handle"
+  ],
+  "actions": [],
+  "mb": 2.3
+ },
+ {
+  "key": "bucket",
+  "n": 2,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.233,
+   0.218,
+   0.345
+  ],
+  "min": [
+   -0.116,
+   -0.109,
+   -0.0
+  ],
+  "names": [
+   "Paint Bucket",
+   "3DModel"
+  ],
+  "actions": [],
+  "mb": 6.8
+ },
+ {
+  "key": "tower",
+  "n": 8,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   42.328,
+   48.979,
+   60.1
+  ],
+  "min": [
+   -19.701,
+   -23.179,
+   -0.0
+  ],
+  "names": [
+   "Profiles",
+   "Panels",
+   "Light",
+   "Glass",
+   "Futuristic Glass Tower",
+   "Floor",
+   "Column",
+   "Ceil"
+  ],
+  "actions": [],
+  "mb": 8.2
+ },
+ {
+  "key": "microscope",
+  "n": 9,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.107,
+   0.182,
+   0.4
+  ],
+  "min": [
+   -0.055,
+   -0.098,
+   -0.0
+  ],
+  "names": [
+   "vintage_microscope_revolver",
+   "vintage_microscope_rack_mount_support",
+   "vintage_microscope_mirror_base",
+   "vintage_microscope_mirror_arm",
+   "vintage_microscope_eye_piece",
+   "vintage_microscope_condenser",
+   "vintage_microscope_base",
+   "vintage_microscope_adjustment",
+   "Vintage Microscope"
+  ],
+  "actions": [],
+  "mb": 57.0
+ },
+ {
+  "key": "grapes",
+  "n": 1,
+  "types": [
+   "MESH"
+  ],
+  "dims": [
+   0.247,
+   0.153,
+   0.071
+  ],
+  "min": [
+   -0.102,
+   -0.064,
+   -0.006
+  ],
+  "names": [
+   "Grapes White"
+  ],
+  "actions": [],
+  "mb": 46.0
+ }
+]
