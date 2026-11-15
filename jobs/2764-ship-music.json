@@ -1,0 +1,14 @@
+{
+ "id": "2764-ship-music",
+ "title": "MT Schiff · Musik holen",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 1,
+ "steps": [
+  {
+   "label": "push",
+   "run": "L=\"$HOME/ShortsRenderAgent/music/lib\"; a=\"\"; for n in Crusade_-_Heavy_Industry Rising_Tide Stay_the_Course Lost_Time Reawakening Past_the_Edge; do f=$(find \"$L\" -name \"$n.mp3\" | head -1); [ -n \"$f\" ] && a=\"$a $f ship/music_$n.mp3\"; done; echo $a; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a"
+  }
+ ],
+ "min_free_gb": 1
+}
