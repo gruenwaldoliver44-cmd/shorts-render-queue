@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T20:44:41.190Z",
+ "ts": "2026-11-15T20:46:17.473Z",
+ "source": "dashboard",
  "current": "2763-ship-bksearch since 2026-11-15 20:44:41",
  "busy": true,
  "free_gb": 13,
  "blender_procs": 0,
+ "cpu": 16,
+ "gpu": 33,
+ "mem_free_pct": 63,
+ "progress": null,
  "done": [
   "2762-esp-fluidtest5",
   "2759-esp-lookdev2",
@@ -94,10 +99,12 @@
   "title": "MT Schiff · BlenderKit-Suche",
   "job_since": "2026-11-15T20:44:41.171Z",
   "timeout_min": 15,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "suche",
+  "step_since": "2026-11-15T20:44:42.849Z",
   "progress": null,
-  "updated": "2026-11-15T20:44:41.171Z"
- }
+  "updated": "2026-11-15T20:44:42.849Z"
+ },
+ "queue": []
 }
