@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T19:26:36.011Z",
+ "ts": "2026-11-15T19:43:41.424Z",
+ "source": "dashboard",
  "current": "2759-esp-lookdev2 since 2026-11-15 19:26:35",
  "busy": true,
  "free_gb": 16,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 62,
+ "gpu": 84,
+ "mem_free_pct": 50,
+ "progress": null,
  "done": [
   "2758-esp-fluidtest4",
   "2757-esp-lookdev",
@@ -94,10 +99,12 @@
   "title": "MT Espresso · Material-Check Tassen/Teile",
   "job_since": "2026-11-15T19:26:35.990Z",
   "timeout_min": 45,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "lookdev",
+  "step_since": "2026-11-15T19:26:37.818Z",
   "progress": null,
-  "updated": "2026-11-15T19:26:35.990Z"
- }
+  "updated": "2026-11-15T19:26:37.818Z"
+ },
+ "queue": []
 }
