@@ -1,15 +1,11 @@
 {
- "ts": "2026-11-15T19:25:25.400Z",
- "source": "dashboard",
- "current": "2758-esp-fluidtest4 since 2026-11-15 19:08:23",
+ "ts": "2026-11-15T19:26:36.011Z",
+ "current": "2759-esp-lookdev2 since 2026-11-15 19:26:35",
  "busy": true,
  "free_gb": 16,
- "blender_procs": 1,
- "cpu": 74,
- "gpu": 85,
- "mem_free_pct": 57,
- "progress": null,
+ "blender_procs": 0,
  "done": [
+  "2758-esp-fluidtest4",
   "2757-esp-lookdev",
   "2756-esp-fluidtest3",
   "2755-esp-fluidtest2",
@@ -48,8 +44,7 @@
   "2705-euv-music",
   "2704-euv-bkpush2",
   "2702-euv-bkpush",
-  "2689-thumb-upload",
-  "2688-sd-upload"
+  "2689-thumb-upload"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,18 +90,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2758-esp-fluidtest4",
-  "title": "MT Espresso · Flüssigkeits-Test",
-  "job_since": "2026-11-15T19:08:23.853Z",
-  "timeout_min": 90,
-  "step": 1,
+  "job": "2759-esp-lookdev2",
+  "title": "MT Espresso · Material-Check Tassen/Teile",
+  "job_since": "2026-11-15T19:26:35.990Z",
+  "timeout_min": 45,
+  "step": 0,
   "steps": 1,
-  "label": "fluid",
-  "step_since": "2026-11-15T19:08:25.636Z",
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-11-15T19:08:25.636Z"
- },
- "queue": [
-  "2759-esp-lookdev2"
- ]
+  "updated": "2026-11-15T19:26:35.990Z"
+ }
 }
