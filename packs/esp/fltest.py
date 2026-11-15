@@ -100,15 +100,19 @@ gb.inputs["Base Color"].default_value = (1, 1, 1, 1); gb.inputs["Roughness"].def
 for o in gobjs:
     if o.type == "MESH" and not o.hide_render:
         for ms in o.material_slots: ms.material = gmat
-# collision cup (inner wall of the glass)
+# collision cup: watertight lathe solid following the glass inner wall
 bm = bmesh.new()
-bmesh.ops.create_cone(bm, cap_ends=True, segments=48, radius1=R * 0.70, radius2=R * 0.80, depth=H * 0.92)
-top = [f for f in bm.faces if f.normal.z > 0.9]
-bmesh.ops.delete(bm, geom=top, context="FACES")
-for v in bm.verts: v.co.z += H * 0.46 + H * 0.06
+rb, rt, wall, bot = R * 0.66, R * 0.80, 0.003, H * 0.10
+prof = [(0.0, 0.0), (rb + wall, 0.0), (rt + wall, H * 0.98), (rt, H * 0.98), (rb, bot), (0.0, bot)]
+vs = [bm.verts.new((x, 0.0, z)) for x, z in prof]
+es = [bm.edges.new((vs[i], vs[i + 1])) for i in range(len(vs) - 1)]
+bmesh.ops.spin(bm, geom=vs + es, cent=(0, 0, 0), axis=(0, 0, 1), angle=2 * math.pi, steps=64, use_merge=True)
+bmesh.ops.remove_doubles(bm, verts=bm.verts[:], dist=1e-6)
+bmesh.ops.recalc_face_normals(bm, faces=bm.faces[:])
 me = bpy.data.meshes.new("cupcol"); bm.to_mesh(me); col = bpy.data.objects.new("cupcol", me); sc.collection.objects.link(col)
-sd = col.modifiers.new("s", "SOLIDIFY"); sd.thickness = 0.004; sd.offset = 1.0
+col.location = (0, 0, gmn.z + H * 0.02)
 col.hide_render = True
+log["cupcol_manifold"] = all(e.is_manifold for e in bm.edges)
 # domain
 dz0, dz1 = -0.002, spout_z + 0.012
 dom_me = bpy.data.meshes.new("dom")

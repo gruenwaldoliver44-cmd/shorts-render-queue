@@ -1,0 +1,14 @@
+{
+ "id": "2760-esp-fluidtest5",
+ "title": "MT Espresso \u00b7 Fl\u00fcssigkeits-Test",
+ "type": "shell",
+ "timeout_min": 90,
+ "retries": 0,
+ "min_free_gb": 3,
+ "steps": [
+  {
+   "label": "fluid",
+   "run": "cp \"$AGENT_HOME/repo/packs/esp/\"* . && RES=180 FLCACHE=\"$AGENT_HOME/work/flcache_esp5\" /Applications/Blender.app/Contents/MacOS/Blender -b -P fltest.py > bl.log 2>&1; grep -a 'FLTEST DONE' bl.log | cut -c1-900 || true; tail -30 bl.log > bltail.txt; a=\"bltail.txt esp/fl5/bltail.txt fl.json esp/fl5/fl.json\"; for f in fl/*.jpg; do a=\"$a $f esp/fl5/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2; du -sh \"$AGENT_HOME/work/flcache_esp\""
+  }
+ ]
+}
