@@ -1,0 +1,344 @@
+[
+ {
+  "key": "hero",
+  "n": 3,
+  "types": [
+   "MESH"
+  ],
+  "dims": [
+   0.397,
+   0.441,
+   0.518
+  ],
+  "min": [
+   -0.202,
+   -0.2,
+   0.001
+  ],
+  "names": [
+   "Glass",
+   "Espresso Machine.001",
+   "Espresso Machine"
+  ],
+  "actions": [],
+  "mb": 39.7
+ },
+ {
+  "key": "linea",
+  "n": 21,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.337,
+   0.555,
+   0.357
+  ],
+  "min": [
+   -0.168,
+   -0.315,
+   0.0
+  ],
+  "names": [
+   "SteamWand",
+   "Steam Knob 2",
+   "Steam Knob 1",
+   "Sprouts",
+   "PressureDisplay 2",
+   "PressureDisplay 1",
+   "Porta Filter",
+   "PaddleSupport",
+   "Paddle",
+   "Linea Mini Coffee Machine",
+   "Legs",
+   "LaMarzocco Logo"
+  ],
+  "actions": [],
+  "mb": 16.6
+ },
+ {
+  "key": "portafilter",
+  "n": 3,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.234,
+   0.09,
+   0.083
+  ],
+  "min": [
+   -0.039,
+   -0.045,
+   0.0
+  ],
+  "names": [
+   "Group handle Portafilter",
+   "group handle",
+   "basket"
+  ],
+  "actions": [],
+  "mb": 25.4
+ },
+ {
+  "key": "cup",
+  "n": 4,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.106,
+   0.106,
+   0.049
+  ],
+  "min": [
+   -0.053,
+   -0.053,
+   -0.0
+  ],
+  "names": [
+   "spoon_1",
+   "plate",
+   "cup_1",
+   "Cup of coffee"
+  ],
+  "actions": [],
+  "mb": 4.7
+ },
+ {
+  "key": "beans",
+  "n": 181,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.082,
+   0.094,
+   0.013
+  ],
+  "min": [
+   -0.04,
+   -0.049,
+   -0.002
+  ],
+  "names": [
+   "coffee beans",
+   "coffee bean.179",
+   "coffee bean.178",
+   "coffee bean.177",
+   "coffee bean.176",
+   "coffee bean.175",
+   "coffee bean.174",
+   "coffee bean.173",
+   "coffee bean.172",
+   "coffee bean.171",
+   "coffee bean.170",
+   "coffee bean.169"
+  ],
+  "actions": [],
+  "mb": 1.4
+ },
+ {
+  "key": "gauges",
+  "n": 66,
+  "types": [
+   "CURVE",
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   1.857,
+   1.354,
+   0.338
+  ],
+  "min": [
+   -0.939,
+   -0.845,
+   -0.011
+  ],
+  "names": [
+   "Swith",
+   "Switch",
+   "Pressure gauge",
+   "Needle.002",
+   "Needle.001",
+   "Needle holder.002",
+   "Needle holder.001",
+   "Needle holder",
+   "Needle",
+   "Mount.002",
+   "Mount.001",
+   "Mount"
+  ],
+  "actions": [],
+  "mb": 8.7
+ },
+ {
+  "key": "diver",
+  "n": 6,
+  "types": [
+   "MESH"
+  ],
+  "dims": [
+   0.455,
+   0.521,
+   0.685
+  ],
+  "min": [
+   -0.198,
+   -0.148,
+   -0.001
+  ],
+  "names": [
+   "Regulator_02",
+   "Regulator_01",
+   "Pressure_Gauge",
+   "pipe",
+   "Oxygen_Tank",
+   "Diving Equipment"
+  ],
+  "actions": [],
+  "mb": 244.8
+ },
+ {
+  "key": "retro",
+  "n": 9,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.352,
+   0.312,
+   0.341
+  ],
+  "min": [
+   -0.145,
+   -0.163,
+   0.0
+  ],
+  "names": [
+   "joystick.002",
+   "joystick.001",
+   "joystick",
+   "filter screen",
+   "Espresso Machine",
+   "Coffee machine1.004",
+   "Coffee machine1.002",
+   "Coffee machine1.001",
+   "Coffee machine1"
+  ],
+  "actions": [],
+  "mb": 8.4
+ },
+ {
+  "key": "francis",
+  "n": 3,
+  "types": [
+   "MESH"
+  ],
+  "dims": [
+   0.243,
+   0.337,
+   0.343
+  ],
+  "min": [
+   -0.121,
+   -0.168,
+   0.0
+  ],
+  "names": [
+   "Francis Francis X1",
+   "coffe cup2",
+   "coffe cup1"
+  ],
+  "actions": [],
+  "mb": 21.7
+ },
+ {
+  "key": "conti",
+  "n": 2,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   1.025,
+   0.514,
+   0.517
+  ],
+  "min": [
+   -0.66,
+   -0.271,
+   -0.0
+  ],
+  "names": [
+   "Conti-espresso.001",
+   "Conti-espresso"
+  ],
+  "actions": [],
+  "mb": 14.2
+ },
+ {
+  "key": "grinder",
+  "n": 19,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.19,
+   0.291,
+   0.623
+  ],
+  "min": [
+   -0.095,
+   -0.196,
+   0.0
+  ],
+  "names": [
+   "Portafilter Holder",
+   "Main Control",
+   "Main Body",
+   "Mahlkonig E65S Coffee Grinder",
+   "Mahlkoenig_Logo_black_2048x",
+   "LID",
+   "Hopper",
+   "Grind Fineness Scale.001",
+   "Grind Fineness Scale",
+   "Grind Collar",
+   "Front Body",
+   "Fork "
+  ],
+  "actions": [],
+  "mb": 0.9
+ },
+ {
+  "key": "vgrinder",
+  "n": 2,
+  "types": [
+   "EMPTY",
+   "MESH"
+  ],
+  "dims": [
+   0.174,
+   0.249,
+   0.278
+  ],
+  "min": [
+   -0.08,
+   -0.079,
+   0.0
+  ],
+  "names": [
+   "Coffee Grinder_Mesh",
+   "Coffee Grinder"
+  ],
+  "actions": [],
+  "mb": 55.6
+ }
+]
