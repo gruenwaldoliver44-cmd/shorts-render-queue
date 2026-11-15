@@ -1,0 +1,83 @@
+key True
+pref api_key str 30
+pref api_key_refresh str 30
+pref api_key_timeout int 1795327046
+download test OK https://assets.blendkit.com/assets/3fdcd
+## search 'inkjet printer' count 2
+[001] Epson Printer | base 10944a8b-99c6-40a2-83dd-d618bc9c4c15 | dl https://www.blenderkit.com/api/v1/downloads/c7009230-fb4c-480b-874c-09eab04e3fbe/ | free True | can True | dims [None, None, None] | score 760.0 | polys 2472
+[002] Hp printer deskjet 2375 | base 731a5140-811a-4679-a848-a273ca19ba75 | dl https://www.blenderkit.com/api/v1/downloads/8bbbf892-678c-4d05-a03a-e6458aa87624/ | free True | can True | dims [None, None, None] | score 480.0 | polys 11399
+## search 'printer' count 38
+[003] Robot Puppy | base 0574f163-65f5-4ed2-ae4b-e15dc204cbeb | dl https://www.blenderkit.com/api/v1/downloads/38f06b5c-f783-490a-8263-a76c1e0838ae/ | free True | can True | dims [None, None, None] | score 10800.0 | polys 2670069
+[004] 3D printer | base 85c0378d-c78b-48f2-9c67-5812706f7c8f | dl https://www.blenderkit.com/api/v1/downloads/ad0a518c-2ea5-4ba5-a060-ccee37edf3ba/ | free True | can True | dims [None, None, None] | score 4849.999999999999 | polys 416184
+[005] Sci-fi replicator | base 1b494da9-88e8-4d60-b8cc-7e99e1f86835 | dl https://www.blenderkit.com/api/v1/downloads/1481700b-d436-4615-b554-7342624632c6/ | free False | can False | dims [None, None, None] | score 1800.0 | polys 8099
+[006] Black Printer | base 58850bfd-b769-4c6d-b241-8957011a6836 | dl https://www.blenderkit.com/api/v1/downloads/14e8cf96-56f7-4676-acf7-4e6c0acca384/ | free False | can False | dims [None, None, None] | score 1000.0 | polys 27725
+[007] HP Smart Tank 580 printer | base e86f59e5-fddc-41ce-acc1-f1bf53f45637 | dl https://www.blenderkit.com/api/v1/downloads/c9cba2d0-1c4f-49da-ad3c-4f269fe41aee/ | free True | can True | dims [None, None, None] | score 966.6666666666665 | polys 6510
+[008] POS Terminal Cash Register | base 0d4c9ec9-6ce7-4eb5-8df9-d5d380e80083 | dl https://www.blenderkit.com/api/v1/downloads/f030a9c3-a7eb-46fb-ae11-25a2c150aa36/ | free False | can False | dims [None, None, None] | score 800.0 | polys 12010
+[009] Futuristic Workstation Device | base 46ad9e7b-9c9c-47b5-918e-b86b97c37d90 | dl https://www.blenderkit.com/api/v1/downloads/dc179c63-df1e-49cb-97f9-ee88e0e4f233/ | free False | can False | dims [None, None, None] | score 800.0 | polys 459636
+[010] Epson Printer | base 10944a8b-99c6-40a2-83dd-d618bc9c4c15 | dl https://www.blenderkit.com/api/v1/downloads/c7009230-fb4c-480b-874c-09eab04e3fbe/ | free True | can True | dims [None, None, None] | score 760.0 | polys 2472
+## search 'soldering iron' count 5
+[011] Robotic Arm | base 426eda84-d4c5-4955-96a9-eab87ea51e85 | dl https://www.blenderkit.com/api/v1/downloads/ae94bda7-2803-4caa-a474-5f12620e7c68/ | free True | can True | dims [None, None, None] | score 13000.0 | polys 2468
+[012] Cyber Hacking Tech Kit | base 8aff739d-2da4-4f73-8e9e-9a1380abd2d1 | dl https://www.blenderkit.com/api/v1/downloads/adb4e730-4814-48d2-a9fa-41d786162bec/ | free False | can False | dims [None, None, None] | score 1620.0 | polys 84854
+[013] Mobile Robotic Arm | base 8992cf83-4df8-46a8-a5f1-bb32ffdd68e6 | dl https://www.blenderkit.com/api/v1/downloads/e1f80a33-3708-4352-9df2-35d0c5f43735/ | free True | can True | dims [None, None, None] | score 1000.0 | polys 2837
+[014] Soldering station CD 8898 v.1.2 | base 3b63c95c-4a67-4b61-b6cc-d16e4d42ea31 | dl https://www.blenderkit.com/api/v1/downloads/adee8ce2-76e7-4d7c-a535-b0a2d5561218/ | free True | can True | dims [None, None, None] | score 395.0 | polys 47402
+[015] Miniware TS101 Solderingiron | base bc683a51-9aa3-4257-9e22-e6f68428cbfe | dl https://www.blenderkit.com/api/v1/downloads/5964703f-8784-4063-b328-044a401ecde5/ | free False | can False | dims [None, None, None] | score 350.0 | polys 117162
+## search 'syringe' count 6
+[016] Vintage Medical Travel Kit | base f0867dd4-91b9-47f9-978f-74691f4b1c05 | dl https://www.blenderkit.com/api/v1/downloads/d393bbaa-bc9a-4aba-9067-5d4011c1ad6b/ | free False | can False | dims [None, None, None] | score 5225.0 | polys 7870
+[017] Soviet First Aid Kit AI-2 | base 9090a468-ba5b-44c7-8583-0151c3a25771 | dl https://www.blenderkit.com/api/v1/downloads/46d93c37-07d6-4b60-8136-bd3793041360/ | free False | can False | dims [None, None, None] | score 800.0 | polys 1577
+[018] Syringe Combat | base f86f4cd5-89f3-42a3-9217-f4387e8453fd | dl https://www.blenderkit.com/api/v1/downloads/d526eba9-f268-450f-b780-3f745e485c9e/ | free True | can True | dims [None, None, None] | score 440.0 | polys 1000
+[019] Syringe | base 1194f86a-6e07-4309-b1b4-b49968f0906b | dl https://www.blenderkit.com/api/v1/downloads/7daf882f-8b35-4950-97a3-27a4c46cdd42/ | free False | can False | dims [None, None, None] | score 323.75 | polys 13972
+[020] Syringe | base ae05439a-c48d-4ff9-88d7-dba7203b92d9 | dl https://www.blenderkit.com/api/v1/downloads/7fa669c0-ffe5-48c3-b4a6-f87fabff7697/ | free False | can False | dims [None, None, None] | score 320.0 | polys 1827
+[021] Vaccine Syringe | base ede1b009-535e-4542-bb48-f9fa43d747eb | dl https://www.blenderkit.com/api/v1/downloads/64f32b7e-ff94-4601-8813-799e37d26812/ | free False | can False | dims [None, None, None] | score 230.0 | polys 3166
+## search 'ink cartridge' count 0
+## search 'skyscraper' count 158
+[022] Little Fantasy Castle | base b952f3f4-7cea-4c3e-a88b-ba3cdda1cb81 | dl https://www.blenderkit.com/api/v1/downloads/e545196d-82b3-4f7f-a03a-251a00f4cf90/ | free False | can False | dims [None, None, None] | score 3640.0 | polys 160233
+[023] High-Rise Building | base 94751e91-0c76-47c2-b966-ab04fc376db7 | dl https://www.blenderkit.com/api/v1/downloads/8254877a-552c-43e3-842b-b0e15eede8aa/ | free False | can False | dims [None, None, None] | score 3500.0 | polys 643990
+[024] 55 sky skyscraper | base 9c88730f-37de-4987-afc4-b0c7b1e06419 | dl https://www.blenderkit.com/api/v1/downloads/94e1b06b-e257-483d-899f-82c5cce13ec6/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 160183
+[025] High-Rise Building | base 629e4a48-0602-45cf-8626-e000beb92d35 | dl https://www.blenderkit.com/api/v1/downloads/1b405686-1532-497d-873b-8d7f1849adf4/ | free False | can False | dims [None, None, None] | score 3000.0 | polys 145128
+[026] Building Tower Modern XXIV | base 24619550-8d71-4700-915b-9bd80a391dc2 | dl https://www.blenderkit.com/api/v1/downloads/9b6f4854-1bae-441a-ade3-528df8cdf7aa/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 214731
+[027] Modern High-Rise Residential Building | base 89e9d012-0bba-4525-a46e-e8e27e06fecf | dl https://www.blenderkit.com/api/v1/downloads/d571a115-8fe1-4aaf-8c06-13b04d6306f2/ | free False | can False | dims [None, None, None] | score 2700.0 | polys 178608
+[028] Compundioum | base 16f8ac5e-65d3-43f9-9b01-fc57c8034caf | dl https://www.blenderkit.com/api/v1/downloads/fcd35b98-401d-45eb-9957-c462d6f2afdb/ | free False | can False | dims [None, None, None] | score 2500.0 | polys 158314
+[029] Futuristic Glass Tower | base 6b0f37ea-6334-4728-884d-3c4173917322 | dl https://www.blenderkit.com/api/v1/downloads/a998534e-2644-4ddb-ab50-7ed212151390/ | free False | can False | dims [None, None, None] | score 2250.0 | polys 181721
+## search 'grape' count 41
+[030] Victorian Wall Mirror | base fa338350-6272-4193-a2a0-5f3695e4f80b | dl https://www.blenderkit.com/api/v1/downloads/3472193c-d593-479b-ba47-114af910b241/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 21807
+[031] Bacchus in Reverie | base c654a8a2-101f-4ca7-921c-f13abf6f968f | dl https://www.blenderkit.com/api/v1/downloads/5764c963-aa1c-4b6d-848b-c54d41bbf1b7/ | free False | can False | dims [None, None, None] | score 1425.0 | polys 54036
+[032] Grapes White | base 92f54add-7a99-4571-969b-494ff2914666 | dl https://www.blenderkit.com/api/v1/downloads/01c54924-0bd9-4323-95a8-2220ff4545aa/ | free False | can False | dims [None, None, None] | score 1404.6666666666667 | polys 14937
+[033] Wine Barrel 01 | base 0dde34bd-d5ea-4653-a346-a2c020f37093 | dl https://www.blenderkit.com/api/v1/downloads/3fb5d6e5-657e-4847-a2df-8e162a395dbb/ | free True | can True | dims [None, None, None] | score 1400.0 | polys None
+[034] Grapevines | base 0c3a9326-4051-4b7a-af24-f06531b1ba59 | dl https://www.blenderkit.com/api/v1/downloads/652dc70c-18eb-40ca-a9fc-7cc26683b362/ | free False | can False | dims [None, None, None] | score 1190.0 | polys 15609
+[035] Wine wall holder | base 27e2352f-3656-4441-ac7b-861507defad8 | dl https://www.blenderkit.com/api/v1/downloads/2872356f-9def-477c-a0ad-f756a559af32/ | free False | can False | dims [None, None, None] | score 1080.0 | polys 54382
+[036] Wine Bottles 01 | base a4e11527-b336-4b4a-a378-dc70f4a206fd | dl https://www.blenderkit.com/api/v1/downloads/4013775d-f099-43fa-958b-0dbbd8aca25b/ | free True | can True | dims [None, None, None] | score 1000.0 | polys None
+[037] Grapevine with hanging grapes | base 3ee701d1-e78c-46d4-99f3-1f836edaec77 | dl https://www.blenderkit.com/api/v1/downloads/05476d95-feba-4b51-86ac-9ce757014a1d/ | free False | can False | dims [None, None, None] | score 840.0 | polys 2416
+## search 'bucket' count 200
+[038] Excavator ATLAS 340LC | base 21a2a769-0c6e-472c-9a9a-c4619b312b0c | dl https://www.blenderkit.com/api/v1/downloads/fb071cbf-2669-469e-a26d-88b418e9fedd/ | free False | can False | dims [None, None, None] | score 10000.0 | polys 59235
+[039] Paint Bucket | base ef13daf8-140d-452f-8f11-6479aaefc410 | dl https://www.blenderkit.com/api/v1/downloads/7139f656-0697-42f0-85c7-185062e96250/ | free True | can True | dims [None, None, None] | score 9487.5 | polys 62500
+[040] Medivial Cannon | base 7581d5e5-8f26-49a1-8a4a-276637f7ec98 | dl https://www.blenderkit.com/api/v1/downloads/23106e6f-fb5f-4098-99cb-0d666abe4358/ | free False | can False | dims [None, None, None] | score 8000.0 | polys 641397
+[041] Bmw | base 5320bf38-1090-4e90-8d5d-c4352429b5f7 | dl https://www.blenderkit.com/api/v1/downloads/5dafdd74-c544-48c6-8ef5-a1a43682819a/ | free False | can False | dims [None, None, None] | score 6500.0 | polys 241662
+[042] Locust 752 | base 5fa83708-df91-4333-93c3-7500fd4a8213 | dl https://www.blenderkit.com/api/v1/downloads/45be6fa9-2331-4638-b7c6-4c92bd67895e/ | free False | can False | dims [None, None, None] | score 4240.0 | polys 72595
+[043] Bmw | base 6b8f9432-7b7d-4601-b50c-3f871e2c19e3 | dl https://www.blenderkit.com/api/v1/downloads/b9427f29-b436-4652-89d0-776850096aab/ | free False | can False | dims [None, None, None] | score 4000.0 | polys 113099
+[044] Volkswagen Golf GTI(Rigged) | base 8c71e925-5d51-4083-b829-72ffb36afec4 | dl https://www.blenderkit.com/api/v1/downloads/f3394c61-9663-4c03-835c-bfef2edf9587/ | free False | can False | dims [None, None, None] | score 3700.0 | polys 226095
+[045] Old Water well | base 187df960-e8fd-410c-ac2a-9b8437c99be9 | dl https://www.blenderkit.com/api/v1/downloads/9c3d4fbe-6fb9-4e28-843e-668b6f9f7f0a/ | free False | can False | dims [None, None, None] | score 3500.0 | polys 67624
+## search 'laboratory desk vintage' count 1
+[046] Vintage Articulated Desk Magnifier | base a894a37f-0b95-4532-b89e-3c370b870138 | dl https://www.blenderkit.com/api/v1/downloads/2877b0ad-13bf-4dd0-8a3b-2139c78e70ad/ | free False | can False | dims [None, None, None] | score 1000.0 | polys 8624
+## search 'photo print' count 4
+[047] Retro wireless label printer | base 00c0cdb7-1a4e-463a-9b93-e0d34fedd06e | dl https://www.blenderkit.com/api/v1/downloads/82e6e32a-0d63-4852-97d8-0ffa3e5654b8/ | free False | can False | dims [None, None, None] | score 400.0 | polys 1999
+[048] Wall Art | base 41236cc9-007d-4750-90f3-e4563842ae27 | dl https://www.blenderkit.com/api/v1/downloads/1a9a19e8-d1be-4e9c-a1ea-5f493a5d5b40/ | free True | can True | dims [None, None, None] | score 140.0 | polys 27
+[049] Canvas print | base 597a3b63-9118-4a76-aadc-8c28928fee3f | dl https://www.blenderkit.com/api/v1/downloads/97409/ | free False | can False | dims [None, None, None] | score 110.0 | polys 14
+[050] Photo in glass | base bb97093c-1645-4612-8a68-372e2eb69157 | dl https://www.blenderkit.com/api/v1/downloads/e22df5bc-592c-462a-b9fd-802111bc016c/ | free False | can False | dims [None, None, None] | score 30.0 | polys 10
+## search 'circuit board' count 11
+[051] Circuit Board | base 5709e22c-eed0-458a-88b3-4e75d71fb6bc | dl https://www.blenderkit.com/api/v1/downloads/47eedc68-ac7b-4d71-9f6a-e8ef071d33ab/ | free True | can True | dims [None, None, None] | score 2000.0 | polys None
+[052] Power Box | base e8441060-eed3-4d63-a86f-1a0b643913fb | dl https://www.blenderkit.com/api/v1/downloads/0edf59cb-9c98-4633-90c1-52a39c72567a/ | free False | can False | dims [None, None, None] | score 1800.0 | polys 11389
+[053] Circuit | base ee5d6ff2-26fb-4f0e-87de-bc886082d7f1 | dl https://www.blenderkit.com/api/v1/downloads/1c89036f-be2a-44df-9150-02ad1cb298db/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 37686
+[054] Power Box 01 | base aecef088-428a-41f6-89e7-94771140c96c | dl https://www.blenderkit.com/api/v1/downloads/8e931c1e-18a8-41ec-8113-0070cdaab63b/ | free True | can True | dims [None, None, None] | score 1500.0 | polys None
+[055] HDD 2,5 inches Seagate ST1000LM024 1TB | base efa0124e-c4b2-493c-8ba4-b82c7c3e67a0 | dl https://www.blenderkit.com/api/v1/downloads/830b6653-f705-428f-8de9-5788dc6010ec/ | free True | can True | dims [None, None, None] | score 1400.0 | polys 449617
+[056] NETGEAR eightfold LAN hub | base 19dfef66-5402-484b-bff5-ec78adda6169 | dl https://www.blenderkit.com/api/v1/downloads/ac0c220e-b0ce-4474-8d25-80aa11112c29/ | free True | can True | dims [None, None, None] | score 850.0 | polys 43751
+[057] HDD 3.5 inches Western Digital WD5000AAVS | base f50c0149-ceb6-4102-ae3f-87df8955d360 | dl https://www.blenderkit.com/api/v1/downloads/97deed2d-0f5d-40ef-afc5-83c38c4b3d8a/ | free True | can True | dims [None, None, None] | score 500.0 | polys 404253
+[058] Exposed Server Power Supply | base 557ad0ec-4606-4214-aa9a-62ed4ddab17f | dl https://www.blenderkit.com/api/v1/downloads/7f309bc6-8229-4b63-ba6b-6ded8a6a70f5/ | free True | can True | dims [None, None, None] | score 375.0 | polys 453807
+## search 'microscope' count 20
+[059] Microscope | base d1267401-7ba2-4a30-9979-cf63bfddddd0 | dl https://www.blenderkit.com/api/v1/downloads/ef283d09-2290-4498-bba8-c8a567ef4263/ | free False | can False | dims [None, None, None] | score 3150.0 | polys 36286
+[060] Industrial Microscope | base fe308652-0f7d-482c-a8e5-66d1b6224a47 | dl https://www.blenderkit.com/api/v1/downloads/e555f084-ab58-4c40-bb57-57d5586c56a1/ | free True | can True | dims [None, None, None] | score 3000.0 | polys None
+[061] Portable Microscope - ScopeLens | base 484862fe-8fd1-48fa-81c6-47751757a063 | dl https://www.blenderkit.com/api/v1/downloads/648236ee-393b-4d10-91f7-2051046c2bf2/ | free True | can True | dims [None, None, None] | score 2025.0 | polys 65107
+[062] Eye Surgery Microscope | base 09a5042b-9d25-49bf-9003-564119ca47cc | dl https://www.blenderkit.com/api/v1/downloads/e4ad4106-dd72-45e9-a759-8ef318a87fc0/ | free True | can True | dims [None, None, None] | score 1920.0 | polys 25119
+[063] Monocular Microscope | base cb40d07c-1d99-4d80-9fee-2224704bc153 | dl https://www.blenderkit.com/api/v1/downloads/1171f101-1bad-4d0e-bdf7-cae75124c5e8/ | free True | can True | dims [None, None, None] | score 1866.666666666667 | polys 26872
+[064] Vintage Microscope | base add6391e-481b-4ded-bad4-15b8d15145cb | dl https://www.blenderkit.com/api/v1/downloads/66f24f33-265a-4c14-930a-a0021524f151/ | free True | can True | dims [None, None, None] | score 1800.0 | polys 10831
+[065] Lab microscop | base 50b80ac6-513f-42e4-a528-5929e885cd40 | dl https://www.blenderkit.com/api/v1/downloads/19bca743-4e96-40b9-a7f2-4f6f3c0fb63e/ | free False | can False | dims [None, None, None] | score 1600.0 | polys 14355
+[066] Microscope | base dc95db5a-17e9-4cb0-86d1-aa493837a346 | dl https://www.blenderkit.com/api/v1/downloads/7226f5ea-70f6-4e3c-b393-6b7254f89016/ | free False | can False | dims [None, None, None] | score 933.3333333333335 | polys 170446
