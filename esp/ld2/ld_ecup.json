@@ -1,0 +1,87 @@
+{
+ "images": [
+  [
+   "coffee crema bump.jpg",
+   "C:\\Users\\aram7\\blenderkit_data\\models\\elegant-teacup-s_af77007a-ee19-4160-bb2c-9f316d74eec9\\textures_2k\\coffee crema bump.jpg",
+   true,
+   [
+    2000,
+    2000
+   ],
+   true
+  ],
+  [
+   "coffee crema diffuse.jpg",
+   "C:\\Users\\aram7\\blenderkit_data\\models\\elegant-teacup-s_af77007a-ee19-4160-bb2c-9f316d74eec9\\textures_2k\\coffee crema diffuse.jpg",
+   true,
+   [
+    2000,
+    2000
+   ],
+   true
+  ],
+  [
+   "coffee crema rough.jpg",
+   "C:\\Users\\aram7\\blenderkit_data\\models\\elegant-teacup-s_af77007a-ee19-4160-bb2c-9f316d74eec9\\textures_2k\\coffee crema rough.jpg",
+   true,
+   [
+    2000,
+    2000
+   ],
+   true
+  ],
+  [
+   "normal map.jpg.005",
+   "C:\\Users\\aram7\\blenderkit_data\\models\\elegant-teacup-s_af77007a-ee19-4160-bb2c-9f316d74eec9\\textures_2k\\normal map.jpg",
+   true,
+   [
+    2000,
+    2000
+   ],
+   true
+  ],
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "Ceramic Glazed": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Coffee crema": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BOTH"
+  },
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 15.5
+}
