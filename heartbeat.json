@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-15T21:43:36.700Z",
- "current": "2764-ship-music since 2026-11-15 21:43:36",
- "busy": true,
+ "ts": "2026-11-15T21:45:15.338Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 14,
+ "mem_free_pct": 77,
+ "progress": null,
  "done": [
+  "2764-ship-music",
   "2763-ship-bksearch",
   "2762-esp-fluidtest5",
   "2759-esp-lookdev2",
@@ -89,15 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2764-ship-music",
-  "title": "MT Schiff · Musik holen",
-  "job_since": "2026-11-15T21:43:36.680Z",
-  "timeout_min": 5,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T21:43:36.680Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2764-ship-music",
+   "title": "MT Schiff · Musik holen",
+   "result": "fertig",
+   "at": "2026-11-15T21:44:42.383Z"
+  },
+  "updated": "2026-11-15T21:44:42.383Z"
+ },
+ "queue": []
 }
