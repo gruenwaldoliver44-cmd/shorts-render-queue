@@ -1,0 +1,18 @@
+{
+ "id": "2751-esp-stills1",
+ "title": "MT Espresso \u00b7 Standbilder Runde 1",
+ "type": "shell",
+ "timeout_min": 50,
+ "retries": 0,
+ "min_free_gb": 3,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/esp_main\" && cd \"$AGENT_HOME/work/esp_main\" && cp \"$AGENT_HOME/repo/packs/esp/\"* . && rm -rf s && bash prep.sh | head -c 2500"
+  },
+  {
+   "label": "stills",
+   "run": "cd \"$AGENT_HOME/work/esp_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b esp.blend -P esp_render.py -- stills 50 56,132,204,300,365,465,606,717,802,885,977,1087,1201,1303,1424 > st.log 2>&1; grep -a FRAME st.log | tr '\\n' ' '; tail -5 st.log; a=\"build_info.json esp/e1/build_info.json\"; for f in s/f*.jpg; do a=\"$a $f esp/e1/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
