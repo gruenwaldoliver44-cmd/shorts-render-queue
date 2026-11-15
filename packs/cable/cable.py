@@ -455,7 +455,7 @@ try:
     tc_ = nt_.nodes.new("ShaderNodeTexCoord")
     nz = nt_.nodes.new("ShaderNodeTexNoise"); SV(nz, "Scale", 0.35); SV(nz, "Detail", 8)
     nt_.links.new(tc_.outputs["Object"], nz.inputs["Vector"])
-    cr = nt_.nodes.new("ShaderNodeValToRGB"); cr.color_ramp.elements[0].color = (0.07, 0.075, 0.07, 1); cr.color_ramp.elements[1].color = (0.2, 0.19, 0.16, 1)
+    cr = nt_.nodes.new("ShaderNodeValToRGB"); cr.color_ramp.elements[0].color = (0.05, 0.06, 0.06, 1); cr.color_ramp.elements[1].color = (0.16, 0.16, 0.14, 1)
     nt_.links.new(nz.outputs["Fac"], cr.inputs[0]); nt_.links.new(cr.outputs[0], b_.inputs["Base Color"])
     rp = nt_.nodes.new("ShaderNodeTexWave"); SV(rp, "Scale", 0.25); SV(rp, "Distortion", 6.0)
     bmp = nt_.nodes.new("ShaderNodeBump"); SV(bmp, "Strength", 0.35)
@@ -496,11 +496,11 @@ fog_m = bpy.data.materials.new("fog_m"); fog_m.use_nodes = True
 ntf = fog_m.node_tree
 for n in list(ntf.nodes): ntf.nodes.remove(n)
 fo = ntf.nodes.new("ShaderNodeOutputMaterial"); fv = ntf.nodes.new("ShaderNodeVolumePrincipled")
-SV(fv, "Color", (0.25, 0.65, 0.8, 1)); SV(fv, "Density", 0.03); SV(fv, "Absorption Color", (0.55, 0.8, 0.85, 1))
+SV(fv, "Color", (0.06, 0.32, 0.5, 1)); SV(fv, "Density", 0.022); SV(fv, "Absorption Color", (0.12, 0.42, 0.55, 1))
 ntf.links.new(fv.outputs[0], fo.inputs["Volume"])
 fog = prim("cube", "fog", loc=S + Vector((0, 0, 75)), scale=(160, 90, 76), smooth=False); setmat(fog, fog_m)
-sun = spot("sea_sun", S + Vector((-20, -30, 150)), (0, 0, 0), 2.5e6, 70, 0.6, (0.75, 0.92, 1.0), 6.0); aim(sun, S + Vector((10, 10, 0)))
-amb = area("sea_fill", S + Vector((0, -60, 60)), (0, 0, 0), 2.0e5, 120.0, (0.35, 0.6, 0.75)); aim(amb, S)
+sun = spot("sea_sun", S + Vector((-20, -30, 150)), (0, 0, 0), 9.0e5, 70, 0.6, (0.75, 0.92, 1.0), 6.0); aim(sun, S + Vector((10, 10, 0)))
+amb = area("sea_fill", S + Vector((0, -60, 60)), (0, 0, 0), 4.0e4, 120.0, (0.35, 0.6, 0.75)); aim(amb, S)
 # water surface from below + bright sky behind it (for the ship shot)
 surf_m = mat("surf_m", (0.6, 0.85, 0.95), 0.05, 0.0, trans=1.0, ior=1.33)
 try:
@@ -673,7 +673,7 @@ def bow(h):
 for t, h in ((48.9, 0.0), (49.6, 1.6), (50.5, 4.2), (52.85, 9.0)):
     FRAMEK = F(t); bow(h)
 vis(hk, shots_of("s14", "s15"))
-tth, _ = text3d("t_thirds", "⅔ of all breaks: anchors & fishing gear", S + Vector((57.0, -4.0, 13.0)), size=1.15, es=3.5, rot=(D(78), 0, D(-35)))
+tth, _ = text3d("t_thirds", "⅔ of all breaks: anchors & fishing gear", S + Vector((57.0, -4.0, 8.5)), size=1.0, es=3.5, rot=(D(78), 0, D(-35)))
 pop_in(tth, C.EV["thirds"]); vis(tth, shots_of("s15"))
 # s04 hint: a pulse label
 tlb, _ = text3d("t_floor", "sea floor  ·  up to 8 km deep", S + Vector((1.2, 1.0, 0.9)), size=0.22, es=2.2, rot=(D(75), 0, D(-15)))
@@ -850,7 +850,7 @@ LBL = [("t_steel", "steel wires", C.EV["steel"], X + Vector((-8.0 + LEN + STEP["
        ("t_glass", "glass fibers", C.EV["fibers"], X + Vector((-8.0 + LEN + STEP["fibers"] - 0.4, -0.3, 0.5))),
        ("t_hair", "human hair", C.EV["hair"] + 0.3, X + Vector((9.6, -0.3, 0.75)))]
 for nm, body, t, loc in LBL:
-    o_, _ = text3d(nm, body, loc, size=0.16 if nm in ("t_glass", "t_hair") else 0.24, es=3.0, rot=(D(80), 0, D(-35)))
+    o_, _ = text3d(nm, body, loc, size=0.26 if nm in ("t_glass", "t_hair") else 0.38, es=3.0, rot=(D(80), 0, D(-35)))
     pop_in(o_, t)
 X_R = set_ranges("X")
 for o_ in [o for o in bpy.data.objects if not o.name.startswith("x_sat") and o.name.startswith(("x_", "studio", "t_steel", "t_copper", "t_glass", "t_hair"))]:
@@ -893,7 +893,7 @@ uw_m = bpy.data.materials.new("uw_m"); uw_m.use_nodes = True
 ntu = uw_m.node_tree
 for n in list(ntu.nodes): ntu.nodes.remove(n)
 uo = ntu.nodes.new("ShaderNodeOutputMaterial"); uv_ = ntu.nodes.new("ShaderNodeVolumePrincipled")
-SV(uv_, "Color", (0.2, 0.6, 0.75, 1)); SV(uv_, "Density", 0.05); SV(uv_, "Absorption Color", (0.4, 0.75, 0.85, 1))
+SV(uv_, "Color", (0.06, 0.32, 0.5, 1)); SV(uv_, "Density", 0.04); SV(uv_, "Absorption Color", (0.12, 0.42, 0.55, 1))
 ntu.links.new(uv_.outputs[0], uo.inputs["Volume"])
 uw = prim("cube", "underwater", loc=Wv + Vector((0, 0, -26)), scale=(70, 70, 25), smooth=False); setmat(uw, uw_m)
 sky_dome("sky_w", Wv, 140.0)

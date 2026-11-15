@@ -1,0 +1,17 @@
+{
+ "id": "2733-cable-stills2",
+ "title": "MT Seekabel \u00b7 Standbilder Runde 2",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/cable_main\" && cd \"$AGENT_HOME/work/cable_main\" && cp \"$AGENT_HOME/repo/packs/cable/\"* . && rm -rf s && bash prep.sh"
+  },
+  {
+   "label": "stills",
+   "run": "cd \"$AGENT_HOME/work/cable_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b cable.blend -P cable_render.py -- stills 50 27,67,155,328,431,617,732,1077,1140,1189,1281,1430 > st.log 2>&1; a=\"\"; for f in s/f*.jpg; do a=\"$a $f cable/e2/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
