@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T20:19:06.394Z",
- "source": "dashboard",
+ "ts": "2026-11-15T20:23:53.034Z",
  "current": "",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 22,
- "gpu": 97,
- "mem_free_pct": 66,
- "progress": null,
  "done": [
   "2759-esp-lookdev2",
   "2758-esp-fluidtest4",
@@ -49,8 +44,7 @@
   "2706-euv-stills1",
   "2705-euv-music",
   "2704-euv-bkpush2",
-  "2702-euv-bkpush",
-  "2689-thumb-upload"
+  "2702-euv-bkpush"
  ],
  "failed": [
   "2714-euv-encode",
@@ -103,6 +97,5 @@
    "at": "2026-11-15T20:02:55.235Z"
   },
   "updated": "2026-11-15T20:02:55.235Z"
- },
- "queue": []
+ }
 }
