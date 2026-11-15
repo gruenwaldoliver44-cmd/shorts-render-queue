@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T09:56:46.271Z",
+ "ts": "2026-11-15T09:58:46.271Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 18,
- "mem_free_pct": 67,
+ "cpu": 4,
+ "gpu": 1,
+ "mem_free_pct": 68,
  "progress": null,
  "done": [
   "2735-cable-fiberfix",
