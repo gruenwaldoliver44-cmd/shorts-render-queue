@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T17:20:30.150Z",
+ "ts": "2026-11-15T17:22:30.211Z",
  "source": "dashboard",
- "current": "2748-esp-probe since 2026-11-15 17:20:23",
- "busy": true,
- "free_gb": 5,
- "blender_procs": 1,
- "cpu": 57,
- "gpu": 29,
- "mem_free_pct": 61,
+ "current": "",
+ "busy": false,
+ "free_gb": 15,
+ "blender_procs": 0,
+ "cpu": 24,
+ "gpu": 58,
+ "mem_free_pct": 80,
  "progress": null,
  "done": [
+  "2748-esp-probe",
   "2690-nw-render",
   "2747-esp-thumbs",
   "2746-esp-bksearch",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2748-esp-probe",
-  "title": "MT Espresso · Assets laden + prüfen",
-  "job_since": "2026-11-15T17:20:23.322Z",
-  "timeout_min": 30,
-  "step": 1,
-  "steps": 1,
-  "label": "probe",
-  "step_since": "2026-11-15T17:20:25.706Z",
-  "progress": null,
-  "updated": "2026-11-15T17:20:25.706Z"
+  "state": "idle",
+  "last": {
+   "job": "2748-esp-probe",
+   "title": "MT Espresso · Assets laden + prüfen",
+   "result": "fertig",
+   "at": "2026-11-15T17:22:16.778Z"
+  },
+  "updated": "2026-11-15T17:22:16.778Z"
  },
  "queue": []
 }
