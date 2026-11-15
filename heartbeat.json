@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T21:58:21.667Z",
+ "ts": "2026-11-15T21:59:15.438Z",
+ "source": "dashboard",
  "current": "2765-ship-stills since 2026-11-15 21:58:21",
  "busy": true,
  "free_gb": 13,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 15,
+ "gpu": 94,
+ "mem_free_pct": 48,
+ "progress": null,
  "done": [
   "2764-ship-music",
   "2763-ship-bksearch",
@@ -94,10 +99,12 @@
   "title": "MT Schiff · 3D-Probebilder",
   "job_since": "2026-11-15T21:58:21.647Z",
   "timeout_min": 60,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "stills",
+  "step_since": "2026-11-15T21:58:23.642Z",
   "progress": null,
-  "updated": "2026-11-15T21:58:21.647Z"
- }
+  "updated": "2026-11-15T21:58:23.642Z"
+ },
+ "queue": []
 }
