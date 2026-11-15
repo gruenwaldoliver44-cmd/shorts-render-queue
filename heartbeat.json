@@ -1,18 +1,14 @@
 {
- "ts": "2026-11-15T00:46:44.244Z",
+ "ts": "2026-11-15T00:48:44.254Z",
  "source": "dashboard",
  "current": "2720-euv-v2 since 2026-11-14 23:54:16",
  "busy": true,
  "free_gb": 6,
- "blender_procs": 1,
- "cpu": 5,
- "gpu": 92,
- "mem_free_pct": 38,
- "progress": {
-  "n": 1549,
-  "total": 1588,
-  "eta_min": 1
- },
+ "blender_procs": 0,
+ "cpu": 20,
+ "gpu": 91,
+ "mem_free_pct": 58,
+ "progress": null,
  "done": [
   "2717-euv-encode2",
   "2716-euv-render-all",
@@ -103,15 +99,12 @@
   "title": "MT EUV v2 · bauen + rendern",
   "job_since": "2026-11-14T23:54:16.453Z",
   "timeout_min": 220,
-  "step": 2,
+  "step": 4,
   "steps": 4,
-  "label": "render 1-1588",
-  "step_since": "2026-11-14T23:54:23.545Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/euv_v2/r",
-   "total": 1588
-  },
-  "updated": "2026-11-14T23:54:23.545Z"
+  "label": "push",
+  "step_since": "2026-11-15T00:48:08.733Z",
+  "progress": null,
+  "updated": "2026-11-15T00:48:08.733Z"
  },
  "queue": []
 }
