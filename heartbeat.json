@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-15T15:05:51.882Z",
- "current": "2743-ink-stills2 since 2026-11-15 15:05:51",
+ "ts": "2026-11-15T15:06:24.768Z",
+ "current": "2744-ink-render since 2026-11-15 15:06:24",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
  "done": [
+  "2743-ink-stills2",
   "2742-ink-stills",
   "2741-ink-probe",
   "2740-ink-bksearch",
@@ -43,8 +44,7 @@
   "2676-wk-upload",
   "2675-wk-mux3",
   "2673-wk-music",
-  "2672-wk-render",
-  "2679-bk4-render"
+  "2672-wk-render"
  ],
  "failed": [
   "2714-euv-encode",
@@ -90,14 +90,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2743-ink-stills2",
-  "title": "MT Drucker · Standbilder Runde 2",
-  "job_since": "2026-11-15T15:05:51.864Z",
-  "timeout_min": 30,
+  "job": "2744-ink-render",
+  "title": "MT Drucker · rendern + Video",
+  "job_since": "2026-11-15T15:06:24.748Z",
+  "timeout_min": 240,
   "step": 0,
-  "steps": 2,
+  "steps": 4,
   "label": "Startet",
   "progress": null,
-  "updated": "2026-11-15T15:05:51.864Z"
+  "updated": "2026-11-15T15:06:24.748Z"
  }
 }
