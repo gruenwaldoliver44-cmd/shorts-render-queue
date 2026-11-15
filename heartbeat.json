@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T17:10:30.149Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
- "free_gb": 5,
+ "ts": "2026-11-15T17:11:23.666Z",
+ "current": "2747-esp-thumbs since 2026-11-15 17:11:23",
+ "busy": true,
+ "free_gb": 6,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 16,
- "mem_free_pct": 78,
- "progress": null,
  "done": [
   "2746-esp-bksearch",
   "2744-ink-render",
@@ -49,8 +44,7 @@
   "2678-fe-dl1",
   "2677-fe-refs",
   "2676-wk-upload",
-  "2675-wk-mux3",
-  "2673-wk-music"
+  "2675-wk-mux3"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2746-esp-bksearch",
-   "title": "MT Espresso · BlenderKit-Suche",
-   "result": "fertig",
-   "at": "2026-11-15T17:06:41.464Z"
-  },
-  "updated": "2026-11-15T17:06:41.464Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2747-esp-thumbs",
+  "title": "MT Espresso · Vorschaubilder",
+  "job_since": "2026-11-15T17:11:23.644Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:11:23.644Z"
+ }
 }
