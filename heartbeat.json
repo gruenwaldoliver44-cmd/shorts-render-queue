@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T17:11:23.666Z",
+ "ts": "2026-11-15T17:12:30.184Z",
+ "source": "dashboard",
  "current": "2747-esp-thumbs since 2026-11-15 17:11:23",
  "busy": true,
  "free_gb": 6,
  "blender_procs": 0,
+ "cpu": 18,
+ "gpu": 15,
+ "mem_free_pct": 77,
+ "progress": null,
  "done": [
   "2746-esp-bksearch",
   "2744-ink-render",
@@ -94,10 +99,12 @@
   "title": "MT Espresso · Vorschaubilder",
   "job_since": "2026-11-15T17:11:23.644Z",
   "timeout_min": 15,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "suche",
+  "step_since": "2026-11-15T17:11:25.593Z",
   "progress": null,
-  "updated": "2026-11-15T17:11:23.644Z"
- }
+  "updated": "2026-11-15T17:11:25.593Z"
+ },
+ "queue": []
 }
