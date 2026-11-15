@@ -1,17 +1,17 @@
 {
- "ts": "2026-11-15T00:40:44.172Z",
+ "ts": "2026-11-15T00:42:44.217Z",
  "source": "dashboard",
  "current": "2720-euv-v2 since 2026-11-14 23:54:16",
  "busy": true,
  "free_gb": 6,
  "blender_procs": 1,
- "cpu": 8,
+ "cpu": 9,
  "gpu": 81,
- "mem_free_pct": 36,
+ "mem_free_pct": 38,
  "progress": {
-  "n": 1316,
+  "n": 1417,
   "total": 1588,
-  "eta_min": 10
+  "eta_min": 6
  },
  "done": [
   "2717-euv-encode2",
