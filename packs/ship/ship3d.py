@@ -135,11 +135,11 @@ def box(name, loc, size, m):
     o = prim("cube", name, loc=loc, scale=(size[0] / 2, size[1] / 2, size[2] / 2), smooth=False); apply_scale(o); setmat(o, m); return o
 
 def build_superstructure():
-    white = mat("white", (0.78, 0.79, 0.8), 0.5); glass = mat("glass", (0.02, 0.025, 0.03), 0.08, metal=0.3)
+    white = mat("white", (0.5, 0.52, 0.55), 0.5); glass = mat("glass", (0.02, 0.025, 0.03), 0.08, metal=0.3)
     navy = mat("navy", (0.03, 0.05, 0.09), 0.45)
     # bridge / accommodation block (forward third, like modern ULCVs)
     bx = 95
-    box("acc", (bx, 0, DECK + 22), (16, 38, 44), mat("accgrey", (0.62, 0.64, 0.66), 0.55))
+    box("acc", (bx, 0, DECK + 22), (16, 38, 44), mat("accgrey", (0.42, 0.45, 0.48), 0.55))
     for k in range(9):
         for side in (-1, 1):
             box("winS%d_%d" % (k, side), (bx, side * 19.05, DECK + 6 + k * 4.4), (13, 0.2, 1.2), glass)
@@ -402,9 +402,9 @@ def paint(name, col, rough=0.5, metal=0.0, grime=0.35, scale=1.5):
 NCYL, PITCH = 12, 2.05
 def build_engine():
     P = dict(eng=paint("engpaint", (0.30, 0.36, 0.36), 0.45), dark=paint("darksteel", (0.07, 0.075, 0.08), 0.35, metal=0.6),
-             silver=paint("insul", (0.62, 0.63, 0.64), 0.3, metal=0.9, grime=0.2, scale=6), yellow=paint("railyel", (0.85, 0.6, 0.05), 0.45),
+             silver=paint("insul", (0.55, 0.56, 0.55), 0.62, metal=0.15, grime=0.25, scale=6), yellow=paint("railyel", (0.85, 0.6, 0.05), 0.45),
              blue=paint("pipeblue", (0.08, 0.22, 0.45), 0.4), green=paint("pipegrn", (0.12, 0.35, 0.18), 0.4), red=paint("pipered", (0.5, 0.06, 0.04), 0.4),
-             floor=paint("floorpl", (0.12, 0.12, 0.13), 0.35, metal=0.7, grime=0.5, scale=3), wall=paint("wallp", (0.2, 0.24, 0.26), 0.6, grime=0.18, scale=0.4))
+             floor=paint("floorpl", (0.12, 0.12, 0.13), 0.35, metal=0.7, grime=0.5, scale=3), wall=paint("wallp", (0.2, 0.24, 0.26), 0.6, grime=0.06, scale=0.4))
     xs = [(i - (NCYL - 1) / 2) * PITCH for i in range(NCYL)]
     L = NCYL * PITCH + 2.4
     bevel(setmat(cub("bedplate", (0, 0, 1.3), (L + 1, 6.6, 2.6)), P["eng"]), 0.06)
@@ -416,7 +416,7 @@ def build_engine():
         setmat(cylu("turbo%d" % k, (x, -5.6, 13.0), 1.45, 2.8, rot=(D(90), 0, 0)), P["silver"])
         setmat(cylu("turbocone%d" % k, (x, -7.3, 13.0), 0.9, 0.8, rot=(D(90), 0, 0)), P["dark"])
         bevel(setmat(cub("cooler%d" % k, (x, -5.6, 9.6), (2.6, 2.2, 3.6)), paint("coolerp", (0.22, 0.26, 0.27), 0.75)), 0.05)
-        for fz in range(8): setmat(cub("fin%d_%d" % (k, fz), (x, -6.72, 8.1 + fz * 0.42), (2.4, 0.06, 0.12)), P["silver"])
+        for fz in range(8): setmat(cub("fin%d_%d" % (k, fz), (x, -6.72, 8.1 + fz * 0.42), (2.4, 0.06, 0.12)), P["dark"])
         setmat(cylu("tdown%d" % k, (x, -4.4, 14.2), 0.45, 1.6), P["silver"])
     for i, x in enumerate(xs):
         # crankcase doors with bolts
