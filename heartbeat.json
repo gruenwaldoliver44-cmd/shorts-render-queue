@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T17:16:30.192Z",
+ "ts": "2026-11-15T17:18:30.295Z",
  "source": "dashboard",
  "current": "2690-nw-render since 2026-11-15 17:14:56",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 54,
- "gpu": 33,
- "mem_free_pct": 59,
+ "cpu": 81,
+ "gpu": 37,
+ "mem_free_pct": 57,
  "progress": null,
  "done": [
   "2747-esp-thumbs",
@@ -106,5 +106,7 @@
   "progress": null,
   "updated": "2026-11-15T17:14:58.935Z"
  },
- "queue": []
+ "queue": [
+  "2748-esp-probe"
+ ]
 }
