@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T18:16:14.086Z",
+ "ts": "2026-11-15T18:18:02.134Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
- "free_gb": 15,
+ "busy": false,
+ "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 16,
+ "gpu": 17,
+ "mem_free_pct": 81,
+ "progress": null,
  "done": [
   "2754-esp-fluidtest",
   "2753-esp-liquid-search",
@@ -97,5 +102,6 @@
    "at": "2026-11-15T18:16:14.061Z"
   },
   "updated": "2026-11-15T18:16:14.061Z"
- }
+ },
+ "queue": []
 }
