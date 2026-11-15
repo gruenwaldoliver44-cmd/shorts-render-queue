@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T09:04:46.324Z",
+ "ts": "2026-11-15T09:06:46.269Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 57,
- "mem_free_pct": 69,
+ "cpu": 14,
+ "gpu": 18,
+ "mem_free_pct": 70,
  "progress": null,
  "done": [
   "2733-cable-stills2",
