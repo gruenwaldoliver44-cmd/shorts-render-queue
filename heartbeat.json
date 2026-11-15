@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T20:46:17.473Z",
+ "ts": "2026-11-15T20:48:17.379Z",
  "source": "dashboard",
- "current": "2763-ship-bksearch since 2026-11-15 20:44:41",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 13,
  "blender_procs": 0,
- "cpu": 16,
+ "cpu": 14,
  "gpu": 33,
- "mem_free_pct": 63,
+ "mem_free_pct": 61,
  "progress": null,
  "done": [
+  "2763-ship-bksearch",
   "2762-esp-fluidtest5",
   "2759-esp-lookdev2",
   "2758-esp-fluidtest4",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2763-ship-bksearch",
-  "title": "MT Schiff · BlenderKit-Suche",
-  "job_since": "2026-11-15T20:44:41.171Z",
-  "timeout_min": 15,
-  "step": 1,
-  "steps": 1,
-  "label": "suche",
-  "step_since": "2026-11-15T20:44:42.849Z",
-  "progress": null,
-  "updated": "2026-11-15T20:44:42.849Z"
+  "state": "idle",
+  "last": {
+   "job": "2763-ship-bksearch",
+   "title": "MT Schiff · BlenderKit-Suche",
+   "result": "fertig",
+   "at": "2026-11-15T20:48:11.809Z"
+  },
+  "updated": "2026-11-15T20:48:11.809Z"
  },
  "queue": []
 }
