@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T17:41:33.790Z",
+ "ts": "2026-11-15T17:42:30.217Z",
+ "source": "dashboard",
  "current": "2751-esp-stills1 since 2026-11-15 17:41:33",
  "busy": true,
- "free_gb": 19,
+ "free_gb": 18,
  "blender_procs": 0,
+ "cpu": 22,
+ "gpu": 52,
+ "mem_free_pct": 77,
+ "progress": null,
  "done": [
   "2750-esp-probe2b",
   "2749-esp-probe2",
@@ -94,10 +99,12 @@
   "title": "MT Espresso · Standbilder Runde 1",
   "job_since": "2026-11-15T17:41:33.768Z",
   "timeout_min": 50,
-  "step": 0,
+  "step": 2,
   "steps": 2,
-  "label": "Startet",
+  "label": "stills",
+  "step_since": "2026-11-15T17:41:39.483Z",
   "progress": null,
-  "updated": "2026-11-15T17:41:33.768Z"
- }
+  "updated": "2026-11-15T17:41:39.483Z"
+ },
+ "queue": []
 }
