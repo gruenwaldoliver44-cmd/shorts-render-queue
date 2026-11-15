@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T08:46:46.348Z",
+ "ts": "2026-11-15T08:48:46.291Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 2,
+ "free_gb": 3,
  "blender_procs": 0,
- "cpu": 26,
- "gpu": 29,
- "mem_free_pct": 81,
+ "cpu": 21,
+ "gpu": 35,
+ "mem_free_pct": 82,
  "progress": null,
  "done": [
   "2731-cable-probe",
