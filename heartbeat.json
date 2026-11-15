@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T15:04:29.616Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
- "free_gb": 4,
+ "ts": "2026-11-15T15:05:51.882Z",
+ "current": "2743-ink-stills2 since 2026-11-15 15:05:51",
+ "busy": true,
+ "free_gb": 5,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 1,
- "mem_free_pct": 80,
- "progress": null,
  "done": [
   "2742-ink-stills",
   "2741-ink-probe",
@@ -94,17 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2742-ink-stills",
-   "title": "MT Drucker · Standbilder Runde 1",
-   "result": "fertig",
-   "at": "2026-11-15T10:43:29.380Z"
-  },
-  "updated": "2026-11-15T10:43:29.380Z"
- },
- "queue": [
-  "2743-ink-stills2",
-  "2744-ink-render"
- ]
+  "state": "busy",
+  "job": "2743-ink-stills2",
+  "title": "MT Drucker · Standbilder Runde 2",
+  "job_since": "2026-11-15T15:05:51.864Z",
+  "timeout_min": 30,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T15:05:51.864Z"
+ }
 }
