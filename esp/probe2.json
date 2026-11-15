@@ -1,0 +1,1265 @@
+{
+ "linea": {
+  "mats": {
+   "Stainless Steel": {
+    "users": [
+     "SteamWand",
+     "Sprouts",
+     "PressureDisplay 2",
+     "PressureDisplay 1",
+     "Porta Filter",
+     "HotWaterSprout",
+     "Handle ",
+     "GroupHead",
+     "BottomCover",
+     "BodyTop",
+     "BodyMiddle",
+     "BodyFrontDripTray",
+     "BodyFront",
+     "BodyBottom"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Black Plastic": {
+    "users": [
+     "Steam Knob 2",
+     "Steam Knob 1",
+     "PaddleSupport",
+     "Paddle",
+     "Legs"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "White Plastic": {
+    "users": [
+     "Steam Knob 2",
+     "Steam Knob 1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Pressure Display": {
+    "users": [
+     "PressureDisplay 2",
+     "PressureDisplay 1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "LaMarzocco Logo": {
+    "users": [
+     "LaMarzocco Logo"
+    ],
+    "method": "BLENDED",
+    "blend": "BLEND",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": 0.5,
+     "Alpha": "LINK",
+     "Transmission Weight": 0.0
+    }
+   },
+   "Black Plastic Rough": {
+    "users": [
+     "Handle "
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Stainless Steel Grid Top": {
+    "users": [
+     "BodyTop"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Drip Tray Grid": {
+    "users": [
+     "BodyFrontDripTray"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   }
+  },
+  "objs": [
+   [
+    "SteamWand",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.012,
+     0.063,
+     0.16
+    ]
+   ],
+   [
+    "Steam Knob 2",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.044,
+     0.052,
+     0.044
+    ]
+   ],
+   [
+    "Steam Knob 1",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.044,
+     0.052,
+     0.044
+    ]
+   ],
+   [
+    "Sprouts",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.038,
+     0.025,
+     0.02
+    ]
+   ],
+   [
+    "PressureDisplay 2",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.043,
+     0.007,
+     0.043
+    ]
+   ],
+   [
+    "PressureDisplay 1",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.043,
+     0.007,
+     0.043
+    ]
+   ],
+   [
+    "Porta Filter",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.069,
+     0.069,
+     0.06
+    ]
+   ],
+   [
+    "PaddleSupport",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.149,
+     0.149,
+     0.051
+    ]
+   ],
+   [
+    "Paddle",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.051,
+     0.066,
+     0.048
+    ]
+   ],
+   [
+    "Linea Mini Coffee Machine",
+    "EMPTY",
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "Legs",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.287,
+     0.35,
+     0.025
+    ]
+   ],
+   [
+    "LaMarzocco Logo",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.107,
+     0.0,
+     0.014
+    ]
+   ],
+   [
+    "HotWaterSprout",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.021,
+     0.021,
+     0.032
+    ]
+   ],
+   [
+    "Handle ",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.032,
+     0.154,
+     0.064
+    ]
+   ],
+   [
+    "GroupHead",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.099,
+     0.099,
+     0.017
+    ]
+   ],
+   [
+    "BottomCover",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.219,
+     0.134,
+     0.016
+    ]
+   ],
+   [
+    "BodyTop",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.002
+    ],
+    [
+     0.337,
+     0.306,
+     0.132
+    ]
+   ],
+   [
+    "BodyMiddle",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.306,
+     0.287,
+     0.142
+    ]
+   ],
+   [
+    "BodyFrontDripTray",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.313,
+     0.152,
+     0.066
+    ]
+   ],
+   [
+    "BodyFront",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.287,
+     0.119,
+     0.109
+    ]
+   ],
+   [
+    "BodyBottom",
+    "MESH",
+    "Linea Mini Coffee Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.259,
+     0.28,
+     0.066
+    ]
+   ]
+  ]
+ },
+ "hero": {
+  "mats": {
+   "Glass.002": {
+    "users": [
+     "Glass"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeMapping",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": "LINK",
+     "Transmission Weight": 0.0
+    }
+   },
+   "Others": {
+    "users": [
+     "Espresso Machine.001"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": "LINK",
+     "Transmission Weight": 0.0
+    }
+   },
+   "Body materials": {
+    "users": [
+     "Espresso Machine"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   }
+  },
+  "objs": [
+   [
+    "Glass",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.156,
+     0.156,
+     0.057
+    ]
+   ],
+   [
+    "Espresso Machine.001",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.397,
+     0.392,
+     0.443
+    ]
+   ],
+   [
+    "Espresso Machine",
+    "MESH",
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.358,
+     0.425,
+     0.424
+    ]
+   ]
+  ]
+ },
+ "cup": {
+  "mats": {
+   "SPOON": {
+    "users": [
+     "spoon_1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfAnisotropic",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeOutputMaterial"
+    ],
+    "bsdf": {
+     "Base Color": [
+      0.18,
+      0.18,
+      0.18,
+      1.0
+     ],
+     "Metallic": 0.8,
+     "Roughness": 0.15,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "OctDiffuse2": {
+    "users": [
+     "spoon_1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial"
+    ],
+    "bsdf": {
+     "Base Color": [
+      0.8,
+      0.8,
+      0.8,
+      1.0
+     ],
+     "Metallic": 0.0,
+     "Roughness": 0.55,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "ceramic": {
+    "users": [
+     "plate",
+     "cup_1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeGroup",
+     "ShaderNodeMix",
+     "ShaderNodeOutputMaterial"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "LATTEART": {
+    "users": [
+     "cup_1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "NodeFrame",
+     "NodeReroute",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeDisplacement",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": "LINK",
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   }
+  },
+  "objs": [
+   [
+    "spoon_1",
+    "MESH",
+    "Cup of coffee",
+    [
+     0.005,
+     -0.041,
+     0.006
+    ],
+    [
+     0.096,
+     0.011,
+     0.021
+    ]
+   ],
+   [
+    "plate",
+    "MESH",
+    "Cup of coffee",
+    [
+     0.0,
+     0.0,
+     0.03
+    ],
+    [
+     0.106,
+     0.007,
+     0.106
+    ]
+   ],
+   [
+    "cup_1",
+    "MESH",
+    "Cup of coffee",
+    [
+     0.011,
+     0.0,
+     0.002
+    ],
+    [
+     0.08,
+     0.047,
+     0.062
+    ]
+   ],
+   [
+    "Cup of coffee",
+    "EMPTY",
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  ]
+ },
+ "retro": {
+  "mats": {
+   "wire_000000000.001": {
+    "users": [
+     "joystick.002",
+     "joystick.001",
+     "joystick",
+     "filter screen",
+     "Coffee machine1.004",
+     "Coffee machine1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeMapping",
+     "ShaderNodeNormalMap",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": [
+      0.57,
+      0.57,
+      0.57,
+      1.0
+     ],
+     "Metallic": 0.88,
+     "Roughness": 0.25,
+     "Alpha": 1.0,
+     "Transmission Weight": 1.0
+    }
+   },
+   "Arch145_043_021.001": {
+    "users": [
+     "joystick.002",
+     "joystick.001",
+     "joystick",
+     "Coffee machine1.001"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBump",
+     "ShaderNodeMapping",
+     "ShaderNodeMix",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexNoise",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.1,
+     "Roughness": 0.52,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Material.001": {
+    "users": [
+     "Coffee machine1.004"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexImage"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": 1.0,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Arch145_043_021": {
+    "users": [
+     "Coffee machine1.004"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeOutputMaterial"
+    ],
+    "bsdf": {
+     "Base Color": [
+      0.01,
+      0.01,
+      0.01,
+      1.0
+     ],
+     "Metallic": 1.0,
+     "Roughness": 0.24,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "wire_227153153": {
+    "users": [
+     "Coffee machine1.004",
+     "Coffee machine1.002",
+     "Coffee machine1.001"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBrightContrast",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBump",
+     "ShaderNodeMapping",
+     "ShaderNodeMix",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage",
+     "ShaderNodeTexNoise",
+     "ShaderNodeTexVoronoi",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.3,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "wire_227153153.001": {
+    "users": [
+     "Coffee machine1.002"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBump",
+     "ShaderNodeMapping",
+     "ShaderNodeMix",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage",
+     "ShaderNodeTexNoise",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.3,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "Arch145_043_018": {
+    "users": [
+     "Coffee machine1"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeOutputMaterial"
+    ],
+    "bsdf": {
+     "Base Color": [
+      0.01,
+      0.01,
+      0.01,
+      1.0
+     ],
+     "Metallic": 0.0,
+     "Roughness": 0.8,
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   }
+  },
+  "objs": [
+   [
+    "joystick.002",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.06,
+     0.161,
+     0.036
+    ]
+   ],
+   [
+    "joystick.001",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.054,
+     0.043,
+     0.087
+    ]
+   ],
+   [
+    "joystick",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.085,
+     0.118
+    ]
+   ],
+   [
+    "filter screen",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.336,
+     0.161,
+     0.007
+    ]
+   ],
+   [
+    "Espresso Machine",
+    "EMPTY",
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "Coffee machine1.004",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.307,
+     0.246,
+     0.146
+    ]
+   ],
+   [
+    "Coffee machine1.002",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.346,
+     0.3,
+     0.202
+    ]
+   ],
+   [
+    "Coffee machine1.001",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.103,
+     0.103,
+     0.139
+    ]
+   ],
+   [
+    "Coffee machine1",
+    "MESH",
+    "Espresso Machine",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.078,
+     0.059,
+     0.089
+    ]
+   ]
+  ]
+ },
+ "portafilter": {
+  "mats": {
+   "metal": {
+    "users": [
+     "group handle",
+     "basket"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeHueSaturation",
+     "ShaderNodeMapping",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.96,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "wood": {
+    "users": [
+     "group handle"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfAnisotropic",
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBump",
+     "ShaderNodeHueSaturation",
+     "ShaderNodeMix",
+     "ShaderNodeMixShader",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexImage",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.0,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   },
+   "metal.001": {
+    "users": [
+     "basket"
+    ],
+    "method": "DITHERED",
+    "blend": "HASHED",
+    "nodes": [
+     "ShaderNodeBsdfPrincipled",
+     "ShaderNodeBump",
+     "ShaderNodeMapping",
+     "ShaderNodeMath",
+     "ShaderNodeMixRGB",
+     "ShaderNodeOutputMaterial",
+     "ShaderNodeTexCoord",
+     "ShaderNodeTexImage",
+     "ShaderNodeTexWave",
+     "ShaderNodeValToRGB"
+    ],
+    "bsdf": {
+     "Base Color": "LINK",
+     "Metallic": 0.96,
+     "Roughness": "LINK",
+     "Alpha": 1.0,
+     "Transmission Weight": 0.0
+    }
+   }
+  },
+  "objs": [
+   [
+    "Group handle Portafilter",
+    "EMPTY",
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "group handle",
+    "MESH",
+    "Group handle Portafilter",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.233,
+     0.09,
+     0.081
+    ]
+   ],
+   [
+    "basket",
+    "MESH",
+    "Group handle Portafilter",
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.085,
+     0.086,
+     0.027
+    ]
+   ]
+  ]
+ }
+}
