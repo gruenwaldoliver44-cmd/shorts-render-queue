@@ -17,18 +17,18 @@ SH = {
  "crank_a":    ("CRANK", 8.11, [(0, (0.55, -1.25, 0.32), (0, 0, 0.0), 45), (8.11, (0.25, -1.0, 0.22), (0, 0, 0.02), 45)], {}),
  "sea_title":  ("SEA", 4.64,   [(0, (430, -270, 150), (0, 0, 15), 35), (4.64, (390, -240, 128), (0, 0, 15), 35)], {}),
  "sea_track":  ("SEA", 8.92,   [(0, (260, -190, 55), (110, 0, 20), 30), (8.92, (90, -200, 50), (-60, 0, 20), 30)], {}),
- "sea_bow":    ("SEA", 7.3,    [(0, (330, -70, 4), (185, 0, 14), 28), (7.3, (300, -58, 5), (185, 0, 16), 28)], {}),
+ "sea_bow":    ("SEA", 7.3,    [(0, (360, -150, 45), (150, 0, 8), 30), (7.3, (320, -135, 38), (140, 0, 8), 30)], {}),
  "holo_dive":  ("HOLO", 10.72, [(0, (14, -11, 24.5), (0, 0, 12), 22), (5.0, (12, -12, 15), (0, 0, 10), 22), (10.72, (17, -14.5, 3.5), (0, 0, 9), 22)], {}),
  "holo_orbit": ("HOLO", 10.95, [], {"orbit": (17, 6, 8, -75, -25)}),
  "holo_close": ("HOLO", 7.11,  [(0, (14, -4.6, 17.2), (-6, 0, 14.5), 22), (7.11, (-9, -4.6, 17.0), (-24, 0, 14), 22)], {}),
  "holo_shaft": ("HOLO", 6.68,  [(0, (-16, -1.9, 3.4), (-40, 0, 2.2), 24), (6.68, (-50, -1.9, 3.1), (-72, 0, 2.2), 24)], {}),
- "stern_prop": ("STERN", 8.42, [(0, (-12, -12.5, -4.8), (0, 0, 0.3), 24), (8.42, (-6.5, -14, -4.4), (0.5, 0, 0.5), 24)], {}),
+ "stern_prop": ("STERN", 8.42, [(0, (3, -17, -5.0), (0, 0, 0.3), 26), (8.42, (6, -16, -4.6), (0, 0, 0.5), 26)], {}),
  "crank_b":    ("CRANK", 3.01, [(0, (-0.6, -1.1, 0.45), (0, 0, 0.05), 40), (3.01, (-0.5, -1.0, 0.4), (0, 0, 0.05), 40)], {"air": 1}),
  "holo_eff":   ("HOLO", 7.22,  [(0, (22, -17, 3), (0, 0, 8), 20), (7.22, (20, -15.5, 12), (0, 0, 7), 20)], {}),
  "sea_top":    ("SEA", 11.45,  [(0, (80, 10, 430), (80, 0, 0), 28), (11.45, (-30, -10, 400), (-30, 0, 0), 28)], {"roll": 1}),
  "sea_wake":   ("SEA", 3.58,   [(0, (-430, 50, 70), (-120, 0, 12), 38), (3.58, (-410, 42, 66), (-120, 0, 12), 38)], {}),
  "sea_sunset": ("SEA", 8.2,    [(0, (-650, -320, 55), (0, 0, 20), 55), (8.2, (-610, -300, 50), (0, 0, 20), 55)], {"sunset": 1}),
- "stern_slow": ("STERN", 4.33, [(0, (-7, -12, -4), (0, 0, 0.5), 28), (4.33, (-6, -11, -3.8), (0, 0, 0.5), 30)], {}),
+ "stern_slow": ("STERN", 4.33, [(0, (4, -11, -3.5), (0, 0, 0.5), 30), (4.33, (4.5, -10.5, -3.3), (0, 0, 0.5), 32)], {}),
  "holo_end":   ("HOLO", 7.59,  [(0, (16, -14, 10), (0, 0, 9), 22), (7.59, (9, -9.5, 7.5), (0, 0, 9), 26)], {}),
  "sea_end":    ("SEA", 8.55,   [(0, (-900, 260, 95), (0, 0, 20), 45), (8.55, (-860, 245, 85), (0, 0, 20), 45)], {"sunset": 1}),
 }
@@ -146,7 +146,7 @@ def build_superstructure():
         box("winA%d" % k, (bx - 8.05, 0, DECK + 6 + k * 4.4), (0.2, 30, 1.2), glass)
     lash = mat("lash", (0.55, 0.55, 0.5), 0.6, metal=0.3)
     x = -180.0
-    while x < 180:
+    while x < 105:
         if abs(x - 95) > 14 and abs(x + 150) > 12:
             box("lashb%.0f" % x, (x, 0, DECK + 6), (0.6, BEAM - 6, 10), lash)
         x += 12.4
@@ -160,7 +160,7 @@ def build_superstructure():
     box("funnelcap", (-150, 0, DECK + 32.5), (16.4, 18.4, 1.5), mat("black", (0.01, 0.01, 0.01), 0.6))
     # hatch covers
     hc = mat("hatch", (0.05, 0.12, 0.18), 0.6)
-    box("hatches", (0, 0, DECK + 0.6), (370, BEAM - 4, 1.2), hc)
+    box("hatches", (-37.5, 0, DECK + 0.6), (295, BEAM - 4, 1.2), hc)
 
 CRATE = None
 def crate_mesh():
@@ -283,7 +283,9 @@ def foam_plane(name, loc, size, rot=(0, 0, 0), dens=0.5, speed=(0, 0), scale=0.0
     nt.links.new(tc.outputs["Object"], mp.inputs["Vector"])
     vor = N.new("ShaderNodeTexNoise"); SV(vor, "Scale", 1.0 / scale); SV(vor, "Detail", 8); SV(vor, "Roughness", 0.7)
     nt.links.new(mp.outputs[0], vor.inputs["Vector"])
-    gr = N.new("ShaderNodeTexGradient"); gr.gradient_type = "SPHERICAL"; nt.links.new(tc.outputs["Object"], gr.inputs["Vector"])
+    gr = N.new("ShaderNodeTexGradient"); gr.gradient_type = "SPHERICAL"
+    sc2 = N.new("ShaderNodeVectorMath"); sc2.operation = "SCALE"; SV(sc2, "Scale", 2.0)
+    nt.links.new(tc.outputs["Object"], sc2.inputs[0]); nt.links.new(sc2.outputs[0], gr.inputs["Vector"])
     mul = N.new("ShaderNodeMath"); mul.operation = "MULTIPLY"
     mr = N.new("ShaderNodeMapRange"); SV(mr, 1, dens); SV(mr, 2, dens + 0.15)
     nt.links.new(vor.outputs["Fac"], mr.inputs[0]); nt.links.new(mr.outputs[0], mul.inputs[0]); nt.links.new(gr.outputs["Fac"], mul.inputs[1])
@@ -404,7 +406,7 @@ def build_engine():
     P = dict(eng=paint("engpaint", (0.30, 0.36, 0.36), 0.45), dark=paint("darksteel", (0.07, 0.075, 0.08), 0.35, metal=0.6),
              silver=paint("insul", (0.55, 0.56, 0.55), 0.62, metal=0.15, grime=0.25, scale=6), yellow=paint("railyel", (0.85, 0.6, 0.05), 0.45),
              blue=paint("pipeblue", (0.08, 0.22, 0.45), 0.4), green=paint("pipegrn", (0.12, 0.35, 0.18), 0.4), red=paint("pipered", (0.5, 0.06, 0.04), 0.4),
-             floor=paint("floorpl", (0.12, 0.12, 0.13), 0.35, metal=0.7, grime=0.5, scale=3), wall=paint("wallp", (0.2, 0.24, 0.26), 0.6, grime=0.06, scale=0.4))
+             floor=mat("floorpl", (0.09, 0.09, 0.1), 0.45, metal=0.5), wall=mat("wallp", (0.16, 0.19, 0.21), 0.65))
     xs = [(i - (NCYL - 1) / 2) * PITCH for i in range(NCYL)]
     L = NCYL * PITCH + 2.4
     bevel(setmat(cub("bedplate", (0, 0, 1.3), (L + 1, 6.6, 2.6)), P["eng"]), 0.06)
@@ -547,7 +549,7 @@ def set_stern():
     world("kloofendal_48d_partly_cloudy_puresky", 1.0, rot=D(200)); sun((D(55), 0, D(-120)), 4.5)
     # the ship sits in a dry dock: hull bottom above, keel blocks, concrete floor and walls
     h = build_hull("sternhull", sections=80); h.location = (190, 0, 13.5)
-    conc = paint("dockconc", (0.42, 0.41, 0.39), 0.85, grime=0.5, scale=0.6)
+    conc = mat("dockconc", (0.4, 0.39, 0.37), 0.9)
     fl = setmat(prim("plane", "dockfloor", loc=(60, 0, -7.5), scale=(160, 45, 1), smooth=False), conc)
     for side in (-1, 1):
         setmat(prim("plane", "dockwall%d" % side, loc=(60, side * 45, 4), rot=(D(90), 0, 0), scale=(160, 12, 1), smooth=False), conc)
