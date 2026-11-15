@@ -1,0 +1,47 @@
+{
+ "images": [
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Espresso Coffee": {
+   "disp": [],
+   "disp_linked": true,
+   "method": "BUMP"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Material.001": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 1005.5
+}
