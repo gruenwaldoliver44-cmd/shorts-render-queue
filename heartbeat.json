@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T17:20:23.343Z",
+ "ts": "2026-11-15T17:20:30.150Z",
+ "source": "dashboard",
  "current": "2748-esp-probe since 2026-11-15 17:20:23",
  "busy": true,
  "free_gb": 5,
- "blender_procs": 0,
+ "blender_procs": 1,
+ "cpu": 57,
+ "gpu": 29,
+ "mem_free_pct": 61,
+ "progress": null,
  "done": [
   "2690-nw-render",
   "2747-esp-thumbs",
@@ -94,10 +99,12 @@
   "title": "MT Espresso · Assets laden + prüfen",
   "job_since": "2026-11-15T17:20:23.322Z",
   "timeout_min": 30,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "probe",
+  "step_since": "2026-11-15T17:20:25.706Z",
   "progress": null,
-  "updated": "2026-11-15T17:20:23.322Z"
- }
+  "updated": "2026-11-15T17:20:25.706Z"
+ },
+ "queue": []
 }
