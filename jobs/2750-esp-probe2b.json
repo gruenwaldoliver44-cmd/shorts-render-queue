@@ -1,0 +1,14 @@
+{
+ "id": "2750-esp-probe2b",
+ "title": "MT Espresso \u00b7 Materialien + Ansichten",
+ "type": "shell",
+ "timeout_min": 30,
+ "retries": 0,
+ "min_free_gb": 2,
+ "steps": [
+  {
+   "label": "probe2",
+   "run": "cp \"$AGENT_HOME/repo/packs/esp/\"* . && /Applications/Blender.app/Contents/MacOS/Blender -b -P probe2.py > bl.log 2>&1; grep -a 'PROBE2 DONE' bl.log || tail -20 bl.log; tail -40 bl.log > bltail.txt; a=\"bltail.txt esp/bltail.txt probe2.json esp/probe2.json\"; for f in p2/*.jpg; do a=\"$a $f esp/p2/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
