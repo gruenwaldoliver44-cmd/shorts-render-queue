@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T19:43:41.424Z",
+ "ts": "2026-11-15T20:01:53.198Z",
  "source": "dashboard",
  "current": "2759-esp-lookdev2 since 2026-11-15 19:26:35",
  "busy": true,
- "free_gb": 16,
+ "free_gb": 14,
  "blender_procs": 1,
- "cpu": 62,
- "gpu": 84,
- "mem_free_pct": 50,
+ "cpu": 49,
+ "gpu": 93,
+ "mem_free_pct": 38,
  "progress": null,
  "done": [
   "2758-esp-fluidtest4",
