@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T10:22:46.277Z",
+ "ts": "2026-11-15T10:24:46.300Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 24,
+ "cpu": 16,
  "gpu": 27,
- "mem_free_pct": 73,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2741-ink-probe",
