@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-15T09:03:33.275Z",
- "current": "2733-cable-stills2 since 2026-11-15 09:03:33",
- "busy": true,
+ "ts": "2026-11-15T09:04:46.324Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
+ "cpu": 17,
+ "gpu": 57,
+ "mem_free_pct": 69,
+ "progress": null,
  "done": [
+  "2733-cable-stills2",
   "2732-cable-stills",
   "2731-cable-probe",
   "2730-cable-bksearch",
@@ -89,15 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2733-cable-stills2",
-  "title": "MT Seekabel · Standbilder Runde 2",
-  "job_since": "2026-11-15T09:03:33.257Z",
-  "timeout_min": 40,
-  "step": 0,
-  "steps": 2,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T09:03:33.257Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2733-cable-stills2",
+   "title": "MT Seekabel · Standbilder Runde 2",
+   "result": "fertig",
+   "at": "2026-11-15T09:04:31.292Z"
+  },
+  "updated": "2026-11-15T09:04:31.292Z"
+ },
+ "queue": []
 }
