@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T17:14:30.183Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T17:14:56.773Z",
+ "current": "2690-nw-render since 2026-11-15 17:14:56",
+ "busy": true,
  "free_gb": 6,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 15,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
   "2747-esp-thumbs",
   "2746-esp-bksearch",
@@ -49,8 +44,7 @@
   "2679-fe-dl2",
   "2678-fe-dl1",
   "2677-fe-refs",
-  "2676-wk-upload",
-  "2675-wk-mux3"
+  "2676-wk-upload"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,16 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2747-esp-thumbs",
-   "title": "MT Espresso · Vorschaubilder",
-   "result": "fertig",
-   "at": "2026-11-15T17:14:23.527Z"
-  },
-  "updated": "2026-11-15T17:14:23.527Z"
- },
- "queue": [
-  "2690-nw-render"
- ]
+  "state": "busy",
+  "job": "2690-nw-render",
+  "title": "No-Longer-Worth-It-Video rendern (1)",
+  "job_since": "2026-11-15T17:14:56.752Z",
+  "timeout_min": 150,
+  "step": 0,
+  "steps": 3,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:14:56.752Z"
+ }
 }
