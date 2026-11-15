@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-15T00:53:27.489Z",
- "current": "2721-euv-shortup since 2026-11-15 00:53:27",
+ "ts": "2026-11-15T00:53:40.299Z",
+ "current": "",
  "busy": true,
  "free_gb": 6,
  "blender_procs": 0,
  "done": [
+  "2721-euv-shortup",
   "2720-euv-v2",
   "2717-euv-encode2",
   "2716-euv-render-all",
@@ -43,8 +44,7 @@
   "2669-bk-render2",
   "2668-bk-preview",
   "2667-bk-render",
-  "2666-node-path",
-  "2665-node-check"
+  "2666-node-path"
  ],
  "failed": [
   "2714-euv-encode",
@@ -89,15 +89,13 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2721-euv-shortup",
-  "title": "MT EUV · Short hochladen",
-  "job_since": "2026-11-15T00:53:27.473Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T00:53:27.473Z"
+  "state": "idle",
+  "last": {
+   "job": "2721-euv-shortup",
+   "title": "MT EUV · Short hochladen",
+   "result": "fertig",
+   "at": "2026-11-15T00:53:40.253Z"
+  },
+  "updated": "2026-11-15T00:53:40.253Z"
  }
 }
