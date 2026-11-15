@@ -1,0 +1,17 @@
+{
+ "id": "2743-ink-stills2",
+ "title": "MT Drucker \u00b7 Standbilder Runde 2",
+ "type": "shell",
+ "timeout_min": 30,
+ "retries": 0,
+ "steps": [
+  {
+   "label": "prep",
+   "run": "mkdir -p \"$AGENT_HOME/work/ink_main\" && cd \"$AGENT_HOME/work/ink_main\" && cp \"$AGENT_HOME/repo/packs/ink/\"* . && rm -rf s && bash prep.sh | head -c 300"
+  },
+  {
+   "label": "stills",
+   "run": "cd \"$AGENT_HOME/work/ink_main\" && /Applications/Blender.app/Contents/MacOS/Blender -b ink.blend -P ink_render.py -- stills 50 31,551,601,623,763,1263,1339,1406 > st.log 2>&1; grep -a FRAME st.log | tr '\\n' ' '; a=\"\"; for f in s/f*.jpg; do a=\"$a $f ink/e2/$(basename $f)\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}

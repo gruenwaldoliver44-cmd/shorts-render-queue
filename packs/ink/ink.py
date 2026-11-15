@@ -582,7 +582,7 @@ hud_dim, _ = emat("hud_dim", HUD, 1.6, solid=True)
 
 # ======================================================================== SET P: printhead printing
 B = snap(); Po = Vector(C.P)
-paper = box("p_paper", -70, 90, -45, 45, -0.2, 0.0, mat("paper", (0.82, 0.82, 0.8), 0.55), Po)
+paper = box("p_paper", -70, 90, -45, 45, -0.2, 0.0, mat("paper", (0.55, 0.55, 0.56), 0.55), Po)
 # printed swath: the photo, revealed behind the head (object-x < front)
 sw_m, b = newmat("swath_m")
 co = b.sep(b.obj())
@@ -618,14 +618,14 @@ for i in range(140):
     vs = boxmesh(bm, x - 0.06, x + 0.06, y - 0.06, y + 0.06, -1.35, 0.0)
     vals += [r_] * len(vs)
 dr = new_mesh_obj("p_drops", bm); set_rnd(dr.data, vals)
-setmat(dr, stream_mat("p_drops_m", 2, 1.35, 0.35, 4.0, 30.0, CMY))
+setmat(dr, stream_mat("p_drops_m", 2, 1.35, 0.35, 4.0, 7.0, CMY))
 dr.parent = head; dr.location = (0, 0, 1.35)
 # head motion + printed area follows
 HX = [(0.0, -9.0), (2.45, 9.0)]
 for (t, x) in HX:
     kl(head, t, Po + Vector((x, 0, 0)), "LINEAR")
     FRONT.default_value = x - 5.5; K(FRONT, "default_value", F(t), "LINEAR")
-a_ = area("p_key", Po + Vector((-14, -26, 34)), (0, 0, 0), 22000, size=30); aim(a_, Po)
+a_ = area("p_key", Po + Vector((-14, -26, 34)), (0, 0, 0), 12000, size=30); aim(a_, Po)
 a_ = area("p_rim", Po + Vector((8, 30, 14)), (0, 0, 0), 20000, size=20, col=(0.5, 0.85, 1.0)); aim(a_, Po + Vector((0, 0, 6)))
 a_ = area("p_fill", Po + Vector((30, -20, 6)), (0, 0, 0), 8000, size=20, col=(1.0, 0.6, 0.85)); aim(a_, Po + Vector((0, 0, 4)))
 set_vis(B, "P")
@@ -636,8 +636,8 @@ def NV(x, y, z): return No + Vector((x, y, z))
 si_m = mat("silicon", (0.045, 0.05, 0.065), 0.22, 0.7, coat=0.3)
 pl_m = mat("gold_plate", (0.85, 0.58, 0.26), 0.28, 1.0)
 wa_m = mat("barrier", (0.09, 0.08, 0.11), 0.35, 0.0, coat=0.4)
-ink_m = mat("ink_sec", (0.22, 0.0, 0.09), 0.18, 0.0, emit=INKC, es=0.1, coat=0.6)
-ink3_m = mat("ink_3d", (0.5, 0.0, 0.22), 0.04, 0.0, emit=INKC, es=0.35, coat=1.0)
+ink_m = mat("ink_sec", (0.16, 0.0, 0.07), 0.18, 0.0, emit=INKC, es=0.07, coat=0.6)
+ink3_m = mat("ink_3d", (0.32, 0.0, 0.13), 0.04, 0.0, emit=INKC, es=0.12, coat=1.0)
 box("n_sub", -7.5, 7.5, 0, 4, 5.0, 7.2, si_m, No)
 heater = box("n_heater", -1.5, 1.5, 0, 3, 4.85, 5.0, mat("heater", (0.35, 0.33, 0.32), 0.3, 1.0), No)
 HB = bsdf(heater.data.materials[0]); HES = sock(HB, "Emission Strength"); HEC = sock(HB, "Emission Color")
@@ -751,7 +751,7 @@ cycle(EV["heat0"], EV["heat_max"], EV["nucleate"], EV["bubble_full"], EV["jet0"]
       EV["collapse"], EV["collapse1"], EV["refill0"], EV["refill1"], peak=8.0)
 cycle(42.86, 42.98, 43.02, 43.50, 43.55, 44.00, 44.35, 44.45, 44.70, 44.75, 45.35, peak=10.0)
 d_ = 15.0
-a_ = area("n_key", NV(-6, -12, 10), (0, 0, 0), 30 * d_ * d_, size=8); aim(a_, NV(0, 0, 3.5))
+a_ = area("n_key", NV(-6, -12, 10), (0, 0, 0), 12 * d_ * d_, size=8); aim(a_, NV(0, 0, 3.5))
 a_ = area("n_fill", NV(8, -10, -2), (0, 0, 0), 12 * d_ * d_, size=8, col=(1.0, 0.55, 0.85)); aim(a_, NV(0, 0, 2.0))
 a_ = area("n_under", NV(0, -6, -10), (0, 0, 0), 20 * d_ * d_, size=6, col=(0.55, 0.85, 1.0)); aim(a_, NV(0, 0, 0.0))
 heat_l = point("n_heatlight", NV(0, -1.2, 4.2), 0.0, col=(1.0, 0.5, 0.15), radius=0.5)
@@ -769,7 +769,7 @@ for i in range(6):
         x = -8 + i * 3.2; z = -14 + j * 3.6
         boxmesh(bm, x - 1.0, x + 1.0, -0.14, -0.08, z - 1.1, z + 1.1)
 pads = new_mesh_obj("z_pads", bm); pads.location = Zo; setmat(pads, mat("gold", (0.9, 0.62, 0.28), 0.25, 1.0))
-zpl = box("z_plate", -6.5, 6.5, -0.07, 0.0, 4.0, 6.0, mat("noz_plate", (0.8, 0.8, 0.82), 0.18, 1.0), Zo)
+zpl = box("z_plate", -6.5, 6.5, -0.07, 0.0, 4.0, 6.0, mat("noz_plate", (0.55, 0.42, 0.22), 0.38, 1.0), Zo)
 bm = bmesh.new()
 for row, zz in enumerate((4.75, 5.25)):
     for i in range(140):
@@ -780,10 +780,9 @@ setmat(holes, mat("hole_m", (0.02, 0.0, 0.01), 0.1, 0.0, emit=INKC, es=0.8))
 hair = prim("cyl", "z_hair", loc=Zo + Vector((-3.0, -0.14, 4.83)), rot=(0, D(90), D(4)), vertices=32, radius=0.035, depth=3.0)
 setmat(hair, mat("hair", (0.16, 0.09, 0.05), 0.35, 0.0, coat=0.5))
 kl(hair, EV["hair0"], Zo + Vector((-3.0, -0.14, 4.83))); kl(hair, EV["hair1"], Zo + Vector((-0.25, -0.14, 4.83))); kl(hair, 25.3, Zo + Vector((-0.12, -0.14, 4.83)))
-a_ = area("z_key", Zo + Vector((-30, -55, 40)), (0, 0, 0), 120000, size=40); aim(a_, Zo)
+a_ = area("z_key", Zo + Vector((-30, -55, 40)), (0, 0, 0), 50000, size=40); aim(a_, Zo)
 a_ = area("z_rim", Zo + Vector((25, -20, 30)), (0, 0, 0), 50000, size=20, col=(0.5, 0.85, 1.0)); aim(a_, Zo + Vector((0, 0, 3)))
-a_ = area("z_near", Zo + Vector((-1.5, -3.0, 7.0)), (0, 0, 0), 40, size=2.0); aim(a_, Zo + Vector((0, 0, 5)))
-a_ = area("z_near2", Zo + Vector((2.0, -2.5, 3.0)), (0, 0, 0), 15, size=1.5, col=(1.0, 0.6, 0.85)); aim(a_, Zo + Vector((0, 0, 5)))
+a_ = spot("z_near", Zo + Vector((2.5, -2.0, 7.5)), (0, 0, 0), 60, size_deg=25, blend=0.8, radius=0.3); aim(a_, Zo + Vector((0, 0, 4.82)))
 set_vis(B, "Z")
 
 # ======================================================================== SET L: 1977 lab bench (cm)
@@ -822,7 +821,7 @@ if syr:
         rr = min(bmx.y - bmn.y, bmx.z - bmn.z) * 0.36
         ln = (bmx.x - bmn.x) * 0.62
         ink = prim("cyl", "l_syr_ink", loc=Vector((bmx.x - ln / 2 - (bmx.x - bmn.x) * 0.08, (bmn.y + bmx.y) / 2, (bmn.z + bmx.z) / 2)), rot=(0, D(90), 0), vertices=32, radius=rr, depth=ln)
-        setmat(ink, mat("ink_dark", (0.12, 0.0, 0.06), 0.15, 0.0, emit=INKC, es=0.25))
+        setmat(ink, mat("ink_dark", (0.08, 0.0, 0.04), 0.15, 0.0, emit=INKC, es=0.04))
     INFO["syringe_tip"] = [round(x, 2) for x in (TIP - Lo)]
 else:
     b_ = prim("cyl", "l_syr_body", loc=LV(-1, 0, 10.5), rot=(0, D(90), 0), vertices=32, radius=0.9, depth=12); setmat(b_, mat("syr_glass", (0.8, 0.85, 0.9), 0.05, alpha=0.4))
@@ -994,9 +993,9 @@ fade = b.mrange(b.math("LENGTH", b.obj()) if False else b.math("ADD", b.math("AB
 b.out_add((*HUD, 1), b.math("MULTIPLY", b.math("MULTIPLY", gr_, fade), 1.6))
 tfl = prim("plane", "t_floor", loc=To, size=400); setmat(tfl, fg)
 tw = load_asset("tower", 90.0, To + Vector((-36, 6, 0)), axis="z")
-holo_fill, _ = rim_mat("holo_fill", HUD, 0.6, 3.0, base=0.015)
-holo_line = emat("holo_line", HUD, 4.0, solid=True)[0]
-holo_slab, _ = rim_mat("holo_slab", HUD, 0.8, 1.5, base=0.04)
+holo_fill, _ = rim_mat("holo_fill", HUD, 0.15, 3.0, base=0.003)
+holo_line = emat("holo_line", HUD, 1.6, solid=True)[0]
+holo_slab, _ = rim_mat("holo_slab", HUD, 0.25, 1.5, base=0.008)
 if tw:
     st_ = [tw]
     while st_:
@@ -1018,7 +1017,7 @@ if bkt is None:
 a_ = spot("t_bspot", To + Vector((6, -9, 14)), (0, 0, 0), 30000, size_deg=35, blend=0.6, col=(1.0, 0.85, 0.7)); aim(a_, To + Vector((0, 0, 1)))
 a_ = area("t_bfill", To + Vector((-6, -6, 4)), (0, 0, 0), 2500, size=4, col=(0.5, 0.85, 1.0)); aim(a_, To + Vector((0, 0, 1.5)))
 gm2 = mat("grape_m", (0.35, 0.75, 0.12), 0.15, 0.0, emit=(0.5, 1.0, 0.25), es=1.2, coat=1.0)
-grape = prim("sphere", "t_grape", loc=To + Vector((0, 0, C.GR_Z0)), segments=32, ring_count=16, radius=0.45); setmat(grape, gm2)
+grape = prim("sphere", "t_grape", loc=To + Vector((0, 0, C.GR_Z0)), segments=32, ring_count=16, radius=0.7); setmat(grape, gm2)
 gring_m, GRS = emat("t_gring_m", (0.6, 1.0, 0.35), 5.0, solid=True)
 gring = prim("torus", "t_gring", loc=grape.location, major_radius=1.4, minor_radius=0.05, major_segments=64, minor_segments=6); setmat(gring, gring_m)
 gring.parent = grape; gring.location = (0, 0, 0)
@@ -1035,7 +1034,7 @@ trail.data.bevel_factor_end = 0.0; K(trail.data, "bevel_factor_end", 1, "CONSTAN
 spl_m, SPL = emat("t_splash_m", (0.6, 1.0, 0.35), 0.0)
 spl = prim("torus", "t_splash", loc=To + Vector((0, 0, 3.0)), major_radius=1.0, minor_radius=0.08, major_segments=64, minor_segments=6); setmat(spl, spl_m)
 gl0 = C.EV["grape_land"]
-ks(spl, 0, 0.5); ks(spl, gl0 - 0.02, 0.5); kv(SPL, 0, 0); kv(SPL, gl0 - 0.02, 0); kv(SPL, gl0 + 0.04, 9.0); ks(spl, gl0 + 0.9, 3.5); kv(SPL, gl0 + 0.9, 0.0)
+ks(spl, 0, 0.5); ks(spl, gl0 - 0.02, 0.5); kv(SPL, 0, 0); kv(SPL, gl0 - 0.02, 0); kv(SPL, gl0 + 0.04, 4.0); ks(spl, gl0 + 0.9, 3.5); kv(SPL, gl0 + 0.9, 0.0)
 mark = prim("torus", "t_target", loc=To + Vector((0, 0, 0.05)), major_radius=2.6, minor_radius=0.05, major_segments=96, minor_segments=6); setmat(mark, hud_m)
 set_vis(B, "T")
 
