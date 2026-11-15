@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-15T17:48:17.109Z",
+ "ts": "2026-11-15T17:48:30.232Z",
+ "source": "dashboard",
  "current": "2752-esp-preview since 2026-11-15 17:48:17",
  "busy": true,
- "free_gb": 18,
- "blender_procs": 0,
+ "free_gb": 17,
+ "blender_procs": 1,
+ "cpu": 16,
+ "gpu": 37,
+ "mem_free_pct": 48,
+ "progress": null,
  "done": [
   "2751-esp-stills1",
   "2750-esp-probe2b",
@@ -94,10 +99,12 @@
   "title": "MT Espresso · Vorschau-Video",
   "job_since": "2026-11-15T17:48:17.090Z",
   "timeout_min": 120,
-  "step": 0,
+  "step": 2,
   "steps": 5,
-  "label": "Startet",
+  "label": "stills",
+  "step_since": "2026-11-15T17:48:22.362Z",
   "progress": null,
-  "updated": "2026-11-15T17:48:17.090Z"
- }
+  "updated": "2026-11-15T17:48:22.362Z"
+ },
+ "queue": []
 }
