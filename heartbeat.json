@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T16:32:29.937Z",
+ "ts": "2026-11-15T16:34:29.919Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
- "cpu": 23,
- "gpu": 24,
- "mem_free_pct": 81,
+ "cpu": 18,
+ "gpu": 28,
+ "mem_free_pct": 82,
  "progress": null,
  "done": [
   "2744-ink-render",
