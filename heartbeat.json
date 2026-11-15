@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T23:05:15.732Z",
+ "ts": "2026-11-15T23:07:15.752Z",
  "source": "dashboard",
  "current": "2766-ship-render-a since 2026-11-15 22:17:08",
  "busy": false,
  "free_gb": 15,
  "blender_procs": 0,
- "cpu": 25,
+ "cpu": 23,
  "gpu": 22,
- "mem_free_pct": 80,
+ "mem_free_pct": 81,
  "progress": null,
  "done": [
   "2765-ship-stills",
