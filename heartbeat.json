@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T08:44:48.446Z",
+ "ts": "2026-11-15T08:46:46.348Z",
  "source": "dashboard",
- "current": "2731-cable-probe since 2026-11-15 08:43:44",
- "busy": true,
- "free_gb": 5,
- "blender_procs": 1,
- "cpu": 28,
- "gpu": 34,
- "mem_free_pct": 47,
+ "current": "",
+ "busy": false,
+ "free_gb": 2,
+ "blender_procs": 0,
+ "cpu": 26,
+ "gpu": 29,
+ "mem_free_pct": 81,
  "progress": null,
  "done": [
+  "2731-cable-probe",
   "2730-cable-bksearch",
   "2721-euv-shortup",
   "2720-euv-v2",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2731-cable-probe",
-  "title": "MT Seekabel · Assets laden + prüfen",
-  "job_since": "2026-11-15T08:43:44.241Z",
-  "timeout_min": 30,
-  "step": 1,
-  "steps": 1,
-  "label": "probe",
-  "step_since": "2026-11-15T08:43:45.965Z",
-  "progress": null,
-  "updated": "2026-11-15T08:43:45.965Z"
+  "state": "idle",
+  "last": {
+   "job": "2731-cable-probe",
+   "title": "MT Seekabel · Assets laden + prüfen",
+   "result": "fertig",
+   "at": "2026-11-15T08:45:16.088Z"
+  },
+  "updated": "2026-11-15T08:45:16.088Z"
  },
  "queue": []
 }
