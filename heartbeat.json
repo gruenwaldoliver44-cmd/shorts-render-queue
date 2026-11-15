@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T10:44:28.639Z",
+ "ts": "2026-11-15T10:46:28.610Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 3,
+ "free_gb": 4,
  "blender_procs": 0,
- "cpu": 12,
- "gpu": 64,
- "mem_free_pct": 73,
+ "cpu": 15,
+ "gpu": 12,
+ "mem_free_pct": 74,
  "progress": null,
  "done": [
   "2742-ink-stills",
