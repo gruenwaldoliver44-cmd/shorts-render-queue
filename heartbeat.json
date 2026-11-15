@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-15T17:04:30.282Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T17:04:32.777Z",
+ "current": "2746-esp-bksearch since 2026-11-15 17:04:32",
+ "busy": true,
  "free_gb": 4,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2744-ink-render",
-   "title": "MT Drucker · rendern + Video",
-   "result": "fertig",
-   "at": "2026-11-15T15:54:38.546Z"
-  },
-  "updated": "2026-11-15T15:54:38.546Z"
+  "state": "busy",
+  "job": "2746-esp-bksearch",
+  "title": "MT Espresso · BlenderKit-Suche",
+  "job_since": "2026-11-15T17:04:32.754Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:04:32.754Z"
  }
 }
