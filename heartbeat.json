@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-15T17:59:32.764Z",
- "current": "2752-esp-preview since 2026-11-15 17:48:17",
- "busy": false,
+ "ts": "2026-11-15T17:59:34.690Z",
+ "current": "2752-esp-preview since 2026-11-15 17:59:34",
+ "busy": true,
  "free_gb": 16,
  "blender_procs": 0,
  "done": [
@@ -92,16 +92,12 @@
   "state": "busy",
   "job": "2752-esp-preview",
   "title": "MT Espresso · Vorschau-Video",
-  "job_since": "2026-11-15T17:48:17.090Z",
+  "job_since": "2026-11-15T17:59:34.671Z",
   "timeout_min": 120,
-  "step": 3,
+  "step": 0,
   "steps": 5,
-  "label": "preview",
-  "step_since": "2026-11-15T17:49:16.603Z",
-  "progress": {
-   "dir": "/Users/olivergruenwald/ShortsRenderAgent/work/esp_main/pv",
-   "total": 1490
-  },
-  "updated": "2026-11-15T17:49:16.604Z"
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T17:59:34.671Z"
  }
 }
