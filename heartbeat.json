@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T08:56:46.262Z",
- "source": "dashboard",
+ "ts": "2026-11-15T08:57:34.413Z",
  "current": "",
  "busy": false,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 18,
- "mem_free_pct": 83,
- "progress": null,
  "done": [
   "2731-cable-probe",
   "2730-cable-bksearch",
@@ -102,6 +97,5 @@
    "at": "2026-11-15T08:45:16.088Z"
   },
   "updated": "2026-11-15T08:45:16.088Z"
- },
- "queue": []
+ }
 }
