@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-15T22:11:15.490Z",
+ "ts": "2026-11-15T22:13:15.510Z",
  "source": "dashboard",
  "current": "2765-ship-stills since 2026-11-15 21:58:21",
  "busy": true,
  "free_gb": 11,
  "blender_procs": 1,
- "cpu": 5,
+ "cpu": 11,
  "gpu": 99,
- "mem_free_pct": 51,
+ "mem_free_pct": 58,
  "progress": null,
  "done": [
   "2764-ship-music",
