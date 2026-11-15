@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T22:13:15.510Z",
+ "ts": "2026-11-15T22:15:15.467Z",
  "source": "dashboard",
- "current": "2765-ship-stills since 2026-11-15 21:58:21",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 11,
- "blender_procs": 1,
- "cpu": 11,
- "gpu": 99,
- "mem_free_pct": 58,
+ "blender_procs": 0,
+ "cpu": 15,
+ "gpu": 46,
+ "mem_free_pct": 75,
  "progress": null,
  "done": [
+  "2765-ship-stills",
   "2764-ship-music",
   "2763-ship-bksearch",
   "2762-esp-fluidtest5",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2765-ship-stills",
-  "title": "MT Schiff · 3D-Probebilder",
-  "job_since": "2026-11-15T21:58:21.647Z",
-  "timeout_min": 60,
-  "step": 1,
-  "steps": 1,
-  "label": "stills",
-  "step_since": "2026-11-15T21:58:23.642Z",
-  "progress": null,
-  "updated": "2026-11-15T21:58:23.642Z"
+  "state": "idle",
+  "last": {
+   "job": "2765-ship-stills",
+   "title": "MT Schiff · 3D-Probebilder",
+   "result": "fertig",
+   "at": "2026-11-15T22:14:08.644Z"
+  },
+  "updated": "2026-11-15T22:14:08.644Z"
  },
  "queue": []
 }
