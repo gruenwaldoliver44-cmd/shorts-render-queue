@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T10:42:28.721Z",
+ "ts": "2026-11-15T10:44:28.639Z",
  "source": "dashboard",
- "current": "2742-ink-stills since 2026-11-15 10:42:00",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 3,
- "blender_procs": 1,
- "cpu": 22,
- "gpu": 56,
- "mem_free_pct": 49,
+ "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 64,
+ "mem_free_pct": 73,
  "progress": null,
  "done": [
+  "2742-ink-stills",
   "2741-ink-probe",
   "2740-ink-bksearch",
   "2736-cable-shortup",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2742-ink-stills",
-  "title": "MT Drucker · Standbilder Runde 1",
-  "job_since": "2026-11-15T10:42:00.781Z",
-  "timeout_min": 50,
-  "step": 2,
-  "steps": 2,
-  "label": "stills",
-  "step_since": "2026-11-15T10:42:06.499Z",
-  "progress": null,
-  "updated": "2026-11-15T10:42:06.499Z"
+  "state": "idle",
+  "last": {
+   "job": "2742-ink-stills",
+   "title": "MT Drucker · Standbilder Runde 1",
+   "result": "fertig",
+   "at": "2026-11-15T10:43:29.380Z"
+  },
+  "updated": "2026-11-15T10:43:29.380Z"
  },
  "queue": []
 }
