@@ -1,0 +1,16 @@
+ℹ️  blendkit: Verbose is enabled [19:16:10.428, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [19:16:10.429, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [19:16:10.430, client_lib.py:163]
+Created history step 3f50250d-9bf4-4bed-b4d5-09c0fe2df3fd
+ℹ️  blendkit: Created new search history step [19:16:10.434, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [19:16:10.434, download.py:431]
+Traceback (most recent call last):
+  File "/Users/olivergruenwald/ShortsRenderAgent/work/2754-esp-fluidtest/fltest.py", line 87, in <module>
+    bm = bmesh.new()
+         ^^^^^
+NameError: name 'bmesh' is not defined
+ℹ️  blendkit: Unregistering Blendkit add-on [19:16:12.046, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [19:16:12.047, download.py:431]
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
