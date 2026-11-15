@@ -119,24 +119,24 @@ bpy.context.view_layer.update()
 md = dom.modifiers.new("Fluid", "FLUID"); md.fluid_type = "DOMAIN"
 ds = md.domain_settings; ds.domain_type = "LIQUID"; ds.resolution_max = int(os.environ.get("RES", "160"))
 ds.use_mesh = True; ds.mesh_scale = 2; ds.use_diffusion = True; ds.viscosity_base = 2.0; ds.viscosity_exponent = 6
-ds.cache_type = "ALL"; ds.cache_frame_start = 1; ds.cache_frame_end = 90
+ds.cache_type = "ALL"; ds.cache_frame_start = 1; ds.cache_frame_end = 140
 ds.cache_directory = os.path.abspath(os.environ.get("FLCACHE", "flcache"))
 try: ds.use_spray_particles = False
 except Exception: pass
-ds.time_scale = 0.6
+ds.time_scale = 1.0
 # two inflows under the spouts
 for i, dy in enumerate((-0.0085, 0.0085)):
     inm = bpy.data.meshes.new("in%d" % i); bm = bmesh.new()
-    bmesh.ops.create_cone(bm, cap_ends=True, segments=16, radius1=0.0018, radius2=0.0018, depth=0.004); bm.to_mesh(inm)
+    bmesh.ops.create_cone(bm, cap_ends=True, segments=16, radius1=0.002, radius2=0.002, depth=0.004); bm.to_mesh(inm)
     io = bpy.data.objects.new("inflow%d" % i, inm); sc.collection.objects.link(io); io.location = (0, dy, spout_z - 0.004)
     m2 = io.modifiers.new("Fluid", "FLUID"); m2.fluid_type = "FLOW"
     fs = m2.flow_settings; fs.flow_type = "LIQUID"; fs.flow_behavior = "INFLOW"; fs.flow_source = "MESH"
-    fs.use_initial_velocity = True; fs.velocity_coord = (0, 0, -0.25)
+    fs.use_initial_velocity = True; fs.velocity_coord = (0, 0, -0.3)
     fs.use_plane_init = False
     io.hide_render = True
     fs.use_inflow = True
-    fs.keyframe_insert("use_inflow", frame=1); fs.use_inflow = True; fs.keyframe_insert("use_inflow", frame=70)
-    fs.use_inflow = False; fs.keyframe_insert("use_inflow", frame=72)
+    fs.keyframe_insert("use_inflow", frame=1); fs.use_inflow = True; fs.keyframe_insert("use_inflow", frame=120)
+    fs.use_inflow = False; fs.keyframe_insert("use_inflow", frame=122)
 m3 = col.modifiers.new("Fluid", "FLUID"); m3.fluid_type = "EFFECTOR"; m3.effector_settings.effector_type = "COLLISION"
 t0 = time.time() if "time" in dir() else 0
 import time as _t; t0 = _t.time()
@@ -146,8 +146,8 @@ with bpy.context.temp_override(object=dom, active_object=dom):
 log["bake"] = str(r); log["bake_s"] = round(_t.time() - t0, 1)
 # espresso material on the domain mesh
 m = bpy.data.materials.new("espresso"); m.use_nodes = True; b = m.node_tree.nodes["Principled BSDF"]
-b.inputs["Base Color"].default_value = (0.045, 0.017, 0.005, 1); b.inputs["Roughness"].default_value = 0.05
-b.inputs["Subsurface Weight"].default_value = 0.6; b.inputs["Subsurface Radius"].default_value = (0.006, 0.002, 0.0006)
+b.inputs["Base Color"].default_value = (0.03, 0.011, 0.003, 1); b.inputs["Roughness"].default_value = 0.05
+b.inputs["Subsurface Weight"].default_value = 0.25; b.inputs["Subsurface Radius"].default_value = (0.0012, 0.0004, 0.0001)
 b.inputs["Subsurface Scale"].default_value = 1.0
 b.inputs["Coat Weight"].default_value = 0.8; b.inputs["Coat Roughness"].default_value = 0.02
 dom.data.materials.append(m)
@@ -166,9 +166,9 @@ area((0.35, 0.35, 0.25), (0, 0, 0.08), 22, 0.25, (0.7, 0.85, 1.0))
 area((0.0, 0.5, 0.1), (0, 0, 0.06), 10, 0.4)
 cd = bpy.data.cameras.new("c"); cd.lens = 55; cam = bpy.data.objects.new("c", cd); sc.collection.objects.link(cam); sc.camera = cam
 cd.dof.use_dof = True; cd.dof.aperture_fstop = 4.0
-tg = bpy.data.objects.new("t", None); sc.collection.objects.link(tg); tg.location = (0, 0, 0.065)
+tg = bpy.data.objects.new("t", None); sc.collection.objects.link(tg); tg.location = (0, 0, 0.05)
 cd.dof.focus_object = tg
-cam.location = (0.07, -0.24, 0.115)
+cam.location = (0.06, -0.21, 0.135)
 cam.rotation_euler = (tg.location - cam.location).to_track_quat("-Z", "Y").to_euler()
 sc.render.engine = "CYCLES"
 try:
@@ -179,7 +179,7 @@ except Exception as e: print("GPU", e)
 sc.cycles.samples = 160; sc.cycles.use_denoising = True
 sc.render.image_settings.file_format = "JPEG"
 os.makedirs("fl", exist_ok=True)
-for f in (20, 45, 70, 89):
+for f in (30, 70, 110, 138):
     sc.frame_set(f); sc.render.filepath = os.path.abspath("fl/f%03d.jpg" % f); bpy.ops.render.render(write_still=True)
 log["render_s"] = round(_t.time() - t0, 1)
 json.dump(log, open("fl.json", "w"), indent=1, default=str)
