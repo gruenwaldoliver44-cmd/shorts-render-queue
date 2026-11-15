@@ -124,7 +124,17 @@ def build_superstructure():
     navy = mat("navy", (0.03, 0.05, 0.09), 0.45)
     # bridge / accommodation block (forward third, like modern ULCVs)
     bx = 95
-    box("acc", (bx, 0, DECK + 22), (16, 38, 44), white)
+    box("acc", (bx, 0, DECK + 22), (16, 38, 44), mat("accgrey", (0.62, 0.64, 0.66), 0.55))
+    for k in range(9):
+        for side in (-1, 1):
+            box("winS%d_%d" % (k, side), (bx, side * 19.05, DECK + 6 + k * 4.4), (13, 0.2, 1.2), glass)
+        box("winA%d" % k, (bx - 8.05, 0, DECK + 6 + k * 4.4), (0.2, 30, 1.2), glass)
+    lash = mat("lash", (0.55, 0.55, 0.5), 0.6, metal=0.3)
+    x = -180.0
+    while x < 180:
+        if abs(x - 95) > 14 and abs(x + 150) > 12:
+            box("lashb%.0f" % x, (x, 0, DECK + 6), (0.6, BEAM - 6, 10), lash)
+        x += 12.4
     box("bridge", (bx, 0, DECK + 46.5), (12, BEAM + 2, 5), white)
     box("bridgeglass", (bx + 6.05, 0, DECK + 46.8), (0.2, BEAM + 1.6, 2.2), glass)
     for k in range(9):
@@ -177,19 +187,20 @@ def crate_mesh():
     CRATE = c
     return c
 
-PALETTE = [(0.0, 1.0), (0.45, 0.9), (0.6, 0.85), (0.15, 0.7), (0.33, 0.6), (0.0, 0.25), (0.55, 0.25), (0.1, 1.15)]
+PALETTE = [(0.0, 1.0), (0.58, 0.8), (0.62, 0.6), (0.33, 0.6), (0.1, 1.2), (0.0, 0.35), (0.5, 0.7), (0.0, 2.2), (0.15, 1.1), (0.7, 0.5)]
 def tinted_crate(k):
     """copy of the crate with a hue/value-shifted material, for colour variety"""
     base = crate_mesh()
     c = base.copy(); c.data = base.data.copy(); link(c); c.name = "crate_v%d" % k
+    c.hide_render = False; c.hide_viewport = False
     hue, val = PALETTE[k % len(PALETTE)]
     for i, ms in enumerate(c.data.materials):
         if ms is None or not ms.use_nodes: continue
         m2 = ms.copy(); c.data.materials[i] = m2
-        b = m2.node_tree.nodes.get("Principled BSDF")
-        if b is None: continue
+        b = next((n for n in m2.node_tree.nodes if n.bl_idname == "ShaderNodeBsdfPrincipled"), None)
+        if b is None: NOTES.append("tint: no principled in %s" % ms.name); continue
         src = b.inputs["Base Color"].links[0].from_socket if b.inputs["Base Color"].is_linked else None
-        hs = m2.node_tree.nodes.new("ShaderNodeHueSaturation"); SV(hs, "Hue", (0.5 + hue) % 1.0); SV(hs, "Value", val); SV(hs, "Saturation", 1.1)
+        hs = m2.node_tree.nodes.new("ShaderNodeHueSaturation"); SV(hs, "Hue", (0.5 + hue) % 1.0); SV(hs, "Value", val); SV(hs, "Saturation", 0.75)
         if src: m2.node_tree.links.new(src, hs.inputs["Color"])
         else: SV(hs, "Color", (*b.inputs["Base Color"].default_value[:3], 1))
         m2.node_tree.links.new(hs.outputs[0], b.inputs["Base Color"])
@@ -258,7 +269,8 @@ def foam_plane(name, loc, size, rot=(0, 0, 0), dens=0.5, speed=(0, 0), scale=0.0
 def set_sea():
     sunset = EX.get("sunset")
     if sunset:
-        world("venice_sunset", 1.0, rot=D(120)); sun((D(84), 0, D(-60)), 2.5, (1.0, 0.62, 0.35), 0.8)
+        hd = next((h for h in ("belfast_sunset_puresky", "qwantani_dusk_2_puresky", "kiara_1_dawn") if ph_hdri(h)), None)
+        world(hd, 1.0, rot=D(120)); sun((D(84), 0, D(-60)), 2.5, (1.0, 0.62, 0.35), 0.8)
     else:
         world("kloofendal_48d_partly_cloudy_puresky", 1.0, rot=D(30)); sun((D(48), 0, D(-35)), 4.0)
     build_ship()
@@ -357,7 +369,8 @@ def build_engine():
     for k, x in enumerate((-8.5, 0.5, 9.5)):
         setmat(cylu("turbo%d" % k, (x, -5.6, 13.0), 1.45, 2.8, rot=(D(90), 0, 0)), P["silver"])
         setmat(cylu("turbocone%d" % k, (x, -7.3, 13.0), 0.9, 0.8, rot=(D(90), 0, 0)), P["dark"])
-        bevel(setmat(cub("cooler%d" % k, (x, -5.6, 9.6), (2.6, 2.2, 3.6)), P["eng"]), 0.05)
+        bevel(setmat(cub("cooler%d" % k, (x, -5.6, 9.6), (2.6, 2.2, 3.6)), P["dark"]), 0.05)
+        for fz in range(8): setmat(cub("fin%d_%d" % (k, fz), (x, -6.72, 8.1 + fz * 0.42), (2.4, 0.06, 0.12)), P["silver"])
         setmat(cylu("tdown%d" % k, (x, -4.4, 14.2), 0.45, 1.6), P["silver"])
     for i, x in enumerate(xs):
         # crankcase doors with bolts
@@ -406,7 +419,7 @@ def build_engine():
     for k in range(10):
         for y in (-9, 0, 9):
             setmat(cub("lamp_%d_%d" % (k, y), (-36 + k * 8, y, 25.6), (2.4, 0.3, 0.12)), lamp_m)
-            area("al_%d_%d" % (k, y), (-36 + k * 8, y, 25.3), (0, 0, 0), 260, size=2.4, sy=0.4, col=(1.0, 0.86, 0.68), shape="RECTANGLE")
+            area("al_%d_%d" % (k, y), (-36 + k * 8, y, 25.3), (0, 0, 0), 420, size=2.4, sy=0.4, col=(1.0, 0.86, 0.68), shape="RECTANGLE")
     for k, (x, y, z) in enumerate(((10, -8, 9), (-10, -8, 9), (0, 8, 6), (14, -2, 18), (-14, -2, 18))):
         point("pr%d" % k, (x, y, z), 500, (1.0, 0.78, 0.55), radius=0.4)
     # aft bulkhead with the shaft tunnel opening, intermediate shaft on bearings to the stern seal
@@ -481,8 +494,10 @@ def set_engine():
 
 # ------------------------------------------------------------------ underwater stern
 def set_stern():
-    world(None, 1.0, back=(0.01, 0.06, 0.07), vol=((0.25, 0.65, 0.65), 0.035, 0.6))
-    sun((D(20), D(10), D(30)), 6.0, (0.85, 1.0, 0.95), 2.0)
+    world(None, 1.0, back=(0.02, 0.13, 0.15), vol=((0.3, 0.75, 0.75), 0.02, 0.55))
+    sun((D(25), D(10), D(30)), 8.0, (0.85, 1.0, 0.95), 2.0)
+    area("uwfill", (-14, -10, -6), (D(110), 0, D(-55)), 30000, size=12, col=(0.55, 0.9, 0.9))
+    area("uwkey", (-6, -14, 4), (D(70), 0, D(-25)), 18000, size=6, col=(0.9, 1.0, 0.95))
     # hull bottom above the propeller (stern section of the same hull, local)
     h = build_hull("sternhull", sections=80); h.location = (190, 0, 13.5)
     shaftm = mat("steelshaft", (0.4, 0.4, 0.42), 0.3, metal=1.0)

@@ -414,7 +414,7 @@ def ocean(name, loc, size=400.0, res=14, wave_scale=1.2, choppy=1.0, wind=18.0, 
     md = o.modifiers.new("Ocean", "OCEAN")
     md.geometry_mode = "GENERATE"; md.size = 1.0; md.spatial_size = int(size); md.repeat_x = 1; md.repeat_y = 1
     md.resolution = res; md.wave_scale = wave_scale; md.choppiness = choppy; md.wind_velocity = wind
-    md.use_normals = True; md.use_foam = True; md.foam_layer_name = "foam"; md.foam_coverage = 0.25
+    md.use_normals = True; md.use_foam = True; md.foam_layer_name = "foam"; md.foam_coverage = 0.0
     if time_keys:
         try: PREFS.keyframe_new_interpolation_type = "LINEAR"
         except Exception: pass
@@ -425,7 +425,7 @@ def ocean(name, loc, size=400.0, res=14, wave_scale=1.2, choppy=1.0, wind=18.0, 
     SV(b, "Base Color", (0.004, 0.02, 0.03, 1)); SV(b, "Roughness", 0.03); SV(b, "IOR", 1.33)
     SV(b, "Transmission Weight", 0.0); SV(b, "Coat Weight", 0.0); SV(b, "Specular IOR Level", 0.6)
     at = nt_.nodes.new("ShaderNodeAttribute"); at.attribute_name = "foam"
-    cr = nt_.nodes.new("ShaderNodeMapRange"); cr.inputs[1].default_value = 0.35; cr.inputs[2].default_value = 0.9
+    cr = nt_.nodes.new("ShaderNodeMapRange"); cr.inputs[1].default_value = 0.7; cr.inputs[2].default_value = 1.6
     nt_.links.new(at.outputs["Fac"], cr.inputs[0])
     mx = nt_.nodes.new("ShaderNodeMix"); mx.data_type = "RGBA"
     nt_.links.new(cr.outputs[0], sock(mx, "Factor_Float"))
