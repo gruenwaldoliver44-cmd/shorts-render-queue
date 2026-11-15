@@ -1,0 +1,72 @@
+{
+ "images": [
+  [
+   "Metal044A_4K_Color.jpg",
+   "/Downloads/Metal044A_4K-JPG/Metal044A_4K_Color.jpg",
+   true,
+   [
+    4096,
+    4096
+   ],
+   true
+  ],
+  [
+   "Render Result",
+   "",
+   false,
+   [
+    0,
+    0
+   ],
+   false
+  ],
+  [
+   "Viewer Node",
+   "",
+   false,
+   [
+    256,
+    256
+   ],
+   true
+  ],
+  [
+   "Wood081_4K_Color.jpg",
+   "/Downloads/Wood081_4K-JPG/Wood081_4K_Color.jpg",
+   true,
+   [
+    4096,
+    4096
+   ],
+   true
+  ]
+ ],
+ "mats": {
+  "Dots Stroke": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "Material": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "metal": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "metal.001": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  },
+  "wood": {
+   "disp": [],
+   "disp_linked": false,
+   "method": "BUMP"
+  }
+ },
+ "cycles_s": 10.6
+}
