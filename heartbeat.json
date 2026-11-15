@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-15T18:16:07.933Z",
- "current": "2754-esp-fluidtest since 2026-11-15 18:16:07",
+ "ts": "2026-11-15T18:16:14.086Z",
+ "current": "",
  "busy": true,
  "free_gb": 15,
  "blender_procs": 0,
  "done": [
+  "2754-esp-fluidtest",
   "2753-esp-liquid-search",
   "2751-esp-stills1",
   "2750-esp-probe2b",
@@ -43,8 +44,7 @@
   "2687-sd-render",
   "2686-sd-mux",
   "2685-sd-render",
-  "2684-sd-render",
-  "2683-fe-upload"
+  "2684-sd-render"
  ],
  "failed": [
   "2714-euv-encode",
@@ -89,15 +89,13 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2754-esp-fluidtest",
-  "title": "MT Espresso · Flüssigkeits-Test",
-  "job_since": "2026-11-15T18:16:07.912Z",
-  "timeout_min": 60,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T18:16:07.912Z"
+  "state": "idle",
+  "last": {
+   "job": "2754-esp-fluidtest",
+   "title": "MT Espresso · Flüssigkeits-Test",
+   "result": "fertig",
+   "at": "2026-11-15T18:16:14.061Z"
+  },
+  "updated": "2026-11-15T18:16:14.061Z"
  }
 }
