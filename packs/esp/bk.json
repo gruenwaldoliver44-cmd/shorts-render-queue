@@ -46,5 +46,13 @@
  "vgrinder": [
   "dcb6dbb5-cac5-4c0f-bdc9-1e99e5c11e04",
   "https://www.blenderkit.com/api/v1/downloads/2515c647-c29f-4206-a1ee-120a56105700/"
+ ],
+ "ecup": [
+  "d4fff4f5-1399-488a-9605-62622dc839cb",
+  "https://www.blenderkit.com/api/v1/downloads/e884d541-e8ea-4672-a0e4-52051daa1870/"
+ ],
+ "eglass": [
+  "7ecc3d1d-c8a4-432b-95da-3e9e3c139f27",
+  "https://www.blenderkit.com/api/v1/downloads/ea8dfb94-a18b-4675-b467-7ee2010e7b50/"
  ]
 }
