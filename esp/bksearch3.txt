@@ -1,0 +1,52 @@
+key True
+pref api_key str 30
+pref api_key_refresh str 30
+pref api_key_timeout int 1795327046
+download test OK https://assets.blendkit.com/assets/3fdcd
+## search 'espresso shot' count 3
+[001] Stone Coffee Bar 3D model | base 92572055-37fd-445f-a33d-0873ffcf43ba | dl https://www.blenderkit.com/api/v1/downloads/b3a7f617-18db-4a37-a580-3cd75fe7f5d8/ | free False | can False | dims [None, None, None] | score 4000.0 | polys 1529476
+[002] Sanremo You | base 05b7700c-43be-4d4d-aeb8-ab3e743d20a3 | dl https://www.blenderkit.com/api/v1/downloads/a58118b3-199a-4ea8-8d75-376be2994d28/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 134047
+[003] Espresso Cup and Saucer | base d4fff4f5-1399-488a-9605-62622dc839cb | dl https://www.blenderkit.com/api/v1/downloads/e884d541-e8ea-4672-a0e4-52051daa1870/ | free False | can False | dims [None, None, None] | score 60.0 | polys 2737
+## search 'espresso cup' count 24
+[004] Bugatti Diva | base 60b6c595-aeda-482d-835a-4a85ebd277a5 | dl https://www.blenderkit.com/api/v1/downloads/c1f9f082-947d-4c83-8c27-db36abcb212b/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 27307
+[005] Office coffee machine Aguilla 420 | base 66a32ec2-2635-45dd-91c6-a9cfd5900b86 | dl https://www.blenderkit.com/api/v1/downloads/4b15902c-b535-4c50-ac57-785e266a0b80/ | free False | can False | dims [None, None, None] | score 1425.0 | polys 82606
+[006] Auto Coffee Maker Concept | base e125ceb4-bd2e-4437-9967-6f8bdbaecebb | dl https://www.blenderkit.com/api/v1/downloads/5d19d7b9-6911-4f13-8a12-78c85494c5c7/ | free False | can False | dims [None, None, None] | score 900.0 | polys 1411
+[007] Linea Mini Coffee MachineW | base 4a877c0c-31ed-4589-b180-2203bbad5ff0 | dl https://www.blenderkit.com/api/v1/downloads/610f1aeb-e61a-4929-b0ed-a19849abc3a9/ | free False | can False | dims [None, None, None] | score 613.3333333333334 | polys 32215
+[008] Linea Mini Coffee MachineR | base abc8d2c4-2d1e-48a6-a06a-3396a2954c6e | dl https://www.blenderkit.com/api/v1/downloads/908c9449-217d-418b-9e09-dfac86af7a95/ | free False | can False | dims [None, None, None] | score 586.6666666666666 | polys 26359
+[009] Modern Café Dessert Set on Black Tray | base ed029741-4853-490d-b007-e519c6b3cf37 | dl https://www.blenderkit.com/api/v1/downloads/c088dce4-2d57-479b-b43a-0d0834253bbb/ | free False | can False | dims [None, None, None] | score 560.0 | polys 10037
+[010] Cup of coffee | base 1ec713e7-7871-4acc-a034-d4bff9ab2161 | dl https://www.blenderkit.com/api/v1/downloads/dda7d068-4a43-49ba-a2dc-0808b6c29018/ | free True | can True | dims [None, None, None] | score 528.0 | polys 22656
+[011] Expresso Cup | base a60b54a5-c6d3-4cfa-b302-1510371ba0ce | dl https://www.blenderkit.com/api/v1/downloads/4a272367-0302-491d-9496-2e24e14c1892/ | free False | can False | dims [None, None, None] | score 468.00000000000006 | polys 1102
+[012] Espresso coffe maker | base 2a7bbe16-c154-4ecb-adb6-9cd3548c588d | dl https://www.blenderkit.com/api/v1/downloads/edd7b1bf-f2b5-428a-9aaf-66c229fb96e0/ | free True | can True | dims [None, None, None] | score 370.0 | polys 56673
+[013] Paper Coffee Cup | base 18bce63b-9694-479e-924a-0f1ca6647274 | dl https://www.blenderkit.com/api/v1/downloads/159325e8-df4d-4e20-9d55-9cbcb0ac6259/ | free True | can True | dims [None, None, None] | score 273.75 | polys 7667
+## search 'espresso crema' count 0
+## search 'coffee pour' count 7
+[014] Vintage Metal Turkish Coffee Pot | base 593bf542-9aa0-4856-b2db-f905c5a49332 | dl https://www.blenderkit.com/api/v1/downloads/ed65b897-eaf5-41bf-9c39-50ece3e6faba/ | free False | can False | dims [None, None, None] | score 600.0 | polys None
+[015] Chemex | base 35306285-155e-4cdc-907f-7d35be27d91f | dl https://www.blenderkit.com/api/v1/downloads/f6768ff4-ea67-4bee-93ae-21b2cce135a3/ | free True | can True | dims [None, None, None] | score 495.0 | polys None
+[016] Origami Coffee Dripper | base aecfaa20-39bd-448e-a457-80ff2a114591 | dl https://www.blenderkit.com/api/v1/downloads/1c6c0ad4-e1e0-46b6-82fd-0bac626b6448/ | free False | can False | dims [None, None, None] | score 350.0 | polys 968
+[017] Coffee glass with coffee | base 52ec0120-5bba-4f27-9848-d0f7698d6d21 | dl https://www.blenderkit.com/api/v1/downloads/44dfda50-9e1e-4df6-aa02-c3bea8c8eb49/ | free True | can True | dims [None, None, None] | score 276.0 | polys 765
+[018] Black Fellow Stagg EKG Coffee Pour Over Kettle Wood Handle | base 8689b52f-8142-48fd-8ca1-3e7313105885 | dl https://www.blenderkit.com/api/v1/downloads/ed7a69f5-3557-4ac5-9565-5942e3a39490/ | free False | can False | dims [None, None, None] | score 180.0 | polys 21244
+[019] Coffe set | base 6c1fbc9d-4d66-4635-875f-980e9eb107b2 | dl https://www.blenderkit.com/api/v1/downloads/c1f33a76-cf21-4685-8fc5-8776c8c68ec6/ | free True | can True | dims [None, None, None] | score 120.0 | polys 24706
+[020] Glass coffee table | base 163bfd4d-da06-4839-9b25-cd469dc3813f | dl https://www.blenderkit.com/api/v1/downloads/900e8a7b-f56b-48ad-b8d3-850a99afd660/ | free True | can True | dims [None, None, None] | score 80.0 | polys 821
+## search 'pouring coffee' count 7
+[021] Vintage Metal Turkish Coffee Pot | base 593bf542-9aa0-4856-b2db-f905c5a49332 | dl https://www.blenderkit.com/api/v1/downloads/ed65b897-eaf5-41bf-9c39-50ece3e6faba/ | free False | can False | dims [None, None, None] | score 600.0 | polys None
+[022] Chemex | base 35306285-155e-4cdc-907f-7d35be27d91f | dl https://www.blenderkit.com/api/v1/downloads/f6768ff4-ea67-4bee-93ae-21b2cce135a3/ | free True | can True | dims [None, None, None] | score 495.0 | polys None
+[023] Origami Coffee Dripper | base aecfaa20-39bd-448e-a457-80ff2a114591 | dl https://www.blenderkit.com/api/v1/downloads/1c6c0ad4-e1e0-46b6-82fd-0bac626b6448/ | free False | can False | dims [None, None, None] | score 350.0 | polys 968
+[024] Coffee glass with coffee | base 52ec0120-5bba-4f27-9848-d0f7698d6d21 | dl https://www.blenderkit.com/api/v1/downloads/44dfda50-9e1e-4df6-aa02-c3bea8c8eb49/ | free True | can True | dims [None, None, None] | score 276.0 | polys 765
+[025] Black Fellow Stagg EKG Coffee Pour Over Kettle Wood Handle | base 8689b52f-8142-48fd-8ca1-3e7313105885 | dl https://www.blenderkit.com/api/v1/downloads/ed7a69f5-3557-4ac5-9565-5942e3a39490/ | free False | can False | dims [None, None, None] | score 180.0 | polys 21244
+[026] Coffe set | base 6c1fbc9d-4d66-4635-875f-980e9eb107b2 | dl https://www.blenderkit.com/api/v1/downloads/c1f33a76-cf21-4685-8fc5-8776c8c68ec6/ | free True | can True | dims [None, None, None] | score 120.0 | polys 24706
+[027] Glass coffee table | base 163bfd4d-da06-4839-9b25-cd469dc3813f | dl https://www.blenderkit.com/api/v1/downloads/900e8a7b-f56b-48ad-b8d3-850a99afd660/ | free True | can True | dims [None, None, None] | score 80.0 | polys 821
+## search 'coffee splash' count 0
+## search 'liquid pour' count 3
+[028] Soda Fizz & Carbonated Water Pour Glass | base b0964b73-a9b0-4d9f-9a89-57bf44ab5c7d | dl https://www.blenderkit.com/api/v1/downloads/81877cf1-4098-4aa0-9c79-8c64e3591db7/ | free False | can False | dims [None, None, None] | score 1800.0 | polys 637708
+[029] Stainless Oil & Vinegar Cruet Set - PBR | base 25c64b93-20bc-4453-956d-abf9d7bdfecc | dl https://www.blenderkit.com/api/v1/downloads/d8da36c7-379e-4b61-8dfc-eaa01b306486/ | free False | can False | dims [None, None, None] | score 320.0 | polys 11984
+[030] Jug | base 98fbe463-b7ce-4b4d-b89f-feee86741384 | dl https://www.blenderkit.com/api/v1/downloads/b0e19e05-7804-44b8-a9cf-61f1d695bbca/ | free True | can True | dims [None, None, None] | score 40.0 | polys 220
+## search 'espresso glass' count 4
+[031] Bar b | base 18c20e73-4349-4a3c-84dc-a216f327c81c | dl https://www.blenderkit.com/api/v1/downloads/0760bd41-6fc5-4764-af85-9bfadb985a09/ | free False | can False | dims [None, None, None] | score 1500.0 | polys 1118781
+[032] Modern Café Dessert Set on Black Tray | base ed029741-4853-490d-b007-e519c6b3cf37 | dl https://www.blenderkit.com/api/v1/downloads/c088dce4-2d57-479b-b43a-0d0834253bbb/ | free False | can False | dims [None, None, None] | score 560.0 | polys 10037
+[033] Espresso Coffee Cup | base 7ecc3d1d-c8a4-432b-95da-3e9e3c139f27 | dl https://www.blenderkit.com/api/v1/downloads/ea8dfb94-a18b-4675-b467-7ee2010e7b50/ | free True | can True | dims [None, None, None] | score 240.0 | polys 15652
+[034] Pig Coffee Table With Chemex | base 0e514252-b2e9-4345-a89c-d2e997cd865e | dl https://www.blenderkit.com/api/v1/downloads/29f2b3c3-e3d7-4b92-917a-e667e728b247/ | free False | can False | dims [None, None, None] | score 120.0 | polys 65037
+## search 'demitasse' count 0
+## search 'coffee drop' count 3
+[035] Coffee table with poufs | base a65bc9c7-331a-42b0-a5c6-10766c743ca7 | dl https://www.blenderkit.com/api/v1/downloads/c81983a9-62d0-43d1-9cd6-d220c7846db8/ | free False | can False | dims [None, None, None] | score 280.0 | polys 4572
+[036] IKEA Arkelstorp Coffee Table | base 45ef74ce-5034-47ca-8e1a-4b9aad12b7e1 | dl https://www.blenderkit.com/api/v1/downloads/d5d31efb-8521-486f-9dcc-4babd4d989c2/ | free True | can True | dims [None, None, None] | score 255.0 | polys 1102
+[037] Coffee table | base d66faef1-3f1f-4b9b-a1a6-c87c40a805bb | dl https://www.blenderkit.com/api/v1/downloads/16a07ea6-61f0-41f0-bb80-a321dcb8752b/ | free True | can True | dims [None, None, None] | score 240.0 | polys 60
