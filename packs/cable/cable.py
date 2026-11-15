@@ -860,21 +860,31 @@ for o_ in (xk, xr, xf): vis(o_, X_R)
 vis(hair, shots_of("x07b"))
 
 # ---------------------------------------------------------------- SET F: inside the glass fibre (pulses of light)
-clad_m = mat("clad_m", (0.85, 0.95, 1.0), 0.03, 0.0, trans=1.0, ior=1.46)
-clad = prim("cyl", "f_clad", loc=Fb + Vector((10, 0, 0)), rot=(0, D(90), 0), vertices=96, radius=1.0, depth=60.0); setmat(clad, clad_m)
-core_m = mat("core_m", (0.75, 0.95, 1.0), 0.02, 0.0, trans=1.0, ior=1.47)
-SV(bsdf(core_m), "Emission Color", (*CYAN, 1)); SV(bsdf(core_m), "Emission Strength", 0.06)
-core = prim("cyl", "f_core", loc=Fb + Vector((10, 0, 0)), rot=(0, D(90), 0), vertices=64, radius=0.32, depth=60.0); setmat(core, core_m)
-pul_m, pul_s = emat("pulse_m", CYAN, 1.2, soft=2.0)
+def rim_mat(name, col, strength, power=2.5):
+    m = bpy.data.materials.new(name); m.use_nodes = True
+    nt_ = m.node_tree; N_ = nt_.nodes
+    for n in list(N_): N_.remove(n)
+    o_ = N_.new("ShaderNodeOutputMaterial"); em = N_.new("ShaderNodeEmission"); SV(em, "Color", (*col, 1))
+    lw = N_.new("ShaderNodeLayerWeight"); SV(lw, "Blend", 0.5)
+    pw = N_.new("ShaderNodeMath"); pw.operation = "POWER"; nt_.links.new(lw.outputs["Facing"], pw.inputs[0]); SV(pw, 1, power)
+    mu = N_.new("ShaderNodeMath"); mu.operation = "MULTIPLY"; nt_.links.new(pw.outputs[0], mu.inputs[0]); SV(mu, 1, strength)
+    nt_.links.new(mu.outputs[0], em.inputs["Strength"])
+    tr = N_.new("ShaderNodeBsdfTransparent"); ad = N_.new("ShaderNodeAddShader")
+    nt_.links.new(tr.outputs[0], ad.inputs[0]); nt_.links.new(em.outputs[0], ad.inputs[1]); nt_.links.new(ad.outputs[0], o_.inputs["Surface"])
+    setattr_safe(m, "surface_render_method", "BLENDED")
+    return m
+clad = prim("cyl", "f_clad", loc=Fb + Vector((10, 0, 0)), rot=(0, D(90), 0), vertices=96, radius=1.0, depth=60.0); setmat(clad, rim_mat("clad_m", (0.55, 0.85, 1.0), 1.2, 3.0))
+core = prim("cyl", "f_core", loc=Fb + Vector((10, 0, 0)), rot=(0, D(90), 0), vertices=64, radius=0.32, depth=60.0); setmat(core, rim_mat("core_m", CYAN, 0.9, 2.0))
+pul_m, pul_s = emat("pulse_m", (0.75, 0.95, 1.0), 6.0, solid=True)
 pulses = []
 random.seed(9)
 for i in range(26):
-    pl = prim("sphere", "f_pulse%d" % i, loc=Fb, segments=24, ring_count=12, radius=0.11, scale=(6.0, 1, 1)); setmat(pl, pul_m)
+    pl = prim("sphere", "f_pulse%d" % i, loc=Fb, segments=24, ring_count=12, radius=0.09, scale=(7.0, 1, 1)); setmat(pl, pul_m)
     x0 = -24 + i * 2.6
     pl.location = Fb + Vector((x0, 0, 0)); K(pl, "location", F(22.4), "LINEAR")
     pl.location = Fb + Vector((x0 + 3.45 * 9.0, 0, 0)); K(pl, "location", F(25.85), "LINEAR")
     pulses.append(pl)
-fl1 = point("f_light", Fb + Vector((4, 0, 0)), 20.0, CYAN, 0.3)
+fl1 = point("f_light", Fb + Vector((4, 0, 0)), 0.0, CYAN, 0.3)
 fk = area("f_key", Fb + Vector((2, -5, 4)), (0, 0, 0), 300.0, 6.0, (0.7, 0.85, 1.0)); aim(fk, Fb)
 tlt, _ = text3d("t_light", "your message = light", Fb + Vector((2.0, -1.3, 1.25)), size=0.3, es=3.0, rot=(D(80), 0, 0))
 pop_in(tlt, 23.0)
