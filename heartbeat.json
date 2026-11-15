@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-15T17:29:18.767Z",
- "current": "2750-esp-probe2b since 2026-11-15 17:29:18",
- "busy": true,
+ "ts": "2026-11-15T17:30:30.136Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
  "free_gb": 19,
  "blender_procs": 0,
+ "cpu": 10,
+ "gpu": 66,
+ "mem_free_pct": 75,
+ "progress": null,
  "done": [
+  "2750-esp-probe2b",
   "2749-esp-probe2",
   "2748-esp-probe",
   "2690-nw-render",
@@ -89,15 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2750-esp-probe2b",
-  "title": "MT Espresso · Materialien + Ansichten",
-  "job_since": "2026-11-15T17:29:18.748Z",
-  "timeout_min": 30,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T17:29:18.748Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2750-esp-probe2b",
+   "title": "MT Espresso · Materialien + Ansichten",
+   "result": "fertig",
+   "at": "2026-11-15T17:30:28.737Z"
+  },
+  "updated": "2026-11-15T17:30:28.737Z"
+ },
+ "queue": []
 }
