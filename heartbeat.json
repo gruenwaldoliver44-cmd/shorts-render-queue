@@ -1,10 +1,16 @@
 {
- "ts": "2026-11-15T10:14:45.218Z",
- "current": "2741-ink-probe since 2026-11-15 10:14:45",
- "busy": true,
- "free_gb": 5,
+ "ts": "2026-11-15T10:16:46.328Z",
+ "source": "dashboard",
+ "current": "",
+ "busy": false,
+ "free_gb": 3,
  "blender_procs": 0,
+ "cpu": 19,
+ "gpu": 44,
+ "mem_free_pct": 73,
+ "progress": null,
  "done": [
+  "2741-ink-probe",
   "2740-ink-bksearch",
   "2736-cable-shortup",
   "2735-cable-fiberfix",
@@ -89,15 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2741-ink-probe",
-  "title": "MT Drucker · Assets laden + prüfen",
-  "job_since": "2026-11-15T10:14:45.200Z",
-  "timeout_min": 30,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T10:14:45.200Z"
- }
+  "state": "idle",
+  "last": {
+   "job": "2741-ink-probe",
+   "title": "MT Drucker · Assets laden + prüfen",
+   "result": "fertig",
+   "at": "2026-11-15T10:16:13.586Z"
+  },
+  "updated": "2026-11-15T10:16:13.586Z"
+ },
+ "queue": []
 }
