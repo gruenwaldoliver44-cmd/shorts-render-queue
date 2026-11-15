@@ -1,0 +1,14 @@
+{
+ "id": "2765-ship-stills",
+ "title": "MT Schiff \u00b7 3D-Probebilder",
+ "type": "shell",
+ "timeout_min": 60,
+ "retries": 0,
+ "min_free_gb": 3,
+ "steps": [
+  {
+   "label": "stills",
+   "run": "mkdir -p \"$AGENT_HOME/work/ship\" && cd \"$AGENT_HOME/work/ship\" && cp \"$AGENT_HOME/repo/packs/ship/\"* . && rm -f st_*.jpg; for s in sea_track sea_top sea_sunset port crank_a stern_prop holo_reveal; do /Applications/Blender.app/Contents/MacOS/Blender -b -P ship3d.py -- $s still 50 > st_$s.log 2>&1; grep -a \"SHIP3D\" st_$s.log | cut -c1-600; tail -4 st_$s.log > tail_$s.txt; done; a=\"\"; for f in st_*.jpg tail_*.txt; do a=\"$a $f ship/st1/$f\"; done; \"$AGENT_HOME/node/bin/node\" \"$AGENT_HOME/repo/tools/push_preview.mjs\" $a | tail -2"
+  }
+ ]
+}
