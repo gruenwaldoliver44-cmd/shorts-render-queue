@@ -1,15 +1,15 @@
 {
- "ts": "2026-11-15T15:12:29.621Z",
+ "ts": "2026-11-15T15:14:29.626Z",
  "source": "dashboard",
  "current": "2744-ink-render since 2026-11-15 15:06:24",
  "busy": true,
  "free_gb": 3,
  "blender_procs": 1,
- "cpu": 6,
- "gpu": 90,
- "mem_free_pct": 29,
+ "cpu": 5,
+ "gpu": 93,
+ "mem_free_pct": 33,
  "progress": {
-  "n": 174,
+  "n": 238,
   "total": 1663,
   "eta_min": null
  },
