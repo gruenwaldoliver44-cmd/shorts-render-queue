@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-15T08:57:34.413Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T08:57:36.652Z",
+ "current": "2732-cable-stills since 2026-11-15 08:57:36",
+ "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2731-cable-probe",
-   "title": "MT Seekabel · Assets laden + prüfen",
-   "result": "fertig",
-   "at": "2026-11-15T08:45:16.088Z"
-  },
-  "updated": "2026-11-15T08:45:16.088Z"
+  "state": "busy",
+  "job": "2732-cable-stills",
+  "title": "MT Seekabel · Szene bauen + Eevee-Standbilder",
+  "job_since": "2026-11-15T08:57:36.633Z",
+  "timeout_min": 60,
+  "step": 0,
+  "steps": 2,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T08:57:36.633Z"
  }
 }
