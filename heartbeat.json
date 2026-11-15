@@ -1,15 +1,15 @@
 {
- "ts": "2026-11-15T17:56:30.382Z",
+ "ts": "2026-11-15T17:58:30.387Z",
  "source": "dashboard",
  "current": "2752-esp-preview since 2026-11-15 17:48:17",
  "busy": true,
  "free_gb": 16,
  "blender_procs": 1,
- "cpu": 28,
- "gpu": 84,
- "mem_free_pct": 26,
+ "cpu": 35,
+ "gpu": 82,
+ "mem_free_pct": 58,
  "progress": {
-  "n": 270,
+  "n": 307,
   "total": 1490,
   "eta_min": null
  },
@@ -113,5 +113,7 @@
   },
   "updated": "2026-11-15T17:49:16.604Z"
  },
- "queue": []
+ "queue": [
+  "2753-esp-liquid-search"
+ ]
 }
