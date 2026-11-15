@@ -1,0 +1,20 @@
+ℹ️  blendkit: Verbose is enabled [09:43:47.594, addon_updater.py:150]
+ℹ️  blendkit: Read in JSON settings from file [09:43:47.595, addon_updater.py:150]
+ℹ️  blendkit: Ports reordered so first port is now 62485 (previous index was 0) [09:43:47.596, client_lib.py:163]
+Created history step 0008a3db-0c82-434c-8611-40681e70ca0e
+ℹ️  blendkit: Created new search history step [09:43:47.601, search.py:2741]
+ℹ️  blendkit: No temporarily enabled addons to clean up [09:43:47.601, download.py:431]
+/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/probe.py:56: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  sc.world.use_nodes = True; sc.world.node_tree.nodes["Background"].inputs[0].default_value = (0.3, 0.3, 0.35, 1)
+00:09.418  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/shark.jpg'
+00:13.759  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/anchor.jpg'
+00:18.801  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/anchor2.jpg'
+01:07.293  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/ship.jpg'
+01:11.651  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/satellite.jpg'
+01:14.991  render           | Saved: '/Users/olivergruenwald/ShortsRenderAgent/work/2731-cable-probe/pr/phone.jpg'
+PROBE DONE
+ℹ️  blendkit: Unregistering Blendkit add-on [09:45:01.990, __init__.py:3030]
+ℹ️  blendkit: No temporarily enabled addons to clean up [09:45:01.994, download.py:431]
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit
