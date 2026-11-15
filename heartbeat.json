@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-15T10:05:35.007Z",
- "current": "2736-cable-shortup since 2026-11-15 10:05:34",
+ "ts": "2026-11-15T10:05:50.681Z",
+ "current": "",
  "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
  "done": [
+  "2736-cable-shortup",
   "2735-cable-fiberfix",
   "2734-cable-render",
   "2733-cable-stills2",
@@ -43,8 +44,7 @@
   "2679-bk4-render",
   "2678-bk3-render",
   "2677-bk2-final2",
-  "2676-bk2-final",
-  "2675-bk2-render"
+  "2676-bk2-final"
  ],
  "failed": [
   "2714-euv-encode",
@@ -89,15 +89,13 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2736-cable-shortup",
-  "title": "MT Seekabel · Short hochladen",
-  "job_since": "2026-11-15T10:05:34.987Z",
-  "timeout_min": 10,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-15T10:05:34.987Z"
+  "state": "idle",
+  "last": {
+   "job": "2736-cable-shortup",
+   "title": "MT Seekabel · Short hochladen",
+   "result": "fertig",
+   "at": "2026-11-15T10:05:50.642Z"
+  },
+  "updated": "2026-11-15T10:05:50.642Z"
  }
 }
