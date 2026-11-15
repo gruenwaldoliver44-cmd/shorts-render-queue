@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-15T10:08:46.326Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-15T10:10:23.152Z",
+ "current": "2740-ink-bksearch since 2026-11-15 10:10:23",
+ "busy": true,
  "free_gb": 5,
  "blender_procs": 0,
- "cpu": 21,
- "gpu": 30,
- "mem_free_pct": 77,
- "progress": null,
  "done": [
   "2736-cable-shortup",
   "2735-cable-fiberfix",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2736-cable-shortup",
-   "title": "MT Seekabel · Short hochladen",
-   "result": "fertig",
-   "at": "2026-11-15T10:05:50.642Z"
-  },
-  "updated": "2026-11-15T10:05:50.642Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2740-ink-bksearch",
+  "title": "MT Drucker · BlenderKit-Suche",
+  "job_since": "2026-11-15T10:10:23.134Z",
+  "timeout_min": 15,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-15T10:10:23.134Z"
+ }
 }
