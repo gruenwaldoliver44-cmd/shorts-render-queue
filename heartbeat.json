@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-15T17:42:30.217Z",
+ "ts": "2026-11-15T17:44:30.174Z",
  "source": "dashboard",
- "current": "2751-esp-stills1 since 2026-11-15 17:41:33",
- "busy": true,
+ "current": "",
+ "busy": false,
  "free_gb": 18,
  "blender_procs": 0,
- "cpu": 22,
- "gpu": 52,
- "mem_free_pct": 77,
+ "cpu": 16,
+ "gpu": 36,
+ "mem_free_pct": 79,
  "progress": null,
  "done": [
+  "2751-esp-stills1",
   "2750-esp-probe2b",
   "2749-esp-probe2",
   "2748-esp-probe",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2751-esp-stills1",
-  "title": "MT Espresso · Standbilder Runde 1",
-  "job_since": "2026-11-15T17:41:33.768Z",
-  "timeout_min": 50,
-  "step": 2,
-  "steps": 2,
-  "label": "stills",
-  "step_since": "2026-11-15T17:41:39.483Z",
-  "progress": null,
-  "updated": "2026-11-15T17:41:39.483Z"
+  "state": "idle",
+  "last": {
+   "job": "2751-esp-stills1",
+   "title": "MT Espresso · Standbilder Runde 1",
+   "result": "fertig",
+   "at": "2026-11-15T17:42:37.064Z"
+  },
+  "updated": "2026-11-15T17:42:37.064Z"
  },
  "queue": []
 }
