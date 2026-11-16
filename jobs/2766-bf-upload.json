@@ -1,0 +1,13 @@
+{
+ "title": "Black-Friday-Video hochladen",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "id": "2766-bf-upload",
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > upbf.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> upbf.res; done < up/up_bf.txt; echo fertig >> upbf.res; cat upbf.res"
+  }
+ ]
+}
