@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-17T15:54:27.593Z",
- "source": "dashboard",
+ "ts": "2026-11-17T15:55:53.111Z",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
- "cpu": 18,
- "gpu": 15,
- "mem_free_pct": 66,
- "progress": null,
  "done": [
   "2766-bf-upload",
   "2765-ship-stills",
@@ -102,6 +97,5 @@
    "at": "2026-11-17T15:00:39.290Z"
   },
   "updated": "2026-11-17T15:00:39.290Z"
- },
- "queue": []
+ }
 }
