@@ -1,15 +1,16 @@
 {
- "ts": "2026-11-17T16:56:27.629Z",
+ "ts": "2026-11-17T16:58:27.680Z",
  "source": "dashboard",
- "current": "2767-haus-upload since 2026-11-17 16:53:54",
- "busy": true,
- "free_gb": 23,
+ "current": "",
+ "busy": false,
+ "free_gb": 22,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 5,
+ "cpu": 10,
+ "gpu": 6,
  "mem_free_pct": 65,
  "progress": null,
  "done": [
+  "2767-haus-upload",
   "2766-bf-upload",
   "2765-ship-stills",
   "2764-ship-music",
@@ -94,17 +95,14 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2767-haus-upload",
-  "title": "Haus-Video hochladen",
-  "job_since": "2026-11-17T16:53:54.270Z",
-  "timeout_min": 40,
-  "step": 1,
-  "steps": 1,
-  "label": "up",
-  "step_since": "2026-11-17T16:53:56.192Z",
-  "progress": null,
-  "updated": "2026-11-17T16:53:56.192Z"
+  "state": "idle",
+  "last": {
+   "job": "2767-haus-upload",
+   "title": "Haus-Video hochladen",
+   "result": "fertig",
+   "at": "2026-11-17T16:57:06.905Z"
+  },
+  "updated": "2026-11-17T16:57:06.905Z"
  },
  "queue": []
 }
