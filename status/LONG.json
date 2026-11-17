@@ -1,21 +1,21 @@
 {
- "updated": "17.11. 17:40",
+ "updated": "17.11. 17:50",
  "videos": [
   {
    "channel": "MC",
    "title": "Home Sales Just Hit a 16-Year Low. Is It 2008 Again? (Explained Like You're 5)",
    "meta": "13:53 Minuten · 293 Bilder · 1080p",
-   "status": "run",
-   "chip": "Render läuft",
-   "progress": 89,
+   "status": "ok",
+   "chip": "fertig gerendert",
+   "progress": 100,
    "progress_label": "gerendert",
    "render": {
-    "done": 8,
+    "done": 9,
     "total": 9,
-    "final": false
+    "final": true
    },
-   "eta": "17:04",
-   "eta_text": "",
+   "eta": null,
+   "eta_text": "Fertig gerendert.",
    "steps": [
     [
      "Thema und Titel geprüft",
@@ -43,25 +43,23 @@
     ],
     [
      "Render 1080p",
-     "run"
+     "ok"
     ],
     [
      "Stichproben am fertigen Film",
-     "wait"
+     "ok"
     ],
     [
      "Upload privat",
-     "wait"
+     "run"
     ]
    ],
    "credits": {
     "used": 118.5,
     "cap": 150
    },
-   "need": [
-    "Für den Upload: Der Dienst auf deinem Mac steht seit 15.11. Den Befehl dafür bekommst du, sobald der Film fertig ist."
-   ],
-   "now": "Kontrolle der korrigierten Stücke: Beim Banker von 1981 saß die Abdeckung des Schilds noch falsch und die Sprechblase lag über seinem Gesicht. Behoben und geprüft, dieses eine Stück läuft noch einmal (9 Minuten).",
+   "need": [],
+   "now": "Film ist fertig: 13:53 Minuten, 1080p, Lautheit −14,5 LUFS. Alle neun Stücke durchgesehen. Jetzt läuft der private Upload über deinen Mac.",
    "next": "Stichproben ansehen, dann privat hochladen",
    "preview_img": "local:work/longform/preview.jpg",
    "thumb_img": "local:work/longform/thumb.jpg"
