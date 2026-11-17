@@ -1,5 +1,5 @@
 {
- "updated": "17.11. 17:00",
+ "updated": "17.11. 17:05",
  "videos": [
   {
    "channel": "MC",
@@ -7,14 +7,14 @@
    "meta": "13:53 Minuten · 293 Bilder · 1080p",
    "status": "run",
    "chip": "Render läuft",
-   "progress": 89,
+   "progress": 56,
    "progress_label": "gerendert",
    "render": {
-    "done": 8,
+    "done": 5,
     "total": 9,
     "final": false
    },
-   "eta": "17:11",
+   "eta": "17:52",
    "eta_text": "",
    "steps": [
     [
@@ -61,7 +61,7 @@
    "need": [
     "Für den Upload: Der Dienst auf deinem Mac steht seit 15.11. Den Befehl dafür bekommst du, sobald der Film fertig ist."
    ],
-   "now": "Bei der Durchsicht gefunden und behoben: Kalender-Beschriftungen ragten über den Rand, und auf dem Schild des Bankers von 1981 stand kurz Fantasietext. Die vier betroffenen Stücke rendere ich am Ende neu, das kostet rund 35 Minuten. Fertig daher gegen 17:50 Uhr.",
+   "now": "Erster Durchlauf ist komplett. Jetzt laufen die vier korrigierten Stücke neu (Kalender-Beschriftungen, Schild des Bankers, zwei Überlappungen). Deshalb zeigt der Balken wieder weniger an. Danach wird zusammengesetzt.",
    "next": "Stichproben ansehen, dann privat hochladen",
    "preview_img": "local:work/longform/preview.jpg",
    "thumb_img": "local:work/longform/thumb.jpg"
