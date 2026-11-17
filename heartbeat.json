@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-17T15:06:27.243Z",
- "source": "dashboard",
+ "ts": "2026-11-17T15:06:57.011Z",
  "current": "",
  "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
- "cpu": 13,
- "gpu": 14,
- "mem_free_pct": 65,
- "progress": null,
  "done": [
   "2766-bf-upload",
   "2765-ship-stills",
@@ -49,8 +44,7 @@
   "2715-euv-logs",
   "2712-euv-render2",
   "2711-euv-render1",
-  "2708-euv-build",
-  "2707-euv-stillspush"
+  "2708-euv-build"
  ],
  "failed": [
   "2714-euv-encode",
@@ -103,6 +97,5 @@
    "at": "2026-11-17T15:00:39.290Z"
   },
   "updated": "2026-11-17T15:00:39.290Z"
- },
- "queue": []
+ }
 }
