@@ -1,0 +1,13 @@
+{
+ "title": "Haus-Video hochladen",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "id": "2767-haus-upload",
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > uphaus.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> uphaus.res; done < up/up_haus.txt; echo fertig >> uphaus.res; cat uphaus.res"
+  }
+ ]
+}
