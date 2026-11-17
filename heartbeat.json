@@ -1,8 +1,8 @@
 {
- "ts": "2026-11-17T14:58:23.816Z",
- "current": "2766-ship-render-a since 2026-11-15 22:17:08",
+ "ts": "2026-11-17T14:58:30.812Z",
+ "current": "2766-bf-upload since 2026-11-17 14:58:30",
  "busy": true,
- "free_gb": 17,
+ "free_gb": 23,
  "blender_procs": 0,
  "done": [
   "2765-ship-stills",
@@ -90,15 +90,14 @@
  ],
  "status": {
   "state": "busy",
-  "job": "2766-ship-render-a",
-  "title": "MT Schiff · Render Teil A (Maschinenraum, Kurbel, Propeller)",
-  "job_since": "2026-11-15T22:17:08.274Z",
-  "timeout_min": 400,
-  "step": 2,
-  "steps": 13,
-  "label": "stills",
-  "step_since": "2026-11-15T22:17:10.198Z",
+  "job": "2766-bf-upload",
+  "title": "Black-Friday-Video hochladen",
+  "job_since": "2026-11-17T14:58:30.788Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
   "progress": null,
-  "updated": "2026-11-15T22:17:10.198Z"
+  "updated": "2026-11-17T14:58:30.788Z"
  }
 }
