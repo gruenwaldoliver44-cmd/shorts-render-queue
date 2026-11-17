@@ -1,5 +1,5 @@
 {
- "updated": "17.11. 17:14",
+ "updated": "17.11. 17:23",
  "videos": [
   {
    "channel": "MC",
@@ -7,14 +7,14 @@
    "meta": "13:53 Minuten · 293 Bilder · 1080p",
    "status": "run",
    "chip": "Render läuft",
-   "progress": 67,
+   "progress": 78,
    "progress_label": "gerendert",
    "render": {
-    "done": 6,
+    "done": 7,
     "total": 9,
     "final": false
    },
-   "eta": "17:00",
+   "eta": "17:02",
    "eta_text": "",
    "steps": [
     [
