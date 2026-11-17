@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-17T20:18:27.864Z",
+ "ts": "2026-11-17T20:20:27.902Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -103,20 +103,5 @@
   },
   "updated": "2026-11-17T16:57:06.905Z"
  },
- "queue": [
-  "2501-ct-bank390-v1",
-  "2502-ct-bank390-v2",
-  "2541-mt-faceid-v1",
-  "2574-mc4-stills3",
-  "2575-ft4-stills3",
-  "2610-peloton-film1",
-  "2634-sears-upload3",
-  "2673-bk2-render",
-  "2674-bk2-render",
-  "2674-wk-mux2",
-  "2681-fe-render",
-  "2701-euv-bksearch",
-  "2703-euv-bksearch2",
-  "2714-euv-encode"
- ]
+ "queue": []
 }
