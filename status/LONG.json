@@ -1,12 +1,12 @@
 {
- "updated": "17.11. 17:50",
+ "updated": "17.11. 17:57",
  "videos": [
   {
    "channel": "MC",
    "title": "Home Sales Just Hit a 16-Year Low. Is It 2008 Again? (Explained Like You're 5)",
    "meta": "13:53 Minuten · 293 Bilder · 1080p",
    "status": "ok",
-   "chip": "fertig gerendert",
+   "chip": "privat hochgeladen",
    "progress": 100,
    "progress_label": "gerendert",
    "render": {
@@ -51,16 +51,18 @@
     ],
     [
      "Upload privat",
-     "run"
+     "ok"
     ]
    ],
    "credits": {
     "used": 118.5,
     "cap": 150
    },
-   "need": [],
-   "now": "Film ist fertig: 13:53 Minuten, 1080p, Lautheit −14,5 LUFS. Alle neun Stücke durchgesehen. Jetzt läuft der private Upload über deinen Mac.",
-   "next": "Stichproben ansehen, dann privat hochladen",
+   "need": [
+    "Video ansehen und selbst öffentlich stellen. Ich stelle nie etwas öffentlich."
+   ],
+   "now": "Fertig. Das Video ist an YouTube übergeben und erscheint um 18:06 Uhr privat im Kanal Money Classics (Metricool-Beitrag 431740018), mit Thumbnail, Kapiteln und Quellen.",
+   "next": "Du schaust das Video an und stellst es öffentlich, wenn es passt.",
    "preview_img": "local:work/longform/preview.jpg",
    "thumb_img": "local:work/longform/thumb.jpg"
   },
