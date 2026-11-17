@@ -30,7 +30,7 @@ const pullStatus = async () => {
   try {
     const tf = path.join(A, "token"); if (!fs.existsSync(tf)) return;
     const h = { Authorization: `Bearer ${fs.readFileSync(tf, "utf8").trim()}`, "User-Agent": "shorts-dashboard", Accept: "application/vnd.github.raw" };
-    for (const k of ["CT", "MT", "MC", "FT"]) {
+    for (const k of ["LONG"]) {
       const r = await fetch(`https://api.github.com/repos/gruenwaldoliver44-cmd/shorts-render-queue/contents/status/${k}.json?ref=main`, { headers: h, signal: AbortSignal.timeout(15000) });
       if (r.ok) { try { LIVE[k] = JSON.parse(await r.text()); } catch {} }
     }
@@ -72,13 +72,13 @@ const collect = () => {
   } catch {}
   const recent = (d) => { try { return fs.readdirSync(path.join(STATE, d)).map((f) => ({ id: f, t: fs.statSync(path.join(STATE, d, f)).mtimeMs })).sort((a, b) => b.t - a.t).slice(0, 6); } catch { return []; } };
   // one file per channel (status/CT.json ...) so the four build agents never edit the same file
-  const pipeline = { channels: {}, updated: 0 };
-  for (const k of ["CT", "MT", "MC", "FT"]) { const x = LIVE[k] || readJSON(path.join(A, "repo", "status", k + ".json")); if (x) { pipeline.channels[k] = x; const u = Date.parse(x.updated || 0) || 0; if (u > pipeline.updated) pipeline.updated = u; } }
+  const pipeline = { channels: {}, updated: 0, long: LIVE.LONG || readJSON(path.join(A, "repo", "status", "LONG.json")) || null };
+  for (const k of []) { const x = LIVE[k] || readJSON(path.join(A, "repo", "status", k + ".json")); if (x) { pipeline.channels[k] = x; const u = Date.parse(x.updated || 0) || 0; if (u > pipeline.updated) pipeline.updated = u; } }
   return { now: Date.now(), st, cpu: cpuPct(), gpu, memFree, therm: therm ? Number(therm) : null, diskGB, blender: bl, agentRunning, hb, loopBeat, progress, queue, done: recent("done"), failed: recent("failed"), pipeline };
 };
 
 const HTML = `<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Shorts Kommandozentrale</title><style>
+<title>Kommandozentrale Longform</title><style>
 :root{--bg:#0b111a;--card:#141c28;--line:#223044;--ink:#e8eef6;--mut:#8a9bb3;--ok:#3ddc97;--warn:#ffc04d;--bad:#ff5e6c;--acc:#5ab4ff}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:20px}
 h1{font-size:20px;margin:0 0 4px}.sub{color:var(--mut);margin-bottom:18px}
@@ -107,7 +107,16 @@ h1{font-size:20px;margin:0 0 4px}.sub{color:var(--mut);margin-bottom:18px}
 @keyframes pl{50%{box-shadow:0 0 0 8px #5ab4ff11}}
 .kv{display:grid;grid-template-columns:110px 1fr;gap:4px 10px;margin-top:10px;font-size:14px}.kv span:nth-child(odd){color:var(--mut)}
 .live{margin-top:10px;padding:8px 10px;border-radius:10px;background:#10233a;font-size:13px}
-</style></head><body><h1>Shorts Kommandozentrale</h1><div class="sub" id="sub">lädt …</div><div class="vids" id="v"></div><div class="grid" id="g"></div>
+.lv{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;margin-bottom:14px}
+@media(max-width:1000px){.lv{grid-template-columns:1fr}}
+.lv .t{font-size:22px;font-weight:700;margin:6px 0 4px}.lv .huge{font-size:64px;font-weight:800;line-height:1;margin:16px 0 6px;font-variant-numeric:tabular-nums}.lv .huge small{font-size:20px;color:var(--mut);font-weight:500}
+.sg{display:flex;gap:5px;margin-top:10px}.sg b{flex:1;height:22px;border-radius:5px;background:#0d1520}.sg b.d{background:var(--ok)}.sg b.r{background:var(--acc);animation:bl 1.4s infinite}@keyframes bl{50%{opacity:.4}}
+.sl{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:7px}.sl li{display:flex;align-items:center;gap:10px}.sl i{width:20px;height:20px;border-radius:50%;flex:none;background:#2a3648;display:grid;place-items:center;font-style:normal;font-size:12px;font-weight:800;color:#0b111a}
+.sl .ok i{background:var(--ok)}.sl .run i{background:var(--acc)}.sl .bad i{background:var(--bad)}.sl .wait{color:var(--mut)}.sl .run{font-weight:700}.sl em{margin-left:auto;font-style:normal;font-size:12px;color:var(--mut)}
+.pv img{width:100%;border-radius:10px;border:1px solid var(--line);display:block;cursor:pointer;background:#0d1520}.pv .cap{color:var(--mut);font-size:12px;margin:6px 0 14px}
+.need{border-left:4px solid var(--warn);padding:2px 0 2px 12px;margin-top:8px}.two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}.box{background:#0f1723;border:1px solid var(--line);border-radius:12px;padding:14px}.box h3{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:0 0 8px}
+.other{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}.other:last-child{border:0}
+</style></head><body><h1>Kommandozentrale <span style="color:var(--acc)">Longform</span></h1><div class="sub" id="sub">lädt …</div><div id="v"></div><div class="grid" id="g"></div>
 <script>
 const CHN={CT:"Compound Times",MT:"Machine Times",MC:"Money Classics",FT:"Future Tender"};
 const ch=id=>({"21":"CT","22":"MT","23":"MC","24":"FT"})[String(id).slice(0,2)]||"";
@@ -126,24 +135,25 @@ else if(d.hb&&!/ (200|201)$/.test(d.hb)){mood="warn";msg="Verbindung zu Claude g
 else if(d.diskGB<10){mood="warn";msg="Speicherplatz knapp"}
 else if(d.therm&&d.therm<80){mood="warn";msg="Mac drosselt wegen Hitze"}
 document.getElementById("sub").innerHTML=dot(mood)+msg+' · aktualisiert '+new Date(d.now).toLocaleTimeString("de-AT");
-// video cards (rebuilt only when their data changes, so preview images and videos do not flicker)
-const P=["Skript","Stimme","Szenen","Vorschau","Final","Ton & Prüfung","Geplant"],PS=["Skript","Stimme","Szenen","Vorschau","Final","Ton","Geplant"],PW=[8,15,30,45,80,92,100];
+// longform videos (rebuilt only when their data changes, so preview images do not flicker)
 const src=u=>!u?"":u.startsWith("local:")?"/local/"+u.slice(6):u;
-const live=(busy&&d.progress)?{ch:ch(s.job),n:d.progress.n,t:d.progress.total,eta:d.progress.eta_min,label:s.label,title:s.title}:(busy?{ch:ch(s.job),label:s.label,title:s.title}:null);
-const vkey=JSON.stringify([d.pipeline,live&&[live.ch,live.n,live.label]]);
-if(vkey!==window._vk){window._vk=vkey;let v="";
- for(const k of ["CT","MT","MC","FT"]){const x=(d.pipeline&&d.pipeline.channels||{})[k];if(!x)continue;let i=P.indexOf(x.stage);if(i<0)i=0;
-  const pc=Math.max(0,Math.min(100,typeof x.progress==="number"?x.progress:(i?PW[i-1]:0)));
-  const st=x.error?["c-err","Problem"]:x.stage==="Geplant"?["c-done","Geplant"]:(live&&live.ch===k)?["c-run","Mac rendert"]:["c-wait","in Arbeit"];
-  let ph=x.preview_img?'<img src="'+src(x.preview_img)+'" title="Klicken zum Abspielen" onclick="'+(x.preview_video?"window.open('"+src(x.preview_video)+"')":"window.open(this.src)")+'">':x.preview_video?'<video src="'+src(x.preview_video)+'" muted loop autoplay playsinline onclick="window.open(this.src)"></video>':'<div class="none">Noch keine Vorschau</div>';
-  if(x.preview_note)ph+='<div class="mut" style="font-size:12px;margin-top:6px">'+x.preview_note+'</div>';
-  v+='<div class="vc"><div class="main"><div class="vh"><span class="tag">'+k+'</span><span class="t">'+(x.title||k)+'</span><span class="chip '+st[0]+'">'+st[1]+'</span></div><div class="mut">'+CHN[k]+(x.topic?' · '+x.topic:'')+'</div>';
-  v+='<div class="pct"><b>'+Math.round(pc)+' %</b><span class="mut">fertig</span></div><div class="pbar"><i style="width:'+pc+'%"></i></div>';
-  v+='<div class="stp">'+P.map((n,j)=>'<div class="'+(x.error&&j===i?"e":(j<i||x.stage==="Geplant")?"d":j===i?"n":"")+'"><i></i>'+PS[j]+'</div>').join("")+'</div>';
-  v+='<div class="kv"><span>Jetzt</span><span>'+(x.note||"–")+'</span>'+(x.next?'<span>Als Nächstes</span><span>'+x.next+'</span>':'')+'<span>Fertig ca.</span><span><b style="color:var(--acc)">'+(x.eta||"wird berechnet")+'</b></span>'+(x.slot?'<span>Post</span><span>'+x.slot+'</span>':'')+'</div>';
-  if(live&&live.ch===k)v+='<div class="live">Mac rendert gerade: <b>'+(live.label||"")+'</b>'+(live.t?' · '+live.n+' von '+live.t+' Bildern'+(live.eta!=null?' · noch ca. '+live.eta+' Min':''):'')+(live.t?meter(Math.round(100*live.n/live.t)):'')+'</div>';
-  v+='<div class="mut" style="font-size:12px;margin-top:10px">Stand '+(x.updated?new Date(x.updated).toLocaleTimeString("de-AT",{hour:"2-digit",minute:"2-digit"}):"–")+'</div></div><div class="ph">'+ph+'</div></div>'}
- document.getElementById("v").innerHTML=v||'<div class="card mut">Noch keine Videos gemeldet.</div>'}
+const L=(d.pipeline&&d.pipeline.long)||{videos:[]};const vkey=JSON.stringify(L);
+if(vkey!==window._vk){window._vk=vkey;let v="";const T={ok:"fertig",run:"läuft",wait:"offen",bad:"Problem"},S={ok:"✓",run:"…",wait:"",bad:"!"};const bust="?t="+Date.now();
+ (L.videos||[]).forEach((x,n)=>{
+  if(n===0){const r=x.render||{};const pc=Math.round(x.progress||0);
+   v+='<div class="lv"><div><span class="tag">'+(x.channel||"MC")+'</span><span class="chip '+(x.status==="bad"?"c-err":x.status==="ok"?"c-done":"c-run")+'">'+(x.chip||"in Arbeit")+'</span><div class="t">'+x.title+'</div><div class="mut">'+(x.meta||"")+'</div>';
+   v+='<div class="huge">'+pc+'<small> % '+(x.progress_label||"fertig")+'</small></div><div class="pbar"><i style="width:'+pc+'%"></i></div>';
+   if(r.total)v+='<div class="sg">'+Array.from({length:r.total},(_,i)=>'<b class="'+(i<r.done?"d":(i===r.done&&!r.final?"r":""))+'"></b>').join("")+'</div><div class="mut" style="margin-top:6px">'+r.done+' von '+r.total+' Stücken gerendert</div>';
+   v+='<div style="font-size:17px;margin-top:12px">'+(x.eta?'Voraussichtlich fertig um <b style="color:var(--acc)">'+x.eta+' Uhr</b>':(x.eta_text||""))+'</div>';
+   v+='<ul class="sl">'+(x.steps||[]).map(q=>'<li class="'+q[1]+'"><i>'+S[q[1]]+'</i>'+q[0]+'<em>'+T[q[1]]+'</em></li>').join("")+'</ul>';
+   v+='<div class="two"><div class="box"><h3>Higgsfield-Credits</h3>'+(x.credits?'<div class="big">'+String(x.credits.used).replace(".",",")+' <span class="mut" style="font-size:14px;font-weight:400">von '+x.credits.cap+'</span></div>'+meter(100*x.credits.used/x.credits.cap,lvl(100*x.credits.used/x.credits.cap,85,100)):'–')+'</div>';
+   v+='<div class="box"><h3>Brauche ich von dir</h3>'+((x.need||[]).length?x.need.map(q=>'<div class="need">'+q+'</div>').join(""):'<div class="mut">Im Moment nichts.</div>')+'</div></div>';
+   if(x.now)v+='<div class="kv"><span>Jetzt</span><span>'+x.now+'</span>'+(x.next?'<span>Als Nächstes</span><span>'+x.next+'</span>':'')+'</div>';
+   v+='</div><div class="pv">'+(x.preview_img?'<img src="'+src(x.preview_img)+bust+'" onclick="window.open(this.src)"><div class="cap">Vorschau: Bilder aus dem zuletzt gerenderten Stück. Klicken zum Vergrößern.</div>':'<div class="mut">Noch keine Vorschau</div>')+(x.thumb_img?'<img src="'+src(x.thumb_img)+bust+'" onclick="window.open(this.src)"><div class="cap">Thumbnail, Hauptvariante</div>':'')+'</div></div>';
+  }else{v+=(n===1?'<div class="card" style="margin-bottom:14px"><h2>Weitere Videos</h2>':'')+'<div class="other"><span><span class="tag">'+(x.channel||"MC")+'</span><b>'+x.title+'</b><div class="mut" style="margin-top:2px">'+(x.now||"")+'</div></span><span class="chip '+(x.status==="bad"?"c-err":x.status==="ok"?"c-done":"c-wait")+'">'+(x.chip||"")+'</span></div>'+(n===L.videos.length-1?'</div>':'');}
+ });
+ v+='<div class="mut" style="font-size:12px;margin:-6px 0 14px">Stand '+(L.updated||"–")+'</div>';
+ document.getElementById("v").innerHTML=(L.videos||[]).length?v:'<div class="card mut">Noch keine Videos gemeldet.</div>'}
 // hero
 let h='<div class="card hero"><h2>Gerade jetzt</h2>';
 if(busy){h+='<div class="big">'+dot("ok")+(CHN[ch(s.job)]||"System")+' – '+(s.title||s.job)+'</div>';
@@ -151,7 +161,7 @@ if(busy){h+='<div class="big">'+dot("ok")+(CHN[ch(s.job)]||"System")+' – '+(s.
  if(d.progress){const p=Math.round(100*d.progress.n/d.progress.total);h+='<div style="margin-top:10px">'+d.progress.n+' von '+d.progress.total+' Bildern · '+p+' %'+(d.progress.eta_min!=null?' · noch ca. '+d.progress.eta_min+' Min':'')+'</div>'+meter(p)}
  const tl=Date.parse(s.job_since)+s.timeout_min*60000-d.now;if(tl<10*60000)h+='<div style="color:var(--warn);margin-top:8px">Zeitlimit in '+mins(tl)+'</div>';
 }else if(d.agentRunning){h+='<div class="big">'+dot("ok")+'Prüft die Auftragsliste …</div>'}
-else{h+='<div class="big">'+dot("idle")+'Bereit – wartet auf den nächsten Auftrag</div><div class="mut">Der Mac schaut jede Minute nach neuen Aufträgen.</div>'}
+else{h+='<div class="big">'+dot("warn")+'Upload-Dienst auf dem Mac steht</div><div class="mut">Gebaut und gerendert wird bei Claude. Der Mac wird nur für den Upload gebraucht. Start im Terminal: nohup ~/ShortsRenderAgent/loop.sh &</div>'}
 if(s.last)h+='<div class="mut" style="margin-top:8px">Zuletzt: '+(CHN[ch(s.last.job)]||"")+' – '+s.last.title+': <b style="color:'+(s.last.result==="fertig"?"var(--ok)":"var(--bad)")+'">'+s.last.result+'</b> um '+hm(s.last.at)+'</div>';
 g.push(h+'</div>');
 // machine

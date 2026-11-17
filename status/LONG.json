@@ -1,0 +1,84 @@
+{
+ "updated": "17.11. 15:56",
+ "videos": [
+  {
+   "channel": "MC",
+   "title": "Home Sales Just Hit a 16-Year Low. Is It 2008 Again? (Explained Like You're 5)",
+   "meta": "13:53 Minuten · 293 Bilder · 1080p",
+   "status": "run",
+   "chip": "Render läuft",
+   "progress": 0,
+   "progress_label": "gerendert",
+   "render": {
+    "done": 0,
+    "total": 9,
+    "final": false
+   },
+   "eta": "17:14",
+   "eta_text": "",
+   "steps": [
+    [
+     "Thema und Titel geprüft",
+     "ok"
+    ],
+    [
+     "Skript, Fassung 9",
+     "ok"
+    ],
+    [
+     "Bildplan, 293 Bilder",
+     "ok"
+    ],
+    [
+     "Figuren, Orte, Gegenstände",
+     "ok"
+    ],
+    [
+     "Stimmen, 267 Zeilen",
+     "ok"
+    ],
+    [
+     "Schnitt, Ton, Musik",
+     "ok"
+    ],
+    [
+     "Render 1080p",
+     "run"
+    ],
+    [
+     "Stichproben am fertigen Film",
+     "wait"
+    ],
+    [
+     "Upload privat",
+     "wait"
+    ]
+   ],
+   "credits": {
+    "used": 118.5,
+    "cap": 150
+   },
+   "need": [
+    "Für den Upload: Der Dienst auf deinem Mac steht seit 15.11. Den Befehl dafür bekommst du, sobald der Film fertig ist."
+   ],
+   "now": "Der Render musste um 15:52 neu starten: Sprechblasen füllten sich zu langsam, das ist behoben.",
+   "next": "Stichproben ansehen, dann privat hochladen",
+   "preview_img": "local:work/longform/preview.jpg",
+   "thumb_img": "local:work/longform/thumb.jpg"
+  },
+  {
+   "channel": "MC",
+   "title": "Black-Friday-Video",
+   "now": "Liegt privat auf YouTube. Du stellst es vor dem 27.11. öffentlich.",
+   "status": "wait",
+   "chip": "wartet auf dich"
+  },
+  {
+   "channel": "MC",
+   "title": "Nächstes Thema",
+   "now": "Der Themen-Scout läuft morgen um 05:17 Uhr und schlägt nur Themen vor, die die Freigabe bestehen.",
+   "status": "wait",
+   "chip": "geplant"
+  }
+ ]
+}
