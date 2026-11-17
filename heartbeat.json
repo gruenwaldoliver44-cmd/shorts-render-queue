@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-17T16:53:54.292Z",
+ "ts": "2026-11-17T16:54:27.615Z",
+ "source": "dashboard",
  "current": "2767-haus-upload since 2026-11-17 16:53:54",
  "busy": true,
  "free_gb": 23,
  "blender_procs": 0,
+ "cpu": 12,
+ "gpu": 6,
+ "mem_free_pct": 65,
+ "progress": null,
  "done": [
   "2766-bf-upload",
   "2765-ship-stills",
@@ -94,10 +99,12 @@
   "title": "Haus-Video hochladen",
   "job_since": "2026-11-17T16:53:54.270Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-17T16:53:56.192Z",
   "progress": null,
-  "updated": "2026-11-17T16:53:54.270Z"
- }
+  "updated": "2026-11-17T16:53:56.192Z"
+ },
+ "queue": []
 }
