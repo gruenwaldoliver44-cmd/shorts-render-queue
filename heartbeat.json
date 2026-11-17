@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-17T14:58:30.812Z",
+ "ts": "2026-11-17T15:00:27.210Z",
+ "source": "dashboard",
  "current": "2766-bf-upload since 2026-11-17 14:58:30",
- "busy": true,
+ "busy": false,
  "free_gb": 23,
  "blender_procs": 0,
+ "cpu": 24,
+ "gpu": 0,
+ "mem_free_pct": 64,
+ "progress": null,
  "done": [
   "2765-ship-stills",
   "2764-ship-music",
@@ -94,10 +99,12 @@
   "title": "Black-Friday-Video hochladen",
   "job_since": "2026-11-17T14:58:30.788Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-17T14:58:33.689Z",
   "progress": null,
-  "updated": "2026-11-17T14:58:30.788Z"
- }
+  "updated": "2026-11-17T14:58:33.689Z"
+ },
+ "queue": []
 }
