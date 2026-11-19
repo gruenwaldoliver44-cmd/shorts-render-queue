@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-19T21:24:22.519Z",
+ "ts": "2026-11-19T21:26:22.525Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 6,
+ "cpu": 8,
  "gpu": 0,
- "mem_free_pct": 57,
+ "mem_free_pct": 56,
  "progress": null,
  "done": [
   "2768-xmas-upload",
