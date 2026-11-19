@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-19T19:22:22.348Z",
+ "ts": "2026-11-19T19:24:22.357Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 21,
  "blender_procs": 0,
- "cpu": 8,
- "gpu": 0,
- "mem_free_pct": 65,
+ "cpu": 10,
+ "gpu": 19,
+ "mem_free_pct": 63,
  "progress": null,
  "done": [
   "2767-haus-upload",
