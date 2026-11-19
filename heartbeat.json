@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-19T19:50:22.389Z",
- "source": "dashboard",
+ "ts": "2026-11-19T19:50:53.918Z",
  "current": "",
  "busy": false,
  "free_gb": 21,
  "blender_procs": 0,
- "cpu": 9,
- "gpu": 0,
- "mem_free_pct": 57,
- "progress": null,
  "done": [
   "2768-xmas-upload",
   "2767-haus-upload",
@@ -49,8 +44,7 @@
   "2717-euv-encode2",
   "2716-euv-render-all",
   "2715-euv-logs",
-  "2712-euv-render2",
-  "2711-euv-render1"
+  "2712-euv-render2"
  ],
  "failed": [
   "2714-euv-encode",
@@ -103,6 +97,5 @@
    "at": "2026-11-19T19:44:51.589Z"
   },
   "updated": "2026-11-19T19:44:51.589Z"
- },
- "queue": []
+ }
 }
