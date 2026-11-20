@@ -1,0 +1,13 @@
+{
+ "title": "Weihnachts-Thumbnail hochladen",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "id": "2771-xmas-thumb",
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > upthumb.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> upthumb.res; done < up/up_thumb.txt; echo fertig >> upthumb.res; cat upthumb.res"
+  }
+ ]
+}
