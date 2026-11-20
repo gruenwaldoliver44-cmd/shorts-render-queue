@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-20T14:50:48.630Z",
+ "ts": "2026-11-20T14:51:31.577Z",
+ "source": "dashboard",
  "current": "",
- "busy": true,
+ "busy": false,
  "free_gb": 20,
  "blender_procs": 0,
+ "cpu": 9,
+ "gpu": 26,
+ "mem_free_pct": 50,
+ "progress": null,
  "done": [
   "2771-xmas-thumb",
   "2770-xmas-upload",
@@ -97,5 +102,6 @@
    "at": "2026-11-20T14:50:48.595Z"
   },
   "updated": "2026-11-20T14:50:48.595Z"
- }
+ },
+ "queue": []
 }
