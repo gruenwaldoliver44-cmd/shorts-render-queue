@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-20T14:49:31.566Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-20T14:50:45.132Z",
+ "current": "2771-xmas-thumb since 2026-11-20 14:50:45",
+ "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 33,
- "mem_free_pct": 49,
- "progress": null,
  "done": [
   "2770-xmas-upload",
   "2769-xmas-upload",
@@ -49,8 +44,7 @@
   "2721-euv-shortup",
   "2720-euv-v2",
   "2717-euv-encode2",
-  "2716-euv-render-all",
-  "2715-euv-logs"
+  "2716-euv-render-all"
  ],
  "failed": [
   "2714-euv-encode",
@@ -95,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2770-xmas-upload",
-   "title": "Weihnachtsvideo v3 hochladen",
-   "result": "fertig",
-   "at": "2026-11-20T14:49:16.080Z"
-  },
-  "updated": "2026-11-20T14:49:16.080Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2771-xmas-thumb",
+  "title": "Weihnachts-Thumbnail hochladen",
+  "job_since": "2026-11-20T14:50:45.110Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-20T14:50:45.110Z"
+ }
 }
