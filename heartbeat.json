@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-20T11:13:30.730Z",
- "source": "dashboard",
+ "ts": "2026-11-20T11:14:45.227Z",
  "current": "",
  "busy": false,
  "free_gb": 21,
  "blender_procs": 0,
- "cpu": 15,
- "gpu": 51,
- "mem_free_pct": 67,
- "progress": null,
  "done": [
   "2768-xmas-upload",
   "2767-haus-upload",
@@ -102,6 +97,5 @@
    "at": "2026-11-19T19:44:51.589Z"
   },
   "updated": "2026-11-19T19:44:51.589Z"
- },
- "queue": []
+ }
 }
