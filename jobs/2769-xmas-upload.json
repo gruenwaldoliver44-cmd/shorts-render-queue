@@ -1,0 +1,13 @@
+{
+ "title": "Weihnachtsvideo v2 hochladen",
+ "type": "shell",
+ "timeout_min": 40,
+ "retries": 0,
+ "id": "2769-xmas-upload",
+ "steps": [
+  {
+   "label": "up",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && : > upxmas.res; while read f t u; do c=$(curl -s -o /dev/null -w '%{http_code}' -X PUT -H \"Content-Type: $t\" -H 'If-None-Match: *' -T \"$f\" \"$u\"); echo \"$f $c\" >> upxmas.res; done < up/up_xmas.txt; echo fertig >> upxmas.res; cat upxmas.res"
+  }
+ ]
+}
