@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-20T14:45:31.538Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-20T14:45:43.998Z",
+ "current": "2770-xmas-upload since 2026-11-20 14:45:43",
+ "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
- "cpu": 17,
- "gpu": 38,
- "mem_free_pct": 51,
- "progress": null,
  "done": [
   "2769-xmas-upload",
   "2768-xmas-upload",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2769-xmas-upload",
-   "title": "Weihnachtsvideo v2 hochladen",
-   "result": "fertig",
-   "at": "2026-11-20T12:46:52.349Z"
-  },
-  "updated": "2026-11-20T12:46:52.349Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2770-xmas-upload",
+  "title": "Weihnachtsvideo v3 hochladen",
+  "job_since": "2026-11-20T14:45:43.976Z",
+  "timeout_min": 40,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-20T14:45:43.976Z"
+ }
 }
