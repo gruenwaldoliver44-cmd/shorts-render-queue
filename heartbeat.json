@@ -1,10 +1,11 @@
 {
- "ts": "2026-11-20T14:50:45.132Z",
- "current": "2771-xmas-thumb since 2026-11-20 14:50:45",
+ "ts": "2026-11-20T14:50:48.630Z",
+ "current": "",
  "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
  "done": [
+  "2771-xmas-thumb",
   "2770-xmas-upload",
   "2769-xmas-upload",
   "2768-xmas-upload",
@@ -43,8 +44,7 @@
   "2730-cable-bksearch",
   "2721-euv-shortup",
   "2720-euv-v2",
-  "2717-euv-encode2",
-  "2716-euv-render-all"
+  "2717-euv-encode2"
  ],
  "failed": [
   "2714-euv-encode",
@@ -89,15 +89,13 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "busy",
-  "job": "2771-xmas-thumb",
-  "title": "Weihnachts-Thumbnail hochladen",
-  "job_since": "2026-11-20T14:50:45.110Z",
-  "timeout_min": 40,
-  "step": 0,
-  "steps": 1,
-  "label": "Startet",
-  "progress": null,
-  "updated": "2026-11-20T14:50:45.110Z"
+  "state": "idle",
+  "last": {
+   "job": "2771-xmas-thumb",
+   "title": "Weihnachts-Thumbnail hochladen",
+   "result": "fertig",
+   "at": "2026-11-20T14:50:48.595Z"
+  },
+  "updated": "2026-11-20T14:50:48.595Z"
  }
 }
