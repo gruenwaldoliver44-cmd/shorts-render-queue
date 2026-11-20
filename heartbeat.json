@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-20T15:02:56.407Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-20T15:02:59.140Z",
+ "current": "2772-xmas-thumb-dl since 2026-11-20 15:02:59",
+ "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2771-xmas-thumb",
-   "title": "Weihnachts-Thumbnail hochladen",
-   "result": "fertig",
-   "at": "2026-11-20T14:50:48.595Z"
-  },
-  "updated": "2026-11-20T14:50:48.595Z"
+  "state": "busy",
+  "job": "2772-xmas-thumb-dl",
+  "title": "Thumbnail-Vorlage laden",
+  "job_since": "2026-11-20T15:02:59.119Z",
+  "timeout_min": 10,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-20T15:02:59.119Z"
  }
 }
