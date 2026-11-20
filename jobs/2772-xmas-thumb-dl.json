@@ -1,0 +1,13 @@
+{
+ "title": "Thumbnail-Vorlage laden",
+ "type": "shell",
+ "timeout_min": 10,
+ "retries": 0,
+ "id": "2772-xmas-thumb-dl",
+ "steps": [
+  {
+   "label": "dl",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && c=$(curl -s -o canva_thumb.png -w '%{http_code}' \"$(head -1 up/dl_thumb.txt)\"); echo \"canva_thumb.png $c\" > dlthumb.res; echo fertig >> dlthumb.res; cat dlthumb.res"
+  }
+ ]
+}
