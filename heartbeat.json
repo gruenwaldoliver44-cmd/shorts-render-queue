@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-20T14:45:43.998Z",
+ "ts": "2026-11-20T14:47:31.565Z",
+ "source": "dashboard",
  "current": "2770-xmas-upload since 2026-11-20 14:45:43",
  "busy": true,
  "free_gb": 20,
  "blender_procs": 0,
+ "cpu": 17,
+ "gpu": 30,
+ "mem_free_pct": 48,
+ "progress": null,
  "done": [
   "2769-xmas-upload",
   "2768-xmas-upload",
@@ -94,10 +99,12 @@
   "title": "Weihnachtsvideo v3 hochladen",
   "job_since": "2026-11-20T14:45:43.976Z",
   "timeout_min": 40,
-  "step": 0,
+  "step": 1,
   "steps": 1,
-  "label": "Startet",
+  "label": "up",
+  "step_since": "2026-11-20T14:45:46.231Z",
   "progress": null,
-  "updated": "2026-11-20T14:45:43.976Z"
- }
+  "updated": "2026-11-20T14:45:46.231Z"
+ },
+ "queue": []
 }
