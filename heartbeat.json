@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-21T11:51:54.501Z",
+ "ts": "2026-11-21T11:53:54.531Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 19,
  "blender_procs": 0,
- "cpu": 3,
- "gpu": 10,
- "mem_free_pct": 56,
+ "cpu": 9,
+ "gpu": 24,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2772-xmas-thumb-dl",
