@@ -1,0 +1,1 @@
+{"title":"fetch reference grid","type":"shell","timeout_min":5,"retries":0,"id":"2774-fetch-ref","steps":[{"label":"fetch","run":"mkdir -p \"$AGENT_HOME/pb_ref\" && cd \"$AGENT_HOME/pb_ref\" && curl -sSf -o grid_spy_0_12.jpg https://d2ol7oe51mr4n9.cloudfront.net/user_38Z8oWSnRHNn2APJObaAQyRFvxH/d9490064-3f0d-470d-8a81-bc68319d810d.jpg && ls -la"}]}
