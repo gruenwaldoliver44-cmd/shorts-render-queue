@@ -1,0 +1,13 @@
+{
+ "title": "Blender und Grafikkarte pruefen",
+ "type": "shell",
+ "timeout_min": 5,
+ "retries": 0,
+ "id": "2773-blender-check",
+ "steps": [
+  {
+   "label": "check",
+   "run": "cd \"$AGENT_HOME/pilot_test/film\" && { echo '== apps'; ls /Applications | grep -i -E 'blender' ; echo '== version'; B=$(ls -d /Applications/Blender*.app 2>/dev/null | head -1); echo \"$B\"; \"$B/Contents/MacOS/Blender\" --version 2>&1 | head -3; echo '== gpu'; system_profiler SPDisplaysDataType 2>/dev/null | grep -E 'Chipset|Metal|Cores|VRAM'; sysctl -n machdep.cpu.brand_string hw.memsize; echo '== blenderkit'; ls -d \"$HOME/blenderkit_data\" 2>&1; du -sh \"$HOME/blenderkit_data\" 2>/dev/null; ls \"$HOME/blenderkit_data\" 2>/dev/null | head; echo fertig; } > blender_check.res 2>&1; cat blender_check.res"
+  }
+ ]
+}
