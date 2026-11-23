@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-23T17:04:23.394Z",
+ "ts": "2026-11-23T17:06:23.416Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 29,
  "blender_procs": 0,
- "cpu": 21,
+ "cpu": 17,
  "gpu": 21,
- "mem_free_pct": 50,
+ "mem_free_pct": 51,
  "progress": null,
  "done": [
   "2774-fetch-ref",
@@ -103,17 +103,5 @@
   },
   "updated": "2026-11-23T13:35:01.022Z"
  },
- "queue": [
-  "2311-mc43-heroup",
-  "2573-mt4-seq",
-  "2576-ct5-stills1",
-  "2634-sears-upload3",
-  "2672-bk2-render",
-  "2673-bk2-render",
-  "2674-bk2-render",
-  "2674-wk-mux2",
-  "2681-fe-render",
-  "2701-euv-bksearch",
-  "2703-euv-bksearch2"
- ]
+ "queue": []
 }
