@@ -1,9 +1,14 @@
 {
- "ts": "2026-11-23T14:42:08.221Z",
+ "ts": "2026-11-23T14:42:23.216Z",
+ "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 4,
  "blender_procs": 0,
+ "cpu": 24,
+ "gpu": 29,
+ "mem_free_pct": 55,
+ "progress": null,
  "done": [
   "2774-fetch-ref",
   "2773-blender-check",
@@ -97,5 +102,6 @@
    "at": "2026-11-23T13:35:01.022Z"
   },
   "updated": "2026-11-23T13:35:01.022Z"
- }
+ },
+ "queue": []
 }
