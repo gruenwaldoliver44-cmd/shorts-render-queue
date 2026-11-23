@@ -1,14 +1,9 @@
 {
- "ts": "2026-11-23T13:34:23.198Z",
- "source": "dashboard",
- "current": "",
- "busy": false,
+ "ts": "2026-11-23T13:34:58.510Z",
+ "current": "2774-fetch-ref since 2026-11-23 13:34:58",
+ "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 24,
- "gpu": 54,
- "mem_free_pct": 69,
- "progress": null,
  "done": [
   "2773-blender-check",
   "2772-xmas-thumb-dl",
@@ -94,14 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2773-blender-check",
-   "title": "Blender und Grafikkarte pruefen",
-   "result": "fertig",
-   "at": "2026-11-23T12:59:27.887Z"
-  },
-  "updated": "2026-11-23T12:59:27.887Z"
- },
- "queue": []
+  "state": "busy",
+  "job": "2774-fetch-ref",
+  "title": "fetch reference grid",
+  "job_since": "2026-11-23T13:34:58.490Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-23T13:34:58.490Z"
+ }
 }
