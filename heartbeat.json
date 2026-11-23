@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-23T17:34:23.485Z",
+ "ts": "2026-11-23T17:36:23.504Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 30,
+ "free_gb": 29,
  "blender_procs": 0,
- "cpu": 4,
- "gpu": 1,
- "mem_free_pct": 55,
+ "cpu": 7,
+ "gpu": 47,
+ "mem_free_pct": 54,
  "progress": null,
  "done": [
   "2774-fetch-ref",
@@ -103,5 +103,8 @@
   },
   "updated": "2026-11-23T13:35:01.022Z"
  },
- "queue": []
+ "queue": [
+  "2650-ki2-render",
+  "2714-euv-encode"
+ ]
 }
