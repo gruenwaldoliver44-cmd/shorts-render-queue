@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-23T13:06:23.127Z",
+ "ts": "2026-11-23T13:08:23.130Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
  "free_gb": 7,
  "blender_procs": 0,
- "cpu": 7,
- "gpu": 62,
- "mem_free_pct": 70,
+ "cpu": 18,
+ "gpu": 60,
+ "mem_free_pct": 71,
  "progress": null,
  "done": [
   "2773-blender-check",
