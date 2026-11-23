@@ -1,13 +1,13 @@
 {
- "ts": "2026-11-23T19:24:23.509Z",
+ "ts": "2026-11-23T19:26:23.572Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
- "free_gb": 29,
+ "free_gb": 28,
  "blender_procs": 0,
  "cpu": 9,
- "gpu": 18,
- "mem_free_pct": 63,
+ "gpu": 19,
+ "mem_free_pct": 59,
  "progress": null,
  "done": [
   "2774-fetch-ref",
