@@ -1,7 +1,7 @@
 {
- "ts": "2026-11-23T12:59:22.958Z",
- "current": "",
- "busy": false,
+ "ts": "2026-11-23T12:59:25.276Z",
+ "current": "2773-blender-check since 2026-11-23 12:59:25",
+ "busy": true,
  "free_gb": 7,
  "blender_procs": 0,
  "done": [
@@ -89,13 +89,15 @@
   "2203-mt43-prev2"
  ],
  "status": {
-  "state": "idle",
-  "last": {
-   "job": "2772-xmas-thumb-dl",
-   "title": "Thumbnail-Vorlage laden",
-   "result": "fertig",
-   "at": "2026-11-20T15:03:01.717Z"
-  },
-  "updated": "2026-11-20T15:03:01.717Z"
+  "state": "busy",
+  "job": "2773-blender-check",
+  "title": "Blender und Grafikkarte pruefen",
+  "job_since": "2026-11-23T12:59:25.256Z",
+  "timeout_min": 5,
+  "step": 0,
+  "steps": 1,
+  "label": "Startet",
+  "progress": null,
+  "updated": "2026-11-23T12:59:25.256Z"
  }
 }
