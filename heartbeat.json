@@ -1,5 +1,5 @@
 {
- "ts": "2026-11-27T21:50:52.416Z",
+ "ts": "2026-11-27T21:52:52.423Z",
  "source": "dashboard",
  "current": "",
  "busy": false,
@@ -7,7 +7,7 @@
  "blender_procs": 0,
  "cpu": 3,
  "gpu": 1,
- "mem_free_pct": 78,
+ "mem_free_pct": 77,
  "progress": null,
  "done": [
   "2774-fetch-ref",
